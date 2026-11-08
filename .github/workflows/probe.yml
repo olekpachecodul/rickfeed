@@ -10,12 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - run: python3 probe/shops.py
-        continue-on-error: true
       - run: |
           npm i --no-save playwright@1.48.2
           npx playwright install --with-deps chromium
-          node probe/shot.js
+          node probe/grid.js
         continue-on-error: true
       - run: |
           git config user.name "github-actions[bot]"
