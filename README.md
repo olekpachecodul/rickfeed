@@ -1,1 +1,23 @@
-# rickfeed
+# Rick Feed
+
+The newest secondhand Rick Owens listings from US resale shops, in one page.
+GitHub checks every shop once an hour and republishes the page.
+
+- `rick_feed.py`: checks the shops and builds the page. The shop list is at the top.
+- `.github/workflows/rick-feed.yml`: the hourly schedule.
+- `data/state.json`: what's already been seen. It's created and updated automatically.
+
+## Adding or removing a shop
+
+Open `rick_feed.py` on GitHub, click the pencil icon, and edit the `SHOPS` list.
+For a Shopify shop the feed address is the shop's Rick Owens page address with `.atom` on the end.
+Commit the change and the site rebuilds within a minute.
+
+## Running it now
+
+Actions tab → Rick Feed → Run workflow.
+
+## On your phone
+
+Open the site and use "Add to Home Screen". NEW tags mean added since you last opened the page on that device.
+`feed.xml` on the same site is a combined feed you can add to a feed reader if you want notifications.
