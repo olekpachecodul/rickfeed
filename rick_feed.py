@@ -436,6 +436,8 @@ header{display:flex;align-items:center;justify-content:space-between;gap:16px;pa
 .togs{display:flex;flex-wrap:wrap;gap:8px}
 .tog{position:relative;display:inline-flex;align-items:center;height:30px;padding:0 12px;border:1px solid var(--soft);color:var(--muted);cursor:pointer;user-select:none;background:transparent;white-space:nowrap}
 .tog input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.tn{margin-left:6px;opacity:.6}
+.grid > .empty{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;margin:0}
 .tog:has(input:checked){background:var(--ink);border-color:var(--ink);color:var(--tag-ink)}
 .tog:has(input:focus-visible){outline:1px solid var(--ink);outline-offset:3px}
 button.tog{border-color:var(--soft)}
@@ -491,23 +493,23 @@ footer a:hover{color:var(--ink)}
   <div class="crumbs" id="meta"></div>
   <div class="notice" id="notice" hidden></div>
   <div class="bar">
-    <input type="search" id="q" placeholder="Search: geobasket, bela, 48, leather" aria-label="Search listings">
-    <span class="sel"><select id="line" aria-label="Line">
+    <input type="search" id="q" autocomplete="off" placeholder="Search: geobasket, bela, 48, leather" aria-label="Search listings">
+    <span class="sel"><select id="line" autocomplete="off" aria-label="Line">
       <option value="">All lines</option>
       <option value="Rick Owens">Rick Owens</option>
       <option value="DRKSHDW">DRKSHDW</option>
       <option value="Lilies">Lilies</option>
     </select></span>
-    <span class="sel"><select id="sort" aria-label="Sort">
+    <span class="sel"><select id="sort" autocomplete="off" aria-label="Sort">
       <option value="new">Newest listed</option>
       <option value="seen">Newest found</option>
       <option value="low">Price: low to high</option>
       <option value="high">Price: high to low</option>
     </select></span>
     <div class="togs">
-      <label class="tog"><input type="checkbox" id="onlyNew"><span id="newLabel">New since last run</span></label>
-      <label class="tog"><input type="checkbox" id="onlyDrop">Price cuts</label>
-      <label class="tog"><input type="checkbox" id="hideSold" checked>Hide sold</label>
+      <label class="tog"><input type="checkbox" id="onlyNew" autocomplete="off"><span id="newLabel">New since last run</span><span class="tn" id="newN"></span></label>
+      <label class="tog"><input type="checkbox" id="onlyDrop" autocomplete="off">Price cuts<span class="tn" id="dropN"></span></label>
+      <label class="tog"><input type="checkbox" id="hideSold" autocomplete="off" checked>Hide sold<span class="tn" id="soldN"></span></label>
       <button type="button" class="tog" id="markSeen" hidden>Mark all seen</button>
     </div>
   </div>
@@ -549,6 +551,7 @@ if (SITE) {
   $("#foot").innerHTML = '<a href="feed.xml">Feed (RSS)</a><span>Prices in USD as listed by each shop</span>';
 }
 DATA.items.forEach(i => { i.line = i.line || "Rick Owens"; i.display = cleanTitle(i.title); });
+$("#q").value = ""; $("#onlyNew").checked = false; $("#onlyDrop").checked = false; $("#line").value = "";
 const off = new Set();
 const when = fmt(DATA.generated, {weekday:"short", month:"short", day:"numeric", hour:"numeric", minute:"2-digit"});
 const okShops = DATA.shops.filter(s => !s.error).length;
@@ -608,8 +611,26 @@ function render(){
   if (sort === "low") list.sort((a, b) => (a.price ?? 1e12) - (b.price ?? 1e12));
   if (sort === "high") list.sort((a, b) => (b.price ?? -1) - (a.price ?? -1));
   $("#count").textContent = list.length + " shown";
+  const pool = DATA.items.filter(i => !off.has(i.shop) && inLine(i));
+  $("#newN").textContent = pool.filter(i => i.is_new && forSale(i)).length;
+  $("#dropN").textContent = pool.filter(i => i.drop_from && forSale(i)).length;
+  $("#soldN").textContent = pool.filter(i => i.sold).length;
   if (!list.length) {
-    $("#grid").innerHTML = `<p class="empty">${onlyNew ? (SITE ? "Nothing new since your last visit." : "Nothing new since the last run.") : "No listings match."}</p>`;
+    const why = [];
+    if (onlyDrop) why.push("Price cuts is on");
+    if (onlyNew) why.push(SITE ? "New since last visit is on" : "New since last run is on");
+    if (line) why.push("showing " + line + " only");
+    if (q.length) why.push("searching for \u201c" + $("#q").value.trim() + "\u201d");
+    if (off.size) why.push(off.size + (off.size === 1 ? " shop" : " shops") + " switched off");
+    const msg = onlyDrop && !DATA.items.some(i => i.drop_from) ? "No price cuts yet." : onlyNew && !DATA.items.some(i => i.is_new) ? (SITE ? "Nothing new since your last visit." : "Nothing new since the last run.") : "No listings match.";
+    $("#grid").innerHTML = `<p class="empty"><span>${esc(msg)}${why.length ? " " + esc(why.join(", ")) + "." : ""}</span>${why.length ? '<button type="button" class="tog" id="reset">Show everything</button>' : ""}</p>`;
+    const r = $("#reset");
+    if (r) r.addEventListener("click", () => {
+      $("#q").value = ""; $("#onlyNew").checked = false; $("#onlyDrop").checked = false; $("#line").value = "";
+      try { localStorage.setItem("rf-line", ""); } catch (e) {}
+      off.clear(); document.querySelectorAll(".shop").forEach(x => x.setAttribute("aria-pressed", "true"));
+      render();
+    });
     return;
   }
   $("#grid").innerHTML = list.map(i => `
