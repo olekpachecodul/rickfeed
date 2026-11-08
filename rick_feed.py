@@ -58,6 +58,7 @@ SHOPS = [
 RICK = re.compile(r"rick\s*owens|drk\s*shdw|drksdhw|drkshw", re.I)
 PRICE_DROP_DAYS = 7          # how long a price cut stays flagged
 FORGET_AFTER_DAYS = 60       # drop items from memory once unseen this long
+AVAIL_MAX_PAGES = 4          # pages of products.json read per feed to spot sold items
 USER_AGENT = "Mozilla/5.0 (compatible; RickFeed/1.0; personal feed reader)"
 
 HERE = Path(__file__).resolve().parent
@@ -159,6 +160,7 @@ def parse_feed(shop, raw):
             "currency": currency,
             "size": guess_size(title, vtitles),
             "type": (e.findtext("s:type", "", NS) or "").strip(),
+            "sold": False,
         })
     return items
 
@@ -177,6 +179,46 @@ def fetch_one(shop, url):
         return [], str(e) or e.__class__.__name__
 
 
+PID_RE = re.compile(r"/products/(\d+)\s*$")
+HANDLE_RE = re.compile(r"/products/([^/?#]+)")
+
+
+def product_keys(item):
+    """Ways to match a feed item against products.json: numeric id and handle."""
+    keys = []
+    m = PID_RE.search(item["id"])
+    if m:
+        keys.append(m.group(1))
+    m = HANDLE_RE.search(item["link"])
+    if m:
+        keys.append(m.group(1))
+    return keys
+
+
+def fetch_availability(feed_url, wanted):
+    """The .atom feed doesn't say what's sold, so ask the same collection's
+    products.json. Returns {product id or handle: available?}. Anything it
+    can't find is left out, and those items are treated as still for sale."""
+    if not feed_url.endswith(".atom"):
+        return {}
+    base = feed_url[:-len(".atom")] + "/products.json?limit=250&page="
+    avail, remaining = {}, set(wanted)
+    for page in range(1, AVAIL_MAX_PAGES + 1):
+        try:
+            products = json.loads(fetch_bytes(base + str(page))).get("products") or []
+        except Exception:
+            break
+        for p in products:
+            ok = any(v.get("available") for v in p.get("variants") or [])
+            for k in (str(p.get("id", "")), p.get("handle") or ""):
+                if k:
+                    avail[k] = ok
+                    remaining.discard(k)
+        if len(products) < 250 or not remaining:
+            break
+    return avail
+
+
 def fetch_shop(shop):
     feeds = shop["feed"] if isinstance(shop["feed"], list) else [shop["feed"]]
     items, errors, seen_ids = [], [], set()
@@ -184,6 +226,11 @@ def fetch_shop(shop):
         got, err = fetch_one(shop, url)
         if err:
             errors.append(err)
+        if got:
+            avail = fetch_availability(url, {k for it in got for k in product_keys(it)})
+            for it in got:
+                states = [avail[k] for k in product_keys(it) if k in avail]
+                it["sold"] = bool(states) and not states[0]
         for it in got:
             if it["id"] not in seen_ids:
                 seen_ids.add(it["id"])
@@ -216,7 +263,7 @@ def parse_time(s):
 
 
 def build_atom(items, generated):
-    newest = sorted(items, key=lambda i: i["first_seen"], reverse=True)[:60]
+    newest = sorted((i for i in items if not i.get("sold")), key=lambda i: i["first_seen"], reverse=True)[:60]
     esc = lambda s: html.escape(str(s or ""), quote=True)
     parts = ['<?xml version="1.0" encoding="utf-8"?>',
              '<feed xmlns="http://www.w3.org/2005/Atom">',
@@ -258,7 +305,8 @@ def main():
     results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for shop, items, err in pool.map(fetch_shop, SHOPS):
-            status = f"{len(items)} items" if err is None else f"skipped: {err}"
+            sold = sum(1 for i in items if i.get("sold"))
+            status = f"{len(items)} items, {sold} sold" if err is None else f"skipped: {err}"
             print(f"  {shop['name']:<18} {status}")
             results.append((shop, items, err))
 
@@ -373,6 +421,9 @@ h1{font-family:var(--f-display);font-weight:700;font-size:44px;line-height:1;let
 .b{font-family:var(--f-display);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;line-height:1.3}
 .b.new{background:var(--new);color:var(--on-new)}
 .b.drop{background:var(--drop);color:var(--on-new)}
+.b.sold{background:var(--accent);color:var(--on-accent)}
+.card.sold .ph img{opacity:.5;filter:grayscale(1)}
+.card.sold .price{color:var(--muted);text-decoration:line-through}
 .t{margin-top:8px;font-size:13.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .row{display:flex;justify-content:space-between;gap:8px;align-items:baseline;margin-top:4px}
 .price{font-family:var(--f-mono);font-weight:500;font-size:14px}
@@ -402,6 +453,7 @@ h1{font-family:var(--f-display);font-weight:700;font-size:44px;line-height:1;let
     </select>
     <label class="tog"><input type="checkbox" id="onlyNew"> <span id="newLabel">New since last run</span></label>
     <label class="tog"><input type="checkbox" id="onlyDrop"> Price cuts</label>
+    <label class="tog"><input type="checkbox" id="hideSold" checked> Hide sold</label>
     <button type="button" class="tog" id="markSeen" hidden>Mark all seen</button>
     <span class="count" id="count"></span>
   </div>
@@ -440,8 +492,14 @@ if (SITE) {
 const off = new Set();
 const when = fmt(DATA.generated, {weekday:"short", month:"short", day:"numeric", hour:"numeric", minute:"2-digit"});
 const okShops = DATA.shops.filter(s => !s.error).length;
+try { $("#hideSold").checked = localStorage.getItem("rf-hide-sold") !== "0"; } catch (e) {}
+$("#hideSold").addEventListener("input", () => {
+  try { localStorage.setItem("rf-hide-sold", $("#hideSold").checked ? "1" : "0"); } catch (e) {}
+  renderMeta();
+});
+const forSale = i => !$("#hideSold").checked || !i.sold;
 function renderMeta(){
-  const newCount = DATA.items.filter(i => i.is_new).length;
+  const newCount = DATA.items.filter(i => i.is_new && forSale(i)).length;
   let since = "";
   if (SITE) since = ` · <b>${newCount} new</b> since ${esc(fmt(baseline, SHORT))}`;
   else if (!DATA.first_run) since = ` · <b>${newCount} new</b> since ${esc(fmt(DATA.previous, SHORT))}`;
@@ -469,12 +527,16 @@ $("#shops").addEventListener("click", e => {
   document.querySelectorAll(".shop").forEach(x => x.setAttribute("aria-pressed", off.has(x.dataset.s) ? "false" : "true"));
   render();
 });
-["#q", "#sort", "#onlyNew", "#onlyDrop"].forEach(id => $(id).addEventListener("input", render));
+["#q", "#sort", "#onlyNew", "#onlyDrop", "#hideSold"].forEach(id => $(id).addEventListener("input", render));
 
 function render(){
   const q = $("#q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const onlyNew = $("#onlyNew").checked, onlyDrop = $("#onlyDrop").checked, sort = $("#sort").value;
-  let list = DATA.items.filter(i => !off.has(i.shop)
+  document.querySelectorAll(".shop:not(.err) .n").forEach(n => {
+    const name = n.parentElement.dataset.s;
+    n.textContent = DATA.items.filter(i => i.shop === name && forSale(i)).length;
+  });
+  let list = DATA.items.filter(i => !off.has(i.shop) && forSale(i)
     && (!onlyNew || i.is_new) && (!onlyDrop || i.drop_from)
     && q.every(w => (i.title + " " + i.shop + " " + i.city + " " + i.size + " " + i.type).toLowerCase().includes(w)));
   const t = s => s ? new Date(s).getTime() : 0;
@@ -488,11 +550,11 @@ function render(){
     return;
   }
   $("#grid").innerHTML = list.map(i => `
-    <a class="card" href="${esc(i.link)}" target="_blank" rel="noopener">
+    <a class="card${i.sold ? " sold" : ""}" href="${esc(i.link)}" target="_blank" rel="noopener">
       <div class="ph">
         ${i.image ? `<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
         <span class="noimg">${esc(i.shop)}</span>
-        <div class="badges">${i.is_new ? '<span class="b new">New</span>' : ""}${i.drop_from ? '<span class="b drop">Price cut</span>' : ""}</div>
+        <div class="badges">${i.is_new ? '<span class="b new">New</span>' : ""}${i.drop_from && !i.sold ? '<span class="b drop">Price cut</span>' : ""}${i.sold ? '<span class="b sold">Sold</span>' : ""}</div>
       </div>
       <div class="t">${esc(i.title)}</div>
       <div class="row"><span class="price">${money(i.price, i.currency)}${i.drop_from ? `<s>${money(i.drop_from, i.currency)}</s>` : ""}</span><span class="size">${esc(i.size)}</span></div>
