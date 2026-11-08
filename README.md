@@ -13,6 +13,12 @@ Anything with "Rick Owens" or DRKSHDW in the title or the shop's brand field, in
 Each listing is labelled Rick Owens, DRKSHDW or Lilies, and the "All lines" menu filters by line.
 Some shops keep DRKSHDW in a separate collection; those shops list two feeds in `SHOPS`. Most shops keep both on one page and need only one.
 
+## Filters
+
+FILTERS opens category, colour and price. Picking several categories or colours shows any of them.
+Category and colour are worked out from each shop's product type, its colour option and the title, so the odd piece lands in the wrong place or has no colour.
+Rick's colour names are mapped to plain ones (Milk and Pearl are White, Dust is Grey; "Black Milk" counts as both). The word lists are in `CATEGORIES` and `COLOURS` in `rick_feed.py`.
+
 ## Adding or removing a shop
 
 Open `rick_feed.py` on GitHub, click the pencil icon, and edit the `SHOPS` list.

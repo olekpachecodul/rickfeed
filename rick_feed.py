@@ -72,6 +72,51 @@ def line_of(title, vendor):
     if LILIES.search(text) and RICK.search(text):
         return "Lilies"
     return "Rick Owens"
+# ---------------------------------------------------------------------------
+# Category and colour. Shops label things inconsistently, so these are worked
+# out from the shop's product type, the colour option, variant names and the
+# title. First matching category wins, so the order below matters.
+# ---------------------------------------------------------------------------
+CATEGORIES = [
+    ("Footwear", r"shoes?|sneakers?|(?<!boot)boots?(?!\s*-?cut)|geobaskets?|geos|ramones?|dunks?|sandals?|slides?|creepers?|loafers?|mules?"
+                 r"|bozo|tractor|runners?|vans|converse|turbo\s*drk|trainers?|slippers?|kiss\s*boots?|mega\s*bumper|lunar|footwear|derby|sneaks|quad\s*sole"),
+    ("Bags & accessories", r"bags?|tote|pouch|backpack|wallet|belt|hats?|caps?|beanie|scarf|gloves?|sunglasses|eyewear|glasses|socks?"
+                 r"|ring|necklace|bracelet|earrings?|jewel(?:le)?ry|keychain|accessor(?:y|ies)|mask|candle|cushion|blanket"),
+    ("Outerwear", r"jackets?|jkt|coats?|parkas?|bombers?|blazers?|trench|outershirt|vest|gilet|liner|anorak|windbreaker|puffer|mac|cape|peacoat|outerwear|shearling|fishtail|trenchcoat|overcoat|raincoat|topcoat|overshirt"),
+    ("Bottoms", r"pants?|trousers?|jeans|shorts|cargos?|sweatpants|sweats|joggers?|leggings?|bootcuts?|skirts?|bela|creatch|creach|detroit|pods?|bolan|tyrone|astaires|berlin\s*cut|kilt|selvedge|bottoms"),
+    ("Dresses", r"dress(?:es)?|gown|jumpsuit|overall"),
+    ("Tops", r"t-?shirts?|tees?|tops?|tank|shirts?|hoodies?|hooded|sweaters?|sweatshirts?|knit|cardigan|pullover|crewneck|turtleneck|jumper|polo|long\s*sleeve|blouse|tunic|fleece|knitwear"),
+]
+assert {c for c, _ in CATEGORIES} == {"Outerwear", "Tops", "Bottoms", "Dresses", "Footwear", "Bags & accessories"}  # keep the page's chip list in step
+CATEGORY_RE = [(name, re.compile(r"\b(?:" + pat + r")\b", re.I)) for name, pat in CATEGORIES]
+
+COLOURS = [  # (name, swatch, words). Rick's own names map onto plain colours.
+    ("Black",  "#111111", r"black|blk|noir|jet|onyx|nero|ink"),
+    ("White",  "#F4F2EC", r"white|milk|cream|ivory|natural|pearl|chalk|oyster|ecru|off[\s-]?white|bone|optic|egg\s*shell|eggshell|wht|crm"),
+    ("Grey",   "#8E8C88", r"gr[ae]y|dust|charcoal|smoke|slate|ash|silver|steel|concrete|cement|pelican|fog|graphite|metal|stone|gry"),
+    ("Brown",  "#7A5A43", r"brown|beige|tan|camel|mushroom|sand|khaki|tobacco|toffee|bark|taupe|mud|coffee|mocha|nude|caramel|chocolate|earth|dune|biscuit|walnut|brn"),
+    ("Green",  "#5C6B4A", r"green|olive|moss|forest|military|army|sage|mint|lime|grn"),
+    ("Blue",   "#3F5A7A", r"blue|navy|indigo|denim\s*blue|cobalt|sky|teal|turquoise|petrol|blu"),
+    ("Red",    "#9C2E2E", r"red|burgundy|bordeaux|cherry|wine|maroon|oxblood|rust|cardinal|scarlet|pink|fuchsia|rose|blush|magenta|amethyst\s*red"),
+    ("Purple", "#6A4C7A", r"purple|lilac|grape|violet|lavender|plum|amethyst|orchid|mauve"),
+    ("Yellow", "#D2A93C", r"yellow|mustard|gold|lemon|orange|amber|ochre|saffron|tangerine|honey"),
+]
+COLOUR_RE = [(name, re.compile(r"\b(?:" + pat + r")\b", re.I)) for name, _, pat in COLOURS]
+
+
+def category_of(product_type, title):
+    for text in (product_type, title):  # the shop's own type is the better clue when it's specific
+        for name, rx in CATEGORY_RE:
+            if text and rx.search(text):
+                return name
+    return "Other"
+
+
+def colours_of(*texts):
+    text = " ".join(t for t in texts if t)
+    return [name for name, rx in COLOUR_RE if rx.search(text)]
+
+
 PRICE_DROP_DAYS = 7          # how long a price cut stays flagged
 FORGET_AFTER_DAYS = 60       # drop items from memory once unseen this long
 AVAIL_MAX_PAGES = 4          # pages of products.json read per feed to spot sold items
@@ -177,6 +222,7 @@ def parse_feed(shop, raw):
             "size": guess_size(title, vtitles),
             "type": (e.findtext("s:type", "", NS) or "").strip(),
             "line": line_of(title, vendor),
+            "colour_hint": " ".join(" ".join((vt or "").split(" / ")[:-1]) for vt in vtitles),
             "sold": False,
         })
     return items
@@ -212,28 +258,48 @@ def product_keys(item):
     return keys
 
 
-def fetch_availability(feed_url, wanted):
-    """The .atom feed doesn't say what's sold, so ask the same collection's
-    products.json. Returns {product id or handle: available?}. Anything it
-    can't find is left out, and those items are treated as still for sale."""
+def fetch_details(feed_url, wanted):
+    """The .atom feed doesn't say what's sold and has little else to go on, so
+    ask the same collection's products.json. Returns {product id or handle:
+    {"available", "type", "colours"}}. Anything it can't find is left out;
+    those items count as for sale and are classified from the feed alone."""
     if not feed_url.endswith(".atom"):
         return {}
     base = feed_url[:-len(".atom")] + "/products.json?limit=250&page="
-    avail, remaining = {}, set(wanted)
+    details, remaining = {}, set(wanted)
     for page in range(1, AVAIL_MAX_PAGES + 1):
         try:
             products = json.loads(fetch_bytes(base + str(page))).get("products") or []
         except Exception:
             break
         for p in products:
-            ok = any(v.get("available") for v in p.get("variants") or [])
+            colour_opts = [i for i, o in enumerate(p.get("options") or [])
+                           if re.match(r"colou?r", str(o.get("name", "")), re.I)]
+            colour_words = []
+            for v in p.get("variants") or []:
+                colour_words += [str(v.get(f"option{i + 1}") or "") for i in colour_opts]
+            tags = p.get("tags") or []
+            if isinstance(tags, str):
+                tags = tags.split(",")
+            colour_words += [t.split(":", 1)[-1] for t in tags if re.match(r"\s*colou?r\s*[:_-]", t, re.I)]
+            d = {"available": any(v.get("available") for v in p.get("variants") or []),
+                 "type": p.get("product_type") or "",
+                 "colours": " ".join(colour_words)}
             for k in (str(p.get("id", "")), p.get("handle") or ""):
                 if k:
-                    avail[k] = ok
+                    details[k] = d
                     remaining.discard(k)
         if len(products) < 250 or not remaining:
             break
-    return avail
+    return details
+
+
+def enrich(it, d):
+    """Sold flag, category and colours, from products.json details when found."""
+    d = d or {}
+    it["sold"] = d.get("available") is False
+    it["category"] = category_of(d.get("type") or it.get("type"), it["title"])
+    it["colours"] = colours_of(d.get("colours"), it.pop("colour_hint", ""), it["title"])
 
 
 def fetch_shop(shop):
@@ -243,11 +309,10 @@ def fetch_shop(shop):
         got, err = fetch_one(shop, url)
         if err:
             errors.append(err)
-        if got:
-            avail = fetch_availability(url, {k for it in got for k in product_keys(it)})
-            for it in got:
-                states = [avail[k] for k in product_keys(it) if k in avail]
-                it["sold"] = bool(states) and not states[0]
+        details = fetch_details(url, {k for it in got for k in product_keys(it)}) if got else {}
+        for it in got:
+            found = [details[k] for k in product_keys(it) if k in details]
+            enrich(it, found[0] if found else None)
         for it in got:
             if it["id"] not in seen_ids:
                 seen_ids.add(it["id"])
@@ -366,7 +431,8 @@ def main():
         state_file.write_text(text, encoding="utf-8")
 
     data = {"mode": "site" if site_mode else "local", "generated": run_iso, "previous": prev_run,
-            "first_run": first_run, "shops": shops_out, "items": all_items}
+            "first_run": first_run, "shops": shops_out, "items": all_items,
+            "categories": ["Outerwear", "Tops", "Bottoms", "Dresses", "Footwear", "Bags & accessories", "Other"], "colours": [[n, sw] for n, sw, _ in COLOURS]}
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     out_file.parent.mkdir(parents=True, exist_ok=True)
     out_file.write_text(PAGE.replace("__DATA__", payload), encoding="utf-8")
@@ -377,6 +443,11 @@ def main():
     new_count = sum(1 for i in all_items if i.get("is_new"))
     failed = [s["name"] for s in shops_out if s["error"]]
     print(f"\n{len(all_items)} Rick Owens listings" + ("" if first_run else f", {new_count} new since last run") + ".")
+    cats = {}
+    for i in all_items:
+        cats[i.get("category", "Other")] = cats.get(i.get("category", "Other"), 0) + 1
+    print("By category: " + ", ".join(f"{k} {v}" for k, v in sorted(cats.items(), key=lambda kv: -kv[1]))
+          + f". No colour found for {sum(1 for i in all_items if not i.get('colours'))}.")
     if failed:
         print("Couldn't reach: " + ", ".join(failed))
     print(f"Saved {out_file}")
@@ -444,6 +515,26 @@ button.tog{border-color:var(--soft)}
 button.tog:hover,.tog:hover{color:var(--ink);border-color:var(--ink)}
 .tog:has(input:checked):hover{color:var(--tag-ink)}
 
+.filters{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,3fr) minmax(0,2fr);gap:20px 40px;padding:18px 0 20px;border-bottom:1px solid var(--line)}
+.filters[hidden]{display:none}
+.fg h2{margin:0 0 10px;font-size:9px;font-weight:500;letter-spacing:.14em;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:7px;height:28px;padding:0 10px;border:1px solid var(--line);background:transparent;cursor:pointer;font-size:10px;white-space:nowrap}
+.chip .tn{margin-left:0}
+.chip[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--tag-ink)}
+.chip:hover{border-color:var(--ink)}
+.chip.zero:not([aria-pressed=true]){color:var(--soft)}
+.sw{width:10px;height:10px;flex:none;box-shadow:inset 0 0 0 1px rgba(128,128,128,.45)}
+.price-in{display:flex;align-items:center;gap:10px}
+.price-in label{display:flex;align-items:center;gap:6px;flex:1 1 0;min-width:0;border-bottom:1px solid var(--ink);padding:5px 0}
+.price-in input{width:100%;min-width:0;background:transparent;border:0;outline:0;padding:0}
+.price-in input::placeholder{color:var(--soft)}
+.price-in label:focus-within{border-bottom-width:2px;padding-bottom:4px}
+.presets{margin-top:10px}
+.clear{margin-top:14px;background:none;border:0;padding:0;cursor:pointer;color:var(--muted);text-decoration:underline;text-underline-offset:3px;font-size:9px}
+.clear:hover{color:var(--ink)}
+#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--ink);border-color:var(--ink);color:var(--tag-ink)}
+@media (max-width:900px){.filters{grid-template-columns:1fr;gap:22px}}
 .shops{display:flex;flex-wrap:wrap;gap:6px 18px;padding:14px 0 6px}
 .shop{border:0;background:none;padding:2px 0;cursor:pointer;font-size:10px;color:var(--ink)}
 .shop .n{color:var(--soft);margin-left:5px}
@@ -507,12 +598,32 @@ footer a:hover{color:var(--ink)}
       <option value="high">Price: high to low</option>
     </select></span>
     <div class="togs">
+      <button type="button" class="tog" id="filtersBtn" aria-expanded="false" aria-controls="filters">Filters<span class="tn" id="fN"></span></button>
       <label class="tog"><input type="checkbox" id="onlyNew" autocomplete="off"><span id="newLabel">New since last run</span><span class="tn" id="newN"></span></label>
       <label class="tog"><input type="checkbox" id="onlyDrop" autocomplete="off">Price cuts<span class="tn" id="dropN"></span></label>
       <label class="tog"><input type="checkbox" id="hideSold" autocomplete="off" checked>Hide sold<span class="tn" id="soldN"></span></label>
       <button type="button" class="tog" id="markSeen" hidden>Mark all seen</button>
     </div>
   </div>
+  <section class="filters" id="filters" hidden aria-label="Filters">
+    <div class="fg"><h2>Category</h2><div class="chips" id="cats"></div></div>
+    <div class="fg"><h2>Colour</h2><div class="chips" id="cols"></div></div>
+    <div class="fg"><h2>Price (USD)</h2>
+      <div class="price-in">
+        <label>$<input id="pmin" type="text" inputmode="numeric" autocomplete="off" placeholder="Min" aria-label="Minimum price"></label>
+        <span aria-hidden="true">&ndash;</span>
+        <label>$<input id="pmax" type="text" inputmode="numeric" autocomplete="off" placeholder="Max" aria-label="Maximum price"></label>
+      </div>
+      <div class="chips presets" id="presets">
+        <button type="button" class="chip" data-min="" data-max="250">Under $250</button>
+        <button type="button" class="chip" data-min="250" data-max="500">$250&ndash;500</button>
+        <button type="button" class="chip" data-min="500" data-max="1000">$500&ndash;1k</button>
+        <button type="button" class="chip" data-min="1000" data-max="2000">$1k&ndash;2k</button>
+        <button type="button" class="chip" data-min="2000" data-max="">$2k+</button>
+      </div>
+      <button type="button" class="clear" id="clearFilters">Clear filters</button>
+    </div>
+  </section>
   <div class="shops" id="shops"></div>
   <main class="grid" id="grid"></main>
   <footer id="foot"></footer>
@@ -592,7 +703,32 @@ $("#shops").addEventListener("click", e => {
   document.querySelectorAll(".shop").forEach(x => x.setAttribute("aria-pressed", off.has(x.dataset.s) ? "false" : "true"));
   render();
 });
-["#q", "#sort", "#line", "#onlyNew", "#onlyDrop", "#hideSold"].forEach(id => $(id).addEventListener("input", render));
+["#q", "#sort", "#line", "#onlyNew", "#onlyDrop", "#hideSold", "#pmin", "#pmax"].forEach(id => $(id).addEventListener("input", render));
+
+// Category / colour / price filters. Several categories or colours = any of them.
+const cats = new Set(), cols = new Set();
+const CATS = DATA.categories || [], COLS = DATA.colours || [];
+DATA.items.forEach(i => { i.category = i.category || "Other"; i.colours = i.colours || []; });
+$("#pmin").value = ""; $("#pmax").value = "";
+$("#cats").innerHTML = CATS.map(c => `<button type="button" class="chip" aria-pressed="false" data-v="${esc(c)}">${esc(c)}<span class="tn"></span></button>`).join("");
+$("#cols").innerHTML = COLS.map(([c, sw]) => `<button type="button" class="chip" aria-pressed="false" data-v="${esc(c)}"><span class="sw" style="background:${esc(sw)}"></span>${esc(c)}<span class="tn"></span></button>`).join("");
+const toggleIn = (set, el) => { const v = el.dataset.v; set.has(v) ? set.delete(v) : set.add(v); el.setAttribute("aria-pressed", set.has(v)); render(); };
+$("#cats").addEventListener("click", e => { const b = e.target.closest(".chip"); if (b) toggleIn(cats, b); });
+$("#cols").addEventListener("click", e => { const b = e.target.closest(".chip"); if (b) toggleIn(cols, b); });
+$("#presets").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  const same = $("#pmin").value === b.dataset.min && $("#pmax").value === b.dataset.max;
+  $("#pmin").value = same ? "" : b.dataset.min; $("#pmax").value = same ? "" : b.dataset.max; render();
+});
+$("#filtersBtn").addEventListener("click", () => {
+  const open = $("#filters").hidden; $("#filters").hidden = !open; $("#filtersBtn").setAttribute("aria-expanded", open);
+});
+function clearFilters(){
+  cats.clear(); cols.clear(); $("#pmin").value = ""; $("#pmax").value = "";
+  document.querySelectorAll("#cats .chip, #cols .chip").forEach(b => b.setAttribute("aria-pressed", "false"));
+}
+$("#clearFilters").addEventListener("click", () => { clearFilters(); render(); });
+const num = v => { const n = parseFloat(String(v).replace(/[^0-9.]/g, "")); return isFinite(n) ? n : null; };
 
 function render(){
   const q = $("#q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -602,9 +738,25 @@ function render(){
     const name = n.parentElement.dataset.s;
     n.textContent = DATA.items.filter(i => i.shop === name && forSale(i) && inLine(i)).length;
   });
-  let list = DATA.items.filter(i => !off.has(i.shop) && forSale(i) && inLine(i)
+  const pmin = num($("#pmin").value), pmax = num($("#pmax").value);
+  const passes = (i, skip) => !off.has(i.shop) && forSale(i) && inLine(i)
     && (!onlyNew || i.is_new) && (!onlyDrop || i.drop_from)
-    && q.every(w => (i.title + " " + i.line + " " + i.shop + " " + i.city + " " + i.size + " " + i.type).toLowerCase().includes(w)));
+    && (skip === "cat" || !cats.size || cats.has(i.category))
+    && (skip === "col" || !cols.size || i.colours.some(c => cols.has(c)))
+    && (pmin == null || (i.price != null && i.price >= pmin))
+    && (pmax == null || (i.price != null && i.price <= pmax))
+    && q.every(w => (i.title + " " + i.line + " " + i.shop + " " + i.city + " " + i.size + " " + i.type + " " + i.category + " " + i.colours.join(" ")).toLowerCase().includes(w));
+  let list = DATA.items.filter(i => passes(i));
+  const facet = (sel, skip, has) => document.querySelectorAll(sel + " .chip").forEach(b => {
+    const n = DATA.items.filter(i => passes(i, skip) && has(i, b.dataset.v)).length;
+    b.querySelector(".tn").textContent = n; b.classList.toggle("zero", n === 0);
+  });
+  facet("#cats", "cat", (i, v) => i.category === v);
+  facet("#cols", "col", (i, v) => i.colours.includes(v));
+  document.querySelectorAll("#presets .chip").forEach(b => b.setAttribute("aria-pressed", $("#pmin").value === b.dataset.min && $("#pmax").value === b.dataset.max && (b.dataset.min || b.dataset.max) ? "true" : "false"));
+  const active = cats.size + cols.size + (pmin != null || pmax != null ? 1 : 0);
+  $("#fN").textContent = active || "";
+  $("#filtersBtn").classList.toggle("on", active > 0);
   const t = s => s ? new Date(s).getTime() : 0;
   if (sort === "new") list.sort((a, b) => t(b.published) - t(a.published));
   if (sort === "seen") list.sort((a, b) => t(b.first_seen) - t(a.first_seen) || t(b.published) - t(a.published));
@@ -622,6 +774,9 @@ function render(){
     if (line) why.push("showing " + line + " only");
     if (q.length) why.push("searching for \u201c" + $("#q").value.trim() + "\u201d");
     if (off.size) why.push(off.size + (off.size === 1 ? " shop" : " shops") + " switched off");
+    if (cats.size) why.push("category: " + [...cats].join(" or "));
+    if (cols.size) why.push("colour: " + [...cols].join(" or "));
+    if (pmin != null || pmax != null) why.push("price " + (pmin != null ? "from $" + pmin : "") + (pmin != null && pmax != null ? " " : "") + (pmax != null ? "up to $" + pmax : ""));
     const msg = onlyDrop && !DATA.items.some(i => i.drop_from) ? "No price cuts yet." : onlyNew && !DATA.items.some(i => i.is_new) ? (SITE ? "Nothing new since your last visit." : "Nothing new since the last run.") : "No listings match.";
     $("#grid").innerHTML = `<p class="empty"><span>${esc(msg)}${why.length ? " " + esc(why.join(", ")) + "." : ""}</span>${why.length ? '<button type="button" class="tog" id="reset">Show everything</button>' : ""}</p>`;
     const r = $("#reset");
@@ -629,6 +784,7 @@ function render(){
       $("#q").value = ""; $("#onlyNew").checked = false; $("#onlyDrop").checked = false; $("#line").value = "";
       try { localStorage.setItem("rf-line", ""); } catch (e) {}
       off.clear(); document.querySelectorAll(".shop").forEach(x => x.setAttribute("aria-pressed", "true"));
+      clearFilters();
       render();
     });
     return;
