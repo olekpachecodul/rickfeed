@@ -1,0 +1,24 @@
+name: Probe (temporary)
+on:
+  push:
+    branches: [claude/stoic-galileo-nectpx]
+    paths: [probe/*.py, probe/*.js, .github/workflows/probe.yml]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: python3 probe/shops.py
+        continue-on-error: true
+      - run: |
+          npm i --no-save playwright@1.48.2
+          npx playwright install --with-deps chromium
+          node probe/shot.js
+        continue-on-error: true
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probe
+          git commit -m "Probe results" && git push
