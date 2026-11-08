@@ -11,7 +11,7 @@ GitHub checks every shop once an hour and republishes the page.
 
 Anything with "Rick Owens" or DRKSHDW in the title or the shop's brand field, including DRKSHDW pieces that never mention Rick Owens.
 Each listing is labelled Rick Owens, DRKSHDW or Lilies, and the "All lines" menu filters by line.
-Some shops keep DRKSHDW in a separate collection; those shops list two feeds in `SHOPS` (Luke's-style shops with one combined page need only one).
+Some shops keep DRKSHDW in a separate collection; those shops list two feeds in `SHOPS`. Most shops keep both on one page and need only one.
 
 ## Adding or removing a shop
 
