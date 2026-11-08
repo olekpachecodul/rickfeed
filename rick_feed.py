@@ -40,10 +40,12 @@ SHOPS = [
     {"name": "Sadō Room",         "city": "Seattle",                "feed": "https://sadoroom.com/collections/rick-owens.atom",               "link": "https://sadoroom.com/collections/rick-owens"},
     {"name": "Archive On Waters", "city": "Seattle",                "feed": "https://archiveonwaters.store/collections/rick-owens-1.atom",    "link": "https://archiveonwaters.store/collections/rick-owens-1"},
     {"name": "Shop Status",       "city": "Philadelphia + DC",      "feed": "https://shopstatus.store/collections/rick-owens-1.atom",         "link": "https://shopstatus.store/collections/rick-owens-1"},
-    {"name": "Luxury Box ATL",    "city": "Atlanta",                "feed": "https://luxuryboxatl.com/collections/rick-owens.atom",           "link": "https://luxuryboxatl.com/collections/rick-owens"},
+    {"name": "Luxury Box ATL",    "city": "Atlanta",                "feed": ["https://luxuryboxatl.com/collections/rick-owens.atom",
+                                                                              "https://luxuryboxatl.com/collections/rick-owens-drkshdw.atom"], "link": "https://luxuryboxatl.com/collections/rick-owens"},
     {"name": "Groupie",           "city": "Los Angeles",            "feed": "https://groupie.store/collections/rick-owens.atom",              "link": "https://groupie.store/collections/rick-owens"},
     {"name": "Archived",          "city": "Los Angeles",            "feed": "https://archived.co/collections/rick-owens.atom",                "link": "https://archived.co/collections/rick-owens"},
-    {"name": "Justin Reed",       "city": "Los Angeles + New York", "feed": "https://justinreed.com/collections/rick-owens.atom",             "link": "https://justinreed.com/collections/rick-owens"},
+    {"name": "Justin Reed",       "city": "Los Angeles + New York", "feed": ["https://justinreed.com/collections/rick-owens.atom",
+                                                                              "https://justinreed.com/collections/rick-owens-drkshdw.atom"],   "link": "https://justinreed.com/collections/rick-owens"},
     {"name": "Midtown Archive",   "city": "Online",                 "feed": "https://midtownarchive.com/collections/rick-owens.atom",         "link": "https://midtownarchive.com/collections/rick-owens"},
     {"name": "Descry Archive",    "city": "By appointment",         "feed": "https://www.descryarchive.com/collections/rick-owens.atom",      "link": "https://www.descryarchive.com/collections/rick-owens"},
     # Added Nov 8, 2026
@@ -55,7 +57,21 @@ SHOPS = [
                                                                               "https://gracefulmisfits.com/collections/drkshdw.atom"],         "link": "https://gracefulmisfits.com/"},
 ]
 
-RICK = re.compile(r"rick\s*owens|drk\s*shdw|drksdhw|drkshw", re.I)
+# DRKSHDW is Rick Owens' diffusion line and is often listed without "Rick Owens"
+# anywhere, so it counts on its own (title or vendor), as do common misspellings.
+DRK = re.compile(r"drk\s*shdw|drk\s*shadow|drksdhw|drkshw|dark\s*shadow", re.I)
+LILIES = re.compile(r"\blilies\b", re.I)
+RICK = re.compile(r"rick\s*owens|" + DRK.pattern, re.I)
+
+
+def line_of(title, vendor):
+    """Which Rick Owens line a listing belongs to, for the card label and filter."""
+    text = f"{title} {vendor}"
+    if DRK.search(text):
+        return "DRKSHDW"
+    if LILIES.search(text) and RICK.search(text):
+        return "Lilies"
+    return "Rick Owens"
 PRICE_DROP_DAYS = 7          # how long a price cut stays flagged
 FORGET_AFTER_DAYS = 60       # drop items from memory once unseen this long
 AVAIL_MAX_PAGES = 4          # pages of products.json read per feed to spot sold items
@@ -160,6 +176,7 @@ def parse_feed(shop, raw):
             "currency": currency,
             "size": guess_size(title, vtitles),
             "type": (e.findtext("s:type", "", NS) or "").strip(),
+            "line": line_of(title, vendor),
             "sold": False,
         })
     return items
@@ -373,92 +390,130 @@ PAGE = r"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
+<meta name="theme-color" content="#E5E5E5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <title>Rick Feed</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap">
 <style>
-/* Layout: a dense contact sheet of listings under a slim filter bar. Concrete greys, dust, and one oxidised accent. */
+/* Gallery-quiet: flat studio grey, black type, tiny tracked capitals, product shots floating on the page. */
 :root{
-  --bg:#ECEAE6; --panel:#F7F6F3; --ink:#161615; --muted:#6B6863; --line:#D6D2CB; --chip:#E2DFD9;
-  --accent:#8C3B1F; --on-accent:#FFFFFF; --new:#161615; --on-new:#F7F6F3; --drop:#2F6B3F; --ph:#D9D5CE;
-  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
-  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --bg:#E5E5E5; --ink:#000000; --muted:#666666; --soft:#8A8A8A; --line:#C9C9C9;
+  --tag-ink:#FFFFFF; --ph:#E5E5E5; --blend:multiply; --fit:contain;
+  --f:"Montserrat","Gotham","Helvetica Neue",Arial,sans-serif;
+  --track:.08em; --gut:40px;
 }
 @media (prefers-color-scheme: dark){:root{
-  --bg:#121211; --panel:#1B1B1A; --ink:#ECEAE6; --muted:#9A968F; --line:#2D2C2A; --chip:#262523;
-  --accent:#D9774F; --on-accent:#121211; --new:#ECEAE6; --on-new:#121211; --drop:#6FBF84; --ph:#232220;
+  --bg:#000000; --ink:#FFFFFF; --muted:#8A8A8A; --soft:#5C5C5C; --line:#262626;
+  --tag-ink:#000000; --ph:#111111; --blend:normal; --fit:cover;
   color-scheme:dark;
 }}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 var(--f-body);-webkit-font-smoothing:antialiased}
-a{color:inherit}
-.wrap{max-width:1400px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left)) 0 max(16px,env(safe-area-inset-right))}
-header{padding:28px 0 8px}
-h1{font-family:var(--f-display);font-weight:700;font-size:44px;line-height:1;letter-spacing:.02em;text-transform:uppercase;margin:0}
-.meta{color:var(--muted);margin-top:8px;font-size:13px}
-.meta b{color:var(--ink);font-weight:600}
-.notice{margin-top:12px;padding:10px 12px;border:1px solid var(--line);background:var(--panel);font-size:13px;max-width:80ch}
-.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 0;display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
-.bar input[type=search],.bar select{font:inherit;color:inherit;background:var(--panel);border:1px solid var(--line);padding:7px 10px;border-radius:3px}
-.bar input[type=search]{flex:1 1 220px;min-width:0}
-.tog{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border:1px solid var(--line);border-radius:3px;background:var(--panel);cursor:pointer;user-select:none;font-size:13px}
-.tog input{margin:0;accent-color:var(--accent)}
-.count{margin-left:auto;color:var(--muted);font-size:13px;font-family:var(--f-mono)}
-.shops{display:flex;flex-wrap:wrap;gap:6px;padding:10px 0 4px}
-.shop{font:inherit;font-size:12.5px;border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:4px 10px;border-radius:999px;cursor:pointer}
-.shop[aria-pressed=false]{background:transparent;color:var(--muted);text-decoration:line-through}
-.shop .n{font-family:var(--f-mono);color:var(--muted);margin-left:4px}
-.shop.err{border-style:dashed}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:18px 14px;padding:16px 0 48px}
-.card{display:flex;flex-direction:column;text-decoration:none;min-width:0}
-.ph{position:relative;aspect-ratio:4/5;background:var(--ph);overflow:hidden}
-.ph img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s}
-.card:hover .ph img{transform:scale(1.03)}
-.ph .noimg{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--f-display);text-transform:uppercase;color:var(--muted);letter-spacing:.06em}
-.badges{position:absolute;z-index:2;left:6px;top:6px;display:flex;gap:4px;flex-wrap:wrap}
-.b{font-family:var(--f-display);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;line-height:1.3}
-.b.new{background:var(--new);color:var(--on-new)}
-.b.drop{background:var(--drop);color:var(--on-new)}
-.b.sold{background:var(--accent);color:var(--on-accent)}
-.card.sold .ph img{opacity:.5;filter:grayscale(1)}
-.card.sold .price{color:var(--muted);text-decoration:line-through}
-.t{margin-top:8px;font-size:13.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.row{display:flex;justify-content:space-between;gap:8px;align-items:baseline;margin-top:4px}
-.price{font-family:var(--f-mono);font-weight:500;font-size:14px}
-.price s{color:var(--muted);font-weight:400;margin-left:4px;font-size:12px}
-.size{font-family:var(--f-mono);font-size:12px;color:var(--muted);white-space:nowrap}
-.src{font-size:12px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.empty{padding:40px 0;color:var(--muted)}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 11px/1.6 var(--f);letter-spacing:var(--track);text-transform:uppercase;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button,input,select{font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit}
+.wrap{max-width:1680px;margin:0 auto;padding:0 max(var(--gut),env(safe-area-inset-left)) 0 max(var(--gut),env(safe-area-inset-right))}
+
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0 10px}
+.mark{font-weight:500;font-size:13px;letter-spacing:.32em;margin:0}
+.count{color:var(--ink);white-space:nowrap}
+.crumbs{font-size:9px;line-height:1.5;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 0}
+.crumbs > span:not(:last-child)::after{content:"/";margin:0 7px;color:var(--soft)}
+.crumbs b{font-weight:400;color:var(--ink)}
+.notice{margin-top:12px;font-size:9px;color:var(--muted);max-width:110ch}
+.notice a{color:var(--ink);text-decoration:underline;text-underline-offset:2px}
+
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);margin-top:18px;padding:12px 0;display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;border-bottom:1px solid var(--line)}
+.bar input[type=search]{flex:1 1 220px;min-width:0;background:transparent;border:0;border-bottom:1px solid var(--ink);border-radius:0;padding:6px 0;outline:0;-webkit-appearance:none}
+.bar input[type=search]::placeholder{color:var(--soft)}
+.bar input[type=search]:focus-visible{border-bottom-width:2px;padding-bottom:5px}
+.sel{position:relative;display:inline-flex;align-items:center}
+.sel select{-webkit-appearance:none;appearance:none;background:transparent;border:0;border-radius:0;padding:6px 16px 6px 0;cursor:pointer}
+.sel::after{content:"";position:absolute;right:2px;top:50%;width:5px;height:5px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.sel option{text-transform:none;background:var(--bg);color:var(--ink)}
+.togs{display:flex;flex-wrap:wrap;gap:8px}
+.tog{position:relative;display:inline-flex;align-items:center;height:30px;padding:0 12px;border:1px solid var(--soft);color:var(--muted);cursor:pointer;user-select:none;background:transparent;white-space:nowrap}
+.tog input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.tog:has(input:checked){background:var(--ink);border-color:var(--ink);color:var(--tag-ink)}
+.tog:has(input:focus-visible){outline:1px solid var(--ink);outline-offset:3px}
+button.tog{border-color:var(--soft)}
+button.tog:hover,.tog:hover{color:var(--ink);border-color:var(--ink)}
+.tog:has(input:checked):hover{color:var(--tag-ink)}
+
+.shops{display:flex;flex-wrap:wrap;gap:6px 18px;padding:14px 0 6px}
+.shop{border:0;background:none;padding:2px 0;cursor:pointer;font-size:10px;color:var(--ink)}
+.shop .n{color:var(--soft);margin-left:5px}
+.shop[aria-pressed=false]{color:var(--soft);text-decoration:line-through}
+.shop.err .n{color:var(--muted)}
+.shop:hover{text-decoration:underline;text-underline-offset:3px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:64px 24px;padding:36px 0 96px}
+.card{display:flex;flex-direction:column;min-width:0}
+.ph{position:relative;aspect-ratio:3/4;background:var(--ph);overflow:hidden}
+.ph img{position:relative;z-index:1;width:100%;height:100%;object-fit:var(--fit);mix-blend-mode:var(--blend);display:block;transition:opacity .2s}
+.card:hover .ph img{opacity:.86}
+.noimg{position:absolute;inset:0;display:none;place-items:center;color:var(--soft);font-size:10px}
+.ph.noi .noimg{display:grid}
+.badges{position:absolute;z-index:2;left:0;top:0;display:flex;gap:4px;flex-wrap:wrap}
+.b{font-size:9px;font-weight:500;letter-spacing:.12em;padding:4px 7px;line-height:1.2}
+.b.new{background:var(--ink);color:var(--tag-ink)}
+.b.drop{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.b.sold{background:var(--soft);color:#FFFFFF}
+.line{margin-top:16px;font-weight:500}
+.t{color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.price{margin-top:14px;font-weight:500}
+.price s{color:var(--soft);font-weight:400;margin-left:8px}
+.row{display:flex;justify-content:space-between;gap:12px;margin-top:12px;font-weight:500}
+.row .go{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .size{white-space:nowrap;color:var(--ink)}
+.card:hover .go{text-decoration:underline;text-underline-offset:3px}
+.src{font-size:9px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card.sold .ph img{opacity:.45;filter:grayscale(1)}
+.card.sold .price{color:var(--soft);text-decoration:line-through}
+.empty{padding:48px 0;color:var(--muted)}
+footer{padding:0 0 48px;font-size:9px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 24px}
+footer a:hover{color:var(--ink)}
+:focus-visible{outline:1px solid var(--ink);outline-offset:3px}
 @media (prefers-reduced-motion:reduce){.ph img{transition:none}}
-@media (max-width:520px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 10px}h1{font-size:36px}}
+@media (max-width:900px){:root{--gut:16px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 16px;padding-top:28px}}
+@media (max-width:520px){.bar{gap:10px 16px}.bar input[type=search]{flex-basis:100%}.tog{height:28px;padding:0 10px}
+  .shops{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 calc(-1 * var(--gut));padding:14px var(--gut) 8px}.shops::-webkit-scrollbar{display:none}.shop{flex:none}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Rick Feed</h1>
-    <div class="meta" id="meta"></div>
-    <div class="notice" id="notice" hidden></div>
+    <h1 class="mark">Rick Feed</h1>
+    <span class="count" id="count"></span>
   </header>
+  <div class="crumbs" id="meta"></div>
+  <div class="notice" id="notice" hidden></div>
   <div class="bar">
-    <input type="search" id="q" placeholder="Search: geobasket, bela, 48, leather…" aria-label="Search listings">
-    <select id="sort" aria-label="Sort">
+    <input type="search" id="q" placeholder="Search: geobasket, bela, 48, leather" aria-label="Search listings">
+    <span class="sel"><select id="line" aria-label="Line">
+      <option value="">All lines</option>
+      <option value="Rick Owens">Rick Owens</option>
+      <option value="DRKSHDW">DRKSHDW</option>
+      <option value="Lilies">Lilies</option>
+    </select></span>
+    <span class="sel"><select id="sort" aria-label="Sort">
       <option value="new">Newest listed</option>
       <option value="seen">Newest found</option>
       <option value="low">Price: low to high</option>
       <option value="high">Price: high to low</option>
-    </select>
-    <label class="tog"><input type="checkbox" id="onlyNew"> <span id="newLabel">New since last run</span></label>
-    <label class="tog"><input type="checkbox" id="onlyDrop"> Price cuts</label>
-    <label class="tog"><input type="checkbox" id="hideSold" checked> Hide sold</label>
-    <button type="button" class="tog" id="markSeen" hidden>Mark all seen</button>
-    <span class="count" id="count"></span>
+    </select></span>
+    <div class="togs">
+      <label class="tog"><input type="checkbox" id="onlyNew"><span id="newLabel">New since last run</span></label>
+      <label class="tog"><input type="checkbox" id="onlyDrop">Price cuts</label>
+      <label class="tog"><input type="checkbox" id="hideSold" checked>Hide sold</label>
+      <button type="button" class="tog" id="markSeen" hidden>Mark all seen</button>
+    </div>
   </div>
   <div class="shops" id="shops"></div>
   <main class="grid" id="grid"></main>
+  <footer id="foot"></footer>
 </div>
 <script>
 const DATA = __DATA__;
@@ -468,11 +523,14 @@ const money = (n, cur) => n == null ? "" : new Intl.NumberFormat("en-US", {style
 function ago(iso){
   if (!iso) return "";
   const s = (Date.now() - new Date(iso).getTime()) / 1000;
-  if (s < 3600) return Math.max(1, Math.round(s / 60)) + "m ago";
-  if (s < 86400) return Math.round(s / 3600) + "h ago";
+  if (s < 3600) return Math.max(1, Math.round(s / 60)) + " min ago";
+  if (s < 86400) return Math.round(s / 3600) + " hr ago";
   const d = Math.round(s / 86400);
-  return d < 60 ? d + "d ago" : new Date(iso).toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric"});
+  return d < 60 ? d + (d === 1 ? " day ago" : " days ago") : new Date(iso).toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric"});
 }
+// The line label already sits above the title, so drop a repeated "Rick Owens DRKSHDW" prefix.
+const PREFIX = /^\s*(?:(?:pre-?owned|new|used)\s+)?(?:rick\s*owens\s*)?(?:(?:drk\s*shdw|drkshdw|lilies)\s*)?(?:[-–—:\/|]\s*)?/i;
+const cleanTitle = t => { const c = String(t || "").replace(PREFIX, "").trim(); return c.length > 2 ? c : t; };
 const SITE = DATA.mode === "site";
 const fmt = (iso, o) => new Date(iso).toLocaleString("en-US", o);
 const SHORT = {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"};
@@ -485,25 +543,29 @@ if (SITE) {
   baseline = sess || last || new Date(Date.now() - 2 * 86400000).toISOString();
   try { sessionStorage.setItem("rf-baseline", baseline); localStorage.setItem("rf-last-visit", new Date().toISOString()); } catch (e) {}
   applyBaseline();
-  $("#newLabel").textContent = "New since your last visit";
+  $("#newLabel").textContent = "New since last visit";
   $("#markSeen").hidden = false;
   $("#sort").value = "seen";
+  $("#foot").innerHTML = '<a href="feed.xml">Feed (RSS)</a><span>Prices in USD as listed by each shop</span>';
 }
+DATA.items.forEach(i => { i.line = i.line || "Rick Owens"; i.display = cleanTitle(i.title); });
 const off = new Set();
 const when = fmt(DATA.generated, {weekday:"short", month:"short", day:"numeric", hour:"numeric", minute:"2-digit"});
 const okShops = DATA.shops.filter(s => !s.error).length;
 try { $("#hideSold").checked = localStorage.getItem("rf-hide-sold") !== "0"; } catch (e) {}
+try { const l = localStorage.getItem("rf-line"); if (l !== null && [...$("#line").options].some(o => o.value === l)) $("#line").value = l; } catch (e) {}
 $("#hideSold").addEventListener("input", () => {
   try { localStorage.setItem("rf-hide-sold", $("#hideSold").checked ? "1" : "0"); } catch (e) {}
   renderMeta();
 });
+$("#line").addEventListener("input", () => { try { localStorage.setItem("rf-line", $("#line").value); } catch (e) {} });
 const forSale = i => !$("#hideSold").checked || !i.sold;
 function renderMeta(){
   const newCount = DATA.items.filter(i => i.is_new && forSale(i)).length;
-  let since = "";
-  if (SITE) since = ` · <b>${newCount} new</b> since ${esc(fmt(baseline, SHORT))}`;
-  else if (!DATA.first_run) since = ` · <b>${newCount} new</b> since ${esc(fmt(DATA.previous, SHORT))}`;
-  $("#meta").innerHTML = `${SITE ? "Checked every hour · last check" : "Updated"} <b>${esc(when)}</b> · ${DATA.items.length} listings from ${okShops} shops` + since;
+  const parts = [SITE ? "Checked hourly" : "Updated", `Last check <b>${esc(when)}</b>`, `${DATA.items.length} listings`, `${okShops} shops`];
+  if (SITE) parts.push(`<b>${newCount} new</b> since ${esc(fmt(baseline, SHORT))}`);
+  else if (!DATA.first_run) parts.push(`<b>${newCount} new</b> since ${esc(fmt(DATA.previous, SHORT))}`);
+  $("#meta").innerHTML = parts.map(p => `<span>${p}</span>`).join("");
 }
 renderMeta();
 const failed = DATA.shops.filter(s => s.error);
@@ -518,7 +580,7 @@ $("#markSeen").addEventListener("click", () => {
   applyBaseline(); renderMeta(); render();
 });
 
-$("#shops").innerHTML = DATA.shops.map(s => `<button type="button" class="shop${s.error ? " err" : ""}" aria-pressed="true" data-s="${esc(s.name)}" title="${esc(s.city)}">${esc(s.name)}<span class="n">${s.error ? "!" : s.count}</span></button>`).join("");
+$("#shops").innerHTML = DATA.shops.map(s => `<button type="button" class="shop${s.error ? " err" : ""}" aria-pressed="true" data-s="${esc(s.name)}" title="${esc(s.city)}${s.error ? " (couldn't reach this shop)" : ""}">${esc(s.name)}<span class="n">${s.error ? "!" : s.count}</span></button>`).join("");
 $("#shops").addEventListener("click", e => {
   const b = e.target.closest(".shop"); if (!b) return;
   const name = b.dataset.s;
@@ -527,18 +589,19 @@ $("#shops").addEventListener("click", e => {
   document.querySelectorAll(".shop").forEach(x => x.setAttribute("aria-pressed", off.has(x.dataset.s) ? "false" : "true"));
   render();
 });
-["#q", "#sort", "#onlyNew", "#onlyDrop", "#hideSold"].forEach(id => $(id).addEventListener("input", render));
+["#q", "#sort", "#line", "#onlyNew", "#onlyDrop", "#hideSold"].forEach(id => $(id).addEventListener("input", render));
 
 function render(){
   const q = $("#q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  const onlyNew = $("#onlyNew").checked, onlyDrop = $("#onlyDrop").checked, sort = $("#sort").value;
+  const onlyNew = $("#onlyNew").checked, onlyDrop = $("#onlyDrop").checked, sort = $("#sort").value, line = $("#line").value;
+  const inLine = i => !line || i.line === line;
   document.querySelectorAll(".shop:not(.err) .n").forEach(n => {
     const name = n.parentElement.dataset.s;
-    n.textContent = DATA.items.filter(i => i.shop === name && forSale(i)).length;
+    n.textContent = DATA.items.filter(i => i.shop === name && forSale(i) && inLine(i)).length;
   });
-  let list = DATA.items.filter(i => !off.has(i.shop) && forSale(i)
+  let list = DATA.items.filter(i => !off.has(i.shop) && forSale(i) && inLine(i)
     && (!onlyNew || i.is_new) && (!onlyDrop || i.drop_from)
-    && q.every(w => (i.title + " " + i.shop + " " + i.city + " " + i.size + " " + i.type).toLowerCase().includes(w)));
+    && q.every(w => (i.title + " " + i.line + " " + i.shop + " " + i.city + " " + i.size + " " + i.type).toLowerCase().includes(w)));
   const t = s => s ? new Date(s).getTime() : 0;
   if (sort === "new") list.sort((a, b) => t(b.published) - t(a.published));
   if (sort === "seen") list.sort((a, b) => t(b.first_seen) - t(a.first_seen) || t(b.published) - t(a.published));
@@ -551,14 +614,16 @@ function render(){
   }
   $("#grid").innerHTML = list.map(i => `
     <a class="card${i.sold ? " sold" : ""}" href="${esc(i.link)}" target="_blank" rel="noopener">
-      <div class="ph">
-        ${i.image ? `<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
+      <div class="ph${i.image ? "" : " noi"}">
+        ${i.image ? `<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.classList.add('noi');this.remove()">` : ""}
         <span class="noimg">${esc(i.shop)}</span>
         <div class="badges">${i.is_new ? '<span class="b new">New</span>' : ""}${i.drop_from && !i.sold ? '<span class="b drop">Price cut</span>' : ""}${i.sold ? '<span class="b sold">Sold</span>' : ""}</div>
       </div>
-      <div class="t">${esc(i.title)}</div>
-      <div class="row"><span class="price">${money(i.price, i.currency)}${i.drop_from ? `<s>${money(i.drop_from, i.currency)}</s>` : ""}</span><span class="size">${esc(i.size)}</span></div>
-      <div class="src">${esc(i.shop)} · ${esc(i.city)} · ${ago(i.published)}</div>
+      <div class="line">${esc(i.line)}</div>
+      <div class="t">${esc(i.display)}</div>
+      <div class="price">${money(i.price, i.currency)}${i.drop_from ? `<s>${money(i.drop_from, i.currency)}</s>` : ""}</div>
+      <div class="row"><span class="go">${esc(i.shop)} +</span><span class="size">${i.size ? "Size " + esc(i.size) : ""}</span></div>
+      <div class="src">${esc(i.city)} / ${ago(i.published)}</div>
     </a>`).join("");
 }
 render();
