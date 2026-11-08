@@ -7,6 +7,12 @@ GitHub checks every shop once an hour and republishes the page.
 - `.github/workflows/rick-feed.yml`: the hourly schedule.
 - `data/state.json`: what's already been seen. It's created and updated automatically.
 
+## What counts as Rick Owens
+
+Anything with "Rick Owens" or DRKSHDW in the title or the shop's brand field, including DRKSHDW pieces that never mention Rick Owens.
+Each listing is labelled Rick Owens, DRKSHDW or Lilies, and the "All lines" menu filters by line.
+Some shops keep DRKSHDW in a separate collection; those shops list two feeds in `SHOPS` (Luke's-style shops with one combined page need only one).
+
 ## Adding or removing a shop
 
 Open `rick_feed.py` on GitHub, click the pencil icon, and edit the `SHOPS` list.
