@@ -1,0 +1,46 @@
+name: Rick Feed
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # every hour, at 17 past
+  workflow_dispatch:        # lets you run it from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # save the list of items already seen
+  pages: write      # publish the site
+  id-token: write
+
+concurrency:
+  group: rick-feed
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Check the shops and build the page
+        run: python3 rick_feed.py --site site --state data/state.json
+
+      - name: Save what's been seen
+        run: |
+          if [ -n "$(git status --porcelain -- data)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data
+            git commit -m "Update seen items"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v5
