@@ -20,4 +20,5 @@ Actions tab → Rick Feed → Run workflow.
 ## On your phone
 
 Open the site and use "Add to Home Screen". NEW tags mean added since you last opened the page on that device.
-`feed.xml` on the same site is a combined feed you can add to a feed reader if you want notifications.
+"Hide sold" (on by default) hides pieces a shop has marked sold out; untick it to see them greyed out. The choice is remembered on each device.
+`feed.xml` on the same site (it never includes sold pieces) is a combined feed you can add to a feed reader if you want notifications.
