@@ -90,6 +90,12 @@
    "last_seen": "2026-11-09",
    "price": 159.9
   },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15425580925037": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 549.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/15425733066861": {
    "first_run": 0,
    "first_seen": "2026-11-05T18:13:20+00:00",
@@ -131,6 +137,12 @@
    "first_seen": "2026-11-07T21:17:46+00:00",
    "last_seen": "2026-11-09",
    "price": 379.9
+  },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15429034213485": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 399.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430405521517": {
    "first_run": 1,
@@ -889,10 +901,12 @@
    "price": 700.0
   },
   "Justin Reed|https://justinreed.com/products/10264197366074": {
+   "drop_at": "2026-11-09T08:02:20+00:00",
+   "drop_from": 450.0,
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-09",
-   "price": 450.0
+   "price": 400.0
   },
   "Justin Reed|https://justinreed.com/products/10268222751034": {
    "first_run": 1,
@@ -1121,6 +1135,54 @@
    "first_seen": "2026-05-14T17:57:07+00:00",
    "last_seen": "2026-11-09",
    "price": 560.0
+  },
+  "Luke's|https://lukes.store/products/15373530333488": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 300.0
+  },
+  "Luke's|https://lukes.store/products/15377580392752": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 225.0
+  },
+  "Luke's|https://lukes.store/products/15377700782384": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 250.0
+  },
+  "Luke's|https://lukes.store/products/15377830314288": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 125.0
+  },
+  "Luke's|https://lukes.store/products/15380905853232": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 300.0
+  },
+  "Luke's|https://lukes.store/products/15381103214896": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 150.0
+  },
+  "Luke's|https://lukes.store/products/15381164982576": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 300.0
+  },
+  "Luke's|https://lukes.store/products/15388974612784": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T08:02:20+00:00",
+   "last_seen": "2026-11-09",
+   "price": 275.0
   },
   "Luke's|https://lukes.store/products/15388976742704": {
    "first_run": 0,
