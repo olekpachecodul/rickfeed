@@ -6,6 +6,12 @@
    "last_seen": "2026-11-09",
    "price": 849.9
   },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15381996896365": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T18:52:08+00:00",
+   "last_seen": "2026-11-09",
+   "price": 279.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/15405328138349": {
    "first_run": 0,
    "first_seen": "2026-11-06T22:18:10+00:00",
@@ -1549,6 +1555,24 @@
    "first_seen": "2026-11-05T23:25:29+00:00",
    "last_seen": "2026-11-09",
    "price": 800.0
+  },
+  "Luxury Box ATL|https://luxuryboxatl.com/products/10908851404940": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T18:52:08+00:00",
+   "last_seen": "2026-11-09",
+   "price": 850.0
+  },
+  "Luxury Box ATL|https://luxuryboxatl.com/products/10909656088716": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T18:52:08+00:00",
+   "last_seen": "2026-11-09",
+   "price": 950.0
+  },
+  "Luxury Box ATL|https://luxuryboxatl.com/products/10909657858188": {
+   "first_run": 1,
+   "first_seen": "2026-11-09T18:52:08+00:00",
+   "last_seen": "2026-11-09",
+   "price": 850.0
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9615175024780": {
    "first_run": 1,
