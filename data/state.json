@@ -216,6 +216,12 @@
    "last_seen": "2026-11-10",
    "price": 199.9
   },
+  "2nd Street|https://ec.2ndstreetusa.com/products/8273208770669": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T17:54:51+00:00",
+   "last_seen": "2026-11-10",
+   "price": 549.9
+  },
   "Archive On Waters|https://archiveonwaters.store/products/15878266552689": {
    "first_run": 0,
    "first_seen": "2026-07-05T02:17:11+00:00",
@@ -2501,6 +2507,30 @@
   "Shop Status|https://shopstatus.store/products/10682353385759": {
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
+   "last_seen": "2026-11-10",
+   "price": 300.0
+  },
+  "Shop Status|https://shopstatus.store/products/10684899229983": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T17:54:51+00:00",
+   "last_seen": "2026-11-10",
+   "price": 600.0
+  },
+  "Shop Status|https://shopstatus.store/products/10684902244639": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T17:54:51+00:00",
+   "last_seen": "2026-11-10",
+   "price": 450.0
+  },
+  "Shop Status|https://shopstatus.store/products/10684906570015": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T17:54:51+00:00",
+   "last_seen": "2026-11-10",
+   "price": 600.0
+  },
+  "Shop Status|https://shopstatus.store/products/10684913680671": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T17:54:51+00:00",
    "last_seen": "2026-11-10",
    "price": 300.0
   },
