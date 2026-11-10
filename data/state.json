@@ -1,5 +1,11 @@
 {
  "items": {
+  "2nd Street|https://ec.2ndstreetusa.com/products/15370085367917": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T23:27:01+00:00",
+   "last_seen": "2026-11-10",
+   "price": 299.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/15376450551917": {
    "first_run": 0,
    "first_seen": "2026-11-05T19:45:24+00:00",
@@ -186,9 +192,27 @@
    "last_seen": "2026-11-10",
    "price": 599.9
   },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15430462636141": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T23:27:01+00:00",
+   "last_seen": "2026-11-10",
+   "price": 99.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/15431201194093": {
    "first_run": 1,
    "first_seen": "2026-11-10T09:56:18+00:00",
+   "last_seen": "2026-11-10",
+   "price": 349.9
+  },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15433090203757": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T23:27:01+00:00",
+   "last_seen": "2026-11-10",
+   "price": 279.9
+  },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15433557704813": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-10",
    "price": 349.9
   },
@@ -1592,6 +1616,12 @@
    "last_seen": "2026-11-10",
    "price": 650.0
   },
+  "Luxury Box ATL|https://luxuryboxatl.com/products/10923126030476": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T23:27:01+00:00",
+   "last_seen": "2026-11-10",
+   "price": 500.0
+  },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9615175024780": {
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
@@ -2228,6 +2258,12 @@
    "last_seen": "2026-11-10",
    "price": 1200.0
   },
+  "Sad\u014d Room|https://sadoroom.com/products/8272107929670": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T23:27:01+00:00",
+   "last_seen": "2026-11-10",
+   "price": 240.0
+  },
   "Sad\u014d Room|https://sadoroom.com/products/8308329283654": {
    "first_run": 1,
    "first_seen": "2026-11-10T02:12:03+00:00",
@@ -2533,6 +2569,18 @@
    "first_seen": "2026-11-10T17:54:51+00:00",
    "last_seen": "2026-11-10",
    "price": 300.0
+  },
+  "Shop Status|https://shopstatus.store/products/10684989767967": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T23:27:01+00:00",
+   "last_seen": "2026-11-10",
+   "price": 750.0
+  },
+  "Shop Status|https://shopstatus.store/products/10684990521631": {
+   "first_run": 1,
+   "first_seen": "2026-11-10T23:27:01+00:00",
+   "last_seen": "2026-11-10",
+   "price": 550.0
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15409973887230": {
    "first_run": 0,
