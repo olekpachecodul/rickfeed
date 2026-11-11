@@ -72,6 +72,12 @@
    "last_seen": "2026-11-11",
    "price": 299.9
   },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15418687783021": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 449.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/15419642806381": {
    "first_run": 0,
    "first_seen": "2026-11-03T23:32:08+00:00",
@@ -156,6 +162,12 @@
    "last_seen": "2026-11-11",
    "price": 399.9
   },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15429984288877": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 549.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430405521517": {
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
@@ -216,6 +228,12 @@
    "last_seen": "2026-11-11",
    "price": 349.9
   },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15440951640173": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 399.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/8050049941613": {
    "first_run": 1,
    "first_seen": "2026-11-09T00:57:15+00:00",
@@ -228,11 +246,23 @@
    "last_seen": "2026-11-08",
    "price": 279.9
   },
+  "2nd Street|https://ec.2ndstreetusa.com/products/8129137475693": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 249.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/8143104245869": {
    "first_run": 0,
    "first_seen": "2026-11-05T22:45:23+00:00",
    "last_seen": "2026-11-11",
    "price": 179.9
+  },
+  "2nd Street|https://ec.2ndstreetusa.com/products/8181704884333": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 399.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8243768066157": {
    "first_run": 0,
@@ -852,6 +882,36 @@
    "last_seen": "2026-11-11",
    "price": 375.0
   },
+  "Groupie|https://groupie.store/products/9400682086633": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 550.0
+  },
+  "Groupie|https://groupie.store/products/9405353066729": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 150.0
+  },
+  "Groupie|https://groupie.store/products/9405353918697": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 150.0
+  },
+  "Groupie|https://groupie.store/products/9405354410217": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 295.0
+  },
+  "Groupie|https://groupie.store/products/9410633400553": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 795.0
+  },
   "Groupie|https://groupie.store/products/9424613474537": {
    "first_run": 0,
    "first_seen": "2026-09-18T19:00:10+00:00",
@@ -1381,6 +1441,30 @@
    "first_seen": "2026-11-11T06:33:54+00:00",
    "last_seen": "2026-11-11",
    "price": 125.0
+  },
+  "Luke's|https://lukes.store/products/15418030358832": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 150.0
+  },
+  "Luke's|https://lukes.store/products/15418051232048": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 350.0
+  },
+  "Luke's|https://lukes.store/products/15418051526960": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 450.0
+  },
+  "Luke's|https://lukes.store/products/15418052510000": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 550.0
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10196311736460": {
    "first_run": 1,
@@ -2264,6 +2348,12 @@
    "last_seen": "2026-11-11",
    "price": 1200.0
   },
+  "Sad\u014d Room|https://sadoroom.com/products/8272104226886": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 450.0
+  },
   "Sad\u014d Room|https://sadoroom.com/products/8272107929670": {
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
@@ -2587,6 +2677,18 @@
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-11",
    "price": 550.0
+  },
+  "Shop Status|https://shopstatus.store/products/10686968791327": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 500.0
+  },
+  "Shop Status|https://shopstatus.store/products/10687101600031": {
+   "first_run": 1,
+   "first_seen": "2026-11-11T22:44:10+00:00",
+   "last_seen": "2026-11-11",
+   "price": 1200.0
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15409973887230": {
    "first_run": 0,
