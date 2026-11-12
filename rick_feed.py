@@ -18,6 +18,7 @@ import json
 import re
 import ssl
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -126,6 +127,9 @@ PRICE_DROP_DAYS = 7          # how long a price cut stays flagged
 FORGET_AFTER_DAYS = 60       # drop items from memory once unseen this long
 AVAIL_MAX_PAGES = 4          # pages of products.json read per feed to spot sold items
 DETAIL_RETRIES = (2, 6, 15)  # seconds to wait before each retry when Shopify refuses products.json
+# Shopify rate-limits by IP across all its shops, so once one shop has refused
+# after every retry, the rest of the run tries each lookup once and moves on.
+SHOPIFY_REFUSING = threading.Event()
 USER_AGENT = "Mozilla/5.0 (compatible; RickFeed/1.0; personal feed reader)"
 
 HERE = Path(__file__).resolve().parent
@@ -275,7 +279,7 @@ def fetch_details(feed_url, wanted):
     details, remaining = {}, set(wanted)
     for page in range(1, AVAIL_MAX_PAGES + 1):
         products, error = None, None
-        for wait in (0,) + DETAIL_RETRIES:  # Shopify sometimes refuses these from cloud servers; try again
+        for wait in (0,) + (() if SHOPIFY_REFUSING.is_set() else DETAIL_RETRIES):  # Shopify sometimes refuses these from cloud servers
             time.sleep(wait)
             try:
                 products = json.loads(fetch_bytes(base + str(page))).get("products") or []
@@ -287,6 +291,8 @@ def fetch_details(feed_url, wanted):
             except Exception as e:
                 error = str(e)[:80] or e.__class__.__name__
         if products is None:
+            if error and error.startswith("error 4"):
+                SHOPIFY_REFUSING.set()
             return details, (error if page == 1 else None)
         for p in products:
             colour_opts = [i for i, o in enumerate(p.get("options") or [])
