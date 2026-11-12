@@ -1,16 +1,24 @@
 {
  "items": {
   "2nd Street|https://ec.2ndstreetusa.com/products/15360577798253": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 199.9
+   "price": 199.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15370085367917": {
+   "category": "Dresses",
+   "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 299.9
+   "price": 299.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15376450551917": {
    "first_run": 0,
@@ -19,10 +27,13 @@
    "price": 849.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15381996896365": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-09T18:52:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 279.9
+   "price": 279.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15405328138349": {
    "first_run": 0,
@@ -79,10 +90,13 @@
    "price": 299.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15418687783021": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 449.9
+   "price": 449.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15419642806381": {
    "first_run": 0,
@@ -115,10 +129,15 @@
    "price": 159.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15425580925037": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-09T08:02:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 549.9
+   "price": 549.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15425733066861": {
    "first_run": 0,
@@ -163,46 +182,82 @@
    "price": 379.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15429034213485": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-09T08:02:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 399.9
+   "price": 399.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15429984288877": {
+   "category": "Outerwear",
+   "colours": [
+    "Green"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 549.9
+   "price": 549.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430405521517": {
+   "category": "Tops",
+   "colours": [
+    "Black",
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 199.9
+   "price": 199.9,
+   "sold": true
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430405554285": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 499.9
+   "price": 499.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430405685357": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 999.9
+   "price": 999.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430405750893": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 179.9
+   "price": 179.9,
+   "sold": true
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430405816429": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 149.9
+   "price": 149.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430406209645": {
    "first_run": 1,
@@ -211,64 +266,114 @@
    "price": 599.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430462636141": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 99.9
+   "price": 99.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15431201194093": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T09:56:18+00:00",
    "last_seen": "2026-11-12",
-   "price": 349.9
+   "price": 349.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15433090203757": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 279.9
+   "price": 279.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15433557704813": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 349.9
+   "price": 349.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15438868676717": {
+   "category": "Footwear",
+   "colours": [
+    "Red"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 2999.9
+   "price": 2999.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15438871887981": {
+   "category": "Footwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 1599.9
+   "price": 1599.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15440951640173": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 399.9
+   "price": 399.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15441749475437": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 159.9
+   "price": 159.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8009939714157": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 999.9
+   "price": 999.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8050049941613": {
+   "category": "Outerwear",
+   "colours": [
+    "Green"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-09T00:57:15+00:00",
    "last_seen": "2026-11-12",
-   "price": 849.9
+   "price": 849.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8120447271021": {
    "first_run": 0,
@@ -277,10 +382,15 @@
    "price": 279.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8129137475693": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 249.9
+   "price": 249.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8143104245869": {
    "first_run": 0,
@@ -289,10 +399,15 @@
    "price": 179.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8181704884333": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 399.9
+   "price": 399.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8243768066157": {
    "first_run": 0,
@@ -301,598 +416,1015 @@
    "price": 199.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8273208770669": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
    "last_seen": "2026-11-12",
-   "price": 549.9
+   "price": 549.9,
+   "sold": false
   },
   "Archive On Waters|https://archiveonwaters.store/products/15878266552689": {
+   "category": "Footwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-05T02:17:11+00:00",
    "last_seen": "2026-11-12",
-   "price": 195.0
+   "price": 195.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15884436537713": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-05T02:11:19+00:00",
    "last_seen": "2026-11-12",
-   "price": 720.0
+   "price": 720.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15884439355761": {
+   "category": "Other",
+   "colours": [
+    "Red"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-05T02:11:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15895220879729": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-10T22:53:49+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15904233030001": {
+   "category": "Other",
+   "colours": [
+    "Grey",
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-12T23:33:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 875.0
+   "price": 875.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15929107644785": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-23T22:21:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15931548664177": {
+   "category": "Outerwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-24T23:52:18+00:00",
    "last_seen": "2026-11-12",
-   "price": 680.0
+   "price": 680.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15931567931761": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-24T23:52:25+00:00",
    "last_seen": "2026-11-12",
-   "price": 480.0
+   "price": 480.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15931680424305": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-25T23:32:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 630.0
+   "price": 630.0,
+   "sold": false
   },
   "Archive On Waters|https://archiveonwaters.store/products/15951692333425": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-02T23:59:59+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15951695413617": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-03T00:00:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 380.0
+   "price": 380.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15951697346929": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-03T00:00:02+00:00",
    "last_seen": "2026-11-12",
-   "price": 390.0
+   "price": 390.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15952965108081": {
+   "category": "Other",
+   "colours": [
+    "Grey",
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-03T23:33:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 1680.0
+   "price": 1680.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15969457209713": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-13T22:17:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": false
   },
   "Archive On Waters|https://archiveonwaters.store/products/15980715180401": {
+   "category": "Other",
+   "colours": [
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-25T00:38:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 2600.0
+   "price": 2600.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15980729041265": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-25T00:38:14+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15988784955761": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-31T21:06:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 475.0
+   "price": 475.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/15994479444337": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-05T00:30:39+00:00",
    "last_seen": "2026-11-12",
-   "price": 2300.0
+   "price": 2300.0,
+   "sold": false
   },
   "Archive On Waters|https://archiveonwaters.store/products/16041155953009": {
+   "category": "Other",
+   "colours": [
+    "Grey",
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-03T05:36:21+00:00",
    "last_seen": "2026-11-12",
-   "price": 2300.0
+   "price": 2300.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/16041156772209": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey",
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-03T05:36:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 1700.0
+   "price": 1700.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/16041323135345": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-08T01:24:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 640.0
+   "price": 640.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/16041416524145": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-03T11:42:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/16048936288625": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-08T01:27:34+00:00",
    "last_seen": "2026-11-12",
-   "price": 1400.0
+   "price": 1400.0,
+   "sold": true
   },
   "Archive On Waters|https://archiveonwaters.store/products/16071340622193": {
+   "category": "Other",
+   "colours": [
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-14T23:31:15+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": false
   },
   "Archive On Waters|https://archiveonwaters.store/products/16090155483505": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey",
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-22T21:04:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 2300.0
+   "price": 2300.0,
+   "sold": true
   },
   "Archived|https://archived.co/products/15301682921690": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T15:57:17+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/15301683052762": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T15:57:19+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/15301684494554": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T15:57:21+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8591780610266": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2024-07-16T06:51:56+00:00",
    "last_seen": "2026-11-12",
-   "price": 1500.0
+   "price": 1500.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8592559931610": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2024-07-16T23:25:53+00:00",
    "last_seen": "2026-11-12",
-   "price": 1530.0
+   "price": 1530.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8592577495258": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2024-07-17T00:08:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 2700.0
+   "price": 2700.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8592910909658": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2024-07-17T06:46:22+00:00",
    "last_seen": "2026-11-12",
-   "price": 1500.0
+   "price": 1500.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8771943268570": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-02-07T22:31:45+00:00",
    "last_seen": "2026-11-12",
-   "price": 3500.0
+   "price": 3500.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8917598404826": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-09T16:13:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 2350.0
+   "price": 2350.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8973707804890": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-21T18:20:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 2500.0
+   "price": 2500.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8974921040090": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-25T23:57:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8974953218266": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-25T23:57:37+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8975005876442": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-29T05:54:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/8975025864922": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-25T23:57:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9032175616218": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-10-16T17:43:26+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9101198590170": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-11-27T00:38:49+00:00",
    "last_seen": "2026-11-12",
-   "price": 900.0
+   "price": 900.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9119969378522": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-12-23T00:16:13+00:00",
    "last_seen": "2026-11-12",
-   "price": 20000.0
+   "price": 20000.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9266642026714": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-22T16:58:39+00:00",
    "last_seen": "2026-11-12",
-   "price": 900.0
+   "price": 900.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9266643960026": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-22T16:58:40+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9369075941594": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-03T15:56:05+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9369076367578": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-03T15:56:06+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9414156288218": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-31T15:55:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9446799835354": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-21T16:28:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 1500.0
+   "price": 1500.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9496153424090": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-18T16:20:24+00:00",
    "last_seen": "2026-11-12",
-   "price": 2900.0
+   "price": 2900.0,
+   "sold": false
   },
   "Archived|https://archived.co/products/9496153555162": {
+   "category": "Other",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-18T16:20:25+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Descry Archive|https://www.descryarchive.com/products/10082194751672": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-09T15:03:26+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Descry Archive|https://www.descryarchive.com/products/10095963504824": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-19T19:45:06+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Descry Archive|https://www.descryarchive.com/products/10102176972984": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-25T19:00:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": false
   },
   "Descry Archive|https://www.descryarchive.com/products/10401477460152": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-12T02:18:09+00:00",
    "last_seen": "2026-11-12",
-   "price": 900.0
+   "price": 900.0,
+   "sold": false
   },
   "Descry Archive|https://www.descryarchive.com/products/10409124659384": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-20T02:12:13+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "Descry Archive|https://www.descryarchive.com/products/7188816789688": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2022-08-01T01:37:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Descry Archive|https://www.descryarchive.com/products/7206520848568": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2022-08-31T18:12:09+00:00",
    "last_seen": "2026-11-12",
-   "price": 330.0
+   "price": 330.0,
+   "sold": true
   },
   "Descry Archive|https://www.descryarchive.com/products/7269026824376": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2023-02-21T02:41:15+00:00",
    "last_seen": "2026-11-12",
-   "price": 355.0
+   "price": 355.0,
+   "sold": true
   },
   "Descry Archive|https://www.descryarchive.com/products/7274159505592": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2023-03-09T21:59:34+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Descry Archive|https://www.descryarchive.com/products/7306471637176": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2023-08-17T20:41:22+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Descry Archive|https://www.descryarchive.com/products/7373869711544": {
+   "category": "Other",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2023-11-22T16:34:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": true
   },
   "Descry Archive|https://www.descryarchive.com/products/7500955812024": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2024-03-22T18:45:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": true
   },
   "Final Blow|https://www.finalblowchicago.com/products/15462757433478": {
+   "category": "Bottoms",
+   "colours": [
+    "Green"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-01T22:55:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 380.0
+   "price": 380.0,
+   "sold": false
   },
   "Final Blow|https://www.finalblowchicago.com/products/15462765363334": {
+   "category": "Other",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-01T22:55:32+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Final Blow|https://www.finalblowchicago.com/products/15462818906246": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-01T22:55:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 340.0
+   "price": 340.0,
+   "sold": false
   },
   "Final Blow|https://www.finalblowchicago.com/products/15462830997638": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-01T22:56:13+00:00",
    "last_seen": "2026-11-12",
-   "price": 525.0
+   "price": 525.0,
+   "sold": false
   },
   "Final Blow|https://www.finalblowchicago.com/products/15479223287942": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": false
   },
   "Final Blow|https://www.finalblowchicago.com/products/15479267786886": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 385.0
+   "price": 385.0,
+   "sold": false
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/15124462240048": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-06T17:46:05+00:00",
    "last_seen": "2026-11-12",
-   "price": 125.0
+   "price": 125.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/15125010841904": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-06T17:47:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/15125014315312": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-06T17:47:56+00:00",
    "last_seen": "2026-11-12",
-   "price": 200.0
+   "price": 200.0,
+   "sold": false
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/15125016871216": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-06T17:48:13+00:00",
    "last_seen": "2026-11-12",
-   "price": 120.0
+   "price": 120.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/15125019558192": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-06T17:48:31+00:00",
    "last_seen": "2026-11-12",
-   "price": 180.0
+   "price": 180.0,
+   "sold": false
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/9278507614512": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2024-05-14T14:10:41+00:00",
    "last_seen": "2026-11-12",
-   "price": 115.0
+   "price": 115.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/9419152752944": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2024-05-26T20:51:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 120.0
+   "price": 120.0,
+   "sold": false
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/9621237203248": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2024-10-09T18:07:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 240.0
+   "price": 240.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/9629938188592": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2024-10-18T18:33:42+00:00",
    "last_seen": "2026-11-12",
-   "price": 80.0
+   "price": 80.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/9630010442032": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2024-10-18T19:53:43+00:00",
    "last_seen": "2026-11-12",
-   "price": 100.0
+   "price": 100.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/9630017880368": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2024-10-18T20:28:53+00:00",
    "last_seen": "2026-11-12",
-   "price": 120.0
+   "price": 120.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/9630029021488": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2024-10-18T20:58:31+00:00",
    "last_seen": "2026-11-12",
-   "price": 275.0
+   "price": 275.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/9656303649072": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2024-11-17T19:12:21+00:00",
    "last_seen": "2026-11-12",
-   "price": 100.0
+   "price": 100.0,
+   "sold": true
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/9657013895472": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2024-11-18T19:29:56+00:00",
    "last_seen": "2026-11-12",
-   "price": 2295.0
+   "price": 2295.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15401257402601": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-09T19:00:02+00:00",
    "last_seen": "2026-11-12",
-   "price": 595.0
+   "price": 595.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15402968842473": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-05T20:32:31+00:00",
    "last_seen": "2026-11-12",
-   "price": 395.0
+   "price": 395.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15402969235689": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-05T20:33:03+00:00",
    "last_seen": "2026-11-12",
-   "price": 395.0
+   "price": 395.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15402970251497": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-05T20:35:40+00:00",
    "last_seen": "2026-11-12",
-   "price": 420.0
+   "price": 420.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15403838111977": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-09T19:00:21+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15403838406889": {
+   "category": "Bottoms",
+   "colours": [
+    "White",
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-09T19:00:22+00:00",
    "last_seen": "2026-11-12",
-   "price": 295.0
+   "price": 295.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15411273335017": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15411273793769": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:11+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15411274252521": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15411274875113": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:14+00:00",
    "last_seen": "2026-11-12",
-   "price": 140.0
+   "price": 140.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15412357267689": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:19+00:00",
    "last_seen": "2026-11-12",
-   "price": 695.0
+   "price": 695.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15412358643945": {
+   "category": "Tops",
+   "colours": [
+    "Grey",
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 140.0
+   "price": 140.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15414931226857": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:44+00:00",
    "last_seen": "2026-11-12",
-   "price": 375.0
+   "price": 375.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15416180998377": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:48+00:00",
    "last_seen": "2026-11-12",
-   "price": 475.0
+   "price": 475.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15416185782505": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:49+00:00",
    "last_seen": "2026-11-12",
-   "price": 595.0
+   "price": 595.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15426505539817": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-23T19:00:46+00:00",
    "last_seen": "2026-11-12",
-   "price": 595.0
+   "price": 595.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/15441048994025": {
    "first_run": 0,
@@ -925,10 +1457,15 @@
    "price": 375.0
   },
   "Groupie|https://groupie.store/products/8940970442985": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 219.0
+   "price": 219.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/9400682086633": {
    "first_run": 1,
@@ -937,504 +1474,917 @@
    "price": 550.0
   },
   "Groupie|https://groupie.store/products/9405353066729": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/9405353918697": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/9405354410217": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 295.0
+   "price": 295.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/9410633400553": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 795.0
+   "price": 795.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/9424613474537": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-18T19:00:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/9429121630441": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-25T19:00:06+00:00",
    "last_seen": "2026-11-12",
-   "price": 395.0
+   "price": 395.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/9429174911209": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-25T19:00:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 195.0
+   "price": 195.0,
+   "sold": false
   },
   "Groupie|https://groupie.store/products/9429244313833": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-25T19:00:17+00:00",
    "last_seen": "2026-11-12",
-   "price": 395.0
+   "price": 395.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10221299958074": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10228560560442": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10228560920890": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10228650082618": {
+   "category": "Footwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10229891170618": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10229899100474": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10229900968250": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 225.0
+   "price": 225.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10230295101754": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 200.0
+   "price": 200.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10230315286842": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10235652636986": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 120.0
+   "price": 120.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10258317115706": {
+   "category": "Dresses",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-26T14:43:52+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10264197366074": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "drop_at": "2026-11-09T08:02:20+00:00",
    "drop_from": 450.0,
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10268222751034": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10273530741050": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10284969361722": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-05-08T20:01:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10284976865594": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-05-08T20:01:02+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10289807655226": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-05-15T19:34:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 1350.0
+   "price": 1350.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10289814274362": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-05-15T19:34:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10289900421434": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-05-15T19:34:57+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10289919689018": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-05-15T19:35:15+00:00",
    "last_seen": "2026-11-12",
-   "price": 3000.0
+   "price": 3000.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10319283585338": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10319286960442": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:46:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10319297282362": {
+   "category": "Dresses",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:46:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10319311208762": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:46:41+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10320811360570": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:46:42+00:00",
    "last_seen": "2026-11-12",
-   "price": 200.0
+   "price": 200.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10324546126138": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T19:34:06+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10324647510330": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T19:34:51+00:00",
    "last_seen": "2026-11-12",
-   "price": 100.0
+   "price": 100.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10330167542074": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-19T19:58:34+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10330771849530": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 200.0
+   "price": 200.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10330935984442": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-19T20:00:26+00:00",
    "last_seen": "2026-11-12",
-   "price": 250.0
+   "price": 250.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10335702974778": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10339443835194": {
+   "category": "Dresses",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-03T19:45:03+00:00",
    "last_seen": "2026-11-12",
-   "price": 200.0
+   "price": 200.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10340611260730": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-03T19:46:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 1800.0
+   "price": 1800.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10349348323642": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-10T19:43:53+00:00",
    "last_seen": "2026-11-12",
-   "price": 2400.0
+   "price": 2400.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10368343179578": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10368343507258": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10374848020794": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10382350876986": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 250.0
+   "price": 250.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10382360150330": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-07T19:47:26+00:00",
    "last_seen": "2026-11-12",
-   "price": 125.0
+   "price": 125.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/10383297282362": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10384920019258": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10384924672314": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-07T19:49:40+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10417138630970": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 200.0
+   "price": 200.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10417250828602": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-04T19:49:52+00:00",
    "last_seen": "2026-11-12",
-   "price": 1000.0
+   "price": 1000.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10431877218618": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/10438958022970": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-18T19:50:18+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": true
   },
   "Justin Reed|https://justinreed.com/products/15430184960314": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-23T19:48:11+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/15488118063418": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:48:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 375.0
+   "price": 375.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/15491027697978": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Justin Reed|https://justinreed.com/products/9729387626810": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2026-05-14T17:57:07+00:00",
    "last_seen": "2026-11-12",
-   "price": 560.0
+   "price": 560.0,
+   "sold": true
   },
   "LUXE MIA|https://luxemia.net/products/10009127223520": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-05T17:01:44+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/10022208405728": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-07T22:53:17+00:00",
    "last_seen": "2026-11-12",
-   "price": 1350.0
+   "price": 1350.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/10134078488800": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-27T19:17:57+00:00",
    "last_seen": "2026-11-12",
-   "price": 1350.0
+   "price": 1350.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/10190051541216": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-11T22:51:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 1450.0
+   "price": 1450.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/15423066800352": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-03T18:15:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 1350.0
+   "price": 1350.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/15427149168864": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-05T20:11:55+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9835016061152": {
+   "category": "Other",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:34:36+00:00",
    "last_seen": "2026-11-12",
-   "price": 1750.0
+   "price": 1750.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9835018879200": {
+   "category": "Bottoms",
+   "colours": [
+    "Green"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:35:34+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9835022713056": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:37:48+00:00",
    "last_seen": "2026-11-12",
-   "price": 1150.0
+   "price": 1150.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9835023270112": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:37:57+00:00",
    "last_seen": "2026-11-12",
-   "price": 1350.0
+   "price": 1350.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9835023433952": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:38:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9835029561568": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:40:51+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9835029823712": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:40:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9835029889248": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:41:06+00:00",
    "last_seen": "2026-11-12",
-   "price": 2495.0
+   "price": 2495.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9835038245088": {
+   "category": "Bottoms",
+   "colours": [
+    "Yellow"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:45:25+00:00",
    "last_seen": "2026-11-12",
-   "price": 1350.0
+   "price": 1350.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9842346885344": {
+   "category": "Other",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-15T21:49:05+00:00",
    "last_seen": "2026-11-12",
-   "price": 1750.0
+   "price": 1750.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9842348458208": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-15T21:50:09+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9842350227680": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-15T21:50:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 1450.0
+   "price": 1450.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9842350260448": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Red"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-15T21:50:45+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9882276790496": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Red"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-24T18:31:26+00:00",
    "last_seen": "2026-11-12",
-   "price": 750.0
+   "price": 750.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9919545376992": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-09T19:30:48+00:00",
    "last_seen": "2026-11-12",
-   "price": 1150.0
+   "price": 1150.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9919546228960": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-09T19:30:55+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9925409865952": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-12T17:46:05+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9931056152800": {
+   "category": "Other",
+   "colours": [
+    "White",
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-14T21:17:33+00:00",
    "last_seen": "2026-11-12",
-   "price": 1750.0
+   "price": 1750.0,
+   "sold": false
   },
   "LUXE MIA|https://luxemia.net/products/9936559735008": {
+   "category": "Other",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-15T21:33:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 750.0
+   "price": 750.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15373530333488": {
    "first_run": 1,
@@ -1515,16 +2465,26 @@
    "price": 350.0
   },
   "Luke's|https://lukes.store/products/15397061427504": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-30T22:53:05+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15397069652272": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-30T22:53:14+00:00",
    "last_seen": "2026-11-12",
-   "price": 100.0
+   "price": 100.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15397393367344": {
    "first_run": 0,
@@ -1533,16 +2493,26 @@
    "price": 450.0
   },
   "Luke's|https://lukes.store/products/15405653197104": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-04T17:01:15+00:00",
    "last_seen": "2026-11-12",
-   "price": 275.0
+   "price": 275.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15405654769968": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-04T17:01:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15405656375600": {
    "first_run": 0,
@@ -1551,10 +2521,15 @@
    "price": 225.0
   },
   "Luke's|https://lukes.store/products/15405658112304": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-04T17:02:03+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15405658898736": {
    "first_run": 0,
@@ -1563,16 +2538,26 @@
    "price": 275.0
   },
   "Luke's|https://lukes.store/products/15406884585776": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-04T23:58:55+00:00",
    "last_seen": "2026-11-12",
-   "price": 375.0
+   "price": 375.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15406892548400": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-04T23:58:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15407040987440": {
    "first_run": 0,
@@ -1587,16 +2572,26 @@
    "price": 200.0
   },
   "Luke's|https://lukes.store/products/15409507369264": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-06T03:17:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 100.0
+   "price": 100.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15411098124592": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-06T22:00:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15411200131376": {
    "first_run": 0,
@@ -1611,16 +2606,26 @@
    "price": 200.0
   },
   "Luke's|https://lukes.store/products/15411217105200": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-07T03:29:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15411223822640": {
+   "category": "Bottoms",
+   "colours": [
+    "Yellow"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-07T03:29:59+00:00",
    "last_seen": "2026-11-12",
-   "price": 200.0
+   "price": 200.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15411226444080": {
    "first_run": 0,
@@ -1647,154 +2652,287 @@
    "price": 150.0
   },
   "Luke's|https://lukes.store/products/15418051232048": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15418051526960": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15418052510000": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15419958821168": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 200.0
+   "price": 200.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15419991490864": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15420072689968": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey",
+    "Brown"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15420079964464": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": true
   },
   "Luke's|https://lukes.store/products/15420081570096": {
+   "category": "Bottoms",
+   "colours": [
+    "Green"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 175.0
+   "price": 175.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15420081996080": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 250.0
+   "price": 250.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15420087075120": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Green"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 425.0
+   "price": 425.0,
+   "sold": true
   },
   "Luke's|https://lukes.store/products/15420091433264": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 125.0
+   "price": 125.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15420132163888": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 100.0
+   "price": 100.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15425226866992": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T22:14:34+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Luke's|https://lukes.store/products/15425245413680": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T22:14:34+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10196311736460": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 900.0
+   "price": 900.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10197550235788": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10223360213132": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 1150.0
+   "price": 1150.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10427585069196": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 1100.0
+   "price": 1100.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10619254374540": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10630278283404": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10635994333324": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10647925653644": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10676746485900": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 1100.0
+   "price": 1100.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10676792262796": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 1100.0
+   "price": 1100.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10695774404748": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 900.0
+   "price": 900.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10708587446412": {
    "first_run": 0,
@@ -2116,244 +3254,429 @@
    "price": 650.0
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9621135523980": {
+   "category": "Footwear",
+   "colours": [
+    "Grey",
+    "Brown"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9637119590540": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9660055781516": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9660337979532": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 1100.0
+   "price": 1100.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9691945009292": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 1100.0
+   "price": 1100.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9691990163596": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 1250.0
+   "price": 1250.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9724467544204": {
+   "category": "Footwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 900.0
+   "price": 900.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9793724973196": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9826535702668": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 1100.0
+   "price": 1100.0,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/10612037255456": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-23T04:02:48+00:00",
    "last_seen": "2026-11-12",
-   "price": 119.99
+   "price": 119.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15447179657504": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T17:12:19+00:00",
    "last_seen": "2026-11-12",
-   "price": 499.99
+   "price": 499.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15447180083488": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T05:35:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 849.99
+   "price": 849.99,
+   "sold": true
   },
   "Marco Sqrd|https://marcosqrd.com/products/15447180214560": {
+   "category": "Footwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T05:35:31+00:00",
    "last_seen": "2026-11-12",
-   "price": 449.99
+   "price": 449.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15447180476704": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-29T17:15:32+00:00",
    "last_seen": "2026-11-12",
-   "price": 899.99
+   "price": 899.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15447180575008": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T05:35:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 599.99
+   "price": 599.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15447181263136": {
+   "category": "Outerwear",
+   "colours": [
+    "Purple"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-23T04:02:49+00:00",
    "last_seen": "2026-11-12",
-   "price": 649.99
+   "price": 649.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15447181361440": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-23T04:02:50+00:00",
    "last_seen": "2026-11-12",
-   "price": 324.99
+   "price": 324.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15477850636576": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T17:15:52+00:00",
    "last_seen": "2026-11-12",
-   "price": 274.99
+   "price": 274.99,
+   "sold": true
   },
   "Marco Sqrd|https://marcosqrd.com/products/15477856665888": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T04:36:53+00:00",
    "last_seen": "2026-11-12",
-   "price": 134.99
+   "price": 134.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15477866692896": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-29T17:12:57+00:00",
    "last_seen": "2026-11-12",
-   "price": 349.99
+   "price": 349.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15477866758432": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-30T04:37:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 349.99
+   "price": 349.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15477866987808": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T04:37:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 524.99
+   "price": 524.99,
+   "sold": true
   },
   "Marco Sqrd|https://marcosqrd.com/products/15477870297376": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-06T06:03:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 279.99
+   "price": 279.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15477873082656": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-23T05:00:05+00:00",
    "last_seen": "2026-11-12",
-   "price": 199.99
+   "price": 199.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15477873770784": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-21T16:56:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 249.99
+   "price": 249.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15483300282656": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-23T05:00:03+00:00",
    "last_seen": "2026-11-12",
-   "price": 749.99
+   "price": 749.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15511048192288": {
+   "category": "Footwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-29T17:14:18+00:00",
    "last_seen": "2026-11-12",
-   "price": 374.99
+   "price": 374.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15511048323360": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T17:15:44+00:00",
    "last_seen": "2026-11-12",
-   "price": 424.99
+   "price": 424.99,
+   "sold": true
   },
   "Marco Sqrd|https://marcosqrd.com/products/15511048552736": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-29T17:13:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 479.99
+   "price": 479.99,
+   "sold": true
   },
   "Marco Sqrd|https://marcosqrd.com/products/15511049273632": {
+   "category": "Other",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T04:37:29+00:00",
    "last_seen": "2026-11-12",
-   "price": 449.99
+   "price": 449.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15511049503008": {
+   "category": "Other",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-06T06:03:09+00:00",
    "last_seen": "2026-11-12",
-   "price": 499.99
+   "price": 499.99,
+   "sold": true
   },
   "Marco Sqrd|https://marcosqrd.com/products/15531804819744": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T17:12:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 449.99
+   "price": 449.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15556423450912": {
+   "category": "Other",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-06T06:03:15+00:00",
    "last_seen": "2026-11-12",
-   "price": 249.99
+   "price": 249.99,
+   "sold": false
   },
   "Marco Sqrd|https://marcosqrd.com/products/15570169823520": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-05T21:09:39+00:00",
    "last_seen": "2026-11-12",
-   "price": 199.99
+   "price": 199.99,
+   "sold": true
   },
   "Michael's|https://michaelsconsignment.com/products/10356743045295": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-30T13:20:39+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": false
   },
   "Michael's|https://michaelsconsignment.com/products/8673954791599": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-25T20:23:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 340.0
+   "price": 340.0,
+   "sold": false
   },
   "Michael's|https://michaelsconsignment.com/products/8674388836527": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-06T20:03:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": false
   },
   "Michael's|https://michaelsconsignment.com/products/8674389098671": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-06T20:03:25+00:00",
    "last_seen": "2026-11-12",
-   "price": 455.0
+   "price": 455.0,
+   "sold": false
   },
   "Michael's|https://michaelsconsignment.com/products/8674389328047": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-06T20:03:27+00:00",
    "last_seen": "2026-11-12",
-   "price": 570.0
+   "price": 570.0,
+   "sold": false
   },
   "Michael's|https://michaelsconsignment.com/products/8679023181999": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-25T20:23:48+00:00",
    "last_seen": "2026-11-12",
-   "price": 145.0
+   "price": 145.0,
+   "sold": false
   },
   "Midtown Archive|https://midtownarchive.com/products/15685986091168": {
    "first_run": 0,
@@ -2368,496 +3691,828 @@
    "price": 165.0
   },
   "Midtown Archive|https://midtownarchive.com/products/15686342049952": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:16:53+00:00",
    "last_seen": "2026-11-12",
-   "price": 160.0
+   "price": 160.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15686374850720": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:16:54+00:00",
    "last_seen": "2026-11-12",
-   "price": 210.0
+   "price": 210.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15686394282144": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:16:55+00:00",
    "last_seen": "2026-11-12",
-   "price": 175.0
+   "price": 175.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15686512869536": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:16:56+00:00",
    "last_seen": "2026-11-12",
-   "price": 190.0
+   "price": 190.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15686657900704": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:16:57+00:00",
    "last_seen": "2026-11-12",
-   "price": 170.0
+   "price": 170.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15686658195616": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:16:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 185.0
+   "price": 185.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15686708002976": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 115.0
+   "price": 115.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15686736740512": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 155.0
+   "price": 155.0,
+   "sold": false
   },
   "Midtown Archive|https://midtownarchive.com/products/15686784843936": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:02+00:00",
    "last_seen": "2026-11-12",
-   "price": 165.0
+   "price": 165.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687057440928": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:03+00:00",
    "last_seen": "2026-11-12",
-   "price": 175.0
+   "price": 175.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687065698464": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687066026144": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:05+00:00",
    "last_seen": "2026-11-12",
-   "price": 440.0
+   "price": 440.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687067238560": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:06+00:00",
    "last_seen": "2026-11-12",
-   "price": 480.0
+   "price": 480.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687078215840": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687080378528": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:09+00:00",
    "last_seen": "2026-11-12",
-   "price": 330.0
+   "price": 330.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687095025824": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 255.0
+   "price": 255.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687099449504": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:11+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687099646112": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 170.0
+   "price": 170.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15687101153440": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:14+00:00",
    "last_seen": "2026-11-12",
-   "price": 140.0
+   "price": 140.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15928091082912": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:15+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15928942854304": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:16+00:00",
    "last_seen": "2026-11-12",
-   "price": 190.0
+   "price": 190.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15929031753888": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:17+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": true
   },
   "Midtown Archive|https://midtownarchive.com/products/15929037422752": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:18+00:00",
    "last_seen": "2026-11-12",
-   "price": 180.0
+   "price": 180.0,
+   "sold": false
   },
   "Midtown Archive|https://midtownarchive.com/products/15971820929184": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T22:14:34+00:00",
    "last_seen": "2026-11-12",
-   "price": 135.0
+   "price": 135.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971822796960": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-12T22:32:46+00:00",
+   "last_seen": "2026-11-12",
+   "price": 265.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/15394955362534": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-27T00:35:33+00:00",
    "last_seen": "2026-11-12",
-   "price": 950.0
+   "price": 950.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/15400418017510": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-02T18:37:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/15405697597670": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-09T23:22:57+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/15425679130854": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-17T21:21:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/15470222213350": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-31T20:27:14+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/9697741340902": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-05-01T00:22:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9697741471974": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-01T22:40:42+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/9697743995110": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-04-28T23:55:07+00:00",
    "last_seen": "2026-11-12",
-   "price": 900.0
+   "price": 900.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/9704908161254": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-04-30T22:38:09+00:00",
    "last_seen": "2026-11-12",
-   "price": 480.0
+   "price": 480.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9716529856742": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-06T22:19:33+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9719129702630": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-10T21:15:22+00:00",
    "last_seen": "2026-11-12",
-   "price": 320.0
+   "price": 320.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9722026328294": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-17T20:48:32+00:00",
    "last_seen": "2026-11-12",
-   "price": 585.0
+   "price": 585.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/9724988424422": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-17T20:54:25+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9730112782566": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-26T22:25:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 425.0
+   "price": 425.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9730115698918": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-26T22:39:29+00:00",
    "last_seen": "2026-11-12",
-   "price": 165.0
+   "price": 165.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9747279610086": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-10T22:25:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9758295261414": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-25T23:15:32+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9759774376166": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-27T00:19:56+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9808519364838": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-07T03:38:05+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9810554192102": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-09T19:52:42+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9810564415718": {
+   "category": "Bottoms",
+   "colours": [
+    "Green"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-09T23:50:26+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9817596133606": {
+   "category": "Other",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-14T21:25:48+00:00",
    "last_seen": "2026-11-12",
-   "price": 1600.0
+   "price": 1600.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/9830876643558": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-29T23:20:36+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": true
   },
   "Performa|https://performaatlanta.com/products/9838573945062": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-06T22:22:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Performa|https://performaatlanta.com/products/9851776860390": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-12T17:40:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": true
   },
   "Pilgrim|https://pilgrimnyc.com/products/15018392158368": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2025-02-08T16:31:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 290.0
+   "price": 290.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15176609857696": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-16T19:43:07+00:00",
    "last_seen": "2026-11-12",
-   "price": 320.0
+   "price": 320.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15177543614624": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-17T16:46:32+00:00",
    "last_seen": "2026-11-12",
-   "price": 210.0
+   "price": 210.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15187234390176": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-27T15:29:54+00:00",
    "last_seen": "2026-11-12",
-   "price": 290.0
+   "price": 290.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15187250282656": {
+   "category": "Dresses",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-27T15:53:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 320.0
+   "price": 320.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15189427945632": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-30T14:53:02+00:00",
    "last_seen": "2026-11-12",
-   "price": 240.0
+   "price": 240.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15189428961440": {
+   "category": "Dresses",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-30T15:04:17+00:00",
    "last_seen": "2026-11-12",
-   "price": 290.0
+   "price": 290.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15189438202016": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-30T15:46:19+00:00",
    "last_seen": "2026-11-12",
-   "price": 9938393627.0
+   "price": 9938393627.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15192389288096": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2025-10-02T16:40:41+00:00",
    "last_seen": "2026-11-12",
-   "price": 390.0
+   "price": 390.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15209626042528": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2025-10-22T18:02:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 250.0
+   "price": 250.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15209632923808": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2025-10-22T18:25:48+00:00",
    "last_seen": "2026-11-12",
-   "price": 240.0
+   "price": 240.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15244092539040": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey",
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2025-11-30T16:09:14+00:00",
    "last_seen": "2026-11-12",
-   "price": 230.0
+   "price": 230.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15664609853600": {
+   "category": "Dresses",
+   "colours": [
+    "Green"
+   ],
    "first_run": 0,
    "first_seen": "2026-04-15T19:58:03+00:00",
    "last_seen": "2026-11-12",
-   "price": 280.0
+   "price": 280.0,
+   "sold": false
   },
   "Pilgrim|https://pilgrimnyc.com/products/15813951291552": {
+   "category": "Dresses",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-05T14:04:16+00:00",
    "last_seen": "2026-11-12",
-   "price": 190.0
+   "price": 190.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/10178369323264": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-17T00:39:07+00:00",
    "last_seen": "2026-11-12",
-   "price": 750.0
+   "price": 750.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9117866885376": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-04T19:50:09+00:00",
    "last_seen": "2026-11-12",
-   "price": 4200.0
+   "price": 4200.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9118333665536": {
+   "category": "Outerwear",
+   "colours": [
+    "Purple"
+   ],
    "first_run": 0,
    "first_seen": "2025-07-21T18:50:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 1800.0
+   "price": 1800.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9162210541824": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-04T19:47:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 950.0
+   "price": 950.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9162219880704": {
+   "category": "Dresses",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-04T20:11:07+00:00",
    "last_seen": "2026-11-12",
-   "price": 2400.0
+   "price": 2400.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9162225877248": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-04T20:24:37+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9162230333696": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-04T20:44:02+00:00",
    "last_seen": "2026-11-12",
-   "price": 2600.0
+   "price": 2600.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9162235543808": {
+   "category": "Dresses",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-04T21:05:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 0.0
+   "price": 0.0,
+   "sold": true
   },
   "Resurrection|https://resurrectionvintage.com/products/9162259628288": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-04T21:25:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 2600.0
+   "price": 2600.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9162341613824": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2025-09-04T21:58:52+00:00",
    "last_seen": "2026-11-12",
-   "price": 0.0
+   "price": 0.0,
+   "sold": true
   },
   "Resurrection|https://resurrectionvintage.com/products/9190748094720": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2025-10-27T22:43:22+00:00",
    "last_seen": "2026-11-12",
-   "price": 4200.0
+   "price": 4200.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9192003928320": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2025-11-18T00:00:29+00:00",
    "last_seen": "2026-11-12",
-   "price": 2600.0
+   "price": 2600.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9249467367680": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2025-11-24T22:37:26+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9362061852928": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-02-27T15:44:22+00:00",
    "last_seen": "2026-11-12",
-   "price": 1200.0
+   "price": 1200.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9362572050688": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey",
+    "Green"
+   ],
    "first_run": 0,
    "first_seen": "2026-02-27T15:46:18+00:00",
    "last_seen": "2026-11-12",
-   "price": 1800.0
+   "price": 1800.0,
+   "sold": false
   },
   "Resurrection|https://resurrectionvintage.com/products/9367336321280": {
+   "category": "Dresses",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-03-06T00:10:18+00:00",
    "last_seen": "2026-11-12",
-   "price": 0.0
+   "price": 0.0,
+   "sold": true
   },
   "Sad\u014d Room|https://sadoroom.com/products/10232242438214": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-02T20:00:31+00:00",
    "last_seen": "2026-11-12",
-   "price": 170.0
+   "price": 170.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/10255124267078": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T20:01:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/10255141666886": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T20:01:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/10304534708294": {
    "first_run": 0,
@@ -2866,22 +4521,37 @@
    "price": 160.0
   },
   "Sad\u014d Room|https://sadoroom.com/products/10304534741062": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:54:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/10304549027910": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:54:45+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/10304549945414": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:54:46+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/10304551780422": {
    "first_run": 0,
@@ -2890,10 +4560,15 @@
    "price": 120.0
   },
   "Sad\u014d Room|https://sadoroom.com/products/10304552730694": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:54:49+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/10305096417350": {
    "first_run": 0,
@@ -2902,52 +4577,90 @@
    "price": 1200.0
   },
   "Sad\u014d Room|https://sadoroom.com/products/7895910121542": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 320.0
+   "price": 320.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8133946277958": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8272104226886": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8272107929670": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 240.0
+   "price": 240.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8308329283654": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T02:12:03+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8419372564550": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:58:52+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8462960197702": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-10T20:09:40+00:00",
    "last_seen": "2026-11-12",
-   "price": 360.0
+   "price": 360.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8462985396294": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-10T20:09:45+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8513238564934": {
    "first_run": 0,
@@ -2956,34 +4669,59 @@
    "price": 450.0
   },
   "Sad\u014d Room|https://sadoroom.com/products/8513244659782": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-21T20:03:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8520200323142": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-08-28T20:09:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 750.0
+   "price": 750.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8545046429766": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-11T19:59:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8545051410502": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-11T19:59:29+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8545064616006": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-11T19:59:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8562955911238": {
    "first_run": 0,
@@ -2992,34 +4730,59 @@
    "price": 550.0
   },
   "Sad\u014d Room|https://sadoroom.com/products/8562956795974": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8562957025350": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8562957058118": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8562957090886": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:31+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Sad\u014d Room|https://sadoroom.com/products/8562957221958": {
+   "category": "Other",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:32+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10624213451039": {
    "first_run": 0,
@@ -3100,94 +4863,172 @@
    "price": 650.0
   },
   "Shop Status|https://shopstatus.store/products/10652199747871": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-21T18:38:39+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10658266087711": {
+   "category": "Footwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-24T22:01:43+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10659453436191": {
+   "category": "Bottoms",
+   "colours": [
+    "Green"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-25T16:07:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10659454779679": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-25T16:07:43+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10659566453023": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-25T17:21:45+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10667114496287": {
+   "category": "Bottoms",
+   "colours": [
+    "Green"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-30T17:38:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10667312480543": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-30T23:53:57+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10667962958111": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "Blue"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-31T18:26:17+00:00",
    "last_seen": "2026-11-12",
-   "price": 750.0
+   "price": 750.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10667966628127": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-31T18:36:46+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10674777850143": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-03T16:53:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10674781716767": {
+   "category": "Footwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-03T16:58:49+00:00",
    "last_seen": "2026-11-12",
-   "price": 1000.0
+   "price": 1000.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10681516261663": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-07T17:47:52+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10682326843679": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10682327367967": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10682328580383": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Grey"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10682344898847": {
    "first_run": 1,
@@ -3196,364 +5037,628 @@
    "price": 600.0
   },
   "Shop Status|https://shopstatus.store/products/10682348077343": {
+   "category": "Footwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10682353385759": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10684899229983": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10684902244639": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10684906570015": {
+   "category": "Footwear",
+   "colours": [
+    "Yellow"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10684913680671": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Red"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10684989767967": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 750.0
+   "price": 750.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10684990521631": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10686968791327": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Shop Status|https://shopstatus.store/products/10687101600031": {
+   "category": "Footwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
-   "price": 1200.0
+   "price": 1200.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10398536270143": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-16T18:33:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10490471612735": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-03T17:43:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 300.0
+   "price": 300.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10497876590911": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-07-08T20:30:46+00:00",
    "last_seen": "2026-11-12",
-   "price": 160.0
+   "price": 160.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10512196632895": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-15T21:45:15+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10522274070847": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-20T17:26:47+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10584212144447": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-22T17:11:35+00:00",
    "last_seen": "2026-11-12",
-   "price": 115.0
+   "price": 115.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10584226627903": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-22T17:08:40+00:00",
    "last_seen": "2026-11-12",
-   "price": 1100.0
+   "price": 1100.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10585961005375": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-22T18:41:39+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10587086094655": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-23T19:54:27+00:00",
    "last_seen": "2026-11-12",
-   "price": 360.0
+   "price": 360.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10587375894847": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-23T21:44:07+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10595133456703": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-27T17:21:52+00:00",
    "last_seen": "2026-11-12",
-   "price": 150.0
+   "price": 150.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10635334222143": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-09-16T18:13:46+00:00",
    "last_seen": "2026-11-12",
-   "price": 1750.0
+   "price": 1750.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10642364399935": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-20T17:20:16+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10650811990335": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-23T22:07:13+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10650851311935": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-23T22:09:29+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10654570381631": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-25T20:29:59+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/10654573363519": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-25T20:25:12+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/15402024173887": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-29T22:17:41+00:00",
    "last_seen": "2026-11-12",
-   "price": 475.0
+   "price": 475.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/15409197646143": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-03T22:00:27+00:00",
    "last_seen": "2026-11-12",
-   "price": 275.0
+   "price": 275.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/15410631868735": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-06T19:26:07+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/15410644320575": {
+   "category": "Tops",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-06T19:54:52+00:00",
    "last_seen": "2026-11-12",
-   "price": 225.0
+   "price": 225.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/15427072000319": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-13T16:16:09+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/15440183755071": {
+   "category": "Dresses",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-15T18:12:03+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/15490089845055": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-03T23:45:24+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": false
   },
   "Street Commerce|https://streetcommerce.shop/products/15504785735999": {
+   "category": "Bottoms",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-08T21:59:14+00:00",
    "last_seen": "2026-11-12",
-   "price": 550.0
+   "price": 550.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15409973887230": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-03T20:08:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 951.0
+   "price": 951.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15410469044478": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-01T19:00:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 1732.0
+   "price": 1732.0,
+   "sold": true
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15410469175550": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-01T19:00:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 1732.0
+   "price": 1732.0,
+   "sold": true
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15410497257726": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-01T21:00:27+00:00",
    "last_seen": "2026-11-12",
-   "price": 424.0
+   "price": 424.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15410497650942": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-01T21:04:55+00:00",
    "last_seen": "2026-11-12",
-   "price": 613.0
+   "price": 613.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15410499780862": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-01T21:15:04+00:00",
    "last_seen": "2026-11-12",
-   "price": 613.0
+   "price": 613.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15410546704638": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-01T22:15:46+00:00",
    "last_seen": "2026-11-12",
-   "price": 723.0
+   "price": 723.0,
+   "sold": true
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15410547196158": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-01T22:22:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 358.0
+   "price": 358.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15410547687678": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-07T23:49:46+00:00",
    "last_seen": "2026-11-12",
-   "price": 424.0
+   "price": 424.0,
+   "sold": true
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15410575016190": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-01T23:26:29+00:00",
    "last_seen": "2026-11-12",
-   "price": 358.0
+   "price": 358.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15419778007294": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-11T17:59:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 1391.0
+   "price": 1391.0,
+   "sold": true
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15422620074238": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-12T18:00:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 951.0
+   "price": 951.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15422620401918": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-12T18:00:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 723.0
+   "price": 723.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15422620729598": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-12T18:00:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 723.0
+   "price": 723.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15422621188350": {
+   "category": "Outerwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-12T18:00:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 951.0
+   "price": 951.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15423519031550": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-13T00:16:19+00:00",
    "last_seen": "2026-11-12",
-   "price": 2502.0
+   "price": 2502.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15423528861950": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-13T00:27:14+00:00",
    "last_seen": "2026-11-12",
-   "price": 2062.0
+   "price": 2062.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15425635516670": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-13T23:06:27+00:00",
    "last_seen": "2026-11-12",
-   "price": 5043.0
+   "price": 5043.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15425675034878": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-18T04:21:38+00:00",
    "last_seen": "2026-11-12",
-   "price": 401.0
+   "price": 401.0,
+   "sold": true
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15427585442046": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-14T23:19:00+00:00",
    "last_seen": "2026-11-12",
-   "price": 1292.0
+   "price": 1292.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15427585966334": {
+   "category": "Outerwear",
+   "colours": [
+    "Yellow"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-14T00:46:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 1292.0
+   "price": 1292.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15429212700926": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-15T22:56:21+00:00",
    "last_seen": "2026-11-12",
-   "price": 1281.0
+   "price": 1281.0,
+   "sold": true
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15469040009470": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "White",
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-29T21:49:09+00:00",
    "last_seen": "2026-11-12",
-   "price": 1622.0
+   "price": 1622.0,
+   "sold": true
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15478709944574": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-02T22:55:21+00:00",
    "last_seen": "2026-11-12",
-   "price": 580.0
+   "price": 580.0,
+   "sold": false
   },
   "Sui Generis|https://suigenerisconsignment.com/products/15487281103102": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-05T22:45:05+00:00",
    "last_seen": "2026-11-12",
-   "price": 712.0
+   "price": 712.0,
+   "sold": false
   },
   "Tokio 7|https://tokio7ny.com/products/15482578960611": {
    "first_run": 0,
