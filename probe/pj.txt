@@ -1,23 +1,51 @@
-Luke's             rf-UA 200 application/json; charset=utf-8 0.3s -> 111
-Luke's             browserUA 200 application/json; charset=utf-8 0.2s -> 111
-Marco Sqrd         rf-UA 200 application/json; charset=utf-8 0.4s -> 65
-Marco Sqrd         browserUA 200 application/json; charset=utf-8 0.1s -> 65
-Final Blow         rf-UA 200 application/json; charset=utf-8 0.7s -> 250
-Final Blow         browserUA 200 application/json; charset=utf-8 0.2s -> 250
-Tokio 7            rf-UA 200 application/json; charset=utf-8 0.7s -> 250
-Tokio 7            browserUA 200 application/json; charset=utf-8 0.3s -> 250
-Sui Generis        rf-UA 200 application/json; charset=utf-8 0.6s -> 182
-Sui Generis        browserUA 200 application/json; charset=utf-8 0.5s -> 182
-Sadō Room          rf-UA 200 application/json; charset=utf-8 0.2s -> 25
-Sadō Room          browserUA 200 application/json; charset=utf-8 0.1s -> 25
-Archive On Waters  rf-UA 200 application/json; charset=utf-8 0.3s -> 62
-Archive On Waters  browserUA 200 application/json; charset=utf-8 0.1s -> 62
-Shop Status        rf-UA 200 application/json; charset=utf-8 0.5s -> 107
-Shop Status        browserUA 200 application/json; charset=utf-8 0.2s -> 107
-Street Commerce    rf-UA 200 application/json; charset=utf-8 0.3s -> 34
-Street Commerce    browserUA 200 application/json; charset=utf-8 0.1s -> 34
-LUXE MIA           rf-UA 200 application/json; charset=utf-8 0.5s -> 118
-LUXE MIA           browserUA 200 application/json; charset=utf-8 0.2s -> 118
-Performa           rf-UA 200 application/json; charset=utf-8 0.3s -> 25
-Performa           browserUA 200 application/json; charset=utf-8 0.1s -> 25
-fetch_details Sui Generis: 364 keys; atom items 25
+Luke's             items 25 sold 2 colours 25 err None
+Marco Sqrd         items 25 sold 7 colours 15 err None
+Final Blow         items 6 sold 0 colours 1 err None
+Tokio 7            items 0 sold 0 colours 0 err None
+Sui Generis        items 25 sold 8 colours 24 err None
+Sadō Room          items 25 sold 0 colours 24 err None
+Archive On Waters  items 25 sold 21 colours 25 err None
+Shop Status        items 25 sold 0 colours 23 err None
+Luxury Box ATL     items 45 sold 14 colours 44 err None
+Groupie            items 25 sold 0 colours 25 err None
+Archived           items 25 sold 0 colours 0 err None
+Justin Reed        items 50 sold 27 colours 49 err None
+Midtown Archive    items 25 sold 22 colours 1 err None
+Descry Archive     items 12 sold 4 colours 0 err None
+2nd Street         items 25 sold 2 colours 22 err None
+Resurrection       items 16 sold 3 colours 15 err None
+Pilgrim            items 14 sold 0 colours 13 err None
+Michael's          items 6 sold 0 colours 6 err None
+Graceful Misfits   items 14 sold 10 colours 13 err None
+Street Commerce    items 25 sold 0 colours 4 err None
+LUXE MIA           items 25 sold 0 colours 22 err None
+Performa           items 25 sold 16 colours 4 err None
+
+OK   https://lukes.store/collections/rick-owens/products.json?limit=250&page=1 -> 111
+OK   https://marcosqrd.com/collections/rick-owens_smart/products.json?limit=250&page=1 -> 65
+OK   https://www.finalblowchicago.com/collections/all/products.json?limit=250&page=1 -> 250
+OK   https://www.finalblowchicago.com/collections/all/products.json?limit=250&page=2 -> 250
+OK   https://www.finalblowchicago.com/collections/all/products.json?limit=250&page=3 -> 250
+OK   https://www.finalblowchicago.com/collections/all/products.json?limit=250&page=4 -> 250
+OK   https://suigenerisconsignment.com/collections/rick-owens/products.json?limit=250&page=1 -> 182
+OK   https://sadoroom.com/collections/rick-owens/products.json?limit=250&page=1 -> 25
+OK   https://archiveonwaters.store/collections/rick-owens-1/products.json?limit=250&page=1 -> 62
+OK   https://shopstatus.store/collections/rick-owens-1/products.json?limit=250&page=1 -> 107
+OK   https://luxuryboxatl.com/collections/rick-owens/products.json?limit=250&page=1 -> 250
+OK   https://luxuryboxatl.com/collections/rick-owens-drkshdw/products.json?limit=250&page=1 -> 92
+OK   https://groupie.store/collections/rick-owens/products.json?limit=250&page=1 -> 58
+OK   https://archived.co/collections/rick-owens/products.json?limit=250&page=1 -> 29
+OK   https://justinreed.com/collections/rick-owens/products.json?limit=250&page=1 -> 212
+OK   https://justinreed.com/collections/rick-owens-drkshdw/products.json?limit=250&page=1 -> 106
+OK   https://midtownarchive.com/collections/rick-owens/products.json?limit=250&page=1 -> 142
+OK   https://www.descryarchive.com/collections/rick-owens/products.json?limit=250&page=1 -> 12
+OK   https://ec.2ndstreetusa.com/collections/rick-raf/products.json?limit=250&page=1 -> 250
+OK   https://ec.2ndstreetusa.com/collections/rick-raf/products.json?limit=250&page=2 -> 229
+OK   https://resurrectionvintage.com/collections/rick-owens/products.json?limit=250&page=1 -> 16
+OK   https://pilgrimnyc.com/collections/45rpm/products.json?limit=250&page=1 -> 14
+OK   https://michaelsconsignment.com/collections/rick-owens/products.json?limit=250&page=1 -> 6
+OK   https://gracefulmisfits.com/collections/mainline/products.json?limit=250&page=1 -> 9
+OK   https://gracefulmisfits.com/collections/drkshdw/products.json?limit=250&page=1 -> 5
+OK   https://streetcommerce.shop/collections/rick-owens/products.json?limit=250&page=1 -> 34
+OK   https://luxemia.net/collections/rick-owens-2/products.json?limit=250&page=1 -> 118
+OK   https://performaatlanta.com/collections/rick-owens/products.json?limit=250&page=1 -> 25
