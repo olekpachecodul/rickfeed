@@ -1,0 +1,537 @@
+{
+ "archivevintage.com": {
+  "meta": {
+   "name": "ARCHIVE",
+   "city": "Austin",
+   "province": "Texas",
+   "country": "US",
+   "currency": "USD"
+  },
+  "shopify": true,
+  "collections": [
+   {
+    "handle": "patrick-kelly",
+    "title": "PATRICK KELLY",
+    "products": 1,
+    "rick": 0,
+    "rick_available": 0,
+    "newest": "2021-08-30",
+    "atom_items": 1,
+    "vendors": [
+     [
+      "Patrick Kelly",
+      1
+     ]
+    ]
+   }
+  ],
+  "search_rick_hits": 0,
+  "all_atom_rick": 0
+ },
+ "thearchivela.net": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "sundaynightmare.com": {
+  "meta": {
+   "name": "Sundaynightmare",
+   "city": "Maha Phruttharam, Bang Rak",
+   "province": "Bangkok",
+   "country": "TH",
+   "currency": "USD"
+  },
+  "shopify": true,
+  "collections": [
+   {
+    "handle": "rick-owens",
+    "title": "RICK OWENS",
+    "products": 41,
+    "rick": 41,
+    "rick_available": 41,
+    "newest": "2026-09-28",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Rick Owens",
+      41
+     ]
+    ]
+   }
+  ],
+  "search_rick_hits": 10,
+  "all_atom_rick": 0
+ },
+ "dusty-archive.com": {
+  "meta": {
+   "name": "Dusty Archive",
+   "city": "Kowloon City",
+   "province": "Kowloon",
+   "country": "HK",
+   "currency": "USD"
+  },
+  "shopify": true,
+  "collections": [
+   {
+    "handle": "rick-owens",
+    "title": "Rick Owens",
+    "products": 105,
+    "rick": 105,
+    "rick_available": 29,
+    "newest": "2024-12-13",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Rick Owens",
+      105
+     ]
+    ]
+   }
+  ],
+  "search_rick_hits": 10,
+  "all_atom_rick": 0
+ },
+ "crybynoon.com": {
+  "meta": {
+   "name": "Crybynoon Archive",
+   "city": "Pasadena",
+   "province": "Maryland",
+   "country": "US",
+   "currency": "USD"
+  },
+  "shopify": true,
+  "collections": [
+   {
+    "handle": "rick-owens",
+    "title": "Rick Owens",
+    "products": 53,
+    "rick": 53,
+    "rick_available": 42,
+    "newest": "2026-10-26",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Crybynoon Archive",
+      52
+     ],
+     [
+      "My Store",
+      1
+     ]
+    ]
+   }
+  ],
+  "search_rick_hits": 10,
+  "all_atom_rick": 8
+ },
+ "269archive.com": {
+  "meta": {
+   "name": "269Archive",
+   "city": "Kalamazoo",
+   "province": "Michigan",
+   "country": "US",
+   "currency": "USD"
+  },
+  "shopify": true,
+  "collections": [],
+  "search_rick_hits": 10,
+  "all_atom_rick": 0
+ },
+ "nationalbunker.store": {
+  "meta": {
+   "name": "Nationalbunker",
+   "city": "Thierachern",
+   "province": null,
+   "country": "CH",
+   "currency": "CHF"
+  },
+  "shopify": true,
+  "collections": [
+   {
+    "handle": "rick-owens-1",
+    "title": "Rick Owens",
+    "products": 11,
+    "rick": 11,
+    "rick_available": 5,
+    "newest": "2026-10-22",
+    "atom_items": 11,
+    "vendors": [
+     [
+      "Rick Owens",
+      8
+     ],
+     [
+      "Rick Owens DRKSHDW",
+      3
+     ]
+    ]
+   },
+   {
+    "handle": "rick-owens-drkshdw",
+    "title": "Rick Owens DRKSHDW",
+    "products": 3,
+    "rick": 3,
+    "rick_available": 0,
+    "newest": "2026-10-22",
+    "atom_items": 3,
+    "vendors": [
+     [
+      "Rick Owens DRKSHDW",
+      3
+     ]
+    ]
+   }
+  ],
+  "search_rick_hits": 10,
+  "all_atom_rick": 3
+ },
+ "murderarchive.store": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "endyma.com": {
+  "meta": {
+   "name": "ENDYMA",
+   "city": "Berlin",
+   "province": "",
+   "country": "DE",
+   "currency": "EUR"
+  },
+  "shopify": true,
+  "collections": [
+   {
+    "handle": "rick-owens",
+    "title": "Rick Owens",
+    "products": 3,
+    "rick": 3,
+    "rick_available": 0,
+    "newest": "2013-11-23",
+    "atom_items": 3,
+    "vendors": [
+     [
+      "Rick Owens",
+      3
+     ]
+    ]
+   }
+  ],
+  "search_rick_hits": 3,
+  "all_atom_rick": 0
+ },
+ "coup-de-grace.net": {
+  "meta": {
+   "name": "Final Blow",
+   "city": "Chicago",
+   "province": "Illinois",
+   "country": "US",
+   "currency": "USD"
+  },
+  "shopify": true,
+  "collections": [],
+  "search_rick_hits": 10,
+  "all_atom_rick": 6
+ },
+ "armaniwells.com": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "HTTP Error 400: Bad Request"
+ },
+ "otherpeoplesclothes.shop": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "dolcevitahub.com": {
+  "meta": {
+   "name": "Dolce Vita Hub",
+   "city": "Montrouge",
+   "province": "",
+   "country": "FR",
+   "currency": "EUR"
+  },
+  "shopify": true,
+  "collections": [
+   {
+    "handle": "rick-owens",
+    "title": "Rick Owens",
+    "products": 34,
+    "rick": 34,
+    "rick_available": 34,
+    "newest": "2026-11-12",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Rick Owens",
+      34
+     ]
+    ]
+   }
+  ],
+  "search_rick_hits": 10,
+  "all_atom_rick": 0
+ },
+ "archivist.store": {
+  "meta": {
+   "name": "ARCHIVIST",
+   "city": "Markdorf",
+   "province": "",
+   "country": "DE",
+   "currency": "EUR"
+  },
+  "shopify": true,
+  "collections": [
+   {
+    "handle": "alpha-industries-outlet-strick-pullover",
+    "title": "Alpha Industries Outlet | Strick & Pullover",
+    "products": 43,
+    "rick": 0,
+    "rick_available": 0,
+    "newest": "2026-09-30",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Alpha Industries",
+      43
+     ]
+    ]
+   },
+   {
+    "handle": "ami-paris-outlet-strick-pullover",
+    "title": "Ami Paris Outlet | Strick & Pullover",
+    "products": 28,
+    "rick": 0,
+    "rick_available": 0,
+    "newest": "2026-11-12",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Ami Paris",
+      27
+     ],
+     [
+      "Ami paris",
+      1
+     ]
+    ]
+   },
+   {
+    "handle": "designer-outlet-strick",
+    "title": "Archive Sale | Strick & Pullover",
+    "products": 25,
+    "rick": 0,
+    "rick_available": 0,
+    "newest": "2026-11-11",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Hannes Roether",
+      6
+     ],
+     [
+      "Luisa Cerano",
+      5
+     ],
+     [
+      "Alexander McQueen",
+      3
+     ]
+    ]
+   },
+   {
+    "handle": "closed-outlet-strick-pullover-2",
+    "title": "CLOSED Outlet | Strick & Pullover",
+    "products": 38,
+    "rick": 0,
+    "rick_available": 0,
+    "newest": "2026-10-28",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Closed",
+      38
+     ]
+    ]
+   },
+   {
+    "handle": "damen-archive-strick-pullover",
+    "title": "Designer Strick & Pullover f\u00fcr Damen",
+    "products": 1000,
+    "rick": 0,
+    "rick_available": 0,
+    "newest": "2026-11-12",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Luisa Cerano",
+      184
+     ],
+     [
+      "Drykorn",
+      180
+     ],
+     [
+      "Riani",
+      120
+     ]
+    ]
+   },
+   {
+    "handle": "herren-archive-strick-pullover",
+    "title": "Designer Strick & Pullover f\u00fcr Herren",
+    "products": 398,
+    "rick": 0,
+    "rick_available": 0,
+    "newest": "2026-11-12",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Drykorn",
+      99
+     ],
+     [
+      "Van Laack",
+      53
+     ],
+     [
+      "Alpha Industries",
+      33
+     ]
+    ]
+   },
+   {
+    "handle": "dorothee-schumacher-strick",
+    "title": "Dorothee Schumacher Outlet | Strick & Pullover",
+    "products": 47,
+    "rick": 0,
+    "rick_available": 0,
+    "newest": "2026-11-12",
+    "atom_items": 25,
+    "vendors": [
+     [
+      "Dorothee Schumacher",
+      47
+     ]
+    ]
+   }
+  ],
+  "search_rick_hits": 1,
+  "all_atom_rick": 0
+ },
+ "gunmetalarchive.com": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ "recessla.com": {
+  "meta": {
+   "name": "Recess",
+   "city": "Los Angeles",
+   "province": "California",
+   "country": "US",
+   "currency": "USD"
+  },
+  "shopify": true,
+  "collections": [],
+  "search_rick_hits": 7,
+  "all_atom_rick": 0
+ },
+ "gentlemensresale.com": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "guild3.com": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "archivesf.com": {
+  "meta": {
+   "name": "The Archive",
+   "city": "San Francisco",
+   "province": "California",
+   "country": "US",
+   "currency": "USD"
+  },
+  "shopify": true,
+  "collections": [],
+  "search_rick_hits": 5,
+  "all_atom_rick": 0
+ },
+ "tarnishedarchive.com": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "6ixarchive.com": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "HTTP Error 522: <none>"
+ },
+ "rentonarchives.com": {
+  "meta": {
+   "name": null,
+   "city": null,
+   "province": null,
+   "country": null,
+   "currency": null
+  },
+  "shopify": false,
+  "error": "<urlopen error [Errno -2] Name or service not known>"
+ }
+}
