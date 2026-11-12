@@ -1,0 +1,40 @@
+## https://kurb.online/vendors -> 200 text/html; charset=utf-8 len=1058567
+   sitemaps/sample: http://www.w3.org/2000/svg | https://000000000000000000.stores.jp\ | https://100percerti.co.uk\ | https://17-21archives.com\ | https://1999store.official.ec\ | https://247archives.online\ | https://269archive.com\ | https://2ndneighbour.stores.jp\
+   vendor-ish: /shop/files | /shop/t | /store/2die4-archive | /store/archives | /store/axis-london | /store/cool-plus | /store/denimgod | /store/erobin | /store/for-the-soup | /store/freestyler-dryriser | /store/gr8shop | /store/gunmetal-archive | /store/haut-corporation | /store/kitchen | /store/mellow-madrid
+   head: <!DOCTYPE html><html lang="en" class="C697YG_variable i9twFG_variable"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover"/><link rel="preload" href="/_next/static/media/48eea41d8317494f-s.p.0wiir8ud
+## https://kurb.online/sitemap.xml -> 200 application/xml len=111657
+   sitemaps/sample: http://www.sitemaps.org/schemas/sitemap/0.9
+   vendor-ish: /vendors/100percerti | /vendors/103-vintage | /vendors/1036 | /vendors/17th-street | /vendors/1999-used-clothing-store | /vendors/1st-dibs | /vendors/1ten | /vendors/2049-ltd | /vendors/247-archives | /vendors/269-archive | /vendors/2die4archive | /vendors/2ndstreet | /vendors/2ndstreet-my | /vendors/2ndstreet-tw | /vendors/2ndstreetusa
+   head: <?xml version="1.0" encoding="UTF-8"?> <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> <url> <loc>https://kurb.online</loc> </url> <url> <loc>https://kurb.online/search</loc> </url> <url> <loc>https://kurb.online/spotlight</loc> </url> <url> <loc>https://ku
+## https://kurb.online/robots.txt -> 200 text/plain len=376
+   sitemaps/sample: https://kurb.online/sitemap.xml
+   vendor-ish: 
+   head: User-Agent: * Disallow: /api/ Disallow: /profile Disallow: /plans User-Agent: GPTBot User-Agent: ChatGPT-User User-Agent: ClaudeBot User-Agent: Claude-Web User-Agent: PerplexityBot User-Agent: Googlebot-Extended User-Agent: CCBot User-Agent: cohere-ai Allow: / Allow: /search/product/ Disallow: / U
+## https://kurb.online/products.json?limit=1 -> ERR HTTP Error 404: Not Found len=0
+   sitemaps/sample: 
+   vendor-ish: 
+   head: 
+## https://variousarchives.com/sitemap.xml -> 200 application/xml len=1524837
+   sitemaps/sample: http://www.sitemaps.org/schemas/sitemap/0.9
+   vendor-ish: /sellers/247archives | /sellers/amadeus-archive | /sellers/aria-haia | /sellers/ascensio-vintage | /sellers/azyr-specs | /sellers/blessed-image | /sellers/claude-archives | /sellers/house-of-magica | /sellers/house-on-a-chain | /sellers/poesy-vintage | /sellers/recente-studio | /sellers/second-donk | /sellers/sevenstar-clothing | /sellers/sovain-vintage | /sellers/studio-resale
+   head: <?xml version="1.0" encoding="UTF-8"?> <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"> <url> <loc>https://variousarchives.com/</loc> <xhtml:link rel="alternate" hreflang="en" href="https://variousarchives.com/" /> <xhtml:link rel="alternate" hr
+## https://variousarchives.com/robots.txt -> 200 text/plain; charset=utf-8 len=2767
+   sitemaps/sample: https://variousarchives.com/sitemap.xml
+   vendor-ish: 
+   head: # As a condition of accessing this website, you agree to abide by the following # content signals: # (a) If a Content-Signal = yes, you may collect content for the corresponding # use. # (b) If a Content-Signal = no, you may not collect content for the # corresponding use. # (c) If the
+## https://variousarchives.com/designers/rick-owens -> 200 text/html; charset=utf-8 len=502438
+   sitemaps/sample: http://www.w3.org/2000/svg | https://cdn.shopify.com | https://cdn.shopify.com/s/files/1/0532/6038/6502/files/Photoroom_001_20240904_184227.jpg?v=1725443508&amp;width=1200 | https://cdn.shopify.com/s/files/1/0532/6038/6502/files/Photoroom_001_20240904_184227.jpg?v=1725443508&amp;width=1920 | https://cdn.shopify.com/s/files/1/0532/6038/6502/files/Photoroom_001_20240904_184227.jpg?v=1725443508&amp;width=256 | https://cdn.shopify.com/s/files/1/0532/6038/6502/files/Photoroom_001_20240904_184227.jpg?v=1725443508&amp;width=384 | https://cdn.shopify.com/s/files/1/0532/6038/6502/files/Photoroom_001_20240904_184227.jpg?v=1725443508&amp;width=640 | https://cdn.shopify.com/s/files/1/0532/6038/6502/files/Photoroom_001_20240904_184227.jpg?v=1725443508&amp;width=828
+   vendor-ish: 
+   head: <!DOCTYPE html><html lang="en" class="inter_1ec0685a-module__ODW2ua__variable horizon_16eb05a2-module__GXGsCq__variable newsreader_ab277468-module__mwUVoW__variable"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" image
+## https://www.storageplatform.org/sitemap.xml -> 200 application/xml len=1279893
+   sitemaps/sample: http://www.sitemaps.org/schemas/sitemap/0.9
+   vendor-ish: /store/100 | /store/2DIE4 | /store/3 | /store/ADHOMINEM | /store/AMO | /store/ARIA | /store/AVERAGE | /store/AXIS | /store/AZAR | /store/ArchiveStudio22 | /store/Artefact | /store/Attagirl | /store/BAD | /store/BROTHER | /store/Black
+   head: <?xml version="1.0" encoding="UTF-8"?> <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> <url> <loc>https://www.storageplatform.org</loc> <lastmod>2026-11-12T20:40:52.743Z</lastmod> <changefreq>daily</changefreq> <priority>1</priority> </url> <url> <loc>https://www.storageplatform.org/abo
+## https://www.storageplatform.org/robots.txt -> 200 text/plain len=1562
+   sitemaps/sample: https://www.storageplatform.org/sitemap.xml
+   vendor-ish: 
+   head: User-Agent: * Allow: / Disallow: /api/ Disallow: /sign-in Disallow: /sign-up Disallow: /cart Disallow: /checkout Disallow: /account Disallow: /likes Disallow: /payment-success Disallow: /thankyou-for-your-purchase Disallow: /*?* User-Agent: GPTBot User-Agent: OAI-SearchBot User-Agent: ChatGPT-User 
+## https://www.storageplatform.org/designer/rick-owens -> 200 text/html; charset=utf-8 len=266951
+   sitemaps/sample: http://www.w3.org/2000/svg | https://clerk.storageplatform.org/npm/@clerk/clerk-js@5/dist/clerk.browser.js | https://d1t84xijak9ta1.cloudfront.net/product-animations/05a86d28-5981-4c8c-8744-a5f581922245.webp | https://d1t84xijak9ta1.cloudfront.net/product-animations/05a86d28-5981-4c8c-8744-a5f581922245.webp\ | https://d1t84xijak9ta1.cloudfront.net/product-animations/0c0c2f48-bf5a-43b1-8193-91dd98853dc3.webp\ | https://d1t84xijak9ta1.cloudfront.net/product-animations/4612d86c-0d6e-45ac-91ab-db6d2820b1e3.webp\ | https://d1t84xijak9ta1.cloudfront.net/product-animations/4a1693a9-83bb-4655-b818-11a63dc24ab3.webp\ | https://d1t84xijak9ta1.cloudfront.net/product-animations/549d0d25-2b30-4441-b31c-06891e03ff05.webp\
+   vendor-ish: 
+   head: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/><link rel="preload" as="image" href="https://d1t84xijak9ta1.cloudfront.net/product-animations/81faed3f-dea3-4baa-bb1d-9b42e655addf.webp"
