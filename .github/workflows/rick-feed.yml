@@ -24,18 +24,25 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: main   # always the latest, also when re-running an older run
 
       - name: Check the shops and build the page
         run: python3 rick_feed.py --site site --state data/state.json
 
       - name: Save what's been seen
+        continue-on-error: true   # never let this stop the page from publishing
         run: |
           if [ -n "$(git status --porcelain -- data)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data
             git commit -m "Update seen items"
-            git push
+            # main may have moved while the shops were checked (e.g. a SHOPS edit); this run's state wins.
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push origin HEAD:main && break
+              sleep 5
+            done
           fi
 
       - uses: actions/configure-pages@v6
