@@ -18,6 +18,7 @@ import json
 import re
 import ssl
 import sys
+import time
 import urllib.error
 import urllib.request
 import webbrowser
@@ -124,6 +125,7 @@ def colours_of(*texts):
 PRICE_DROP_DAYS = 7          # how long a price cut stays flagged
 FORGET_AFTER_DAYS = 60       # drop items from memory once unseen this long
 AVAIL_MAX_PAGES = 4          # pages of products.json read per feed to spot sold items
+DETAIL_RETRIES = (2, 6, 15)  # seconds to wait before each retry when Shopify refuses products.json
 USER_AGENT = "Mozilla/5.0 (compatible; RickFeed/1.0; personal feed reader)"
 
 HERE = Path(__file__).resolve().parent
@@ -268,14 +270,24 @@ def fetch_details(feed_url, wanted):
     {"available", "type", "colours"}}. Anything it can't find is left out;
     those items count as for sale and are classified from the feed alone."""
     if not feed_url.endswith(".atom"):
-        return {}
+        return {}, None
     base = feed_url[:-len(".atom")] + "/products.json?limit=250&page="
     details, remaining = {}, set(wanted)
     for page in range(1, AVAIL_MAX_PAGES + 1):
-        try:
-            products = json.loads(fetch_bytes(base + str(page))).get("products") or []
-        except Exception:
-            break
+        products, error = None, None
+        for wait in (0,) + DETAIL_RETRIES:  # Shopify sometimes refuses these from cloud servers; try again
+            time.sleep(wait)
+            try:
+                products = json.loads(fetch_bytes(base + str(page))).get("products") or []
+                break
+            except urllib.error.HTTPError as e:
+                error = f"error {e.code}"
+                if e.code not in (403, 429, 430) and e.code < 500:
+                    break
+            except Exception as e:
+                error = str(e)[:80] or e.__class__.__name__
+        if products is None:
+            return details, (error if page == 1 else None)
         for p in products:
             colour_opts = [i for i, o in enumerate(p.get("options") or [])
                            if re.match(r"colou?r", str(o.get("name", "")), re.I)]
@@ -295,7 +307,7 @@ def fetch_details(feed_url, wanted):
                     remaining.discard(k)
         if len(products) < 250 or not remaining:
             break
-    return details
+    return details, None
 
 
 def enrich(it, d):
@@ -308,20 +320,24 @@ def enrich(it, d):
 
 def fetch_shop(shop):
     feeds = shop["feed"] if isinstance(shop["feed"], list) else [shop["feed"]]
-    items, errors, seen_ids = [], [], set()
+    items, errors, seen_ids, lookup_errors = [], [], set(), []
     for url in feeds:
         got, err = fetch_one(shop, url)
         if err:
             errors.append(err)
-        details = fetch_details(url, {k for it in got for k in product_keys(it)}) if got else {}
+        details, lookup_err = fetch_details(url, {k for it in got for k in product_keys(it)}) if got else ({}, None)
+        if lookup_err:
+            lookup_errors.append(lookup_err)
         for it in got:
             found = [details[k] for k in product_keys(it) if k in details]
             enrich(it, found[0] if found else None)
+            it["_lookup_failed"] = bool(lookup_err)
         for it in got:
             if it["id"] not in seen_ids:
                 seen_ids.add(it["id"])
                 items.append(it)
     error = errors[0] if errors and len(errors) == len(feeds) else None
+    shop = dict(shop, lookup_error=lookup_errors[0] if lookup_errors else None)
     return shop, items, error
 
 
@@ -393,6 +409,8 @@ def main():
         for shop, items, err in pool.map(fetch_shop, SHOPS):
             sold = sum(1 for i in items if i.get("sold"))
             status = f"{len(items)} items, {sold} sold" if err is None else f"skipped: {err}"
+            if err is None and shop.get("lookup_error"):
+                status += f" (sold/colour lookup refused: {shop['lookup_error']}; using last known)"
             print(f"  {shop['name']:<18} {status}")
             results.append((shop, items, err))
 
@@ -418,6 +436,14 @@ def main():
                     mem["drop_at"] = run_iso
                 mem["price"] = it["price"]
             mem["last_seen"] = today
+            if it.pop("_lookup_failed", False):
+                # products.json was refused this run: keep what we knew last time
+                # rather than showing everything as unsold and uncoloured.
+                for f in ("sold", "category", "colours"):
+                    if f in mem:
+                        it[f] = mem[f]
+            else:
+                mem["sold"], mem["category"], mem["colours"] = it["sold"], it["category"], it["colours"]
             it["first_seen"] = mem["first_seen"]
             it["is_new"] = (not first_run) and mem.get("first_run") == run_no
             drop_at = parse_time(mem.get("drop_at"))
@@ -680,7 +706,7 @@ $("#line").addEventListener("input", () => { try { localStorage.setItem("rf-line
 const forSale = i => !$("#hideSold").checked || !i.sold;
 function renderMeta(){
   const newCount = DATA.items.filter(i => i.is_new && forSale(i)).length;
-  const parts = [SITE ? "Checked hourly" : "Updated", `Last check <b>${esc(when)}</b>`, `${DATA.items.length} listings`, `${okShops} shops`];
+  const parts = [`${SITE ? "Last check" : "Updated"} <b>${esc(when)}</b>`, `${DATA.items.length} listings`, `${okShops} shops`];
   if (SITE) parts.push(`<b>${newCount} new</b> since ${esc(fmt(baseline, SHORT))}`);
   else if (!DATA.first_run) parts.push(`<b>${newCount} new</b> since ${esc(fmt(DATA.previous, SHORT))}`);
   $("#meta").innerHTML = parts.map(p => `<span>${p}</span>`).join("");

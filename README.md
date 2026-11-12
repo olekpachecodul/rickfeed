@@ -1,7 +1,7 @@
 # Rick Feed
 
 The newest secondhand Rick Owens listings from US resale shops, in one page.
-GitHub checks every shop once an hour and republishes the page.
+GitHub checks every shop up to every 15 minutes and republishes the page. GitHub skips some scheduled runs when it's busy, so gaps can be longer; the page shows the time of the last check.
 
 - `rick_feed.py`: checks the shops and builds the page. The shop list is at the top.
 - `.github/workflows/rick-feed.yml`: the hourly schedule.
@@ -24,6 +24,11 @@ Rick's colour names are mapped to plain ones (Milk and Pearl are White, Dust is 
 Open `rick_feed.py` on GitHub, click the pencil icon, and edit the `SHOPS` list.
 For a Shopify shop the feed address is the shop's Rick Owens page address with `.atom` on the end.
 Commit the change and the site rebuilds within a minute.
+
+## When a shop refuses the sold/colour lookup
+
+Sold status, colour and category come from each shop's `products.json`, which Shopify occasionally refuses from GitHub's servers.
+The check retries a few times, and if it still fails it keeps what it knew from the last good check. The Actions log says "lookup refused" when that happens.
 
 ## Running it now
 

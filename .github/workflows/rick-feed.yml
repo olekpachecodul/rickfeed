@@ -2,7 +2,7 @@ name: Rick Feed
 
 on:
   schedule:
-    - cron: "17 * * * *"   # every hour, at 17 past
+    - cron: "7,22,37,52 * * * *"   # every 15 min, off the hour; GitHub skips some scheduled runs at busy times
   workflow_dispatch:        # lets you run it from the Actions tab
   push:
     branches: [main]
