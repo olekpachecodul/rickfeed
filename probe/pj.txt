@@ -1,0 +1,23 @@
+Luke's             rf-UA 200 application/json; charset=utf-8 0.3s -> 111
+Luke's             browserUA 200 application/json; charset=utf-8 0.2s -> 111
+Marco Sqrd         rf-UA 200 application/json; charset=utf-8 0.4s -> 65
+Marco Sqrd         browserUA 200 application/json; charset=utf-8 0.1s -> 65
+Final Blow         rf-UA 200 application/json; charset=utf-8 0.7s -> 250
+Final Blow         browserUA 200 application/json; charset=utf-8 0.2s -> 250
+Tokio 7            rf-UA 200 application/json; charset=utf-8 0.7s -> 250
+Tokio 7            browserUA 200 application/json; charset=utf-8 0.3s -> 250
+Sui Generis        rf-UA 200 application/json; charset=utf-8 0.6s -> 182
+Sui Generis        browserUA 200 application/json; charset=utf-8 0.5s -> 182
+Sadō Room          rf-UA 200 application/json; charset=utf-8 0.2s -> 25
+Sadō Room          browserUA 200 application/json; charset=utf-8 0.1s -> 25
+Archive On Waters  rf-UA 200 application/json; charset=utf-8 0.3s -> 62
+Archive On Waters  browserUA 200 application/json; charset=utf-8 0.1s -> 62
+Shop Status        rf-UA 200 application/json; charset=utf-8 0.5s -> 107
+Shop Status        browserUA 200 application/json; charset=utf-8 0.2s -> 107
+Street Commerce    rf-UA 200 application/json; charset=utf-8 0.3s -> 34
+Street Commerce    browserUA 200 application/json; charset=utf-8 0.1s -> 34
+LUXE MIA           rf-UA 200 application/json; charset=utf-8 0.5s -> 118
+LUXE MIA           browserUA 200 application/json; charset=utf-8 0.2s -> 118
+Performa           rf-UA 200 application/json; charset=utf-8 0.3s -> 25
+Performa           browserUA 200 application/json; charset=utf-8 0.1s -> 25
+fetch_details Sui Generis: 364 keys; atom items 25
