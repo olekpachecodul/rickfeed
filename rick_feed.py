@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Rick Feed: one page of the newest Rick Owens listings from US resale shops.
+Rick Feed: one page of the newest Rick Owens listings from resale shops (mostly US).
 
 Run it, and it downloads each shop's product feed, keeps the Rick Owens
 pieces, and opens rick-owens-feed.html in your browser. Run it again later
@@ -61,6 +61,13 @@ SHOPS = [
     {"name": "Street Commerce",   "city": "Charlotte",              "feed": "https://streetcommerce.shop/collections/rick-owens.atom",        "link": "https://streetcommerce.shop/collections/rick-owens"},
     {"name": "LUXE MIA",          "city": "Miami",                  "feed": "https://luxemia.net/collections/rick-owens-2.atom",              "link": "https://luxemia.net/collections/rick-owens-2"},
     {"name": "Performa",          "city": "Atlanta",                "feed": "https://performaatlanta.com/collections/rick-owens.atom",        "link": "https://performaatlanta.com/collections/rick-owens"},
+    # Outside the US. Prices are converted to USD on the page (original shown alongside).
+    {"name": "VSP Consignment",   "city": "Calgary, Canada",        "feed": "https://vspconsignment.com/collections/rick-owens.atom",         "link": "https://vspconsignment.com/en-us/collections/rick-owens"},
+    {"name": "DRIEW",             "city": "Toronto, Canada",        "feed": "https://driewgarments.com/collections/rick-owens.atom",          "link": "https://driewgarments.com/collections/rick-owens"},
+    {"name": "Throat",            "city": "Toronto, Canada",        "feed": ["https://shopthroat.com/collections/rick-owens.atom",
+                                                                              "https://shopthroat.com/collections/rick-owens-drkshdw.atom"],  "link": "https://shopthroat.com/collections/rick-owens"},
+    {"name": "Archive Factory",   "city": "Tokyo, Japan",           "feed": "https://archive-factory.com/collections/rick-owens.atom",        "link": "https://archive-factory.com/collections/rick-owens"},
+    {"name": "Elevated Archives", "city": "Padua, Italy",           "feed": "https://elevated-archives.com/collections/rick-owens.atom",      "link": "https://elevated-archives.com/collections/rick-owens"},
 ]
 
 # DRKSHDW is Rick Owens' diffusion line and is often listed without "Rick Owens"
@@ -370,6 +377,34 @@ def parse_time(s):
         return None
 
 
+# Rough fallback (units per US dollar) if no exchange-rate service answers and
+# no earlier rates were saved. Only used to place foreign prices in the USD filter.
+FALLBACK_RATES = {"USD": 1.0, "CAD": 1.38, "EUR": 0.92, "GBP": 0.78, "JPY": 150.0, "AUD": 1.52}
+RATE_SOURCES = [
+    "https://api.frankfurter.dev/v1/latest?base=USD",
+    "https://api.frankfurter.app/latest?from=USD",
+    "https://open.er-api.com/v6/latest/USD",
+]
+
+
+def usd_rates(needed, saved):
+    """Units of each currency per US dollar: today's from a free service (ECB
+    data), else the last ones saved in state, else the rough fallback."""
+    needed = set(needed) - {"USD"}
+    if not needed:
+        return {"USD": 1.0}, "none needed"
+    for url in RATE_SOURCES:
+        try:
+            rates = json.loads(fetch_bytes(url)).get("rates") or {}
+            if needed <= set(rates):
+                return dict({c: float(rates[c]) for c in needed}, USD=1.0), url.split("/")[2]
+        except Exception:
+            continue
+    if saved and needed <= set(saved):
+        return dict(saved, USD=1.0), "last saved rates"
+    return dict(FALLBACK_RATES), "built-in rough rates"
+
+
 def build_atom(items, generated):
     newest = sorted((i for i in items if not i.get("sold")), key=lambda i: i["first_seen"], reverse=True)[:60]
     esc = lambda s: html.escape(str(s or ""), quote=True)
@@ -377,7 +412,8 @@ def build_atom(items, generated):
              '<feed xmlns="http://www.w3.org/2005/Atom">',
              f"<title>Rick Feed</title><id>urn:rick-feed</id><updated>{esc(generated)}</updated>"]
     for i in newest:
-        price = f"${i['price']:,.0f}" if i.get("price") is not None else ""
+        usd = i.get("price_usd", i.get("price"))
+        price = (("~" if i.get("currency", "USD") != "USD" else "") + f"${usd:,.0f}") if usd is not None else ""
         label = " · ".join(x for x in [price, i.get("size"), i["shop"]] if x)
         body = (f'<p><img src="{esc(i["image"])}" width="300"></p>' if i.get("image") else "") + f"<p>{esc(label)}</p>"
         parts.append(f'<entry><id>urn:rick-feed:{esc(i["shop"])}:{esc(i["id"])}</id>'
@@ -457,9 +493,18 @@ def main():
                 it["drop_from"] = mem["drop_from"]
             all_items.append(it)
 
+    rates, rate_source = usd_rates({i.get("currency") or "USD" for i in all_items}, state.get("rates"))
+    for i in all_items:
+        r = rates.get(i.get("currency") or "USD") or FALLBACK_RATES.get(i.get("currency"))
+        i["price_usd"] = round(i["price"] / r, 2) if i.get("price") is not None and r else None
+    if rate_source not in ("none needed", "last saved rates", "built-in rough rates"):
+        state["rates"] = {c: v for c, v in rates.items() if c != "USD"}
+
     cutoff = (run_at - dt.timedelta(days=FORGET_AFTER_DAYS)).date().isoformat()
     memory = {k: v for k, v in memory.items() if str(v.get("last_seen", today))[:10] >= cutoff}
     new_state = {"items": memory} if site_mode else {"last_run": run_iso, "run_no": run_no, "items": memory}
+    if state.get("rates"):
+        new_state["rates"] = state["rates"]
     text = json.dumps(new_state, indent=1, sort_keys=True)
     old_text = state_file.read_text(encoding="utf-8") if state_file.exists() else ""
     if text != old_text:
@@ -484,6 +529,9 @@ def main():
         cats[i.get("category", "Other")] = cats.get(i.get("category", "Other"), 0) + 1
     print("By category: " + ", ".join(f"{k} {v}" for k, v in sorted(cats.items(), key=lambda kv: -kv[1]))
           + f". No colour found for {sum(1 for i in all_items if not i.get('colours'))}.")
+    foreign = sorted({i["currency"] for i in all_items if i.get("currency") not in (None, "USD")})
+    if foreign:
+        print("Exchange rates (" + rate_source + "): " + ", ".join(f"1 USD = {rates[c]:g} {c}" for c in foreign if c in rates) + ".")
     if failed:
         print("Couldn't reach: " + ", ".join(failed))
     print(f"Saved {out_file}")
@@ -594,6 +642,7 @@ button.tog:hover,.tog:hover{color:var(--ink);border-color:var(--ink)}
 .t{color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .price{margin-top:14px;font-weight:500}
 .price s{color:var(--soft);font-weight:400;margin-left:8px}
+.price .orig{color:var(--soft);font-weight:400;margin-left:8px}
 .row{display:flex;justify-content:space-between;gap:12px;margin-top:12px;font-weight:500}
 .row .go{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .size{white-space:nowrap;color:var(--ink)}
@@ -669,6 +718,12 @@ const DATA = __DATA__;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const money = (n, cur) => n == null ? "" : new Intl.NumberFormat("en-US", {style:"currency", currency: cur || "USD", maximumFractionDigits: n % 1 ? 2 : 0}).format(n);
+const usd = i => i.price_usd ?? i.price;
+const foreign = i => i.currency && i.currency !== "USD";
+// Foreign prices: approximate USD first (what the filter uses), the shop's own price after it.
+const priceHtml = i => foreign(i) && i.price_usd != null
+  ? `~${money(Math.round(i.price_usd), "USD")}<span class="orig">${money(i.price, i.currency)}</span>`
+  : money(i.price, i.currency);
 function ago(iso){
   if (!iso) return "";
   const s = (Date.now() - new Date(iso).getTime()) / 1000;
@@ -695,7 +750,7 @@ if (SITE) {
   $("#newLabel").textContent = "New since last visit";
   $("#markSeen").hidden = false;
   $("#sort").value = "seen";
-  $("#foot").innerHTML = '<a href="feed.xml">Feed (RSS)</a><span>Prices in USD as listed by each shop</span>';
+  $("#foot").innerHTML = '<a href="feed.xml">Feed (RSS)</a><span>~ marks a price converted to USD from the shop\'s currency, at the day\'s rate</span>';
 }
 DATA.items.forEach(i => { i.line = i.line || "Rick Owens"; i.display = cleanTitle(i.title); });
 $("#q").value = ""; $("#onlyNew").checked = false; $("#onlyDrop").checked = false; $("#line").value = "";
@@ -779,8 +834,8 @@ function render(){
     && (!onlyNew || i.is_new) && (!onlyDrop || i.drop_from)
     && (skip === "cat" || !cats.size || cats.has(i.category))
     && (skip === "col" || !cols.size || i.colours.some(c => cols.has(c)))
-    && (pmin == null || (i.price != null && i.price >= pmin))
-    && (pmax == null || (i.price != null && i.price <= pmax))
+    && (pmin == null || (usd(i) != null && usd(i) >= pmin))
+    && (pmax == null || (usd(i) != null && usd(i) <= pmax))
     && q.every(w => (i.title + " " + i.line + " " + i.shop + " " + i.city + " " + i.size + " " + i.type + " " + i.category + " " + i.colours.join(" ")).toLowerCase().includes(w));
   let list = DATA.items.filter(i => passes(i));
   const facet = (sel, skip, has) => document.querySelectorAll(sel + " .chip").forEach(b => {
@@ -796,8 +851,8 @@ function render(){
   const t = s => s ? new Date(s).getTime() : 0;
   if (sort === "new") list.sort((a, b) => t(b.published) - t(a.published));
   if (sort === "seen") list.sort((a, b) => t(b.first_seen) - t(a.first_seen) || t(b.published) - t(a.published));
-  if (sort === "low") list.sort((a, b) => (a.price ?? 1e12) - (b.price ?? 1e12));
-  if (sort === "high") list.sort((a, b) => (b.price ?? -1) - (a.price ?? -1));
+  if (sort === "low") list.sort((a, b) => (usd(a) ?? 1e12) - (usd(b) ?? 1e12));
+  if (sort === "high") list.sort((a, b) => (usd(b) ?? -1) - (usd(a) ?? -1));
   $("#count").textContent = list.length + " shown";
   const pool = DATA.items.filter(i => !off.has(i.shop) && inLine(i));
   $("#newN").textContent = pool.filter(i => i.is_new && forSale(i)).length;
@@ -834,7 +889,7 @@ function render(){
       </div>
       <div class="line">${esc(i.line)}</div>
       <div class="t">${esc(i.display)}</div>
-      <div class="price">${money(i.price, i.currency)}${i.drop_from ? `<s>${money(i.drop_from, i.currency)}</s>` : ""}</div>
+      <div class="price">${priceHtml(i)}${i.drop_from ? `<s>${money(i.drop_from, i.currency)}</s>` : ""}</div>
       <div class="row"><span class="go">${esc(i.shop)} +</span><span class="size">${i.size ? "Size " + esc(i.size) : ""}</span></div>
       <div class="src">${esc(i.city)} / ${ago(i.published)}</div>
     </a>`).join("");
