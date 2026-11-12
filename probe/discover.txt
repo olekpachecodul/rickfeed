@@ -1,5 +1,4 @@
-kurb: 0 seller pages
-various: 0 seller pages
-storage: 0 seller pages
-candidate domains: 0
+STORAGE store pages in sitemap: 84
+candidate domains: 2
 shopify: 0; with a Rick collection: 0
+shopify, no Rick collection: 

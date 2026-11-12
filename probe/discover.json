@@ -1,5 +1,7 @@
 {
  "hits": {},
- "shopify_no_rick": [],
- "non_shopify": []
+ "all_domains": [
+  "stella-ecomm-media-bucket.s3.amazonaws.com",
+  "stella-ecomm-media-bucket.s3.eu-west-2.amazonaws.com"
+ ]
 }
