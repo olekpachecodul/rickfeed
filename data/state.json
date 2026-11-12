@@ -1827,154 +1827,287 @@
    "price": 1100.0
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10718985617548": {
+   "category": "Footwear",
+   "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-09T19:35:48+00:00",
    "last_seen": "2026-11-12",
-   "price": 350.0
+   "price": 350.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10723866214540": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Brown"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-10T17:35:30+00:00",
    "last_seen": "2026-11-12",
-   "price": 1800.0
+   "price": 1800.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10724328112268": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-10T21:46:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 400.0
+   "price": 400.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10724332437644": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-10T22:00:58+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10743099261068": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-13T20:51:32+00:00",
    "last_seen": "2026-11-12",
-   "price": 1400.0
+   "price": 1400.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10743196483724": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-13T21:06:31+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10743592255628": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-13T22:10:20+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10770914279564": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-16T17:07:21+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10783240290444": {
+   "category": "Footwear",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-17T21:08:45+00:00",
    "last_seen": "2026-11-12",
-   "price": 1100.0
+   "price": 1100.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10783380177036": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-17T21:17:51+00:00",
    "last_seen": "2026-11-12",
-   "price": 1450.0
+   "price": 1450.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10783382798476": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-17T21:20:21+00:00",
    "last_seen": "2026-11-12",
-   "price": 1600.0
+   "price": 1600.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10789514379404": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-18T21:14:02+00:00",
    "last_seen": "2026-11-12",
-   "price": 600.0
+   "price": 600.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10789584502924": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-18T21:16:42+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10817322156172": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-20T20:27:14+00:00",
    "last_seen": "2026-11-12",
-   "price": 700.0
+   "price": 700.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10827340546188": {
+   "category": "Other",
+   "colours": [
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-24T20:18:11+00:00",
    "last_seen": "2026-11-12",
-   "price": 450.0
+   "price": 450.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10827349033100": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Grey"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-24T20:29:07+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10830319386764": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-26T19:27:55+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10843009974412": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-30T19:00:57+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10843010793612": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-10-30T19:01:23+00:00",
    "last_seen": "2026-11-12",
-   "price": 1700.0
+   "price": 1700.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10863528738956": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 0,
    "first_seen": "2026-11-05T23:25:29+00:00",
    "last_seen": "2026-11-12",
-   "price": 800.0
+   "price": 800.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10908851404940": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Red"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-09T18:52:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10909656088716": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-09T18:52:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 950.0
+   "price": 950.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10909657858188": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-09T18:52:08+00:00",
    "last_seen": "2026-11-12",
-   "price": 850.0
+   "price": 850.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10910039474316": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T02:12:03+00:00",
    "last_seen": "2026-11-12",
-   "price": 650.0
+   "price": 650.0,
+   "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10923126030476": {
+   "category": "Footwear",
+   "colours": [
+    "Yellow"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-12",
-   "price": 500.0
+   "price": 500.0,
+   "sold": true
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/9615175024780": {
    "first_run": 1,
