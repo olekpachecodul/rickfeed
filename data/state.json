@@ -1,5 +1,11 @@
 {
  "items": {
+  "2nd Street|https://ec.2ndstreetusa.com/products/15360577798253": {
+   "first_run": 1,
+   "first_seen": "2026-11-12T20:51:38+00:00",
+   "last_seen": "2026-11-12",
+   "price": 199.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/15370085367917": {
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
@@ -228,11 +234,35 @@
    "last_seen": "2026-11-12",
    "price": 349.9
   },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15438868676717": {
+   "first_run": 1,
+   "first_seen": "2026-11-12T20:51:38+00:00",
+   "last_seen": "2026-11-12",
+   "price": 2999.9
+  },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15438871887981": {
+   "first_run": 1,
+   "first_seen": "2026-11-12T20:51:38+00:00",
+   "last_seen": "2026-11-12",
+   "price": 1599.9
+  },
   "2nd Street|https://ec.2ndstreetusa.com/products/15440951640173": {
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
    "last_seen": "2026-11-12",
    "price": 399.9
+  },
+  "2nd Street|https://ec.2ndstreetusa.com/products/15441749475437": {
+   "first_run": 1,
+   "first_seen": "2026-11-12T20:51:38+00:00",
+   "last_seen": "2026-11-12",
+   "price": 159.9
+  },
+  "2nd Street|https://ec.2ndstreetusa.com/products/8009939714157": {
+   "first_run": 1,
+   "first_seen": "2026-11-12T20:51:38+00:00",
+   "last_seen": "2026-11-12",
+   "price": 999.9
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8050049941613": {
    "first_run": 1,
@@ -671,6 +701,18 @@
    "first_seen": "2026-11-01T22:56:13+00:00",
    "last_seen": "2026-11-12",
    "price": 525.0
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/15479223287942": {
+   "first_run": 1,
+   "first_seen": "2026-11-12T20:51:38+00:00",
+   "last_seen": "2026-11-12",
+   "price": 150.0
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/15479267786886": {
+   "first_run": 1,
+   "first_seen": "2026-11-12T20:51:38+00:00",
+   "last_seen": "2026-11-12",
+   "price": 385.0
   },
   "Graceful Misfits|https://gracefulmisfits.com/products/15124462240048": {
    "first_run": 0,
