@@ -55,6 +55,10 @@ SHOPS = [
     {"name": "Michael's",         "city": "New York",               "feed": "https://michaelsconsignment.com/collections/rick-owens.atom",    "link": "https://michaelsconsignment.com/collections/rick-owens"},
     {"name": "Graceful Misfits",  "city": "Online",                 "feed": ["https://gracefulmisfits.com/collections/mainline.atom",
                                                                               "https://gracefulmisfits.com/collections/drkshdw.atom"],         "link": "https://gracefulmisfits.com/"},
+    # Added Nov 12, 2026
+    {"name": "Street Commerce",   "city": "Charlotte",              "feed": "https://streetcommerce.shop/collections/rick-owens.atom",        "link": "https://streetcommerce.shop/collections/rick-owens"},
+    {"name": "LUXE MIA",          "city": "Miami",                  "feed": "https://luxemia.net/collections/rick-owens-2.atom",              "link": "https://luxemia.net/collections/rick-owens-2"},
+    {"name": "Performa",          "city": "Atlanta",                "feed": "https://performaatlanta.com/collections/rick-owens.atom",        "link": "https://performaatlanta.com/collections/rick-owens"},
 ]
 
 # DRKSHDW is Rick Owens' diffusion line and is often listed without "Rick Owens"
