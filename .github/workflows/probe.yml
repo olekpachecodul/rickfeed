@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - run: python3 probe/discover.py
+      - run: python3 probe/cities.py
         continue-on-error: true
       - run: |
           git config user.name "github-actions[bot]"
