@@ -37,3 +37,6 @@ footer{justify-content:center;border-top:1px solid var(--line);padding-top:14px}
 .sites .home{font-family:"Playfair Display",Georgia,serif;font-weight:500}
 .sites a[aria-current=page]{color:var(--tan);text-decoration:none}
 @media (max-width:640px){.sites{justify-content:flex-start}}
+.views{justify-content:center}
+.arts{margin:0 auto}
+.artnote{text-align:center}

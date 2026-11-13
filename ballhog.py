@@ -47,6 +47,12 @@ for _b in BRANDS:
     _b["line_res"] = [(label, re.compile(pat, re.I)) for label, pat in _b.get("lines", [])]
     _b["exclude_re"] = re.compile(_b["exclude"], re.I) if _b.get("exclude") else None
 SLUGS = {b["slug"] for b in BRANDS}
+PUBLICATIONS = json.loads((HERE / "publications.json").read_text(encoding="utf-8"))
+for _b in BRANDS:
+    _n = _b.get("news") or {}
+    _b["news_q"] = _n.get("q") or f'"{_b["name"]}"'
+    _b["news_re"] = re.compile(_n["require"], re.I) if _n.get("require") else _b["re"]
+    _b["news_ex"] = re.compile(_n["exclude"], re.I) if _n.get("exclude") else None
 DISCOVER_EVERY_DAYS = 1
 MAX_DISCOVERED = 5        # extra collections found per designer per shop, at most
 SHOP_GAP = 0.4            # seconds between requests to the same shop, to stay under Shopify's limits
@@ -457,6 +463,108 @@ def brand_listings(brand, shop, plan, crawled):
     return items, error, refused
 
 
+# ---------------------------------------------------------------------------
+# Articles: Google News searched per designer, plus fashion publications' RSS
+# feeds kept only where a piece names the designer. Read hourly; kept in
+# data/articles.json so a missed hour loses nothing.
+# ---------------------------------------------------------------------------
+ARTICLES_EVERY_MINUTES = 55
+ARTICLES_KEEP_DAYS = 400
+ARTICLES_MAX = 150           # per designer
+TAG_RE = re.compile(r"<[^>]+>")
+
+
+def feed_entries(raw):
+    """(title, link, published ISO, summary text, source name) from RSS 2.0 or Atom."""
+    import email.utils
+    root = ET.fromstring(raw)
+    out = []
+    for it in root.iter():
+        tag = it.tag.rsplit("}", 1)[-1]
+        if tag not in ("item", "entry"):
+            continue
+        get = lambda name: next((c for c in it if c.tag.rsplit("}", 1)[-1] == name), None)
+        title = html.unescape(TAG_RE.sub("", (get("title").text or "") if get("title") is not None else "")).strip()
+        link_el = get("link")
+        link = ((link_el.get("href") or link_el.text or "") if link_el is not None else "").strip()
+        when = None
+        for name in ("pubDate", "published", "updated", "date"):
+            el = get(name)
+            if el is not None and (el.text or "").strip():
+                try:
+                    when = email.utils.parsedate_to_datetime(el.text.strip())
+                except Exception:
+                    when = parse_time(el.text.strip())
+                if when:
+                    break
+        summ = get("description") if get("description") is not None else get("summary")
+        text = html.unescape(TAG_RE.sub(" ", (summ.text or "") if summ is not None else ""))
+        src = get("source")
+        source = (src.text or "").strip() if src is not None else ""
+        if title and link.startswith("http"):
+            if when and when.tzinfo is None:
+                when = when.replace(tzinfo=dt.timezone.utc)
+            out.append((title, link, when.astimezone(dt.timezone.utc).isoformat(timespec="seconds") if when else "", text, source))
+    return out
+
+
+def article_key(title):
+    return re.sub(r"[^a-z0-9]+", "", title.lower())[:80]
+
+
+def about(brand, text):
+    return bool(brand["news_re"].search(text)) and not (brand["news_ex"] and brand["news_ex"].search(text))
+
+
+def gather_articles(saved, run_at, run_iso):
+    """Add any new articles to saved ({slug: {key: article}}); returns a log line per source."""
+    jobs = [("news", b) for b in BRANDS] + [("pub", p) for p in PUBLICATIONS]
+
+    def read(job):
+        kind, x = job
+        url = (f"https://news.google.com/rss/search?q={urllib.parse.quote(x['news_q'])}&hl=en-US&gl=US&ceid=US:en"
+               if kind == "news" else x["feed"])
+        try:
+            return job, feed_entries(fetch_bytes(url)), None
+        except Exception as e:
+            return job, [], (f"error {e.code}" if isinstance(e, urllib.error.HTTPError) else (str(e)[:60] or e.__class__.__name__))
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        results = list(pool.map(read, jobs))
+    oldest = (run_at - dt.timedelta(days=ARTICLES_KEEP_DAYS)).isoformat()
+    log, added = [], 0
+    for (kind, x), entries, err in results:
+        found = 0
+        for title, link, published, text, source in entries:
+            if published and published < oldest:
+                continue
+            if kind == "news":
+                # Google News titles end in " - Source"
+                if source and title.endswith(" - " + source):
+                    title = title[: -len(source) - 3].strip()
+                targets = [x] if about(x, title) else []
+            else:
+                source = x["name"]
+                targets = [b for b in BRANDS if about(b, title) or about(b, text[:600])]
+            for b in targets:
+                bucket = saved.setdefault(b["slug"], {})
+                k = article_key(title)
+                have = bucket.get(k)
+                if have is None:
+                    bucket[k] = {"title": title, "url": link, "source": source or "News",
+                                 "published": published or run_iso, "first_seen": run_iso}
+                    found += 1
+                elif kind == "pub" and "news.google." in have["url"]:
+                    have["url"] = link          # prefer the publication's own link
+        added += found
+        if err or kind == "pub":
+            log.append(f"  {(x['name'] if kind == 'pub' else 'News: ' + x['name']):<28} {err or f'{len(entries)} read, {found} new'}")
+    for slug, bucket in saved.items():
+        keep = sorted(bucket.items(), key=lambda kv: kv[1]["published"], reverse=True)
+        saved[slug] = dict([kv for kv in keep if kv[1]["published"] >= oldest][:ARTICLES_MAX])
+    return added, log
+
+
 def load_state(path):
     try:
         state = json.loads(path.read_text(encoding="utf-8"))
@@ -602,6 +710,21 @@ def main():
                 status += f" (product list refused: {next(iter(lookup_errors.values()))}; using last known)"
             print(f"  {shop['name']:<22} {status}")
 
+    # Articles, at most hourly.
+    articles_file = state_file.parent / "articles.json"
+    try:
+        articles = json.loads(articles_file.read_text(encoding="utf-8"))
+    except Exception:
+        articles = {"checked": "", "by_designer": {}}
+    if (articles.get("checked", "") < (run_at - dt.timedelta(minutes=ARTICLES_EVERY_MINUTES)).isoformat()
+            or set(articles.get("slugs", [])) != SLUGS):   # hourly, or straight away for a new designer
+        added, art_log = gather_articles(articles.setdefault("by_designer", {}), run_at, run_iso)
+        articles["checked"], articles["slugs"] = run_iso, sorted(SLUGS)
+        print(f"\nArticles: {added} new." + ("\n" + "\n".join(art_log) if art_log else ""))
+        text = json.dumps(articles, indent=1, sort_keys=True, ensure_ascii=False)
+        articles_file.parent.mkdir(parents=True, exist_ok=True)
+        articles_file.write_text(text, encoding="utf-8")
+
     # 3. Each designer: sort the pieces, update its history, build its page.
     all_currencies, built = set(), []
     pages = []
@@ -684,7 +807,8 @@ def main():
         data = {"mode": "site" if site_mode else "local", "generated": run_iso, "previous": prev_run,
                 "first_run": first_run, "shops": shops_out, "items": all_items,
                 "categories": ["Outerwear", "Tops", "Bottoms", "Dresses", "Footwear", "Bags & accessories", "Other"],
-                "brand": {"name": brand["name"], "strip": brand["strip"], "price_style": brand.get("price_style", "symbol")},
+                "brand": {"slug": slug, "name": brand["name"], "strip": brand["strip"], "price_style": brand.get("price_style", "symbol")},
+                "articles": sorted(articles.get("by_designer", {}).get(slug, {}).values(), key=lambda a: a["published"], reverse=True),
                 "colours": [[n, sw] for n, sw, _ in COLOURS]}
         payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
         out = site_dir / slug
@@ -1031,6 +1155,8 @@ __THEME__
   </header>
   <div class="crumbs" id="meta"></div>
   <div class="notice" id="notice" hidden></div>
+  <nav class="views" aria-label="View"><a href="./" id="vPieces" aria-current="page">Pieces</a><a href="#articles" id="vArticles">Articles<span class="tn" id="artN"></span></a></nav>
+  <div id="pieces">
   <div class="bar">
     <input type="search" id="q" autocomplete="off" placeholder="__PLACEHOLDER__" aria-label="Search listings">
     <span class="sel"__LINE_HIDDEN__><select id="line" autocomplete="off" aria-label="Line">
@@ -1071,6 +1197,8 @@ __THEME__
   </section>
   <div class="shops" id="shops"></div>
   <main class="grid" id="grid"></main>
+  </div>
+  <section class="articles" id="articles" hidden aria-label="Articles"></section>
   <footer id="foot"></footer>
 </div>
 <script>
@@ -1104,9 +1232,12 @@ function applyBaseline(){ DATA.items.forEach(i => { i.is_new = new Date(i.first_
 if (SITE) {
   // Hosted version: NEW means "added since you last opened this page in this browser".
   let sess = null, last = null;
-  try { sess = sessionStorage.getItem("rf-baseline"); last = localStorage.getItem("rf-last-visit"); } catch (e) {}
+  // Every designer shares one web address now, so "last visit" is kept per designer.
+  const K = ":" + DATA.brand.slug;
+  try { sess = sessionStorage.getItem("rf-baseline" + K); last = localStorage.getItem("rf-last-visit" + K)
+        || (DATA.brand.slug === "rick" ? localStorage.getItem("rf-last-visit") : null); } catch (e) {}
   baseline = sess || last || new Date(Date.now() - 2 * 86400000).toISOString();
-  try { sessionStorage.setItem("rf-baseline", baseline); localStorage.setItem("rf-last-visit", new Date().toISOString()); } catch (e) {}
+  try { sessionStorage.setItem("rf-baseline" + K, baseline); localStorage.setItem("rf-last-visit" + K, new Date().toISOString()); } catch (e) {}
   applyBaseline();
   $("#newLabel").textContent = "New since last visit";
   $("#markSeen").hidden = false;
@@ -1142,7 +1273,7 @@ if (notes.length) { $("#notice").innerHTML = notes.join("<br>"); $("#notice").hi
 if (!SITE && !DATA.first_run && DATA.items.some(i => i.is_new)) $("#onlyNew").checked = true;
 $("#markSeen").addEventListener("click", () => {
   baseline = new Date().toISOString();
-  try { sessionStorage.setItem("rf-baseline", baseline); localStorage.setItem("rf-last-visit", baseline); } catch (e) {}
+  try { sessionStorage.setItem("rf-baseline:" + DATA.brand.slug, baseline); localStorage.setItem("rf-last-visit:" + DATA.brand.slug, baseline); } catch (e) {}
   applyBaseline(); renderMeta(); render();
 });
 
@@ -1272,6 +1403,29 @@ function card(i){ return `
     </a>`;
 }
 render();
+// Articles: a second view of the same page, at #articles.
+const ARTS = DATA.articles || [];
+$("#artN").textContent = ARTS.length || "";
+function renderArticles(){
+  const isNew = a => baseline && new Date(a.first_seen) > new Date(baseline) && new Date(a.published) > new Date(baseline) - 7 * 86400000;
+  $("#articles").innerHTML = ARTS.length
+    ? `<ol class="arts">${ARTS.map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">`
+        + `<span class="am"><span class="src">${esc(a.source)}</span><time datetime="${esc(a.published)}">${esc(ago(a.published))}</time>${isNew(a) ? '<span class="b new">New</span>' : ""}</span>`
+        + `<span class="at">${esc(a.title)}</span></a></li>`).join("")}</ol>`
+      + `<p class="artnote">From Google News and fashion publications' feeds, checked hourly. Each link opens the original article.</p>`
+    : `<p class="empty">No articles yet. They're gathered hourly from Google News and fashion publications.</p>`;
+}
+function showView(){
+  const arts = location.hash === "#articles";
+  $("#pieces").hidden = arts; $("#articles").hidden = !arts;
+  $("#count").hidden = arts;
+  if (arts) { $("#vArticles").setAttribute("aria-current", "page"); $("#vPieces").removeAttribute("aria-current"); if (!$("#articles").firstChild) renderArticles(); }
+  else { $("#vPieces").setAttribute("aria-current", "page"); $("#vArticles").removeAttribute("aria-current"); }
+}
+$("#vPieces").addEventListener("click", e => { e.preventDefault(); if (location.hash) { history.pushState(null, "", location.pathname + location.search); showView(); } });
+addEventListener("hashchange", showView);
+addEventListener("popstate", showView);
+showView();
 // On a phone the switcher scrolls sideways; bring this site's entry into view.
 try { const cur = $(".sites [aria-current]"), nav = $(".sites"); if (cur && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = cur.offsetLeft - (nav.clientWidth - cur.offsetWidth) / 2; } catch (e) {}
 </script>

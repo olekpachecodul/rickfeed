@@ -23,7 +23,11 @@
    "#000000"
   ],
   "placeholder": "Search: geobasket, bela, 48, leather",
-  "labels": {}
+  "labels": {},
+  "news": {
+   "q": "\"Rick Owens\" OR DRKSHDW",
+   "require": "rick\\s*owens|drkshdw"
+  }
  },
  {
   "slug": "kiko",
@@ -44,7 +48,10 @@
    "#141414"
   ],
   "placeholder": "Search: hector, tabi, asics, 48",
-  "price_style": "code"
+  "price_style": "code",
+  "news": {
+   "q": "\"Kiko Kostadinov\""
+  }
  },
  {
   "slug": "lang",
@@ -64,7 +71,10 @@
    "#FFFFFF",
    "#000000"
   ],
-  "placeholder": "search: bondage, astro, painter, 1998"
+  "placeholder": "search: bondage, astro, painter, 1998",
+  "news": {
+   "q": "\"Helmut Lang\""
+  }
  },
  {
   "slug": "rafcalvin",
@@ -81,7 +91,11 @@
    "#0E0E0E"
   ],
   "placeholder": "Search: firefighter, warhol, jaws, western",
-  "short": "205W39NYC"
+  "short": "205W39NYC",
+  "news": {
+   "q": "\"205W39NYC\" OR \"Raf Simons\" \"Calvin Klein\"",
+   "require": "205\\s*w\\s*39|calvin\\s*klein.*raf|raf.*calvin\\s*klein"
+  }
  },
  {
   "slug": "soshiotsuki",
@@ -104,6 +118,10 @@
    "Filters": "絞込 Filters",
    "Hide sold": "売切を隠す Hide sold",
    "Price cuts": "値下げ Price cuts"
+  },
+  "news": {
+   "q": "Soshiotsuki OR \"Soshi Otsuki\"",
+   "require": "soshi\\s*otsuki"
   }
  },
  {
@@ -161,7 +179,11 @@
    "#FFFFFF",
    "#000000"
   ],
-  "placeholder": "Search: homme plus, junya, play, polka dot"
+  "placeholder": "Search: homme plus, junya, play, polka dot",
+  "news": {
+   "q": "\"Comme des Garçons\" OR \"Junya Watanabe\" OR \"Rei Kawakubo\"",
+   "require": "comme\\s*des?\\s*gar[cç]ons?|\\bcdg\\b|junya\\s*watanabe|kawakubo|noir\\s*kei|kei\\s*ninomiya"
+  }
  },
  {
   "slug": "margiela",
@@ -182,7 +204,10 @@
    "#F7F6F2",
    "#121212"
   ],
-  "placeholder": "Search: tabi, gat, replica, 5ac"
+  "placeholder": "Search: tabi, gat, replica, 5ac",
+  "news": {
+   "q": "\"Maison Margiela\" OR \"Martin Margiela\" OR \"MM6\""
+  }
  },
  {
   "slug": "undercover",
@@ -203,7 +228,12 @@
    "#EDEBE6",
    "#0D0D0D"
   ],
-  "placeholder": "Search: scab, but beautiful, 85, arts & crafts"
+  "placeholder": "Search: scab, but beautiful, 85, arts & crafts",
+  "news": {
+   "q": "\"Jun Takahashi\" OR (Undercover fashion)",
+   "require": "jun\\s*takahashi|undercover\\b.*(?:fashion|collection|runway|nike|show|season|fall|spring|fw|ss|paris|takahashi|sneaker|jacket|capsule|collab|x\\s)|(?:nike|sacai|uniqlo|supreme|gu)\\s*x\\s*undercover",
+   "exclude": "\\b(?:cop|cops|police|officer|agent|agents|fbi|dea|sting|investigation|investigator|reporter|operation|drug|arrest|boss|footage|journalist)s?\\b"
+  }
  },
  {
   "slug": "gaultier",
@@ -232,7 +262,11 @@
    "#FFFFFF",
    "#0B1B3A"
   ],
-  "placeholder": "Search: mesh, cyber, tattoo, marinière"
+  "placeholder": "Search: mesh, cyber, tattoo, marinière",
+  "news": {
+   "q": "\"Jean Paul Gaultier\" OR \"Gaultier\"",
+   "require": "gaultier"
+  }
  },
  {
   "slug": "yohji",
@@ -273,7 +307,11 @@
    "#0A0A0A",
    "#0A0A0A"
   ],
-  "placeholder": "Search: gabardine, wool, pour homme, y-3"
+  "placeholder": "Search: gabardine, wool, pour homme, y-3",
+  "news": {
+   "q": "\"Yohji Yamamoto\" OR \"Y-3\"",
+   "require": "yohji|\\by-3\\b"
+  }
  },
  {
   "slug": "raf",
@@ -307,7 +345,10 @@
    "#E8E8E8",
    "#101010"
   ],
-  "placeholder": "Search: ozweego, riot, virginia creeper, parka"
+  "placeholder": "Search: ozweego, riot, virginia creeper, parka",
+  "news": {
+   "q": "\"Raf Simons\""
+  }
  },
  {
   "slug": "issey",
@@ -344,7 +385,11 @@
    "#FFFFFF",
    "#111111"
   ],
-  "placeholder": "Search: plissé, pleats please, bao bao, monthly colour"
+  "placeholder": "Search: plissé, pleats please, bao bao, monthly colour",
+  "news": {
+   "q": "\"Issey Miyake\" OR \"Pleats Please\" OR \"Homme Plissé\"",
+   "require": "issey|pleats\\s*please|homme\\s*pliss"
+  }
  },
  {
   "slug": "numbernine",
@@ -360,7 +405,11 @@
    "#1A1917",
    "#1A1917"
   ],
-  "placeholder": "Search: kurt, guitar, mohair, 2003"
+  "placeholder": "Search: kurt, guitar, mohair, 2003",
+  "news": {
+   "q": "\"Number (N)ine\" OR \"Takahiro Miyashita\"",
+   "require": "number\\s*\\(\\s*n\\s*\\)\\s*ine|number\\s*nine\\b.*(?:fashion|archive|miyashita|collection|grunge)|miyashita"
+  }
  },
  {
   "slug": "ann",
@@ -376,7 +425,10 @@
    "#F4F1EC",
    "#0B0B0B"
   ],
-  "placeholder": "Search: boots, lace-up, wool, feather"
+  "placeholder": "Search: boots, lace-up, wool, feather",
+  "news": {
+   "q": "\"Ann Demeulemeester\""
+  }
  },
  {
   "slug": "bbs",
@@ -397,7 +449,11 @@
    "#CFCDC8",
    "#161615"
   ],
-  "placeholder": "Search: object dyed, boot1, bamba, p13"
+  "placeholder": "Search: object dyed, boot1, bamba, p13",
+  "news": {
+   "q": "\"Boris Bidjan Saberi\"",
+   "require": "boris\\s*bidjan"
+  }
  },
  {
   "slug": "ccp",
@@ -413,7 +469,11 @@
    "#14110F",
    "#14110F"
   ],
-  "placeholder": "Search: drip, object dyed, overlock, boots"
+  "placeholder": "Search: drip, object dyed, overlock, boots",
+  "news": {
+   "q": "\"Carol Christian Poell\"",
+   "require": "carol\\s*christian\\s*poell"
+  }
  },
  {
   "slug": "guidi",
@@ -429,6 +489,10 @@
    "#EFE6D8",
    "#1E1611"
   ],
-  "placeholder": "Search: 988, 796z, horse, back zip"
+  "placeholder": "Search: 988, 796z, horse, back zip",
+  "news": {
+   "q": "Guidi (boots OR leather OR footwear OR tannery)",
+   "require": "\\bguidi\\b.*(?:boot|leather|footwear|shoe|tanner|horse|fashion|collection|bag)|(?:boot|leather|footwear|shoe|tanner)s?\\b.*\\bguidi\\b"
+  }
  }
 ]

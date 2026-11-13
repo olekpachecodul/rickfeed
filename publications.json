@@ -1,0 +1,14 @@
+[
+ {"name": "Highsnobiety", "feed": "https://www.highsnobiety.com/feed/"},
+ {"name": "Hypebeast", "feed": "https://hypebeast.com/feed"},
+ {"name": "Dazed", "feed": "https://www.dazeddigital.com/rss"},
+ {"name": "AnOther", "feed": "https://www.anothermag.com/rss"},
+ {"name": "i-D", "feed": "https://i-d.co/feed/"},
+ {"name": "Vogue", "feed": "https://www.vogue.com/feed/rss"},
+ {"name": "GQ", "feed": "https://www.gq.com/feed/rss"},
+ {"name": "WWD", "feed": "https://wwd.com/feed/"},
+ {"name": "Fashionista", "feed": "https://fashionista.com/.rss/full/"},
+ {"name": "The Business of Fashion", "feed": "https://www.businessoffashion.com/arc/outboundfeeds/rss/?outputType=xml"},
+ {"name": "032c", "feed": "https://032c.com/feed"},
+ {"name": "Document Journal", "feed": "https://www.documentjournal.com/feed/"}
+]
