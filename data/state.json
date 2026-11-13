@@ -7,7 +7,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 199.9,
    "sold": false
   },
@@ -16,7 +16,7 @@
    "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 299.9,
    "sold": false
   },
@@ -31,7 +31,7 @@
    "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-09T18:52:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 279.9,
    "sold": false
   },
@@ -94,7 +94,7 @@
    "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 449.9,
    "sold": false
   },
@@ -135,7 +135,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-09T08:02:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 549.9,
    "sold": false
   },
@@ -188,7 +188,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-09T08:02:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 399.9,
    "sold": false
   },
@@ -199,7 +199,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 549.9,
    "sold": false
   },
@@ -211,7 +211,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 199.9,
    "sold": true
   },
@@ -222,7 +222,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 499.9,
    "sold": false
   },
@@ -233,7 +233,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 999.9,
    "sold": false
   },
@@ -244,7 +244,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 179.9,
    "sold": true
   },
@@ -255,15 +255,20 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 149.9,
    "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430406209645": {
+   "category": "Outerwear",
+   "colours": [
+    "Green"
+   ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
-   "price": 599.9
+   "last_seen": "2026-11-13",
+   "price": 599.9,
+   "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15430462636141": {
    "category": "Footwear",
@@ -272,7 +277,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 99.9,
    "sold": false
   },
@@ -283,7 +288,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T09:56:18+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 349.9,
    "sold": false
   },
@@ -294,7 +299,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 279.9,
    "sold": false
   },
@@ -305,7 +310,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 349.9,
    "sold": false
   },
@@ -316,7 +321,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2999.9,
    "sold": false
   },
@@ -327,7 +332,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1599.9,
    "sold": false
   },
@@ -338,7 +343,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 399.9,
    "sold": false
   },
@@ -349,7 +354,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 159.9,
    "sold": false
   },
@@ -358,10 +363,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-13T00:39:32+00:00",
+   "drop_from": 999.9,
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
-   "last_seen": "2026-11-12",
-   "price": 999.9,
+   "last_seen": "2026-11-13",
+   "price": 749.9,
    "sold": false
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/8050049941613": {
@@ -371,7 +378,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-09T00:57:15+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 849.9,
    "sold": false
   },
@@ -388,7 +395,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 249.9,
    "sold": false
   },
@@ -423,7 +430,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 549.9,
    "sold": false
   },
@@ -432,7 +439,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-23T03:00:37+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 729.0,
    "sold": true
   },
@@ -441,7 +448,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-25T03:32:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 281.0,
    "sold": true
   },
@@ -450,7 +457,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-25T03:32:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1122.0,
    "sold": true
   },
@@ -459,7 +466,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-30T00:36:56+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 226.0,
    "sold": true
   },
@@ -468,7 +475,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-04-01T01:33:53+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 336.0,
    "sold": true
   },
@@ -477,7 +484,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-04-08T01:49:42+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 320.0,
    "sold": true
   },
@@ -486,7 +493,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-04-17T01:46:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 415.0,
    "sold": true
   },
@@ -495,7 +502,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-04-22T01:44:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 415.0,
    "sold": true
   },
@@ -504,7 +511,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-04-24T01:54:53+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 242.0,
    "sold": false
   },
@@ -513,7 +520,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-30T00:44:33+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 297.0,
    "sold": true
   },
@@ -522,7 +529,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-15T00:42:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 478.0,
    "sold": false
   },
@@ -531,7 +538,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-17T01:03:24+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 838.0,
    "sold": true
   },
@@ -540,7 +547,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-27T01:23:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 725.0,
    "sold": true
   },
@@ -549,7 +556,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-28T01:39:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 517.0,
    "sold": true
   },
@@ -558,7 +565,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-08T00:41:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 336.0,
    "sold": true
   },
@@ -567,7 +574,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-19T01:00:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 808.0,
    "sold": false
   },
@@ -576,7 +583,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-19T01:00:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 478.0,
    "sold": false
   },
@@ -585,7 +592,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-30T00:44:54+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 226.0,
    "sold": false
   },
@@ -594,7 +601,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-07T00:36:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 503.0,
    "sold": true
   },
@@ -603,7 +610,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-09T23:00:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 896.0,
    "sold": false
   },
@@ -612,7 +619,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-09T23:00:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 621.0,
    "sold": true
   },
@@ -621,7 +628,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-13T23:00:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 234.0,
    "sold": false
   },
@@ -633,7 +640,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-26T00:51:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 739.0,
    "sold": true
   },
@@ -642,7 +649,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-28T01:16:42+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 210.0,
    "sold": true
   },
@@ -651,7 +658,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-06T00:42:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 630.0,
    "sold": false
   },
@@ -662,7 +669,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-05T02:17:11+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 195.0,
    "sold": true
   },
@@ -673,7 +680,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-05T02:11:19+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 720.0,
    "sold": true
   },
@@ -684,7 +691,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-05T02:11:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": true
   },
@@ -695,7 +702,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-10T22:53:49+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": true
   },
@@ -707,7 +714,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-12T23:33:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 875.0,
    "sold": true
   },
@@ -718,7 +725,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-23T22:21:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": true
   },
@@ -729,7 +736,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-24T23:52:18+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 680.0,
    "sold": true
   },
@@ -740,7 +747,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-24T23:52:25+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 480.0,
    "sold": true
   },
@@ -751,7 +758,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-25T23:32:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 630.0,
    "sold": false
   },
@@ -762,7 +769,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-02T23:59:59+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": true
   },
@@ -773,7 +780,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-03T00:00:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 380.0,
    "sold": true
   },
@@ -784,7 +791,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-03T00:00:02+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 390.0,
    "sold": true
   },
@@ -796,7 +803,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-03T23:33:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1680.0,
    "sold": true
   },
@@ -807,7 +814,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-13T22:17:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -818,7 +825,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-25T00:38:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2600.0,
    "sold": true
   },
@@ -829,7 +836,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-25T00:38:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": true
   },
@@ -840,7 +847,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-31T21:06:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 475.0,
    "sold": true
   },
@@ -851,7 +858,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-05T00:30:39+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2300.0,
    "sold": false
   },
@@ -863,7 +870,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-03T05:36:21+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2300.0,
    "sold": true
   },
@@ -875,7 +882,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-03T05:36:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1700.0,
    "sold": true
   },
@@ -886,7 +893,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-08T01:24:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 640.0,
    "sold": true
   },
@@ -897,7 +904,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-03T11:42:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -908,7 +915,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-08T01:27:34+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1400.0,
    "sold": true
   },
@@ -919,7 +926,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-14T23:31:15+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": false
   },
@@ -931,7 +938,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-22T21:04:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2300.0,
    "sold": true
   },
@@ -940,7 +947,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T15:57:17+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -949,7 +956,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T15:57:19+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": false
   },
@@ -958,7 +965,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T15:57:21+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -967,7 +974,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-07-16T06:51:56+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1500.0,
    "sold": false
   },
@@ -976,7 +983,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-07-16T23:25:53+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1530.0,
    "sold": false
   },
@@ -985,7 +992,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-07-17T00:08:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2700.0,
    "sold": false
   },
@@ -994,7 +1001,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-07-17T06:46:22+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1500.0,
    "sold": false
   },
@@ -1003,7 +1010,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-02-07T22:31:45+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 3500.0,
    "sold": false
   },
@@ -1012,7 +1019,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-09T16:13:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2350.0,
    "sold": false
   },
@@ -1021,7 +1028,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-21T18:20:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2500.0,
    "sold": false
   },
@@ -1030,7 +1037,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-25T23:57:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -1039,7 +1046,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-25T23:57:37+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -1048,7 +1055,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-29T05:54:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -1057,7 +1064,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-25T23:57:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -1066,7 +1073,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-10-16T17:43:26+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -1075,7 +1082,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-11-27T00:38:49+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 900.0,
    "sold": false
   },
@@ -1084,7 +1091,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-12-23T00:16:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 20000.0,
    "sold": false
   },
@@ -1093,7 +1100,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-22T16:58:39+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 900.0,
    "sold": false
   },
@@ -1102,7 +1109,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-22T16:58:40+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": false
   },
@@ -1111,7 +1118,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-03T15:56:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -1120,7 +1127,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-03T15:56:06+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": false
   },
@@ -1129,7 +1136,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-31T15:55:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": false
   },
@@ -1138,7 +1145,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-21T16:28:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1500.0,
    "sold": false
   },
@@ -1147,7 +1154,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-18T16:20:24+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2900.0,
    "sold": false
   },
@@ -1156,8 +1163,253 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-18T16:20:25+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934218367111": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:58:55+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1000.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934233309319": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:58:55+00:00",
+   "last_seen": "2026-11-13",
+   "price": 375.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934237470855": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:58:56+00:00",
+   "last_seen": "2026-11-13",
+   "price": 600.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934302449799": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:01+00:00",
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934382436487": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934421332103": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934434340999": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934439485575": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 800.0,
+   "sold": true
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934467174535": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:20+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1100.0,
+   "sold": true
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934497190023": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 3000.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934506496135": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:28+00:00",
+   "last_seen": "2026-11-13",
+   "price": 650.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934570033287": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:38+00:00",
+   "last_seen": "2026-11-13",
+   "price": 2000.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934613385351": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:44+00:00",
+   "last_seen": "2026-11-13",
+   "price": 700.0,
+   "sold": true
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934639829127": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:50+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934657720455": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:53+00:00",
+   "last_seen": "2026-11-13",
+   "price": 600.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934659555463": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:54+00:00",
+   "last_seen": "2026-11-13",
+   "price": 775.0,
+   "sold": true
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934666240135": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:54+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1000.0,
+   "sold": true
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934682132615": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T21:59:57+00:00",
+   "last_seen": "2026-11-13",
+   "price": 750.0,
+   "sold": true
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934738296967": {
+   "category": "Other",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T22:00:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": true
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934744129671": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T22:00:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 4000.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934744686727": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T22:00:08+00:00",
+   "last_seen": "2026-11-13",
+   "price": 3500.0,
+   "sold": true
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934751731847": {
+   "category": "Other",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T22:00:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 4500.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934753828999": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-26T22:00:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 5000.0,
+   "sold": false
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934768181383": {
+   "category": "Other",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T22:00:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 7500.0,
+   "sold": true
+  },
+  "Crybynoon Archive|https://crybynoon.com/products/8934768574599": {
+   "category": "Other",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-26T22:00:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 7500.0,
    "sold": false
   },
   "DRIEW|https://driewgarments.com/products/8113405821006": {
@@ -1167,7 +1419,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-10T13:54:44+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": true
   },
@@ -1178,7 +1430,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-10T13:54:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -1189,7 +1441,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-10T13:54:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1350.0,
    "sold": true
   },
@@ -1200,7 +1452,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-10T13:54:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1650.0,
    "sold": false
   },
@@ -1212,7 +1464,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-11T14:01:33+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1400.0,
    "sold": true
   },
@@ -1223,7 +1475,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-11T18:43:39+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 950.0,
    "sold": false
   },
@@ -1234,7 +1486,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-11T20:57:43+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 950.0,
    "sold": true
   },
@@ -1245,7 +1497,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-12T13:54:22+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2000.0,
    "sold": true
   },
@@ -1256,7 +1508,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-12T21:39:59+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": true
   },
@@ -1267,9 +1519,9 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-13T23:38:42+00:00",
-   "last_seen": "2026-11-12",
-   "price": 400.0,
-   "sold": false
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": true
   },
   "DRIEW|https://driewgarments.com/products/8166116393038": {
    "category": "Outerwear",
@@ -1278,7 +1530,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-25T16:47:44+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1300.0,
    "sold": false
   },
@@ -1287,7 +1539,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-27T22:09:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": true
   },
@@ -1298,7 +1550,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-28T00:00:54+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -1309,7 +1561,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-28T00:02:11+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 750.0,
    "sold": true
   },
@@ -1320,7 +1572,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-28T22:27:53+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -1331,7 +1583,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-29T23:30:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -1340,7 +1592,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T23:28:41+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 750.0,
    "sold": true
   },
@@ -1351,7 +1603,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-29T23:26:17+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": false
   },
@@ -1362,7 +1614,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-29T23:24:27+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
   },
@@ -1373,7 +1625,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-30T21:20:16+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1300.0,
    "sold": false
   },
@@ -1382,7 +1634,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-03T23:48:29+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -1393,7 +1645,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-04T00:00:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2200.0,
    "sold": false
   },
@@ -1404,7 +1656,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-07T01:42:43+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1200.0,
    "sold": false
   },
@@ -1415,7 +1667,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-08T02:51:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1000.0,
    "sold": false
   },
@@ -1426,16 +1678,16 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-12T20:10:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1200.0,
-   "sold": false
+   "sold": true
   },
   "Descry Archive|https://www.descryarchive.com/products/10082194751672": {
    "category": "Outerwear",
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-09T15:03:26+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -1444,7 +1696,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-19T19:45:06+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -1453,7 +1705,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-25T19:00:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": false
   },
@@ -1462,7 +1714,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-12T02:18:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 900.0,
    "sold": false
   },
@@ -1471,7 +1723,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-20T02:12:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -1480,7 +1732,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2022-08-01T01:37:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -1489,7 +1741,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2022-08-31T18:12:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 330.0,
    "sold": true
   },
@@ -1498,7 +1750,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2023-02-21T02:41:15+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 355.0,
    "sold": true
   },
@@ -1507,7 +1759,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2023-03-09T21:59:34+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -1516,7 +1768,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2023-08-17T20:41:22+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -1525,7 +1777,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2023-11-22T16:34:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": true
   },
@@ -1534,16 +1786,296 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-03-22T18:45:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/10960908157270": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-10T07:12:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/10974324228438": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-16T15:53:29+00:00",
+   "last_seen": "2026-11-13",
+   "price": 900.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11142399557974": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "White",
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-24T09:53:02+00:00",
+   "last_seen": "2026-11-13",
+   "price": 440.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11142399852886": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-24T09:53:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 460.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11142401360214": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-24T09:54:00+00:00",
+   "last_seen": "2026-11-13",
+   "price": 580.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11142405161302": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-24T09:56:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 480.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11148018123094": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-28T06:50:34+00:00",
+   "last_seen": "2026-11-13",
+   "price": 700.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11166938759510": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-06T21:09:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 880.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11186373787990": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-17T11:18:49+00:00",
+   "last_seen": "2026-11-13",
+   "price": 700.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11186528551254": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-17T13:00:53+00:00",
+   "last_seen": "2026-11-13",
+   "price": 850.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11195803304278": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-21T07:35:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 940.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11195812217174": {
+   "category": "Tops",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-21T07:41:20+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11207042826582": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T09:02:21+00:00",
+   "last_seen": "2026-11-13",
+   "price": 520.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11230587093334": {
+   "category": "Footwear",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-09-07T06:32:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 440.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11241401647446": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-09-10T14:13:29+00:00",
+   "last_seen": "2026-11-13",
+   "price": 820.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11266751824214": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-09-13T14:45:44+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1400.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11295410061654": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-09-23T08:14:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 840.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11298312487254": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-09-24T07:24:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 559.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11299469328726": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-09-24T15:56:48+00:00",
+   "last_seen": "2026-11-13",
+   "price": 720.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11354548175190": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-09T15:39:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 620.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11429805982038": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-30T14:39:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 770.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11455648661846": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-09T11:49:19+00:00",
+   "last_seen": "2026-11-13",
+   "price": 670.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11455746834774": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-09T12:47:31+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11458070348118": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-10T11:33:29+00:00",
+   "last_seen": "2026-11-13",
+   "price": 330.0,
+   "sold": false
+  },
+  "DolceVitaHub|https://dolcevitahub.com/products/11464269005142": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-12T13:50:42+00:00",
+   "last_seen": "2026-11-13",
+   "price": 520.0,
+   "sold": false
   },
   "Elevated Archives|https://elevated-archives.com/products/16240632660303": {
    "category": "Bottoms",
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-24T18:32:19+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 250.0,
    "sold": true
   },
@@ -1552,7 +2084,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-24T18:32:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": true
   },
@@ -1561,7 +2093,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-24T18:32:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": true
   },
@@ -1570,7 +2102,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-31T16:32:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": true
   },
@@ -1579,7 +2111,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-31T16:32:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 380.0,
    "sold": true
   },
@@ -1588,7 +2120,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-19T15:51:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -1597,7 +2129,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-19T15:51:54+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -1606,7 +2138,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-19T15:52:16+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -1617,7 +2149,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-28T16:04:06+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": true
   },
@@ -1626,7 +2158,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-11T17:08:02+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -1635,7 +2167,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-22T11:58:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
   },
@@ -1644,7 +2176,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-24T15:20:43+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": true
   },
@@ -1653,7 +2185,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-01T17:16:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": false
   },
@@ -1662,7 +2194,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-01T17:16:43+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
   },
@@ -1671,7 +2203,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-01T17:17:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1200.0,
    "sold": true
   },
@@ -1680,7 +2212,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-09T17:45:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 250.0,
    "sold": false
   },
@@ -1689,7 +2221,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-09T17:45:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": true
   },
@@ -1698,7 +2230,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-09T17:45:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
   },
@@ -1707,7 +2239,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-09T17:45:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 220.0,
    "sold": false
   },
@@ -1716,7 +2248,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-09T17:45:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": false
   },
@@ -1725,7 +2257,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-28T17:32:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -1734,7 +2266,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-06T18:27:02+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -1743,7 +2275,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-06T18:27:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": false
   },
@@ -1752,7 +2284,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-06T18:27:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 250.0,
    "sold": false
   },
@@ -1761,7 +2293,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-06T18:27:51+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 250.0,
    "sold": true
   },
@@ -1772,7 +2304,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-01T22:55:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 380.0,
    "sold": false
   },
@@ -1781,7 +2313,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-01T22:55:32+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -1790,7 +2322,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-01T22:55:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 340.0,
    "sold": false
   },
@@ -1799,7 +2331,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-01T22:56:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 525.0,
    "sold": false
   },
@@ -1808,7 +2340,7 @@
    "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": false
   },
@@ -1817,7 +2349,7 @@
    "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-12T20:51:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 385.0,
    "sold": false
   },
@@ -1828,7 +2360,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-06T17:46:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 125.0,
    "sold": true
   },
@@ -1837,7 +2369,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-06T17:47:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": true
   },
@@ -1848,7 +2380,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-06T17:47:56+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": false
   },
@@ -1859,7 +2391,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-06T17:48:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 120.0,
    "sold": true
   },
@@ -1870,7 +2402,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-06T17:48:31+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 180.0,
    "sold": false
   },
@@ -1881,7 +2413,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-05-14T14:10:41+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 115.0,
    "sold": true
   },
@@ -1892,7 +2424,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-05-26T20:51:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 120.0,
    "sold": false
   },
@@ -1903,7 +2435,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-10-09T18:07:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 240.0,
    "sold": true
   },
@@ -1914,7 +2446,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-10-18T18:33:42+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 80.0,
    "sold": true
   },
@@ -1925,7 +2457,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-10-18T19:53:43+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 100.0,
    "sold": true
   },
@@ -1936,7 +2468,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-10-18T20:28:53+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 120.0,
    "sold": true
   },
@@ -1947,7 +2479,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-10-18T20:58:31+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 275.0,
    "sold": true
   },
@@ -1958,7 +2490,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-11-17T19:12:21+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 100.0,
    "sold": true
   },
@@ -1969,7 +2501,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-11-18T19:29:56+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2295.0,
    "sold": false
   },
@@ -1980,7 +2512,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-09T19:00:02+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 595.0,
    "sold": false
   },
@@ -1991,7 +2523,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-05T20:32:31+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": false
   },
@@ -2002,7 +2534,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-05T20:33:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": false
   },
@@ -2013,7 +2545,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-05T20:35:40+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 420.0,
    "sold": false
   },
@@ -2024,7 +2556,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-09T19:00:21+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -2036,7 +2568,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-09T19:00:22+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 295.0,
    "sold": false
   },
@@ -2047,7 +2579,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": false
   },
@@ -2058,7 +2590,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:11+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": false
   },
@@ -2069,7 +2601,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": false
   },
@@ -2080,7 +2612,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 140.0,
    "sold": false
   },
@@ -2091,7 +2623,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:19+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 695.0,
    "sold": false
   },
@@ -2103,7 +2635,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 140.0,
    "sold": false
   },
@@ -2114,7 +2646,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:44+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 375.0,
    "sold": false
   },
@@ -2125,7 +2657,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 475.0,
    "sold": false
   },
@@ -2136,7 +2668,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T19:00:49+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 595.0,
    "sold": false
   },
@@ -2147,7 +2679,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-23T19:00:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 595.0,
    "sold": false
   },
@@ -2188,7 +2720,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 219.0,
    "sold": false
   },
@@ -2205,7 +2737,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": false
   },
@@ -2216,7 +2748,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": false
   },
@@ -2227,7 +2759,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 295.0,
    "sold": false
   },
@@ -2238,7 +2770,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 795.0,
    "sold": false
   },
@@ -2249,7 +2781,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-18T19:00:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -2260,7 +2792,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-25T19:00:06+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": false
   },
@@ -2271,7 +2803,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-25T19:00:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 195.0,
    "sold": false
   },
@@ -2282,7 +2814,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-25T19:00:17+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": false
   },
@@ -2293,7 +2825,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": true
   },
@@ -2304,7 +2836,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": true
   },
@@ -2315,7 +2847,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -2326,7 +2858,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": true
   },
@@ -2337,7 +2869,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -2348,7 +2880,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -2359,7 +2891,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 225.0,
    "sold": false
   },
@@ -2370,7 +2902,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": false
   },
@@ -2381,7 +2913,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
   },
@@ -2392,7 +2924,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 120.0,
    "sold": true
   },
@@ -2403,7 +2935,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-26T14:43:52+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": true
   },
@@ -2416,7 +2948,7 @@
    "drop_from": 450.0,
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -2427,7 +2959,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": true
   },
@@ -2438,7 +2970,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -2449,7 +2981,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-05-08T20:01:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -2460,7 +2992,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-05-08T20:01:02+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -2471,7 +3003,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-05-15T19:34:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1350.0,
    "sold": false
   },
@@ -2482,7 +3014,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-05-15T19:34:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": true
   },
@@ -2493,7 +3025,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-05-15T19:34:57+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -2504,7 +3036,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-05-15T19:35:15+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 3000.0,
    "sold": false
   },
@@ -2515,7 +3047,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -2526,7 +3058,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:46:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -2537,7 +3069,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:46:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -2548,7 +3080,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:46:41+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": true
   },
@@ -2559,7 +3091,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:46:42+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": false
   },
@@ -2570,7 +3102,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T19:34:06+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -2581,7 +3113,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T19:34:51+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 100.0,
    "sold": true
   },
@@ -2592,7 +3124,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-19T19:58:34+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": true
   },
@@ -2603,7 +3135,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": true
   },
@@ -2614,7 +3146,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-19T20:00:26+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 250.0,
    "sold": true
   },
@@ -2625,7 +3157,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -2634,7 +3166,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-03T19:45:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": false
   },
@@ -2645,7 +3177,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-03T19:46:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1800.0,
    "sold": true
   },
@@ -2656,7 +3188,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-10T19:43:53+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2400.0,
    "sold": false
   },
@@ -2667,7 +3199,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -2678,7 +3210,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": true
   },
@@ -2689,7 +3221,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -2700,7 +3232,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 250.0,
    "sold": true
   },
@@ -2711,7 +3243,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-07T19:47:26+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 125.0,
    "sold": false
   },
@@ -2722,7 +3254,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
   },
@@ -2733,7 +3265,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": true
   },
@@ -2744,7 +3276,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-07T19:49:40+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": true
   },
@@ -2755,7 +3287,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": true
   },
@@ -2766,7 +3298,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-04T19:49:52+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1000.0,
    "sold": true
   },
@@ -2777,7 +3309,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": true
   },
@@ -2788,7 +3320,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-18T19:50:18+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": true
   },
@@ -2799,7 +3331,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-23T19:48:11+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -2810,7 +3342,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:48:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 375.0,
    "sold": false
   },
@@ -2821,7 +3353,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -2832,7 +3364,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-05-14T17:57:07+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 560.0,
    "sold": true
   },
@@ -2844,7 +3376,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-05T17:01:44+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -2855,7 +3387,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-07T22:53:17+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1350.0,
    "sold": false
   },
@@ -2866,7 +3398,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-27T19:17:57+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1350.0,
    "sold": false
   },
@@ -2877,7 +3409,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-11T22:51:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1450.0,
    "sold": false
   },
@@ -2888,7 +3420,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-03T18:15:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1350.0,
    "sold": false
   },
@@ -2899,7 +3431,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-05T20:11:55+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -2910,7 +3442,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:34:36+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1750.0,
    "sold": false
   },
@@ -2921,7 +3453,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:35:34+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -2932,7 +3464,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:37:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1150.0,
    "sold": false
   },
@@ -2943,7 +3475,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:37:57+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1350.0,
    "sold": false
   },
@@ -2954,7 +3486,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:38:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -2965,7 +3497,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:40:51+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -2977,7 +3509,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:40:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -2988,7 +3520,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:41:06+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2495.0,
    "sold": false
   },
@@ -2999,7 +3531,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-12T18:45:25+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1350.0,
    "sold": false
   },
@@ -3010,7 +3542,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-15T21:49:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1750.0,
    "sold": false
   },
@@ -3021,7 +3553,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-15T21:50:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -3032,7 +3564,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-15T21:50:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1450.0,
    "sold": false
   },
@@ -3044,7 +3576,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-15T21:50:45+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -3056,7 +3588,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-24T18:31:26+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 750.0,
    "sold": false
   },
@@ -3065,7 +3597,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-09T19:30:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1150.0,
    "sold": false
   },
@@ -3074,7 +3606,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-09T19:30:55+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -3083,7 +3615,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-12T17:46:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -3095,7 +3627,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-14T21:17:33+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1750.0,
    "sold": false
   },
@@ -3107,7 +3639,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-15T21:33:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 750.0,
    "sold": false
   },
@@ -3337,7 +3869,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-07T03:29:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -3348,7 +3880,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-07T03:29:59+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": false
   },
@@ -3383,7 +3915,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -3394,7 +3926,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -3405,7 +3937,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -3416,7 +3948,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 200.0,
    "sold": false
   },
@@ -3427,7 +3959,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -3439,7 +3971,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -3450,7 +3982,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -3461,7 +3993,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 175.0,
    "sold": false
   },
@@ -3472,7 +4004,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 250.0,
    "sold": false
   },
@@ -3483,7 +4015,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 425.0,
    "sold": true
   },
@@ -3494,7 +4026,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 125.0,
    "sold": false
   },
@@ -3505,7 +4037,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 100.0,
    "sold": false
   },
@@ -3516,7 +4048,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T22:14:34+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -3527,8 +4059,109 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T22:14:34+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
+   "sold": true
+  },
+  "Luke's|https://lukes.store/products/15425312522544": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15425326809392": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15425334182192": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey",
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15425409319216": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15426325217584": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15426407956784": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15426428469552": {
+   "category": "Bags & accessories",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15426502525232": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15426502721840": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 100.0,
    "sold": false
   },
   "Luxury Box ATL|https://luxuryboxatl.com/products/10196311736460": {
@@ -3539,7 +4172,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 900.0,
    "sold": false
   },
@@ -3551,7 +4184,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": true
   },
@@ -3563,7 +4196,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1150.0,
    "sold": false
   },
@@ -3574,7 +4207,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1100.0,
    "sold": false
   },
@@ -3586,7 +4219,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": true
   },
@@ -3598,7 +4231,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -3609,7 +4242,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": true
   },
@@ -3620,7 +4253,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": true
   },
@@ -3632,7 +4265,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1100.0,
    "sold": false
   },
@@ -3643,7 +4276,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1100.0,
    "sold": false
   },
@@ -3655,7 +4288,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 900.0,
    "sold": false
   },
@@ -3694,7 +4327,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-09T19:35:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": true
   },
@@ -3706,7 +4339,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-10T17:35:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1800.0,
    "sold": true
   },
@@ -3717,7 +4350,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-10T21:46:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
   },
@@ -3728,7 +4361,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-10T22:00:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": true
   },
@@ -3739,7 +4372,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-13T20:51:32+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1400.0,
    "sold": false
   },
@@ -3750,7 +4383,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-13T21:06:31+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -3761,7 +4394,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-13T22:10:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": true
   },
@@ -3772,7 +4405,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T17:07:21+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": true
   },
@@ -3783,7 +4416,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-17T21:08:45+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1100.0,
    "sold": false
   },
@@ -3795,7 +4428,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-17T21:17:51+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1450.0,
    "sold": false
   },
@@ -3807,7 +4440,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-17T21:20:21+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1600.0,
    "sold": false
   },
@@ -3818,7 +4451,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-18T21:14:02+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -3829,7 +4462,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-18T21:16:42+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -3841,7 +4474,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-20T20:27:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": false
   },
@@ -3852,7 +4485,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-24T20:18:11+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": true
   },
@@ -3864,7 +4497,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-24T20:29:07+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -3876,7 +4509,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-26T19:27:55+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": false
   },
@@ -3887,7 +4520,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-30T19:00:57+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -3898,7 +4531,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-30T19:01:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1700.0,
    "sold": false
   },
@@ -3910,7 +4543,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-05T23:25:29+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": false
   },
@@ -3922,7 +4555,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-09T18:52:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -3934,7 +4567,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-09T18:52:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 950.0,
    "sold": true
   },
@@ -3946,7 +4579,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-09T18:52:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -3957,7 +4590,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T02:12:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -3968,7 +4601,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": true
   },
@@ -3986,7 +4619,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": true
   },
@@ -3997,7 +4630,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -4008,7 +4641,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -4020,7 +4653,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1100.0,
    "sold": false
   },
@@ -4032,7 +4665,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1100.0,
    "sold": false
   },
@@ -4044,7 +4677,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -4055,7 +4688,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 900.0,
    "sold": false
   },
@@ -4066,7 +4699,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": false
   },
@@ -4078,7 +4711,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T09:25:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1100.0,
    "sold": false
   },
@@ -4089,7 +4722,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-23T04:02:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 119.99,
    "sold": false
   },
@@ -4098,7 +4731,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T17:12:19+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 499.99,
    "sold": false
   },
@@ -4109,7 +4742,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T05:35:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 849.99,
    "sold": true
   },
@@ -4120,7 +4753,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T05:35:31+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 449.99,
    "sold": false
   },
@@ -4131,7 +4764,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-29T17:15:32+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 899.99,
    "sold": false
   },
@@ -4142,7 +4775,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T05:35:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 599.99,
    "sold": false
   },
@@ -4153,7 +4786,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-23T04:02:49+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 649.99,
    "sold": false
   },
@@ -4164,7 +4797,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-23T04:02:50+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 324.99,
    "sold": false
   },
@@ -4173,7 +4806,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T17:15:52+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 274.99,
    "sold": true
   },
@@ -4182,7 +4815,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T04:36:53+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 134.99,
    "sold": false
   },
@@ -4193,7 +4826,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-29T17:12:57+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 349.99,
    "sold": false
   },
@@ -4204,7 +4837,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-30T04:37:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 349.99,
    "sold": false
   },
@@ -4213,7 +4846,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T04:37:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 524.99,
    "sold": true
   },
@@ -4224,7 +4857,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-06T06:03:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 279.99,
    "sold": false
   },
@@ -4235,7 +4868,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-23T05:00:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 199.99,
    "sold": false
   },
@@ -4246,7 +4879,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-21T16:56:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 249.99,
    "sold": false
   },
@@ -4255,7 +4888,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-23T05:00:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 749.99,
    "sold": false
   },
@@ -4266,7 +4899,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-29T17:14:18+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 374.99,
    "sold": false
   },
@@ -4275,7 +4908,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T17:15:44+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 424.99,
    "sold": true
   },
@@ -4286,7 +4919,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-29T17:13:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 479.99,
    "sold": true
   },
@@ -4295,7 +4928,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-30T04:37:29+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 449.99,
    "sold": false
   },
@@ -4304,7 +4937,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-06T06:03:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 499.99,
    "sold": true
   },
@@ -4313,7 +4946,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T17:12:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 449.99,
    "sold": false
   },
@@ -4322,7 +4955,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-06T06:03:15+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 249.99,
    "sold": false
   },
@@ -4333,7 +4966,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-05T21:09:39+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 199.99,
    "sold": true
   },
@@ -4344,7 +4977,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-30T13:20:39+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": false
   },
@@ -4355,7 +4988,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-25T20:23:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 340.0,
    "sold": false
   },
@@ -4366,7 +4999,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-06T20:03:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": false
   },
@@ -4377,7 +5010,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-06T20:03:25+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 455.0,
    "sold": false
   },
@@ -4388,7 +5021,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-06T20:03:27+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 570.0,
    "sold": false
   },
@@ -4399,7 +5032,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-25T20:23:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 145.0,
    "sold": false
   },
@@ -4519,7 +5152,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 440.0,
    "sold": true
   },
@@ -4528,7 +5161,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:06+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 480.0,
    "sold": true
   },
@@ -4537,7 +5170,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
   },
@@ -4546,7 +5179,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 330.0,
    "sold": true
   },
@@ -4555,7 +5188,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 255.0,
    "sold": true
   },
@@ -4564,7 +5197,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:11+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": true
   },
@@ -4573,7 +5206,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 170.0,
    "sold": true
   },
@@ -4582,7 +5215,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 140.0,
    "sold": true
   },
@@ -4591,7 +5224,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:15+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": true
   },
@@ -4600,7 +5233,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:16+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 190.0,
    "sold": true
   },
@@ -4609,7 +5242,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:17+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": true
   },
@@ -4618,7 +5251,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-29T03:17:18+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 180.0,
    "sold": false
   },
@@ -4629,7 +5262,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T22:14:34+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 135.0,
    "sold": false
   },
@@ -4640,8 +5273,214 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T22:32:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 265.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971877453984": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 225.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971882401952": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 290.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971884892320": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 130.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971887841440": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 310.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971892887712": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 155.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971897802912": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971899310240": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971900129440": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971901472928": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 375.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971904028832": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 175.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971909763232": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T00:39:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 800.0,
+   "sold": false
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15196730032451": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-11-25T18:51:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": false
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15196746056003": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-01-14T08:23:23+00:00",
+   "last_seen": "2026-11-13",
+   "price": 750.0,
+   "sold": true
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15197218144579": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-11-26T12:18:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
+   "sold": true
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15197287317827": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-01-09T13:19:49+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": true
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15271641481539": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-23T12:02:33+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": false
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15271667171651": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-23T12:27:56+00:00",
+   "last_seen": "2026-11-13",
+   "price": 260.0,
+   "sold": true
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15271668711747": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-23T12:29:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1000.0,
+   "sold": false
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15271669465411": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-23T12:30:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15345151672643": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-22T15:17:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": true
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15372313166147": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-09-15T16:01:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 325.0,
+   "sold": false
+  },
+  "Nationalbunker|https://nationalbunker.store/products/15439659401539": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-22T15:17:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
    "sold": false
   },
   "Performa|https://performaatlanta.com/products/15394955362534": {
@@ -4649,7 +5488,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-27T00:35:33+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 950.0,
    "sold": false
   },
@@ -4658,7 +5497,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-02T18:37:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": true
   },
@@ -4669,7 +5508,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-09T23:22:57+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -4678,7 +5517,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-17T21:21:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -4687,7 +5526,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-31T20:27:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 800.0,
    "sold": false
   },
@@ -4698,7 +5537,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-05-01T00:22:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": true
   },
@@ -4707,7 +5546,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-01T22:40:42+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -4718,7 +5557,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-04-28T23:55:07+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 900.0,
    "sold": false
   },
@@ -4727,7 +5566,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-04-30T22:38:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 480.0,
    "sold": true
   },
@@ -4736,7 +5575,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-06T22:19:33+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": true
   },
@@ -4745,7 +5584,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-10T21:15:22+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 320.0,
    "sold": true
   },
@@ -4754,7 +5593,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-17T20:48:32+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 585.0,
    "sold": false
   },
@@ -4763,7 +5602,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-17T20:54:25+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": true
   },
@@ -4772,7 +5611,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-26T22:25:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 425.0,
    "sold": true
   },
@@ -4781,7 +5620,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-26T22:39:29+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 165.0,
    "sold": true
   },
@@ -4790,7 +5629,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-10T22:25:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": true
   },
@@ -4799,7 +5638,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-25T23:15:32+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
   },
@@ -4808,7 +5647,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-27T00:19:56+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
   },
@@ -4817,7 +5656,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-07T03:38:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": true
   },
@@ -4826,7 +5665,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-09T19:52:42+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": true
   },
@@ -4837,7 +5676,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-09T23:50:26+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": true
   },
@@ -4846,7 +5685,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-14T21:25:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1600.0,
    "sold": false
   },
@@ -4855,7 +5694,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-29T23:20:36+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": true
   },
@@ -4864,7 +5703,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-06T22:22:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -4873,7 +5712,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-12T17:40:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": true
   },
@@ -4884,7 +5723,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-02-08T16:31:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 290.0,
    "sold": false
   },
@@ -4895,7 +5734,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-16T19:43:07+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 320.0,
    "sold": false
   },
@@ -4906,7 +5745,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-17T16:46:32+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 210.0,
    "sold": false
   },
@@ -4917,7 +5756,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-27T15:29:54+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 290.0,
    "sold": false
   },
@@ -4928,7 +5767,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-27T15:53:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 320.0,
    "sold": false
   },
@@ -4939,7 +5778,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-30T14:53:02+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 240.0,
    "sold": false
   },
@@ -4950,7 +5789,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-30T15:04:17+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 290.0,
    "sold": false
   },
@@ -4961,7 +5800,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-30T15:46:19+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 9938393627.0,
    "sold": false
   },
@@ -4972,7 +5811,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-10-02T16:40:41+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 390.0,
    "sold": false
   },
@@ -4983,7 +5822,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-10-22T18:02:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 250.0,
    "sold": false
   },
@@ -4994,7 +5833,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-10-22T18:25:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 240.0,
    "sold": false
   },
@@ -5006,7 +5845,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-11-30T16:09:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 230.0,
    "sold": false
   },
@@ -5017,7 +5856,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-04-15T19:58:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 280.0,
    "sold": false
   },
@@ -5026,7 +5865,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-05T14:04:16+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 190.0,
    "sold": false
   },
@@ -5037,7 +5876,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-17T00:39:07+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 750.0,
    "sold": false
   },
@@ -5048,7 +5887,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-04T19:50:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 4200.0,
    "sold": false
   },
@@ -5059,7 +5898,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-07-21T18:50:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1800.0,
    "sold": false
   },
@@ -5070,7 +5909,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-04T19:47:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 950.0,
    "sold": false
   },
@@ -5079,7 +5918,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-04T20:11:07+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2400.0,
    "sold": false
   },
@@ -5090,7 +5929,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-04T20:24:37+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -5101,7 +5940,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-04T20:44:02+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2600.0,
    "sold": false
   },
@@ -5112,7 +5951,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-04T21:05:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 0.0,
    "sold": true
   },
@@ -5123,7 +5962,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-04T21:25:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2600.0,
    "sold": false
   },
@@ -5134,7 +5973,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-09-04T21:58:52+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 0.0,
    "sold": true
   },
@@ -5145,7 +5984,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-10-27T22:43:22+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 4200.0,
    "sold": false
   },
@@ -5157,7 +5996,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-11-18T00:00:29+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2600.0,
    "sold": false
   },
@@ -5168,7 +6007,7 @@
    ],
    "first_run": 0,
    "first_seen": "2025-11-24T22:37:26+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5179,7 +6018,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-02-27T15:44:22+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1200.0,
    "sold": false
   },
@@ -5191,7 +6030,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-02-27T15:46:18+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1800.0,
    "sold": false
   },
@@ -5202,7 +6041,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-03-06T00:10:18+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 0.0,
    "sold": true
   },
@@ -5213,7 +6052,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-02T20:00:31+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 170.0,
    "sold": false
   },
@@ -5224,7 +6063,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T20:01:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -5235,7 +6074,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-16T20:01:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -5252,7 +6091,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:54:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -5263,7 +6102,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:54:45+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -5274,7 +6113,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:54:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5291,7 +6130,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-06T20:54:49+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -5308,7 +6147,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 320.0,
    "sold": false
   },
@@ -5317,7 +6156,7 @@
    "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-12T03:50:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -5328,7 +6167,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -5339,7 +6178,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 240.0,
    "sold": false
   },
@@ -5350,7 +6189,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T02:12:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5361,7 +6200,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-06-05T19:58:52+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": false
   },
@@ -5372,7 +6211,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-10T20:09:40+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 360.0,
    "sold": false
   },
@@ -5383,7 +6222,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-10T20:09:45+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": false
   },
@@ -5400,7 +6239,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-21T20:03:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": false
   },
@@ -5411,7 +6250,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-28T20:09:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 750.0,
    "sold": false
   },
@@ -5422,7 +6261,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-11T19:59:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -5433,7 +6272,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-11T19:59:29+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -5444,7 +6283,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-11T19:59:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -5461,7 +6300,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -5472,7 +6311,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -5483,7 +6322,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5494,7 +6333,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:31+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -5505,7 +6344,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-18T20:26:32+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -5595,7 +6434,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-21T18:38:39+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -5606,7 +6445,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-24T22:01:43+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5617,7 +6456,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-25T16:07:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -5628,7 +6467,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-25T16:07:43+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -5640,7 +6479,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-25T17:21:45+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -5651,7 +6490,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-30T17:38:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -5662,7 +6501,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-30T23:53:57+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -5674,7 +6513,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-31T18:26:17+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 750.0,
    "sold": false
   },
@@ -5685,7 +6524,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-31T18:36:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5696,7 +6535,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-03T16:53:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -5707,7 +6546,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-03T16:58:49+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1000.0,
    "sold": false
   },
@@ -5718,7 +6557,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-07T17:47:52+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -5727,7 +6566,7 @@
    "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -5739,7 +6578,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -5751,7 +6590,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -5768,7 +6607,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 700.0,
    "sold": false
   },
@@ -5779,7 +6618,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-08T20:31:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -5790,7 +6629,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5801,7 +6640,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -5812,7 +6651,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5824,7 +6663,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T17:54:51+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -5836,7 +6675,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 750.0,
    "sold": false
   },
@@ -5845,7 +6684,7 @@
    "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-10T23:27:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -5856,7 +6695,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -5867,7 +6706,7 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-11T22:44:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1200.0,
    "sold": false
   },
@@ -5876,7 +6715,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-16T18:33:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": false
   },
@@ -5887,7 +6726,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-03T17:43:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": false
   },
@@ -5898,7 +6737,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-08T20:30:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 160.0,
    "sold": false
   },
@@ -5907,7 +6746,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-15T21:45:15+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5916,7 +6755,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-20T17:26:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -5925,7 +6764,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-22T17:11:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 115.0,
    "sold": false
   },
@@ -5934,7 +6773,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-22T17:08:40+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1100.0,
    "sold": false
   },
@@ -5943,7 +6782,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-22T18:41:39+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -5952,7 +6791,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-23T19:54:27+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 360.0,
    "sold": false
   },
@@ -5961,7 +6800,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-23T21:44:07+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": false
   },
@@ -5970,7 +6809,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-27T17:21:52+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 150.0,
    "sold": false
   },
@@ -5981,7 +6820,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-16T18:13:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1750.0,
    "sold": false
   },
@@ -5990,7 +6829,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-20T17:20:16+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 500.0,
    "sold": false
   },
@@ -5999,7 +6838,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-23T22:07:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -6008,7 +6847,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-23T22:09:29+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 850.0,
    "sold": false
   },
@@ -6017,7 +6856,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-25T20:29:59+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -6026,7 +6865,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-25T20:25:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -6035,7 +6874,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-09-29T22:17:41+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 475.0,
    "sold": false
   },
@@ -6044,7 +6883,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-03T22:00:27+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 275.0,
    "sold": false
   },
@@ -6053,7 +6892,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-06T19:26:07+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -6062,7 +6901,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-06T19:54:52+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 225.0,
    "sold": false
   },
@@ -6071,7 +6910,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-13T16:16:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -6080,7 +6919,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-15T18:12:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -6091,7 +6930,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-03T23:45:24+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -6100,7 +6939,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-08T21:59:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -6111,7 +6950,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-03T20:08:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 951.0,
    "sold": false
   },
@@ -6122,7 +6961,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T19:00:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1732.0,
    "sold": true
   },
@@ -6133,7 +6972,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T19:00:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1732.0,
    "sold": true
   },
@@ -6145,7 +6984,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T21:00:27+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 424.0,
    "sold": false
   },
@@ -6157,7 +6996,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T21:04:55+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 613.0,
    "sold": false
   },
@@ -6169,7 +7008,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T21:15:04+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 613.0,
    "sold": false
   },
@@ -6180,7 +7019,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T22:15:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 723.0,
    "sold": true
   },
@@ -6192,7 +7031,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T22:22:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 358.0,
    "sold": false
   },
@@ -6204,7 +7043,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-07T23:49:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 424.0,
    "sold": true
   },
@@ -6216,7 +7055,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T23:26:29+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 358.0,
    "sold": false
   },
@@ -6227,7 +7066,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-11T17:59:01+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1391.0,
    "sold": true
   },
@@ -6238,7 +7077,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-12T18:00:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 951.0,
    "sold": false
   },
@@ -6249,7 +7088,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-12T18:00:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 723.0,
    "sold": false
   },
@@ -6260,7 +7099,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-12T18:00:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 723.0,
    "sold": false
   },
@@ -6269,7 +7108,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-12T18:00:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 951.0,
    "sold": false
   },
@@ -6280,7 +7119,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-13T00:16:19+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2502.0,
    "sold": false
   },
@@ -6291,7 +7130,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-13T00:27:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2062.0,
    "sold": false
   },
@@ -6302,7 +7141,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-13T23:06:27+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 5043.0,
    "sold": false
   },
@@ -6313,7 +7152,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-18T04:21:38+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 401.0,
    "sold": true
   },
@@ -6324,7 +7163,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-14T23:19:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1292.0,
    "sold": false
   },
@@ -6335,7 +7174,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-14T00:46:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1292.0,
    "sold": false
   },
@@ -6346,7 +7185,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-15T22:56:21+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1281.0,
    "sold": true
   },
@@ -6359,7 +7198,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-29T21:49:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1622.0,
    "sold": true
   },
@@ -6370,7 +7209,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-02T22:55:21+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 580.0,
    "sold": false
   },
@@ -6381,8 +7220,242 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-05T22:45:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 712.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/15378687066347": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-09-28T07:14:19+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9441268990187": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-05-04T08:29:12+00:00",
+   "last_seen": "2026-11-13",
+   "price": 295.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9441269973227": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-05-04T08:32:05+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9441273282795": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-05-04T08:42:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 415.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9445945508075": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-05-06T10:06:01+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9445954552043": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-05-06T10:40:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9546975379691": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-05-22T08:45:43+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9546992124139": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-05-22T08:48:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 465.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9565089726699": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-05-26T09:55:00+00:00",
+   "last_seen": "2026-11-13",
+   "price": 290.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9584628793579": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-05-31T09:56:20+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9827073458411": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-21T13:11:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9838446772459": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-27T11:22:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9838447198443": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-27T11:25:40+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9838448247019": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-27T11:28:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9838511096043": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-27T14:33:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9841694605547": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-28T07:51:21+00:00",
+   "last_seen": "2026-11-13",
+   "price": 650.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9841702961387": {
+   "category": "Dresses",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-28T08:05:33+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9867236966635": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-10T06:00:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9867242143979": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-10T06:04:38+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9868431589611": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-11T06:07:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9895087407339": {
+   "category": "Tops",
+   "colours": [
+    "White",
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-17T08:35:35+00:00",
+   "last_seen": "2026-11-13",
+   "price": 360.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9896448753899": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-18T03:19:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9896450097387": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-18T03:22:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 520.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9906695799019": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-23T07:13:43+00:00",
+   "last_seen": "2026-11-13",
+   "price": 320.0,
+   "sold": false
+  },
+  "Sunday Nightmare|https://sundaynightmare.com/products/9919371346155": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-09-01T03:50:57+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
    "sold": false
   },
   "Throat|https://shopthroat.com/products/8842039394509": {
@@ -6390,7 +7463,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-05-01T19:34:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -6399,7 +7472,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-05-18T19:25:49+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": false
   },
@@ -6408,7 +7481,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-05-18T19:27:09+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -6417,7 +7490,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-06-15T20:03:34+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -6426,7 +7499,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-08-17T20:03:25+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 525.0,
    "sold": false
   },
@@ -6435,7 +7508,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-09-04T20:04:02+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 525.0,
    "sold": false
   },
@@ -6444,7 +7517,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2024-09-11T19:36:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 925.0,
    "sold": false
   },
@@ -6455,7 +7528,7 @@
    ],
    "first_run": 0,
    "first_seen": "2024-10-23T19:06:59+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 725.0,
    "sold": false
   },
@@ -6464,7 +7537,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-02-26T21:10:26+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": false
   },
@@ -6473,7 +7546,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-04-30T20:25:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -6482,7 +7555,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-05-10T20:26:16+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 295.0,
    "sold": false
   },
@@ -6491,7 +7564,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-09T20:24:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": false
   },
@@ -6500,7 +7573,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-08-23T20:15:37+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 375.0,
    "sold": false
   },
@@ -6509,7 +7582,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-03T19:57:55+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 250.0,
    "sold": false
   },
@@ -6518,7 +7591,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-09-17T20:10:16+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 275.0,
    "sold": false
   },
@@ -6527,7 +7600,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-12-17T21:07:55+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 650.0,
    "sold": false
   },
@@ -6536,7 +7609,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-01-14T21:20:11+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -6545,7 +7618,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-01-21T21:07:08+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 325.0,
    "sold": false
   },
@@ -6554,7 +7627,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-01-28T20:58:55+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": false
   },
@@ -6563,7 +7636,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-02-04T21:20:24+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 600.0,
    "sold": false
   },
@@ -6572,7 +7645,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-02-11T21:01:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 550.0,
    "sold": false
   },
@@ -6581,7 +7654,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-02-11T21:09:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 625.0,
    "sold": false
   },
@@ -6590,7 +7663,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-02-18T21:06:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 425.0,
    "sold": false
   },
@@ -6599,7 +7672,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-02-25T21:07:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -6608,7 +7681,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-02-25T21:11:11+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 295.0,
    "sold": false
   },
@@ -6617,7 +7690,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-02-25T21:29:59+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 325.0,
    "sold": false
   },
@@ -6628,7 +7701,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-03-04T21:17:36+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 825.0,
    "sold": false
   },
@@ -6637,7 +7710,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-11T20:11:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 475.0,
    "sold": false
   },
@@ -6646,7 +7719,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-11T20:18:49+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 450.0,
    "sold": false
   },
@@ -6655,7 +7728,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-18T20:17:27+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 275.0,
    "sold": false
   },
@@ -6664,7 +7737,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-25T19:35:18+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1350.0,
    "sold": false
   },
@@ -6673,7 +7746,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-25T19:37:53+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 995.0,
    "sold": false
   },
@@ -6682,7 +7755,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-03-25T20:27:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": false
   },
@@ -6691,7 +7764,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-04-08T20:08:35+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -6700,7 +7773,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-04-29T20:02:30+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 625.0,
    "sold": false
   },
@@ -6709,7 +7782,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-02T20:27:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2500.0,
    "sold": false
   },
@@ -6718,7 +7791,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-06T20:13:41+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 425.0,
    "sold": false
   },
@@ -6727,7 +7800,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-09T20:15:24+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 325.0,
    "sold": false
   },
@@ -6736,7 +7809,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-09T20:21:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 350.0,
    "sold": false
   },
@@ -6745,7 +7818,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-13T19:48:44+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 365.0,
    "sold": false
   },
@@ -6754,7 +7827,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-23T20:17:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 495.0,
    "sold": false
   },
@@ -6763,7 +7836,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-27T20:03:17+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 2250.0,
    "sold": false
   },
@@ -6772,7 +7845,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-05-27T20:19:34+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 495.0,
    "sold": false
   },
@@ -6781,7 +7854,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-03T20:05:43+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1300.0,
    "sold": false
   },
@@ -6790,7 +7863,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-06-24T20:03:47+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 595.0,
    "sold": false
   },
@@ -6802,7 +7875,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-07-08T20:31:16+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 725.0,
    "sold": false
   },
@@ -6811,7 +7884,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-07-21T16:57:32+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1150.0,
    "sold": false
   },
@@ -6820,7 +7893,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-01T20:23:03+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -6831,7 +7904,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-12T20:07:32+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 750.0,
    "sold": false
   },
@@ -6840,7 +7913,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-08-12T20:12:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1250.0,
    "sold": false
   },
@@ -6857,7 +7930,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-29T14:09:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1095.0,
    "sold": false
   },
@@ -6868,7 +7941,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T21:57:13+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 345.0,
    "sold": true
   },
@@ -6879,7 +7952,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T21:57:14+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 895.0,
    "sold": false
   },
@@ -6890,7 +7963,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-01T21:55:00+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1695.0,
    "sold": false
   },
@@ -6901,7 +7974,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-02T21:46:06+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1695.0,
    "sold": false
   },
@@ -6913,7 +7986,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-05T18:03:58+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 597.0,
    "sold": true
   },
@@ -6924,7 +7997,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-15T16:55:48+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 997.0,
    "sold": false
   },
@@ -6935,7 +8008,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-10-27T21:40:20+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 395.0,
    "sold": true
   },
@@ -6946,7 +8019,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-05T22:06:33+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 497.0,
    "sold": false
   },
@@ -6957,7 +8030,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-06T16:37:16+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 697.0,
    "sold": false
   },
@@ -6968,7 +8041,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-11-11T17:44:23+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 397.0,
    "sold": false
   },
@@ -6979,7 +8052,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-21T18:28:46+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 145.0,
    "sold": true
   },
@@ -6990,7 +8063,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-19T15:45:52+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 397.0,
    "sold": true
   },
@@ -7001,7 +8074,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-19T15:45:33+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 897.0,
    "sold": false
   },
@@ -7012,7 +8085,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-19T15:45:12+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 797.0,
    "sold": false
   },
@@ -7023,7 +8096,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-20T14:44:05+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 415.0,
    "sold": true
   },
@@ -7035,7 +8108,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-19T21:02:26+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 255.0,
    "sold": false
   },
@@ -7046,7 +8119,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-20T16:46:33+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 397.0,
    "sold": true
   },
@@ -7057,7 +8130,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-20T21:41:27+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 475.0,
    "sold": false
   },
@@ -7068,7 +8141,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-20T21:41:28+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 955.0,
    "sold": false
   },
@@ -7079,7 +8152,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-08-20T21:41:29+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 695.0,
    "sold": true
   },
@@ -7090,7 +8163,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-03T21:39:56+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 495.0,
    "sold": true
   },
@@ -7101,7 +8174,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-16T21:39:10+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1495.0,
    "sold": false
   },
@@ -7112,7 +8185,7 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-16T21:39:11+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 1295.0,
    "sold": false
   },
@@ -7124,13 +8197,14 @@
    ],
    "first_run": 0,
    "first_seen": "2026-09-21T17:27:41+00:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "price": 297.0,
    "sold": false
   }
  },
  "rates": {
   "CAD": 1.4249,
+  "CHF": 0.83314,
   "EUR": 0.90245
  }
 }
