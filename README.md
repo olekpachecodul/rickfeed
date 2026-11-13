@@ -16,7 +16,7 @@ so gaps can be longer; each page shows the time of the last check.
 - `shops.json`: every shop, once. For each designer (by slug) it lists the shop's collections to read.
   `"filter"` marks collections that mix designers (only pieces named as the designer are kept).
   `"everything"` names a whole-shop collection (usually `all`) that's read once and sorted to every designer.
-  Collections named after a designer (e.g. `/collections/helmut-lang`) are also found automatically each day,
+  Where a shop lists nothing for a designer, its two largest collections named after that designer (e.g. `/collections/helmut-lang`) are found automatically each day,
   and straight away when a designer is added.
 - `brands.json`: every designer: `slug` (its page is `/<slug>/`), title, what counts as that designer (`match`, title or vendor),
   `lines` (e.g. DRKSHDW, Junya Watanabe under Comme des Garçons), `exclude` (pieces that belong on another page, e.g. Raf Simons'
@@ -24,6 +24,7 @@ so gaps can be longer; each page shows the time of the last check.
 - `publications.json`: fashion publications whose RSS feeds are read hourly for articles (Google News is searched per designer too). `data/articles.json` → `sources` shows how each answered on the last read.
 - `themes/base.css` is the shared layout; `themes/<theme>.css` gives each designer its look.
 - `data/state.json`: what's already been seen, per designer (created and updated automatically).
+- `data/last_check.json`: the last check's request count, time taken, and any shops that asked us to slow down (Shopify answers 429).
 
 ## Adding a shop
 

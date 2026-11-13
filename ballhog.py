@@ -54,8 +54,11 @@ for _b in BRANDS:
     _b["news_re"] = re.compile(_n["require"], re.I) if _n.get("require") else _b["re"]
     _b["news_ex"] = re.compile(_n["exclude"], re.I) if _n.get("exclude") else None
 DISCOVER_EVERY_DAYS = 1
-MAX_DISCOVERED = 5        # extra collections found per designer per shop, at most
-SHOP_GAP = 0.4            # seconds between requests to the same shop, to stay under Shopify's limits
+MAX_DISCOVERED = 2        # collections found by discovery per designer per shop (the largest), only where none are listed
+DISCOVERY_VERSION = 2     # bump to re-run discovery everywhere on the next check
+SHOP_GAP = 0.4            # seconds between requests to the same shop
+GLOBAL_GAP = 0.25         # seconds between any two requests: Shopify limits by IP across all its shops
+COOL_DOWN = 15            # seconds every request waits after a "too many requests" answer
 
 
 def is_brand(brand, title, vendor):
@@ -148,6 +151,18 @@ def now_utc():
 
 _HOST_LOCKS, _HOST_LAST = {}, {}
 _HOSTS_LOCK = threading.Lock()
+_GLOBAL = {"next": 0.0, "pause_until": 0.0, "requests": 0, "refusals": 0}
+_GLOBAL_LOCK = threading.Lock()
+
+
+def _global_turn():
+    """Wait for this request's slot in the run-wide budget (and any cool-down after a 429)."""
+    with _GLOBAL_LOCK:
+        now = time.monotonic()
+        slot = max(now, _GLOBAL["next"], _GLOBAL["pause_until"])
+        _GLOBAL["next"] = slot + GLOBAL_GAP
+    if slot > now:
+        time.sleep(slot - now)
 
 
 def fetch_bytes(url):
@@ -159,8 +174,16 @@ def fetch_bytes(url):
         wait = _HOST_LAST.get(host, 0) + SHOP_GAP - time.monotonic()
         if wait > 0:
             time.sleep(wait)
+        _global_turn()
+        _GLOBAL["requests"] += 1
         try:
             return _fetch(url)
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 430):
+                with _GLOBAL_LOCK:
+                    _GLOBAL["refusals"] += 1
+                    _GLOBAL["pause_until"] = max(_GLOBAL["pause_until"], time.monotonic() + COOL_DOWN)
+            raise
         finally:
             _HOST_LAST[host] = time.monotonic()
 
@@ -416,6 +439,7 @@ def discover(shop):
         cols += got
         if len(got) < 250:
             break
+    cols.sort(key=lambda c: -int(c.get("products_count") or 0))   # largest first, so the plan can take the top few
     for c in cols:
         text = c.get("handle", "").replace("-", " ").replace("_", " ") + " " + (c.get("title") or "")
         for b in BRANDS:
@@ -724,11 +748,12 @@ def main():
     # Look again once a day, or straight away when a designer has been added since the last look.
     stale = [shop for shop in SHOPS
              if discovered.get(shop["name"], {}).get("date", "") < (run_at - dt.timedelta(days=DISCOVER_EVERY_DAYS)).date().isoformat()
-             or set(discovered.get(shop["name"], {}).get("slugs", [])) != SLUGS]
+             or set(discovered.get(shop["name"], {}).get("slugs", [])) != SLUGS
+             or discovered.get(shop["name"], {}).get("v") != DISCOVERY_VERSION]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for shop, found in zip(stale, pool.map(discover, stale)):
             if found is not None:
-                discovered[shop["name"]] = {"date": today, "found": found, "slugs": sorted(SLUGS)}
+                discovered[shop["name"]] = {"date": today, "found": found, "slugs": sorted(SLUGS), "v": DISCOVERY_VERSION}
     discovered = {k: v for k, v in discovered.items() if k in {s["name"] for s in SHOPS}}
     plans, jobs = {}, []
     for shop in SHOPS:
@@ -739,7 +764,8 @@ def main():
         for b in BRANDS:
             listed = shop.get("collections", {}).get(b["slug"], [])
             listed = listed + [h for h in everything if h not in listed]
-            extra = [h for h in found.get(b["slug"], []) if h not in listed][:MAX_DISCOVERED]
+            # discovery fills gaps only: where the shop lists nothing for this designer
+            extra = [] if listed else [h for h in found.get(b["slug"], [])][:MAX_DISCOVERED]
             if listed or extra:
                 plans[shop["name"]][b["slug"]] = (listed + extra, set(shop.get("filter", [])) | set(extra) | set(everything))
                 handles += [h for h in listed + extra if h not in handles]
@@ -747,6 +773,7 @@ def main():
 
     # 2. Read every shop once.
     print(f"Checking {len(SHOPS)} shops…")
+    crawl_started = time.monotonic()
     crawled = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for shop, by_handle, errors, lookup_errors in pool.map(crawl_shop, jobs):
@@ -756,6 +783,16 @@ def main():
             if lookup_errors:
                 status += f" (product list refused: {next(iter(lookup_errors.values()))}; using last known)"
             print(f"  {shop['name']:<22} {status}")
+
+    crawl_seconds = round(time.monotonic() - crawl_started)
+    busy = sorted(n for n, (bh, errs, lk) in crawled.items() if lk or any("429" in str(e) for e in errs.values()))
+    unreachable = sorted(n for n, (bh, errs, lk) in crawled.items() if errs and not bh)
+    print(f"Shops read in {crawl_seconds}s with {_GLOBAL['requests']} requests; {_GLOBAL['refusals']} refused (429)."
+          + (f" Busy: {', '.join(busy)}." if busy else ""))
+    if site_mode:
+        (state_file.parent / "last_check.json").write_text(json.dumps(
+            {"checked": run_iso, "seconds": crawl_seconds, "requests": _GLOBAL["requests"], "refused": _GLOBAL["refusals"],
+             "busy_shops": busy, "unreachable_shops": unreachable, "collections": sum(len(h) for _, h in jobs)}, indent=1), encoding="utf-8")
 
     # Articles, at most hourly.
     articles_file = state_file.parent / "articles.json"
@@ -792,7 +829,7 @@ def main():
                 for shop, plan, items, error, refused in results:
                     if refused:
                         have = {it["id"] for it in items}
-                        carried = [dict(it, _lookup_failed=True) for it in prev if it.get("shop") == shop["name"] and it.get("id") not in have]
+                        carried = [dict(it, _lookup_failed=True, _carried=True) for it in prev if it.get("shop") == shop["name"] and it.get("id") not in have]
                         items.extend(carried)
                         if carried:
                             print(f"  {brand['name']} / {shop['name']}: reused {len(carried)} listings from the last published check")
@@ -803,8 +840,12 @@ def main():
             handles, filtered = plan
             link = (f"{shop['root']}/search?type=product&q={urllib.parse.quote_plus(brand['name'])}" if handles[0] in filtered
                     else f"{shop['root']}/collections/{handles[0]}")
+            # A shop that refused this check but whose listings were carried over from the last
+            # one isn't "unreachable" for the reader: it's showing slightly older listings.
+            carried_n = sum(1 for it in items if it.get("_carried"))
+            stale = (error or refused) if (carried_n or (refused and items)) else None
             shops_out.append({"name": shop["name"], "city": shop["city"], "link": shop.get("link", {}).get(slug, link) if isinstance(shop.get("link"), dict) else link,
-                              "count": len(items), "error": error})
+                              "count": len(items), "error": None if stale else error, "stale": stale})
             seeding = (slug, shop["name"]) not in known   # first time this designer is read at this shop
             for it in items:
                 key = f"{slug}|{shop['name']}|{it['id']}"
@@ -834,6 +875,7 @@ def main():
                 else:
                     mem["sold"], mem["category"], mem["colours"] = it["sold"], it["category"], it["colours"]
                 it.pop("vendor", None)
+                it.pop("_carried", None)
                 it["first_seen"] = mem["first_seen"]
                 it["is_new"] = (not first_run) and mem.get("first_run") == run_no
                 drop_at = parse_time(mem.get("drop_at"))
@@ -1313,9 +1355,12 @@ function renderMeta(){
   $("#meta").innerHTML = parts.map(p => `<span>${p}</span>`).join("");
 }
 renderMeta();
-const failed = DATA.shops.filter(s => s.error);
+const failed = DATA.shops.filter(s => s.error), stale = DATA.shops.filter(s => s.stale);
 const notes = [];
 if (DATA.first_run && !SITE) notes.push("First run. From now on, anything that appears between runs gets a NEW tag.");
+if (stale.length) notes.push(stale.length <= 3
+  ? `${stale.map(s => esc(s.name)).join(", ")} asked us to slow down this check, so ${stale.length === 1 ? "its listings are" : "their listings are"} from an earlier one.`
+  : `${stale.length} shops asked us to slow down this check, so their listings are from an earlier one.`);
 if (failed.length) notes.push("Couldn't reach " + failed.map(s => `<a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.name)}</a> (${esc(s.error)})`).join("; ") + ". Their links still work.");
 if (notes.length) { $("#notice").innerHTML = notes.join("<br>"); $("#notice").hidden = false; }
 if (!SITE && !DATA.first_run && DATA.items.some(i => i.is_new)) $("#onlyNew").checked = true;
@@ -1325,7 +1370,7 @@ $("#markSeen").addEventListener("click", () => {
   applyBaseline(); renderMeta(); render();
 });
 
-$("#shops").innerHTML = DATA.shops.map(s => `<button type="button" class="shop${s.error ? " err" : ""}" aria-pressed="true" data-s="${esc(s.name)}" title="${esc(s.city)}${s.error ? " (couldn't reach this shop)" : ""}">${esc(s.name)}<span class="n">${s.error ? "!" : s.count}</span></button>`).join("");
+$("#shops").innerHTML = DATA.shops.map(s => `<button type="button" class="shop${s.error ? " err" : ""}${s.stale ? " stale" : ""}" aria-pressed="true" data-s="${esc(s.name)}" title="${esc(s.city)}${s.error ? " (couldn't reach this shop)" : s.stale ? " (listings from an earlier check)" : ""}">${esc(s.name)}<span class="n">${s.error ? "!" : s.count}</span></button>`).join("");
 $("#shops").addEventListener("click", e => {
   const b = e.target.closest(".shop"); if (!b) return;
   const name = b.dataset.s;
