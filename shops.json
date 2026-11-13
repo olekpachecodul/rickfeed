@@ -456,5 +456,211 @@
     "calvin-klein-outerwear"
    ]
   }
+ },
+ {
+  "name": "Lord Ralph London",
+  "city": "London, UK",
+  "root": "https://lordralphlondon.com",
+  "collections": {
+   "ralph": [
+    "double-rl-rrl",
+    "view-all"
+   ]
+  },
+  "filter": [
+   "view-all"
+  ]
+ },
+ {
+  "name": "Shush London",
+  "city": "London, UK",
+  "root": "https://www.shushlondon.uk",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Second Wave Vintage",
+  "city": "",
+  "root": "https://www.secondwavevintage.co.uk",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Headlock",
+  "city": "",
+  "root": "https://headlock.co",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Arkives",
+  "city": "",
+  "root": "https://arkives.store",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Thrifted",
+  "city": "",
+  "root": "https://www.thrifted.com",
+  "collections": {
+   "ralph": [
+    "vintage-mens-ralph-lauren",
+    "ralph-lauren",
+    "vintage-mens-polo-sport"
+   ]
+  }
+ },
+ {
+  "name": "Vintage Rare USA",
+  "city": "",
+  "root": "https://www.vintagerareusa.com",
+  "collections": {
+   "ralph": [
+    "polo-ralph-lauren",
+    "ralph-lauren-polo",
+    "polo-ralph-lauren-jacket",
+    "vintage-ralph-lauren-t-shirts"
+   ]
+  }
+ },
+ {
+  "name": "Retrospective",
+  "city": "",
+  "root": "https://www.retrospectivestore.com",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Thrift Tale",
+  "city": "",
+  "root": "https://thrifttale.com",
+  "collections": {
+   "ralph": [
+    "vintage-ralph-lauren",
+    "vintage-polo-ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Planet Vintage",
+  "city": "",
+  "root": "https://planetvintage.store",
+  "collections": {
+   "ralph": [
+    "vintage-ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "NEWLIFE Clothing",
+  "city": "",
+  "root": "https://newlifeclo.com",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Vintage Collection Bendigo",
+  "city": "Bendigo, Australia",
+  "root": "https://vintagecollectionbendigo.com",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Vintage Marketplace",
+  "city": "",
+  "root": "https://vintagemarketplace.com.au",
+  "collections": {
+   "ralph": [
+    "menswear-ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Messina Hembry",
+  "city": "",
+  "root": "https://messinahembry.com",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "97th Vintage",
+  "city": "",
+  "root": "https://97thvintage.com",
+  "collections": {
+   "ralph": [
+    "all-vintage-ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Cobble",
+  "city": "",
+  "root": "https://cobblestore.com",
+  "collections": {
+   "ralph": [
+    "polo-ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Keep It Classic",
+  "city": "Las Vegas",
+  "root": "https://keepitclassiclv.com",
+  "collections": {
+   "ralph": [
+    "polo-ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Vintage Couture",
+  "city": "",
+  "root": "https://www.vintagecouture.com",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "FineClothing",
+  "city": "",
+  "root": "https://www.fineclothing.com",
+  "collections": {
+   "ralph": [
+    "ralph-lauren"
+   ]
+  }
+ },
+ {
+  "name": "Lotique USA",
+  "city": "",
+  "root": "https://shop.lotiqueusa.com",
+  "collections": {}
  }
 ]

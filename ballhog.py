@@ -332,15 +332,26 @@ def fetch_details(feed_url):
     return details, everything, None
 
 
-_CURRENCY = {}
+_META = {}
+def shop_meta(root):
+    """A Shopify shop's own details (currency, city, country), read once per check."""
+    if root not in _META:
+        try:
+            _META[root] = json.loads(fetch_bytes(root + "/meta.json"))
+        except Exception:
+            _META[root] = {}
+    return _META[root]
+
+
 def shop_currency(root):
     """A Shopify shop's own currency (products.json prices don't say)."""
-    if root not in _CURRENCY:
-        try:
-            _CURRENCY[root] = json.loads(fetch_bytes(root + "/meta.json")).get("currency") or "USD"
-        except Exception:
-            _CURRENCY[root] = "USD"
-    return _CURRENCY[root]
+    return shop_meta(root).get("currency") or "USD"
+
+
+def shop_place(root):
+    """Where a shop is, from its own Shopify details, for shops.json entries that leave "city" empty."""
+    m = shop_meta(root)
+    return ", ".join(x for x in (m.get("city"), m.get("country")) if x) or "Online"
 
 
 def items_from_products(shop, feed_url, products, atom_items):
@@ -417,6 +428,8 @@ def crawl_shop(job):
     """Read every collection this shop has for any designer, once. Returns the
     listings per collection (not yet sorted to designers) and any problems."""
     shop, handles = job
+    if not shop.get("city"):
+        shop["city"] = shop_place(shop["root"])
     by_handle, errors, lookup_errors = {}, {}, {}
     for h in handles:
         url = f"{shop['root']}/collections/{h}.atom"
