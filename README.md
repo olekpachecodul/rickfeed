@@ -21,7 +21,7 @@ so gaps can be longer; each page shows the time of the last check.
 - `brands.json`: every designer: `slug` (its page is `/<slug>/`), title, what counts as that designer (`match`, title or vendor),
   `lines` (e.g. DRKSHDW, Junya Watanabe under Comme des Garçons), `exclude` (pieces that belong on another page, e.g. Raf Simons'
   Calvin Klein work), `strict` (filter every shop, used for 205W39NYC), `short` (the name in the switcher), the look and wording.
-- `publications.json`: fashion publications whose RSS feeds are read hourly for articles (Google News is searched per designer too).
+- `publications.json`: fashion publications whose RSS feeds are read hourly for articles (Google News is searched per designer too). `data/articles.json` → `sources` shows how each answered on the last read.
 - `themes/base.css` is the shared layout; `themes/<theme>.css` gives each designer its look.
 - `data/state.json`: what's already been seen, per designer (created and updated automatically).
 

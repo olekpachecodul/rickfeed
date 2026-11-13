@@ -1,0 +1,45 @@
+/* Ralph Lauren and RRL: an American catalog. Oxford-cloth cream and navy,
+   Caslon serif, double rules like a printed order form, oxblood for NEW. */
+:root{
+  --bg:#F4F1EA; --ink:#14213D; --muted:#5B6478; --soft:#9AA0AE; --line:#14213D;
+  --tag-ink:#F4F1EA; --ph:#FBF9F4; --blend:multiply; --fit:contain; --oxblood:#7A1F1A;
+  --f:"Libre Caslon Text",Georgia,serif; --track:.02em; --gut:36px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0F1A2E; --ink:#F1EDE3; --muted:#AEB4C2; --soft:#5D6780; --line:#F1EDE3;
+  --tag-ink:#0F1A2E; --ph:#16233B; --blend:normal; --fit:cover; --oxblood:#B04A3F;
+}}
+body{font:400 12px/1.55 var(--f);text-transform:none}
+header{flex-direction:column;justify-content:center;gap:4px;padding:30px 0 12px;border-bottom:3px double var(--line)}
+.mark{font-family:"Libre Caslon Display",Georgia,serif;font-weight:400;font-size:40px;line-height:1.05;letter-spacing:.16em;text-transform:uppercase;text-align:center}
+@media (max-width:520px){.mark{font-size:24px;letter-spacing:.1em}}
+.count{font-style:italic;color:var(--muted)}
+.crumbs{justify-content:center;font-size:11px;margin-top:10px}
+.crumbs > span:not(:last-child)::after{content:"·"}
+.notice{text-align:center;margin-left:auto;margin-right:auto}
+.views{justify-content:center;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.bar{border-top:1px solid var(--line);border-bottom:3px double var(--line);margin-top:14px}
+.tog{border:1px solid var(--line);color:var(--ink);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--ink);color:var(--tag-ink)}
+.sel select{font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+.fg h2{font-style:italic;text-transform:none;letter-spacing:0;font-size:13px;color:var(--ink)}
+.chip{border-color:var(--soft)}
+.shops{justify-content:center}
+.shop{font-style:italic;font-size:11px}
+.grid{gap:60px 26px}
+.ph{aspect-ratio:3/4;outline:1px solid var(--line);outline-offset:6px;margin:6px}
+.b{font-family:"Libre Caslon Text",Georgia,serif;font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+.b.new{background:var(--oxblood);color:#F4F1EA}
+.b.drop{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.line{margin-top:20px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:700}
+.t{font-size:15px;font-family:"Libre Caslon Display",Georgia,serif;line-height:1.3}
+.price{font-weight:400;font-style:italic}
+.row{font-weight:400;color:var(--muted)}
+footer{border-top:3px double var(--line);padding-top:14px;justify-content:center}
+.arts{margin:0 auto}.artnote{text-align:center}
+.arts .at{font-family:"Libre Caslon Display",Georgia,serif;font-size:1.5em}
+.sites{justify-content:center;font-size:11px;letter-spacing:.06em}
+.sites .home{font-family:"Libre Caslon Display",Georgia,serif;letter-spacing:.2em}
+.sites a[aria-current=page]{color:var(--oxblood);text-decoration:none}
+@media (max-width:640px){.sites{justify-content:flex-start}}
+@media (max-width:900px){.ph{margin:4px;outline-offset:4px}}

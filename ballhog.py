@@ -471,10 +471,10 @@ def brand_listings(brand, shop, plan, crawled):
 ARTICLES_EVERY_MINUTES = 55
 ARTICLES_KEEP_DAYS = 400
 ARTICLES_MAX = 150           # per designer
-ARTICLES_RULES = 2           # bump when the matching rules change, to re-read straight away
+ARTICLES_RULES = 3           # bump when the matching rules change, to re-read straight away
 TAG_RE = re.compile(r"<[^>]+>")
 # Results that are shops or reference pages, not articles.
-NOT_ARTICLES = re.compile(r"\b(?:lyst|ebay|farfetch|ssense|grailed|vestiaire|the\s*realreal|mercari|poshmark|depop|stockx|goat|"
+NOT_ARTICLES = re.compile(r"\b(?:lyst|ebay|farfetch|vestiaire|the\s*realreal|mercari|poshmark|depop|stockx|goat|"
                           r"mytheresa|net-a-porter|mr\s*porter|matches(?:fashion)?|nordstrom|saks|neiman|end\.?\s*clothing|amazon|etsy|"
                           r"britannica|wikipedia|fandom|pinterest|instagram|tiktok|youtube|facebook|reddit)\b", re.I)
 
