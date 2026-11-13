@@ -1,0 +1,737 @@
+{
+ "items": {
+  "Huiben|https://huibenshop.com/products/6761619095613": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T04:47:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 840.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761619619901": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:30:40+00:00",
+   "last_seen": "2026-11-13",
+   "price": 410.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761620930621": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 700.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761622798397": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T04:57:52+00:00",
+   "last_seen": "2026-11-13",
+   "price": 490.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761623781437": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T05:00:28+00:00",
+   "last_seen": "2026-11-13",
+   "price": 990.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761624862781": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:49+00:00",
+   "last_seen": "2026-11-13",
+   "price": 360.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761625780285": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:50+00:00",
+   "last_seen": "2026-11-13",
+   "price": 470.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761626304573": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:51+00:00",
+   "last_seen": "2026-11-13",
+   "price": 440.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761626665021": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:51+00:00",
+   "last_seen": "2026-11-13",
+   "price": 560.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761626894397": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:52+00:00",
+   "last_seen": "2026-11-13",
+   "price": 650.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761628008509": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:53+00:00",
+   "last_seen": "2026-11-13",
+   "price": 160.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761628106813": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:53+00:00",
+   "last_seen": "2026-11-13",
+   "price": 160.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761628368957": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:54+00:00",
+   "last_seen": "2026-11-13",
+   "price": 160.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6761631285309": {
+   "category": "Other",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2022-04-14T20:33:54+00:00",
+   "last_seen": "2026-11-13",
+   "price": 750.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6834422513725": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-07-14T04:24:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 800.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/6949022761021": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:07:52+00:00",
+   "last_seen": "2026-11-13",
+   "price": 520.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949024268349": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:10:39+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949026365501": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:13:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1440.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949029118013": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:16:55+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1040.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949030592573": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:19:33+00:00",
+   "last_seen": "2026-11-13",
+   "price": 310.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949034459197": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:22:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949037080637": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:23:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 570.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949042618429": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:26:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1150.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949047173181": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:28:43+00:00",
+   "last_seen": "2026-11-13",
+   "price": 770.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949047861309": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:28:51+00:00",
+   "last_seen": "2026-11-13",
+   "price": 577.5,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949049106493": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:29:38+00:00",
+   "last_seen": "2026-11-13",
+   "price": 880.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949056184381": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:33:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949056938045": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-25T23:33:49+00:00",
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949876039741": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-26T21:51:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 45.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/6949876072509": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-26T21:51:23+00:00",
+   "last_seen": "2026-11-13",
+   "price": 45.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/6949877678141": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-26T21:53:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 520.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7045351735357": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-06-22T14:28:02+00:00",
+   "last_seen": "2026-11-13",
+   "price": 700.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7045352554557": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-06-22T14:37:05+00:00",
+   "last_seen": "2026-11-13",
+   "price": 700.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7045374050365": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-06-22T16:31:59+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7045375295549": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-06-22T16:41:38+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7045375819837": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-06-22T16:45:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7045376475197": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-06-22T16:52:11+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7045376966717": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-06-22T16:55:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7045377916989": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-06-22T17:05:02+00:00",
+   "last_seen": "2026-11-13",
+   "price": 800.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7045378080829": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-06-22T17:07:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 800.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7315388956733": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-05-08T21:10:54+00:00",
+   "last_seen": "2026-11-13",
+   "price": 412.5,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7315389251645": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-08T14:29:27+00:00",
+   "last_seen": "2026-11-13",
+   "price": 262.5,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7315389317181": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-08T14:28:39+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7315389448253": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-08T14:49:54+00:00",
+   "last_seen": "2026-11-13",
+   "price": 440.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7315391152189": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-08T21:03:40+00:00",
+   "last_seen": "2026-11-13",
+   "price": 615.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7315405897789": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-08T14:58:48+00:00",
+   "last_seen": "2026-11-13",
+   "price": 870.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7315408814141": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-08T14:41:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 8888.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7315412779069": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-08T21:37:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 382.5,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7343205154877": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-09T22:59:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 380.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7494411714621": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-12T18:31:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 930.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7494413942845": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-12T18:33:01+00:00",
+   "last_seen": "2026-11-13",
+   "price": 510.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7494419087421": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-12T18:13:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 600.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7494424395837": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-12T18:36:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 570.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7494433570877": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-12T18:21:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 470.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596393267261": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T17:04:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 260.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596394709053": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T17:03:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 260.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596396085309": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T17:02:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 940.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596397363261": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T17:01:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 800.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596399362109": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T17:00:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 480.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596402540605": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T16:59:53+00:00",
+   "last_seen": "2026-11-13",
+   "price": 420.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7596404179005": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T16:58:54+00:00",
+   "last_seen": "2026-11-13",
+   "price": 290.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596405260349": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T16:57:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596405424189": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T16:56:19+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596407390269": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T16:55:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 320.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7596408275005": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-19T16:54:47+00:00",
+   "last_seen": "2026-11-13",
+   "price": 80.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7837751312445": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-04-08T18:04:27+00:00",
+   "last_seen": "2026-11-13",
+   "price": 950.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7837785751613": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-04-08T20:37:54+00:00",
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7837786177597": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-04-08T20:38:53+00:00",
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7837786210365": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-04-08T20:40:21+00:00",
+   "last_seen": "2026-11-13",
+   "price": 480.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7960766808125": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-16T20:40:43+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1010.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7960766873661": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-16T20:41:40+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1010.0,
+   "sold": true
+  },
+  "Huiben|https://huibenshop.com/products/7960766906429": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-16T20:53:08+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1025.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7960766939197": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-16T20:54:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 970.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7960766971965": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-17T19:17:05+00:00",
+   "last_seen": "2026-11-13",
+   "price": 495.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7961695125565": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-17T19:18:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 375.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7961695158333": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-17T19:18:53+00:00",
+   "last_seen": "2026-11-13",
+   "price": 375.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/7961695191101": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-17T19:25:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 530.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/8030308565053": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-09-23T19:36:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/8106541711421": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-11-08T21:52:34+00:00",
+   "last_seen": "2026-11-13",
+   "price": 830.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/8106541875261": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-11-07T17:09:38+00:00",
+   "last_seen": "2026-11-13",
+   "price": 2000.0,
+   "sold": false
+  },
+  "Huiben|https://huibenshop.com/products/8106541973565": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-11-07T19:53:29+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1330.0,
+   "sold": false
+  }
+ }
+}

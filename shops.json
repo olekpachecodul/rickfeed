@@ -1,0 +1,471 @@
+[
+ {
+  "name": "Luke's",
+  "city": "New York + Los Angeles",
+  "root": "https://lukes.store",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "kiko": [
+    "kiko-kostadinov"
+   ],
+   "lang": [
+    "helmut-lang"
+   ]
+  }
+ },
+ {
+  "name": "Marco Sqrd",
+  "city": "Chicago",
+  "root": "https://marcosqrd.com",
+  "collections": {
+   "rick": [
+    "rick-owens_smart"
+   ]
+  }
+ },
+ {
+  "name": "Final Blow",
+  "city": "Chicago",
+  "root": "https://www.finalblowchicago.com",
+  "collections": {
+   "rick": [
+    "all"
+   ],
+   "kiko": [
+    "all"
+   ]
+  },
+  "filter": [
+   "all"
+  ]
+ },
+ {
+  "name": "Tokio 7",
+  "city": "New York",
+  "root": "https://tokio7ny.com",
+  "collections": {
+   "rick": [
+    "all"
+   ]
+  },
+  "filter": [
+   "all"
+  ]
+ },
+ {
+  "name": "Sui Generis",
+  "city": "San Francisco",
+  "root": "https://suigenerisconsignment.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "rafcalvin": [
+    "calvin-klein-collection"
+   ]
+  }
+ },
+ {
+  "name": "Sadō Room",
+  "city": "Seattle",
+  "root": "https://sadoroom.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "kiko": [
+    "kiko-kostadinov"
+   ],
+   "lang": [
+    "helmut-lang"
+   ]
+  }
+ },
+ {
+  "name": "Archive On Waters",
+  "city": "Seattle",
+  "root": "https://archiveonwaters.store",
+  "collections": {
+   "rick": [
+    "rick-owens-1"
+   ],
+   "rafcalvin": [
+    "raf-simons"
+   ]
+  }
+ },
+ {
+  "name": "Shop Status",
+  "city": "Philadelphia + DC",
+  "root": "https://shopstatus.store",
+  "collections": {
+   "rick": [
+    "rick-owens-1"
+   ]
+  }
+ },
+ {
+  "name": "Luxury Box ATL",
+  "city": "Atlanta",
+  "root": "https://luxuryboxatl.com",
+  "collections": {
+   "rick": [
+    "rick-owens",
+    "rick-owens-drkshdw"
+   ]
+  }
+ },
+ {
+  "name": "Groupie",
+  "city": "Los Angeles",
+  "root": "https://groupie.store",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "lang": [
+    "helmut-lang"
+   ]
+  }
+ },
+ {
+  "name": "Archived",
+  "city": "Los Angeles",
+  "root": "https://archived.co",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ]
+  }
+ },
+ {
+  "name": "Justin Reed",
+  "city": "Los Angeles + New York",
+  "root": "https://justinreed.com",
+  "collections": {
+   "rick": [
+    "rick-owens",
+    "rick-owens-drkshdw"
+   ],
+   "kiko": [
+    "kiko-kostadinov"
+   ],
+   "lang": [
+    "helmut-lang"
+   ],
+   "rafcalvin": [
+    "calvin-klein-205w39nyc"
+   ]
+  }
+ },
+ {
+  "name": "Midtown Archive",
+  "city": "Online",
+  "root": "https://midtownarchive.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ]
+  }
+ },
+ {
+  "name": "Descry Archive",
+  "city": "By appointment",
+  "root": "https://www.descryarchive.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "lang": [
+    "helmut-lang"
+   ]
+  }
+ },
+ {
+  "name": "2nd Street",
+  "city": "60+ US stores",
+  "root": "https://ec.2ndstreetusa.com",
+  "collections": {
+   "rick": [
+    "rick-raf"
+   ],
+   "lang": [
+    "helmut-lang"
+   ]
+  },
+  "filter": [
+   "rick-raf",
+   "helmut-lang"
+  ]
+ },
+ {
+  "name": "Resurrection",
+  "city": "West Hollywood",
+  "root": "https://resurrectionvintage.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "lang": [
+    "helmut-lang-vintage",
+    "helmut-lang-mens-vintage"
+   ]
+  },
+  "filter": [
+   "rick-owens"
+  ]
+ },
+ {
+  "name": "Pilgrim",
+  "city": "New York",
+  "root": "https://pilgrimnyc.com",
+  "collections": {
+   "rick": [
+    "45rpm"
+   ],
+   "lang": [
+    "helmut-lang"
+   ]
+  },
+  "filter": [
+   "45rpm"
+  ]
+ },
+ {
+  "name": "Michael's",
+  "city": "New York",
+  "root": "https://michaelsconsignment.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ]
+  }
+ },
+ {
+  "name": "Graceful Misfits",
+  "city": "Online",
+  "root": "https://gracefulmisfits.com",
+  "collections": {
+   "rick": [
+    "mainline",
+    "drkshdw"
+   ]
+  }
+ },
+ {
+  "name": "Street Commerce",
+  "city": "Charlotte",
+  "root": "https://streetcommerce.shop",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "kiko": [
+    "kiko-kostadinov"
+   ],
+   "lang": [
+    "helmut-lang"
+   ],
+   "rafcalvin": [
+    "calvin-klein-205w39nyc"
+   ]
+  }
+ },
+ {
+  "name": "LUXE MIA",
+  "city": "Miami",
+  "root": "https://luxemia.net",
+  "collections": {
+   "rick": [
+    "rick-owens-2"
+   ]
+  }
+ },
+ {
+  "name": "Performa",
+  "city": "Atlanta",
+  "root": "https://performaatlanta.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ]
+  }
+ },
+ {
+  "name": "Crybynoon Archive",
+  "city": "Pasadena, MD",
+  "root": "https://crybynoon.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ]
+  }
+ },
+ {
+  "name": "VSP Consignment",
+  "city": "Calgary, Canada",
+  "root": "https://vspconsignment.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "lang": [
+    "helmut-lang"
+   ]
+  }
+ },
+ {
+  "name": "DRIEW",
+  "city": "Toronto, Canada",
+  "root": "https://driewgarments.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "kiko": [
+    "kiko-kostadinov"
+   ],
+   "lang": [
+    "helmut-lang"
+   ]
+  }
+ },
+ {
+  "name": "Throat",
+  "city": "Toronto, Canada",
+  "root": "https://shopthroat.com",
+  "collections": {
+   "rick": [
+    "rick-owens",
+    "rick-owens-drkshdw"
+   ]
+  }
+ },
+ {
+  "name": "Archive Factory",
+  "city": "Tokyo, Japan",
+  "root": "https://archive-factory.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ]
+  }
+ },
+ {
+  "name": "Elevated Archives",
+  "city": "Padua, Italy",
+  "root": "https://elevated-archives.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "kiko": [
+    "kiko-kostadinov"
+   ],
+   "lang": [
+    "helmut-lang"
+   ]
+  }
+ },
+ {
+  "name": "Sunday Nightmare",
+  "city": "Bangkok, Thailand",
+  "root": "https://sundaynightmare.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ],
+   "lang": [
+    "helmut-lang"
+   ],
+   "rafcalvin": [
+    "calvin-klein"
+   ]
+  }
+ },
+ {
+  "name": "DolceVitaHub",
+  "city": "Paris area, France",
+  "root": "https://dolcevitahub.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ]
+  }
+ },
+ {
+  "name": "Nationalbunker",
+  "city": "Switzerland",
+  "root": "https://nationalbunker.store",
+  "collections": {
+   "rick": [
+    "rick-owens-1"
+   ],
+   "lang": [
+    "helmut-lang-1"
+   ]
+  }
+ },
+ {
+  "name": "ENDYMA",
+  "city": "Berlin, Germany",
+  "root": "https://endyma.com",
+  "collections": {
+   "lang": [
+    "helmut-lang"
+   ]
+  }
+ },
+ {
+  "name": "Huiben",
+  "city": "Online",
+  "root": "https://huibenshop.com",
+  "collections": {
+   "lang": [
+    "helmut-lang"
+   ],
+   "soshiotsuki": [
+    "soshiotsuki"
+   ]
+  }
+ },
+ {
+  "name": "David Casavant Archive",
+  "city": "Los Angeles",
+  "root": "https://shop.davidcasavantarchive.com",
+  "collections": {
+   "lang": [
+    "helmut-lang-archive"
+   ]
+  }
+ },
+ {
+  "name": "Archive Threads",
+  "city": "Toronto, Canada",
+  "root": "https://www.archivethreads.ca",
+  "collections": {
+   "lang": [
+    "helmut-lang"
+   ],
+   "rafcalvin": [
+    "calvin-klein-205w39nyc"
+   ]
+  }
+ },
+ {
+  "name": "Backyard Archive",
+  "city": "Vienna, Austria",
+  "root": "https://backyardarchive.us",
+  "collections": {
+   "lang": [
+    "helmut-lang"
+   ],
+   "rafcalvin": [
+    "calvin-klein-205w39nyc",
+    "calvin-klein-outerwear"
+   ]
+  }
+ }
+]

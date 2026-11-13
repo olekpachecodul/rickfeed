@@ -112,3 +112,4 @@ footer a:hover{color:var(--ink)}
 .sites a:hover{color:var(--ink)}
 .sites a[aria-current=page]{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 .more{height:1px}
+.sites .home{font-weight:700;letter-spacing:.24em;color:var(--ink);margin-right:6px}

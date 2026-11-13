@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """
-Rick Feed: one page of the newest Rick Owens listings from resale shops (mostly US).
+Ballhog: the newest secondhand listings for a handful of designers (Rick Owens,
+Kiko Kostadinov, Helmut Lang, 205W39NYC, Soshiotsuki), gathered from resale shops.
 
-Run it, and it downloads each shop's product feed, keeps the Rick Owens
-pieces, and opens rick-owens-feed.html in your browser. Run it again later
-and anything that showed up in between is marked NEW; price cuts are marked too.
+Every shop in shops.json is read once per check; each piece is sorted to the
+designers in brands.json it belongs to, and each designer gets a page at
+/<slug>/ plus a home page listing them all. Run it again later and anything that
+showed up in between is marked NEW; price cuts are marked too.
 
 Needs Python 3.8+ and nothing else.
-Windows: double-click "Run Rick Feed.bat".  Mac/Linux: python3 rick_feed.py
-Add --no-open to skip opening the browser (useful for scheduled runs).
+  python3 ballhog.py                      build ./site and open it in your browser
+  python3 ballhog.py --site DIR --state F (what the GitHub workflow runs)
 """
 
 import concurrent.futures
@@ -21,116 +23,46 @@ import sys
 import threading
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 import webbrowser
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
-# Shops. To add one: copy a line, change the name, city, feed and link.
-# For a Shopify shop the feed is usually  https://SHOP/collections/HANDLE.atom
-# where HANDLE is the last part of its Rick Owens page address.
-# "rick_only": True keeps only Rick Owens / DRKSHDW items (use it for
-# feeds that carry a whole store's new arrivals).
+# Shops and designers live in two files next to this one:
+#   shops.json  - every shop once: name, city, Shopify root address, and per designer
+#                 slug the collections to read. "filter" lists collections that mix
+#                 designers (only pieces named as the designer are kept). Collections
+#                 named after a designer are also found automatically each day.
+#   brands.json - every designer: slug (its page is /<slug>/), title, what counts as
+#                 it ("match", title or vendor), lines, look (themes/<theme>.css), etc.
 # ---------------------------------------------------------------------------
-SHOPS = [
-    {"name": "Luke's",            "city": "New York + Los Angeles", "feed": "https://lukes.store/collections/rick-owens.atom",                "link": "https://lukes.store/collections/vendors?q=Rick%20Owens"},
-    {"name": "Marco Sqrd",        "city": "Chicago",                "feed": "https://marcosqrd.com/collections/rick-owens_smart.atom",        "link": "https://marcosqrd.com/collections/rick-owens_smart"},
-    {"name": "Final Blow",        "city": "Chicago",                "feed": "https://www.finalblowchicago.com/collections/all.atom",          "link": "https://www.finalblowchicago.com/search?type=product&q=rick+owens", "rick_only": True},
-    {"name": "Tokio 7",           "city": "New York",               "feed": "https://tokio7ny.com/collections/all.atom",                      "link": "https://tokio7ny.com/search?type=product&q=rick+owens",           "rick_only": True},
-    {"name": "Sui Generis",       "city": "San Francisco",          "feed": "https://suigenerisconsignment.com/collections/rick-owens.atom",  "link": "https://suigenerisconsignment.com/collections/rick-owens"},
-    {"name": "Sadō Room",         "city": "Seattle",                "feed": "https://sadoroom.com/collections/rick-owens.atom",               "link": "https://sadoroom.com/collections/rick-owens"},
-    {"name": "Archive On Waters", "city": "Seattle",                "feed": "https://archiveonwaters.store/collections/rick-owens-1.atom",    "link": "https://archiveonwaters.store/collections/rick-owens-1"},
-    {"name": "Shop Status",       "city": "Philadelphia + DC",      "feed": "https://shopstatus.store/collections/rick-owens-1.atom",         "link": "https://shopstatus.store/collections/rick-owens-1"},
-    {"name": "Luxury Box ATL",    "city": "Atlanta",                "feed": ["https://luxuryboxatl.com/collections/rick-owens.atom",
-                                                                              "https://luxuryboxatl.com/collections/rick-owens-drkshdw.atom"], "link": "https://luxuryboxatl.com/collections/rick-owens"},
-    {"name": "Groupie",           "city": "Los Angeles",            "feed": "https://groupie.store/collections/rick-owens.atom",              "link": "https://groupie.store/collections/rick-owens"},
-    {"name": "Archived",          "city": "Los Angeles",            "feed": "https://archived.co/collections/rick-owens.atom",                "link": "https://archived.co/collections/rick-owens"},
-    {"name": "Justin Reed",       "city": "Los Angeles + New York", "feed": ["https://justinreed.com/collections/rick-owens.atom",
-                                                                              "https://justinreed.com/collections/rick-owens-drkshdw.atom"],   "link": "https://justinreed.com/collections/rick-owens"},
-    {"name": "Midtown Archive",   "city": "Online",                 "feed": "https://midtownarchive.com/collections/rick-owens.atom",         "link": "https://midtownarchive.com/collections/rick-owens"},
-    {"name": "Descry Archive",    "city": "By appointment",         "feed": "https://www.descryarchive.com/collections/rick-owens.atom",      "link": "https://www.descryarchive.com/collections/rick-owens"},
-    # Added Nov 8, 2026
-    {"name": "2nd Street",        "city": "60+ US stores",          "feed": "https://ec.2ndstreetusa.com/collections/rick-raf.atom",          "link": "https://ec.2ndstreetusa.com/collections/rick-raf",               "rick_only": True},
-    {"name": "Resurrection",      "city": "West Hollywood",         "feed": "https://resurrectionvintage.com/collections/rick-owens.atom",    "link": "https://resurrectionvintage.com/collections/rick-owens",         "rick_only": True},
-    {"name": "Pilgrim",           "city": "New York",               "feed": "https://pilgrimnyc.com/collections/45rpm.atom",                  "link": "https://pilgrimnyc.com/collections/45rpm",                       "rick_only": True},
-    {"name": "Michael's",         "city": "New York",               "feed": "https://michaelsconsignment.com/collections/rick-owens.atom",    "link": "https://michaelsconsignment.com/collections/rick-owens"},
-    {"name": "Graceful Misfits",  "city": "Online",                 "feed": ["https://gracefulmisfits.com/collections/mainline.atom",
-                                                                              "https://gracefulmisfits.com/collections/drkshdw.atom"],         "link": "https://gracefulmisfits.com/"},
-    # Added Nov 12, 2026
-    {"name": "Street Commerce",   "city": "Charlotte",              "feed": "https://streetcommerce.shop/collections/rick-owens.atom",        "link": "https://streetcommerce.shop/collections/rick-owens"},
-    {"name": "LUXE MIA",          "city": "Miami",                  "feed": "https://luxemia.net/collections/rick-owens-2.atom",              "link": "https://luxemia.net/collections/rick-owens-2"},
-    {"name": "Performa",          "city": "Atlanta",                "feed": "https://performaatlanta.com/collections/rick-owens.atom",        "link": "https://performaatlanta.com/collections/rick-owens"},
-    {"name": "Crybynoon Archive", "city": "Pasadena, MD",           "feed": "https://crybynoon.com/collections/rick-owens.atom",              "link": "https://crybynoon.com/collections/rick-owens"},
-    # Outside the US. Prices are converted to USD on the page (original shown alongside).
-    {"name": "VSP Consignment",   "city": "Calgary, Canada",        "feed": "https://vspconsignment.com/collections/rick-owens.atom",         "link": "https://vspconsignment.com/en-us/collections/rick-owens"},
-    {"name": "DRIEW",             "city": "Toronto, Canada",        "feed": "https://driewgarments.com/collections/rick-owens.atom",          "link": "https://driewgarments.com/collections/rick-owens"},
-    {"name": "Throat",            "city": "Toronto, Canada",        "feed": ["https://shopthroat.com/collections/rick-owens.atom",
-                                                                              "https://shopthroat.com/collections/rick-owens-drkshdw.atom"],  "link": "https://shopthroat.com/collections/rick-owens"},
-    {"name": "Archive Factory",   "city": "Tokyo, Japan",           "feed": "https://archive-factory.com/collections/rick-owens.atom",        "link": "https://archive-factory.com/collections/rick-owens"},
-    {"name": "Elevated Archives", "city": "Padua, Italy",           "feed": "https://elevated-archives.com/collections/rick-owens.atom",      "link": "https://elevated-archives.com/collections/rick-owens"},
-    {"name": "Sunday Nightmare",  "city": "Bangkok, Thailand",      "feed": "https://sundaynightmare.com/collections/rick-owens.atom",        "link": "https://sundaynightmare.com/collections/rick-owens"},
-    {"name": "DolceVitaHub",      "city": "Paris area, France",     "feed": "https://dolcevitahub.com/collections/rick-owens.atom",           "link": "https://dolcevitahub.com/collections/rick-owens"},
-    {"name": "Nationalbunker",    "city": "Switzerland",            "feed": "https://nationalbunker.store/collections/rick-owens-1.atom",     "link": "https://nationalbunker.store/collections/rick-owens-1"},
-]
-
-# DRKSHDW is Rick Owens' diffusion line and is often listed without "Rick Owens"
-# anywhere, so it counts on its own (title or vendor), as do common misspellings.
-DRK = re.compile(r"drk\s*shdw|drk\s*shadow|drksdhw|drkshw|dark\s*shadow", re.I)
-LILIES = re.compile(r"\blilies\b", re.I)
-RICK = re.compile(r"rick\s*owens|" + DRK.pattern, re.I)
+SITE_URL = "https://ballhog.hengecorp.com"
+HERE = Path(__file__).resolve().parent
+SHOPS = json.loads((HERE / "shops.json").read_text(encoding="utf-8"))
+BRANDS = json.loads((HERE / "brands.json").read_text(encoding="utf-8"))
+for _b in BRANDS:
+    _b["re"] = re.compile(_b["match"], re.I)
+    _b["line_res"] = [(label, re.compile(pat, re.I)) for label, pat in _b.get("lines", [])]
+SLUGS = {b["slug"] for b in BRANDS}
+DISCOVER_EVERY_DAYS = 1
+MAX_DISCOVERED = 3        # extra collections found per designer per shop, at most
 
 
-# ---------------------------------------------------------------------------
-# Brand. Rick Owens is the default; the sister feeds (Kiko Kostadinov, Helmut
-# Lang, ...) live in their own repos and pass --brand brand.json, which can set
-# any of these keys plus "shops". See README.
-# ---------------------------------------------------------------------------
-BRAND = {
-    "id": "rick-feed",
-    "title": "Rick Feed",
-    "url": "https://rick.hengecorp.com",      # where this feed is published (site switcher, refused-lookup fallback)
-    "name": "Rick Owens",                     # default line label
-    "match": RICK.pattern,                    # what counts as this brand (title or vendor)
-    "lines": [["DRKSHDW", DRK.pattern], ["Lilies", LILIES.pattern]],  # first match wins
-    "strip": r"(?:rick\s*owens\s*)?(?:(?:drk\s*shdw|drkshdw|lilies)\s*)?",  # repeated prefix dropped from card titles
-    "strict": False,                          # True: drop non-matching items from every feed, not just brand_only ones
-    "theme": "rick",                          # themes/<theme>.css
-    "fonts": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap",
-    "theme_color": ["#E5E5E5", "#000000"],
-    "placeholder": "Search: geobasket, bela, 48, leather",
-    "labels": {},                             # optional UI wording, e.g. {"Category": "区分 Category"}
-}
-BRAND_RE = RICK
-
-# The family of feeds, for the site switcher at the top of every page.
-SITES = [
-    ("rick-feed", "Rick Owens", "https://rick.hengecorp.com"),
-    ("kiko-feed", "Kiko Kostadinov", "https://kiko.hengecorp.com"),
-    ("lang-feed", "Helmut Lang", "https://lang.hengecorp.com"),
-    ("rafcalvin-feed", "205W39NYC", "https://rafcalvin.hengecorp.com"),
-    ("soshiotsuki-feed", "Soshiotsuki", "https://soshiotsuki.hengecorp.com"),
-]
-LINE_RES = [(label, re.compile(pat, re.I)) for label, pat in BRAND["lines"]]
+def is_brand(brand, title, vendor):
+    return bool(brand["re"].search(title or "") or brand["re"].search(vendor or ""))
 
 
-def load_brand(path):
-    """Apply a sister feed's brand.json: brand settings plus its own SHOPS."""
-    global BRAND_RE, LINE_RES, SHOPS
-    cfg = json.loads(Path(path).read_text(encoding="utf-8"))
-    SHOPS = cfg.pop("shops", SHOPS)
-    BRAND.update(cfg)
-    BRAND_RE = re.compile(BRAND["match"], re.I)
-    LINE_RES = [(label, re.compile(pat, re.I)) for label, pat in BRAND.get("lines", [])]
-
-
-def line_of(title, vendor):
+def line_of(brand, title, vendor):
     """Which line (e.g. DRKSHDW) a listing belongs to, for the card label and filter."""
     text = f"{title} {vendor}"
-    for label, rx in LINE_RES:
+    for label, rx in brand["line_res"]:
         if rx.search(text):
             return label
-    return BRAND["name"]
+    return brand["name"]
+
+
 # ---------------------------------------------------------------------------
 # Category and colour. Shops label things inconsistently, so these are worked
 # out from the shop's product type, the colour option, variant names and the
@@ -184,11 +116,9 @@ DETAIL_RETRIES = (2, 6, 15)  # seconds to wait before each retry when Shopify re
 # Shopify rate-limits by IP across all its shops, so once one shop has refused
 # after every retry, the rest of the run tries each lookup once and moves on.
 SHOPIFY_REFUSING = threading.Event()
-USER_AGENT = "Mozilla/5.0 (compatible; RickFeed/1.0; personal feed reader)"
+USER_AGENT = "Mozilla/5.0 (compatible; Ballhog/1.0; personal feed reader)"
 
-HERE = Path(__file__).resolve().parent
-STATE_FILE = HERE / "rick_feed_state.json"
-OUT_FILE = HERE / "rick-owens-feed.html"
+STATE_FILE = HERE / "ballhog_state.json"
 
 NS = {"a": "http://www.w3.org/2005/Atom", "s": "http://jadedpixel.com/-/spec/shopify"}
 IMG_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
@@ -254,8 +184,6 @@ def parse_feed(shop, raw):
     for e in root.findall("a:entry", NS):
         title = (e.findtext("a:title", "", NS) or "").strip()
         vendor = (e.findtext("s:vendor", "", NS) or "").strip()
-        if not wanted(shop, title, vendor):
-            continue
         link = ""
         for l in e.findall("a:link", NS):
             if l.get("rel", "alternate") == "alternate":
@@ -285,7 +213,7 @@ def parse_feed(shop, raw):
             "currency": currency,
             "size": guess_size(title, vtitles),
             "type": (e.findtext("s:type", "", NS) or "").strip(),
-            "line": line_of(title, vendor),
+            "vendor": vendor,
             "colour_hint": " ".join(" ".join((vt or "").split(" / ")[:-1]) for vt in vtitles),
             "sold": False,
         })
@@ -371,13 +299,6 @@ def fetch_details(feed_url):
     return details, everything, None
 
 
-def wanted(shop, title, vendor):
-    """brand_only shops (and strict brands) keep only this brand's pieces."""
-    if shop.get("rick_only") or shop.get("brand_only") or BRAND.get("strict"):
-        return bool(BRAND_RE.search(title) or BRAND_RE.search(vendor))
-    return True
-
-
 _CURRENCY = {}
 def shop_currency(root):
     """A Shopify shop's own currency (products.json prices don't say)."""
@@ -404,8 +325,6 @@ def items_from_products(shop, feed_url, products, atom_items):
             continue
         title = html.unescape((p.get("title") or "").strip())
         vendor = (p.get("vendor") or "").strip()
-        if not wanted(shop, title, vendor):
-            continue
         variants = p.get("variants") or []
         vtitles = [v.get("title") or "" for v in variants]
         prices = []
@@ -427,7 +346,7 @@ def items_from_products(shop, feed_url, products, atom_items):
             "currency": currency,
             "size": guess_size(title, vtitles),
             "type": (p.get("product_type") or "").strip(),
-            "line": line_of(title, vendor),
+            "vendor": vendor,
             "colour_hint": " ".join(" ".join(vt.split(" / ")[:-1]) for vt in vtitles),
             "sold": False,
         })
@@ -442,40 +361,93 @@ def enrich(it, d):
     it["colours"] = colours_of(d.get("colours"), it.pop("colour_hint", ""), it["title"])
 
 
-def fetch_shop(shop):
-    feeds = shop["feed"] if isinstance(shop["feed"], list) else [shop["feed"]]
-    items, errors, seen_ids, lookup_errors = [], [], set(), []
-    for url in feeds:
+def discover(shop):
+    """Collections whose handle or title names a designer, e.g. /collections/helmut-lang."""
+    found, cols = {}, []
+    for page in (1, 2, 3):
+        try:
+            got = json.loads(fetch_bytes(f"{shop['root']}/collections.json?limit=250&page={page}")).get("collections") or []
+        except Exception:
+            return None
+        cols += got
+        if len(got) < 250:
+            break
+    for c in cols:
+        text = c.get("handle", "").replace("-", " ").replace("_", " ") + " " + (c.get("title") or "")
+        for b in BRANDS:
+            if b["re"].search(text):
+                found.setdefault(b["slug"], []).append(c["handle"])
+    return found
+
+
+def crawl_shop(job):
+    """Read every collection this shop has for any designer, once. Returns the
+    listings per collection (not yet sorted to designers) and any problems."""
+    shop, handles = job
+    by_handle, errors, lookup_errors = {}, {}, {}
+    for h in handles:
+        url = f"{shop['root']}/collections/{h}.atom"
         got, err = fetch_one(shop, url)
         details, products, lookup_err = fetch_details(url)
         if lookup_err:
-            lookup_errors.append(lookup_err)
-            if err:   # neither source answered for this feed
-                errors.append(err)
+            lookup_errors[h] = lookup_err
+            if err:   # neither source answered for this collection
+                errors[h] = err
                 continue
         elif products:
             err = None   # the full product list is enough even if the .atom feed failed
             got = got + items_from_products(shop, url, products, got)
         if err:
-            errors.append(err)
+            errors[h] = err
         for it in got:
             found = [details[k] for k in product_keys(it) if k in details]
             enrich(it, found[0] if found else None)
             it["_lookup_failed"] = bool(lookup_err)
-        for it in got:
-            if it["id"] not in seen_ids:
-                seen_ids.add(it["id"])
-                items.append(it)
-    error = errors[0] if errors and len(errors) == len(feeds) else None
-    shop = dict(shop, lookup_error=lookup_errors[0] if lookup_errors else None)
-    return shop, items, error
+        by_handle[h] = got
+    return shop, by_handle, errors, lookup_errors
+
+
+def brand_listings(brand, shop, plan, crawled):
+    """This designer's listings at one shop, from the collections planned for it."""
+    by_handle, errors, lookup_errors = crawled
+    handles, filtered = plan
+    items, seen = [], set()
+    for h in handles:
+        for it in by_handle.get(h, []):
+            if it["id"] in seen:
+                continue
+            if (h in filtered or brand.get("strict")) and not is_brand(brand, it["title"], it.get("vendor")):
+                continue
+            seen.add(it["id"])
+            x = dict(it)
+            x["line"] = line_of(brand, x["title"], x.get("vendor", ""))
+            items.append(x)
+    failed = [errors[h] for h in handles if h in errors]
+    error = failed[0] if failed and len(failed) == len(handles) else None
+    refused = next((lookup_errors[h] for h in handles if h in lookup_errors), None)
+    return items, error, refused
 
 
 def load_state(path):
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        state = json.loads(path.read_text(encoding="utf-8"))
     except Exception:
-        return {"items": {}}
+        state = {"items": {}}
+    if state.get("version") != 2:
+        # Before Ballhog each designer had its own state ("shop|id" keys); the Rick one is
+        # this file, the others were copied to data/legacy/<slug>.json. Merge them once.
+        items = {}
+        for k, v in state.get("items", {}).items():
+            items[k if k.split("|", 1)[0] in SLUGS else "rick|" + k] = v
+        for f in sorted((path.parent / "legacy").glob("*.json")):
+            try:
+                for k, v in json.loads(f.read_text(encoding="utf-8")).get("items", {}).items():
+                    items.setdefault(f.stem + "|" + k, v)
+                print(f"Merged earlier history for {f.stem}")
+            except Exception as e:
+                print(f"Couldn't merge {f.name}: {e}")
+        state = {**state, "items": items, "version": 2}
+    return state
 
 
 def arg_value(flag):
@@ -522,18 +494,19 @@ def usd_rates(needed, saved):
     return dict(FALLBACK_RATES), "built-in rough rates"
 
 
-def build_atom(items, generated):
+def build_atom(brand, items, generated):
     newest = sorted((i for i in items if not i.get("sold")), key=lambda i: i["first_seen"], reverse=True)[:60]
     esc = lambda s: html.escape(str(s or ""), quote=True)
+    fid = f"{brand['slug']}-feed"
     parts = ['<?xml version="1.0" encoding="utf-8"?>',
              '<feed xmlns="http://www.w3.org/2005/Atom">',
-             f"<title>{esc(BRAND['title'])}</title><id>urn:{esc(BRAND['id'])}</id><updated>{esc(generated)}</updated>"]
+             f"<title>{esc(brand['title'])} · Ballhog</title><id>urn:{fid}</id><updated>{esc(generated)}</updated>"]
     for i in newest:
         cur = i.get("currency") or "USD"
         price = (f"${i['price']:,.0f}" if cur == "USD" else f"{i['price']:,.0f} {cur}") if i.get("price") is not None else ""
         label = " · ".join(x for x in [price, i.get("size"), i["shop"]] if x)
         body = (f'<p><img src="{esc(i["image"])}" width="300"></p>' if i.get("image") else "") + f"<p>{esc(label)}</p>"
-        parts.append(f'<entry><id>urn:{esc(BRAND["id"])}:{esc(i["shop"])}:{esc(i["id"])}</id>'
+        parts.append(f'<entry><id>urn:{fid}:{esc(i["shop"])}:{esc(i["id"])}</id>'
                      f'<title>{esc(i["title"])} ({esc(label)})</title>'
                      f'<link href="{esc(i["link"])}"/><updated>{esc(i["first_seen"])}</updated>'
                      f'<content type="html">{esc(body)}</content></entry>')
@@ -546,12 +519,9 @@ def main():
         sys.stdout.reconfigure(errors="replace")
     except Exception:
         pass
-    if arg_value("--brand"):
-        load_brand(arg_value("--brand"))
-    site_dir = arg_value("--site")
+    site_mode = arg_value("--site") is not None
+    site_dir = Path(arg_value("--site") or (HERE / "site"))
     state_file = Path(arg_value("--state") or STATE_FILE)
-    site_mode = site_dir is not None
-    out_file = Path(site_dir) / "index.html" if site_mode else OUT_FILE
     open_browser = not site_mode and "--no-open" not in sys.argv
 
     run_at = now_utc()
@@ -559,153 +529,246 @@ def main():
     today = run_at.date().isoformat()
     state = load_state(state_file)
     memory = state.get("items", {})
-    known_shops = {k.split("|", 1)[0] for k in memory}   # shops checked on an earlier run
+    known = {tuple(k.split("|", 2)[:2]) for k in memory}   # (designer, shop) pairs seen before
     prev_run = state.get("last_run")
     first_run = prev_run is None
     run_no = int(state.get("run_no", 0)) + 1
 
-    print(f"Checking {len(SHOPS)} shops…")
-    results = []
+    # 1. Which collections to read at each shop: the listed ones plus any named after a
+    #    designer (re-discovered once a day; a failed discovery keeps the last result).
+    discovered = state.setdefault("discovered", {})
+    stale = [shop for shop in SHOPS if discovered.get(shop["name"], {}).get("date", "") < (run_at - dt.timedelta(days=DISCOVER_EVERY_DAYS)).date().isoformat()]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-        for shop, items, err in pool.map(fetch_shop, SHOPS):
-            sold = sum(1 for i in items if i.get("sold"))
-            status = f"{len(items)} items, {sold} sold" if err is None else f"skipped: {err}"
-            if err is None and shop.get("lookup_error"):
-                status += f" (sold/colour lookup refused: {shop['lookup_error']}; using last known)"
-            print(f"  {shop['name']:<18} {status}")
-            results.append((shop, items, err))
+        for shop, found in zip(stale, pool.map(discover, stale)):
+            if found is not None:
+                discovered[shop["name"]] = {"date": today, "found": found}
+    discovered = {k: v for k, v in discovered.items() if k in {s["name"] for s in SHOPS}}
+    plans, jobs = {}, []
+    for shop in SHOPS:
+        found = discovered.get(shop["name"], {}).get("found", {})
+        plans[shop["name"]] = {}
+        handles = []
+        for b in BRANDS:
+            listed = shop.get("collections", {}).get(b["slug"], [])
+            extra = [h for h in found.get(b["slug"], []) if h not in listed][:MAX_DISCOVERED]
+            if listed or extra:
+                plans[shop["name"]][b["slug"]] = (listed + extra, set(shop.get("filter", [])) | set(extra))
+                handles += [h for h in listed + extra if h not in handles]
+        jobs.append((shop, handles))
 
-    # Shopify sometimes refuses the full product list; rather than shrinking that shop
-    # to its newest 25 for this check, reuse its listings from the last published data.json.
-    refused = {shop["name"] for shop, items, err in results if shop.get("lookup_error")}
-    if refused and site_mode and BRAND.get("url"):
-        try:
-            prev = json.loads(fetch_bytes(BRAND["url"].rstrip("/") + "/data.json")).get("items", [])
-            for shop, items, err in results:
-                if shop["name"] in refused:
-                    have = {it["id"] for it in items}
-                    carried = [dict(it) for it in prev if it.get("shop") == shop["name"] and it.get("id") not in have]
-                    for it in carried:
-                        it["_lookup_failed"] = True
-                    items.extend(carried)
-                    if carried:
-                        print(f"  {shop['name']}: reused {len(carried)} listings from the last published check")
-        except Exception as e:
-            print(f"  (couldn't load the last published listings: {str(e)[:80]})")
+    # 2. Read every shop once.
+    print(f"Checking {len(SHOPS)} shops…")
+    crawled = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        for shop, by_handle, errors, lookup_errors in pool.map(crawl_shop, jobs):
+            crawled[shop["name"]] = (by_handle, errors, lookup_errors)
+            n = len({it["id"] for its in by_handle.values() for it in its})
+            status = f"{n} pieces from {len(by_handle)} collections" if by_handle else f"skipped: {next(iter(errors.values()), 'nothing to read')}"
+            if lookup_errors:
+                status += f" (product list refused: {next(iter(lookup_errors.values()))}; using last known)"
+            print(f"  {shop['name']:<22} {status}")
 
-    all_items, shops_out = [], []
-    for shop, items, err in results:
-        shops_out.append({"name": shop["name"], "city": shop["city"], "link": shop["link"], "count": len(items), "error": err})
-        seeding = shop["name"] not in known_shops   # first time we see this shop
-        for it in items:
-            key = shop["name"] + "|" + it["id"]
-            mem = memory.get(key)
-            if mem is None:
-                first, old_stock = run_iso, seeding
-                pub = parse_time(it["published"])
-                # A piece the shop listed days ago is old stock we're only now seeing (a new shop,
-                # or a deeper product list), not a new arrival: date it by its listing, no NEW tag.
-                if pub and pub < run_at and (seeding or run_at - pub > dt.timedelta(days=OLD_STOCK_DAYS)):
-                    first, old_stock = pub.astimezone(dt.timezone.utc).isoformat(timespec="seconds"), True
-                mem = {"first_seen": first, "first_run": 0 if old_stock else run_no, "price": it["price"]}
-                memory[key] = mem
-            else:
-                old = mem.get("price")
-                if it["price"] is not None and old is not None and it["price"] < old - 0.005:
-                    mem["drop_from"] = old
-                    mem["drop_at"] = run_iso
-                mem["price"] = it["price"]
-            mem["last_seen"] = today
-            if it.pop("_lookup_failed", False):
-                # products.json was refused this run: keep what we knew last time
-                # rather than showing everything as unsold and uncoloured.
-                for f in ("sold", "category", "colours"):
-                    if f in mem:
-                        it[f] = mem[f]
-            else:
-                mem["sold"], mem["category"], mem["colours"] = it["sold"], it["category"], it["colours"]
-            it["first_seen"] = mem["first_seen"]
-            it["is_new"] = (not first_run) and mem.get("first_run") == run_no
-            drop_at = parse_time(mem.get("drop_at"))
-            if drop_at and (run_at - drop_at).days < PRICE_DROP_DAYS and mem.get("drop_from"):
-                it["drop_from"] = mem["drop_from"]
-            all_items.append(it)
+    # 3. Each designer: sort the pieces, update its history, build its page.
+    all_currencies, built = set(), []
+    pages = []
+    for brand in BRANDS:
+        slug = brand["slug"]
+        results = []
+        for shop in SHOPS:
+            plan = plans[shop["name"]].get(slug)
+            if plan:
+                items, error, refused = brand_listings(brand, shop, plan, crawled[shop["name"]])
+                results.append((shop, plan, items, error, refused))
+        # Shopify sometimes refuses a full product list; rather than shrinking that shop to
+        # its newest 25 for this check, reuse its listings from the last published data.json.
+        if site_mode and any(r[4] for r in results):
+            try:
+                prev = json.loads(fetch_bytes(f"{SITE_URL}/{slug}/data.json")).get("items", [])
+                for shop, plan, items, error, refused in results:
+                    if refused:
+                        have = {it["id"] for it in items}
+                        carried = [dict(it, _lookup_failed=True) for it in prev if it.get("shop") == shop["name"] and it.get("id") not in have]
+                        items.extend(carried)
+                        if carried:
+                            print(f"  {brand['name']} / {shop['name']}: reused {len(carried)} listings from the last published check")
+            except Exception as e:
+                print(f"  ({brand['name']}: couldn't load the last published listings: {str(e)[:80]})")
+        all_items, shops_out = [], []
+        for shop, plan, items, error, refused in results:
+            handles, filtered = plan
+            link = (f"{shop['root']}/search?type=product&q={urllib.parse.quote_plus(brand['name'])}" if handles[0] in filtered
+                    else f"{shop['root']}/collections/{handles[0]}")
+            shops_out.append({"name": shop["name"], "city": shop["city"], "link": shop.get("link", {}).get(slug, link) if isinstance(shop.get("link"), dict) else link,
+                              "count": len(items), "error": error})
+            seeding = (slug, shop["name"]) not in known   # first time this designer is read at this shop
+            for it in items:
+                key = f"{slug}|{shop['name']}|{it['id']}"
+                mem = memory.get(key)
+                if mem is None:
+                    first, old_stock = run_iso, seeding
+                    pub = parse_time(it["published"])
+                    # A piece the shop listed days ago is old stock we're only now seeing (a new shop,
+                    # or a deeper product list), not a new arrival: date it by its listing, no NEW tag.
+                    if pub and pub < run_at and (seeding or run_at - pub > dt.timedelta(days=OLD_STOCK_DAYS)):
+                        first, old_stock = pub.astimezone(dt.timezone.utc).isoformat(timespec="seconds"), True
+                    mem = {"first_seen": first, "first_run": 0 if old_stock else run_no, "price": it["price"]}
+                    memory[key] = mem
+                else:
+                    old = mem.get("price")
+                    if it["price"] is not None and old is not None and it["price"] < old - 0.005:
+                        mem["drop_from"] = old
+                        mem["drop_at"] = run_iso
+                    mem["price"] = it["price"]
+                mem["last_seen"] = today
+                if it.pop("_lookup_failed", False):
+                    # products.json was refused this run: keep what we knew last time
+                    # rather than showing everything as unsold and uncoloured.
+                    for f in ("sold", "category", "colours"):
+                        if f in mem:
+                            it[f] = mem[f]
+                else:
+                    mem["sold"], mem["category"], mem["colours"] = it["sold"], it["category"], it["colours"]
+                it.pop("vendor", None)
+                it["first_seen"] = mem["first_seen"]
+                it["is_new"] = (not first_run) and mem.get("first_run") == run_no
+                drop_at = parse_time(mem.get("drop_at"))
+                if drop_at and (run_at - drop_at).days < PRICE_DROP_DAYS and mem.get("drop_from"):
+                    it["drop_from"] = mem["drop_from"]
+                all_items.append(it)
+        all_currencies |= {i.get("currency") or "USD" for i in all_items}
+        pages.append((brand, all_items, shops_out))
 
-    rates, rate_source = usd_rates({i.get("currency") or "USD" for i in all_items}, state.get("rates"))
-    for i in all_items:
-        r = rates.get(i.get("currency") or "USD") or FALLBACK_RATES.get(i.get("currency"))
-        i["price_usd"] = round(i["price"] / r, 2) if i.get("price") is not None and r else None
+    rates, rate_source = usd_rates(all_currencies, state.get("rates"))
     if rate_source not in ("none needed", "last saved rates", "built-in rough rates"):
         state["rates"] = {c: v for c, v in rates.items() if c != "USD"}
 
+    for brand, all_items, shops_out in pages:
+        slug = brand["slug"]
+        for i in all_items:
+            r = rates.get(i.get("currency") or "USD") or FALLBACK_RATES.get(i.get("currency"))
+            i["price_usd"] = round(i["price"] / r, 2) if i.get("price") is not None and r else None
+        data = {"mode": "site" if site_mode else "local", "generated": run_iso, "previous": prev_run,
+                "first_run": first_run, "shops": shops_out, "items": all_items,
+                "categories": ["Outerwear", "Tops", "Bottoms", "Dresses", "Footwear", "Bags & accessories", "Other"],
+                "brand": {"name": brand["name"], "strip": brand["strip"], "price_style": brand.get("price_style", "symbol")},
+                "colours": [[n, sw] for n, sw, _ in COLOURS]}
+        payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+        out = site_dir / slug
+        out.mkdir(parents=True, exist_ok=True)
+        (out / "index.html").write_text(render_page(brand, payload), encoding="utf-8")
+        (out / "feed.xml").write_text(build_atom(brand, all_items, run_iso), encoding="utf-8")
+        (out / "data.json").write_text(json.dumps({"generated": run_iso, "items": all_items}, ensure_ascii=False), encoding="utf-8")
+        for_sale = sum(1 for i in all_items if not i.get("sold"))
+        new_count = sum(1 for i in all_items if i.get("is_new"))
+        failed = [s["name"] for s in shops_out if s["error"]]
+        built.append({"slug": slug, "name": brand["name"], "title": brand["title"], "listings": len(all_items),
+                      "for_sale": for_sale, "shops": sum(1 for s in shops_out if not s["error"])})
+        cats = {}
+        for i in all_items:
+            cats[i.get("category", "Other")] = cats.get(i.get("category", "Other"), 0) + 1
+        print(f"\n{brand['name']}: {len(all_items)} listings ({for_sale} for sale) from {len(shops_out)} shops"
+              + ("" if first_run else f", {new_count} new since last run") + ". By category: "
+              + ", ".join(f"{k} {v}" for k, v in sorted(cats.items(), key=lambda kv: -kv[1]))
+              + f". No colour found for {sum(1 for i in all_items if not i.get('colours'))}."
+              + (f" Couldn't reach: {', '.join(failed)}." if failed else ""))
+    (site_dir / "index.html").write_text(render_home(built, run_iso), encoding="utf-8")
+    (site_dir / ".nojekyll").write_text("", encoding="utf-8")
+    foreign = sorted(c for c in all_currencies if c != "USD")
+    if foreign:
+        print("\nExchange rates (" + rate_source + "): " + ", ".join(f"1 USD = {rates[c]:g} {c}" for c in foreign if c in rates) + ".")
+
     cutoff = (run_at - dt.timedelta(days=FORGET_AFTER_DAYS)).date().isoformat()
     memory = {k: v for k, v in memory.items() if str(v.get("last_seen", today))[:10] >= cutoff}
-    new_state = {"items": memory} if site_mode else {"last_run": run_iso, "run_no": run_no, "items": memory}
+    new_state = {"version": 2, "items": memory, "discovered": discovered}
+    if not site_mode:
+        new_state.update(last_run=run_iso, run_no=run_no)
     if state.get("rates"):
         new_state["rates"] = state["rates"]
-    text = json.dumps(new_state, indent=1, sort_keys=True)
+    text = json.dumps(new_state, indent=1, sort_keys=True, ensure_ascii=False)
     old_text = state_file.read_text(encoding="utf-8") if state_file.exists() else ""
     if text != old_text:
         state_file.parent.mkdir(parents=True, exist_ok=True)
         state_file.write_text(text, encoding="utf-8")
-
-    data = {"mode": "site" if site_mode else "local", "generated": run_iso, "previous": prev_run,
-            "first_run": first_run, "shops": shops_out, "items": all_items,
-            "categories": ["Outerwear", "Tops", "Bottoms", "Dresses", "Footwear", "Bags & accessories", "Other"], "brand": {"name": BRAND["name"], "strip": BRAND["strip"], "price_style": BRAND.get("price_style", "symbol")}, "colours": [[n, sw] for n, sw, _ in COLOURS]}
-    payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
-    out_file.parent.mkdir(parents=True, exist_ok=True)
-    out_file.write_text(render_page(payload), encoding="utf-8")
-    if site_mode:
-        (out_file.parent / "feed.xml").write_text(build_atom(all_items, run_iso), encoding="utf-8")
-        (out_file.parent / "data.json").write_text(json.dumps({"generated": run_iso, "items": all_items}, ensure_ascii=False), encoding="utf-8")
-        (out_file.parent / ".nojekyll").write_text("", encoding="utf-8")
-
-    new_count = sum(1 for i in all_items if i.get("is_new"))
-    failed = [s["name"] for s in shops_out if s["error"]]
-    print(f"\n{len(all_items)} {BRAND['name']} listings" + ("" if first_run else f", {new_count} new since last run") + ".")
-    cats = {}
-    for i in all_items:
-        cats[i.get("category", "Other")] = cats.get(i.get("category", "Other"), 0) + 1
-    print("By category: " + ", ".join(f"{k} {v}" for k, v in sorted(cats.items(), key=lambda kv: -kv[1]))
-          + f". No colour found for {sum(1 for i in all_items if not i.get('colours'))}.")
-    foreign = sorted({i["currency"] for i in all_items if i.get("currency") not in (None, "USD")})
-    if foreign:
-        print("Exchange rates (" + rate_source + "): " + ", ".join(f"1 USD = {rates[c]:g} {c}" for c in foreign if c in rates) + ".")
-    if failed:
-        print("Couldn't reach: " + ", ".join(failed))
-    print(f"Saved {out_file}")
+    print(f"Saved {site_dir}")
     if open_browser:
-        webbrowser.open(out_file.resolve().as_uri())
+        webbrowser.open((site_dir / "index.html").resolve().as_uri())
 
 
-def render_page(payload):
+def render_page(brand, payload):
     esc = lambda x: html.escape(str(x), quote=True)
-    labels = BRAND.get("labels") or {}
-    lines = BRAND.get("lines") or []
-    options = "".join(f'\n      <option value="{esc(l)}">{esc(labels.get(l, l))}</option>' for l in [BRAND["name"]] + [l for l, _ in lines])
+    labels = brand.get("labels") or {}
+    lines = brand.get("lines") or []
+    options = "".join(f'\n      <option value="{esc(l)}">{esc(labels.get(l, l))}</option>' for l in [brand["name"]] + [l for l, _ in lines])
     page = PAGE
-    for word, text in labels.items():   # optional wording per brand, on marked labels only
+    for word, text in labels.items():   # optional wording per designer, on marked labels only
         page = page.replace(f">{word}<", f">{text}<")
-    css = "\n".join((HERE / "themes" / f"{t}.css").read_text(encoding="utf-8") for t in ("base", BRAND["theme"]))
-    if not BRAND.get("fonts"):   # system fonts only: drop the font links
+    css = "\n".join((HERE / "themes" / f"{t}.css").read_text(encoding="utf-8") for t in ("base", brand["theme"]))
+    if not brand.get("fonts"):   # system fonts only: drop the font links
         page = re.sub(r'<link rel="(?:preconnect|stylesheet)" href="(?:https://fonts\.[^"]*|__FONTS__)"[^>]*>\n', "", page)
     return (page.replace("__THEME__", css)
-                .replace("__TITLE__", esc(BRAND["title"]))
-                .replace("__FONTS__", esc(BRAND["fonts"]))
-                .replace("__TC_LIGHT__", esc(BRAND["theme_color"][0])).replace("__TC_DARK__", esc(BRAND["theme_color"][1]))
-                .replace("__PLACEHOLDER__", esc(BRAND["placeholder"]))
+                .replace("__DOCTITLE__", esc(f"{brand['title']} · Ballhog"))
+                .replace("__TITLE__", esc(brand["title"]))
+                .replace("__FONTS__", esc(brand.get("fonts", "")))
+                .replace("__TC_LIGHT__", esc(brand["theme_color"][0])).replace("__TC_DARK__", esc(brand["theme_color"][1]))
+                .replace("__PLACEHOLDER__", esc(brand["placeholder"]))
                 .replace("__LINE_HIDDEN__", "" if lines else " hidden")
                 .replace("__LINE_OPTIONS__", options)
-                .replace("__SITES__", sites_nav())
+                .replace("__SITES__", sites_nav(brand["slug"]))
                 .replace("__DATA__", payload))
 
 
-def sites_nav():
+def sites_nav(current):
+    """Links to every designer page (relative, so it works on any domain)."""
     esc = lambda x: html.escape(str(x), quote=True)
-    links = "".join(
-        f'<a href="{esc(url)}/"{" aria-current=\"page\"" if sid == BRAND["id"] else ""}>{esc(name)}</a>'
-        for sid, name, url in SITES)
-    return f'<nav class="sites" aria-label="Designer feeds">{links}</nav>'
+    links = '<a href="../" class="home">Ballhog</a>' + "".join(
+        f'<a href="../{esc(b["slug"])}/"{' aria-current="page"' if b["slug"] == current else ""}>{esc(b["name"])}</a>'
+        for b in BRANDS)
+    return f'<nav class="sites" aria-label="Designers">{links}</nav>'
+
+
+def render_home(built, run_iso):
+    esc = lambda x: html.escape(str(x), quote=True)
+    rows = "".join(
+        f'<li><a href="{esc(b["slug"])}/"><span class="n">{esc(b["name"])}</span>'
+        f'<span class="c">{b["for_sale"]:,} for sale · {b["shops"]} shops</span></a></li>' for b in built)
+    return HOME.replace("__ROWS__", rows).replace("__WHEN__", esc(run_iso))
+
+
+HOME = r"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Ballhog</title>
+<style>
+:root{--bg:#F4F3F0;--ink:#111;--muted:#6B6B6B;--line:#D9D7D2}
+@media (prefers-color-scheme: dark){:root{--bg:#0F0F0F;--ink:#EDEDED;--muted:#8C8C8C;--line:#262626;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:760px;margin:0 auto;padding:12vh max(20px,env(safe-area-inset-left)) 80px}
+h1{margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.32em;text-transform:uppercase}
+p{margin:0 0 48px;color:var(--muted);font-size:13px}
+ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+li a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:22px 0;border-bottom:1px solid var(--line);color:inherit;text-decoration:none}
+li .n{font-size:clamp(22px,5vw,34px);letter-spacing:-.01em}
+li .c{color:var(--muted);font-size:13px;white-space:nowrap}
+li a:hover .n{text-decoration:underline;text-underline-offset:5px}
+footer{margin-top:40px;color:var(--muted);font-size:12px}
+@media (max-width:520px){li a{flex-direction:column;gap:4px}}
+</style>
+</head>
+<body>
+<main>
+  <h1>Ballhog</h1>
+  <p>The newest secondhand pieces from resale shops, by designer.</p>
+  <ul>__ROWS__</ul>
+  <footer>Last check <time datetime="__WHEN__" id="when">__WHEN__</time></footer>
+</main>
+<script>try{const t=document.getElementById("when");t.textContent=new Date(t.dateTime).toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});}catch(e){}</script>
+</body>
+</html>
+"""
 
 
 PAGE = r"""<!doctype html>
@@ -716,7 +779,7 @@ PAGE = r"""<!doctype html>
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="__TC_LIGHT__" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="__TC_DARK__" media="(prefers-color-scheme: dark)">
-<title>__TITLE__</title>
+<title>__DOCTITLE__</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="__FONTS__">
