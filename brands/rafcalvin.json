@@ -44,6 +44,21 @@
    "city": "Bangkok, Thailand",
    "feed": "https://sundaynightmare.com/collections/calvin-klein.atom",
    "link": "https://sundaynightmare.com/collections/calvin-klein"
+  },
+  {
+   "name": "Backyard Archive",
+   "city": "Vienna, Austria",
+   "feed": [
+    "https://backyardarchive.us/collections/calvin-klein-205w39nyc.atom",
+    "https://backyardarchive.us/collections/calvin-klein-outerwear.atom"
+   ],
+   "link": "https://backyardarchive.us/collections/calvin-klein-205w39nyc"
+  },
+  {
+   "name": "Archive Threads",
+   "city": "Toronto, Canada",
+   "feed": "https://www.archivethreads.ca/collections/calvin-klein-205w39nyc.atom",
+   "link": "https://www.archivethreads.ca/collections/calvin-klein-205w39nyc"
   }
  ]
 }
