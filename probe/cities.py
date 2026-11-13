@@ -31,18 +31,25 @@ def note(*a):
 START = time.time()
 
 ENDPOINTS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter", "https://overpass.private.coffee/api/interpreter"]
+import math
 def overpass(lat, lon, r):
-    q = f"""[out:json][timeout:50];
+    # A bounding box is far cheaper for Overpass than "around:" with a big radius.
+    dlat = r / 111.0; dlon = r / (111.0 * math.cos(math.radians(lat)))
+    bb = f"{lat-dlat:.4f},{lon-dlon:.4f},{lat+dlat:.4f},{lon+dlon:.4f}"
+    q = f"""[out:json][timeout:90][bbox:{bb}];
 (
-  nwr(around:{r*1000},{lat},{lon})["shop"="second_hand"];
-  nwr(around:{r*1000},{lat},{lon})["shop"~"^(clothes|boutique|fashion|shoes)$"]["second_hand"~"^(yes|only)$"];
+  nwr["shop"="second_hand"];
+  nwr["shop"~"^(clothes|boutique|fashion|shoes)$"]["second_hand"~"^(yes|only)$"];
 );
 out tags;"""
     for ep in ENDPOINTS:
         try:
             data = urllib.parse.urlencode({"data": q}).encode()
-            with urllib.request.urlopen(urllib.request.Request(ep, data=data, headers=UA), timeout=60) as r:
-                return json.loads(r.read()).get("elements", [])
+            with urllib.request.urlopen(urllib.request.Request(ep, data=data, headers=UA), timeout=100) as r:
+                body = json.loads(r.read())
+            if body.get("remark") and not body.get("elements"):
+                note(f"   {ep.split('/')[2]}: {body['remark'][:80]}"); continue
+            return body.get("elements", [])
         except Exception as e:
             note(f"   {ep.split('/')[2]} failed: {str(e)[:60]}")
     return None
@@ -69,7 +76,7 @@ for metro, (lat, lon, r) in METROS.items():
         rec["names"].add(name); rec["metros"].add(metro); n_site += 1
     counts[metro] = (len(els), n_site)
     note(f"{metro}: {len(els)} shops on OSM, {n_site} with a usable website")
-    time.sleep(3)
+    time.sleep(2)
 note(f"TOTAL unique shop websites: {len(shops)}")
 
 GUESS = ["rick-owens", "rickowens", "rick-owens-1", "rick-owens-drkshdw", "drkshdw"]
