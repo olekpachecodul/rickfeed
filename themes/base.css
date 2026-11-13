@@ -129,7 +129,7 @@ footer a:hover{color:var(--ink)}
 html.menu-open{overflow:hidden}
 .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0 4px}
 .logo{display:inline-flex;align-items:center;gap:9px;color:var(--ink);font:700 17px/1 "Inter Tight","Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:-.02em;text-transform:none}
-.logo .henge{width:30px;height:21px;flex:none}
+.logo .henge{width:50px;height:32px;flex:none;--henge-paper:var(--bg);margin:-6px 0}
 .logo:hover span{text-decoration:underline;text-underline-offset:3px}
 .menu-btn,.menu-x{width:44px;height:44px;margin-right:-6px;padding:0;display:inline-flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;background:none;border:0;border-radius:0;cursor:pointer;color:var(--ink)}
 .menu-btn span{display:block;width:22px;height:2px;background:currentColor;border-radius:1px;transition:transform .15s}
