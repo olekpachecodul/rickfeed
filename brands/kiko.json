@@ -1,6 +1,7 @@
 {
  "id": "kiko-feed",
  "title": "Kiko Feed",
+ "url": "https://kiko.hengecorp.com",
  "name": "Kiko Kostadinov",
  "match": "kiko\\s*kostadinov",
  "lines": [

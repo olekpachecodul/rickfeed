@@ -1,6 +1,7 @@
 {
  "id": "rafcalvin-feed",
  "title": "205W39NYC Feed",
+ "url": "https://rafcalvin.hengecorp.com",
  "name": "Calvin Klein 205W39NYC",
  "match": "205\\s*w\\s*39|calvin\\s*klein\\s*205|raf\\s*simons?\\s*(?:x\\s*|for\\s*)?calvin|calvin\\s*klein\\s*(?:by\\s*)?raf",
  "strict": true,

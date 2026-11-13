@@ -49,6 +49,14 @@ Commit the change and the site rebuilds within a minute.
 Sold status, colour and category come from each shop's `products.json`, which Shopify occasionally refuses from GitHub's servers.
 The check retries a few times, and if it still fails it keeps what it knew from the last good check. The Actions log says "lookup refused" when that happens.
 
+## How listings are gathered
+
+Each shop's collection is read two ways: its `.atom` feed (the newest 25 pieces) and its `products.json` (up to 1,000 pieces,
+which also gives sold status, type and colour). Together they cover the whole collection. A piece seen for the first time that the
+shop listed more than 3 days earlier is old stock, so it's dated by its listing and doesn't get a NEW tag.
+Each site also publishes `data.json`; if Shopify refuses a shop's product list during a check, that shop's listings from the last
+published check are reused so the page doesn't shrink. The page draws listings in batches as you scroll.
+
 ## Prices outside the US
 
 Shops in Canada, Europe and Switzerland price in their own currency, and the page shows that price as-is with a currency tag (CAD, EUR, CHF).

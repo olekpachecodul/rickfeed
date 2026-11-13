@@ -1,6 +1,7 @@
 {
  "id": "soshiotsuki-feed",
  "title": "Soshiotsuki Feed",
+ "url": "https://soshiotsuki.hengecorp.com",
  "name": "Soshiotsuki",
  "match": "soshi\\s*otsuki",
  "lines": [],

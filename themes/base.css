@@ -105,3 +105,10 @@ footer a:hover{color:var(--ink)}
 @media (max-width:900px){:root{--gut:16px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 16px;padding-top:28px}}
 @media (max-width:520px){.bar{gap:10px 16px}.bar input[type=search]{flex-basis:100%}.tog{height:28px;padding:0 10px}
   .shops{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 calc(-1 * var(--gut));padding:14px var(--gut) 8px}.shops::-webkit-scrollbar{display:none}.shop{flex:none}}
+/* site switcher: the family of designer feeds */
+.sites{display:flex;gap:4px 18px;padding:14px 0 0;font-size:9px;color:var(--muted);overflow-x:auto;scrollbar-width:none;white-space:nowrap}
+.sites::-webkit-scrollbar{display:none}
+.sites a{flex:none;padding:2px 0}
+.sites a:hover{color:var(--ink)}
+.sites a[aria-current=page]{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.more{height:1px}
