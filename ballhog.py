@@ -1110,6 +1110,14 @@ a{color:inherit;text-decoration:none}
 .splash{position:relative;min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;padding-top:max(18px,env(safe-area-inset-top),2.4vw);padding-bottom:28px;pointer-events:none}
 .top{display:flex;justify-content:space-between;gap:16px;font:400 11px/1.4 var(--m);letter-spacing:.04em;text-transform:uppercase}
 .top a{pointer-events:auto}
+body{cursor:grab;touch-action:pan-y pinch-zoom}
+.index{cursor:auto}
+html.spinning,html.spinning *{cursor:grabbing !important;user-select:none;-webkit-user-select:none}
+.top .r{display:flex;align-items:center;gap:16px}
+.motion{pointer-events:auto;font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;background:none;border:1px solid currentColor;border-radius:999px;padding:4px 10px;cursor:pointer;opacity:.7}
+.motion:hover,.motion:focus-visible{opacity:1}
+.motion::before{content:"\25B6\FE0E";font-size:.8em;margin-right:6px}
+.motion[aria-pressed=true]::before{content:"\275A\275A";letter-spacing:-.25em;margin-right:9px}
 .top .henge{width:36px;height:23px;vertical-align:-7px;margin-right:10px;--henge-paper:var(--bg)}
 h1{margin:0;align-self:start;font-weight:800;font-size:clamp(64px,19.5vw,330px);line-height:.8;letter-spacing:-.065em;margin-left:-.04em;padding-top:.06em;mix-blend-mode:difference;color:#fff;
   animation:rise 1.1s cubic-bezier(.2,.7,.1,1) both}
@@ -1139,14 +1147,14 @@ li a:hover::before,li a:focus-visible::before{color:var(--bg)}
 @media (max-width:640px){
   li a{grid-template-columns:2.4em 1fr;row-gap:4px}
   .c{grid-column:2;text-align:left}
-  .top span:last-child{display:none}
+  .top .meta,.top .tag{display:none}
 }
 </style>
 </head>
 <body>
 <canvas id="henge" aria-hidden="true"></canvas>
 <section class="splash pad">
-  <div class="top"><span>__HENGE__Ballhog / secondhand designer, live</span><span>__SHOPS__ shops &middot; checked every 15 min</span></div>
+  <div class="top"><span>__HENGE__Ballhog<span class="tag"> / secondhand designer, live</span></span><span class="r"><span class="meta">__SHOPS__ shops &middot; checked every 15 min</span><button type="button" class="motion" id="motion" aria-pressed="false">Animate</button></span></div>
   <h1>Ballhog</h1>
   <div class="foot">
     <p>Every new secondhand piece from the resale shops worth checking, gathered by designer.</p>
@@ -1221,13 +1229,38 @@ try{const t=document.getElementById("when");t.textContent=new Date(t.dateTime).t
     grain = ctx.createPattern(g, "repeat");
   }
   let mx = 0, my = 0, tmx = 0, tmy = 0;
-  addEventListener("pointermove", e => { tmx = e.clientX / W - .5; tmy = e.clientY / H - .5; }, {passive: true});
+  addEventListener("pointermove", e => { if (!dragging) { tmx = e.clientX / W - .5; tmy = e.clientY / H - .5; } }, {passive: true});
+  // Click (or touch) and drag the henge to spin it; let go mid-drag and it keeps turning, slowing down.
+  // Dragging up or down tips the view a little. On phones vertical swipes still scroll the page.
+  let spin = 0, vel = 0, tilt = 0, dragging = false, dragX = 0, dragY = 0, dragT = 0;
+  // The canvas sits behind the page, so presses land on the page: anything that isn't a link,
+  // a button or the designer list counts as grabbing the henge.
+  const grabbable = el => !(el && el.closest && el.closest("a,button,input,select,textarea,label,.index"));
+  addEventListener("pointerdown", e => {
+    if (e.button || !grabbable(e.target)) return;
+    dragging = true; dragX = e.clientX; dragY = e.clientY; dragT = e.timeStamp; vel = 0;
+    document.documentElement.classList.add("spinning"); kick();
+  });
+  addEventListener("pointermove", e => {
+    if (!dragging) return;
+    const d = (e.clientX - dragX) / Math.max(W, 1) * Math.PI * 1.8, dt = Math.max(e.timeStamp - dragT, 1);
+    spin += d; vel = vel * .6 + (d / dt) * .4;        // radians per millisecond, smoothed
+    tilt = Math.max(-.5, Math.min(.5, tilt + (e.clientY - dragY) / Math.max(H, 1) * 1.6));
+    dragX = e.clientX; dragY = e.clientY; dragT = e.timeStamp;
+  });
+  const release = e => {
+    if (!dragging) return;
+    dragging = false; document.documentElement.classList.remove("spinning");
+    if (e && e.timeStamp - dragT > 90) vel = 0;           // held still before letting go: no fling
+    kick();
+  };
+  addEventListener("pointerup", release); addEventListener("pointercancel", release); addEventListener("blur", () => release());
   function draw(t){
     seed = 1 + Math.floor(t / 83) % 997;   // a new hand every ~83 ms
     mx += (tmx - mx) * .08; my += (tmy - my) * .08;
     const narrow = W < 700;
-    const phi = t / 1000 * 0.03 + mx * .45 + 1.9;            // slow orbit, nudged by the pointer
-    const dist = 29, camY = 13 - my * 5;
+    const phi = t / 1000 * 0.03 + mx * .45 + 1.9 + spin;     // slow orbit, nudged by the pointer, spun by dragging
+    const dist = 29, camY = Math.max(4, Math.min(22, 13 - my * 5 - tilt * 12));
     const cam = [Math.cos(phi) * dist, camY, Math.sin(phi) * dist], tgt = [0, 1.2, 0];
     let fx = tgt[0] - cam[0], fy = tgt[1] - cam[1], fz = tgt[2] - cam[2]; const fl = Math.hypot(fx, fy, fz); fx /= fl; fy /= fl; fz /= fl;
     let rx = -fz, rz = fx; const rl = Math.hypot(rx, rz); rx /= rl; rz /= rl;
@@ -1301,17 +1334,43 @@ try{const t=document.getElementById("when");t.textContent=new Date(t.dateTime).t
     }
     ctx.stroke(); ctx.globalAlpha = 1;
   }
-  let last = -1e9, raf = 0;
+  // Motion follows the device's reduced-motion setting, unless the visitor chooses with the
+  // Animate / Pause button (remembered in this browser). The clock only runs while moving,
+  // so pausing and resuming carries on from the same spot.
+  const KEY = "bh-henge-motion", btn = document.getElementById("motion");
+  let choice = null; try { choice = localStorage.getItem(KEY); } catch (e) {}
+  const moving = () => choice ? choice === "on" : !still.matches;
+  let last = -1e9, raf = 0, clock = 0, prev = null;
+  const interacting = () => dragging || Math.abs(vel) > 2e-6;
   function loop(t){
+    const dt = prev === null ? 16 : Math.min(t - prev, 200);
+    prev = t;
+    if (moving()) clock += dt;
+    if (!dragging && vel) { spin += vel * dt; vel *= Math.pow(.9965, dt); if (Math.abs(vel) <= 2e-6) vel = 0; }
+    if (!moving() && !interacting()) { raf = 0; draw(clock); return; }   // paused and settled: stop
     raf = requestAnimationFrame(loop);
-    if (t - last < 83) return;   // ~12 frames a second: a hand-drawn cadence
-    last = t; draw(t);
+    if (!interacting() && t - last < 83) return;   // ~12 frames a second: a hand-drawn cadence (every frame while spinning)
+    last = t; draw(clock);
+  }
+  function kick(){ if (!raf) { prev = null; raf = requestAnimationFrame(loop); } }
+  function label(){
+    if (!btn) return;
+    const m = moving();
+    btn.textContent = m ? "Pause" : "Animate";
+    btn.setAttribute("aria-pressed", String(m));
+    btn.setAttribute("aria-label", m ? "Pause the background animation" : "Animate the background");
   }
   function start(){
-    cancelAnimationFrame(raf); setup();
-    if (still.matches) draw(0); else raf = requestAnimationFrame(loop);
+    cancelAnimationFrame(raf); raf = 0; setup(); prev = null;
+    if (moving()) kick(); else draw(clock);
+    label();
   }
-  addEventListener("resize", () => { setup(); if (still.matches) draw(0); });
+  if (btn) btn.addEventListener("click", () => {
+    choice = moving() ? "off" : "on";
+    try { localStorage.setItem(KEY, choice); } catch (e) {}
+    start();
+  });
+  addEventListener("resize", () => { setup(); if (!moving()) draw(clock); });
   (darkQ.addEventListener ? darkQ.addEventListener("change", start) : darkQ.addListener(start));
   (still.addEventListener ? still.addEventListener("change", start) : still.addListener(start));
   start();
