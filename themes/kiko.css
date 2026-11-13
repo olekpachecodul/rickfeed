@@ -53,3 +53,8 @@ button.tog:hover,.tog:hover{background:var(--ink);color:var(--tag-ink);border-co
 footer{font-size:12px;justify-content:center}
 @media (max-width:900px){.grid{gap:40px 8px}}
 @media (max-width:520px){.count{position:static}header{flex-direction:column;gap:4px}.tog{padding:0 10px;font-size:12px}}
+.sites{justify-content:center;gap:0;font-size:12px;padding-top:10px;text-transform:uppercase}
+.sites a{border:1px solid var(--line);margin-left:-1px;padding:3px 11px;background:var(--pill);color:var(--ink)}
+.sites a:first-child{border-radius:999px 0 0 999px;margin-left:0}.sites a:last-child{border-radius:0 999px 999px 0}
+.sites a[aria-current=page]{background:var(--ink);color:var(--tag-ink);text-decoration:none}
+@media (max-width:640px){.sites{justify-content:flex-start}}

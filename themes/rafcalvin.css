@@ -35,3 +35,5 @@ header{padding:26px 0 12px}
 .price{font-weight:800}
 .row{font-weight:700}
 footer{border-top:3px solid var(--line);padding-top:14px}
+.sites{font-weight:700;letter-spacing:.16em;font-size:10px;text-transform:uppercase;color:var(--ink)}
+.sites a[aria-current=page]{background:var(--yellow);color:#111111;text-decoration:none;padding:2px 6px}

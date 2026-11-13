@@ -1,6 +1,7 @@
 {
  "id": "lang-feed",
  "title": "Lang Feed",
+ "url": "https://lang.hengecorp.com",
  "name": "Helmut Lang",
  "match": "helmut\\s*lang",
  "lines": [

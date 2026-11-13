@@ -89,6 +89,7 @@ RICK = re.compile(r"rick\s*owens|" + DRK.pattern, re.I)
 BRAND = {
     "id": "rick-feed",
     "title": "Rick Feed",
+    "url": "https://rick.hengecorp.com",      # where this feed is published (site switcher, refused-lookup fallback)
     "name": "Rick Owens",                     # default line label
     "match": RICK.pattern,                    # what counts as this brand (title or vendor)
     "lines": [["DRKSHDW", DRK.pattern], ["Lilies", LILIES.pattern]],  # first match wins
@@ -101,6 +102,15 @@ BRAND = {
     "labels": {},                             # optional UI wording, e.g. {"Category": "区分 Category"}
 }
 BRAND_RE = RICK
+
+# The family of feeds, for the site switcher at the top of every page.
+SITES = [
+    ("rick-feed", "Rick Owens", "https://rick.hengecorp.com"),
+    ("kiko-feed", "Kiko Kostadinov", "https://kiko.hengecorp.com"),
+    ("lang-feed", "Helmut Lang", "https://lang.hengecorp.com"),
+    ("rafcalvin-feed", "205W39NYC", "https://rafcalvin.hengecorp.com"),
+    ("soshiotsuki-feed", "Soshiotsuki", "https://soshiotsuki.hengecorp.com"),
+]
 LINE_RES = [(label, re.compile(pat, re.I)) for label, pat in BRAND["lines"]]
 
 
@@ -169,6 +179,7 @@ def colours_of(*texts):
 PRICE_DROP_DAYS = 7          # how long a price cut stays flagged
 FORGET_AFTER_DAYS = 60       # drop items from memory once unseen this long
 AVAIL_MAX_PAGES = 4          # pages of products.json read per feed to spot sold items
+OLD_STOCK_DAYS = 3           # first seen but listed longer ago than this: old stock, not NEW
 DETAIL_RETRIES = (2, 6, 15)  # seconds to wait before each retry when Shopify refuses products.json
 # Shopify rate-limits by IP across all its shops, so once one shop has refused
 # after every retry, the rest of the run tries each lookup once and moves on.
@@ -243,7 +254,7 @@ def parse_feed(shop, raw):
     for e in root.findall("a:entry", NS):
         title = (e.findtext("a:title", "", NS) or "").strip()
         vendor = (e.findtext("s:vendor", "", NS) or "").strip()
-        if (shop.get("rick_only") or shop.get("brand_only") or BRAND.get("strict")) and not (BRAND_RE.search(title) or BRAND_RE.search(vendor)):
+        if not wanted(shop, title, vendor):
             continue
         link = ""
         for l in e.findall("a:link", NS):
@@ -311,15 +322,16 @@ def product_keys(item):
     return keys
 
 
-def fetch_details(feed_url, wanted):
-    """The .atom feed doesn't say what's sold and has little else to go on, so
-    ask the same collection's products.json. Returns {product id or handle:
-    {"available", "type", "colours"}}. Anything it can't find is left out;
-    those items count as for sale and are classified from the feed alone."""
+def fetch_details(feed_url):
+    """The .atom feed lists only a collection's newest 25 pieces and doesn't say
+    what's sold, so also read the same collection's products.json (up to
+    AVAIL_MAX_PAGES x 250 products). Returns ({product id or handle: {"available",
+    "type", "colours"}}, [raw products], error). Items it can't find count as
+    for sale and are classified from the feed alone."""
     if not feed_url.endswith(".atom"):
-        return {}, None
+        return {}, [], None
     base = feed_url[:-len(".atom")] + "/products.json?limit=250&page="
-    details, remaining = {}, set(wanted)
+    details, everything = {}, []
     for page in range(1, AVAIL_MAX_PAGES + 1):
         products, error = None, None
         for wait in (0,) + (() if SHOPIFY_REFUSING.is_set() else DETAIL_RETRIES):  # Shopify sometimes refuses these from cloud servers
@@ -336,7 +348,8 @@ def fetch_details(feed_url, wanted):
         if products is None:
             if error and error.startswith("error 4"):
                 SHOPIFY_REFUSING.set()
-            return details, (error if page == 1 else None)
+            return details, everything, (error if page == 1 else None)
+        everything += products
         for p in products:
             colour_opts = [i for i, o in enumerate(p.get("options") or [])
                            if re.match(r"colou?r", str(o.get("name", "")), re.I)]
@@ -353,10 +366,72 @@ def fetch_details(feed_url, wanted):
             for k in (str(p.get("id", "")), p.get("handle") or ""):
                 if k:
                     details[k] = d
-                    remaining.discard(k)
-        if len(products) < 250 or not remaining:
+        if len(products) < 250:
             break
-    return details, None
+    return details, everything, None
+
+
+def wanted(shop, title, vendor):
+    """brand_only shops (and strict brands) keep only this brand's pieces."""
+    if shop.get("rick_only") or shop.get("brand_only") or BRAND.get("strict"):
+        return bool(BRAND_RE.search(title) or BRAND_RE.search(vendor))
+    return True
+
+
+_CURRENCY = {}
+def shop_currency(root):
+    """A Shopify shop's own currency (products.json prices don't say)."""
+    if root not in _CURRENCY:
+        try:
+            _CURRENCY[root] = json.loads(fetch_bytes(root + "/meta.json")).get("currency") or "USD"
+        except Exception:
+            _CURRENCY[root] = "USD"
+    return _CURRENCY[root]
+
+
+def items_from_products(shop, feed_url, products, atom_items):
+    """Listings for products.json entries the .atom feed didn't include, shaped
+    exactly like parse_feed's so the rest of the pipeline treats them the same."""
+    root = re.match(r"https?://[^/]+", feed_url).group(0)
+    known = {k for it in atom_items for k in product_keys(it)}
+    m = atom_items and re.match(r"(.*/products/)\d+\s*$", atom_items[0]["id"])
+    id_prefix = m.group(1) if m else root + "/products/"   # same ids as the feed uses, so saved state lines up
+    currency = atom_items[0]["currency"] if atom_items else shop_currency(root)
+    out = []
+    for p in products:
+        pid, handle = str(p.get("id", "")), p.get("handle") or ""
+        if not pid or pid in known or handle in known:
+            continue
+        title = html.unescape((p.get("title") or "").strip())
+        vendor = (p.get("vendor") or "").strip()
+        if not wanted(shop, title, vendor):
+            continue
+        variants = p.get("variants") or []
+        vtitles = [v.get("title") or "" for v in variants]
+        prices = []
+        for v in variants:
+            try:
+                prices.append(float(v.get("price")))
+            except (TypeError, ValueError):
+                pass
+        images = p.get("images") or []
+        out.append({
+            "id": id_prefix + pid,
+            "shop": shop["name"],
+            "city": shop["city"],
+            "title": title,
+            "link": f"{root}/products/{handle}",
+            "published": p.get("published_at") or p.get("created_at") or "",
+            "image": sized_image(images[0].get("src", "")) if images else "",
+            "price": min(prices) if prices else None,
+            "currency": currency,
+            "size": guess_size(title, vtitles),
+            "type": (p.get("product_type") or "").strip(),
+            "line": line_of(title, vendor),
+            "colour_hint": " ".join(" ".join(vt.split(" / ")[:-1]) for vt in vtitles),
+            "sold": False,
+        })
+    return out
 
 
 def enrich(it, d):
@@ -372,11 +447,17 @@ def fetch_shop(shop):
     items, errors, seen_ids, lookup_errors = [], [], set(), []
     for url in feeds:
         got, err = fetch_one(shop, url)
-        if err:
-            errors.append(err)
-        details, lookup_err = fetch_details(url, {k for it in got for k in product_keys(it)}) if got else ({}, None)
+        details, products, lookup_err = fetch_details(url)
         if lookup_err:
             lookup_errors.append(lookup_err)
+            if err:   # neither source answered for this feed
+                errors.append(err)
+                continue
+        elif products:
+            err = None   # the full product list is enough even if the .atom feed failed
+            got = got + items_from_products(shop, url, products, got)
+        if err:
+            errors.append(err)
         for it in got:
             found = [details[k] for k in product_keys(it) if k in details]
             enrich(it, found[0] if found else None)
@@ -494,6 +575,24 @@ def main():
             print(f"  {shop['name']:<18} {status}")
             results.append((shop, items, err))
 
+    # Shopify sometimes refuses the full product list; rather than shrinking that shop
+    # to its newest 25 for this check, reuse its listings from the last published data.json.
+    refused = {shop["name"] for shop, items, err in results if shop.get("lookup_error")}
+    if refused and site_mode and BRAND.get("url"):
+        try:
+            prev = json.loads(fetch_bytes(BRAND["url"].rstrip("/") + "/data.json")).get("items", [])
+            for shop, items, err in results:
+                if shop["name"] in refused:
+                    have = {it["id"] for it in items}
+                    carried = [dict(it) for it in prev if it.get("shop") == shop["name"] and it.get("id") not in have]
+                    for it in carried:
+                        it["_lookup_failed"] = True
+                    items.extend(carried)
+                    if carried:
+                        print(f"  {shop['name']}: reused {len(carried)} listings from the last published check")
+        except Exception as e:
+            print(f"  (couldn't load the last published listings: {str(e)[:80]})")
+
     all_items, shops_out = [], []
     for shop, items, err in results:
         shops_out.append({"name": shop["name"], "city": shop["city"], "link": shop["link"], "count": len(items), "error": err})
@@ -502,12 +601,13 @@ def main():
             key = shop["name"] + "|" + it["id"]
             mem = memory.get(key)
             if mem is None:
-                first = run_iso
-                if seeding:  # new shop: date its items by when the shop listed them
-                    pub = parse_time(it["published"])
-                    if pub and pub < run_at:
-                        first = pub.astimezone(dt.timezone.utc).isoformat(timespec="seconds")
-                mem = {"first_seen": first, "first_run": 0 if seeding else run_no, "price": it["price"]}
+                first, old_stock = run_iso, seeding
+                pub = parse_time(it["published"])
+                # A piece the shop listed days ago is old stock we're only now seeing (a new shop,
+                # or a deeper product list), not a new arrival: date it by its listing, no NEW tag.
+                if pub and pub < run_at and (seeding or run_at - pub > dt.timedelta(days=OLD_STOCK_DAYS)):
+                    first, old_stock = pub.astimezone(dt.timezone.utc).isoformat(timespec="seconds"), True
+                mem = {"first_seen": first, "first_run": 0 if old_stock else run_no, "price": it["price"]}
                 memory[key] = mem
             else:
                 old = mem.get("price")
@@ -557,6 +657,7 @@ def main():
     out_file.write_text(render_page(payload), encoding="utf-8")
     if site_mode:
         (out_file.parent / "feed.xml").write_text(build_atom(all_items, run_iso), encoding="utf-8")
+        (out_file.parent / "data.json").write_text(json.dumps({"generated": run_iso, "items": all_items}, ensure_ascii=False), encoding="utf-8")
         (out_file.parent / ".nojekyll").write_text("", encoding="utf-8")
 
     new_count = sum(1 for i in all_items if i.get("is_new"))
@@ -595,7 +696,16 @@ def render_page(payload):
                 .replace("__PLACEHOLDER__", esc(BRAND["placeholder"]))
                 .replace("__LINE_HIDDEN__", "" if lines else " hidden")
                 .replace("__LINE_OPTIONS__", options)
+                .replace("__SITES__", sites_nav())
                 .replace("__DATA__", payload))
+
+
+def sites_nav():
+    esc = lambda x: html.escape(str(x), quote=True)
+    links = "".join(
+        f'<a href="{esc(url)}/"{" aria-current=\"page\"" if sid == BRAND["id"] else ""}>{esc(name)}</a>'
+        for sid, name, url in SITES)
+    return f'<nav class="sites" aria-label="Designer feeds">{links}</nav>'
 
 
 PAGE = r"""<!doctype html>
@@ -616,6 +726,7 @@ __THEME__
 </head>
 <body>
 <div class="wrap">
+  __SITES__
   <header>
     <h1 class="mark">__TITLE__</h1>
     <span class="count" id="count"></span>
@@ -811,6 +922,7 @@ function render(){
   $("#dropN").textContent = pool.filter(i => i.drop_from && forSale(i)).length;
   $("#soldN").textContent = pool.filter(i => i.sold).length;
   if (!list.length) {
+    current = []; shown = 0; sentinel.remove();
     const why = [];
     if (onlyDrop) why.push("Price cuts is on");
     if (onlyNew) why.push(SITE ? "New since last visit is on" : "New since last run is on");
@@ -832,7 +944,22 @@ function render(){
     });
     return;
   }
-  $("#grid").innerHTML = list.map(i => `
+  current = list; shown = 0;
+  $("#grid").innerHTML = "";
+  more();
+}
+// Big feeds have thousands of listings: draw them in batches as the page scrolls.
+const BATCH = 96;
+let current = [], shown = 0;
+const sentinel = document.createElement("div"); sentinel.className = "more"; sentinel.setAttribute("aria-hidden", "true");
+function more(){
+  if (shown >= current.length) { sentinel.remove(); return; }
+  $("#grid").insertAdjacentHTML("beforeend", current.slice(shown, shown + BATCH).map(card).join(""));
+  shown += BATCH;
+  if (shown < current.length) $("#grid").after(sentinel); else sentinel.remove();
+}
+if ("IntersectionObserver" in window) new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) more(); }, {rootMargin: "1200px"}).observe(sentinel);
+function card(i){ return `
     <a class="card${i.sold ? " sold" : ""}" href="${esc(i.link)}" target="_blank" rel="noopener">
       <div class="ph${i.image ? "" : " noi"}">
         ${i.image ? `<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.classList.add('noi');this.remove()">` : ""}
@@ -844,9 +971,11 @@ function render(){
       <div class="price">${priceHtml(i)}${i.drop_from ? `<s>${money(i.drop_from, i.currency)}</s>` : ""}</div>
       <div class="row"><span class="go">${esc(i.shop)} +</span><span class="size">${i.size ? "Size " + esc(i.size) : ""}</span></div>
       <div class="src">${esc(i.city)} / ${ago(i.published)}</div>
-    </a>`).join("");
+    </a>`;
 }
 render();
+// On a phone the switcher scrolls sideways; bring this site's entry into view.
+try { const cur = $(".sites [aria-current]"), nav = $(".sites"); if (cur && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = cur.offsetLeft - (nav.clientWidth - cur.offsetWidth) / 2; } catch (e) {}
 </script>
 </body>
 </html>
