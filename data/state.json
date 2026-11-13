@@ -101430,7 +101430,7 @@
    "first_seen": "2025-07-18T23:02:13+00:00",
    "last_seen": "2026-11-13",
    "price": 715.0,
-   "sold": false
+   "sold": true
   },
   "lang|VSP Consignment|https://vspconsignment.com/products/8160860504255": {
    "category": "Outerwear",
@@ -191062,7 +191062,7 @@
    "first_seen": "2026-11-10T16:26:28+00:00",
    "last_seen": "2026-11-13",
    "price": 54.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16433359880579": {
    "category": "Tops",
