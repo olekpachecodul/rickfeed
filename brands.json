@@ -495,5 +495,51 @@
    "q": "Guidi (boots OR leather OR footwear OR tannery)",
    "require": "\\bguidi\\b.*(?:boot|leather|footwear|shoe|tanner|horse|fashion|collection|bag)|(?:boot|leather|footwear|shoe|tanner)s?\\b.*\\bguidi\\b"
   }
+ },
+ {
+  "slug": "ralph",
+  "title": "Ralph Lauren Feed",
+  "name": "Ralph Lauren",
+  "short": "Ralph Lauren",
+  "match": "ralph\\s*lauren|\\brrl\\b|double\\s*r\\.?\\s*l\\b|\\bdouble\\s*rl\\b",
+  "lines": [
+   [
+    "RRL",
+    "\\brrl\\b|double\\s*r\\.?\\s*l\\b"
+   ],
+   [
+    "Purple Label",
+    "purple\\s*label"
+   ],
+   [
+    "Collection",
+    "ralph\\s*lauren\\s*collection"
+   ],
+   [
+    "Polo",
+    "\\bpolo\\s*(?:by\\s*)?ralph|polo\\s*sport\\b|polo\\s*country|polo\\s*jeans|polo\\s*rl\\b"
+   ],
+   [
+    "RLX",
+    "\\brlx\\b"
+   ],
+   [
+    "Rugby",
+    "\\brugby\\s*(?:ralph|by)"
+   ]
+  ],
+  "strip": "(?:(?:vintage|archive)\\s+)?(?:(?:polo\\s*(?:by\\s*)?|lauren\\s*)?ralph\\s*lauren\\s*)?(?:(?:rrl|double\\s*rl|purple\\s*label|collection|polo\\s*sport|polo\\s*country|rlx)\\s+)?(?:rrl\\s*)?(?:double\\s*rl\\s*)?",
+  "theme": "ralph",
+  "fonts": "https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap",
+  "theme_color": [
+   "#F4F1EA",
+   "#0F1A2E"
+  ],
+  "placeholder": "Search: rrl, chore coat, indigo, purple label",
+  "news": {
+   "q": "\"Ralph Lauren\" OR \"Double RL\" OR RRL",
+   "require": "ralph\\s*lauren|\\brrl\\b|double\\s*rl",
+   "exclude": "\\b(?:stock|stocks|shares|earnings|revenue|quarter(?:ly)?|investors?|dividend|price\\s*target|analysts?|nyse|holdings|q[1-4]|fiscal|outlook|guidance|eps)\\b"
+  }
  }
 ]
