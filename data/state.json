@@ -89146,7 +89146,7 @@
    "first_seen": "2026-08-15T16:50:49+00:00",
    "last_seen": "2026-11-13",
    "price": 179.9,
-   "sold": false
+   "sold": true
   },
   "lang|2nd Street|https://ec.2ndstreetusa.com/products/8213106131053": {
    "category": "Outerwear",
@@ -89286,6 +89286,17 @@
    "last_seen": "2026-11-13",
    "price": 229.9,
    "sold": true
+  },
+  "lang|2nd Street|https://ec.2ndstreetusa.com/products/8279598399597": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:42:29+00:00",
+   "last_seen": "2026-11-13",
+   "price": 199.9,
+   "sold": false
   },
   "lang|Archive Threads|https://archivethreads.ca/products/15397898780901": {
    "category": "Outerwear",
@@ -187046,7 +187057,7 @@
    "first_seen": "2026-11-02T16:47:45+00:00",
    "last_seen": "2026-11-13",
    "price": 54.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16421185257859": {
    "category": "Tops",
