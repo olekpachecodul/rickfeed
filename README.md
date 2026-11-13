@@ -20,8 +20,9 @@ so gaps can be longer; each page shows the time of the last check.
   and straight away when a designer is added.
 - `brands.json`: every designer: `slug` (its page is `/<slug>/`), title, what counts as that designer (`match`, title or vendor),
   `lines` (e.g. DRKSHDW, Junya Watanabe under Comme des Garçons), `exclude` (pieces that belong on another page, e.g. Raf Simons'
-  Calvin Klein work), `strict` (filter every shop, used for 205W39NYC), `short` (the name in the switcher), the look and wording.
+  Calvin Klein work), `strict` (filter every shop, used for 205W39NYC), the look and wording.
 - `publications.json`: fashion publications whose RSS feeds are read hourly for articles (Google News is searched per designer too). `data/articles.json` → `sources` shows how each answered on the last read.
+- Every designer page has a top bar: the henge mark and Ballhog (home) on the left, and a menu of every designer on the right, with a finder.
 - `themes/base.css` is the shared layout; `themes/<theme>.css` gives each designer its look.
 - `data/state.json`: what's already been seen, per designer (created and updated automatically).
 - `data/last_check.json`: the last check's request count, time taken, and any shops that asked us to slow down (Shopify answers 429).
@@ -40,7 +41,7 @@ A shop with a designer collection the list doesn't name is still picked up by th
 ## Adding a designer
 
 Add an entry to `brands.json` (copy an existing one, give it a new `slug`, `name`, `match` and `theme`) and a `themes/<theme>.css`
-(an empty file gives the base look). Its page appears at `/<slug>/` on the next check and in the switcher on every page.
+(an empty file gives the base look). Its page appears at `/<slug>/` on the next check, and in the designers menu and on the home page.
 Every shop is searched for it on the next check; add any shop that sells it without a collection named after it to `shops.json`.
 Requests to each shop are spaced out (`SHOP_GAP`), so a check takes a little longer as designers are added.
 

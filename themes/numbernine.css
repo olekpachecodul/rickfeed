@@ -30,6 +30,3 @@ header{padding:26px 0 8px}
 .price{color:var(--mustard);font-weight:400}
 .row{font-weight:400}
 footer{border-top:1px dashed var(--soft);padding-top:12px}
-.sites{font-size:11px;text-transform:lowercase}
-.sites .home{font-family:"Special Elite","Courier New",monospace;letter-spacing:0;font-weight:400}
-.sites a[aria-current=page]{color:var(--mustard)}

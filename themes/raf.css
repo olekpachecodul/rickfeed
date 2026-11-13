@@ -27,7 +27,4 @@ header{padding:14px 0 4px;flex-wrap:wrap;align-items:flex-end}
 .price{font-weight:700}
 .row{font-weight:400}
 footer{border-top:1px solid var(--line);padding-top:12px}
-.sites{font-size:10px;color:var(--ink)}
-.sites .home{font-family:"Oswald","Arial Narrow",sans-serif;font-weight:600;font-size:12px;letter-spacing:.04em}
-.sites a[aria-current=page]{background:var(--ink);color:var(--tag-ink);text-decoration:none;padding:2px 5px}
 @media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

@@ -31,8 +31,6 @@ header{padding:40px 0 14px;justify-content:center;flex-direction:column;gap:6px}
 .row{font-weight:300;color:var(--muted)}
 .row .size{color:var(--muted)}
 footer{justify-content:center}
-.sites{justify-content:center;font-weight:300}
-@media (max-width:640px){.sites{justify-content:flex-start}}
 @media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .views{justify-content:center}
 .arts{margin:0 auto}

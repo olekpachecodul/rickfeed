@@ -889,6 +889,7 @@ def main():
     if rate_source not in ("none needed", "last saved rates", "built-in rough rates"):
         state["rates"] = {c: v for c, v in rates.items() if c != "USD"}
 
+    renders = []
     for brand, all_items, shops_out in pages:
         slug = brand["slug"]
         for i in all_items:
@@ -903,7 +904,7 @@ def main():
         payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
         out = site_dir / slug
         out.mkdir(parents=True, exist_ok=True)
-        (out / "index.html").write_text(render_page(brand, payload), encoding="utf-8")
+        renders.append((out, brand, payload))
         (out / "feed.xml").write_text(build_atom(brand, all_items, run_iso), encoding="utf-8")
         (out / "data.json").write_text(json.dumps({"generated": run_iso, "items": all_items}, ensure_ascii=False), encoding="utf-8")
         for_sale = sum(1 for i in all_items if not i.get("sold"))
@@ -919,6 +920,8 @@ def main():
               + ", ".join(f"{k} {v}" for k, v in sorted(cats.items(), key=lambda kv: -kv[1]))
               + f". No colour found for {sum(1 for i in all_items if not i.get('colours'))}."
               + (f" Couldn't reach: {', '.join(failed)}." if failed else ""))
+    for out, brand, payload in renders:
+        (out / "index.html").write_text(render_page(brand, payload, built), encoding="utf-8")
     (site_dir / "index.html").write_text(render_home(built, run_iso), encoding="utf-8")
     (site_dir / ".nojekyll").write_text("", encoding="utf-8")
     foreign = sorted(c for c in all_currencies if c != "USD")
@@ -942,7 +945,7 @@ def main():
         webbrowser.open((site_dir / "index.html").resolve().as_uri())
 
 
-def render_page(brand, payload):
+def render_page(brand, payload, built=()):
     esc = lambda x: html.escape(str(x), quote=True)
     labels = brand.get("labels") or {}
     lines = brand.get("lines") or []
@@ -961,17 +964,44 @@ def render_page(brand, payload):
                 .replace("__PLACEHOLDER__", esc(brand["placeholder"]))
                 .replace("__LINE_HIDDEN__", "" if lines else " hidden")
                 .replace("__LINE_OPTIONS__", options)
-                .replace("__SITES__", sites_nav(brand["slug"]))
+                .replace("__SITES__", sites_nav(brand["slug"], built))
+                .replace("__FAVICON__", FAVICON)
                 .replace("__DATA__", payload))
 
 
-def sites_nav(current):
-    """Links to every designer page (relative, so it works on any domain)."""
+# The henge mark: a trilithon between two standing stones, drawn as rounded outlines.
+HENGE_SVG = ('<svg class="henge" viewBox="0 0 40 28" aria-hidden="true" focusable="false">'
+             '<g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">'
+             '<path d="M2.6 26 2.2 14.6c0-1 .6-1.6 1.6-1.6h3.5c1 0 1.5.6 1.5 1.6L8.6 26z"/>'
+             '<path d="M12.4 26.2 12 9.6h6l-.3 16.6z"/>'
+             '<path d="M22.2 26.2 22 9.6h6.1l-.4 16.6z"/>'
+             '<path d="M10.2 3.6c0-.9.6-1.4 1.5-1.4h17c.9 0 1.4.6 1.4 1.4v3.8c0 .9-.6 1.5-1.5 1.5H11.6c-.9 0-1.5-.6-1.5-1.5z"/>'
+             '<path d="M32.4 26.2 31.6 12.2c0-.9.6-1.5 1.5-1.4l3.1.2c.9.1 1.4.7 1.4 1.6l-.4 13.6z"/>'
+             '</g></svg>')
+FAVICON = ("data:image/svg+xml," + urllib.parse.quote(
+    HENGE_SVG.replace('class="henge" ', 'xmlns="http://www.w3.org/2000/svg" ').replace('aria-hidden="true" focusable="false"', '')
+    .replace("currentColor", "#111").replace("<g ", "<style>@media (prefers-color-scheme: dark){g{stroke:#eee}}</style><g ")))
+
+
+def sites_nav(current, built=()):
+    """Top bar: the henge and Ballhog (home) on the left, a menu of every designer on the right."""
     esc = lambda x: html.escape(str(x), quote=True)
-    links = '<a href="../" class="home">Ballhog</a>' + "".join(
-        f'<a href="../{esc(b["slug"])}/"{' aria-current="page"' if b["slug"] == current else ""}>{esc(b.get("short", b["name"]))}</a>'
+    counts = {b["slug"]: b["for_sale"] for b in built}
+    items = "".join(
+        f'<li><a href="../{esc(b["slug"])}/"{' aria-current="page"' if b["slug"] == current else ""} data-n="{esc(b["name"].lower())}">'
+        f'<span class="mn">{esc(b["name"])}</span>'
+        f'<span class="mc">{format(counts[b["slug"]], ",") if b["slug"] in counts else ""}</span></a></li>'
         for b in BRANDS)
-    return f'<nav class="sites" aria-label="Designers">{links}</nav>'
+    return (f'<div class="topbar"><a class="logo" href="../">{HENGE_SVG}<span>Ballhog</span></a>'
+            f'<button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu" aria-label="Designers">'
+            f'<span></span><span></span><span></span></button></div>'
+            f'<div class="menu" id="menu" hidden role="dialog" aria-modal="true" aria-label="Designers">'
+            f'<div class="menu-in"><div class="topbar"><a class="logo" href="../">{HENGE_SVG}<span>Ballhog</span></a>'
+            f'<button type="button" class="menu-x" id="menuX" aria-label="Close">&times;</button></div>'
+            f'<input type="search" id="menuQ" class="menu-q" placeholder="Find a designer" autocomplete="off" aria-label="Find a designer">'
+            f'<ol class="menu-list" id="menuList">{items}</ol>'
+            f'<p class="menu-none" id="menuNone" hidden>No designer by that name yet.</p>'
+            f'<a class="menu-home" href="../">All designers, on the home page</a></div></div>')
 
 
 def render_home(built, run_iso):
@@ -980,7 +1010,7 @@ def render_home(built, run_iso):
         f'<li style="--i:{n}"><a href="{esc(b["slug"])}/"><span class="n">{esc(b["name"])}</span>'
         f'<span class="c"><b>{b["for_sale"]:,}</b> / {b["shops"]}</span></a></li>' for n, b in enumerate(built))
     total = sum(b["for_sale"] for b in built)
-    return (HOME.replace("__ROWS__", rows).replace("__WHEN__", esc(run_iso))
+    return (HOME.replace("__ROWS__", rows).replace("__FAVICON__", FAVICON).replace("__HENGE__", HENGE_SVG).replace("__WHEN__", esc(run_iso))
                 .replace("__TOTAL__", f"{total:,}").replace("__SHOPS__", str(len(SHOPS))))
 
 
@@ -993,6 +1023,7 @@ HOME = r"""<!doctype html>
 <meta name="theme-color" content="#F2F1EC" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0B0B0B" media="(prefers-color-scheme: dark)">
 <title>Ballhog</title>
+<link rel="icon" href="__FAVICON__">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&family=JetBrains+Mono:wght@400&display=swap">
@@ -1009,6 +1040,7 @@ a{color:inherit;text-decoration:none}
 .splash{position:relative;min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;padding-top:max(18px,env(safe-area-inset-top),2.4vw);padding-bottom:28px;pointer-events:none}
 .top{display:flex;justify-content:space-between;gap:16px;font:400 11px/1.4 var(--m);letter-spacing:.04em;text-transform:uppercase}
 .top a{pointer-events:auto}
+.top .henge{width:28px;height:20px;vertical-align:-5px;margin-right:10px}
 h1{margin:0;align-self:start;font-weight:800;font-size:clamp(64px,19.5vw,330px);line-height:.8;letter-spacing:-.065em;margin-left:-.04em;padding-top:.06em;mix-blend-mode:difference;color:#fff;
   animation:rise 1.1s cubic-bezier(.2,.7,.1,1) both}
 .foot{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;mix-blend-mode:difference;color:#fff}
@@ -1044,7 +1076,7 @@ li a:hover::before,li a:focus-visible::before{color:var(--bg)}
 <body>
 <canvas id="henge" aria-hidden="true"></canvas>
 <section class="splash pad">
-  <div class="top"><span>Ballhog / secondhand designer, live</span><span>__SHOPS__ shops &middot; checked every 15 min</span></div>
+  <div class="top"><span>__HENGE__Ballhog / secondhand designer, live</span><span>__SHOPS__ shops &middot; checked every 15 min</span></div>
   <h1>Ballhog</h1>
   <div class="foot">
     <p>Every new secondhand piece from the resale shops worth checking, gathered by designer.</p>
@@ -1229,6 +1261,7 @@ PAGE = r"""<!doctype html>
 <meta name="theme-color" content="__TC_LIGHT__" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="__TC_DARK__" media="(prefers-color-scheme: dark)">
 <title>__DOCTITLE__</title>
+<link rel="icon" href="__FAVICON__">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="__FONTS__">
@@ -1519,8 +1552,32 @@ $("#vPieces").addEventListener("click", e => { e.preventDefault(); if (location.
 addEventListener("hashchange", showView);
 addEventListener("popstate", showView);
 showView();
-// On a phone the switcher scrolls sideways; bring this site's entry into view.
-try { const cur = $(".sites [aria-current]"), nav = $(".sites"); if (cur && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = cur.offsetLeft - (nav.clientWidth - cur.offsetWidth) / 2; } catch (e) {}
+// Designers menu: the hamburger opens a full-screen list with a finder.
+(function(){
+  const btn = $("#menuBtn"), menu = $("#menu"), q = $("#menuQ"), x = $("#menuX");
+  if (!btn || !menu) return;
+  const open = () => { menu.hidden = false; btn.setAttribute("aria-expanded", "true"); document.documentElement.classList.add("menu-open");
+    requestAnimationFrame(() => menu.classList.add("in")); q.value = ""; filter(); setTimeout(() => q.focus({preventScroll: true}), 30); };
+  const close = () => { menu.classList.remove("in"); btn.setAttribute("aria-expanded", "false"); document.documentElement.classList.remove("menu-open");
+    setTimeout(() => { menu.hidden = true; }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 180); btn.focus({preventScroll: true}); };
+  function filter(){
+    const v = q.value.trim().toLowerCase(); let n = 0;
+    menu.querySelectorAll(".menu-list li").forEach(li => { const hit = !v || li.firstChild.dataset.n.includes(v); li.hidden = !hit; n += hit; });
+    $("#menuNone").hidden = n > 0;
+  }
+  btn.addEventListener("click", open); x.addEventListener("click", close);
+  q.addEventListener("input", filter);
+  q.addEventListener("keydown", e => { if (e.key === "Enter") { const a = menu.querySelector(".menu-list li:not([hidden]) a"); if (a) location.href = a.href; } });
+  menu.addEventListener("keydown", e => {
+    if (e.key === "Escape") { e.preventDefault(); close(); return; }
+    if (e.key === "Tab") {   // keep focus inside the open menu
+      const f = [...menu.querySelectorAll("a[href]:not([hidden]), button, input")].filter(el => el.offsetParent !== null);
+      if (!f.length) return;
+      if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
+      else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
+    }
+  });
+})();
 </script>
 </body>
 </html>
