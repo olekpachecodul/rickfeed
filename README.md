@@ -1,6 +1,9 @@
 # Rick Feed
 
-The newest secondhand Rick Owens listings from resale shops (mostly US, plus a few in Canada, Japan and Italy), in one page.
+The newest secondhand Rick Owens listings from resale shops (mostly US, plus a few in Canada, Europe and Asia), in one page.
+
+**Live at https://rick.hengecorp.com** (feed: https://rick.hengecorp.com/feed.xml)
+
 GitHub checks every shop up to every 15 minutes and republishes the page. GitHub skips some scheduled runs when it's busy, so gaps can be longer; the page shows the time of the last check.
 
 - `rick_feed.py`: checks the shops and builds the page. The shop list is at the top.
@@ -35,6 +38,11 @@ The check retries a few times, and if it still fails it keeps what it knew from 
 Shops in Canada, Europe and Switzerland price in their own currency, and the page shows that price as-is with a currency tag (CAD, EUR, CHF).
 The price filter and sorting use an approximate US dollar figure behind the scenes so those pieces land in the right range; rates come from a free
 exchange-rate service each check, with the last good rates saved in `data/state.json`. Shipping and import duties aren't included.
+
+## The web address
+
+`rick.hengecorp.com` is a CNAME to `olekpachecodul.github.io`, set as DNS only (grey cloud) in Cloudflare, where the domain was registered through iCloud.
+The custom domain itself is set in Settings → Pages. The bare `hengecorp.com` keeps Cloudflare's landing page and the iCloud Mail records.
 
 ## Running it now
 
