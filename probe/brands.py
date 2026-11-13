@@ -1,6 +1,6 @@
 """Temporary probe: which known shops carry Kiko Kostadinov, Helmut Lang,
 Calvin Klein 205W39NYC and Soshiotsuki, and in which collection?"""
-import json, re, sys, urllib.request, concurrent.futures, collections
+import json, re, sys, urllib.request, urllib.error, concurrent.futures, collections
 sys.path.insert(0, ".")
 import rick_feed as rf
 BRANDS = {
@@ -15,13 +15,23 @@ for s in rf.SHOPS:
     f = s["feed"][0] if isinstance(s["feed"], list) else s["feed"]
     roots.append((s["name"], re.match(r"https://[^/]+", f).group(0)))
 roots += [(r.split("//")[1], r) for r in EXTRA]
+prev = json.load(open("probe/brands.json"))
+roots = [(n, r) for n, r in roots if not any(prev.get(n, {}).get(b, {}).get("collections") or prev.get(n, {}).get(b, {}).get("search") for b in BRANDS)]
+import time
+ERR = collections.Counter()
 UA = {"User-Agent": rf.USER_AGENT, "Accept": "application/json"}
 def get(url):
-    try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
-            return json.loads(r.read())
-    except Exception:
-        return None
+    for wait in (0, 20, 45):
+        time.sleep(wait or 0.7)
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            ERR[e.code] += 1
+            if e.code not in (429, 430, 503): return None
+        except Exception as e:
+            ERR[type(e).__name__] += 1; return None
+    return None
 def probe(item):
     name, root = item
     cols = []
@@ -53,7 +63,7 @@ def probe(item):
 import urllib.parse
 out = {}
 lines = []
-with concurrent.futures.ThreadPoolExecutor(6) as pool:
+with concurrent.futures.ThreadPoolExecutor(1) as pool:
     for name, root, res in pool.map(probe, roots):
         out[name] = {"root": root, **res}
 for b in BRANDS:
@@ -62,5 +72,6 @@ for b in BRANDS:
         x = r[b]
         if x["collections"] or x["search"]:
             lines.append(f"  {name:<20} {r['root']:<38} search {x['search']:>2} | " + "; ".join(f"{c['handle']}: {c['n']}/{c['total']} brand, {c['avail']} avail, newest {c['newest']}" for c in x["collections"]))
-open("probe/brands.txt", "w").write("\n".join(lines)); print("\n".join(lines))
-json.dump(out, open("probe/brands.json", "w"), indent=1)
+lines.append(f"rechecked {len(roots)} shops; errors: {dict(ERR)}")
+open("probe/brands2.txt", "w").write("\n".join(lines)); print("\n".join(lines))
+json.dump(out, open("probe/brands2.json", "w"), indent=1)
