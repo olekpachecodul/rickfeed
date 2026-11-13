@@ -63,3 +63,8 @@ footer a{color:var(--link);text-decoration:underline}
 .sites .home{color:var(--ink);text-decoration:none;letter-spacing:0}
 .sites a[aria-current=page]{color:var(--ink);text-decoration:none;font-weight:700}
 @media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 10px}}
+.arts .at{color:var(--link);text-decoration:underline}
+.arts a:visited .at{color:var(--visited)}
+.views a{color:var(--link);text-decoration:underline;border:0}
+.views a[aria-current=page]{color:var(--ink);text-decoration:none;font-weight:700}
+.views{font-size:14px}
