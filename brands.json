@@ -541,5 +541,26 @@
    "require": "ralph\\s*lauren|\\brrl\\b|double\\s*rl",
    "exclude": "\\b(?:stock|stocks|shares|earnings|revenue|quarter(?:ly)?|investors?|dividend|price\\s*target|analysts?|nyse|holdings|q[1-4]|fiscal|outlook|guidance|eps|asx|tsx|nasdaq|regis|gold|mining|miner|mine)\\b|\\(\\s*\\w+\\s*:\\s*rrl\\s*\\)"
   }
+ },
+ {
+  "slug": "balenciaga",
+  "title": "Balenciaga Feed",
+  "name": "Balenciaga",
+  "short": "Balenciaga",
+  "match": "balenciaga",
+  "lines": [],
+  "strip": "(?:(?:vintage|archive)\\s+)?(?:balenciaga\\s*)?(?:x\\s+)?",
+  "theme": "balenciaga",
+  "fonts": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;800&display=swap",
+  "theme_color": [
+   "#FFFFFF",
+   "#000000"
+  ],
+  "placeholder": "Search: triple s, le cagole, speed, track",
+  "news": {
+   "q": "\"Balenciaga\"",
+   "require": "balenciaga",
+   "exclude": "\\b(?:stock|stocks|shares|earnings|revenue|quarter(?:ly)?|investors?|dividend|analysts?|fiscal|outlook|guidance)\\b"
+  }
  }
 ]
