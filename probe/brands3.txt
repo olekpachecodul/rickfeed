@@ -1,0 +1,29 @@
+== https://backyardarchive.us | Backyardarchive | Vienna, AT | EUR
+     lang       helmut-lang: 7/7 brand, 1 avail, newest 2026-04-26
+     rafcalvin  all-draft: 7/18 brand, 3 avail, newest 2026-04-26; calvin-klein-205w39nyc: 39/39 brand, 39 avail, newest 2026-07-27; calvin-klein-outerwear: 8/8 brand, 8 avail, newest 2026-07-27; fw17-calvin-metal-toe-cap-boots-siblings: 2/2 brand, 1 avail, newest 2023-03-05; fw17-calvin-tex-c-boots-siblings: 1/1 brand, 0 avail, newest 2023-03-05
+== https://archivereloaded.com | Archive Reloaded | Clackamas, Oregon, US | USD
+== https://www.sunnyarkives.com | Sunny Arkives, Inc.  | Los Angeles, California, US | USD
+== https://www.hlorenzo.com | H. Lorenzo | Los Angeles, California, US | USD
+     kiko       kiko-kostadinov: 25/25 brand, 24 avail, newest 2026-09-28; kiko-kostadinov-1: 28/28 brand, 21 avail, newest 2026-08-04
+     rafcalvin  calvin-klein-205w39nyc: 1/1 brand, 1 avail, newest 2019-03-14
+== https://shop.davidcasavantarchive.com | david casavant archive | Los Angeles, California, US | USD
+     lang       helmut-lang-archive: 69/69 brand, 39 avail, newest 2025-11-06
+== https://www.archivethreads.ca | ArchiveThreads | Toronto, Ontario, CA | USD
+     lang       helmut-lang: 160/161 brand, 18 avail, newest 2026-11-04
+     rafcalvin  calvin-klein-205w39nyc: 9/9 brand, 0 avail, newest 2026-06-14; raf-simons: 2/271 brand, 0 avail, newest 2026-06-13
+-- https://archivestore.jp: not Shopify / not reachable
+-- https://iruse.jp: not Shopify / not reachable
+-- https://www.playful-dc.com: not Shopify / not reachable
+== https://recentestudio.com | RECENTE STUDIO | Pozzuoli, Napoli, IT | EUR
+== https://marustorelondon.com | MARU | London, England, GB | GBP
+== https://palette-art-alive.jp | PALETTE art alive ONLINE STORE | 大阪市, Ōsaka, JP | JPY
+     soshi      soshiotsuki: 202/202 brand, 22 avail, newest 2026-10-24
+== https://endyma.com | ENDYMA | Berlin, DE | EUR
+     lang       helmut-lang: 259/259 brand, 12 avail, newest 2017-05-22; helmut-lang-menswear: 26/26 brand, 10 avail, newest 2017-05-22; helmut-lang-womenswear: 31/31 brand, 11 avail, newest 2017-05-22
+== https://driewgarments.com | DRIEW | Toronto, Ontario, CA | CAD
+     kiko       kiko-kostadinov: 4/4 brand, 0 avail, newest 2024-10-23
+     lang       helmut-lang: 29/29 brand, 0 avail, newest 2026-10-27
+== https://suigenerisconsignment.com | Sui Generis Designer Consignment | San Francisco, California, US | USD
+     rafcalvin  calvin-klein-collection: 42/152 brand, 9 avail, newest 2026-10-06
+== https://archive-factory.com | Archive Factory | Chiyodaku, Tōkyō, JP | USD
+errors: {404: 2, 'URLError': 2, 403: 2}
