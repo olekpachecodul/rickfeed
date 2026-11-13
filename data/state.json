@@ -23,8 +23,8 @@
      "maison-margiela"
     ],
     "numbernine": [
-     "number-nine-undercover-melrose",
-     "numbernine"
+     "numbernine",
+     "number-nine-undercover-melrose"
     ],
     "raf": [
      "raf-simons"
@@ -36,8 +36,8 @@
      "rick-raf"
     ],
     "undercover": [
-     "number-nine-undercover-melrose",
-     "undercover"
+     "undercover",
+     "number-nine-undercover-melrose"
     ]
    },
    "slugs": [
@@ -59,15 +59,16 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "97th Vintage": {
    "date": "2026-11-13",
    "found": {
     "ralph": [
      "all-vintage-ralph-lauren",
-     "ralph-lauren-chaps",
      "ralph-lauren-polo-jeans",
+     "ralph-lauren-chaps",
      "ralph-lauren-polo-sport"
     ]
    },
@@ -90,46 +91,47 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Archive Factory": {
    "date": "2026-11-13",
    "found": {
     "cdg": [
      "all-comme-des-garcons",
-     "black-comme-des-garcons",
-     "comme-des-garcons-comme-des-garcons",
-     "comme-des-garcons-homme",
-     "comme-des-garcons-homme-deux",
-     "comme-des-garcons-homme-plus",
-     "comme-des-garcons-shirt",
-     "junya-watanabe-junya-watanabe-man",
      "comme-des-garcons",
-     "tricot-comme-des-garcons"
+     "comme-des-garcons-homme",
+     "comme-des-garcons-homme-plus",
+     "junya-watanabe-junya-watanabe-man",
+     "comme-des-garcons-shirt",
+     "comme-des-garcons-comme-des-garcons",
+     "comme-des-garcons-homme-deux",
+     "tricot-comme-des-garcons",
+     "black-comme-des-garcons"
     ],
     "gaultier": [
      "jean-paul-gaultier"
     ],
     "issey": [
      "issey-miyake",
-     "bao-bao-issey-miyake",
-     "issey-miyake-pleats-please",
-     "me-issey-miyake",
-     "issey-miyake-1",
      "please-please",
-     "pleats-please"
+     "pleats-please",
+     "issey-miyake-1",
+     "me-issey-miyake",
+     "bao-bao-issey-miyake",
+     "issey-miyake-pleats-please"
     ],
     "margiela": [
      "hermes-margiela",
      "maison-margiela"
     ],
     "numbernine": [
-     "number-nine",
-     "number-nine-takahiromiyashita-the-soloist"
+     "number-nine-takahiromiyashita-the-soloist",
+     "number-nine"
     ],
     "raf": [
-     "raf-simons-1",
-     "raf-simons"
+     "raf-simons",
+     "raf-simons-1"
     ],
     "rick": [
      "rick-owens"
@@ -139,10 +141,10 @@
     ],
     "yohji": [
      "yohji-yamamoto-ys-limi-feu",
+     "yohji-yamamoto",
+     "ys",
      "ground-y",
      "syte",
-     "ys",
-     "yohji-yamamoto",
      "yohji-yamamoto-pour-homme"
     ]
    },
@@ -165,7 +167,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Archive On Waters": {
    "date": "2026-11-13",
@@ -208,7 +211,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Archive Threads": {
    "date": "2026-11-13",
@@ -223,8 +227,8 @@
      "carol-christian-poell"
     ],
     "cdg": [
-     "comme-des-garcons",
-     "junya-watanabe"
+     "junya-watanabe",
+     "comme-des-garcons"
     ],
     "gaultier": [
      "jean-paul-gaultier"
@@ -279,7 +283,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Archived": {
    "date": "2026-11-13",
@@ -316,7 +321,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Arkives": {
    "date": "2026-11-13",
@@ -353,7 +359,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Backyard Archive": {
    "date": "2026-11-13",
@@ -396,7 +403,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Cobble": {
    "date": "2026-11-13",
@@ -424,7 +432,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Crybynoon Archive": {
    "date": "2026-11-13",
@@ -464,7 +473,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "DRIEW": {
    "date": "2026-11-13",
@@ -480,8 +490,8 @@
     ],
     "cdg": [
      "comme-des-garcons",
-     "ganryu",
-     "junya-watanabe"
+     "junya-watanabe",
+     "ganryu"
     ],
     "gaultier": [
      "jean-paul-gaultier"
@@ -536,7 +546,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "David Casavant Archive": {
    "date": "2026-11-13",
@@ -576,7 +587,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Descry Archive": {
    "date": "2026-11-13",
@@ -635,7 +647,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "DolceVitaHub": {
    "date": "2026-11-13",
@@ -678,7 +691,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "ENDYMA": {
    "date": "2026-11-13",
@@ -695,8 +709,8 @@
     "lang": [
      "helmut-lang",
      "helmut-lang-duplicates",
-     "helmut-lang-menswear",
-     "helmut-lang-womenswear"
+     "helmut-lang-womenswear",
+     "helmut-lang-menswear"
     ],
     "raf": [
      "raf-simons"
@@ -724,7 +738,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Elevated Archives": {
    "date": "2026-11-13",
@@ -786,7 +801,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Final Blow": {
    "date": "2026-11-13",
@@ -810,7 +826,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Graceful Misfits": {
    "date": "2026-11-13",
@@ -839,7 +856,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Groupie": {
    "date": "2026-11-13",
@@ -894,8 +912,8 @@
      "undercover"
     ],
     "yohji": [
-     "supreme-x-yohji-yamamoto",
-     "yohji-yamamoto"
+     "yohji-yamamoto",
+     "supreme-x-yohji-yamamoto"
     ]
    },
    "slugs": [
@@ -917,14 +935,15 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Headlock": {
    "date": "2026-11-13",
    "found": {
     "ralph": [
-     "ralph-lauren",
-     "ralph-lauren-tommy-hilfiger"
+     "ralph-lauren-tommy-hilfiger",
+     "ralph-lauren"
     ]
    },
    "slugs": [
@@ -946,7 +965,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Huiben": {
    "date": "2026-11-13",
@@ -999,8 +1019,8 @@
      "undercover-ss14"
     ],
     "yohji": [
-     "yohji-tigers",
-     "yohji-yamamoto"
+     "yohji-yamamoto",
+     "yohji-tigers"
     ]
    },
    "slugs": [
@@ -1022,7 +1042,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Justin Reed": {
    "date": "2026-11-13",
@@ -1068,9 +1089,9 @@
      "calvin-klein-205w39nyc"
     ],
     "ralph": [
+     "rrl",
      "polo-by-ralph-lauren",
-     "polo-ralph-lauren",
-     "rrl"
+     "polo-ralph-lauren"
     ],
     "rick": [
      "rick-owens",
@@ -1096,7 +1117,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Keep It Classic": {
    "date": "2026-11-13",
@@ -1124,7 +1146,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "LUXE MIA": {
    "date": "2026-11-13",
@@ -1154,30 +1177,31 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Lord Ralph London": {
    "date": "2026-11-13",
    "found": {
     "ralph": [
-     "double-rl-rrl",
-     "polo-ralph-lauren",
      "mens-shop-all",
-     "accessories",
-     "blazers",
-     "casual-shirts",
-     "hoodies-sweatshirts",
-     "jackets-coats",
-     "jumpers-cardigans",
-     "mens-vintage-ralph-lauren-rugby",
      "view-all",
+     "polo-ralph-lauren",
+     "jackets-coats",
+     "blazers",
      "trousers",
+     "jumpers-cardigans",
+     "casual-shirts",
      "womens-shop-all",
-     "womens-accessories",
-     "womens-hoodies-sweatshirts",
-     "womens-jackets-coats",
+     "hoodies-sweatshirts",
+     "double-rl-rrl",
      "womens-jumpers-cardigans",
-     "womens-trousers"
+     "womens-jackets-coats",
+     "accessories",
+     "mens-vintage-ralph-lauren-rugby",
+     "womens-trousers",
+     "womens-accessories",
+     "womens-hoodies-sweatshirts"
     ]
    },
    "slugs": [
@@ -1199,7 +1223,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Luke's": {
    "date": "2026-11-13",
@@ -1258,7 +1283,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Luxury Box ATL": {
    "date": "2026-11-13",
@@ -1269,9 +1295,9 @@
     ],
     "rick": [
      "rick-owens",
+     "rick-owens-shoes",
      "rick-owens-drkshdw",
-     "rick-owens-geobasket",
-     "rick-owens-shoes"
+     "rick-owens-geobasket"
     ]
    },
    "slugs": [
@@ -1293,7 +1319,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Marco Sqrd": {
    "date": "2026-11-13",
@@ -1338,7 +1365,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Messina Hembry": {
    "date": "2026-11-13",
@@ -1348,18 +1376,18 @@
     ],
     "ralph": [
      "ralph-lauren-mens-vintage-clothing",
-     "ralph-lauren-mens-vintage-hoodie",
+     "mens-vintage-ralph-lauren-shirts",
+     "true-vintage-polo-ralph-lauren",
+     "true-vintage-ralph-lauren",
+     "mens-vintage-ralph-lauren-trousers",
+     "mens-vintage-ralph-lauren-polo-shirts",
      "mens-vintage-ralph-lauren-jeans",
      "ralph-lauren-mens-vintage-jumper",
-     "mens-vintage-ralph-lauren-polo-shirts",
-     "ralph-lauren-mens-vintage-puffer-jacket",
-     "mens-vintage-ralph-lauren-shirts",
      "mens-vintage-ralph-lauren-tshirts",
+     "ralph-lauren-mens-vintage-puffer-jacket",
      "mens-vintage-ralph-lauren-tracksuit-bottoms",
-     "mens-vintage-ralph-lauren-trousers",
-     "ralph-lauren-mens-vintage-quarter-zip",
-     "true-vintage-polo-ralph-lauren",
-     "true-vintage-ralph-lauren"
+     "ralph-lauren-mens-vintage-hoodie",
+     "ralph-lauren-mens-vintage-quarter-zip"
     ]
    },
    "slugs": [
@@ -1381,7 +1409,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Michael's": {
    "date": "2026-11-13",
@@ -1403,10 +1432,10 @@
      "helmut-lang"
     ],
     "margiela": [
-     "maison-margiela",
      "margiela",
      "martin-margiela",
-     "mm6"
+     "mm6",
+     "maison-margiela"
     ],
     "ralph": [
      "ralph-lauren"
@@ -1434,7 +1463,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Midtown Archive": {
    "date": "2026-11-13",
@@ -1495,7 +1525,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "NEWLIFE Clothing": {
    "date": "2026-11-13",
@@ -1523,7 +1554,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Nationalbunker": {
    "date": "2026-11-13",
@@ -1583,7 +1615,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Performa": {
    "date": "2026-11-13",
@@ -1611,7 +1644,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Pilgrim": {
    "date": "2026-11-13",
@@ -1660,7 +1694,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Planet Vintage": {
    "date": "2026-11-13",
@@ -1688,7 +1723,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Resurrection": {
    "date": "2026-11-13",
@@ -1706,8 +1742,8 @@
     ],
     "issey": [
      "issey-miyake-vintage",
-     "pleats-please",
-     "pleats-please-issey-miyake-plus-edit"
+     "pleats-please-issey-miyake-plus-edit",
+     "pleats-please"
     ],
     "lang": [
      "helmut-lang-vintage",
@@ -1757,7 +1793,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Retrospective": {
    "date": "2026-11-13",
@@ -1785,7 +1822,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Sadō Room": {
    "date": "2026-11-13",
@@ -1852,7 +1890,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Second Wave Vintage": {
    "date": "2026-11-13",
@@ -1896,7 +1935,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Shop Status": {
    "date": "2026-11-13",
@@ -1924,7 +1964,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Shush London": {
    "date": "2026-11-13",
@@ -1952,7 +1993,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Street Commerce": {
    "date": "2026-11-13",
@@ -2017,7 +2059,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Sui Generis": {
    "date": "2026-11-13",
@@ -2045,7 +2088,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Sunday Nightmare": {
    "date": "2026-11-13",
@@ -2085,8 +2129,8 @@
      "undercover"
     ],
     "yohji": [
-     "y-3",
-     "yohji-yamamoto"
+     "yohji-yamamoto",
+     "y-3"
     ]
    },
    "slugs": [
@@ -2108,14 +2152,15 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Thrift Tale": {
    "date": "2026-11-13",
    "found": {
     "ralph": [
-     "vintage-polo-ralph-lauren",
-     "vintage-ralph-lauren"
+     "vintage-ralph-lauren",
+     "vintage-polo-ralph-lauren"
     ]
    },
    "slugs": [
@@ -2137,7 +2182,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Thrifted": {
    "date": "2026-11-13",
@@ -2146,15 +2192,15 @@
      "vintage-womens-jean-paul-gaultier"
     ],
     "ralph": [
-     "ar",
-     "vintage-mens-ralph-lauren",
-     "vintage-mens-ralph-lauren-1-4-zips",
      "ralph-lauren",
-     "vintage-ralph-lauren-1-4-zips",
-     "vintage-ralph-lauren-hoodie",
-     "vintage-ralph-lauren-polo-shirts",
+     "vintage-mens-ralph-lauren",
      "vintage-ralph-lauren-shirts",
-     "vintage-womens-ralph-lauren"
+     "vintage-ralph-lauren-1-4-zips",
+     "vintage-mens-ralph-lauren-1-4-zips",
+     "vintage-ralph-lauren-polo-shirts",
+     "ar",
+     "vintage-womens-ralph-lauren",
+     "vintage-ralph-lauren-hoodie"
     ]
    },
    "slugs": [
@@ -2176,7 +2222,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Throat": {
    "date": "2026-11-13",
@@ -2227,7 +2274,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Tokio 7": {
    "date": "2026-11-13",
@@ -2251,7 +2299,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "VSP Consignment": {
    "date": "2026-11-13",
@@ -2267,10 +2316,10 @@
      "jean-paul-gaultier"
     ],
     "issey": [
-     "issey-miyake",
-     "issey-miyake-clothing",
      "issey-miyake-collection",
-     "pleats-please-issey-miyake"
+     "issey-miyake",
+     "pleats-please-issey-miyake",
+     "issey-miyake-clothing"
     ],
     "lang": [
      "helmut-lang"
@@ -2308,7 +2357,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Vintage Collection Bendigo": {
    "date": "2026-11-13",
@@ -2336,7 +2386,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Vintage Couture": {
    "date": "2026-11-13",
@@ -2383,7 +2434,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Vintage Marketplace": {
    "date": "2026-11-13",
@@ -2411,21 +2463,22 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   },
   "Vintage Rare USA": {
    "date": "2026-11-13",
    "found": {
     "ralph": [
-     "vintage-denim-shirts",
      "polo-ralph-lauren",
-     "polo-ralph-lauren-jacket",
+     "ralph-lauren-polo-sweatshirt",
+     "vintage-shirts",
+     "vintage-ralph-lauren-t-shirts",
      "ralph-lauren-polo",
      "ralph-lauren-shirts",
-     "vintage-ralph-lauren-pants",
-     "ralph-lauren-polo-sweatshirt",
-     "vintage-ralph-lauren-t-shirts",
-     "vintage-shirts"
+     "polo-ralph-lauren-jacket",
+     "vintage-denim-shirts",
+     "vintage-ralph-lauren-pants"
     ]
    },
    "slugs": [
@@ -2447,7 +2500,8 @@
     "soshiotsuki",
     "undercover",
     "yohji"
-   ]
+   ],
+   "v": 2
   }
  },
  "items": {
@@ -18754,6 +18808,24 @@
    "price": 99.9,
    "sold": false
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10369718124737": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-17T07:46:35+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10465781579969": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-06-28T04:51:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 380.0,
+   "sold": false
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10477831323841": {
    "category": "Tops",
    "colours": [],
@@ -18790,6 +18862,15 @@
    "price": 260.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10596455153857": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-11-27T03:00:56+00:00",
+   "last_seen": "2026-11-13",
+   "price": 265.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10620310454465": {
    "category": "Tops",
    "colours": [],
@@ -18798,6 +18879,42 @@
    "last_seen": "2026-11-13",
    "price": 290.0,
    "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10620321431745": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-17T03:12:46+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": false
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10620326838465": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-19T02:14:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10620351185089": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-01-09T02:00:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10620351480001": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-01-09T02:00:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": false
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10620353544385": {
    "category": "Outerwear",
@@ -18809,6 +18926,15 @@
    "last_seen": "2026-11-13",
    "price": 400.0,
    "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10620362555585": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-01-17T02:00:31+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": false
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10620366913729": {
    "category": "Outerwear",
@@ -18828,6 +18954,24 @@
    "price": 195.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10620387066049": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-01-24T02:00:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10650803339457": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-02-07T02:35:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10651429339329": {
    "category": "Outerwear",
    "colours": [
@@ -18838,6 +18982,15 @@
    "last_seen": "2026-11-13",
    "price": 460.0,
    "sold": false
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10651439792321": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-02-16T03:00:38+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10651608318145": {
    "category": "Outerwear",
@@ -18875,6 +19028,15 @@
    "price": 220.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10651727331521": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-13T03:00:57+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": false
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10651737260225": {
    "category": "Tops",
    "colours": [],
@@ -18882,6 +19044,33 @@
    "first_seen": "2025-03-15T03:00:22+00:00",
    "last_seen": "2026-11-13",
    "price": 280.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10651769602241": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-17T03:13:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": false
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10693352915137": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-28T02:52:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10693406032065": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-02T03:58:52+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10693413109953": {
@@ -18931,6 +19120,15 @@
    "price": 210.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698494738625": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:52:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10698496671937": {
    "category": "Outerwear",
    "colours": [],
@@ -18938,6 +19136,15 @@
    "first_seen": "2025-04-25T02:52:15+00:00",
    "last_seen": "2026-11-13",
    "price": 230.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698498244801": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:52:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10698500079809": {
@@ -18976,6 +19183,15 @@
    "price": 230.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698504274113": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:00:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10698507026625": {
    "category": "Tops",
    "colours": [],
@@ -19012,6 +19228,15 @@
    "first_seen": "2025-04-30T03:00:34+00:00",
    "last_seen": "2026-11-13",
    "price": 190.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698529964225": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-09T08:22:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10698532716737": {
@@ -19068,6 +19293,33 @@
    "price": 190.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698550378689": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-14T03:00:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698550837441": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-14T03:00:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698555588801": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-14T03:00:20+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10698558079169": {
    "category": "Tops",
    "colours": [],
@@ -19084,6 +19336,15 @@
    "first_seen": "2025-05-14T03:00:31+00:00",
    "last_seen": "2026-11-13",
    "price": 180.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698562732225": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-15T02:00:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10698580820161": {
@@ -19149,6 +19410,15 @@
    "price": 270.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698611818689": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:30:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 220.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10698612310209": {
    "category": "Tops",
    "colours": [],
@@ -19165,6 +19435,33 @@
    "first_seen": "2025-05-19T02:30:26+00:00",
    "last_seen": "2026-11-13",
    "price": 180.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698618110145": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:36:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698619519169": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:36:42+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698620108993": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:44:47+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10698622959809": {
@@ -19187,6 +19484,24 @@
    "price": 300.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698628956353": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-20T03:55:44+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698629841089": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-20T03:55:48+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10698630660289": {
    "category": "Bottoms",
    "colours": [],
@@ -19203,6 +19518,15 @@
    "first_seen": "2025-05-20T04:02:12+00:00",
    "last_seen": "2026-11-13",
    "price": 285.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10698635018433": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-22T04:00:29+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10698635149505": {
@@ -19277,6 +19601,15 @@
    "price": 330.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746364461249": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T04:53:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10746370785473": {
    "category": "Tops",
    "colours": [
@@ -19288,6 +19621,15 @@
    "price": 245.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746372915393": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-13T03:00:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 255.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10746373275841": {
    "category": "Outerwear",
    "colours": [],
@@ -19297,6 +19639,24 @@
    "price": 240.0,
    "sold": false
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746377928897": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-23T06:44:31+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": false
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746382188737": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-23T06:57:52+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10746382483649": {
    "category": "Outerwear",
    "colours": [],
@@ -19304,6 +19664,15 @@
    "first_seen": "2025-06-23T06:57:54+00:00",
    "last_seen": "2026-11-13",
    "price": 420.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746383630529": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-23T06:57:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 245.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10746384613569": {
@@ -19322,6 +19691,42 @@
    ],
    "first_run": 0,
    "first_seen": "2025-07-02T02:33:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746391003329": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:34:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746392608961": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:34:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746395951297": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:40:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 175.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746398671041": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:40:25+00:00",
    "last_seen": "2026-11-13",
    "price": 185.0,
    "sold": true
@@ -19353,6 +19758,15 @@
    "first_seen": "2025-07-06T03:30:10+00:00",
    "last_seen": "2026-11-13",
    "price": 300.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746405552321": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-06T03:30:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 175.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10746407813313": {
@@ -19411,6 +19825,24 @@
    "price": 185.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746421117121": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-08T03:30:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746432422081": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-09T03:00:28+00:00",
+   "last_seen": "2026-11-13",
+   "price": 310.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10746451001537": {
    "category": "Outerwear",
    "colours": [],
@@ -19431,6 +19863,15 @@
    "price": 255.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746452803777": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-11T03:00:57+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10746453295297": {
    "category": "Tops",
    "colours": [],
@@ -19447,6 +19888,24 @@
    "first_seen": "2025-07-13T03:00:11+00:00",
    "last_seen": "2026-11-13",
    "price": 420.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746469482689": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-13T03:00:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 245.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746474102977": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-13T03:00:37+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10746474561729": {
@@ -19476,6 +19935,24 @@
    "price": 270.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746477150401": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-15T03:00:02+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746480197825": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-15T03:00:29+00:00",
+   "last_seen": "2026-11-13",
+   "price": 385.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10746483179713": {
    "category": "Bottoms",
    "colours": [],
@@ -19503,6 +19980,15 @@
    "price": 215.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746496483521": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-17T03:01:00+00:00",
+   "last_seen": "2026-11-13",
+   "price": 310.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10746497597633": {
    "category": "Bottoms",
    "colours": [],
@@ -19510,6 +19996,24 @@
    "first_seen": "2025-07-19T03:00:11+00:00",
    "last_seen": "2026-11-13",
    "price": 200.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746497925313": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-19T03:00:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746498056385": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-19T03:00:11+00:00",
+   "last_seen": "2026-11-13",
+   "price": 385.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10746501890241": {
@@ -19530,6 +20034,24 @@
    "price": 230.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746503561409": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-19T03:00:46+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746504642753": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-19T03:00:55+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10746506576065": {
    "category": "Outerwear",
    "colours": [],
@@ -19539,6 +20061,15 @@
    "price": 200.0,
    "sold": true
   },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746508574913": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-19T03:01:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10746509623489": {
    "category": "Outerwear",
    "colours": [],
@@ -19546,6 +20077,15 @@
    "first_seen": "2025-07-21T03:00:07+00:00",
    "last_seen": "2026-11-13",
    "price": 210.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746510147777": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-21T03:00:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 470.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10746510868673": {
@@ -19564,6 +20104,15 @@
    "first_seen": "2025-07-21T03:00:20+00:00",
    "last_seen": "2026-11-13",
    "price": 230.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746527154369": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-23T03:00:38+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10746530595009": {
@@ -19667,6 +20216,15 @@
    "first_seen": "2025-07-29T03:00:12+00:00",
    "last_seen": "2026-11-13",
    "price": 185.0,
+   "sold": true
+  },
+  "cdg|Archive Factory|https://archive-factory.com/products/10746550943937": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-29T03:00:44+00:00",
+   "last_seen": "2026-11-13",
+   "price": 255.0,
    "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10746554876097": {
@@ -35264,6 +35822,17 @@
    "first_seen": "2026-09-18T19:50:22+00:00",
    "last_seen": "2026-11-13",
    "price": 150.0,
+   "sold": false
+  },
+  "cdg|Justin Reed|https://justinreed.com/products/15511847895354": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T20:50:00+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
    "sold": false
   },
   "cdg|Justin Reed|https://justinreed.com/products/9433810108730": {
@@ -56204,6 +56773,17 @@
    "price": 700.0,
    "sold": true
   },
+  "gaultier|Justin Reed|https://justinreed.com/products/15513459818810": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T20:50:00+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1200.0,
+   "sold": false
+  },
   "gaultier|Justin Reed|https://justinreed.com/products/9342582784314": {
    "category": "Tops",
    "colours": [
@@ -62333,6 +62913,33 @@
    "price": 199.9,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10319620145345": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-04-26T05:25:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 335.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10369714716865": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-17T07:46:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10369716551873": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-17T07:46:33+00:00",
+   "last_seen": "2026-11-13",
+   "price": 370.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10369726808257": {
    "category": "Tops",
    "colours": [],
@@ -62342,6 +62949,15 @@
    "price": 220.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10369737490625": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-17T07:48:51+00:00",
+   "last_seen": "2026-11-13",
+   "price": 160.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10465783742657": {
    "category": "Outerwear",
    "colours": [],
@@ -62349,6 +62965,132 @@
    "first_seen": "2024-06-28T04:51:29+00:00",
    "last_seen": "2026-11-13",
    "price": 410.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10477800620225": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-07-08T03:00:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 320.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10477802815681": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-07-08T03:00:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 320.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10478218707137": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-07-27T03:00:19+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10478298300609": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-07-30T03:00:19+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525768581313": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-09T04:30:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525769957569": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-09T04:30:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 520.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525788176577": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-09T04:30:39+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525824352449": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-12T03:00:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525824811201": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-12T03:00:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525828546753": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-12T03:00:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525867606209": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-14T03:01:12+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525920329921": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-22T02:00:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525925834945": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-22T02:00:51+00:00",
+   "last_seen": "2026-11-13",
+   "price": 220.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10525972922561": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-24T03:01:02+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10525981343937": {
@@ -62369,6 +63111,51 @@
    "price": 170.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10526002184385": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-26T03:00:55+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10545514053825": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-29T04:30:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 220.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10545515528385": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-29T04:30:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10545516150977": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-29T04:30:12+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10545519788225": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-29T04:30:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10545520607425": {
    "category": "Tops",
    "colours": [],
@@ -62378,6 +63165,42 @@
    "price": 170.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10545538072769": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-08-29T04:30:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10568992686273": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-09-26T03:00:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10568992882881": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-09-26T03:00:31+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10568993767617": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-09-26T03:00:33+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10568994259137": {
    "category": "Bottoms",
    "colours": [],
@@ -62385,6 +63208,15 @@
    "first_seen": "2024-09-26T03:00:36+00:00",
    "last_seen": "2026-11-13",
    "price": 420.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10569000288449": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-09-27T02:00:12+00:00",
+   "last_seen": "2026-11-13",
+   "price": 290.0,
    "sold": false
   },
   "issey|Archive Factory|https://archive-factory.com/products/10569003958465": {
@@ -62423,6 +63255,24 @@
    "price": 190.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10569800908993": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-10-18T04:41:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10596359667905": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-11-01T01:00:08+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10596371857601": {
    "category": "Tops",
    "colours": [],
@@ -62441,6 +63291,78 @@
    "price": 170.0,
    "sold": false
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10596379623617": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-11-05T03:00:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 600.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10596389945537": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-11-15T00:59:57+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10596390043841": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-11-15T00:59:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10596394401985": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-11-15T01:11:34+00:00",
+   "last_seen": "2026-11-13",
+   "price": 240.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10596401086657": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-11-15T01:36:54+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10596428185793": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-11-22T02:28:20+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10596430774465": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-11-22T02:32:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 310.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10620310094017": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-10T03:00:39+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10620310225089": {
    "category": "Bottoms",
    "colours": [],
@@ -62450,6 +63372,24 @@
    "price": 160.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10620310323393": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-10T03:00:46+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10620320448705": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-15T03:00:33+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10620329951425": {
    "category": "Tops",
    "colours": [],
@@ -62457,6 +63397,24 @@
    "first_seen": "2024-12-20T02:24:55+00:00",
    "last_seen": "2026-11-13",
    "price": 160.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10620343419073": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-01-06T03:30:55+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10620373270721": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-01-22T03:00:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10620373336257": {
@@ -62504,6 +63462,15 @@
    "price": 170.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10650834665665": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-02-14T00:44:42+00:00",
+   "last_seen": "2026-11-13",
+   "price": 240.0,
+   "sold": false
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10651547140289": {
    "category": "Bottoms",
    "colours": [],
@@ -62512,6 +63479,15 @@
    "last_seen": "2026-11-13",
    "price": 220.0,
    "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10651576434881": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-02-26T06:33:37+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10651659567297": {
    "category": "Bottoms",
@@ -62522,6 +63498,24 @@
    "price": 150.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10651695186113": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-07T02:23:11+00:00",
+   "last_seen": "2026-11-13",
+   "price": 260.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10651738767553": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-15T03:00:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 160.0,
+   "sold": false
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10651752366273": {
    "category": "Tops",
    "colours": [],
@@ -62529,6 +63523,24 @@
    "first_seen": "2025-03-14T03:01:11+00:00",
    "last_seen": "2026-11-13",
    "price": 200.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10693349507265": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-26T01:40:35+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10693350949057": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-28T02:52:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10693369594049": {
@@ -62549,6 +63561,69 @@
    "price": 170.0,
    "sold": false
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10693384110273": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-28T03:51:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10693384208577": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-28T03:51:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10693409145025": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-02T03:59:02+00:00",
+   "last_seen": "2026-11-13",
+   "price": 240.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10693415665857": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-10T02:30:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 530.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10693416812737": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-12T02:00:11+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10693421367489": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-12T02:00:43+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10693440405697": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-11T00:47:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10693444042945": {
    "category": "Tops",
    "colours": [],
@@ -62558,6 +63633,96 @@
    "price": 210.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10693457379521": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-11T00:55:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 360.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10693458854081": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-11T00:55:35+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698472325313": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-16T03:00:19+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698473668801": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-16T03:00:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698482286785": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-23T02:29:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 240.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698489069761": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:00:21+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698489102529": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:00:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698489364673": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:00:28+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698489692353": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:00:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698491691201": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:00:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698492412097": {
    "category": "Tops",
    "colours": [],
@@ -62565,6 +63730,15 @@
    "first_seen": "2025-04-25T02:00:46+00:00",
    "last_seen": "2026-11-13",
    "price": 180.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698494214337": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:52:05+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698494542017": {
@@ -62585,6 +63759,24 @@
    "price": 285.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698496966849": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:52:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 290.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698497523905": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:52:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698497687745": {
    "category": "Tops",
    "colours": [],
@@ -62592,6 +63784,33 @@
    "first_seen": "2025-04-25T02:52:18+00:00",
    "last_seen": "2026-11-13",
    "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698497720513": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:52:19+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698497982657": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:52:21+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698498015425": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-25T02:52:21+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698498080961": {
@@ -62612,6 +63831,24 @@
    "price": 210.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698499260609": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-29T03:00:46+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698499883201": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-29T03:00:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698500210881": {
    "category": "Tops",
    "colours": [],
@@ -62619,6 +63856,96 @@
    "first_seen": "2025-04-29T03:01:02+00:00",
    "last_seen": "2026-11-13",
    "price": 260.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698500538561": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698500604097": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698500636865": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698500899009": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698500931777": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698500964545": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698501030081": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698501095617": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698501128385": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698501816513": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:27+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698502242497": {
@@ -62630,6 +63957,33 @@
    "price": 190.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698502406337": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:33+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698502439105": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:34+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698502930625": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-01T03:00:38+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": false
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698502996161": {
    "category": "Other",
    "colours": [
@@ -62637,6 +63991,15 @@
    ],
    "first_run": 0,
    "first_seen": "2025-05-01T03:00:39+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698504667329": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:00:18+00:00",
    "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
@@ -62659,6 +64022,42 @@
    "price": 210.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698505027777": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:00:23+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698505060545": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:00:21+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698505093313": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:00:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698505683137": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:00:33+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698505781441": {
    "category": "Tops",
    "colours": [],
@@ -62675,6 +64074,15 @@
    "first_seen": "2025-05-04T03:00:38+00:00",
    "last_seen": "2026-11-13",
    "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698506633409": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:00:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698506797249": {
@@ -62697,6 +64105,78 @@
    "price": 270.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698509254849": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:00:57+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698509648065": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:00:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698512662721": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:01:06+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698513285313": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:01:08+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698513383617": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:01:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698514694337": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-04T03:01:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 380.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698517577921": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-30T03:00:06+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698519052481": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-30T03:00:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698522984641": {
    "category": "Tops",
    "colours": [],
@@ -62713,6 +64193,60 @@
    "first_seen": "2025-04-30T03:00:25+00:00",
    "last_seen": "2026-11-13",
    "price": 200.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698526458049": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-28T09:35:29+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698527441089": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-09T08:22:01+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698527473857": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-09T08:22:02+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698528489665": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-09T08:22:06+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698528751809": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-09T08:22:08+00:00",
+   "last_seen": "2026-11-13",
+   "price": 260.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698528850113": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-09T08:22:08+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698529898689": {
@@ -62742,6 +64276,15 @@
    "price": 440.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698530980033": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-09T08:26:47+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698533634241": {
    "category": "Outerwear",
    "colours": [],
@@ -62751,6 +64294,15 @@
    "price": 300.0,
    "sold": false
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698534224065": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:00:08+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698534322369": {
    "category": "Tops",
    "colours": [],
@@ -62758,6 +64310,69 @@
    "first_seen": "2025-05-11T03:00:07+00:00",
    "last_seen": "2026-11-13",
    "price": 200.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698535731393": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:00:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698535796929": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:00:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698535862465": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:00:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698540744897": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:00:34+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698542481601": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:00:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 215.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698542514369": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:00:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698542743745": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:00:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698544775361": {
@@ -62780,6 +64395,24 @@
    "price": 1080.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698546708673": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:01:06+00:00",
+   "last_seen": "2026-11-13",
+   "price": 460.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698546741441": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-11T03:01:06+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698547265729": {
    "category": "Tops",
    "colours": [],
@@ -62787,6 +64420,60 @@
    "first_seen": "2025-05-11T03:01:08+00:00",
    "last_seen": "2026-11-13",
    "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698548084929": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-14T03:00:01+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698550116545": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-14T03:00:08+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698558865601": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-14T03:00:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698559226049": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-14T03:00:30+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698560241857": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-15T02:00:02+00:00",
+   "last_seen": "2026-11-13",
+   "price": 380.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698560700609": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-15T02:00:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 340.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698561028289": {
@@ -62807,6 +64494,24 @@
    "price": 300.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698569679041": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-15T02:00:27+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698569842881": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-15T02:00:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698575610049": {
    "category": "Bottoms",
    "colours": [],
@@ -62825,6 +64530,15 @@
    "price": 230.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698576593089": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-16T03:00:20+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698578100417": {
    "category": "Tops",
    "colours": [],
@@ -62832,6 +64546,15 @@
    "first_seen": "2025-05-16T03:00:26+00:00",
    "last_seen": "2026-11-13",
    "price": 200.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698583343297": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-16T03:00:44+00:00",
+   "last_seen": "2026-11-13",
+   "price": 220.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698583408833": {
@@ -62888,6 +64611,69 @@
    "price": 230.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698589995201": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-16T03:01:05+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698594582721": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-16T03:01:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698599596225": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-17T03:00:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 280.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698600415425": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-17T03:00:19+00:00",
+   "last_seen": "2026-11-13",
+   "price": 285.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698603299009": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-17T03:00:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698603561153": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-18T03:00:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 240.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698603823297": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-18T03:00:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698604970177": {
    "category": "Bottoms",
    "colours": [],
@@ -62897,6 +64683,96 @@
    "price": 340.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698605068481": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-18T03:00:33+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698605461697": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-18T03:00:40+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698607001793": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:27:05+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698607853761": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:27:08+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698608050369": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:27:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698608181441": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:27:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698608312513": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:27:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698608443585": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:27:11+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698608607425": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:27:11+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698608672961": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:27:13+00:00",
+   "last_seen": "2026-11-13",
+   "price": 320.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698609033409": {
    "category": "Outerwear",
    "colours": [],
@@ -62904,6 +64780,15 @@
    "first_seen": "2025-05-19T02:27:14+00:00",
    "last_seen": "2026-11-13",
    "price": 200.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698609164481": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:27:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698610868417": {
@@ -62933,6 +64818,33 @@
    "price": 210.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698614112449": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:30:27+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698614276289": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:30:28+00:00",
+   "last_seen": "2026-11-13",
+   "price": 340.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698614997185": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:36:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698615292097": {
    "category": "Outerwear",
    "colours": [],
@@ -62951,6 +64863,24 @@
    "price": 210.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698616537281": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:36:34+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698619879617": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:44:46+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698621681857": {
    "category": "Dresses",
    "colours": [],
@@ -62958,6 +64888,42 @@
    "first_seen": "2025-05-19T02:44:54+00:00",
    "last_seen": "2026-11-13",
    "price": 300.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698621747393": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:44:56+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698621812929": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:44:56+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698622402753": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-19T02:45:00+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698623877313": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-20T03:48:47+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698624696513": {
@@ -62996,6 +64962,24 @@
    "price": 270.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698627580097": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-20T03:55:35+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698627711169": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-20T03:55:37+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698627776705": {
    "category": "Tops",
    "colours": [],
@@ -63012,6 +64996,60 @@
    "first_seen": "2025-05-20T04:02:11+00:00",
    "last_seen": "2026-11-13",
    "price": 180.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698632462529": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-20T04:02:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698632593601": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-20T04:02:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698632986817": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-20T04:02:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698633806017": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-22T04:00:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698634068161": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-22T04:00:21+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10698634690753": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-22T04:00:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10698634821825": {
@@ -63041,6 +65079,15 @@
    "price": 210.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10698637082817": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-23T04:00:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10698637246657": {
    "category": "Tops",
    "colours": [],
@@ -63050,6 +65097,33 @@
    "price": 230.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10746353877185": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T03:00:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746354106561": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T03:00:06+00:00",
+   "last_seen": "2026-11-13",
+   "price": 260.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746354270401": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T03:00:06+00:00",
+   "last_seen": "2026-11-13",
+   "price": 290.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10746355318977": {
    "category": "Dresses",
    "colours": [],
@@ -63057,6 +65131,24 @@
    "first_seen": "2025-06-11T03:00:08+00:00",
    "last_seen": "2026-11-13",
    "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746357350593": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T03:00:21+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746358104257": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T03:00:28+00:00",
+   "last_seen": "2026-11-13",
+   "price": 255.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10746358694081": {
@@ -63086,6 +65178,42 @@
    "price": 200.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10746365542593": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T05:02:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 215.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746365706433": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T05:02:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746367115457": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T05:02:35+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746367508673": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-11T05:02:38+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10746367574209": {
    "category": "Dresses",
    "colours": [],
@@ -63104,6 +65232,15 @@
    "price": 210.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10746371473601": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-13T03:00:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 175.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10746374357185": {
    "category": "Bottoms",
    "colours": [],
@@ -63111,6 +65248,87 @@
    "first_seen": "2025-06-15T03:00:05+00:00",
    "last_seen": "2026-11-13",
    "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746374979777": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-15T03:00:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746375110849": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-15T03:00:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 215.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746375241921": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-15T03:00:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 270.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746377011393": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-23T06:44:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 310.0,
+   "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746379534529": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-23T06:44:42+00:00",
+   "last_seen": "2026-11-13",
+   "price": 320.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746379600065": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-23T06:44:42+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746381140161": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-23T06:57:47+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746381271233": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-23T06:57:47+00:00",
+   "last_seen": "2026-11-13",
+   "price": 175.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746383794369": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-23T06:57:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 370.0,
    "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10746386055361": {
@@ -63122,11 +65340,83 @@
    "price": 190.0,
    "sold": true
   },
+  "issey|Archive Factory|https://archive-factory.com/products/10746389070017": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:34:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
   "issey|Archive Factory|https://archive-factory.com/products/10746389299393": {
    "category": "Tops",
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-07-02T02:34:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746390806721": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:34:12+00:00",
+   "last_seen": "2026-11-13",
+   "price": 290.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746391167169": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:34:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 215.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746391625921": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:34:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 245.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746392019137": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:34:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 230.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746392182977": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:34:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746393034945": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:40:05+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746395099329": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-02T02:40:11+00:00",
    "last_seen": "2026-11-13",
    "price": 185.0,
    "sold": true
@@ -63148,6 +65438,33 @@
    "last_seen": "2026-11-13",
    "price": 210.0,
    "sold": false
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746404044993": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-06T03:30:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 310.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746404143297": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-06T03:30:09+00:00",
+   "last_seen": "2026-11-13",
+   "price": 190.0,
+   "sold": true
+  },
+  "issey|Archive Factory|https://archive-factory.com/products/10746406207681": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-06T03:30:27+00:00",
+   "last_seen": "2026-11-13",
+   "price": 215.0,
+   "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10746406764737": {
    "category": "Bottoms",
@@ -73915,6 +76232,28 @@
    "first_seen": "2026-11-06T20:47:54+00:00",
    "last_seen": "2026-11-13",
    "price": 200.0,
+   "sold": false
+  },
+  "issey|Justin Reed|https://justinreed.com/products/15509572583738": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T20:50:00+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": false
+  },
+  "issey|Justin Reed|https://justinreed.com/products/15509581529402": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T20:50:00+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
    "sold": false
   },
   "issey|Justin Reed|https://justinreed.com/products/8207102116154": {
@@ -109771,6 +112110,17 @@
    "last_seen": "2026-11-13",
    "price": 300.0,
    "sold": true
+  },
+  "margiela|Justin Reed|https://justinreed.com/products/15509311127866": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T20:50:00+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": false
   },
   "margiela|Justin Reed|https://justinreed.com/products/6750842323046": {
    "category": "Footwear",
@@ -192695,7 +195045,7 @@
    "first_seen": "2026-11-12T22:13:40+00:00",
    "last_seen": "2026-11-13",
    "price": 80.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Vintage Rare USA|https://www.vintagerareusa.com/products/15480394940631": {
    "category": "Outerwear",
