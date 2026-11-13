@@ -6,10 +6,10 @@ import rick_feed as rf
 BRANDS = {
   "kiko": (r"kiko\s*kostadinov", ["kiko-kostadinov", "kikokostadinov", "kiko-kostadinov-1", "kiko"]),
   "lang": (r"helmut\s*lang", ["helmut-lang", "helmutlang", "helmut-lang-1", "helmut-lang-archive", "helmut-lang-vintage"]),
-  "rafcalvin": (r"205\s*w\s*39|calvin\s*klein\s*205|raf\s*simons?\s*(x\s*|for\s*)?calvin|calvin\s*klein\s*(by\s*)?raf", ["calvin-klein-205w39nyc", "205w39nyc", "calvin-klein", "raf-simons-calvin-klein", "calvin-klein-by-raf-simons"]),
+  "rafcalvin": (r"205\s*w\s*39|calvin\s*klein\s*205|raf\s*simons?\s*(x\s*|for\s*)?calvin|calvin\s*klein\s*(by\s*)?raf", ["calvin-klein-205w39nyc", "205w39nyc", "calvin-klein", "raf-simons-calvin-klein", "calvin-klein-by-raf-simons", "raf-simons", "raf-simons-1", "raf-simons-archive", "calvin-klein-205w39nyc-by-raf-simons"]),
   "soshi": (r"soshi\s*otsuki", ["soshiotsuki", "soshi-otsuki"]),
 }
-EXTRA = ["https://archivesf.com", "https://269archive.com", "https://dusty-archive.com", "https://recessla.com", "https://endyma.com"]
+EXTRA = ["https://archivesf.com", "https://269archive.com", "https://dusty-archive.com", "https://recessla.com", "https://endyma.com", "https://asprstore.com", "https://huibenshop.com", "https://soshiotsuki.store", "https://aww90s.com", "https://crybynoon.com", "https://sundaynightmare.com", "https://dolcevitahub.com", "https://nationalbunker.store"]
 roots = []
 for s in rf.SHOPS:
     f = s["feed"][0] if isinstance(s["feed"], list) else s["feed"]
@@ -32,10 +32,10 @@ def probe(item):
     res = {}
     for b, (pat, guesses) in BRANDS.items():
         rx = re.compile(pat, re.I)
-        handles = [c["handle"] for c in cols if rx.search(c["handle"].replace("-", " ") + " " + c["title"])]
+        handles = [c["handle"] for c in cols if rx.search(c["handle"].replace("-", " ") + " " + c["title"]) or (b == "rafcalvin" and re.search(r"raf|calvin|205", c["handle"] + " " + c["title"], re.I))]
         handles += [h for h in guesses if h not in handles]
         found = []
-        for h in handles[:8]:
+        for h in handles[:12]:
             ps = []
             for page in (1, 2, 3, 4):
                 got = (get(f"{root}/collections/{h}/products.json?limit=250&page={page}") or {}).get("products") or []
