@@ -32,9 +32,9 @@ The check retries a few times, and if it still fails it keeps what it knew from 
 
 ## Prices outside the US
 
-Shops in Canada and Italy price in their own currency. The page shows an approximate USD price (marked ~) with the shop's own price beside it,
-and the price filter and sorting use the USD figure. Rates come from a free exchange-rate service each check; the last good rates are saved in `data/state.json` as a fallback.
-Shipping and import duties aren't included.
+Shops in Canada, Europe and Switzerland price in their own currency, and the page shows that price as-is with a currency tag (CAD, EUR, CHF).
+The price filter and sorting use an approximate US dollar figure behind the scenes so those pieces land in the right range; rates come from a free
+exchange-rate service each check, with the last good rates saved in `data/state.json`. Shipping and import duties aren't included.
 
 ## Running it now
 

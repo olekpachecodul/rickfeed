@@ -1,4 +1,0 @@
-STORAGE store pages in sitemap: 84
-candidate domains: 2
-shopify: 0; with a Rick collection: 0
-shopify, no Rick collection: 
