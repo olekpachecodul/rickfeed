@@ -62060,6 +62060,15 @@
    "price": 149.9,
    "sold": false
   },
+  "issey|2nd Street|https://ec.2ndstreetusa.com/products/15444314685549": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 149.9,
+   "sold": false
+  },
   "issey|2nd Street|https://ec.2ndstreetusa.com/products/7276932366445": {
    "category": "Footwear",
    "colours": [
@@ -207601,6 +207610,17 @@
    "price": 599.9,
    "sold": false
   },
+  "rick|2nd Street|https://ec.2ndstreetusa.com/products/8205612843117": {
+   "category": "Outerwear",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 599.9,
+   "sold": false
+  },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/8206296514669": {
    "category": "Footwear",
    "colours": [
@@ -210147,6 +210167,97 @@
    "last_seen": "2026-11-13",
    "price": 2985.0,
    "sold": true
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513727697125": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 335.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513738346725": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 385.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513746604261": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 335.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513756664037": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 385.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513762365669": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 385.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513766691045": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 365.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513777701093": {
+   "category": "Footwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 465.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513780289765": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T21:34:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 385.0,
+   "sold": false
   },
   "rick|Archive Threads|https://archivethreads.ca/products/9642043834597": {
    "category": "Tops",
@@ -233272,7 +233383,7 @@
    "first_seen": "2026-11-13T06:09:16+00:00",
    "last_seen": "2026-11-13",
    "price": 49.99,
-   "sold": false
+   "sold": true
   },
   "rick|Marco Sqrd|https://marcosqrd.com/products/10582595830048": {
    "category": "Footwear",
@@ -258604,7 +258715,7 @@
    "first_seen": "2026-11-13T06:00:13+00:00",
    "last_seen": "2026-11-13",
    "price": 119.99,
-   "sold": false
+   "sold": true
   },
   "undercover|Midtown Archive|https://midtownarchive.com/products/15139297591456": {
    "category": "Bottoms",
