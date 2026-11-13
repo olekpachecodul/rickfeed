@@ -1,0 +1,35 @@
+/* Number (N)ine: Takahiro Miyashita's grunge years. Worn charcoal, typewritten
+   labels like a tour flyer, and a faded mustard. */
+:root{
+  --bg:#1A1917; --ink:#E6E0D3; --muted:#9C968A; --soft:#5E5A52; --line:#3A3732;
+  --tag-ink:#1A1917; --ph:#22211E; --blend:normal; --fit:cover; --mustard:#C9A227;
+  --f:"Courier Prime","Courier New",monospace; --track:.02em; --gut:28px;
+  color-scheme:dark;
+}
+body{font:400 12px/1.5 var(--f);text-transform:lowercase}
+header{padding:26px 0 8px}
+.mark{font-family:"Special Elite","Courier New",monospace;font-weight:400;font-size:30px;letter-spacing:.02em;text-transform:none}
+.count{color:var(--mustard)}
+.crumbs{font-size:11px}
+.bar{background:var(--bg);border-top:1px dashed var(--soft);border-bottom:1px dashed var(--soft);margin-top:14px}
+.bar input[type=search]{border-bottom:1px dashed var(--ink)}
+.tog{border:1px dashed var(--soft);color:var(--muted)}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--mustard);border-color:var(--mustard);color:#1A1917}
+.tog:has(input:checked):hover{color:#1A1917}
+.fg h2{font-family:"Special Elite","Courier New",monospace;font-size:13px;font-weight:400;letter-spacing:0;color:var(--ink);text-transform:lowercase}
+.chip{border:1px dashed var(--soft);text-transform:lowercase}
+.chip[aria-pressed=true]{background:var(--mustard);border-color:var(--mustard);color:#1A1917}
+.shop{font-size:11px}
+.grid{gap:56px 22px}
+.ph{aspect-ratio:3/4;filter:sepia(.12) contrast(1.02)}
+.b{font-family:"Special Elite","Courier New",monospace;font-weight:400;font-size:12px;letter-spacing:0;text-transform:lowercase}
+.b.new{background:var(--mustard);color:#1A1917}
+.b.drop{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.line{display:none}
+.t{margin-top:14px;font-size:13px}
+.price{color:var(--mustard);font-weight:400}
+.row{font-weight:400}
+footer{border-top:1px dashed var(--soft);padding-top:12px}
+.sites{font-size:11px;text-transform:lowercase}
+.sites .home{font-family:"Special Elite","Courier New",monospace;letter-spacing:0;font-weight:400}
+.sites a[aria-current=page]{color:var(--mustard)}

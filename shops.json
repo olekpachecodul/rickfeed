@@ -29,15 +29,8 @@
   "name": "Final Blow",
   "city": "Chicago",
   "root": "https://www.finalblowchicago.com",
-  "collections": {
-   "rick": [
-    "all"
-   ],
-   "kiko": [
-    "all"
-   ]
-  },
-  "filter": [
+  "collections": {},
+  "everything": [
    "all"
   ]
  },
@@ -45,12 +38,8 @@
   "name": "Tokio 7",
   "city": "New York",
   "root": "https://tokio7ny.com",
-  "collections": {
-   "rick": [
-    "all"
-   ]
-  },
-  "filter": [
+  "collections": {},
+  "everything": [
    "all"
   ]
  },

@@ -1,0 +1,34 @@
+/* Carol Christian Poell: dark workshop, aged leather and drip rubber.
+   Near-black brown, small serif, and a rust accent like oxidised metal. */
+:root{
+  --bg:#14110F; --ink:#E8E0D5; --muted:#9B9184; --soft:#5C544B; --line:#2E2823;
+  --tag-ink:#14110F; --ph:#1C1815; --blend:normal; --fit:cover; --rust:#A0482A;
+  --f:"IBM Plex Serif",Georgia,serif; --track:.02em; --gut:32px;
+  color-scheme:dark;
+}
+body{font:400 12px/1.6 var(--f);text-transform:none}
+header{padding:32px 0 10px}
+.mark{font-family:"IBM Plex Mono",monospace;font-weight:400;font-size:13px;letter-spacing:.4em;text-transform:uppercase}
+.count{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted)}
+.crumbs{font-size:11px}
+.bar{background:var(--bg);border-bottom:1px solid var(--line)}
+.bar input[type=search]{border-bottom-color:var(--soft)}
+.tog{border-color:var(--line);color:var(--muted)}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--rust);border-color:var(--rust);color:#F2EAE0}
+.tog:has(input:checked):hover{color:#F2EAE0}
+.fg h2{font-family:"IBM Plex Mono",monospace;font-weight:400;text-transform:uppercase;letter-spacing:.2em}
+.chip{border-color:var(--line)}
+.chip[aria-pressed=true]{background:var(--rust);border-color:var(--rust);color:#F2EAE0}
+.shop{font-size:11px}
+.grid{gap:64px 26px}
+.ph{aspect-ratio:3/4}
+.b{font-family:"IBM Plex Mono",monospace;font-weight:400;letter-spacing:.14em;text-transform:uppercase}
+.b.new{background:var(--rust);color:#F2EAE0}
+.b.drop{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.line{display:none}
+.t{margin-top:16px;font-style:italic;font-size:13px}
+.price{font-family:"IBM Plex Mono",monospace;font-weight:400}
+.row{font-weight:400;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding-top:14px}
+.sites{font-family:"IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.14em}
+.sites a[aria-current=page]{color:var(--rust);text-decoration:none}

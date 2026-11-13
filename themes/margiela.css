@@ -1,0 +1,47 @@
+/* Maison Margiela: whitewashed rooms, the blank white label, typewriter text,
+   and the 0-23 numbers of the calendar label. */
+:root{
+  --bg:#F7F6F2; --ink:#1A1A1A; --muted:#6E6C66; --soft:#A7A49C; --line:#D9D6CE;
+  --tag-ink:#1A1A1A; --ph:#FFFFFF; --blend:multiply; --fit:contain; --label:#FFFFFF;
+  --f:"Courier Prime","Courier New",monospace; --track:0; --gut:36px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#121212; --ink:#ECEBE6; --muted:#9A9890; --soft:#5E5C57; --line:#2A2A28;
+  --tag-ink:#121212; --ph:#1B1B1A; --blend:normal; --fit:cover; --label:#ECEBE6;
+}}
+body{font:400 13px/1.5 var(--f);text-transform:lowercase}
+header{flex-direction:column;align-items:flex-start;gap:6px;padding:30px 0 8px}
+.mark{font-weight:400;font-size:15px;letter-spacing:0;text-transform:none}
+.mark::after{content:"0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23";display:block;margin-top:10px;font-size:11px;color:var(--muted);word-spacing:.5em;white-space:normal}
+.count{font-size:12px;color:var(--muted)}
+.crumbs{font-size:11px}
+.bar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);gap:8px 20px}
+.bar input[type=search]{border-bottom:0}
+.bar input[type=search]:focus-visible{border-bottom:0;padding-bottom:6px;outline:1px dashed var(--ink)}
+.tog{border:1px solid var(--line);background:var(--label);color:var(--ink);height:28px}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fg h2{font-size:11px;font-weight:400;letter-spacing:0;text-transform:lowercase}
+.chip{background:var(--label);font-size:12px;text-transform:lowercase}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.shop{font-size:12px}
+.grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:64px 28px}
+.ph{aspect-ratio:3/4}
+/* badges as the blank white cotton label, four stitches at its corners */
+.b{position:relative;margin:10px 0 0 10px;padding:5px 12px;font-size:11px;font-weight:400;letter-spacing:0;text-transform:lowercase}
+.b.new,.b.drop{background:#FFFFFF;color:#1A1A1A;box-shadow:0 0 0 1px rgba(0,0,0,.08)}
+.b.new::before,.b.drop::before{content:"";position:absolute;inset:3px;pointer-events:none;
+  background:radial-gradient(circle,#1A1A1A 1px,transparent 1.5px) 0 0/4px 4px no-repeat,
+             radial-gradient(circle,#1A1A1A 1px,transparent 1.5px) 100% 0/4px 4px no-repeat,
+             radial-gradient(circle,#1A1A1A 1px,transparent 1.5px) 0 100%/4px 4px no-repeat,
+             radial-gradient(circle,#1A1A1A 1px,transparent 1.5px) 100% 100%/4px 4px no-repeat}
+.b.sold{margin:10px 0 0 10px;font-weight:400;letter-spacing:0}
+.line{margin-top:14px;font-weight:400;color:var(--muted)}
+.t{text-transform:lowercase}
+.price{margin-top:8px;font-weight:700}
+.price .cur{font-size:10px}
+.row{font-weight:400}
+.src{font-size:11px}
+footer{border-top:1px solid var(--line);padding-top:14px;font-size:11px}
+.sites{font-size:11px;gap:4px 16px;text-transform:lowercase}
+.sites .home{letter-spacing:0;font-weight:700}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

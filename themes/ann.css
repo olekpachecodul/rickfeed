@@ -1,0 +1,41 @@
+/* Ann Demeulemeester: Antwerp poetry. Bone white and black, thin wide-set
+   Bodoni capitals, italic lines, and hairlines like a stitched seam. */
+:root{
+  --bg:#F4F1EC; --ink:#0B0B0B; --muted:#6B6762; --soft:#A9A49C; --line:#0B0B0B;
+  --tag-ink:#F4F1EC; --ph:#F4F1EC; --blend:multiply; --fit:contain;
+  --f:"Helvetica Neue",Helvetica,Arial,sans-serif; --track:.12em; --gut:48px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0B0B0B; --ink:#F4F1EC; --muted:#9E9A93; --soft:#55524D; --line:#F4F1EC;
+  --tag-ink:#0B0B0B; --ph:#141414; --blend:normal; --fit:cover;
+}}
+body{font:300 10px/1.7 var(--f)}
+header{flex-direction:column;justify-content:center;padding:46px 0 12px;gap:8px}
+.mark{font-family:"Bodoni Moda","Didot",serif;font-weight:400;font-size:26px;letter-spacing:.34em;text-align:center}
+@media (max-width:520px){.mark{font-size:17px;letter-spacing:.2em}}
+.count{color:var(--muted)}
+.crumbs{justify-content:center}
+.notice{text-align:center;margin-left:auto;margin-right:auto}
+.bar{justify-content:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:26px}
+.bar input[type=search]{flex:0 1 320px}
+.tog{border:0;height:auto;padding:0;color:var(--muted)}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:none;color:var(--ink);font-style:italic;text-decoration:underline;text-underline-offset:4px}
+.tog:has(input:checked):hover,button.tog:hover,.tog:hover{color:var(--ink)}
+.fg h2{font-family:"Bodoni Moda","Didot",serif;font-style:italic;text-transform:none;letter-spacing:0;font-size:13px;color:var(--ink)}
+.chip{border:0;border-bottom:1px solid var(--soft);height:auto;padding:3px 0;margin-right:12px}
+.chip[aria-pressed=true]{background:none;color:var(--ink);border-bottom-color:var(--ink);font-style:italic}
+.shops{justify-content:center}
+.grid{grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:80px 40px;padding-top:56px}
+.ph{aspect-ratio:2/3}
+.b{font-weight:300;letter-spacing:.14em}
+.b.drop{background:var(--bg);box-shadow:inset 0 0 0 1px var(--ink)}
+.line{display:none}
+.t{margin-top:18px;font-family:"Bodoni Moda","Didot",serif;font-style:italic;text-transform:none;letter-spacing:0;font-size:14px;line-height:1.35}
+.price{font-weight:300}
+.row{font-weight:300;color:var(--muted)}
+footer{justify-content:center;border-top:1px solid var(--line);padding-top:16px}
+.sites{justify-content:center;font-weight:300}
+.sites .home{font-family:"Bodoni Moda","Didot",serif;font-weight:400}
+.sites a[aria-current=page]{font-style:italic}
+@media (max-width:640px){.sites{justify-content:flex-start}}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
