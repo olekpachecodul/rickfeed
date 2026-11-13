@@ -1218,7 +1218,7 @@
    "first_seen": "2026-11-10T23:27:01+00:00",
    "last_seen": "2026-11-13",
    "price": 279.9,
-   "sold": false
+   "sold": true
   },
   "2nd Street|https://ec.2ndstreetusa.com/products/15433557704813": {
    "category": "Tops",
@@ -22898,6 +22898,17 @@
    "price": 400.0,
    "sold": false
   },
+  "Luke's|https://lukes.store/products/15425318158640": {
+   "category": "Tops",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 100.0,
+   "sold": false
+  },
   "Luke's|https://lukes.store/products/15425326809392": {
    "category": "Bottoms",
    "colours": [
@@ -22964,7 +22975,7 @@
    "first_seen": "2026-11-13T00:39:32+00:00",
    "last_seen": "2026-11-13",
    "price": 500.0,
-   "sold": false
+   "sold": true
   },
   "Luke's|https://lukes.store/products/15426502525232": {
    "category": "Outerwear",
@@ -28272,6 +28283,202 @@
    "first_seen": "2026-11-13T02:16:44+00:00",
    "last_seen": "2026-11-13",
    "price": 215.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972158079136": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 225.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972159815840": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 310.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972164567200": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 225.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972165714080": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972177117344": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 135.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972178755744": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 265.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972178886816": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 240.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972179574944": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 135.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972179804320": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 225.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972180230304": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972180557984": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 275.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972181115040": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972181147808": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 225.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972182032544": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 140.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972183507104": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 290.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972183605408": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 225.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972188225696": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 225.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972202578080": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972202709152": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 135.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15972202741920": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T05:48:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 135.0,
    "sold": false
   },
   "Nationalbunker|https://nationalbunker.store/products/15196730032451": {
