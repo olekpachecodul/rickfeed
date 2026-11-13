@@ -1,0 +1,737 @@
+{
+ "Shop Status": {
+  "root": "https://shopstatus.store",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Luxury Box ATL": {
+  "root": "https://luxuryboxatl.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Midtown Archive": {
+  "root": "https://midtownarchive.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Michael's": {
+  "root": "https://michaelsconsignment.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Graceful Misfits": {
+  "root": "https://gracefulmisfits.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Street Commerce": {
+  "root": "https://streetcommerce.shop",
+  "kiko": {
+   "collections": [
+    {
+     "handle": "kiko-kostadinov",
+     "total": 3,
+     "n": 3,
+     "avail": 3,
+     "newest": "2026-03-25"
+    }
+   ],
+   "search": 3
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang",
+     "total": 16,
+     "n": 16,
+     "avail": 16,
+     "newest": "2026-11-10"
+    }
+   ],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [
+    {
+     "handle": "calvin-klein-205w39nyc",
+     "total": 2,
+     "n": 2,
+     "avail": 2,
+     "newest": "2026-11-10"
+    }
+   ],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "LUXE MIA": {
+  "root": "https://luxemia.net",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Performa": {
+  "root": "https://performaatlanta.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Crybynoon Archive": {
+  "root": "https://crybynoon.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 1
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "VSP Consignment": {
+  "root": "https://vspconsignment.com",
+  "kiko": {
+   "collections": [],
+   "search": 5
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang",
+     "total": 118,
+     "n": 118,
+     "avail": 10,
+     "newest": "2026-11-06"
+    }
+   ],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "DRIEW": {
+  "root": "https://driewgarments.com",
+  "kiko": {
+   "collections": [
+    {
+     "handle": "kiko-kostadinov",
+     "total": 4,
+     "n": 4,
+     "avail": 0,
+     "newest": "2024-10-23"
+    }
+   ],
+   "search": 4
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang",
+     "total": 29,
+     "n": 29,
+     "avail": 0,
+     "newest": "2026-10-27"
+    }
+   ],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Throat": {
+  "root": "https://shopthroat.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 3
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Archive Factory": {
+  "root": "https://archive-factory.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Elevated Archives": {
+  "root": "https://elevated-archives.com",
+  "kiko": {
+   "collections": [
+    {
+     "handle": "kiko-kostadinov",
+     "total": 4,
+     "n": 4,
+     "avail": 1,
+     "newest": "2025-11-02"
+    }
+   ],
+   "search": 4
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang",
+     "total": 151,
+     "n": 151,
+     "avail": 10,
+     "newest": "2026-10-28"
+    }
+   ],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Sunday Nightmare": {
+  "root": "https://sundaynightmare.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang",
+     "total": 78,
+     "n": 78,
+     "avail": 78,
+     "newest": "2026-11-10"
+    }
+   ],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [
+    {
+     "handle": "calvin-klein",
+     "total": 1,
+     "n": 1,
+     "avail": 1,
+     "newest": "2026-06-16"
+    }
+   ],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "DolceVitaHub": {
+  "root": "https://dolcevitahub.com",
+  "kiko": {
+   "collections": [],
+   "search": 7
+  },
+  "lang": {
+   "collections": [],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "Nationalbunker": {
+  "root": "https://nationalbunker.store",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang-1",
+     "total": 1,
+     "n": 1,
+     "avail": 0,
+     "newest": "2026-02-23"
+    }
+   ],
+   "search": 1
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "archivesf.com": {
+  "root": "https://archivesf.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "269archive.com": {
+  "root": "https://269archive.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 3
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "dusty-archive.com": {
+  "root": "https://dusty-archive.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 3
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "recessla.com": {
+  "root": "https://recessla.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 1
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "endyma.com": {
+  "root": "https://endyma.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang",
+     "total": 259,
+     "n": 259,
+     "avail": 12,
+     "newest": "2017-05-22"
+    },
+    {
+     "handle": "helmut-lang-menswear",
+     "total": 26,
+     "n": 26,
+     "avail": 10,
+     "newest": "2017-05-22"
+    },
+    {
+     "handle": "helmut-lang-womenswear",
+     "total": 31,
+     "n": 31,
+     "avail": 11,
+     "newest": "2017-05-22"
+    }
+   ],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "asprstore.com": {
+  "root": "https://asprstore.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "huibenshop.com": {
+  "root": "https://huibenshop.com",
+  "kiko": {
+   "collections": [
+    {
+     "handle": "kiko-kostadinov",
+     "total": 36,
+     "n": 36,
+     "avail": 0,
+     "newest": "2022-02-10"
+    }
+   ],
+   "search": 10
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang",
+     "total": 165,
+     "n": 165,
+     "avail": 17,
+     "newest": "2022-02-14"
+    },
+    {
+     "handle": "helmut-lang-astros",
+     "total": 4,
+     "n": 4,
+     "avail": 0,
+     "newest": "2017-02-28"
+    }
+   ],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [
+    {
+     "handle": "soshiotsuki",
+     "total": 81,
+     "n": 81,
+     "avail": 18,
+     "newest": "2026-11-08"
+    }
+   ],
+   "search": 10
+  }
+ },
+ "soshiotsuki.store": {
+  "root": "https://soshiotsuki.store",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "aww90s.com": {
+  "root": "https://aww90s.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 0
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "crybynoon.com": {
+  "root": "https://crybynoon.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [],
+   "search": 1
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "sundaynightmare.com": {
+  "root": "https://sundaynightmare.com",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang",
+     "total": 78,
+     "n": 78,
+     "avail": 78,
+     "newest": "2026-11-10"
+    }
+   ],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [
+    {
+     "handle": "calvin-klein",
+     "total": 1,
+     "n": 1,
+     "avail": 1,
+     "newest": "2026-06-16"
+    }
+   ],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "dolcevitahub.com": {
+  "root": "https://dolcevitahub.com",
+  "kiko": {
+   "collections": [],
+   "search": 7
+  },
+  "lang": {
+   "collections": [],
+   "search": 10
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ },
+ "nationalbunker.store": {
+  "root": "https://nationalbunker.store",
+  "kiko": {
+   "collections": [],
+   "search": 0
+  },
+  "lang": {
+   "collections": [
+    {
+     "handle": "helmut-lang-1",
+     "total": 1,
+     "n": 1,
+     "avail": 0,
+     "newest": "2026-02-23"
+    }
+   ],
+   "search": 1
+  },
+  "rafcalvin": {
+   "collections": [],
+   "search": 0
+  },
+  "soshi": {
+   "collections": [],
+   "search": 0
+  }
+ }
+}
