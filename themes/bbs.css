@@ -1,0 +1,38 @@
+/* Boris Bidjan Saberi: Barcelona workshop. Raw concrete grey, lab-coat mono
+   text, piece codes in brackets, hard 1px edges. */
+:root{
+  --bg:#CFCDC8; --ink:#161615; --muted:#55534F; --soft:#8B8883; --line:#161615;
+  --tag-ink:#CFCDC8; --ph:#C4C2BC; --blend:multiply; --fit:contain;
+  --f:"JetBrains Mono","Menlo",monospace; --track:0; --gut:20px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#161615; --ink:#CFCDC8; --muted:#8B8883; --soft:#4F4D49; --line:#CFCDC8;
+  --tag-ink:#161615; --ph:#1F1F1D; --blend:normal; --fit:cover;
+}}
+body{font:400 11px/1.45 var(--f)}
+header{padding:16px 0 8px;border-bottom:1px solid var(--line)}
+.mark{font-weight:700;font-size:14px;letter-spacing:.06em}
+.mark::before{content:"[ ";color:var(--muted)}.mark::after{content:" ]";color:var(--muted)}
+.crumbs{margin-top:8px;font-size:10px}
+.crumbs > span:not(:last-child)::after{content:"//"}
+.bar{border-bottom:1px solid var(--line);margin-top:0}
+.tog{border:1px solid var(--line);color:var(--ink);height:28px}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--ink);color:var(--tag-ink)}
+.fg h2{font-weight:700;color:var(--ink);letter-spacing:0}
+.fg h2::before{content:"> "}
+.chip{border:1px solid var(--line)}
+.grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1px;padding:0;background:var(--line);border:1px solid var(--line);margin:24px 0 60px}
+.grid > .empty{background:var(--bg);padding:48px 10px}
+.card{background:var(--bg);padding:10px}
+.ph{aspect-ratio:1/1}
+.b{font-weight:700;letter-spacing:0}
+.b.new::before{content:"["}.b.new::after{content:"]"}
+.b.drop{background:var(--bg);box-shadow:inset 0 0 0 1px var(--ink)}
+.line{font-weight:700;margin-top:10px}
+.price{font-weight:700;margin-top:8px}
+.row{font-weight:400;margin-top:6px}
+footer{border-top:1px solid var(--line);padding-top:12px}
+.sites{font-size:10px;color:var(--ink)}
+.sites .home{letter-spacing:.06em}
+.sites a[aria-current=page]{background:var(--ink);color:var(--tag-ink);text-decoration:none;padding:2px 5px}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

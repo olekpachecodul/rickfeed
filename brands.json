@@ -80,7 +80,8 @@
    "#FFD500",
    "#0E0E0E"
   ],
-  "placeholder": "Search: firefighter, warhol, jaws, western"
+  "placeholder": "Search: firefighter, warhol, jaws, western",
+  "short": "205W39NYC"
  },
  {
   "slug": "soshiotsuki",
@@ -104,5 +105,330 @@
    "Hide sold": "売切を隠す Hide sold",
    "Price cuts": "値下げ Price cuts"
   }
+ },
+ {
+  "slug": "cdg",
+  "title": "CDG Feed",
+  "name": "Comme des Garçons",
+  "short": "CDG",
+  "match": "comme\\s*des?\\s*gar[cç]ons?|\\bcdg\\b|junya\\s*watanabe|\\bjunya\\b|ganryu|noir\\s*kei|kei\\s*ninomiya",
+  "lines": [
+   [
+    "Junya Watanabe",
+    "junya"
+   ],
+   [
+    "Homme Plus",
+    "homme\\s*plus"
+   ],
+   [
+    "Homme Deux",
+    "homme\\s*deux"
+   ],
+   [
+    "Homme",
+    "(?:gar[cç]ons?|cdg)\\s*homme\\b"
+   ],
+   [
+    "Shirt",
+    "(?:gar[cç]ons?|cdg)\\s*shirt"
+   ],
+   [
+    "Play",
+    "(?:gar[cç]ons?|cdg)\\s*play"
+   ],
+   [
+    "Black",
+    "(?:gar[cç]ons?|cdg)\\s*black|black\\s*comme"
+   ],
+   [
+    "Tricot",
+    "tricot"
+   ],
+   [
+    "Noir Kei Ninomiya",
+    "noir\\s*kei|kei\\s*ninomiya"
+   ],
+   [
+    "Ganryu",
+    "ganryu"
+   ]
+  ],
+  "strip": "(?:(?:comme\\s*des?\\s*gar[cç]ons?|cdg)\\s*)?(?:(?:junya\\s*watanabe(?:\\s*man)?|homme\\s*plus|homme\\s*deux|homme|shirt|tricot|noir\\s*kei\\s*ninomiya|ganryu)\\s+)?(?:x\\s+)?",
+  "theme": "cdg",
+  "fonts": "",
+  "theme_color": [
+   "#FFFFFF",
+   "#000000"
+  ],
+  "placeholder": "Search: homme plus, junya, play, polka dot"
+ },
+ {
+  "slug": "margiela",
+  "title": "Margiela Feed",
+  "name": "Maison Margiela",
+  "short": "Margiela",
+  "match": "margiela|\\bmm6\\b",
+  "lines": [
+   [
+    "MM6",
+    "\\bmm6\\b"
+   ]
+  ],
+  "strip": "(?:mm6\\s*)?(?:maison\\s*(?:martin\\s*)?margiela\\s*)?(?:martin\\s*margiela\\s*)?(?:margiela\\s*)?",
+  "theme": "margiela",
+  "fonts": "https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap",
+  "theme_color": [
+   "#F7F6F2",
+   "#121212"
+  ],
+  "placeholder": "Search: tabi, gat, replica, 5ac"
+ },
+ {
+  "slug": "undercover",
+  "title": "Undercover Feed",
+  "name": "Undercover",
+  "short": "Undercover",
+  "match": "\\bundercover(?:ism)?\\b|\\bjun\\s*takahashi\\b",
+  "lines": [
+   [
+    "Undercoverism",
+    "undercoverism"
+   ]
+  ],
+  "strip": "(?:jun\\s*takahashi\\s*)?(?:undercover(?:ism)?\\s*)?(?:x\\s+)?",
+  "theme": "undercover",
+  "fonts": "https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow:wght@400;600&display=swap",
+  "theme_color": [
+   "#EDEBE6",
+   "#0D0D0D"
+  ],
+  "placeholder": "Search: scab, but beautiful, 85, arts & crafts"
+ },
+ {
+  "slug": "gaultier",
+  "title": "Gaultier Feed",
+  "name": "Jean Paul Gaultier",
+  "short": "Gaultier",
+  "match": "gaultier|\\bjpg\\b",
+  "lines": [
+   [
+    "Jean's",
+    "gaultier\\s*jean'?s|\\bjpg\\s*jeans"
+   ],
+   [
+    "Junior Gaultier",
+    "junior\\s*gaultier"
+   ],
+   [
+    "Soleil",
+    "\\bsoleil\\b"
+   ]
+  ],
+  "strip": "(?:(?:vintage|archive)\\s+)?(?:jean[\\s-]*paul\\s*)?(?:gaultier\\s*)?(?:(?:jean'?s|soleil|maille|homme|femme)\\s+)?(?:jpg\\s*)?",
+  "theme": "gaultier",
+  "fonts": "https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap",
+  "theme_color": [
+   "#FFFFFF",
+   "#0B1B3A"
+  ],
+  "placeholder": "Search: mesh, cyber, tattoo, marinière"
+ },
+ {
+  "slug": "yohji",
+  "title": "Yohji Feed",
+  "name": "Yohji Yamamoto",
+  "short": "Yohji",
+  "match": "yohji|\\by-?3\\b|\\bground\\s*y\\b|\\bs['’]yte\\b|(?<!\\w)y['’]s(?!\\w)",
+  "lines": [
+   [
+    "Pour Homme",
+    "pour\\s*homme"
+   ],
+   [
+    "Y's",
+    "(?<!\\w)y['’]s(?!\\w)"
+   ],
+   [
+    "Y-3",
+    "\\by-?3\\b"
+   ],
+   [
+    "Ground Y",
+    "ground\\s*y"
+   ],
+   [
+    "S'yte",
+    "s['’]yte"
+   ],
+   [
+    "Regulation",
+    "regulation"
+   ]
+  ],
+  "strip": "(?:yohji\\s*yamamoto\\s*)?(?:(?:pour\\s*homme|y['’]s(?:\\s*for\\s*men)?|y-?3|ground\\s*y|s['’]yte|regulation|femme)\\s+)?(?:x\\s+)?",
+  "theme": "yohji",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap",
+  "theme_color": [
+   "#0A0A0A",
+   "#0A0A0A"
+  ],
+  "placeholder": "Search: gabardine, wool, pour homme, y-3"
+ },
+ {
+  "slug": "raf",
+  "title": "Raf Feed",
+  "name": "Raf Simons",
+  "short": "Raf Simons",
+  "match": "raf\\s*simons|raf\\s*by\\s*raf",
+  "exclude": "205\\s*w\\s*39|calvin\\s*klein",
+  "lines": [
+   [
+    "Raf by Raf Simons",
+    "raf\\s*by\\s*raf"
+   ],
+   [
+    "adidas",
+    "adidas"
+   ],
+   [
+    "Fred Perry",
+    "fred\\s*perry"
+   ],
+   [
+    "Eastpak",
+    "eastpak"
+   ]
+  ],
+  "strip": "(?:raf\\s*(?:by\\s*raf\\s*)?simons\\s*)?(?:x\\s+)?",
+  "theme": "raf",
+  "fonts": "https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Space+Mono:wght@400;700&display=swap",
+  "theme_color": [
+   "#E8E8E8",
+   "#101010"
+  ],
+  "placeholder": "Search: ozweego, riot, virginia creeper, parka"
+ },
+ {
+  "slug": "issey",
+  "title": "Issey Feed",
+  "name": "Issey Miyake",
+  "short": "Issey",
+  "match": "issey|pleats\\s*please|homme\\s*pliss[eé]|\\bbao\\s*bao\\b|\\ba-?poc\\b",
+  "lines": [
+   [
+    "Homme Plissé",
+    "homme\\s*pliss"
+   ],
+   [
+    "Pleats Please",
+    "pleats\\s*please"
+   ],
+   [
+    "Bao Bao",
+    "bao\\s*bao"
+   ],
+   [
+    "Issey Miyake Men",
+    "issey\\s*miyake\\s*men\\b"
+   ],
+   [
+    "A-POC",
+    "\\ba-?poc\\b"
+   ]
+  ],
+  "strip": "(?:issey\\s*miyake\\s*)?(?:(?:homme\\s*pliss[eé]|pleats\\s*please|bao\\s*bao|men|me)\\s+)?(?:issey\\s*miyake\\s*)?",
+  "theme": "issey",
+  "fonts": "https://fonts.googleapis.com/css2?family=Jost:wght@300;500&display=swap",
+  "theme_color": [
+   "#FFFFFF",
+   "#111111"
+  ],
+  "placeholder": "Search: plissé, pleats please, bao bao, monthly colour"
+ },
+ {
+  "slug": "numbernine",
+  "title": "Number (N)ine Feed",
+  "name": "Number (N)ine",
+  "short": "Number (N)ine",
+  "match": "number\\s*\\(?\\s*n\\s*\\)?\\s*ine|number\\s*nine",
+  "lines": [],
+  "strip": "(?:number\\s*\\(?\\s*n\\s*\\)?\\s*ine\\s*|number\\s*nine\\s*)?(?:x\\s+)?",
+  "theme": "numbernine",
+  "fonts": "https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime&display=swap",
+  "theme_color": [
+   "#1A1917",
+   "#1A1917"
+  ],
+  "placeholder": "Search: kurt, guitar, mohair, 2003"
+ },
+ {
+  "slug": "ann",
+  "title": "Ann Demeulemeester Feed",
+  "name": "Ann Demeulemeester",
+  "short": "Ann D",
+  "match": "ann\\s*demeulemeester|\\bdemeulemeester\\b",
+  "lines": [],
+  "strip": "(?:ann\\s*)?(?:demeulemeester\\s*)?",
+  "theme": "ann",
+  "fonts": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;1,400&display=swap",
+  "theme_color": [
+   "#F4F1EC",
+   "#0B0B0B"
+  ],
+  "placeholder": "Search: boots, lace-up, wool, feather"
+ },
+ {
+  "slug": "bbs",
+  "title": "BBS Feed",
+  "name": "Boris Bidjan Saberi",
+  "short": "BBS",
+  "match": "boris\\s*bidjan|\\b11\\s*by\\s*(?:bbs|boris)|\\bbbs\\b",
+  "lines": [
+   [
+    "11 by BBS",
+    "\\b11\\s*by"
+   ]
+  ],
+  "strip": "(?:11\\s*by\\s*)?(?:boris\\s*bidjan\\s*saberi\\s*|boris\\s*bidjan\\s*|bbs\\s*)?(?:x\\s+)?",
+  "theme": "bbs",
+  "fonts": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap",
+  "theme_color": [
+   "#CFCDC8",
+   "#161615"
+  ],
+  "placeholder": "Search: object dyed, boot1, bamba, p13"
+ },
+ {
+  "slug": "ccp",
+  "title": "CCP Feed",
+  "name": "Carol Christian Poell",
+  "short": "CCP",
+  "match": "carol\\s*christian\\s*poell|\\bccp\\b",
+  "lines": [],
+  "strip": "(?:carol\\s*christian\\s*poell\\s*|ccp\\s*)?",
+  "theme": "ccp",
+  "fonts": "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;1,400&family=IBM+Plex+Mono&display=swap",
+  "theme_color": [
+   "#14110F",
+   "#14110F"
+  ],
+  "placeholder": "Search: drip, object dyed, overlock, boots"
+ },
+ {
+  "slug": "guidi",
+  "title": "Guidi Feed",
+  "name": "Guidi",
+  "short": "Guidi",
+  "match": "\\bguidi\\b",
+  "lines": [],
+  "strip": "(?:guidi\\s*)?",
+  "theme": "guidi",
+  "fonts": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap",
+  "theme_color": [
+   "#EFE6D8",
+   "#1E1611"
+  ],
+  "placeholder": "Search: 988, 796z, horse, back zip"
  }
 ]

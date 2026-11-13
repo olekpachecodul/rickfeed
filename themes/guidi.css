@@ -1,0 +1,39 @@
+/* Guidi: a tannery in Tuscany since 1896. Natural veg-tan leather tones,
+   dark brown ink, a classic display serif. */
+:root{
+  --bg:#EFE6D8; --ink:#2B1D14; --muted:#6E5A49; --soft:#A8937D; --line:#2B1D14;
+  --tag-ink:#EFE6D8; --ph:#E6DAC8; --blend:multiply; --fit:contain; --tan:#9C6B3F;
+  --f:Georgia,"Times New Roman",serif; --track:.03em; --gut:36px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#1E1611; --ink:#EFE6D8; --muted:#B39E87; --soft:#6A5644; --line:#EFE6D8;
+  --tag-ink:#1E1611; --ph:#271D16; --blend:normal; --fit:cover; --tan:#C08A57;
+}}
+body{font:400 12px/1.55 var(--f);text-transform:none}
+header{flex-direction:column;justify-content:center;padding:34px 0 12px;gap:4px}
+.mark{font-family:"Playfair Display",Georgia,serif;font-weight:500;font-size:38px;letter-spacing:.18em;text-transform:uppercase}
+.count{color:var(--muted);font-style:italic}
+.crumbs{justify-content:center;font-size:11px}
+.notice{text-align:center;margin-left:auto;margin-right:auto}
+.bar{justify-content:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:20px}
+.tog{border-color:var(--soft);color:var(--ink)}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--tan);border-color:var(--tan);color:#FBF6EE}
+.tog:has(input:checked):hover{color:#FBF6EE}
+.fg h2{font-style:italic;text-transform:none;letter-spacing:0;font-size:13px;color:var(--ink)}
+.chip{border-color:var(--soft)}
+.chip[aria-pressed=true]{background:var(--tan);border-color:var(--tan);color:#FBF6EE}
+.shops{justify-content:center}
+.grid{gap:60px 26px}
+.ph{aspect-ratio:4/5}
+.b.new{background:var(--tan);color:#FBF6EE}
+.b.drop{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.line{display:none}
+.t{margin-top:14px;font-size:14px;text-align:center}
+.price{text-align:center;font-weight:400;font-style:italic}
+.row{justify-content:center;gap:14px;font-weight:400;color:var(--muted)}
+.src{text-align:center}
+footer{justify-content:center;border-top:1px solid var(--line);padding-top:14px}
+.sites{justify-content:center}
+.sites .home{font-family:"Playfair Display",Georgia,serif;font-weight:500}
+.sites a[aria-current=page]{color:var(--tan);text-decoration:none}
+@media (max-width:640px){.sites{justify-content:flex-start}}

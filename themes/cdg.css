@@ -1,0 +1,65 @@
+/* Comme des Garçons: the house's own site is famously anti-design, a bare HTML page.
+   Times, default form controls, blue underlined links, and the Play heart's red. */
+:root{
+  --bg:#FFFFFF; --ink:#000000; --muted:#444444; --soft:#8A8A8A; --line:#000000;
+  --tag-ink:#FFFFFF; --ph:#FFFFFF; --blend:multiply; --fit:contain;
+  --f:"Times New Roman",Times,serif; --track:0; --gut:10px;
+  --link:#0000EE; --visited:#551A8B; --red:#E60012; --face:#EFEFEF; --edge:#767676;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#000000; --ink:#FFFFFF; --muted:#BBBBBB; --soft:#777777; --line:#FFFFFF;
+  --tag-ink:#FFFFFF; --ph:#000000; --blend:normal; --fit:cover;
+  --link:#8AB4F8; --visited:#C58AF9; --face:#2B2B2B; --edge:#8F8F8F;
+}}
+body{font:400 16px/1.25 var(--f);text-transform:none}
+header{padding:8px 0 4px;justify-content:flex-start;gap:14px;align-items:baseline}
+.mark{font-weight:700;font-size:32px;letter-spacing:0}
+.count{font-size:16px}
+.crumbs{font-size:13px;color:var(--ink)}
+.crumbs > span:not(:last-child)::after{content:"|";color:var(--ink);margin:0 6px}
+.notice{font-size:13px}
+.notice a{color:var(--link)}
+.bar{position:static;border:0;margin-top:10px;padding:6px 0;gap:8px 12px}
+.bar input[type=search]{flex:0 1 300px;border:1px solid var(--edge);border-radius:2px;padding:2px 4px;background:var(--bg)}
+.bar input[type=search]:focus-visible{border-width:1px;padding-bottom:2px;outline:2px solid var(--link);outline-offset:0}
+.sel select{-webkit-appearance:auto;appearance:auto;border:1px solid var(--edge);border-radius:2px;padding:1px 2px;background:var(--bg);font-size:13px}
+.sel::after{display:none}
+.togs{gap:4px 12px;align-items:center}
+.tog{height:auto;padding:0;border:0;color:var(--ink);font-size:13px;background:none}
+.tog input{position:static;opacity:1;width:auto;height:auto;margin:0 4px 0 0;pointer-events:auto}
+.tog:has(input:checked){background:none;color:var(--ink)}
+.tog:has(input:checked):hover,.tog:hover{color:var(--ink)}
+button.tog,#filtersBtn[aria-expanded=true],#filtersBtn.on{padding:1px 6px;border:1px solid var(--edge);border-radius:2px;background:var(--face);color:var(--ink)}
+#filtersBtn[aria-expanded=true]{border-style:inset}
+.filters{border:0;border-top:2px groove var(--edge);border-bottom:2px groove var(--edge);padding:10px 0;gap:14px 30px}
+.fg h2{font-size:16px;font-weight:700;letter-spacing:0;color:var(--ink);margin-bottom:6px}
+.chip{height:auto;padding:1px 6px;border:1px solid var(--edge);border-radius:2px;background:var(--face);font-size:13px}
+.chip[aria-pressed=true]{background:var(--face);color:var(--ink);border-style:inset;border-width:2px}
+.price-in label{border:1px solid var(--edge);border-radius:2px;padding:1px 4px}
+.clear{font-size:13px;color:var(--link)}
+.shops{gap:4px 14px;padding:10px 0 4px}
+.shop{font-size:14px;color:var(--link);text-decoration:underline}
+.shop[aria-pressed=false]{color:var(--soft)}
+.shop .n{color:var(--ink)}
+.grid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:30px 12px;padding:16px 0 60px}
+.ph{aspect-ratio:1/1}
+.b{font-size:12px;font-weight:700;letter-spacing:0;padding:1px 4px}
+.b.new{background:var(--red);color:#FFFFFF}
+.b.drop{background:#FFFF00;color:#000000;box-shadow:none}
+.line{margin-top:6px;font-size:13px;font-weight:400;color:var(--muted)}
+.t{color:var(--link);text-decoration:underline;font-size:16px}
+.card:visited .t{color:var(--visited)}
+.price{margin-top:2px;font-weight:400}
+.price .cur{border:0;padding:0;font-size:13px;color:var(--muted)}
+.row{margin-top:2px;font-weight:400;font-size:13px}
+.src{font-size:13px}
+.card:hover .go{text-decoration:underline}
+.card:hover .ph img{opacity:1}
+footer{border-top:2px groove var(--edge);padding-top:8px;font-size:13px}
+footer a{color:var(--link);text-decoration:underline}
+:focus-visible{outline:2px solid var(--link);outline-offset:1px}
+.sites{font-size:13px;gap:4px 12px;color:var(--ink)}
+.sites a{color:var(--link);text-decoration:underline}
+.sites .home{color:var(--ink);text-decoration:none;letter-spacing:0}
+.sites a[aria-current=page]{color:var(--ink);text-decoration:none;font-weight:700}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 10px}}

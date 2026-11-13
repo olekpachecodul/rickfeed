@@ -1,0 +1,37 @@
+/* Undercover: Jun Takahashi's punk-zine side ("we make noise not clothes").
+   Photocopy paper, heavy condensed capitals, black tape and a red stamp. */
+:root{
+  --bg:#EDEBE6; --ink:#0D0D0D; --muted:#55524C; --soft:#8E8A82; --line:#0D0D0D;
+  --tag-ink:#EDEBE6; --ph:#E2DFD8; --blend:multiply; --fit:contain; --red:#C8102E;
+  --f:"Archivo Narrow","Arial Narrow",sans-serif; --track:.02em; --gut:28px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0D0D0D; --ink:#EDEBE6; --muted:#A39F97; --soft:#5F5C56; --line:#EDEBE6;
+  --tag-ink:#0D0D0D; --ph:#171716; --blend:normal; --fit:cover;
+}}
+body{font:400 13px/1.35 var(--f)}
+header{padding:20px 0 6px;align-items:flex-end}
+.mark{font-family:"Anton",Impact,sans-serif;font-weight:400;font-size:58px;line-height:.9;letter-spacing:0}
+@media (max-width:520px){.mark{font-size:38px}}
+.count{font-weight:600;font-size:14px}
+.crumbs{font-size:11px;color:var(--muted)}
+.bar{border-top:4px solid var(--line);border-bottom:2px solid var(--line);margin-top:12px}
+.bar input[type=search]{border-bottom:2px solid var(--ink)}
+.tog{border:2px solid var(--ink);color:var(--ink);font-weight:600}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fg h2{font-family:"Anton",Impact,sans-serif;font-weight:400;font-size:16px;color:var(--ink);letter-spacing:.02em}
+.chip{border:2px solid var(--ink);font-weight:600}
+.shop{font-weight:600;font-size:12px}
+.grid{gap:56px 22px}
+.ph{aspect-ratio:4/5}
+.b{font-family:"Anton",Impact,sans-serif;font-weight:400;font-size:13px;letter-spacing:.04em;padding:4px 9px}
+.b.new{background:var(--red);color:#FFFFFF;transform:rotate(-4deg) translate(6px,8px)}
+.b.drop{background:var(--ink);color:var(--bg);box-shadow:none;transform:rotate(2deg) translate(6px,8px)}
+.line{font-family:"Anton",Impact,sans-serif;font-weight:400;font-size:14px;margin-top:12px}
+.t{font-size:14px;font-weight:600}
+.price{font-weight:600;font-size:14px}
+.row{font-weight:600}
+footer{border-top:4px solid var(--line);padding-top:12px}
+.sites{font-weight:600;font-size:11px}
+.sites .home{font-family:"Anton",Impact,sans-serif;font-weight:400;letter-spacing:.06em;font-size:13px}
+.sites a[aria-current=page]{background:var(--ink);color:var(--bg);text-decoration:none;padding:2px 6px}

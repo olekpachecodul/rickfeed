@@ -45,13 +45,21 @@ BRANDS = json.loads((HERE / "brands.json").read_text(encoding="utf-8"))
 for _b in BRANDS:
     _b["re"] = re.compile(_b["match"], re.I)
     _b["line_res"] = [(label, re.compile(pat, re.I)) for label, pat in _b.get("lines", [])]
+    _b["exclude_re"] = re.compile(_b["exclude"], re.I) if _b.get("exclude") else None
 SLUGS = {b["slug"] for b in BRANDS}
 DISCOVER_EVERY_DAYS = 1
-MAX_DISCOVERED = 3        # extra collections found per designer per shop, at most
+MAX_DISCOVERED = 5        # extra collections found per designer per shop, at most
+SHOP_GAP = 0.4            # seconds between requests to the same shop, to stay under Shopify's limits
 
 
 def is_brand(brand, title, vendor):
-    return bool(brand["re"].search(title or "") or brand["re"].search(vendor or ""))
+    return bool(brand["re"].search(title or "") or brand["re"].search(vendor or "")) and not excluded(brand, title, vendor)
+
+
+def excluded(brand, title, vendor):
+    """Pieces that name the designer but belong on another page (e.g. Raf Simons' Calvin Klein)."""
+    rx = brand.get("exclude_re")
+    return bool(rx and (rx.search(title or "") or rx.search(vendor or "")))
 
 
 def line_of(brand, title, vendor):
@@ -132,7 +140,26 @@ def now_utc():
     return dt.datetime.now(dt.timezone.utc)
 
 
+_HOST_LOCKS, _HOST_LAST = {}, {}
+_HOSTS_LOCK = threading.Lock()
+
+
 def fetch_bytes(url):
+    # One request at a time per shop, a short gap apart: many designers now share each shop.
+    host = urllib.parse.urlsplit(url).netloc
+    with _HOSTS_LOCK:
+        lock = _HOST_LOCKS.setdefault(host, threading.Lock())
+    with lock:
+        wait = _HOST_LAST.get(host, 0) + SHOP_GAP - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            return _fetch(url)
+        finally:
+            _HOST_LAST[host] = time.monotonic()
+
+
+def _fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/atom+xml, application/xml;q=0.9, */*;q=0.5"})
     with urllib.request.urlopen(req, timeout=25) as r:
         return r.read()
@@ -418,6 +445,8 @@ def brand_listings(brand, shop, plan, crawled):
                 continue
             if (h in filtered or brand.get("strict")) and not is_brand(brand, it["title"], it.get("vendor")):
                 continue
+            if excluded(brand, it["title"], it.get("vendor")):
+                continue
             seen.add(it["id"])
             x = dict(it)
             x["line"] = line_of(brand, x["title"], x.get("vendor", ""))
@@ -537,22 +566,27 @@ def main():
     # 1. Which collections to read at each shop: the listed ones plus any named after a
     #    designer (re-discovered once a day; a failed discovery keeps the last result).
     discovered = state.setdefault("discovered", {})
-    stale = [shop for shop in SHOPS if discovered.get(shop["name"], {}).get("date", "") < (run_at - dt.timedelta(days=DISCOVER_EVERY_DAYS)).date().isoformat()]
+    # Look again once a day, or straight away when a designer has been added since the last look.
+    stale = [shop for shop in SHOPS
+             if discovered.get(shop["name"], {}).get("date", "") < (run_at - dt.timedelta(days=DISCOVER_EVERY_DAYS)).date().isoformat()
+             or set(discovered.get(shop["name"], {}).get("slugs", [])) != SLUGS]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for shop, found in zip(stale, pool.map(discover, stale)):
             if found is not None:
-                discovered[shop["name"]] = {"date": today, "found": found}
+                discovered[shop["name"]] = {"date": today, "found": found, "slugs": sorted(SLUGS)}
     discovered = {k: v for k, v in discovered.items() if k in {s["name"] for s in SHOPS}}
     plans, jobs = {}, []
     for shop in SHOPS:
         found = discovered.get(shop["name"], {}).get("found", {})
         plans[shop["name"]] = {}
         handles = []
+        everything = shop.get("everything", [])   # e.g. "all": the whole shop, read for every designer
         for b in BRANDS:
             listed = shop.get("collections", {}).get(b["slug"], [])
+            listed = listed + [h for h in everything if h not in listed]
             extra = [h for h in found.get(b["slug"], []) if h not in listed][:MAX_DISCOVERED]
             if listed or extra:
-                plans[shop["name"]][b["slug"]] = (listed + extra, set(shop.get("filter", [])) | set(extra))
+                plans[shop["name"]][b["slug"]] = (listed + extra, set(shop.get("filter", [])) | set(extra) | set(everything))
                 handles += [h for h in listed + extra if h not in handles]
         jobs.append((shop, handles))
 
@@ -721,7 +755,7 @@ def sites_nav(current):
     """Links to every designer page (relative, so it works on any domain)."""
     esc = lambda x: html.escape(str(x), quote=True)
     links = '<a href="../" class="home">Ballhog</a>' + "".join(
-        f'<a href="../{esc(b["slug"])}/"{' aria-current="page"' if b["slug"] == current else ""}>{esc(b["name"])}</a>'
+        f'<a href="../{esc(b["slug"])}/"{' aria-current="page"' if b["slug"] == current else ""}>{esc(b.get("short", b["name"]))}</a>'
         for b in BRANDS)
     return f'<nav class="sites" aria-label="Designers">{links}</nav>'
 
@@ -729,43 +763,244 @@ def sites_nav(current):
 def render_home(built, run_iso):
     esc = lambda x: html.escape(str(x), quote=True)
     rows = "".join(
-        f'<li><a href="{esc(b["slug"])}/"><span class="n">{esc(b["name"])}</span>'
-        f'<span class="c">{b["for_sale"]:,} for sale · {b["shops"]} shops</span></a></li>' for b in built)
-    return HOME.replace("__ROWS__", rows).replace("__WHEN__", esc(run_iso))
+        f'<li style="--i:{n}"><a href="{esc(b["slug"])}/"><span class="n">{esc(b["name"])}</span>'
+        f'<span class="c"><b>{b["for_sale"]:,}</b> / {b["shops"]}</span></a></li>' for n, b in enumerate(built))
+    total = sum(b["for_sale"] for b in built)
+    return (HOME.replace("__ROWS__", rows).replace("__WHEN__", esc(run_iso))
+                .replace("__TOTAL__", f"{total:,}").replace("__SHOPS__", str(len(SHOPS))))
 
 
 HOME = r"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
+<meta name="theme-color" content="#F2F1EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0B0B" media="(prefers-color-scheme: dark)">
 <title>Ballhog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&family=JetBrains+Mono:wght@400&display=swap">
 <style>
-:root{--bg:#F4F3F0;--ink:#111;--muted:#6B6B6B;--line:#D9D7D2}
-@media (prefers-color-scheme: dark){:root{--bg:#0F0F0F;--ink:#EDEDED;--muted:#8C8C8C;--line:#262626;color-scheme:dark}}
+:root{--bg:#F2F1EC;--ink:#0E0E0E;--muted:#6B6A66;--rule:rgba(14,14,14,.16);--f:"Inter Tight","Helvetica Neue",Arial,sans-serif;--m:"JetBrains Mono",Menlo,monospace}
+@media (prefers-color-scheme: dark){:root{--bg:#0B0B0B;--ink:#ECEAE4;--muted:#8E8C86;--rule:rgba(236,234,228,.16);color-scheme:dark}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
-main{max-width:760px;margin:0 auto;padding:12vh max(20px,env(safe-area-inset-left)) 80px}
-h1{margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.32em;text-transform:uppercase}
-p{margin:0 0 48px;color:var(--muted);font-size:13px}
-ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-li a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:22px 0;border-bottom:1px solid var(--line);color:inherit;text-decoration:none}
-li .n{font-size:clamp(22px,5vw,34px);letter-spacing:-.01em}
-li .c{color:var(--muted);font-size:13px;white-space:nowrap}
-li a:hover .n{text-decoration:underline;text-underline-offset:5px}
-footer{margin-top:40px;color:var(--muted);font-size:12px}
-@media (max-width:520px){li a{flex-direction:column;gap:4px}}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 14px/1.4 var(--f);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+#henge{position:fixed;inset:0;width:100%;height:100%;display:block;z-index:-1}
+.pad{padding-left:max(20px,env(safe-area-inset-left),3vw);padding-right:max(20px,env(safe-area-inset-right),3vw)}
+/* the splash: wordmark, one line, the drawing behind */
+.splash{position:relative;min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;padding-top:max(18px,env(safe-area-inset-top),2.4vw);padding-bottom:28px;pointer-events:none}
+.top{display:flex;justify-content:space-between;gap:16px;font:400 11px/1.4 var(--m);letter-spacing:.04em;text-transform:uppercase}
+.top a{pointer-events:auto}
+h1{margin:0;align-self:start;font-weight:800;font-size:clamp(64px,19.5vw,330px);line-height:.8;letter-spacing:-.065em;margin-left:-.04em;padding-top:.06em;mix-blend-mode:difference;color:#fff;
+  animation:rise 1.1s cubic-bezier(.2,.7,.1,1) both}
+.foot{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;mix-blend-mode:difference;color:#fff}
+.foot p{margin:0;max-width:34ch;font-size:clamp(15px,1.5vw,20px);line-height:1.25;letter-spacing:-.01em}
+.cue{font:400 11px/1.4 var(--m);text-transform:uppercase;letter-spacing:.04em;pointer-events:auto;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.cue::after{content:"";width:1px;height:28px;background:currentColor;animation:drip 2.2s ease-in-out infinite}
+/* the index */
+.index{position:relative;padding-bottom:max(48px,env(safe-area-inset-bottom))}
+.index header{display:flex;justify-content:space-between;gap:16px;padding:18px 0 12px;font:400 11px/1.4 var(--m);text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid var(--ink)}
+ol{list-style:none;margin:0;padding:0;counter-reset:d}
+li{counter-increment:d;animation:rise .9s cubic-bezier(.2,.7,.1,1) both;animation-delay:calc(var(--i) * 40ms + .2s)}
+li a{position:relative;display:grid;grid-template-columns:3.2em 1fr auto;align-items:baseline;gap:12px;padding:14px 0 12px;border-bottom:1px solid var(--rule);
+  backdrop-filter:blur(10px) saturate(.6);-webkit-backdrop-filter:blur(10px) saturate(.6);background:color-mix(in srgb,var(--bg) 55%,transparent);transition:color .25s}
+li a::before{content:counter(d,decimal-leading-zero);font:400 11px/1 var(--m);color:var(--muted)}
+li a::after{content:"";position:absolute;inset:0;background:var(--ink);transform:scaleY(0);transform-origin:bottom;transition:transform .35s cubic-bezier(.2,.7,.1,1);z-index:-1}
+li a:hover,li a:focus-visible{color:var(--bg);outline:0}
+li a:hover::after,li a:focus-visible::after{transform:scaleY(1)}
+li a:hover::before,li a:focus-visible::before{color:var(--bg)}
+.n{font-weight:500;font-size:clamp(26px,4.6vw,64px);line-height:1;letter-spacing:-.045em}
+.c{font:400 11px/1.4 var(--m);text-transform:uppercase;letter-spacing:.04em;text-align:right;white-space:nowrap}
+.c b{font-weight:400;font-size:clamp(13px,1.4vw,17px)}
+.index footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 20px;padding-top:16px;font:400 11px/1.4 var(--m);text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes drip{0%,100%{transform:scaleY(.25);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}}
+@media (prefers-reduced-motion:reduce){h1,li,.cue::after{animation:none}li a::after{transition:none}}
+@media (max-width:640px){
+  li a{grid-template-columns:2.4em 1fr;row-gap:4px}
+  .c{grid-column:2;text-align:left}
+  .top span:last-child{display:none}
+}
 </style>
 </head>
 <body>
-<main>
+<canvas id="henge" aria-hidden="true"></canvas>
+<section class="splash pad">
+  <div class="top"><span>Ballhog / secondhand designer, live</span><span>__SHOPS__ shops &middot; checked every 15 min</span></div>
   <h1>Ballhog</h1>
-  <p>The newest secondhand pieces from resale shops, by designer.</p>
-  <ul>__ROWS__</ul>
-  <footer>Last check <time datetime="__WHEN__" id="when">__WHEN__</time></footer>
-</main>
-<script>try{const t=document.getElementById("when");t.textContent=new Date(t.dateTime).toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});}catch(e){}</script>
+  <div class="foot">
+    <p>Every new secondhand piece from the resale shops worth checking, gathered by designer.</p>
+    <a class="cue" href="#index">__TOTAL__ for sale</a>
+  </div>
+</section>
+<section class="index pad" id="index">
+  <header><span>Designers</span><span>For sale / shops</span></header>
+  <ol>__ROWS__</ol>
+  <footer><span>Last check <time datetime="__WHEN__" id="when">__WHEN__</time></span><span>hengecorp</span></footer>
+</section>
+<script>
+try{const t=document.getElementById("when");t.textContent=new Date(t.dateTime).toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});}catch(e){}
+/* A henge drawn in crayon: a ring of trilithons in 3D, outlined with grainy
+   jittered strokes that are redrawn a dozen times a second (line boil) while
+   the camera circles. Still for anyone who prefers reduced motion. */
+(function(){
+  const cv = document.getElementById("henge"), ctx = cv.getContext && cv.getContext("2d");
+  if (!ctx) return;
+  const still = matchMedia("(prefers-reduced-motion: reduce)");
+  const darkQ = matchMedia("(prefers-color-scheme: dark)");
+  let W = 0, H = 0, D = 1, grain = null, ink = "", paper = "";
+  let seed = 1;
+  const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  // --- the stones: boxes [cx, cy, cz, width, height, depth, yaw], chunky, in a ring
+  const boxes = [];
+  const R = 9, layout = "TSTFTsTS";
+  (function build(){
+    let s = 11; const r = () => (s = (s * 16807) % 2147483647) / 2147483647;
+    for (let i = 0; i < layout.length; i++){
+      const a = i / layout.length * Math.PI * 2 + .2, k = layout[i];
+      const x = Math.cos(a) * R, z = Math.sin(a) * R, yaw = -a + Math.PI / 2 + (r() - .5) * .16;
+      const tx = -Math.sin(a), tz = Math.cos(a);
+      if (k === "T"){
+        const h = 3.4 + r() * .6, gap = .35, w = 1.9 + r() * .3, d = 1.6;
+        for (const side of [-1, 1]) boxes.push([x + tx * side * (w + gap) / 2, h / 2, z + tz * side * (w + gap) / 2, w, h, d, yaw + (r() - .5) * .1]);
+        boxes.push([x, h + .55, z, 2 * w + gap + .3, 1.1, d + .1, yaw + (r() - .5) * .08]);
+      } else if (k === "S" || k === "s"){
+        const h = k === "S" ? 3.2 + r() * .6 : 1.7 + r() * .4;
+        boxes.push([x, h / 2, z, 1.9, h, 1.5, yaw + (r() - .5) * .25]);
+      } else if (k === "F"){   // a fallen lintel
+        boxes.push([x * .9, .55, z * .9, 4.2, 1.1, 1.6, yaw + .45]);
+      }
+    }
+  })();
+  function corners(b){
+    const [cx, cy, cz, w, h, d, yaw] = b, c = Math.cos(yaw), s = Math.sin(yaw), out = [];
+    for (const [ux, uy, uz] of [[-1,-1,-1],[1,-1,-1],[1,1,-1],[-1,1,-1],[-1,-1,1],[1,-1,1],[1,1,1],[-1,1,1]]){
+      const lx = ux * w / 2, lz = uz * d / 2;
+      out.push([cx + lx * c - lz * s, cy + uy * h / 2, cz + lx * s + lz * c]);
+    }
+    return out;
+  }
+  const FACES = [[0,1,2,3],[4,5,6,7],[0,3,7,4],[1,2,6,5],[3,2,6,7],[0,1,5,4]];
+  const TOP = 4;
+  const boxCorners = boxes.map(corners);
+  function setup(){
+    D = Math.min(2, window.devicePixelRatio || 1);
+    W = cv.clientWidth; H = cv.clientHeight;
+    cv.width = Math.round(W * D); cv.height = Math.round(H * D);
+    const cs = getComputedStyle(document.documentElement);
+    ink = cs.getPropertyValue("--ink").trim() || "#0E0E0E"; paper = cs.getPropertyValue("--bg").trim() || "#F2F1EC";
+    // crayon grain: ink with random gaps, used as the stroke pattern
+    const g = document.createElement("canvas"); g.width = g.height = 128;
+    const gx = g.getContext("2d"), img = gx.createImageData(128, 128);
+    const hex = ink.replace("#", ""), rr = parseInt(hex.slice(0,2),16), gg = parseInt(hex.slice(2,4),16), bb = parseInt(hex.slice(4,6),16);
+    for (let i = 0; i < img.data.length; i += 4){
+      const v = Math.random();
+      img.data[i] = rr; img.data[i+1] = gg; img.data[i+2] = bb; img.data[i+3] = v < .1 ? 0 : v < .2 ? 120 : 235 + v * 20;
+    }
+    gx.putImageData(img, 0, 0);
+    grain = ctx.createPattern(g, "repeat");
+  }
+  let mx = 0, my = 0, tmx = 0, tmy = 0;
+  addEventListener("pointermove", e => { tmx = e.clientX / W - .5; tmy = e.clientY / H - .5; }, {passive: true});
+  function draw(t){
+    seed = 1 + Math.floor(t / 83) % 997;   // a new hand every ~83 ms
+    mx += (tmx - mx) * .08; my += (tmy - my) * .08;
+    const narrow = W < 700;
+    const phi = t / 1000 * 0.03 + mx * .45 + 1.9;            // slow orbit, nudged by the pointer
+    const dist = 29, camY = 13 - my * 5;
+    const cam = [Math.cos(phi) * dist, camY, Math.sin(phi) * dist], tgt = [0, 1.2, 0];
+    let fx = tgt[0] - cam[0], fy = tgt[1] - cam[1], fz = tgt[2] - cam[2]; const fl = Math.hypot(fx, fy, fz); fx /= fl; fy /= fl; fz /= fl;
+    let rx = -fz, rz = fx; const rl = Math.hypot(rx, rz); rx /= rl; rz /= rl;
+    const ux = -(rz * fy), uy = rz * fx - rx * fz, uz = rx * fy;
+    const focal = narrow ? W * 1.3 : Math.min(W * .95, H * 1.75);
+    const ox = narrow ? W * .5 : W * .6, oy = narrow ? H * .56 : H * .57;
+    const proj = p => { const dx = p[0]-cam[0], dy = p[1]-cam[1], dz = p[2]-cam[2];
+      const z = dx*fx + dy*fy + dz*fz; return [ox + (dx*rx + dz*rz) / z * focal, oy - (dx*ux + dy*uy + dz*uz) / z * focal]; };
+    ctx.setTransform(D, 0, 0, D, 0, 0);
+    ctx.fillStyle = paper; ctx.fillRect(0, 0, W, H);
+    ctx.lineJoin = ctx.lineCap = "round";
+    const lw = Math.max(3.2, Math.min(8, Math.min(W, H * 1.4) * .0055));
+    const order = boxes.map((b, i) => [i, Math.hypot(b[0]-cam[0], b[1]-cam[1], b[2]-cam[2])]).sort((a, b) => b[1] - a[1]);
+    for (const [i] of order){
+      const C = boxCorners[i], b = boxes[i], faces = [];
+      for (let f = 0; f < 6; f++){
+        const F = FACES[f].map(k => C[k]);
+        const fc = [0,1,2].map(k => (F[0][k] + F[1][k] + F[2][k] + F[3][k]) / 4);
+        const n = [fc[0]-b[0], fc[1]-b[1], fc[2]-b[2]];   // outward, since the face sits off the box's centre
+        if (n[0]*(cam[0]-fc[0]) + n[1]*(cam[1]-fc[1]) + n[2]*(cam[2]-fc[2]) > 0) faces.push([f, F.map(proj)]);
+      }
+      // paper first, so nearer stones hide the ones behind
+      ctx.fillStyle = paper; ctx.beginPath();
+      for (const [, q] of faces){ const r = soft(q, 0); ctx.moveTo(r[0][0], r[0][1]); for (const p of r) ctx.lineTo(p[0], p[1]); ctx.closePath(); }
+      ctx.fill();
+      for (const [f, q] of faces){
+        rough(q, lw * (f === TOP ? 1.25 : 1));
+        if (f === TOP) scribble(q, lw);
+      }
+    }
+  }
+  // round a quad's corners (Chaikin), the way worn stone and a blunt crayon both do
+  function soft(q, jit){
+    let pts = [];
+    for (let e = 0; e < 4; e++){
+      const a = q[e], b = q[(e + 1) % 4], n = Math.max(3, Math.round(Math.hypot(b[0]-a[0], b[1]-a[1]) / 9));
+      for (let s = 0; s < n; s++){ const t = s / n; pts.push([a[0] + (b[0]-a[0]) * t + (rnd()-.5) * jit, a[1] + (b[1]-a[1]) * t + (rnd()-.5) * jit]); }
+    }
+    for (let it = 0; it < 2; it++){
+      const out = [];
+      for (let k = 0; k < pts.length; k++){ const p = pts[k], n = pts[(k + 1) % pts.length];
+        out.push([p[0]*.75 + n[0]*.25, p[1]*.75 + n[1]*.25], [p[0]*.25 + n[0]*.75, p[1]*.25 + n[1]*.75]); }
+      pts = out;
+    }
+    return pts;
+  }
+  function rough(q, lw){
+    ctx.strokeStyle = grain;
+    for (let pass = 0; pass < 3; pass++){
+      const pts = soft(q, lw * .55), o = [(rnd()-.5) * lw * .5, (rnd()-.5) * lw * .5];
+      ctx.lineWidth = lw * (pass ? .6 : 1) * (.85 + rnd() * .3);
+      ctx.beginPath();
+      // start somewhere along the outline and run a little past the start, like a hand that doesn't lift
+      const st = Math.floor(rnd() * pts.length), extra = Math.floor(pts.length * (.04 + rnd() * .06));
+      for (let k = 0; k <= pts.length + extra; k++){
+        const p = pts[(st + k) % pts.length];
+        k ? ctx.lineTo(p[0] + o[0], p[1] + o[1]) : ctx.moveTo(p[0] + o[0], p[1] + o[1]);
+      }
+      ctx.stroke();
+    }
+  }
+  function scribble(q, lw){   // loose crayon hatching on the tops of the stones
+    ctx.strokeStyle = grain; ctx.lineWidth = lw * .6; ctx.globalAlpha = .9;
+    ctx.beginPath();
+    const n = 4 + Math.floor(rnd() * 5);
+    for (let k = 0; k < n; k++){
+      const t1 = .1 + rnd() * .8, t2 = .1 + rnd() * .8;
+      const a = [q[0][0] + (q[1][0]-q[0][0]) * t1, q[0][1] + (q[1][1]-q[0][1]) * t1];
+      const b = [q[3][0] + (q[2][0]-q[3][0]) * t2, q[3][1] + (q[2][1]-q[3][1]) * t2];
+      ctx.moveTo(a[0] + (rnd()-.5)*4, a[1] + (rnd()-.5)*4); ctx.lineTo(b[0] + (rnd()-.5)*4, b[1] + (rnd()-.5)*4);
+    }
+    ctx.stroke(); ctx.globalAlpha = 1;
+  }
+  let last = -1e9, raf = 0;
+  function loop(t){
+    raf = requestAnimationFrame(loop);
+    if (t - last < 83) return;   // ~12 frames a second: a hand-drawn cadence
+    last = t; draw(t);
+  }
+  function start(){
+    cancelAnimationFrame(raf); setup();
+    if (still.matches) draw(0); else raf = requestAnimationFrame(loop);
+  }
+  addEventListener("resize", () => { setup(); if (still.matches) draw(0); });
+  (darkQ.addEventListener ? darkQ.addEventListener("change", start) : darkQ.addListener(start));
+  (still.addEventListener ? still.addEventListener("change", start) : still.addListener(start));
+  start();
+})();
+</script>
 </body>
 </html>
 """

@@ -1,11 +1,11 @@
 # Ballhog
 
-The newest secondhand listings for a handful of designers, gathered from resale shops, one page per designer.
+The newest secondhand listings for a run of designers, gathered from resale shops, one page per designer.
 
-**Live at https://ballhog.hengecorp.com**: [Rick Owens](https://ballhog.hengecorp.com/rick/) ·
-[Kiko Kostadinov](https://ballhog.hengecorp.com/kiko/) · [Helmut Lang](https://ballhog.hengecorp.com/lang/) ·
-[205W39NYC](https://ballhog.hengecorp.com/rafcalvin/) · [Soshiotsuki](https://ballhog.hengecorp.com/soshiotsuki/).
-Each page has an RSS feed at `/<designer>/feed.xml`.
+**Live at https://ballhog.hengecorp.com**. The home page is a splash (a crayon henge, drawn live, circling slowly) over an index of
+every designer. Each designer has a page at `/<slug>/` (slugs in `brands.json`: `rick`, `kiko`, `lang`, `rafcalvin`, `soshiotsuki`,
+`cdg`, `margiela`, `undercover`, `gaultier`, `yohji`, `raf`, `issey`, `numbernine`, `ann`, `bbs`, `ccp`, `guidi`)
+and an RSS feed at `/<slug>/feed.xml`.
 
 GitHub checks every shop up to every 15 minutes and republishes the site. GitHub skips some scheduled runs when it's busy,
 so gaps can be longer; each page shows the time of the last check.
@@ -15,9 +15,12 @@ so gaps can be longer; each page shows the time of the last check.
 - `ballhog.py`: reads every shop once per check, sorts each piece to the designers it belongs to, and builds the site.
 - `shops.json`: every shop, once. For each designer (by slug) it lists the shop's collections to read.
   `"filter"` marks collections that mix designers (only pieces named as the designer are kept).
-  Collections named after a designer (e.g. `/collections/helmut-lang`) are also found automatically each day.
+  `"everything"` names a whole-shop collection (usually `all`) that's read once and sorted to every designer.
+  Collections named after a designer (e.g. `/collections/helmut-lang`) are also found automatically each day,
+  and straight away when a designer is added.
 - `brands.json`: every designer: `slug` (its page is `/<slug>/`), title, what counts as that designer (`match`, title or vendor),
-  `lines` (e.g. DRKSHDW), `strict` (filter every shop, used for 205W39NYC), the look and wording.
+  `lines` (e.g. DRKSHDW, Junya Watanabe under Comme des Garçons), `exclude` (pieces that belong on another page, e.g. Raf Simons'
+  Calvin Klein work), `strict` (filter every shop, used for 205W39NYC), `short` (the name in the switcher), the look and wording.
 - `themes/base.css` is the shared layout; `themes/<theme>.css` gives each designer its look.
 - `data/state.json`: what's already been seen, per designer (created and updated automatically).
 
@@ -36,7 +39,8 @@ A shop with a designer collection the list doesn't name is still picked up by th
 
 Add an entry to `brands.json` (copy an existing one, give it a new `slug`, `name`, `match` and `theme`) and a `themes/<theme>.css`
 (an empty file gives the base look). Its page appears at `/<slug>/` on the next check and in the switcher on every page.
-Shops that already carry it are found by the daily discovery; add the rest to `shops.json`.
+Every shop is searched for it on the next check; add any shop that sells it without a collection named after it to `shops.json`.
+Requests to each shop are spaced out (`SHOP_GAP`), so a check takes a little longer as designers are added.
 
 ## What counts as Rick Owens
 

@@ -1,0 +1,39 @@
+/* Issey Miyake: pleats. Fine vertical folds across the header, a light geometric
+   sans, rounded shapes and one bright Pleats Please colour. */
+:root{
+  --bg:#FFFFFF; --ink:#111111; --muted:#6A6A6A; --soft:#A5A5A5; --line:#E1E1E1;
+  --tag-ink:#FFFFFF; --ph:#F5F5F3; --blend:multiply; --fit:contain; --pop:#E8501C; --fold:rgba(0,0,0,.07);
+  --f:"Jost","Futura","Century Gothic",sans-serif; --track:.04em; --gut:32px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#111111; --ink:#F2F2F2; --muted:#9C9C9C; --soft:#5F5F5F; --line:#2A2A2A;
+  --tag-ink:#111111; --ph:#191919; --blend:normal; --fit:cover; --fold:rgba(255,255,255,.07);
+}}
+body{font:300 12px/1.55 var(--f);text-transform:none}
+header{padding:40px 0 22px;margin:0 calc(-1 * var(--gut));padding-left:var(--gut);padding-right:var(--gut);
+  background:repeating-linear-gradient(90deg,transparent 0 7px,var(--fold) 7px 8px,transparent 8px 11px,var(--fold) 11px 12px)}
+.mark{font-weight:500;font-size:22px;letter-spacing:.3em;text-transform:uppercase}
+.count{color:var(--muted)}
+.bar{border-bottom:1px solid var(--line)}
+.bar input[type=search]{border:1px solid var(--line);border-radius:999px;padding:7px 14px}
+.bar input[type=search]:focus-visible{border-color:var(--ink);border-width:1px;padding-bottom:7px}
+.tog{border-radius:999px;border-color:var(--line);color:var(--muted)}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--pop);border-color:var(--pop);color:#FFFFFF}
+.tog:has(input:checked):hover{color:#FFFFFF}
+.fg h2{font-weight:500;text-transform:uppercase;letter-spacing:.16em}
+.chip{border-radius:999px;font-size:11px}
+.chip[aria-pressed=true]{background:var(--pop);border-color:var(--pop);color:#FFFFFF}
+.shop{font-size:11px}
+.grid{gap:56px 24px}
+.ph{aspect-ratio:3/4;border-radius:14px}
+.b{border-radius:999px;margin:8px 0 0 8px;font-weight:500;font-size:10px;padding:4px 10px}
+.b.new{background:var(--pop);color:#FFFFFF}
+.b.drop{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.b.sold{margin:8px 0 0 8px}
+.line{font-weight:500;text-transform:uppercase;letter-spacing:.16em;font-size:10px}
+.t{font-size:13px}
+.price{font-weight:500}
+.row{font-weight:300}
+footer{border-top:1px solid var(--line);padding-top:14px}
+.sites{font-size:11px;text-transform:uppercase;letter-spacing:.14em}
+.sites a[aria-current=page]{color:var(--pop);text-decoration:none}
