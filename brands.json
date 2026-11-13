@@ -539,7 +539,7 @@
   "news": {
    "q": "\"Ralph Lauren\" OR \"Double RL\" OR RRL",
    "require": "ralph\\s*lauren|\\brrl\\b|double\\s*rl",
-   "exclude": "\\b(?:stock|stocks|shares|earnings|revenue|quarter(?:ly)?|investors?|dividend|price\\s*target|analysts?|nyse|holdings|q[1-4]|fiscal|outlook|guidance|eps)\\b"
+   "exclude": "\\b(?:stock|stocks|shares|earnings|revenue|quarter(?:ly)?|investors?|dividend|price\\s*target|analysts?|nyse|holdings|q[1-4]|fiscal|outlook|guidance|eps|asx|tsx|nasdaq|regis|gold|mining|miner|mine)\\b|\\(\\s*\\w+\\s*:\\s*rrl\\s*\\)"
   }
  }
 ]

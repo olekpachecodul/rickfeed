@@ -471,18 +471,33 @@ def brand_listings(brand, shop, plan, crawled):
 ARTICLES_EVERY_MINUTES = 55
 ARTICLES_KEEP_DAYS = 400
 ARTICLES_MAX = 150           # per designer
-ARTICLES_RULES = 3           # bump when the matching rules change, to re-read straight away
+ARTICLES_RULES = 4           # bump when the matching rules change, to re-read straight away
 TAG_RE = re.compile(r"<[^>]+>")
 # Results that are shops or reference pages, not articles.
 NOT_ARTICLES = re.compile(r"\b(?:lyst|ebay|farfetch|vestiaire|the\s*realreal|mercari|poshmark|depop|stockx|goat|"
                           r"mytheresa|net-a-porter|mr\s*porter|matches(?:fashion)?|nordstrom|saks|neiman|end\.?\s*clothing|amazon|etsy|"
                           r"britannica|wikipedia|fandom|pinterest|instagram|tiktok|youtube|facebook|reddit)\b", re.I)
+# Shopping-deal posts ("up to 60% off at Macy's") aren't articles either.
+DEALS = re.compile(r"\d+\s*%\s*off\b|\bcoupons?\b|promo\s*codes?|\bon\s+sale\b|\bsale\s+(?:on|at)\b|black\s*friday|cyber\s*monday|"
+                   r"prime\s*day|\b(?:best|top|early)\s+(?:\w+\s+){0,2}deals\b|\bdeals?\s+(?:on|at)\b", re.I)
+
+
+def lenient_xml(raw):
+    """Some feeds arrive with a byte-order mark, leading blank lines, bare ampersands
+    or control characters; tidy those so the feed still parses."""
+    text = raw.decode("utf-8", "replace").lstrip("\ufeff \r\n\t")
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", text)
+    text = re.sub(r"&(?!(?:[a-zA-Z][a-zA-Z0-9]*|#[0-9]+|#x[0-9a-fA-F]+);)", "&amp;", text)
+    return ET.fromstring(text.encode("utf-8"))
 
 
 def feed_entries(raw):
     """(title, link, published ISO, summary text, source name) from RSS 2.0 or Atom."""
     import email.utils
-    root = ET.fromstring(raw)
+    try:
+        root = ET.fromstring(raw)
+    except ET.ParseError:
+        root = lenient_xml(raw)
     out = []
     for it in root.iter():
         tag = it.tag.rsplit("}", 1)[-1]
@@ -518,7 +533,8 @@ def article_key(title):
 
 
 def about(brand, text):
-    return bool(brand["news_re"].search(text)) and not (brand["news_ex"] and brand["news_ex"].search(text))
+    return (bool(brand["news_re"].search(text)) and not (brand["news_ex"] and brand["news_ex"].search(text))
+            and not DEALS.search(text))
 
 
 def gather_articles(saved, run_at, run_iso):
@@ -552,6 +568,8 @@ def gather_articles(saved, run_at, run_iso):
             else:
                 source = x["name"]
                 targets = [b for b in BRANDS if about(b, title) or about(b, text[:600])]
+            if DEALS.search(title):
+                targets = []
             for b in targets:
                 if published and published < oldest_for[b["slug"]]:
                     continue
@@ -570,8 +588,10 @@ def gather_articles(saved, run_at, run_iso):
             log.append(f"  {(x['name'] if kind == 'pub' else 'News: ' + x['name']):<28} {err or f'{len(entries)} read, {found} new'}")
     for slug, bucket in saved.items():
         keep = sorted(bucket.items(), key=lambda kv: kv[1]["published"], reverse=True)
+        ex = next((b["news_ex"] for b in BRANDS if b["slug"] == slug), None)
         saved[slug] = dict([kv for kv in keep if kv[1]["published"] >= oldest_for.get(slug, oldest)
-                            and not NOT_ARTICLES.search(kv[1]["source"] + " " + kv[1]["url"])][:ARTICLES_MAX])
+                            and not NOT_ARTICLES.search(kv[1]["source"] + " " + kv[1]["url"])
+                            and not DEALS.search(kv[1]["title"]) and not (ex and ex.search(kv[1]["title"]))][:ARTICLES_MAX])
     return added, log, status
 
 
