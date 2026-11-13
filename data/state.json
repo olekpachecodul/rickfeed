@@ -9683,7 +9683,7 @@
    "first_seen": "2026-10-27T22:10:35+00:00",
    "last_seen": "2026-11-13",
    "price": 790.0,
-   "sold": false
+   "sold": true
   },
   "bbs|DRIEW|https://driewgarments.com/products/8180472021070": {
    "category": "Tops",
@@ -14162,10 +14162,12 @@
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15427505324141": {
    "category": "Outerwear",
    "colours": [],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 349.9,
    "first_run": 0,
    "first_seen": "2026-11-06T01:22:10+00:00",
    "last_seen": "2026-11-13",
-   "price": 349.9,
+   "price": 279.9,
    "sold": false
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15428854120557": {
@@ -15652,10 +15654,12 @@
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/8033476444269": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 109.9,
    "first_run": 0,
    "first_seen": "2026-08-14T23:38:17+00:00",
    "last_seen": "2026-11-13",
-   "price": 109.9,
+   "price": 89.9,
    "sold": false
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/8034780446829": {
@@ -27115,7 +27119,7 @@
    "first_seen": "2026-06-03T02:20:18+00:00",
    "last_seen": "2026-11-13",
    "price": 226.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10986408083649": {
    "category": "Tops",
@@ -36702,6 +36706,17 @@
    "first_seen": "2026-10-23T04:02:51+00:00",
    "last_seen": "2026-11-13",
    "price": 149.99,
+   "sold": false
+  },
+  "cdg|Marco Sqrd|https://marcosqrd.com/products/15477856829728": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T14:43:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 199.99,
    "sold": false
   },
   "cdg|Marco Sqrd|https://marcosqrd.com/products/15477856862496": {
@@ -99751,10 +99766,12 @@
    "colours": [
     "Purple"
    ],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 178.0,
    "first_run": 0,
    "first_seen": "2026-10-21T13:33:18+00:00",
    "last_seen": "2026-11-13",
-   "price": 178.0,
+   "price": 165.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11389607149910": {
@@ -117277,10 +117294,12 @@
    "colours": [
     "Purple"
    ],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 249.0,
    "first_run": 0,
    "first_seen": "2025-10-12T16:25:03+00:00",
    "last_seen": "2026-11-13",
-   "price": 249.0,
+   "price": 248.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10282281206103": {
@@ -117329,28 +117348,34 @@
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329215500631": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 328.0,
    "first_run": 0,
    "first_seen": "2025-10-12T18:29:23+00:00",
    "last_seen": "2026-11-13",
-   "price": 328.0,
+   "price": 327.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329215598935": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 328.0,
    "first_run": 0,
    "first_seen": "2025-10-12T18:29:24+00:00",
    "last_seen": "2026-11-13",
-   "price": 328.0,
+   "price": 327.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329215664471": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 328.0,
    "first_run": 0,
    "first_seen": "2025-10-12T18:29:25+00:00",
    "last_seen": "2026-11-13",
-   "price": 328.0,
+   "price": 327.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329224053079": {
@@ -117573,10 +117598,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 328.0,
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:54+00:00",
    "last_seen": "2026-11-13",
-   "price": 328.0,
+   "price": 327.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956216545504": {
@@ -117584,10 +117611,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 779.0,
    "first_run": 0,
    "first_seen": "2022-12-18T18:35:00+00:00",
    "last_seen": "2026-11-13",
-   "price": 779.0,
+   "price": 778.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956232175840": {
@@ -117602,12 +117631,12 @@
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956232372448": {
    "category": "Tops",
    "colours": [],
-   "drop_at": "2026-11-13T06:09:16+00:00",
-   "drop_from": 1637.0,
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 1636.0,
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:22+00:00",
    "last_seen": "2026-11-13",
-   "price": 1636.0,
+   "price": 1635.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956237943008": {
@@ -117616,12 +117645,12 @@
     "Grey",
     "Red"
    ],
-   "drop_at": "2026-11-13T06:09:16+00:00",
-   "drop_from": 3950.0,
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 3948.0,
    "first_run": 0,
    "first_seen": "2025-10-02T20:13:17+00:00",
    "last_seen": "2026-11-13",
-   "price": 3948.0,
+   "price": 3946.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7987186925792": {
@@ -117650,10 +117679,12 @@
     "Grey",
     "Green"
    ],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 762.0,
    "first_run": 0,
    "first_seen": "2023-03-05T18:56:41+00:00",
    "last_seen": "2026-11-13",
-   "price": 762.0,
+   "price": 761.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/8476784099671": {
@@ -138236,7 +138267,7 @@
    "first_seen": "2026-10-26T22:00:16+00:00",
    "last_seen": "2026-11-13",
    "price": 7500.0,
-   "sold": false
+   "sold": true
   },
   "rick|DRIEW|https://driewgarments.com/products/6974318411854": {
    "category": "Outerwear",
@@ -158543,7 +158574,7 @@
    "first_seen": "2026-05-09T17:37:45+00:00",
    "last_seen": "2026-11-13",
    "price": 145.0,
-   "sold": false
+   "sold": true
   },
   "rick|Midtown Archive|https://midtownarchive.com/products/15687034306720": {
    "category": "Bottoms",
@@ -159692,6 +159723,15 @@
    "colours": [],
    "first_run": 1,
    "first_seen": "2026-11-13T06:32:15+00:00",
+   "last_seen": "2026-11-13",
+   "price": 160.0,
+   "sold": false
+  },
+  "rick|Midtown Archive|https://midtownarchive.com/products/15972750393504": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T14:43:41+00:00",
    "last_seen": "2026-11-13",
    "price": 160.0,
    "sold": false
@@ -167883,10 +167923,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 760.0,
    "first_run": 0,
    "first_seen": "2026-10-27T18:06:15+00:00",
    "last_seen": "2026-11-13",
-   "price": 760.0,
+   "price": 608.0,
    "sold": false
   },
   "rick|Tokio 7|https://tokio7ny.com/products/15450861764835": {
@@ -167905,10 +167947,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 420.0,
    "first_run": 0,
    "first_seen": "2026-10-29T21:41:43+00:00",
    "last_seen": "2026-11-13",
-   "price": 420.0,
+   "price": 336.0,
    "sold": false
   },
   "rick|Tokio 7|https://tokio7ny.com/products/15459363225827": {
@@ -167916,10 +167960,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 260.0,
    "first_run": 0,
    "first_seen": "2026-10-31T18:13:23+00:00",
    "last_seen": "2026-11-13",
-   "price": 260.0,
+   "price": 208.0,
    "sold": false
   },
   "rick|Tokio 7|https://tokio7ny.com/products/15482578960611": {
@@ -174354,10 +174400,12 @@
   "undercover|2nd Street|https://ec.2ndstreetusa.com/products/8197930254445": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-13T14:43:41+00:00",
+   "drop_from": 179.9,
    "first_run": 0,
    "first_seen": "2026-08-21T00:55:05+00:00",
    "last_seen": "2026-11-13",
-   "price": 179.9,
+   "price": 149.9,
    "sold": false
   },
   "undercover|2nd Street|https://ec.2ndstreetusa.com/products/8203585683565": {
@@ -175720,7 +175768,7 @@
    "first_seen": "2026-07-29T01:00:33+00:00",
    "last_seen": "2026-11-13",
    "price": 200.0,
-   "sold": false
+   "sold": true
   },
   "undercover|Archive Factory|https://archive-factory.com/products/10953762472129": {
    "category": "Outerwear",
