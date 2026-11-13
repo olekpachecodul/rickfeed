@@ -93,8 +93,9 @@
   "placeholder": "Search: firefighter, warhol, jaws, western",
   "short": "205W39NYC",
   "news": {
-   "q": "\"205W39NYC\" OR \"Raf Simons\" \"Calvin Klein\"",
-   "require": "205\\s*w\\s*39|calvin\\s*klein.*raf|raf.*calvin\\s*klein"
+   "q": "205W39NYC OR \"Raf Simons Calvin Klein\" OR \"Calvin Klein 205W39NYC\"",
+   "require": "205\\s*w\\s*39|calvin\\s*klein.*raf|raf.*calvin\\s*klein",
+   "keep_days": 3650
   }
  },
  {
