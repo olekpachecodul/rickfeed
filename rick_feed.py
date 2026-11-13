@@ -61,6 +61,7 @@ SHOPS = [
     {"name": "Street Commerce",   "city": "Charlotte",              "feed": "https://streetcommerce.shop/collections/rick-owens.atom",        "link": "https://streetcommerce.shop/collections/rick-owens"},
     {"name": "LUXE MIA",          "city": "Miami",                  "feed": "https://luxemia.net/collections/rick-owens-2.atom",              "link": "https://luxemia.net/collections/rick-owens-2"},
     {"name": "Performa",          "city": "Atlanta",                "feed": "https://performaatlanta.com/collections/rick-owens.atom",        "link": "https://performaatlanta.com/collections/rick-owens"},
+    {"name": "Crybynoon Archive", "city": "Pasadena, MD",           "feed": "https://crybynoon.com/collections/rick-owens.atom",              "link": "https://crybynoon.com/collections/rick-owens"},
     # Outside the US. Prices are converted to USD on the page (original shown alongside).
     {"name": "VSP Consignment",   "city": "Calgary, Canada",        "feed": "https://vspconsignment.com/collections/rick-owens.atom",         "link": "https://vspconsignment.com/en-us/collections/rick-owens"},
     {"name": "DRIEW",             "city": "Toronto, Canada",        "feed": "https://driewgarments.com/collections/rick-owens.atom",          "link": "https://driewgarments.com/collections/rick-owens"},
@@ -68,6 +69,9 @@ SHOPS = [
                                                                               "https://shopthroat.com/collections/rick-owens-drkshdw.atom"],  "link": "https://shopthroat.com/collections/rick-owens"},
     {"name": "Archive Factory",   "city": "Tokyo, Japan",           "feed": "https://archive-factory.com/collections/rick-owens.atom",        "link": "https://archive-factory.com/collections/rick-owens"},
     {"name": "Elevated Archives", "city": "Padua, Italy",           "feed": "https://elevated-archives.com/collections/rick-owens.atom",      "link": "https://elevated-archives.com/collections/rick-owens"},
+    {"name": "Sunday Nightmare",  "city": "Bangkok, Thailand",      "feed": "https://sundaynightmare.com/collections/rick-owens.atom",        "link": "https://sundaynightmare.com/collections/rick-owens"},
+    {"name": "DolceVitaHub",      "city": "Paris area, France",     "feed": "https://dolcevitahub.com/collections/rick-owens.atom",           "link": "https://dolcevitahub.com/collections/rick-owens"},
+    {"name": "Nationalbunker",    "city": "Switzerland",            "feed": "https://nationalbunker.store/collections/rick-owens-1.atom",     "link": "https://nationalbunker.store/collections/rick-owens-1"},
 ]
 
 # DRKSHDW is Rick Owens' diffusion line and is often listed without "Rick Owens"
@@ -379,7 +383,7 @@ def parse_time(s):
 
 # Rough fallback (units per US dollar) if no exchange-rate service answers and
 # no earlier rates were saved. Only used to place foreign prices in the USD filter.
-FALLBACK_RATES = {"USD": 1.0, "CAD": 1.38, "EUR": 0.92, "GBP": 0.78, "JPY": 150.0, "AUD": 1.52}
+FALLBACK_RATES = {"USD": 1.0, "CAD": 1.38, "EUR": 0.92, "GBP": 0.78, "JPY": 150.0, "AUD": 1.52, "CHF": 0.80}
 RATE_SOURCES = [
     "https://api.frankfurter.dev/v1/latest?base=USD",
     "https://api.frankfurter.app/latest?from=USD",
@@ -412,8 +416,8 @@ def build_atom(items, generated):
              '<feed xmlns="http://www.w3.org/2005/Atom">',
              f"<title>Rick Feed</title><id>urn:rick-feed</id><updated>{esc(generated)}</updated>"]
     for i in newest:
-        usd = i.get("price_usd", i.get("price"))
-        price = (("~" if i.get("currency", "USD") != "USD" else "") + f"${usd:,.0f}") if usd is not None else ""
+        cur = i.get("currency") or "USD"
+        price = (f"${i['price']:,.0f}" if cur == "USD" else f"{i['price']:,.0f} {cur}") if i.get("price") is not None else ""
         label = " · ".join(x for x in [price, i.get("size"), i["shop"]] if x)
         body = (f'<p><img src="{esc(i["image"])}" width="300"></p>' if i.get("image") else "") + f"<p>{esc(label)}</p>"
         parts.append(f'<entry><id>urn:rick-feed:{esc(i["shop"])}:{esc(i["id"])}</id>'
@@ -642,7 +646,7 @@ button.tog:hover,.tog:hover{color:var(--ink);border-color:var(--ink)}
 .t{color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .price{margin-top:14px;font-weight:500}
 .price s{color:var(--soft);font-weight:400;margin-left:8px}
-.price .orig{color:var(--soft);font-weight:400;margin-left:8px}
+.price .cur{display:inline-block;margin-left:8px;padding:1px 5px;font-size:9px;letter-spacing:.1em;line-height:1.4;border:1px solid currentColor;vertical-align:1px}
 .row{display:flex;justify-content:space-between;gap:12px;margin-top:12px;font-weight:500}
 .row .go{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .size{white-space:nowrap;color:var(--ink)}
@@ -720,10 +724,9 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt
 const money = (n, cur) => n == null ? "" : new Intl.NumberFormat("en-US", {style:"currency", currency: cur || "USD", maximumFractionDigits: n % 1 ? 2 : 0}).format(n);
 const usd = i => i.price_usd ?? i.price;
 const foreign = i => i.currency && i.currency !== "USD";
-// Foreign prices: approximate USD first (what the filter uses), the shop's own price after it.
-const priceHtml = i => foreign(i) && i.price_usd != null
-  ? `~${money(Math.round(i.price_usd), "USD")}<span class="orig">${money(i.price, i.currency)}</span>`
-  : money(i.price, i.currency);
+// Prices show in the shop's own currency; non-USD ones get a currency tag so they stand out.
+// (The price filter and sorting use an approximate USD figure behind the scenes.)
+const priceHtml = i => money(i.price, i.currency) + (foreign(i) ? `<span class="cur">${esc(i.currency)}</span>` : "");
 function ago(iso){
   if (!iso) return "";
   const s = (Date.now() - new Date(iso).getTime()) / 1000;
@@ -750,7 +753,7 @@ if (SITE) {
   $("#newLabel").textContent = "New since last visit";
   $("#markSeen").hidden = false;
   $("#sort").value = "seen";
-  $("#foot").innerHTML = '<a href="feed.xml">Feed (RSS)</a><span>~ marks a price converted to USD from the shop\'s currency, at the day\'s rate</span>';
+  $("#foot").innerHTML = '<a href="feed.xml">Feed (RSS)</a><span>Prices are in each shop\'s own currency; non-US dollar prices are tagged (CAD, EUR, CHF)</span>';
 }
 DATA.items.forEach(i => { i.line = i.line || "Rick Owens"; i.display = cleanTitle(i.title); });
 $("#q").value = ""; $("#onlyNew").checked = false; $("#onlyDrop").checked = false; $("#line").value = "";
