@@ -973,7 +973,9 @@ def render_page(brand, payload, built=()):
 # The henge mark, after the hand-drawn sketch: a ring of standing stones and trilithons
 # seen from above, in chunky rounded outlines with a little crayon roughness. It's built
 # from 3D blocks so tops and sides show, the same way the splash page draws its henge.
-def henge_svg(uid="hg", paper="var(--henge-paper,var(--bg,#fff))", ink="currentColor", extra_style=""):
+def henge_svg(uid="hg", paper="var(--henge-paper,var(--bg,#fff))", ink="currentColor", extra_style="",
+              only=None, W=100, H=64, pad=6, stroke=3.3, rough=2.2, stretch=1.0):
+    """The whole henge, or with only= a subset of its elements (by index), e.g. the front trilithon for the favicon."""
     import random as _random
     boxes = []   # (x, z, width, height, depth, yaw, base height)
 
@@ -988,9 +990,11 @@ def henge_svg(uid="hg", paper="var(--henge-paper,var(--bg,#fff))", ink="currentC
         if kind == "T":   # a lintel across the pair
             boxes.append((x, z, 2 * w + gap + .5, 1.0, d + .15, yaw + .03, h))
 
-    for row in (("T", -1.95, 2.9, 1.4, .3, 1.3, .55), ("S", -.35, 3.2, 1.5, 0, 1.1, .12), ("P", .85, 3.6, 1.7, .2, 1.6, -.3),
-                ("T", 1.85, 2.8, 2.0, .25, 1.9, -.6), ("T", 2.95, 2.4, 2.3, .3, 1.7, .08)):
-        stones(*row)
+    rows = (("T", -1.95, 2.9, 1.4, .3, 1.3, .55), ("S", -.35, 3.2, 1.5, 0, 1.1, .12), ("P", .85, 3.6, 1.7, .2, 1.6, -.3),
+            ("T", 1.85, 2.8, 2.0, .25, 1.9, -.6), ("T", 2.95, 2.4, 2.3, .3, 1.7, .08))
+    for i, row in enumerate(rows):
+        if only is None or i in only:
+            stones(*row[:2], row[2] * stretch, *row[3:])   # stretch: taller uprights (the favicon's single trilithon)
     el, dist = .6, 22
     cam = (0, dist * math.sin(el), dist * math.cos(el))
     f = (0 - cam[0], 1.2 - cam[1], 0 - cam[2]); fl = math.sqrt(sum(v * v for v in f)); f = [v / fl for v in f]
@@ -1016,7 +1020,6 @@ def henge_svg(uid="hg", paper="var(--henge-paper,var(--bg,#fff))", ink="currentC
         drawn.append((math.dist(ctr, cam), vis))
     drawn.sort(key=lambda t: -t[0])   # far stones first, so near ones cover them
     pts = [p for _, vis in drawn for q in vis for p in q]
-    W, H, pad = 100, 64, 6
     x0, x1, y0_, y1 = min(p[0] for p in pts), max(p[0] for p in pts), min(p[1] for p in pts), max(p[1] for p in pts)
     sc = min((W - 2 * pad) / (x1 - x0), (H - 2 * pad) / (y1 - y0_))
     ox, oy = (W - (x1 - x0) * sc) / 2 - x0 * sc, (H - (y1 - y0_) * sc) / 2 - y0_ * sc
@@ -1037,13 +1040,15 @@ def henge_svg(uid="hg", paper="var(--henge-paper,var(--bg,#fff))", ink="currentC
     paths = "".join(f'<path d="{outline(q)}"/>' for _, vis in drawn for q in vis)
     return (f'<svg class="henge" viewBox="0 0 {W} {H}" aria-hidden="true" focusable="false"{extra_style}>'
             f'<defs><filter id="{uid}" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".6" numOctaves="2" seed="4"/>'
-            f'<feDisplacementMap in="SourceGraphic" scale="2.2" xChannelSelector="R" yChannelSelector="G"/></filter></defs>'
-            f'<g filter="url(#{uid})" fill="{paper}" stroke="{ink}" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round">{paths}</g></svg>')
+            f'<feDisplacementMap in="SourceGraphic" scale="{rough}" xChannelSelector="R" yChannelSelector="G"/></filter></defs>'
+            f'<g filter="url(#{uid})" fill="{paper}" stroke="{ink}" stroke-width="{stroke}" stroke-linejoin="round" stroke-linecap="round">{paths}</g></svg>')
 
 
 HENGE_SVG = henge_svg("hg-top")
 FAVICON = ("data:image/svg+xml," + urllib.parse.quote(
-    henge_svg("f", paper="#fff", ink="#111").replace('class="henge" ', 'xmlns="http://www.w3.org/2000/svg" ')
+    # just the front trilithon, taller and bolder, so it reads in a 16px browser tab
+    henge_svg("f", paper="#fff", ink="#111", only={4}, W=64, H=64, pad=4, stroke=6.5, rough=1.0, stretch=1.8)
+    .replace('class="henge" ', 'xmlns="http://www.w3.org/2000/svg" ')
     .replace(' aria-hidden="true" focusable="false"', '')
     .replace("<defs>", "<style>@media (prefers-color-scheme: dark){g{fill:#161616;stroke:#eee}}</style><defs>", 1)))
 
