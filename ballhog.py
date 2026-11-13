@@ -471,7 +471,12 @@ def brand_listings(brand, shop, plan, crawled):
 ARTICLES_EVERY_MINUTES = 55
 ARTICLES_KEEP_DAYS = 400
 ARTICLES_MAX = 150           # per designer
+ARTICLES_RULES = 2           # bump when the matching rules change, to re-read straight away
 TAG_RE = re.compile(r"<[^>]+>")
+# Results that are shops or reference pages, not articles.
+NOT_ARTICLES = re.compile(r"\b(?:lyst|ebay|farfetch|ssense|grailed|vestiaire|the\s*realreal|mercari|poshmark|depop|stockx|goat|"
+                          r"mytheresa|net-a-porter|mr\s*porter|matches(?:fashion)?|nordstrom|saks|neiman|end\.?\s*clothing|amazon|etsy|"
+                          r"britannica|wikipedia|fandom|pinterest|instagram|tiktok|youtube|facebook|reddit)\b", re.I)
 
 
 def feed_entries(raw):
@@ -531,8 +536,9 @@ def gather_articles(saved, run_at, run_iso):
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         results = list(pool.map(read, jobs))
-    oldest = (run_at - dt.timedelta(days=ARTICLES_KEEP_DAYS)).isoformat()
-    log, added = [], 0
+    oldest_for = {b["slug"]: (run_at - dt.timedelta(days=b.get("news", {}).get("keep_days", ARTICLES_KEEP_DAYS))).isoformat() for b in BRANDS}
+    oldest = min(oldest_for.values())
+    log, added, status = [], 0, {}
     for (kind, x), entries, err in results:
         found = 0
         for title, link, published, text, source in entries:
@@ -542,11 +548,13 @@ def gather_articles(saved, run_at, run_iso):
                 # Google News titles end in " - Source"
                 if source and title.endswith(" - " + source):
                     title = title[: -len(source) - 3].strip()
-                targets = [x] if about(x, title) else []
+                targets = [x] if about(x, title) and not NOT_ARTICLES.search(source + " " + link) else []
             else:
                 source = x["name"]
                 targets = [b for b in BRANDS if about(b, title) or about(b, text[:600])]
             for b in targets:
+                if published and published < oldest_for[b["slug"]]:
+                    continue
                 bucket = saved.setdefault(b["slug"], {})
                 k = article_key(title)
                 have = bucket.get(k)
@@ -557,12 +565,14 @@ def gather_articles(saved, run_at, run_iso):
                 elif kind == "pub" and "news.google." in have["url"]:
                     have["url"] = link          # prefer the publication's own link
         added += found
+        status[x["name"] if kind == "pub" else "News: " + x["name"]] = err or f"{len(entries)} read, {found} new"
         if err or kind == "pub":
             log.append(f"  {(x['name'] if kind == 'pub' else 'News: ' + x['name']):<28} {err or f'{len(entries)} read, {found} new'}")
     for slug, bucket in saved.items():
         keep = sorted(bucket.items(), key=lambda kv: kv[1]["published"], reverse=True)
-        saved[slug] = dict([kv for kv in keep if kv[1]["published"] >= oldest][:ARTICLES_MAX])
-    return added, log
+        saved[slug] = dict([kv for kv in keep if kv[1]["published"] >= oldest_for.get(slug, oldest)
+                            and not NOT_ARTICLES.search(kv[1]["source"] + " " + kv[1]["url"])][:ARTICLES_MAX])
+    return added, log, status
 
 
 def load_state(path):
@@ -717,9 +727,10 @@ def main():
     except Exception:
         articles = {"checked": "", "by_designer": {}}
     if (articles.get("checked", "") < (run_at - dt.timedelta(minutes=ARTICLES_EVERY_MINUTES)).isoformat()
-            or set(articles.get("slugs", [])) != SLUGS):   # hourly, or straight away for a new designer
-        added, art_log = gather_articles(articles.setdefault("by_designer", {}), run_at, run_iso)
-        articles["checked"], articles["slugs"] = run_iso, sorted(SLUGS)
+            or set(articles.get("slugs", [])) != SLUGS or articles.get("rules") != ARTICLES_RULES):
+        # hourly, or straight away for a new designer or new matching rules
+        added, art_log, articles["sources"] = gather_articles(articles.setdefault("by_designer", {}), run_at, run_iso)
+        articles["checked"], articles["slugs"], articles["rules"] = run_iso, sorted(SLUGS), ARTICLES_RULES
         print(f"\nArticles: {added} new." + ("\n" + "\n".join(art_log) if art_log else ""))
         text = json.dumps(articles, indent=1, sort_keys=True, ensure_ascii=False)
         articles_file.parent.mkdir(parents=True, exist_ok=True)
