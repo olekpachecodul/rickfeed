@@ -34,10 +34,6 @@ header{flex-direction:column;justify-content:center;padding:46px 0 12px;gap:8px}
 .price{font-weight:300}
 .row{font-weight:300;color:var(--muted)}
 footer{justify-content:center;border-top:1px solid var(--line);padding-top:16px}
-.sites{justify-content:center;font-weight:300}
-.sites .home{font-family:"Bodoni Moda","Didot",serif;font-weight:400}
-.sites a[aria-current=page]{font-style:italic}
-@media (max-width:640px){.sites{justify-content:flex-start}}
 @media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .views{justify-content:center}
 .arts{margin:0 auto}

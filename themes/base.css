@@ -107,13 +107,7 @@ footer a:hover{color:var(--ink)}
 @media (max-width:520px){.bar{gap:10px 16px}.bar input[type=search]{flex-basis:100%}.tog{height:28px;padding:0 10px}
   .shops{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 calc(-1 * var(--gut));padding:14px var(--gut) 8px}.shops::-webkit-scrollbar{display:none}.shop{flex:none}}
 /* site switcher: the family of designer feeds */
-.sites{display:flex;gap:4px 18px;padding:14px 0 0;font-size:9px;color:var(--muted);overflow-x:auto;scrollbar-width:none;white-space:nowrap}
-.sites::-webkit-scrollbar{display:none}
-.sites a{flex:none;padding:2px 0}
-.sites a:hover{color:var(--ink)}
-.sites a[aria-current=page]{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 .more{height:1px}
-.sites .home{font-weight:700;letter-spacing:.24em;color:var(--ink);margin-right:6px}
 /* Pieces / Articles */
 .views{display:flex;gap:18px;margin-top:14px;font-size:10px}
 .views a{padding:2px 0;color:var(--muted);border-bottom:1px solid transparent}
@@ -130,3 +124,32 @@ footer a:hover{color:var(--ink)}
 .arts a:hover .at{text-decoration:underline;text-underline-offset:3px}
 .artnote{margin:20px 0 0;color:var(--muted);font-size:.9em}
 @media (max-width:640px){.arts a{grid-template-columns:1fr}}
+/* Top bar: the henge and Ballhog on the left (home), the designers menu on the right.
+   The Ballhog mark keeps one typeface on every page; everything else takes the theme's. */
+html.menu-open{overflow:hidden}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0 4px}
+.logo{display:inline-flex;align-items:center;gap:9px;color:var(--ink);font:700 17px/1 "Inter Tight","Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:-.02em;text-transform:none}
+.logo .henge{width:30px;height:21px;flex:none}
+.logo:hover span{text-decoration:underline;text-underline-offset:3px}
+.menu-btn,.menu-x{width:44px;height:44px;margin-right:-6px;padding:0;display:inline-flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;background:none;border:0;border-radius:0;cursor:pointer;color:var(--ink)}
+.menu-btn span{display:block;width:22px;height:2px;background:currentColor;border-radius:1px;transition:transform .15s}
+.menu-btn:hover span:nth-child(2){transform:translateX(-3px)}
+.menu-x{font:300 36px/1 "Helvetica Neue",Helvetica,Arial,sans-serif}
+.menu{position:fixed;inset:0;z-index:50;background:var(--bg);color:var(--ink);overflow-y:auto;overscroll-behavior:contain;opacity:0;transform:translateY(-6px);transition:opacity .18s ease,transform .18s ease}
+.menu.in{opacity:1;transform:none}
+.menu-in{max-width:1680px;margin:0 auto;padding:0 max(var(--gut),env(safe-area-inset-right)) 56px max(var(--gut),env(safe-area-inset-left))}
+.menu-q{display:block;width:100%;max-width:520px;margin:30px 0 18px;padding:8px 0;background:transparent;border:0;border-bottom:1px solid var(--ink);border-radius:0;font-size:16px;text-transform:none;letter-spacing:0;outline:0;-webkit-appearance:none}
+.menu-q::placeholder{color:var(--soft)}
+.menu-q:focus-visible{border-bottom-width:2px;padding-bottom:7px}
+.menu-list{list-style:none;margin:0;padding:0;columns:2 340px;column-gap:56px}
+.menu-list li{break-inside:avoid}
+.menu-list a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0 10px;border-bottom:1px solid var(--line)}
+.menu-list .mn{font-size:clamp(21px,2.4vw,30px);line-height:1.15;text-transform:none;letter-spacing:-.01em}
+.menu-list .mc{color:var(--muted);font-size:11px;white-space:nowrap}
+.menu-list a:hover .mn,.menu-list a:focus-visible .mn{text-decoration:underline;text-underline-offset:4px}
+.menu-list a:focus-visible{outline:0}
+.menu-list a[aria-current=page] .mn::before{content:"";display:inline-block;width:.32em;height:.32em;margin:0 .35em .14em 0;border-radius:50%;background:currentColor;vertical-align:middle}
+.menu-none{color:var(--muted);text-transform:none}
+.menu-home{display:inline-block;margin-top:30px;color:var(--muted);text-decoration:underline;text-underline-offset:3px}
+.menu-home:hover{color:var(--ink)}
+@media (prefers-reduced-motion:reduce){.menu,.menu-btn span{transition:none}}

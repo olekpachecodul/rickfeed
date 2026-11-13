@@ -32,6 +32,3 @@ header{padding:20px 0 6px;align-items:flex-end}
 .price{font-weight:600;font-size:14px}
 .row{font-weight:600}
 footer{border-top:4px solid var(--line);padding-top:12px}
-.sites{font-weight:600;font-size:11px}
-.sites .home{font-family:"Anton",Impact,sans-serif;font-weight:400;letter-spacing:.06em;font-size:13px}
-.sites a[aria-current=page]{background:var(--ink);color:var(--bg);text-decoration:none;padding:2px 6px}

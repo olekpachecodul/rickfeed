@@ -33,10 +33,6 @@ header{flex-direction:column;justify-content:center;padding:34px 0 12px;gap:4px}
 .row{justify-content:center;gap:14px;font-weight:400;color:var(--muted)}
 .src{text-align:center}
 footer{justify-content:center;border-top:1px solid var(--line);padding-top:14px}
-.sites{justify-content:center}
-.sites .home{font-family:"Playfair Display",Georgia,serif;font-weight:500}
-.sites a[aria-current=page]{color:var(--tan);text-decoration:none}
-@media (max-width:640px){.sites{justify-content:flex-start}}
 .views{justify-content:center}
 .arts{margin:0 auto}
 .artnote{text-align:center}
