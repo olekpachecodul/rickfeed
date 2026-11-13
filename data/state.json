@@ -3950,7 +3950,7 @@
    "first_seen": "2026-11-12T03:50:47+00:00",
    "last_seen": "2026-11-13",
    "price": 200.0,
-   "sold": false
+   "sold": true
   },
   "Luke's|https://lukes.store/products/15419991490864": {
    "category": "Bottoms",
@@ -5380,6 +5380,71 @@
    "first_seen": "2026-11-13T00:39:32+00:00",
    "last_seen": "2026-11-13",
    "price": 800.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971928506528": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T01:21:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971944562848": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T01:21:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 125.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971955572896": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T01:21:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971961471136": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T01:21:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 140.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971984441504": {
+   "category": "Tops",
+   "colours": [
+    "White",
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T01:21:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 120.0,
+   "sold": false
+  },
+  "Midtown Archive|https://midtownarchive.com/products/15971985752224": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T01:21:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 135.0,
    "sold": false
   },
   "Nationalbunker|https://nationalbunker.store/products/15196730032451": {
