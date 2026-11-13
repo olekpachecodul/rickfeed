@@ -2621,6 +2621,17 @@
    "price": 299.9,
    "sold": false
   },
+  "ann|2nd Street|https://ec.2ndstreetusa.com/products/15439045722221": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:48:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 549.9,
+   "sold": false
+  },
   "ann|2nd Street|https://ec.2ndstreetusa.com/products/7650494251117": {
    "category": "Bottoms",
    "colours": [
@@ -62271,6 +62282,17 @@
    "price": 199.9,
    "sold": false
   },
+  "issey|2nd Street|https://ec.2ndstreetusa.com/products/8049087610989": {
+   "category": "Bottoms",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:48:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 109.9,
+   "sold": false
+  },
   "issey|2nd Street|https://ec.2ndstreetusa.com/products/8050071142509": {
    "category": "Footwear",
    "colours": [],
@@ -83555,7 +83577,7 @@
    "first_seen": "2026-11-10T22:43:27+00:00",
    "last_seen": "2026-11-13",
    "price": 395.0,
-   "sold": false
+   "sold": true
   },
   "issey|VSP Consignment|https://vspconsignment.com/products/7446264840383": {
    "category": "Outerwear",
@@ -102614,6 +102636,17 @@
    "first_seen": "2026-11-10T22:01:14+00:00",
    "last_seen": "2026-11-13",
    "price": 299.9,
+   "sold": false
+  },
+  "margiela|2nd Street|https://ec.2ndstreetusa.com/products/15439046082669": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:48:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 349.9,
    "sold": false
   },
   "margiela|2nd Street|https://ec.2ndstreetusa.com/products/15444291616877": {
@@ -173742,7 +173775,7 @@
    "first_seen": "2026-11-06T02:45:10+00:00",
    "last_seen": "2026-11-13",
    "price": 99.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Planet Vintage|https://planetvintage.store/products/15477814296729": {
    "category": "Tops",
@@ -210343,6 +210376,39 @@
    "first_seen": "2026-11-13T22:03:03+00:00",
    "last_seen": "2026-11-13",
    "price": 415.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513908347109": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:48:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 235.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513911066853": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:48:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 485.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513930006757": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:48:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 735.0,
    "sold": false
   },
   "rick|Archive Threads|https://archivethreads.ca/products/9642043834597": {
@@ -249803,6 +249869,15 @@
    "first_seen": "2026-11-13T22:03:03+00:00",
    "last_seen": "2026-11-13",
    "price": 730.0,
+   "sold": false
+  },
+  "soshiotsuki|Huiben|https://huibenshop.com/products/8106541842493": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:48:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 575.0,
    "sold": false
   },
   "soshiotsuki|Huiben|https://huibenshop.com/products/8106541875261": {
