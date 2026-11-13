@@ -646,21 +646,5 @@
     "ralph-lauren"
    ]
   }
- },
- {
-  "name": "FineClothing",
-  "city": "",
-  "root": "https://www.fineclothing.com",
-  "collections": {
-   "ralph": [
-    "ralph-lauren"
-   ]
-  }
- },
- {
-  "name": "Lotique USA",
-  "city": "",
-  "root": "https://shop.lotiqueusa.com",
-  "collections": {}
  }
 ]
