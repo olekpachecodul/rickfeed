@@ -1,4 +1,4 @@
-name: Rick Feed
+name: Ballhog
 
 on:
   schedule:
@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: rick-feed
+  group: ballhog
   cancel-in-progress: false
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
           ref: main   # always the latest, also when re-running an older run
 
       - name: Check the shops and build the page
-        run: python3 rick_feed.py --site site --state data/state.json
+        run: python3 ballhog.py --site site --state data/state.json
 
       - name: Save what's been seen
         continue-on-error: true   # never let this stop the page from publishing

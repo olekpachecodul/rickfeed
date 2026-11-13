@@ -1,0 +1,108 @@
+[
+ {
+  "slug": "rick",
+  "title": "Rick Feed",
+  "name": "Rick Owens",
+  "match": "rick\\s*owens|drk\\s*shdw|drk\\s*shadow|drksdhw|drkshw|dark\\s*shadow",
+  "lines": [
+   [
+    "DRKSHDW",
+    "drk\\s*shdw|drk\\s*shadow|drksdhw|drkshw|dark\\s*shadow"
+   ],
+   [
+    "Lilies",
+    "\\blilies\\b"
+   ]
+  ],
+  "strip": "(?:rick\\s*owens\\s*)?(?:(?:drk\\s*shdw|drkshdw|lilies)\\s*)?",
+  "strict": false,
+  "theme": "rick",
+  "fonts": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap",
+  "theme_color": [
+   "#E5E5E5",
+   "#000000"
+  ],
+  "placeholder": "Search: geobasket, bela, 48, leather",
+  "labels": {}
+ },
+ {
+  "slug": "kiko",
+  "title": "Kiko Feed",
+  "name": "Kiko Kostadinov",
+  "match": "kiko\\s*kostadinov",
+  "lines": [
+   [
+    "ASICS",
+    "asics"
+   ]
+  ],
+  "strip": "(?:kiko\\s*kostadinov\\s*)?(?:x\\s+)?",
+  "theme": "kiko",
+  "fonts": "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;800&display=swap",
+  "theme_color": [
+   "#F3F3F3",
+   "#141414"
+  ],
+  "placeholder": "Search: hector, tabi, asics, 48",
+  "price_style": "code"
+ },
+ {
+  "slug": "lang",
+  "title": "Lang Feed",
+  "name": "Helmut Lang",
+  "match": "helmut\\s*lang",
+  "lines": [
+   [
+    "Jeans",
+    "helmut\\s*lang\\s*jeans"
+   ]
+  ],
+  "strip": "(?:(?:vintage|archive)\\s+)?(?:helmut\\s*lang\\s*)?",
+  "theme": "lang",
+  "fonts": "",
+  "theme_color": [
+   "#FFFFFF",
+   "#000000"
+  ],
+  "placeholder": "search: bondage, astro, painter, 1998"
+ },
+ {
+  "slug": "rafcalvin",
+  "title": "205W39NYC Feed",
+  "name": "Calvin Klein 205W39NYC",
+  "match": "205\\s*w\\s*39|calvin\\s*klein\\s*205|raf\\s*simons?\\s*(?:x\\s*|for\\s*)?calvin|calvin\\s*klein\\s*(?:by\\s*)?raf",
+  "strict": true,
+  "lines": [],
+  "strip": "(?:calvin\\s*klein\\s*)?(?:205\\s*w\\s*39\\s*nyc\\s*)?(?:(?:by\\s*)?raf\\s*simons\\s*)?",
+  "theme": "rafcalvin",
+  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&display=swap",
+  "theme_color": [
+   "#FFD500",
+   "#0E0E0E"
+  ],
+  "placeholder": "Search: firefighter, warhol, jaws, western"
+ },
+ {
+  "slug": "soshiotsuki",
+  "title": "Soshiotsuki Feed",
+  "name": "Soshiotsuki",
+  "match": "soshi\\s*otsuki",
+  "lines": [],
+  "strip": "(?:soshi\\s*otsuki\\s*)?",
+  "theme": "soshiotsuki",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=EB+Garamond:wght@400;500&display=swap",
+  "theme_color": [
+   "#FFFFFF",
+   "#121110"
+  ],
+  "placeholder": "Search: kimono, double-breasted, 46",
+  "labels": {
+   "Category": "分類 Category",
+   "Colour": "色 Colour",
+   "Price (USD)": "価格 Price (USD)",
+   "Filters": "絞込 Filters",
+   "Hide sold": "売切を隠す Hide sold",
+   "Price cuts": "値下げ Price cuts"
+  }
+ }
+]

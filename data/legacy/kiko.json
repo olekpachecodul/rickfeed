@@ -1,0 +1,699 @@
+{
+ "items": {
+  "DRIEW|https://driewgarments.com/products/7393189298254": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-07-03T21:35:39+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": true
+  },
+  "DRIEW|https://driewgarments.com/products/7421495771214": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-07-31T21:56:10+00:00",
+   "last_seen": "2026-11-13",
+   "price": 110.0,
+   "sold": true
+  },
+  "DRIEW|https://driewgarments.com/products/7472164929614": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-10-01T00:31:46+00:00",
+   "last_seen": "2026-11-13",
+   "price": 80.0,
+   "sold": true
+  },
+  "DRIEW|https://driewgarments.com/products/7491744792654": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-10-23T21:20:52+00:00",
+   "last_seen": "2026-11-13",
+   "price": 265.0,
+   "sold": true
+  },
+  "Elevated Archives|https://elevated-archives.com/products/15489728610639": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-15T14:02:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 750.0,
+   "sold": true
+  },
+  "Elevated Archives|https://elevated-archives.com/products/15489729265999": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-15T14:02:56+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": true
+  },
+  "Elevated Archives|https://elevated-archives.com/products/15490691563855": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-15T14:14:53+00:00",
+   "last_seen": "2026-11-13",
+   "price": 550.0,
+   "sold": false
+  },
+  "Elevated Archives|https://elevated-archives.com/products/15725837189455": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-11-02T17:45:50+00:00",
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7031031922822": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-03-16T16:47:12+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1450.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7189003534470": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-06-07T17:17:02+00:00",
+   "last_seen": "2026-11-13",
+   "price": 1150.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7364702765190": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-29T21:08:12+00:00",
+   "last_seen": "2026-11-13",
+   "price": 465.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7364714856582": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-29T21:43:27+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7371341365382": {
+   "category": "Tops",
+   "colours": [
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-04-13T19:55:20+00:00",
+   "last_seen": "2026-11-13",
+   "price": 140.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7376362078342": {
+   "category": "Other",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-04-11T18:46:16+00:00",
+   "last_seen": "2026-11-13",
+   "price": 635.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7376362209414": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-04-11T18:51:01+00:00",
+   "last_seen": "2026-11-13",
+   "price": 685.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7376694575238": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-12T19:06:53+00:00",
+   "last_seen": "2026-11-13",
+   "price": 210.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7395674980486": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-05-18T19:18:24+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7436099879046": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-30T20:16:42+00:00",
+   "last_seen": "2026-11-13",
+   "price": 130.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7437465321606": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-08-02T21:55:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 380.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7437465682054": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-27T18:52:25+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7440038461574": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-31T21:55:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 365.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7464899707014": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-10-16T18:07:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 120.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7490554101894": {
+   "category": "Other",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-05T22:51:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7490554495110": {
+   "category": "Other",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-05T22:51:12+00:00",
+   "last_seen": "2026-11-13",
+   "price": 180.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7505176264838": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-11-29T18:27:06+00:00",
+   "last_seen": "2026-11-13",
+   "price": 80.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7512065409158": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-12-16T22:59:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7513870270598": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-01-08T20:06:17+00:00",
+   "last_seen": "2026-11-13",
+   "price": 225.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7546006241414": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-20T19:28:49+00:00",
+   "last_seen": "2026-11-13",
+   "price": 160.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7546009026694": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-20T19:52:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 120.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7546022985862": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-20T20:26:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 185.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7554634219654": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-03-06T22:17:39+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7587321512070": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-04-23T18:15:26+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7611774632070": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-05-29T20:03:07+00:00",
+   "last_seen": "2026-11-13",
+   "price": 375.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7639295852678": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-27T21:49:22+00:00",
+   "last_seen": "2026-11-13",
+   "price": 50.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7639296409734": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T21:49:51+00:00",
+   "last_seen": "2026-11-13",
+   "price": 40.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7649456652422": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-08T18:39:31+00:00",
+   "last_seen": "2026-11-13",
+   "price": 125.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7655036944518": {
+   "category": "Other",
+   "colours": [
+    "White",
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-12T21:39:59+00:00",
+   "last_seen": "2026-11-13",
+   "price": 130.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7655037042822": {
+   "category": "Other",
+   "colours": [
+    "Blue",
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-12T21:40:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 130.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7655037239430": {
+   "category": "Other",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-12T21:51:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 130.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7655037370502": {
+   "category": "Other",
+   "colours": [
+    "Grey",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-12T21:40:14+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7668940046470": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-30T19:36:32+00:00",
+   "last_seen": "2026-11-13",
+   "price": 65.0,
+   "sold": true
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7696605347974": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-23T22:29:27+00:00",
+   "last_seen": "2026-11-13",
+   "price": 240.0,
+   "sold": false
+  },
+  "Final Blow|https://www.finalblowchicago.com/products/7696615866502": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-23T22:34:11+00:00",
+   "last_seen": "2026-11-13",
+   "price": 175.0,
+   "sold": true
+  },
+  "Justin Reed|https://justinreed.com/products/15430147211578": {
+   "category": "Bottoms",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-23T19:48:05+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": false
+  },
+  "Justin Reed|https://justinreed.com/products/9753203802426": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-06T20:41:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
+  "Justin Reed|https://justinreed.com/products/9806953152826": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-02-14T21:07:01+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": true
+  },
+  "Justin Reed|https://justinreed.com/products/9808447471930": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-02-14T20:58:31+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": true
+  },
+  "Justin Reed|https://justinreed.com/products/9899526193466": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-05-09T19:52:51+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "Justin Reed|https://justinreed.com/products/9974045704506": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-08-01T19:45:51+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": true
+  },
+  "Luke's|https://lukes.store/products/10044086649136": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-12-26T23:39:45+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15051892293936": {
+   "category": "Bottoms",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-18T20:59:46+00:00",
+   "last_seen": "2026-11-13",
+   "price": 200.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15111108559152": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-05-22T23:06:55+00:00",
+   "last_seen": "2026-11-13",
+   "price": 125.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15143688339760": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-19T23:34:23+00:00",
+   "last_seen": "2026-11-13",
+   "price": 75.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15158726885680": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-11T21:00:56+00:00",
+   "last_seen": "2026-11-13",
+   "price": 150.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15233739718960": {
+   "category": "Outerwear",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-22T02:16:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15275892343088": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-09-09T23:02:46+00:00",
+   "last_seen": "2026-11-13",
+   "price": 400.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15275893752112": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-09-09T23:02:51+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15362108031280": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-17T02:22:36+00:00",
+   "last_seen": "2026-11-13",
+   "price": 500.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15371329896752": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-21T16:03:58+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15377800462640": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-23T03:06:39+00:00",
+   "last_seen": "2026-11-13",
+   "price": 75.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/15390172381488": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-29T02:16:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 100.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/9677377700144": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-11T01:26:50+00:00",
+   "last_seen": "2026-11-13",
+   "price": 225.0,
+   "sold": false
+  },
+  "Luke's|https://lukes.store/products/9885662314800": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-06-20T00:36:41+00:00",
+   "last_seen": "2026-11-13",
+   "price": 250.0,
+   "sold": false
+  },
+  "Sad\u014d Room|https://sadoroom.com/products/10255123087430": {
+   "category": "Footwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-16T20:01:20+00:00",
+   "last_seen": "2026-11-13",
+   "price": 170.0,
+   "sold": false
+  },
+  "Sad\u014d Room|https://sadoroom.com/products/10304553615430": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-06T20:54:49+00:00",
+   "last_seen": "2026-11-13",
+   "price": 160.0,
+   "sold": false
+  },
+  "Sad\u014d Room|https://sadoroom.com/products/8331027349574": {
+   "category": "Other",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-08T19:34:37+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": false
+  },
+  "Street Commerce|https://streetcommerce.shop/products/10080772456767": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-08-21T22:48:04+00:00",
+   "last_seen": "2026-11-13",
+   "price": 275.0,
+   "sold": false
+  },
+  "Street Commerce|https://streetcommerce.shop/products/10125222936895": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-10-10T17:35:48+00:00",
+   "last_seen": "2026-11-13",
+   "price": 125.0,
+   "sold": false
+  },
+  "Street Commerce|https://streetcommerce.shop/products/10243769860415": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-25T21:52:18+00:00",
+   "last_seen": "2026-11-13",
+   "price": 125.0,
+   "sold": false
+  }
+ },
+ "rates": {
+  "CAD": 1.4249,
+  "EUR": 0.90245
+ }
+}
