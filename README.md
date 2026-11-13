@@ -2,8 +2,8 @@
 
 The newest secondhand listings for a run of designers, gathered from resale shops, one page per designer.
 
-**Live at https://ballhog.hengecorp.com**. The home page is a splash (a crayon henge, drawn live, circling slowly) over an index of
-every designer. Each designer has a page at `/<slug>/` (slugs in `brands.json`: `rick`, `kiko`, `lang`, `rafcalvin`, `soshiotsuki`,
+**Live at https://ballhog.hengecorp.com**. The home page is a splash (a crayon henge, drawn live, circling slowly; drag it to spin it) over an index of
+every designer. It holds still for devices set to reduce motion; its Animate / Pause button overrides that and is remembered. Each designer has a page at `/<slug>/` (slugs in `brands.json`: `rick`, `kiko`, `lang`, `rafcalvin`, `soshiotsuki`,
 `cdg`, `margiela`, `undercover`, `gaultier`, `yohji`, `raf`, `issey`, `numbernine`, `ann`, `bbs`, `ccp`, `guidi`)
 and an RSS feed at `/<slug>/feed.xml`.
 
