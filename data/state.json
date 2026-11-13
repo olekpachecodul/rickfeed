@@ -11060,7 +11060,7 @@
    "first_seen": "2026-06-10T05:10:42+00:00",
    "last_seen": "2026-11-13",
    "price": 1185.0,
-   "sold": false
+   "sold": true
   },
   "ccp|Archive Threads|https://archivethreads.ca/products/9642296901861": {
    "category": "Bags & accessories",
@@ -17310,7 +17310,7 @@
    "first_seen": "2026-07-16T20:27:52+00:00",
    "last_seen": "2026-11-13",
    "price": 279.9,
-   "sold": false
+   "sold": true
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/8124837920877": {
    "category": "Bottoms",
@@ -88093,6 +88093,17 @@
    "price": 149.9,
    "sold": false
   },
+  "lang|2nd Street|https://ec.2ndstreetusa.com/products/15444314652781": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:03:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 249.9,
+   "sold": false
+  },
   "lang|2nd Street|https://ec.2ndstreetusa.com/products/7037985259629": {
    "category": "Tops",
    "colours": [
@@ -113285,7 +113296,7 @@
    "first_seen": "2026-11-12T03:07:19+00:00",
    "last_seen": "2026-11-13",
    "price": 250.0,
-   "sold": false
+   "sold": true
   },
   "margiela|Luke's|https://lukes.store/products/15420106965296": {
    "category": "Tops",
@@ -113351,6 +113362,50 @@
    "first_seen": "2026-11-13T00:05:41+00:00",
    "last_seen": "2026-11-13",
    "price": 350.0,
+   "sold": false
+  },
+  "margiela|Luke's|https://lukes.store/products/15427859874096": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:03:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 350.0,
+   "sold": false
+  },
+  "margiela|Luke's|https://lukes.store/products/15427860660528": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:03:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": true
+  },
+  "margiela|Luke's|https://lukes.store/products/15427860693296": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:03:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 300.0,
+   "sold": false
+  },
+  "margiela|Luke's|https://lukes.store/products/15427861184816": {
+   "category": "Footwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:03:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 450.0,
    "sold": false
   },
   "margiela|Luke's|https://lukes.store/products/9735284785456": {
@@ -114062,6 +114117,15 @@
    "first_seen": "2026-11-13T20:28:18+00:00",
    "last_seen": "2026-11-13",
    "price": 160.0,
+   "sold": false
+  },
+  "margiela|Midtown Archive|https://midtownarchive.com/products/15973100880032": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:03:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 135.0,
    "sold": false
   },
   "margiela|Pilgrim|https://pilgrimnyc.com/products/14756922294432": {
@@ -127207,7 +127271,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T20:13:17+00:00",
    "last_seen": "2026-11-13",
-   "price": 3935.0,
+   "price": 3936.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7987186925792": {
@@ -190114,7 +190178,7 @@
    "first_seen": "2026-11-10T16:11:56+00:00",
    "last_seen": "2026-11-13",
    "price": 54.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16433344741763": {
    "category": "Tops",
@@ -210268,6 +210332,17 @@
    "first_seen": "2026-11-13T21:34:45+00:00",
    "last_seen": "2026-11-13",
    "price": 385.0,
+   "sold": false
+  },
+  "rick|Archive Threads|https://archivethreads.ca/products/15513782911205": {
+   "category": "Footwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:03:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 415.0,
    "sold": false
   },
   "rick|Archive Threads|https://archivethreads.ca/products/9642043834597": {
@@ -249721,6 +249796,15 @@
    "price": 830.0,
    "sold": false
   },
+  "soshiotsuki|Huiben|https://huibenshop.com/products/8106541776957": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-13T22:03:03+00:00",
+   "last_seen": "2026-11-13",
+   "price": 730.0,
+   "sold": false
+  },
   "soshiotsuki|Huiben|https://huibenshop.com/products/8106541875261": {
    "category": "Outerwear",
    "colours": [],
@@ -268061,7 +268145,7 @@
    "first_seen": "2026-11-01T21:34:16+00:00",
    "last_seen": "2026-11-13",
    "price": 2400.0,
-   "sold": false
+   "sold": true
   },
   "yohji|DRIEW|https://driewgarments.com/products/8190678335566": {
    "category": "Bottoms",
