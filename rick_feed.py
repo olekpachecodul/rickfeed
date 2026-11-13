@@ -81,14 +81,46 @@ LILIES = re.compile(r"\blilies\b", re.I)
 RICK = re.compile(r"rick\s*owens|" + DRK.pattern, re.I)
 
 
+# ---------------------------------------------------------------------------
+# Brand. Rick Owens is the default; the sister feeds (Kiko Kostadinov, Helmut
+# Lang, ...) live in their own repos and pass --brand brand.json, which can set
+# any of these keys plus "shops". See README.
+# ---------------------------------------------------------------------------
+BRAND = {
+    "id": "rick-feed",
+    "title": "Rick Feed",
+    "name": "Rick Owens",                     # default line label
+    "match": RICK.pattern,                    # what counts as this brand (title or vendor)
+    "lines": [["DRKSHDW", DRK.pattern], ["Lilies", LILIES.pattern]],  # first match wins
+    "strip": r"(?:rick\s*owens\s*)?(?:(?:drk\s*shdw|drkshdw|lilies)\s*)?",  # repeated prefix dropped from card titles
+    "strict": False,                          # True: drop non-matching items from every feed, not just brand_only ones
+    "theme": "rick",                          # themes/<theme>.css
+    "fonts": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap",
+    "theme_color": ["#E5E5E5", "#000000"],
+    "placeholder": "Search: geobasket, bela, 48, leather",
+    "labels": {},                             # optional UI wording, e.g. {"Category": "区分 Category"}
+}
+BRAND_RE = RICK
+LINE_RES = [(label, re.compile(pat, re.I)) for label, pat in BRAND["lines"]]
+
+
+def load_brand(path):
+    """Apply a sister feed's brand.json: brand settings plus its own SHOPS."""
+    global BRAND_RE, LINE_RES, SHOPS
+    cfg = json.loads(Path(path).read_text(encoding="utf-8"))
+    SHOPS = cfg.pop("shops", SHOPS)
+    BRAND.update(cfg)
+    BRAND_RE = re.compile(BRAND["match"], re.I)
+    LINE_RES = [(label, re.compile(pat, re.I)) for label, pat in BRAND.get("lines", [])]
+
+
 def line_of(title, vendor):
-    """Which Rick Owens line a listing belongs to, for the card label and filter."""
+    """Which line (e.g. DRKSHDW) a listing belongs to, for the card label and filter."""
     text = f"{title} {vendor}"
-    if DRK.search(text):
-        return "DRKSHDW"
-    if LILIES.search(text) and RICK.search(text):
-        return "Lilies"
-    return "Rick Owens"
+    for label, rx in LINE_RES:
+        if rx.search(text):
+            return label
+    return BRAND["name"]
 # ---------------------------------------------------------------------------
 # Category and colour. Shops label things inconsistently, so these are worked
 # out from the shop's product type, the colour option, variant names and the
@@ -211,7 +243,7 @@ def parse_feed(shop, raw):
     for e in root.findall("a:entry", NS):
         title = (e.findtext("a:title", "", NS) or "").strip()
         vendor = (e.findtext("s:vendor", "", NS) or "").strip()
-        if shop.get("rick_only") and not (RICK.search(title) or RICK.search(vendor)):
+        if (shop.get("rick_only") or shop.get("brand_only") or BRAND.get("strict")) and not (BRAND_RE.search(title) or BRAND_RE.search(vendor)):
             continue
         link = ""
         for l in e.findall("a:link", NS):
@@ -414,13 +446,13 @@ def build_atom(items, generated):
     esc = lambda s: html.escape(str(s or ""), quote=True)
     parts = ['<?xml version="1.0" encoding="utf-8"?>',
              '<feed xmlns="http://www.w3.org/2005/Atom">',
-             f"<title>Rick Feed</title><id>urn:rick-feed</id><updated>{esc(generated)}</updated>"]
+             f"<title>{esc(BRAND['title'])}</title><id>urn:{esc(BRAND['id'])}</id><updated>{esc(generated)}</updated>"]
     for i in newest:
         cur = i.get("currency") or "USD"
         price = (f"${i['price']:,.0f}" if cur == "USD" else f"{i['price']:,.0f} {cur}") if i.get("price") is not None else ""
         label = " · ".join(x for x in [price, i.get("size"), i["shop"]] if x)
         body = (f'<p><img src="{esc(i["image"])}" width="300"></p>' if i.get("image") else "") + f"<p>{esc(label)}</p>"
-        parts.append(f'<entry><id>urn:rick-feed:{esc(i["shop"])}:{esc(i["id"])}</id>'
+        parts.append(f'<entry><id>urn:{esc(BRAND["id"])}:{esc(i["shop"])}:{esc(i["id"])}</id>'
                      f'<title>{esc(i["title"])} ({esc(label)})</title>'
                      f'<link href="{esc(i["link"])}"/><updated>{esc(i["first_seen"])}</updated>'
                      f'<content type="html">{esc(body)}</content></entry>')
@@ -433,6 +465,8 @@ def main():
         sys.stdout.reconfigure(errors="replace")
     except Exception:
         pass
+    if arg_value("--brand"):
+        load_brand(arg_value("--brand"))
     site_dir = arg_value("--site")
     state_file = Path(arg_value("--state") or STATE_FILE)
     site_mode = site_dir is not None
@@ -517,17 +551,17 @@ def main():
 
     data = {"mode": "site" if site_mode else "local", "generated": run_iso, "previous": prev_run,
             "first_run": first_run, "shops": shops_out, "items": all_items,
-            "categories": ["Outerwear", "Tops", "Bottoms", "Dresses", "Footwear", "Bags & accessories", "Other"], "colours": [[n, sw] for n, sw, _ in COLOURS]}
+            "categories": ["Outerwear", "Tops", "Bottoms", "Dresses", "Footwear", "Bags & accessories", "Other"], "brand": {"name": BRAND["name"], "strip": BRAND["strip"], "price_style": BRAND.get("price_style", "symbol")}, "colours": [[n, sw] for n, sw, _ in COLOURS]}
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     out_file.parent.mkdir(parents=True, exist_ok=True)
-    out_file.write_text(PAGE.replace("__DATA__", payload), encoding="utf-8")
+    out_file.write_text(render_page(payload), encoding="utf-8")
     if site_mode:
         (out_file.parent / "feed.xml").write_text(build_atom(all_items, run_iso), encoding="utf-8")
         (out_file.parent / ".nojekyll").write_text("", encoding="utf-8")
 
     new_count = sum(1 for i in all_items if i.get("is_new"))
     failed = [s["name"] for s in shops_out if s["error"]]
-    print(f"\n{len(all_items)} Rick Owens listings" + ("" if first_run else f", {new_count} new since last run") + ".")
+    print(f"\n{len(all_items)} {BRAND['name']} listings" + ("" if first_run else f", {new_count} new since last run") + ".")
     cats = {}
     for i in all_items:
         cats[i.get("category", "Other")] = cats.get(i.get("category", "Other"), 0) + 1
@@ -543,142 +577,55 @@ def main():
         webbrowser.open(out_file.resolve().as_uri())
 
 
+def render_page(payload):
+    esc = lambda x: html.escape(str(x), quote=True)
+    labels = BRAND.get("labels") or {}
+    lines = BRAND.get("lines") or []
+    options = "".join(f'\n      <option value="{esc(l)}">{esc(labels.get(l, l))}</option>' for l in [BRAND["name"]] + [l for l, _ in lines])
+    page = PAGE
+    for word, text in labels.items():   # optional wording per brand, on marked labels only
+        page = page.replace(f">{word}<", f">{text}<")
+    css = "\n".join((HERE / "themes" / f"{t}.css").read_text(encoding="utf-8") for t in ("base", BRAND["theme"]))
+    if not BRAND.get("fonts"):   # system fonts only: drop the font links
+        page = re.sub(r'<link rel="(?:preconnect|stylesheet)" href="(?:https://fonts\.[^"]*|__FONTS__)"[^>]*>\n', "", page)
+    return (page.replace("__THEME__", css)
+                .replace("__TITLE__", esc(BRAND["title"]))
+                .replace("__FONTS__", esc(BRAND["fonts"]))
+                .replace("__TC_LIGHT__", esc(BRAND["theme_color"][0])).replace("__TC_DARK__", esc(BRAND["theme_color"][1]))
+                .replace("__PLACEHOLDER__", esc(BRAND["placeholder"]))
+                .replace("__LINE_HIDDEN__", "" if lines else " hidden")
+                .replace("__LINE_OPTIONS__", options)
+                .replace("__DATA__", payload))
+
+
 PAGE = r"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#E5E5E5" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
-<title>Rick Feed</title>
+<meta name="theme-color" content="__TC_LIGHT__" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="__TC_DARK__" media="(prefers-color-scheme: dark)">
+<title>__TITLE__</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="__FONTS__">
 <style>
-/* Gallery-quiet: flat studio grey, black type, tiny tracked capitals, product shots floating on the page. */
-:root{
-  --bg:#E5E5E5; --ink:#000000; --muted:#666666; --soft:#8A8A8A; --line:#C9C9C9;
-  --tag-ink:#FFFFFF; --ph:#E5E5E5; --blend:multiply; --fit:contain;
-  --f:"Montserrat","Gotham","Helvetica Neue",Arial,sans-serif;
-  --track:.08em; --gut:40px;
-}
-@media (prefers-color-scheme: dark){:root{
-  --bg:#000000; --ink:#FFFFFF; --muted:#8A8A8A; --soft:#5C5C5C; --line:#262626;
-  --tag-ink:#000000; --ph:#111111; --blend:normal; --fit:cover;
-  color-scheme:dark;
-}}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 11px/1.6 var(--f);letter-spacing:var(--track);text-transform:uppercase;-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}
-button,input,select{font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit}
-.wrap{max-width:1680px;margin:0 auto;padding:0 max(var(--gut),env(safe-area-inset-left)) 0 max(var(--gut),env(safe-area-inset-right))}
-
-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0 10px}
-.mark{font-weight:500;font-size:13px;letter-spacing:.32em;margin:0}
-.count{color:var(--ink);white-space:nowrap}
-.crumbs{font-size:9px;line-height:1.5;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 0}
-.crumbs > span:not(:last-child)::after{content:"/";margin:0 7px;color:var(--soft)}
-.crumbs b{font-weight:400;color:var(--ink)}
-.notice{margin-top:12px;font-size:9px;color:var(--muted);max-width:110ch}
-.notice a{color:var(--ink);text-decoration:underline;text-underline-offset:2px}
-
-.bar{position:sticky;top:0;z-index:5;background:var(--bg);margin-top:18px;padding:12px 0;display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;border-bottom:1px solid var(--line)}
-.bar input[type=search]{flex:1 1 220px;min-width:0;background:transparent;border:0;border-bottom:1px solid var(--ink);border-radius:0;padding:6px 0;outline:0;-webkit-appearance:none}
-.bar input[type=search]::placeholder{color:var(--soft)}
-.bar input[type=search]:focus-visible{border-bottom-width:2px;padding-bottom:5px}
-.sel{position:relative;display:inline-flex;align-items:center}
-.sel select{-webkit-appearance:none;appearance:none;background:transparent;border:0;border-radius:0;padding:6px 16px 6px 0;cursor:pointer}
-.sel::after{content:"";position:absolute;right:2px;top:50%;width:5px;height:5px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-70%) rotate(45deg);pointer-events:none}
-.sel option{text-transform:none;background:var(--bg);color:var(--ink)}
-.togs{display:flex;flex-wrap:wrap;gap:8px}
-.tog{position:relative;display:inline-flex;align-items:center;height:30px;padding:0 12px;border:1px solid var(--soft);color:var(--muted);cursor:pointer;user-select:none;background:transparent;white-space:nowrap}
-.tog input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
-.tn{margin-left:6px;opacity:.6}
-.grid > .empty{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;margin:0}
-.tog:has(input:checked){background:var(--ink);border-color:var(--ink);color:var(--tag-ink)}
-.tog:has(input:focus-visible){outline:1px solid var(--ink);outline-offset:3px}
-button.tog{border-color:var(--soft)}
-button.tog:hover,.tog:hover{color:var(--ink);border-color:var(--ink)}
-.tog:has(input:checked):hover{color:var(--tag-ink)}
-
-.filters{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,3fr) minmax(0,2fr);gap:20px 40px;padding:18px 0 20px;border-bottom:1px solid var(--line)}
-.filters[hidden]{display:none}
-.fg h2{margin:0 0 10px;font-size:9px;font-weight:500;letter-spacing:.14em;color:var(--muted)}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{display:inline-flex;align-items:center;gap:7px;height:28px;padding:0 10px;border:1px solid var(--line);background:transparent;cursor:pointer;font-size:10px;white-space:nowrap}
-.chip .tn{margin-left:0}
-.chip[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--tag-ink)}
-.chip:hover{border-color:var(--ink)}
-.chip.zero:not([aria-pressed=true]){color:var(--soft)}
-.sw{width:10px;height:10px;flex:none;box-shadow:inset 0 0 0 1px rgba(128,128,128,.45)}
-.price-in{display:flex;align-items:center;gap:10px}
-.price-in label{display:flex;align-items:center;gap:6px;flex:1 1 0;min-width:0;border-bottom:1px solid var(--ink);padding:5px 0}
-.price-in input{width:100%;min-width:0;background:transparent;border:0;outline:0;padding:0}
-.price-in input::placeholder{color:var(--soft)}
-.price-in label:focus-within{border-bottom-width:2px;padding-bottom:4px}
-.presets{margin-top:10px}
-.clear{margin-top:14px;background:none;border:0;padding:0;cursor:pointer;color:var(--muted);text-decoration:underline;text-underline-offset:3px;font-size:9px}
-.clear:hover{color:var(--ink)}
-#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--ink);border-color:var(--ink);color:var(--tag-ink)}
-@media (max-width:900px){.filters{grid-template-columns:1fr;gap:22px}}
-.shops{display:flex;flex-wrap:wrap;gap:6px 18px;padding:14px 0 6px}
-.shop{border:0;background:none;padding:2px 0;cursor:pointer;font-size:10px;color:var(--ink)}
-.shop .n{color:var(--soft);margin-left:5px}
-.shop[aria-pressed=false]{color:var(--soft);text-decoration:line-through}
-.shop.err .n{color:var(--muted)}
-.shop:hover{text-decoration:underline;text-underline-offset:3px}
-
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:64px 24px;padding:36px 0 96px}
-.card{display:flex;flex-direction:column;min-width:0}
-.ph{position:relative;aspect-ratio:3/4;background:var(--ph);overflow:hidden}
-.ph img{position:relative;z-index:1;width:100%;height:100%;object-fit:var(--fit);mix-blend-mode:var(--blend);display:block;transition:opacity .2s}
-.card:hover .ph img{opacity:.86}
-.noimg{position:absolute;inset:0;display:none;place-items:center;color:var(--soft);font-size:10px}
-.ph.noi .noimg{display:grid}
-.badges{position:absolute;z-index:2;left:0;top:0;display:flex;gap:4px;flex-wrap:wrap}
-.b{font-size:9px;font-weight:500;letter-spacing:.12em;padding:4px 7px;line-height:1.2}
-.b.new{background:var(--ink);color:var(--tag-ink)}
-.b.drop{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
-.b.sold{background:var(--soft);color:#FFFFFF}
-.line{margin-top:16px;font-weight:500}
-.t{color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.price{margin-top:14px;font-weight:500}
-.price s{color:var(--soft);font-weight:400;margin-left:8px}
-.price .cur{display:inline-block;margin-left:8px;padding:1px 5px;font-size:9px;letter-spacing:.1em;line-height:1.4;border:1px solid currentColor;vertical-align:1px}
-.row{display:flex;justify-content:space-between;gap:12px;margin-top:12px;font-weight:500}
-.row .go{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.row .size{white-space:nowrap;color:var(--ink)}
-.card:hover .go{text-decoration:underline;text-underline-offset:3px}
-.src{font-size:9px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.card.sold .ph img{opacity:.45;filter:grayscale(1)}
-.card.sold .price{color:var(--soft);text-decoration:line-through}
-.empty{padding:48px 0;color:var(--muted)}
-footer{padding:0 0 48px;font-size:9px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 24px}
-footer a:hover{color:var(--ink)}
-:focus-visible{outline:1px solid var(--ink);outline-offset:3px}
-@media (prefers-reduced-motion:reduce){.ph img{transition:none}}
-@media (max-width:900px){:root{--gut:16px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 16px;padding-top:28px}}
-@media (max-width:520px){.bar{gap:10px 16px}.bar input[type=search]{flex-basis:100%}.tog{height:28px;padding:0 10px}
-  .shops{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 calc(-1 * var(--gut));padding:14px var(--gut) 8px}.shops::-webkit-scrollbar{display:none}.shop{flex:none}}
+__THEME__
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1 class="mark">Rick Feed</h1>
+    <h1 class="mark">__TITLE__</h1>
     <span class="count" id="count"></span>
   </header>
   <div class="crumbs" id="meta"></div>
   <div class="notice" id="notice" hidden></div>
   <div class="bar">
-    <input type="search" id="q" autocomplete="off" placeholder="Search: geobasket, bela, 48, leather" aria-label="Search listings">
-    <span class="sel"><select id="line" autocomplete="off" aria-label="Line">
-      <option value="">All lines</option>
-      <option value="Rick Owens">Rick Owens</option>
-      <option value="DRKSHDW">DRKSHDW</option>
-      <option value="Lilies">Lilies</option>
+    <input type="search" id="q" autocomplete="off" placeholder="__PLACEHOLDER__" aria-label="Search listings">
+    <span class="sel"__LINE_HIDDEN__><select id="line" autocomplete="off" aria-label="Line">
+      <option value="">All lines</option>__LINE_OPTIONS__
     </select></span>
     <span class="sel"><select id="sort" autocomplete="off" aria-label="Sort">
       <option value="new">Newest listed</option>
@@ -726,7 +673,9 @@ const usd = i => i.price_usd ?? i.price;
 const foreign = i => i.currency && i.currency !== "USD";
 // Prices show in the shop's own currency; non-USD ones get a currency tag so they stand out.
 // (The price filter and sorting use an approximate USD figure behind the scenes.)
-const priceHtml = i => money(i.price, i.currency) + (foreign(i) ? `<span class="cur">${esc(i.currency)}</span>` : "");
+const priceHtml = i => DATA.brand.price_style === "code"
+  ? (i.price == null ? "" : `${new Intl.NumberFormat("en-US", {maximumFractionDigits: i.price % 1 ? 2 : 0}).format(i.price)} ${esc(i.currency || "USD")}`)
+  : money(i.price, i.currency) + (foreign(i) ? `<span class="cur">${esc(i.currency)}</span>` : "");
 function ago(iso){
   if (!iso) return "";
   const s = (Date.now() - new Date(iso).getTime()) / 1000;
@@ -736,7 +685,7 @@ function ago(iso){
   return d < 60 ? d + (d === 1 ? " day ago" : " days ago") : new Date(iso).toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric"});
 }
 // The line label already sits above the title, so drop a repeated "Rick Owens DRKSHDW" prefix.
-const PREFIX = /^\s*(?:(?:pre-?owned|new|used)\s+)?(?:rick\s*owens\s*)?(?:(?:drk\s*shdw|drkshdw|lilies)\s*)?(?:[-–—:\/|]\s*)?/i;
+const PREFIX = new RegExp("^\\s*(?:(?:pre-?owned|new|used)\\s+)?" + DATA.brand.strip + "(?:[-–—:\\/|]\\s*)?", "i");
 const cleanTitle = t => { const c = String(t || "").replace(PREFIX, "").trim(); return c.length > 2 ? c : t; };
 const SITE = DATA.mode === "site";
 const fmt = (iso, o) => new Date(iso).toLocaleString("en-US", o);
@@ -755,7 +704,7 @@ if (SITE) {
   $("#sort").value = "seen";
   $("#foot").innerHTML = '<a href="feed.xml">Feed (RSS)</a><span>Prices are in each shop\'s own currency; non-US dollar prices are tagged (CAD, EUR, CHF)</span>';
 }
-DATA.items.forEach(i => { i.line = i.line || "Rick Owens"; i.display = cleanTitle(i.title); });
+DATA.items.forEach(i => { i.line = i.line || DATA.brand.name; i.display = cleanTitle(i.title); });
 $("#q").value = ""; $("#onlyNew").checked = false; $("#onlyDrop").checked = false; $("#line").value = "";
 const off = new Set();
 const when = fmt(DATA.generated, {weekday:"short", month:"short", day:"numeric", hour:"numeric", minute:"2-digit"});

@@ -1,0 +1,48 @@
+{
+ "id": "rafcalvin-feed",
+ "title": "205W39NYC Feed",
+ "name": "Calvin Klein 205W39NYC",
+ "match": "205\\s*w\\s*39|calvin\\s*klein\\s*205|raf\\s*simons?\\s*(?:x\\s*|for\\s*)?calvin|calvin\\s*klein\\s*(?:by\\s*)?raf",
+ "strict": true,
+ "lines": [],
+ "strip": "(?:calvin\\s*klein\\s*)?(?:205\\s*w\\s*39\\s*nyc\\s*)?(?:(?:by\\s*)?raf\\s*simons\\s*)?",
+ "theme": "rafcalvin",
+ "fonts": "https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&display=swap",
+ "theme_color": [
+  "#FFD500",
+  "#0E0E0E"
+ ],
+ "placeholder": "Search: firefighter, warhol, jaws, western",
+ "shops": [
+  {
+   "name": "Sui Generis",
+   "city": "San Francisco",
+   "feed": "https://suigenerisconsignment.com/collections/calvin-klein-collection.atom",
+   "link": "https://suigenerisconsignment.com/collections/calvin-klein-collection"
+  },
+  {
+   "name": "Justin Reed",
+   "city": "Los Angeles + New York",
+   "feed": "https://justinreed.com/collections/calvin-klein-205w39nyc.atom",
+   "link": "https://justinreed.com/collections/calvin-klein-205w39nyc"
+  },
+  {
+   "name": "Street Commerce",
+   "city": "Charlotte",
+   "feed": "https://streetcommerce.shop/collections/calvin-klein-205w39nyc.atom",
+   "link": "https://streetcommerce.shop/collections/calvin-klein-205w39nyc"
+  },
+  {
+   "name": "Archive On Waters",
+   "city": "Seattle",
+   "feed": "https://archiveonwaters.store/collections/raf-simons.atom",
+   "link": "https://archiveonwaters.store/collections/raf-simons"
+  },
+  {
+   "name": "Sunday Nightmare",
+   "city": "Bangkok, Thailand",
+   "feed": "https://sundaynightmare.com/collections/calvin-klein.atom",
+   "link": "https://sundaynightmare.com/collections/calvin-klein"
+  }
+ ]
+}

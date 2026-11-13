@@ -1,0 +1,45 @@
+/* Helmut Lang (archive era): stark white, black Helvetica, small lowercase text,
+   generous space, hairline rules and nothing decorative. */
+:root{
+  --bg:#FFFFFF; --ink:#000000; --muted:#6F6F6F; --soft:#A8A8A8; --line:#000000;
+  --tag-ink:#FFFFFF; --ph:#FFFFFF; --blend:multiply; --fit:contain;
+  --f:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --track:0; --gut:48px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#000000; --ink:#FFFFFF; --muted:#9A9A9A; --soft:#5A5A5A; --line:#FFFFFF;
+  --tag-ink:#000000; --ph:#000000; --blend:normal; --fit:cover;
+}}
+body{font:400 11px/1.45 var(--f);text-transform:lowercase;letter-spacing:0}
+header{padding:40px 0 18px;border-bottom:1px solid var(--line)}
+.mark{font-weight:700;font-size:13px;letter-spacing:.02em;text-transform:uppercase}
+.count{font-size:11px}
+.crumbs{margin-top:10px;font-size:10px}
+.crumbs > span:not(:last-child)::after{content:"|";margin:0 8px}
+.bar{border-bottom:1px solid var(--line);margin-top:0;padding:10px 0;gap:8px 28px}
+.bar input[type=search]{border-bottom:0;flex:1 1 200px}
+.bar input[type=search]:focus-visible{border-bottom:0;padding-bottom:6px;outline:1px solid var(--ink)}
+.sel::after{width:4px;height:4px}
+.togs{gap:20px}
+.tog{border:0;height:auto;padding:0;color:var(--muted)}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:none;color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+button.tog:hover,.tog:hover{color:var(--ink)}
+.tog:has(input:checked):hover{color:var(--ink)}
+.filters{border-bottom:1px solid var(--line)}
+.fg h2{font-size:10px;font-weight:400;color:var(--muted)}
+.chip{border:0;height:auto;padding:2px 0;margin-right:14px;color:var(--muted)}
+.chip[aria-pressed=true]{background:none;color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.sw{width:8px;height:8px}
+.shops{padding:12px 0 0;gap:4px 20px}
+.shop{font-size:11px}
+.grid{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:72px 40px;padding:56px 0 120px}
+.ph{aspect-ratio:2/3}
+.b{font-size:10px;font-weight:400;letter-spacing:0;padding:2px 5px}
+.line{margin-top:14px;font-weight:700;text-transform:uppercase;font-size:10px}
+.t{text-transform:lowercase}
+.price{margin-top:8px;font-weight:400}
+.price .cur{border:0;padding:0;font-size:10px}
+.row{margin-top:4px;font-weight:400;color:var(--muted)}
+.src{font-size:10px}
+footer{border-top:1px solid var(--line);padding-top:16px;font-size:10px}
+@media (max-width:900px){:root{--gut:20px}.grid{gap:48px 20px}}

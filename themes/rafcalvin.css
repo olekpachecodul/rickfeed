@@ -1,0 +1,37 @@
+/* 205W39NYC (Raf Simons at Calvin Klein, 2017-18): American workwear meets museum white.
+   Wide-tracked bold capitals, black on white, safety-yellow band and fire-engine red. */
+:root{
+  --bg:#FFFFFF; --ink:#111111; --muted:#5B5B5B; --soft:#9D9D9D; --line:#111111;
+  --tag-ink:#FFFFFF; --ph:#F2F0EA; --blend:multiply; --fit:contain;
+  --yellow:#FFD500; --red:#D3231B;
+  --f:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --track:.04em; --gut:32px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0E0E0E; --ink:#F2F0EA; --muted:#A3A3A3; --soft:#5E5E5E; --line:#F2F0EA;
+  --tag-ink:#0E0E0E; --ph:#1A1A1A; --blend:normal; --fit:cover;
+}}
+body{font:400 12px/1.5 var(--f);border-top:14px solid var(--yellow)}
+header{padding:26px 0 12px}
+.mark{font-weight:800;font-size:22px;letter-spacing:.42em;font-stretch:112%}
+@media (max-width:520px){.mark{font-size:16px;letter-spacing:.24em}}
+.count{font-weight:700}
+.crumbs{font-size:10px}
+.crumbs b{font-weight:700}
+.bar{border-top:3px solid var(--line);border-bottom:1px solid var(--line);margin-top:14px}
+.tog{border:2px solid var(--line);color:var(--ink);font-weight:700;height:32px}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--yellow);border-color:var(--line);color:#111111}
+.tog:has(input:checked):hover{color:#111111}
+.fg h2{font-weight:800;color:var(--ink);letter-spacing:.2em}
+.chip{border:2px solid var(--line);font-weight:700}
+.chip[aria-pressed=true]{background:var(--yellow);color:#111111;border-color:var(--line)}
+.shop{font-weight:700}
+.grid{gap:56px 20px}
+.ph{border:2px solid var(--line);aspect-ratio:4/5}
+.b{font-weight:800;letter-spacing:.14em;font-size:10px}
+.b.new{background:var(--red);color:#FFFFFF}
+.b.drop{background:var(--yellow);color:#111111;box-shadow:none}
+.line{font-weight:800;letter-spacing:.24em;margin-top:12px}
+.price{font-weight:800}
+.row{font-weight:700}
+footer{border-top:3px solid var(--line);padding-top:14px}
