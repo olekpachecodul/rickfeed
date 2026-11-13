@@ -27,27 +27,31 @@ CHAINS = re.compile(r"goodwill|salvation army|savers|value village|plato|uptown 
 log = []
 def note(*a):
     s = " ".join(str(x) for x in a); print(s, flush=True); log.append(s)
+    open("probe/cities.txt", "w").write("\n".join(log))   # keep progress even if the job is cut short
+START = time.time()
 
+ENDPOINTS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter", "https://overpass.private.coffee/api/interpreter"]
 def overpass(lat, lon, r):
-    q = f"""[out:json][timeout:90];
+    q = f"""[out:json][timeout:50];
 (
   nwr(around:{r*1000},{lat},{lon})["shop"="second_hand"];
   nwr(around:{r*1000},{lat},{lon})["shop"~"^(clothes|boutique|fashion|shoes)$"]["second_hand"~"^(yes|only)$"];
-  nwr(around:{r*1000},{lat},{lon})["shop"~"^(clothes|boutique)$"]["name"~"archive|consign|vintage|resale|designer|luxury",i];
 );
 out tags;"""
-    for attempt in range(3):
+    for ep in ENDPOINTS:
         try:
             data = urllib.parse.urlencode({"data": q}).encode()
-            with urllib.request.urlopen(urllib.request.Request("https://overpass-api.de/api/interpreter", data=data, headers=UA), timeout=120) as r:
+            with urllib.request.urlopen(urllib.request.Request(ep, data=data, headers=UA), timeout=60) as r:
                 return json.loads(r.read()).get("elements", [])
         except Exception as e:
-            time.sleep(10 * (attempt + 1))
+            note(f"   {ep.split('/')[2]} failed: {str(e)[:60]}")
     return None
 
 shops = {}   # domain -> {names, metros}
 counts = {}
 for metro, (lat, lon, r) in METROS.items():
+    if time.time() - START > 20 * 60:
+        note("harvest time limit reached; stopping at " + metro); break
     els = overpass(lat, lon, r)
     if els is None:
         note(f"{metro}: Overpass failed"); continue
@@ -71,7 +75,7 @@ note(f"TOTAL unique shop websites: {len(shops)}")
 GUESS = ["rick-owens", "rickowens", "rick-owens-1", "rick-owens-drkshdw", "drkshdw"]
 def get(url):
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": rf.USER_AGENT, "Accept": "application/json"}), timeout=15) as r:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": rf.USER_AGENT, "Accept": "application/json"}), timeout=10) as r:
             return json.loads(r.read())
     except Exception:
         return None
@@ -97,10 +101,23 @@ def test(dom):
     return dom, {"name": meta.get("name"), "city": meta.get("city"), "country": meta.get("country"), "currency": meta.get("currency"),
                  "collections": best, "rick_search_hits": sum(1 for p in hits if rf.RICK.search(p.get("title", "") + " " + p.get("vendor", "")))}
 results = {}
-with concurrent.futures.ThreadPoolExecutor(6) as pool:
-    for dom, r in pool.map(test, sorted(shops)):
+TEST_START = time.time()
+pool = concurrent.futures.ThreadPoolExecutor(8)
+futs = {pool.submit(test, d): d for d in sorted(shops)}
+done = 0
+try:
+    for f in concurrent.futures.as_completed(futs, timeout=20 * 60):
+        dom, r = f.result()
+        done += 1
         if r is not None:
             results[dom] = dict(r, osm_names=sorted(shops[dom]["names"])[:2], metros=sorted(shops[dom]["metros"]))
+            if r["collections"]:
+                note(f"   found: {dom} {[(c['handle'], c['rick'], c['avail']) for c in r['collections']]}")
+        if done % 100 == 0:
+            note(f"   tested {done}/{len(futs)}; Shopify so far {len(results)}")
+except concurrent.futures.TimeoutError:
+    note(f"test time limit reached after {done}/{len(futs)} sites")
+pool.shutdown(wait=False, cancel_futures=True)
 hits = {d: r for d, r in results.items() if r["collections"]}
 some_rick = {d: r for d, r in results.items() if not r["collections"] and r["rick_search_hits"]}
 note(f"Shopify sites: {len(results)}; with a Rick collection: {len(hits)}; Rick in stock but no collection: {len(some_rick)}")
