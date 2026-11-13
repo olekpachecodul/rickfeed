@@ -1,0 +1,66 @@
+{
+ "id": "kiko-feed",
+ "title": "Kiko Feed",
+ "name": "Kiko Kostadinov",
+ "match": "kiko\\s*kostadinov",
+ "lines": [
+  [
+   "ASICS",
+   "asics"
+  ]
+ ],
+ "strip": "(?:kiko\\s*kostadinov\\s*)?(?:x\\s+)?",
+ "theme": "kiko",
+ "fonts": "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;800&display=swap",
+ "theme_color": [
+  "#F3F3F3",
+  "#141414"
+ ],
+ "placeholder": "Search: hector, tabi, asics, 48",
+ "price_style": "code",
+ "shops": [
+  {
+   "name": "Luke's",
+   "city": "New York + Los Angeles",
+   "feed": "https://lukes.store/collections/kiko-kostadinov.atom",
+   "link": "https://lukes.store/collections/kiko-kostadinov"
+  },
+  {
+   "name": "Justin Reed",
+   "city": "Los Angeles + New York",
+   "feed": "https://justinreed.com/collections/kiko-kostadinov.atom",
+   "link": "https://justinreed.com/collections/kiko-kostadinov"
+  },
+  {
+   "name": "Sadō Room",
+   "city": "Seattle",
+   "feed": "https://sadoroom.com/collections/kiko-kostadinov.atom",
+   "link": "https://sadoroom.com/collections/kiko-kostadinov"
+  },
+  {
+   "name": "Street Commerce",
+   "city": "Charlotte",
+   "feed": "https://streetcommerce.shop/collections/kiko-kostadinov.atom",
+   "link": "https://streetcommerce.shop/collections/kiko-kostadinov"
+  },
+  {
+   "name": "Final Blow",
+   "city": "Chicago",
+   "feed": "https://www.finalblowchicago.com/collections/all.atom",
+   "link": "https://www.finalblowchicago.com/search?type=product&q=kiko+kostadinov",
+   "brand_only": true
+  },
+  {
+   "name": "DRIEW",
+   "city": "Toronto, Canada",
+   "feed": "https://driewgarments.com/collections/kiko-kostadinov.atom",
+   "link": "https://driewgarments.com/collections/kiko-kostadinov"
+  },
+  {
+   "name": "Elevated Archives",
+   "city": "Padua, Italy",
+   "feed": "https://elevated-archives.com/collections/kiko-kostadinov.atom",
+   "link": "https://elevated-archives.com/collections/kiko-kostadinov"
+  }
+ ]
+}

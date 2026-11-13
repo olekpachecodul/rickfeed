@@ -1,0 +1,55 @@
+/* Kiko Kostadinov: pale grey page on a dotted grid, plain grotesque in mixed case,
+   pill-segmented controls with thin black outlines, bold uppercase wordmark. */
+:root{
+  --bg:#F3F3F3; --ink:#000000; --muted:#5E5E5E; --soft:#9A9A9A; --line:#000000;
+  --tag-ink:#FFFFFF; --ph:transparent; --blend:multiply; --fit:contain; --dot:#1A1A1A; --pill:#FFFFFF;
+  --f:"Schibsted Grotesk","Helvetica Neue",Arial,sans-serif;
+  --track:0; --gut:8px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#141414; --ink:#F3F3F3; --muted:#A0A0A0; --soft:#6E6E6E; --line:#F3F3F3;
+  --tag-ink:#141414; --ph:#1E1E1E; --blend:normal; --fit:cover; --dot:#3A3A3A; --pill:#141414;
+}}
+body{font:400 14px/1.3 var(--f);text-transform:none;letter-spacing:0;
+  background-color:var(--bg);background-image:radial-gradient(circle,var(--dot) 1.1px,transparent 1.4px);background-size:59px 59px;background-position:5px 3px}
+.wrap{max-width:none}
+header{padding:20px 0 6px;justify-content:center;position:relative}
+.mark{font-weight:800;font-size:22px;letter-spacing:.01em;text-transform:uppercase}
+.count{position:absolute;right:0;top:24px;font-size:13px;text-transform:uppercase}
+.crumbs{justify-content:center;font-size:12px;text-transform:none}
+.crumbs > span:not(:last-child)::after{content:"·";margin:0 8px}
+.notice{text-align:center;margin:8px auto 0;font-size:12px}
+/* the bar sits on the dotted page, controls in white pills */
+.bar{background:transparent;border-bottom:0;padding:14px 0 6px;gap:8px;justify-content:center}
+.bar input[type=search]{flex:0 1 360px;background:var(--pill);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:13px}
+.bar input[type=search]:focus-visible{border-width:1px;padding-bottom:7px;outline:2px solid var(--ink);outline-offset:1px}
+.sel{background:var(--pill);border:1px solid var(--line);border-radius:999px;padding:0 12px}
+.sel select{padding:7px 18px 7px 0;font-size:13px;text-transform:uppercase}
+.togs{gap:0}
+.tog{height:32px;padding:0 13px;border:1px solid var(--line);margin-left:-1px;background:var(--pill);color:var(--ink);text-transform:uppercase;font-size:13px}
+.togs > :first-child{border-radius:999px 0 0 999px;margin-left:0}
+.togs > :last-child,.togs > :nth-last-child(2):has(+ [hidden]){border-radius:0 999px 999px 0}
+button.tog{border-color:var(--line)}
+button.tog:hover,.tog:hover{background:var(--ink);color:var(--tag-ink);border-color:var(--line)}
+.filters{border:1px solid var(--line);border-radius:18px;background:var(--pill);padding:18px 20px;margin:8px 0}
+.fg h2{font-size:12px;font-weight:400;letter-spacing:0;text-transform:uppercase;color:var(--ink)}
+.chip{border-color:var(--line);border-radius:999px;font-size:12px;text-transform:none;background:var(--pill)}
+.price-in label{border:1px solid var(--line);border-radius:999px;padding:5px 12px}
+.clear{font-size:12px}
+.shops{justify-content:center;gap:6px 6px}
+.shop{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:3px 10px;background:var(--pill)}
+.shop[aria-pressed=false]{text-decoration:line-through;background:transparent}
+.shop:hover{text-decoration:none;background:var(--ink);color:var(--tag-ink)}
+.grid{grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:56px 8px;padding:40px 0 80px}
+.ph{aspect-ratio:1/1}
+.b{font-size:11px;font-weight:400;letter-spacing:0;border-radius:999px;padding:3px 8px;margin:6px 0 0 6px}
+.b.drop{box-shadow:inset 0 0 0 1px var(--ink);background:var(--pill)}
+.line{display:none}
+.t{margin-top:10px;font-size:14px;text-transform:none;-webkit-line-clamp:3}
+.price{margin-top:0;font-weight:400}
+.row{margin-top:6px;font-weight:400;font-size:13px}
+.src{font-size:12px;text-transform:none}
+.card.sold .price::after{content:" · Sold out";text-decoration:none}
+footer{font-size:12px;justify-content:center}
+@media (max-width:900px){.grid{gap:40px 8px}}
+@media (max-width:520px){.count{position:static}header{flex-direction:column;gap:4px}.tog{padding:0 10px;font-size:12px}}

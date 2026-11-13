@@ -22,6 +22,22 @@ FILTERS opens category, colour and price. Picking several categories or colours 
 Category and colour are worked out from each shop's product type, its colour option and the title, so the odd piece lands in the wrong place or has no colour.
 Rick's colour names are mapped to plain ones (Milk and Pearl are White, Dust is Grey; "Black Milk" counts as both). The word lists are in `CATEGORIES` and `COLOURS` in `rick_feed.py`.
 
+## Sister feeds
+
+The same engine runs four more feeds, each in its own repo with its own address:
+
+| Feed | Address | Shop list | Look |
+|---|---|---|---|
+| Kiko Kostadinov | https://kiko.hengecorp.com | `brands/kiko.json` | `themes/kiko.css` |
+| Helmut Lang | https://lang.hengecorp.com | `brands/lang.json` | `themes/lang.css` |
+| 205W39NYC (Raf Simons at Calvin Klein) | https://rafcalvin.hengecorp.com | `brands/rafcalvin.json` | `themes/rafcalvin.css` |
+| Soshiotsuki | https://soshiotsuki.hengecorp.com | `brands/soshiotsuki.json` | `themes/soshiotsuki.css` |
+
+Each brand file sets the name, what counts as that designer (`match`), optional lines, the theme, fonts, wording and `shops`.
+`"brand_only": true` on a shop keeps only that designer's pieces from a mixed feed; `"strict": true` does that for every shop (205W39NYC uses it,
+because shops file those pieces under Calvin Klein or Raf Simons). `themes/base.css` is the shared layout (and the Rick look);
+each theme overrides it. The sister repos fetch this repo on every run, so changes here reach them on their next check.
+
 ## Adding or removing a shop
 
 Open `rick_feed.py` on GitHub, click the pencil icon, and edit the `SHOPS` list.

@@ -1,0 +1,31 @@
+{
+ "id": "soshiotsuki-feed",
+ "title": "Soshiotsuki Feed",
+ "name": "Soshiotsuki",
+ "match": "soshi\\s*otsuki",
+ "lines": [],
+ "strip": "(?:soshi\\s*otsuki\\s*)?",
+ "theme": "soshiotsuki",
+ "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=EB+Garamond:wght@400;500&display=swap",
+ "theme_color": [
+  "#FFFFFF",
+  "#121110"
+ ],
+ "placeholder": "Search: kimono, double-breasted, 46",
+ "labels": {
+  "Category": "分類 Category",
+  "Colour": "色 Colour",
+  "Price (USD)": "価格 Price (USD)",
+  "Filters": "絞込 Filters",
+  "Hide sold": "売切を隠す Hide sold",
+  "Price cuts": "値下げ Price cuts"
+ },
+ "shops": [
+  {
+   "name": "Huiben",
+   "city": "Online",
+   "feed": "https://huibenshop.com/collections/soshiotsuki.atom",
+   "link": "https://huibenshop.com/collections/soshiotsuki"
+  }
+ ]
+}

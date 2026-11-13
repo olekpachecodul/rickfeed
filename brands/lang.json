@@ -1,0 +1,122 @@
+{
+ "id": "lang-feed",
+ "title": "Lang Feed",
+ "name": "Helmut Lang",
+ "match": "helmut\\s*lang",
+ "lines": [
+  [
+   "Jeans",
+   "helmut\\s*lang\\s*jeans"
+  ]
+ ],
+ "strip": "(?:(?:vintage|archive)\\s+)?(?:helmut\\s*lang\\s*)?",
+ "theme": "lang",
+ "fonts": "",
+ "theme_color": [
+  "#FFFFFF",
+  "#000000"
+ ],
+ "placeholder": "search: bondage, astro, painter, 1998",
+ "shops": [
+  {
+   "name": "Pilgrim",
+   "city": "New York",
+   "feed": "https://pilgrimnyc.com/collections/helmut-lang.atom",
+   "link": "https://pilgrimnyc.com/collections/helmut-lang"
+  },
+  {
+   "name": "Luke's",
+   "city": "New York + Los Angeles",
+   "feed": "https://lukes.store/collections/helmut-lang.atom",
+   "link": "https://lukes.store/collections/helmut-lang"
+  },
+  {
+   "name": "Justin Reed",
+   "city": "Los Angeles + New York",
+   "feed": "https://justinreed.com/collections/helmut-lang.atom",
+   "link": "https://justinreed.com/collections/helmut-lang"
+  },
+  {
+   "name": "Resurrection",
+   "city": "West Hollywood",
+   "feed": [
+    "https://resurrectionvintage.com/collections/helmut-lang-vintage.atom",
+    "https://resurrectionvintage.com/collections/helmut-lang-mens-vintage.atom"
+   ],
+   "link": "https://resurrectionvintage.com/collections/helmut-lang-vintage"
+  },
+  {
+   "name": "Groupie",
+   "city": "Los Angeles",
+   "feed": "https://groupie.store/collections/helmut-lang.atom",
+   "link": "https://groupie.store/collections/helmut-lang"
+  },
+  {
+   "name": "Descry Archive",
+   "city": "By appointment",
+   "feed": "https://www.descryarchive.com/collections/helmut-lang.atom",
+   "link": "https://www.descryarchive.com/collections/helmut-lang"
+  },
+  {
+   "name": "2nd Street",
+   "city": "60+ US stores",
+   "feed": "https://ec.2ndstreetusa.com/collections/helmut-lang.atom",
+   "link": "https://ec.2ndstreetusa.com/collections/helmut-lang",
+   "brand_only": true
+  },
+  {
+   "name": "Sadō Room",
+   "city": "Seattle",
+   "feed": "https://sadoroom.com/collections/helmut-lang.atom",
+   "link": "https://sadoroom.com/collections/helmut-lang"
+  },
+  {
+   "name": "Street Commerce",
+   "city": "Charlotte",
+   "feed": "https://streetcommerce.shop/collections/helmut-lang.atom",
+   "link": "https://streetcommerce.shop/collections/helmut-lang"
+  },
+  {
+   "name": "VSP Consignment",
+   "city": "Calgary, Canada",
+   "feed": "https://vspconsignment.com/collections/helmut-lang.atom",
+   "link": "https://vspconsignment.com/collections/helmut-lang"
+  },
+  {
+   "name": "DRIEW",
+   "city": "Toronto, Canada",
+   "feed": "https://driewgarments.com/collections/helmut-lang.atom",
+   "link": "https://driewgarments.com/collections/helmut-lang"
+  },
+  {
+   "name": "ENDYMA",
+   "city": "Berlin, Germany",
+   "feed": "https://endyma.com/collections/helmut-lang.atom",
+   "link": "https://endyma.com/collections/helmut-lang"
+  },
+  {
+   "name": "Elevated Archives",
+   "city": "Padua, Italy",
+   "feed": "https://elevated-archives.com/collections/helmut-lang.atom",
+   "link": "https://elevated-archives.com/collections/helmut-lang"
+  },
+  {
+   "name": "Sunday Nightmare",
+   "city": "Bangkok, Thailand",
+   "feed": "https://sundaynightmare.com/collections/helmut-lang.atom",
+   "link": "https://sundaynightmare.com/collections/helmut-lang"
+  },
+  {
+   "name": "Huiben",
+   "city": "Online",
+   "feed": "https://huibenshop.com/collections/helmut-lang.atom",
+   "link": "https://huibenshop.com/collections/helmut-lang"
+  },
+  {
+   "name": "Nationalbunker",
+   "city": "Switzerland",
+   "feed": "https://nationalbunker.store/collections/helmut-lang-1.atom",
+   "link": "https://nationalbunker.store/collections/helmut-lang-1"
+  }
+ ]
+}
