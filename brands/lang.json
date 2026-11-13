@@ -118,6 +118,24 @@
    "city": "Switzerland",
    "feed": "https://nationalbunker.store/collections/helmut-lang-1.atom",
    "link": "https://nationalbunker.store/collections/helmut-lang-1"
+  },
+  {
+   "name": "David Casavant Archive",
+   "city": "Los Angeles",
+   "feed": "https://shop.davidcasavantarchive.com/collections/helmut-lang-archive.atom",
+   "link": "https://shop.davidcasavantarchive.com/collections/helmut-lang-archive"
+  },
+  {
+   "name": "Archive Threads",
+   "city": "Toronto, Canada",
+   "feed": "https://www.archivethreads.ca/collections/helmut-lang.atom",
+   "link": "https://www.archivethreads.ca/collections/helmut-lang"
+  },
+  {
+   "name": "Backyard Archive",
+   "city": "Vienna, Austria",
+   "feed": "https://backyardarchive.us/collections/helmut-lang.atom",
+   "link": "https://backyardarchive.us/collections/helmut-lang"
   }
  ]
 }
