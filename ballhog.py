@@ -17,6 +17,7 @@ import concurrent.futures
 import datetime as dt
 import html
 import json
+import math
 import re
 import ssl
 import sys
@@ -969,18 +970,82 @@ def render_page(brand, payload, built=()):
                 .replace("__DATA__", payload))
 
 
-# The henge mark: a trilithon between two standing stones, drawn as rounded outlines.
-HENGE_SVG = ('<svg class="henge" viewBox="0 0 40 28" aria-hidden="true" focusable="false">'
-             '<g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">'
-             '<path d="M2.6 26 2.2 14.6c0-1 .6-1.6 1.6-1.6h3.5c1 0 1.5.6 1.5 1.6L8.6 26z"/>'
-             '<path d="M12.4 26.2 12 9.6h6l-.3 16.6z"/>'
-             '<path d="M22.2 26.2 22 9.6h6.1l-.4 16.6z"/>'
-             '<path d="M10.2 3.6c0-.9.6-1.4 1.5-1.4h17c.9 0 1.4.6 1.4 1.4v3.8c0 .9-.6 1.5-1.5 1.5H11.6c-.9 0-1.5-.6-1.5-1.5z"/>'
-             '<path d="M32.4 26.2 31.6 12.2c0-.9.6-1.5 1.5-1.4l3.1.2c.9.1 1.4.7 1.4 1.6l-.4 13.6z"/>'
-             '</g></svg>')
+# The henge mark, after the hand-drawn sketch: a ring of standing stones and trilithons
+# seen from above, in chunky rounded outlines with a little crayon roughness. It's built
+# from 3D blocks so tops and sides show, the same way the splash page draws its henge.
+def henge_svg(uid="hg", paper="var(--henge-paper,var(--bg,#fff))", ink="currentColor", extra_style=""):
+    import random as _random
+    boxes = []   # (x, z, width, height, depth, yaw, base height)
+
+    def stones(kind, a, h, w, gap, d, yaw):
+        x, z, c, s_ = math.sin(a) * 5.4, -math.cos(a) * 5.4, math.cos(yaw), math.sin(yaw)
+        if kind == "S":
+            boxes.append((x, z, w, h, d, yaw, 0))
+            return
+        for side in (-1, 1):
+            off = side * (w + gap) / 2
+            boxes.append((x + c * off, z + s_ * off, w, h, d, yaw, 0))
+        if kind == "T":   # a lintel across the pair
+            boxes.append((x, z, 2 * w + gap + .5, 1.0, d + .15, yaw + .03, h))
+
+    for row in (("T", -1.95, 2.9, 1.4, .3, 1.3, .55), ("S", -.35, 3.2, 1.5, 0, 1.1, .12), ("P", .85, 3.6, 1.7, .2, 1.6, -.3),
+                ("T", 1.85, 2.8, 2.0, .25, 1.9, -.6), ("T", 2.95, 2.4, 2.3, .3, 1.7, .08)):
+        stones(*row)
+    el, dist = .6, 22
+    cam = (0, dist * math.sin(el), dist * math.cos(el))
+    f = (0 - cam[0], 1.2 - cam[1], 0 - cam[2]); fl = math.sqrt(sum(v * v for v in f)); f = [v / fl for v in f]
+    rx, rz = -f[2], f[0]; rl = math.hypot(rx, rz); rx, rz = rx / rl, rz / rl
+    up = (-rz * f[1], rz * f[0] - rx * f[2], rx * f[1])
+
+    def proj(p):
+        d = (p[0] - cam[0], p[1] - cam[1], p[2] - cam[2]); zz = d[0] * f[0] + d[1] * f[1] + d[2] * f[2]
+        return ((d[0] * rx + d[2] * rz) / zz, -(d[0] * up[0] + d[1] * up[1] + d[2] * up[2]) / zz)
+
+    FACES = ((0, 1, 2, 3), (4, 5, 6, 7), (0, 3, 7, 4), (1, 2, 6, 5), (3, 2, 6, 7), (0, 1, 5, 4))
+    drawn = []
+    for bx, bz, w, h, d, yaw, y0 in boxes:
+        c, s_ = math.cos(yaw), math.sin(yaw)
+        C = [(bx + ux * w / 2 * c - uz * d / 2 * s_, y0 + (uy + 1) * h / 2, bz + ux * w / 2 * s_ + uz * d / 2 * c)
+             for ux, uy, uz in ((-1, -1, -1), (1, -1, -1), (1, 1, -1), (-1, 1, -1), (-1, -1, 1), (1, -1, 1), (1, 1, 1), (-1, 1, 1))]
+        ctr = (bx, y0 + h / 2, bz)
+        vis = []
+        for F in FACES:
+            P = [C[k] for k in F]; fc = [sum(q[i] for q in P) / 4 for i in range(3)]
+            if sum((fc[i] - ctr[i]) * (cam[i] - fc[i]) for i in range(3)) > 0:
+                vis.append([proj(q) for q in P])
+        drawn.append((math.dist(ctr, cam), vis))
+    drawn.sort(key=lambda t: -t[0])   # far stones first, so near ones cover them
+    pts = [p for _, vis in drawn for q in vis for p in q]
+    W, H, pad = 100, 64, 6
+    x0, x1, y0_, y1 = min(p[0] for p in pts), max(p[0] for p in pts), min(p[1] for p in pts), max(p[1] for p in pts)
+    sc = min((W - 2 * pad) / (x1 - x0), (H - 2 * pad) / (y1 - y0_))
+    ox, oy = (W - (x1 - x0) * sc) / 2 - x0 * sc, (H - (y1 - y0_) * sc) / 2 - y0_ * sc
+    rnd = _random.Random(3)
+
+    def outline(q):
+        q = [(x * sc + ox, y * sc + oy) for x, y in q]
+        P = []
+        for e in range(4):
+            a_, b_ = q[e], q[(e + 1) % 4]
+            n = max(2, round(math.dist(a_, b_) / 6))
+            P += [(a_[0] + (b_[0] - a_[0]) * k / n + (rnd.random() - .5) * .9, a_[1] + (b_[1] - a_[1]) * k / n + (rnd.random() - .5) * .9) for k in range(n)]
+        for _ in range(2):   # round the corners, like worn stone and a blunt crayon
+            P = [pt for k in range(len(P)) for pt in ((P[k][0] * .75 + P[(k + 1) % len(P)][0] * .25, P[k][1] * .75 + P[(k + 1) % len(P)][1] * .25),
+                                                      (P[k][0] * .25 + P[(k + 1) % len(P)][0] * .75, P[k][1] * .25 + P[(k + 1) % len(P)][1] * .75))]
+        return "M" + " ".join(f"{x:.1f} {y:.1f}" for x, y in P[::2]) + "Z"
+
+    paths = "".join(f'<path d="{outline(q)}"/>' for _, vis in drawn for q in vis)
+    return (f'<svg class="henge" viewBox="0 0 {W} {H}" aria-hidden="true" focusable="false"{extra_style}>'
+            f'<defs><filter id="{uid}" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".6" numOctaves="2" seed="4"/>'
+            f'<feDisplacementMap in="SourceGraphic" scale="2.2" xChannelSelector="R" yChannelSelector="G"/></filter></defs>'
+            f'<g filter="url(#{uid})" fill="{paper}" stroke="{ink}" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round">{paths}</g></svg>')
+
+
+HENGE_SVG = henge_svg("hg-top")
 FAVICON = ("data:image/svg+xml," + urllib.parse.quote(
-    HENGE_SVG.replace('class="henge" ', 'xmlns="http://www.w3.org/2000/svg" ').replace('aria-hidden="true" focusable="false"', '')
-    .replace("currentColor", "#111").replace("<g ", "<style>@media (prefers-color-scheme: dark){g{stroke:#eee}}</style><g ")))
+    henge_svg("f", paper="#fff", ink="#111").replace('class="henge" ', 'xmlns="http://www.w3.org/2000/svg" ')
+    .replace(' aria-hidden="true" focusable="false"', '')
+    .replace("<defs>", "<style>@media (prefers-color-scheme: dark){g{fill:#161616;stroke:#eee}}</style><defs>", 1)))
 
 
 def sites_nav(current, built=()):
@@ -996,7 +1061,7 @@ def sites_nav(current, built=()):
             f'<button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu" aria-label="Designers">'
             f'<span></span><span></span><span></span></button></div>'
             f'<div class="menu" id="menu" hidden role="dialog" aria-modal="true" aria-label="Designers">'
-            f'<div class="menu-in"><div class="topbar"><a class="logo" href="../">{HENGE_SVG}<span>Ballhog</span></a>'
+            f'<div class="menu-in"><div class="topbar"><a class="logo" href="../">{henge_svg("hg-menu")}<span>Ballhog</span></a>'
             f'<button type="button" class="menu-x" id="menuX" aria-label="Close">&times;</button></div>'
             f'<input type="search" id="menuQ" class="menu-q" placeholder="Find a designer" autocomplete="off" aria-label="Find a designer">'
             f'<ol class="menu-list" id="menuList">{items}</ol>'
@@ -1010,7 +1075,7 @@ def render_home(built, run_iso):
         f'<li style="--i:{n}"><a href="{esc(b["slug"])}/"><span class="n">{esc(b["name"])}</span>'
         f'<span class="c"><b>{b["for_sale"]:,}</b> / {b["shops"]}</span></a></li>' for n, b in enumerate(built))
     total = sum(b["for_sale"] for b in built)
-    return (HOME.replace("__ROWS__", rows).replace("__FAVICON__", FAVICON).replace("__HENGE__", HENGE_SVG).replace("__WHEN__", esc(run_iso))
+    return (HOME.replace("__ROWS__", rows).replace("__FAVICON__", FAVICON).replace("__HENGE__", henge_svg("hg-home")).replace("__WHEN__", esc(run_iso))
                 .replace("__TOTAL__", f"{total:,}").replace("__SHOPS__", str(len(SHOPS))))
 
 
@@ -1040,7 +1105,7 @@ a{color:inherit;text-decoration:none}
 .splash{position:relative;min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;padding-top:max(18px,env(safe-area-inset-top),2.4vw);padding-bottom:28px;pointer-events:none}
 .top{display:flex;justify-content:space-between;gap:16px;font:400 11px/1.4 var(--m);letter-spacing:.04em;text-transform:uppercase}
 .top a{pointer-events:auto}
-.top .henge{width:28px;height:20px;vertical-align:-5px;margin-right:10px}
+.top .henge{width:36px;height:23px;vertical-align:-7px;margin-right:10px;--henge-paper:var(--bg)}
 h1{margin:0;align-self:start;font-weight:800;font-size:clamp(64px,19.5vw,330px);line-height:.8;letter-spacing:-.065em;margin-left:-.04em;padding-top:.06em;mix-blend-mode:difference;color:#fff;
   animation:rise 1.1s cubic-bezier(.2,.7,.1,1) both}
 .foot{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;mix-blend-mode:difference;color:#fff}
