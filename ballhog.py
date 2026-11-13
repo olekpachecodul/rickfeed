@@ -488,6 +488,10 @@ def lenient_xml(raw):
     text = raw.decode("utf-8", "replace").lstrip("\ufeff \r\n\t")
     text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", text)
     text = re.sub(r"&(?!(?:[a-zA-Z][a-zA-Z0-9]*|#[0-9]+|#x[0-9a-fA-F]+);)", "&amp;", text)
+    # HTML-only entities (&nbsp;, &rsquo; ...) aren't XML: turn them into numeric references
+    from html.entities import name2codepoint
+    text = re.sub(r"&([a-zA-Z][a-zA-Z0-9]*);", lambda m: m.group(0) if m.group(1) in ("amp", "lt", "gt", "quot", "apos")
+                  else (f"&#{name2codepoint[m.group(1)]};" if m.group(1) in name2codepoint else f"&amp;{m.group(1)};"), text)
     return ET.fromstring(text.encode("utf-8"))
 
 
