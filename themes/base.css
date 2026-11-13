@@ -71,6 +71,7 @@ button.tog:hover,.tog:hover{color:var(--ink);border-color:var(--ink)}
 .shop .n{color:var(--soft);margin-left:5px}
 .shop[aria-pressed=false]{color:var(--soft);text-decoration:line-through}
 .shop.err .n{color:var(--muted)}
+.shop.stale .n::after{content:"*";margin-left:1px}
 .shop:hover{text-decoration:underline;text-underline-offset:3px}
 
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:64px 24px;padding:36px 0 96px}
