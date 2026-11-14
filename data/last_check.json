@@ -1,15 +1,12 @@
 {
- "checked": "2026-11-14T01:43:36+00:00",
- "seconds": 333,
- "requests": 1330,
+ "checked": "2026-11-14T01:50:29+00:00",
+ "seconds": 216,
+ "requests": 863,
  "refused": 0,
  "not_asked": 0,
  "busy_shops": [
-  "Japonista",
-  "Thrilling"
+  "Japonista"
  ],
- "unreachable_shops": [
-  "Thrilling"
- ],
- "collections": 607
+ "unreachable_shops": [],
+ "collections": 605
 }

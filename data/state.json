@@ -1,32 +1,5 @@
 {
  "discovered": {
-  "269Archive": {
-   "date": "2026-11-14",
-   "found": {},
-   "slugs": [
-    "ann",
-    "balenciaga",
-    "bbs",
-    "ccp",
-    "cdg",
-    "gaultier",
-    "guidi",
-    "issey",
-    "julius",
-    "kiko",
-    "lang",
-    "margiela",
-    "numbernine",
-    "raf",
-    "rafcalvin",
-    "ralph",
-    "rick",
-    "soshiotsuki",
-    "undercover",
-    "yohji"
-   ],
-   "v": 2
-  },
   "2nd Street": {
    "date": "2026-11-14",
    "found": {
@@ -108,37 +81,6 @@
      "ralph-lauren-polo-jeans",
      "ralph-lauren-chaps",
      "ralph-lauren-polo-sport"
-    ]
-   },
-   "slugs": [
-    "ann",
-    "balenciaga",
-    "bbs",
-    "ccp",
-    "cdg",
-    "gaultier",
-    "guidi",
-    "issey",
-    "julius",
-    "kiko",
-    "lang",
-    "margiela",
-    "numbernine",
-    "raf",
-    "rafcalvin",
-    "ralph",
-    "rick",
-    "soshiotsuki",
-    "undercover",
-    "yohji"
-   ],
-   "v": 2
-  },
-  "Agents In Style": {
-   "date": "2026-11-14",
-   "found": {
-    "balenciaga": [
-     "pre-owned-balenciaga"
     ]
    },
    "slugs": [
@@ -5769,7 +5711,7 @@
    "first_run": 0,
    "first_seen": "2026-01-29T15:38:06+00:00",
    "last_seen": "2026-11-14",
-   "price": 370.0,
+   "price": 398.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/10166282584406": {
@@ -5780,7 +5722,7 @@
    "first_run": 0,
    "first_seen": "2026-02-04T09:13:02+00:00",
    "last_seen": "2026-11-14",
-   "price": 360.0,
+   "price": 387.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/10446971142486": {
@@ -5791,7 +5733,7 @@
    "first_run": 0,
    "first_seen": "2026-05-04T10:10:27+00:00",
    "last_seen": "2026-11-14",
-   "price": 580.0,
+   "price": 623.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/10970015957334": {
@@ -5802,7 +5744,7 @@
    "first_run": 0,
    "first_seen": "2026-07-15T14:11:26+00:00",
    "last_seen": "2026-11-14",
-   "price": 330.0,
+   "price": 355.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/11194040025430": {
@@ -5813,7 +5755,7 @@
    "first_run": 0,
    "first_seen": "2026-08-20T16:21:35+00:00",
    "last_seen": "2026-11-14",
-   "price": 270.0,
+   "price": 290.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/11263804801366": {
@@ -5824,7 +5766,7 @@
    "first_run": 0,
    "first_seen": "2026-09-12T10:19:26+00:00",
    "last_seen": "2026-11-14",
-   "price": 680.0,
+   "price": 730.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/11311710568790": {
@@ -5835,7 +5777,7 @@
    "first_run": 0,
    "first_seen": "2026-09-29T10:08:01+00:00",
    "last_seen": "2026-11-14",
-   "price": 540.0,
+   "price": 580.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/11375575105878": {
@@ -5857,7 +5799,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T07:38:22+00:00",
    "last_seen": "2026-11-14",
-   "price": 550.0,
+   "price": 591.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/11428253565270": {
@@ -5868,7 +5810,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T08:15:13+00:00",
    "last_seen": "2026-11-14",
-   "price": 340.0,
+   "price": 365.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/8719829139798": {
@@ -5879,7 +5821,7 @@
    "first_run": 0,
    "first_seen": "2024-02-11T15:15:54+00:00",
    "last_seen": "2026-11-14",
-   "price": 250.0,
+   "price": 269.0,
    "sold": false
   },
   "ann|ENDYMA|https://endyma.com/products/186461185": {
@@ -30147,7 +30089,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:44:08+00:00",
    "last_seen": "2026-11-14",
-   "price": 1195.0,
+   "price": 1344.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377195905126": {
@@ -30156,7 +30098,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:45:42+00:00",
    "last_seen": "2026-11-14",
-   "price": 195.0,
+   "price": 220.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377196232806": {
@@ -30165,7 +30107,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:45:58+00:00",
    "last_seen": "2026-11-14",
-   "price": 190.0,
+   "price": 214.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377197084774": {
@@ -30176,7 +30118,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:46:50+00:00",
    "last_seen": "2026-11-14",
-   "price": 245.0,
+   "price": 276.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377213042790": {
@@ -30187,7 +30129,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:51:59+00:00",
    "last_seen": "2026-11-14",
-   "price": 695.0,
+   "price": 782.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377228738662": {
@@ -30198,7 +30140,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:58:02+00:00",
    "last_seen": "2026-11-14",
-   "price": 395.0,
+   "price": 445.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377228968038": {
@@ -30209,7 +30151,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:58:14+00:00",
    "last_seen": "2026-11-14",
-   "price": 595.0,
+   "price": 670.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377252397158": {
@@ -30220,7 +30162,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:07:13+00:00",
    "last_seen": "2026-11-14",
-   "price": 120.0,
+   "price": 135.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377252692070": {
@@ -30229,7 +30171,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:07:25+00:00",
    "last_seen": "2026-11-14",
-   "price": 230.0,
+   "price": 259.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377258524774": {
@@ -30238,7 +30180,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:08:30+00:00",
    "last_seen": "2026-11-14",
-   "price": 195.0,
+   "price": 220.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377270354022": {
@@ -30247,7 +30189,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:13:14+00:00",
    "last_seen": "2026-11-14",
-   "price": 200.0,
+   "price": 225.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377273270374": {
@@ -30256,7 +30198,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:14:54+00:00",
    "last_seen": "2026-11-14",
-   "price": 90.0,
+   "price": 102.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4585204482150": {
@@ -30267,7 +30209,7 @@
    "first_run": 0,
    "first_seen": "2020-02-12T00:03:06+00:00",
    "last_seen": "2026-11-14",
-   "price": 275.0,
+   "price": 310.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4855390699622": {
@@ -30278,7 +30220,7 @@
    "first_run": 0,
    "first_seen": "2020-06-12T16:15:46+00:00",
    "last_seen": "2026-11-14",
-   "price": 275.0,
+   "price": 310.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4930694938726": {
@@ -30289,7 +30231,7 @@
    "first_run": 0,
    "first_seen": "2020-09-21T16:08:51+00:00",
    "last_seen": "2026-11-14",
-   "price": 240.0,
+   "price": 270.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/6118652149955": {
@@ -30298,7 +30240,7 @@
    "first_run": 0,
    "first_seen": "2020-12-04T18:05:43+00:00",
    "last_seen": "2026-11-14",
-   "price": 250.0,
+   "price": 282.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/9962094788951": {
@@ -30309,7 +30251,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:37:15+00:00",
    "last_seen": "2026-11-14",
-   "price": 190.0,
+   "price": 214.0,
    "sold": false
   },
   "balenciaga|Caramia Vintage|https://caramiavintage.com/products/8964840685756": {
@@ -31561,7 +31503,7 @@
    "first_run": 0,
    "first_seen": "2026-10-19T15:04:26+00:00",
    "last_seen": "2026-11-14",
-   "price": 170.0,
+   "price": 183.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11386327302486": {
@@ -31573,7 +31515,7 @@
    "first_run": 0,
    "first_seen": "2026-10-20T14:45:48+00:00",
    "last_seen": "2026-11-14",
-   "price": 270.0,
+   "price": 290.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11402187702614": {
@@ -31585,7 +31527,7 @@
    "first_run": 0,
    "first_seen": "2026-10-25T08:58:28+00:00",
    "last_seen": "2026-11-14",
-   "price": 225.0,
+   "price": 242.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11411678298454": {
@@ -31596,7 +31538,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T14:16:44+00:00",
    "last_seen": "2026-11-14",
-   "price": 580.0,
+   "price": 623.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11412006830422": {
@@ -31607,7 +31549,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T15:13:28+00:00",
    "last_seen": "2026-11-14",
-   "price": 720.0,
+   "price": 773.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11424496845142": {
@@ -31618,7 +31560,7 @@
    "first_run": 0,
    "first_seen": "2026-10-29T07:17:14+00:00",
    "last_seen": "2026-11-14",
-   "price": 215.0,
+   "price": 231.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11424499532118": {
@@ -31630,7 +31572,7 @@
    "first_run": 0,
    "first_seen": "2026-10-29T07:26:47+00:00",
    "last_seen": "2026-11-14",
-   "price": 330.0,
+   "price": 355.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11424501367126": {
@@ -31641,7 +31583,7 @@
    "first_run": 0,
    "first_seen": "2026-10-29T07:31:24+00:00",
    "last_seen": "2026-11-14",
-   "price": 290.0,
+   "price": 312.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11428239868246": {
@@ -31654,7 +31596,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T08:08:42+00:00",
    "last_seen": "2026-11-14",
-   "price": 140.0,
+   "price": 151.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11431931576662": {
@@ -31665,7 +31607,7 @@
    "first_run": 0,
    "first_seen": "2026-10-31T07:28:47+00:00",
    "last_seen": "2026-11-14",
-   "price": 1380.0,
+   "price": 1481.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11431935934806": {
@@ -31676,7 +31618,7 @@
    "first_run": 0,
    "first_seen": "2026-10-31T07:52:28+00:00",
    "last_seen": "2026-11-14",
-   "price": 170.0,
+   "price": 183.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11431937835350": {
@@ -31688,7 +31630,7 @@
    "first_run": 0,
    "first_seen": "2026-10-31T07:57:00+00:00",
    "last_seen": "2026-11-14",
-   "price": 220.0,
+   "price": 237.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11442483462486": {
@@ -31699,7 +31641,7 @@
    "first_run": 0,
    "first_seen": "2026-11-04T06:39:56+00:00",
    "last_seen": "2026-11-14",
-   "price": 730.0,
+   "price": 784.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11443866042710": {
@@ -31710,7 +31652,7 @@
    "first_run": 0,
    "first_seen": "2026-11-04T15:21:42+00:00",
    "last_seen": "2026-11-14",
-   "price": 270.0,
+   "price": 290.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11444879393110": {
@@ -31721,7 +31663,7 @@
    "first_run": 0,
    "first_seen": "2026-11-05T06:32:47+00:00",
    "last_seen": "2026-11-14",
-   "price": 820.0,
+   "price": 880.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11445864071510": {
@@ -31732,7 +31674,7 @@
    "first_run": 0,
    "first_seen": "2026-11-05T14:46:05+00:00",
    "last_seen": "2026-11-14",
-   "price": 800.0,
+   "price": 859.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11455465587030": {
@@ -31745,7 +31687,7 @@
    "first_run": 0,
    "first_seen": "2026-11-09T09:29:52+00:00",
    "last_seen": "2026-11-14",
-   "price": 420.0,
+   "price": 451.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11455530041686": {
@@ -31756,7 +31698,7 @@
    "first_run": 0,
    "first_seen": "2026-11-09T10:42:49+00:00",
    "last_seen": "2026-11-14",
-   "price": 340.0,
+   "price": 365.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11455822987606": {
@@ -31767,7 +31709,7 @@
    "first_run": 0,
    "first_seen": "2026-11-09T13:26:41+00:00",
    "last_seen": "2026-11-14",
-   "price": 1180.0,
+   "price": 1267.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11457928102230": {
@@ -31778,7 +31720,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T10:42:11+00:00",
    "last_seen": "2026-11-14",
-   "price": 125.0,
+   "price": 135.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11458684977494": {
@@ -31789,7 +31731,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T15:52:22+00:00",
    "last_seen": "2026-11-14",
-   "price": 150.0,
+   "price": 161.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11459082060118": {
@@ -31800,7 +31742,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T17:59:00+00:00",
    "last_seen": "2026-11-14",
-   "price": 155.0,
+   "price": 167.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11463869727062": {
@@ -31811,7 +31753,7 @@
    "first_run": 0,
    "first_seen": "2026-11-12T11:27:36+00:00",
    "last_seen": "2026-11-14",
-   "price": 150.0,
+   "price": 161.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11464296300886": {
@@ -31822,7 +31764,7 @@
    "first_run": 0,
    "first_seen": "2026-11-12T14:02:16+00:00",
    "last_seen": "2026-11-14",
-   "price": 250.0,
+   "price": 269.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11467857330518": {
@@ -31833,7 +31775,7 @@
    "first_run": 0,
    "first_seen": "2026-11-13T17:22:46+00:00",
    "last_seen": "2026-11-14",
-   "price": 220.0,
+   "price": 237.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/9171695829334": {
@@ -81316,7 +81258,7 @@
    "first_run": 0,
    "first_seen": "2025-12-16T09:52:36+00:00",
    "last_seen": "2026-11-14",
-   "price": 4700.0,
+   "price": 5044.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/10259548963158": {
@@ -81328,7 +81270,7 @@
    "first_run": 0,
    "first_seen": "2026-03-13T07:55:21+00:00",
    "last_seen": "2026-11-14",
-   "price": 1250.0,
+   "price": 1342.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/10259673710934": {
@@ -81339,7 +81281,7 @@
    "first_run": 0,
    "first_seen": "2026-03-13T09:15:29+00:00",
    "last_seen": "2026-11-14",
-   "price": 1232.0,
+   "price": 1323.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/11158913253718": {
@@ -81350,7 +81292,7 @@
    "first_run": 0,
    "first_seen": "2026-08-02T09:17:33+00:00",
    "last_seen": "2026-11-14",
-   "price": 760.0,
+   "price": 816.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/11160248713558": {
@@ -81362,7 +81304,7 @@
    "first_run": 0,
    "first_seen": "2026-08-03T07:18:33+00:00",
    "last_seen": "2026-11-14",
-   "price": 3500.0,
+   "price": 3756.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/11160269586774": {
@@ -81373,7 +81315,7 @@
    "first_run": 0,
    "first_seen": "2026-08-03T07:33:39+00:00",
    "last_seen": "2026-11-14",
-   "price": 3200.0,
+   "price": 3434.0,
    "sold": false
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/11198498373974": {
@@ -81384,7 +81326,7 @@
    "first_run": 0,
    "first_seen": "2026-08-23T11:05:29+00:00",
    "last_seen": "2026-11-14",
-   "price": 970.0,
+   "price": 1041.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/11447235936598": {
@@ -81406,7 +81348,7 @@
    "first_run": 1,
    "first_seen": "2026-11-13T20:28:18+00:00",
    "last_seen": "2026-11-14",
-   "price": 1480.0,
+   "price": 1589.0,
    "sold": false
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/9531572191574": {
@@ -81418,7 +81360,7 @@
    "first_run": 0,
    "first_seen": "2025-03-22T11:22:49+00:00",
    "last_seen": "2026-11-14",
-   "price": 1250.0,
+   "price": 1342.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/9664683835734": {
@@ -81429,7 +81371,7 @@
    "first_run": 0,
    "first_seen": "2025-06-15T13:37:14+00:00",
    "last_seen": "2026-11-14",
-   "price": 6000.0,
+   "price": 6439.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/9664729350486": {
@@ -81440,7 +81382,7 @@
    "first_run": 0,
    "first_seen": "2025-06-15T13:53:59+00:00",
    "last_seen": "2026-11-14",
-   "price": 3600.0,
+   "price": 3864.0,
    "sold": true
   },
   "ccp|ENDYMA|https://endyma.com/products/182079241": {
@@ -132711,7 +132653,7 @@
    "first_run": 0,
    "first_seen": "2026-10-09T07:52:37+00:00",
    "last_seen": "2026-11-14",
-   "price": 180.0,
+   "price": 194.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11356138111318": {
@@ -132722,7 +132664,7 @@
    "first_run": 0,
    "first_seen": "2026-10-10T12:50:51+00:00",
    "last_seen": "2026-11-14",
-   "price": 220.0,
+   "price": 237.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11384494457174": {
@@ -132733,7 +132675,7 @@
    "first_run": 0,
    "first_seen": "2026-10-20T07:53:25+00:00",
    "last_seen": "2026-11-14",
-   "price": 280.0,
+   "price": 301.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11391017320790": {
@@ -132744,7 +132686,7 @@
    "first_run": 0,
    "first_seen": "2026-10-22T10:59:57+00:00",
    "last_seen": "2026-11-14",
-   "price": 980.0,
+   "price": 1052.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11391608029526": {
@@ -132753,7 +132695,7 @@
    "first_run": 0,
    "first_seen": "2026-10-22T15:18:21+00:00",
    "last_seen": "2026-11-14",
-   "price": 240.0,
+   "price": 258.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11410495111510": {
@@ -132764,7 +132706,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T09:46:09+00:00",
    "last_seen": "2026-11-14",
-   "price": 880.0,
+   "price": 945.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11411528810838": {
@@ -132775,7 +132717,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T13:42:12+00:00",
    "last_seen": "2026-11-14",
-   "price": 100.0,
+   "price": 108.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11411533398358": {
@@ -132787,7 +132729,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T13:43:46+00:00",
    "last_seen": "2026-11-14",
-   "price": 180.0,
+   "price": 194.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11412410171734": {
@@ -132798,7 +132740,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T17:25:51+00:00",
    "last_seen": "2026-11-14",
-   "price": 355.0,
+   "price": 381.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11426223915350": {
@@ -132809,7 +132751,7 @@
    "first_run": 0,
    "first_seen": "2026-10-29T14:41:39+00:00",
    "last_seen": "2026-11-14",
-   "price": 220.0,
+   "price": 237.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11428140712278": {
@@ -132820,7 +132762,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T07:52:10+00:00",
    "last_seen": "2026-11-14",
-   "price": 320.0,
+   "price": 344.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11428678893910": {
@@ -132832,7 +132774,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T10:39:10+00:00",
    "last_seen": "2026-11-14",
-   "price": 330.0,
+   "price": 355.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11428818288982": {
@@ -132843,7 +132785,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T11:33:46+00:00",
    "last_seen": "2026-11-14",
-   "price": 250.0,
+   "price": 269.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11428822253910": {
@@ -132855,7 +132797,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T11:34:40+00:00",
    "last_seen": "2026-11-14",
-   "price": 230.0,
+   "price": 247.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11428824514902": {
@@ -132866,7 +132808,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T11:35:28+00:00",
    "last_seen": "2026-11-14",
-   "price": 90.0,
+   "price": 97.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11428834410838": {
@@ -132879,7 +132821,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T11:38:05+00:00",
    "last_seen": "2026-11-14",
-   "price": 270.0,
+   "price": 290.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11428909842774": {
@@ -132890,7 +132832,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T11:47:37+00:00",
    "last_seen": "2026-11-14",
-   "price": 300.0,
+   "price": 322.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11432071922006": {
@@ -132901,7 +132843,7 @@
    "first_run": 0,
    "first_seen": "2026-10-31T11:20:33+00:00",
    "last_seen": "2026-11-14",
-   "price": 140.0,
+   "price": 151.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11441409392982": {
@@ -132913,7 +132855,7 @@
    "first_run": 0,
    "first_seen": "2026-11-03T17:29:46+00:00",
    "last_seen": "2026-11-14",
-   "price": 125.0,
+   "price": 135.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11443888816470": {
@@ -132924,7 +132866,7 @@
    "first_run": 0,
    "first_seen": "2026-11-04T15:28:18+00:00",
    "last_seen": "2026-11-14",
-   "price": 170.0,
+   "price": 183.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11447963877718": {
@@ -132935,7 +132877,7 @@
    "first_run": 0,
    "first_seen": "2026-11-06T11:21:09+00:00",
    "last_seen": "2026-11-14",
-   "price": 100.0,
+   "price": 108.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11448084070742": {
@@ -132946,7 +132888,7 @@
    "first_run": 0,
    "first_seen": "2026-11-06T11:56:01+00:00",
    "last_seen": "2026-11-14",
-   "price": 165.0,
+   "price": 178.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11455409979734": {
@@ -132957,7 +132899,7 @@
    "first_run": 0,
    "first_seen": "2026-11-09T07:56:12+00:00",
    "last_seen": "2026-11-14",
-   "price": 140.0,
+   "price": 151.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11458086568278": {
@@ -132968,7 +132910,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T11:43:56+00:00",
    "last_seen": "2026-11-14",
-   "price": 125.0,
+   "price": 135.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11459063021910": {
@@ -132979,7 +132921,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T17:49:14+00:00",
    "last_seen": "2026-11-14",
-   "price": 285.0,
+   "price": 306.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/9737458188630": {
@@ -155434,7 +155376,7 @@
    "first_run": 0,
    "first_seen": "2020-01-21T15:40:09+00:00",
    "last_seen": "2026-11-14",
-   "price": 295.0,
+   "price": 332.0,
    "sold": true
   },
   "issey|Backyard Archive|https://backyardarchive.us/products/4530252284006": {
@@ -155445,7 +155387,7 @@
    "first_run": 0,
    "first_seen": "2020-01-21T16:07:18+00:00",
    "last_seen": "2026-11-14",
-   "price": 295.0,
+   "price": 332.0,
    "sold": true
   },
   "issey|DRIEW|https://driewgarments.com/products/6988990709838": {
@@ -155637,7 +155579,7 @@
    "first_run": 0,
    "first_seen": "2025-12-02T10:32:27+00:00",
    "last_seen": "2026-11-14",
-   "price": 680.0,
+   "price": 730.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/10090248765782": {
@@ -155648,7 +155590,7 @@
    "first_run": 0,
    "first_seen": "2026-01-07T09:20:54+00:00",
    "last_seen": "2026-11-14",
-   "price": 180.0,
+   "price": 194.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/10205205463382": {
@@ -155659,7 +155601,7 @@
    "first_run": 0,
    "first_seen": "2026-02-20T18:26:15+00:00",
    "last_seen": "2026-11-14",
-   "price": 380.0,
+   "price": 408.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/10294707683670": {
@@ -155671,7 +155613,7 @@
    "first_run": 0,
    "first_seen": "2026-03-26T08:56:03+00:00",
    "last_seen": "2026-11-14",
-   "price": 420.0,
+   "price": 451.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/10958669939030": {
@@ -155682,7 +155624,7 @@
    "first_run": 0,
    "first_seen": "2026-07-09T14:55:36+00:00",
    "last_seen": "2026-11-14",
-   "price": 360.0,
+   "price": 387.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/10970292879702": {
@@ -155693,7 +155635,7 @@
    "first_run": 0,
    "first_seen": "2026-07-15T16:13:17+00:00",
    "last_seen": "2026-11-14",
-   "price": 340.0,
+   "price": 365.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11172856627542": {
@@ -155704,7 +155646,7 @@
    "first_run": 0,
    "first_seen": "2026-08-10T10:41:30+00:00",
    "last_seen": "2026-11-14",
-   "price": 240.0,
+   "price": 258.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11199640437078": {
@@ -155715,7 +155657,7 @@
    "first_run": 0,
    "first_seen": "2026-08-24T10:54:31+00:00",
    "last_seen": "2026-11-14",
-   "price": 340.0,
+   "price": 365.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11214291927382": {
@@ -155727,7 +155669,7 @@
    "first_run": 0,
    "first_seen": "2026-08-31T12:33:11+00:00",
    "last_seen": "2026-11-14",
-   "price": 350.0,
+   "price": 376.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11217813406038": {
@@ -155738,7 +155680,7 @@
    "first_run": 0,
    "first_seen": "2026-09-01T19:12:59+00:00",
    "last_seen": "2026-11-14",
-   "price": 470.0,
+   "price": 505.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11260213231958": {
@@ -155749,7 +155691,7 @@
    "first_run": 0,
    "first_seen": "2026-09-11T09:03:58+00:00",
    "last_seen": "2026-11-14",
-   "price": 480.0,
+   "price": 516.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11357381132630": {
@@ -155760,7 +155702,7 @@
    "first_run": 0,
    "first_seen": "2026-10-11T10:57:58+00:00",
    "last_seen": "2026-11-14",
-   "price": 300.0,
+   "price": 322.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11390949523798": {
@@ -155771,7 +155713,7 @@
    "first_run": 0,
    "first_seen": "2026-10-22T09:52:39+00:00",
    "last_seen": "2026-11-14",
-   "price": 285.0,
+   "price": 306.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11391659344214": {
@@ -155782,7 +155724,7 @@
    "first_run": 0,
    "first_seen": "2026-10-22T15:37:49+00:00",
    "last_seen": "2026-11-14",
-   "price": 300.0,
+   "price": 322.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11412396900694": {
@@ -155793,7 +155735,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T17:18:18+00:00",
    "last_seen": "2026-11-14",
-   "price": 280.0,
+   "price": 301.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11431930790230": {
@@ -155804,7 +155746,7 @@
    "first_run": 0,
    "first_seen": "2026-10-31T07:25:46+00:00",
    "last_seen": "2026-11-14",
-   "price": 185.0,
+   "price": 199.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11431940587862": {
@@ -155815,7 +155757,7 @@
    "first_run": 0,
    "first_seen": "2026-10-31T07:58:27+00:00",
    "last_seen": "2026-11-14",
-   "price": 110.0,
+   "price": 119.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/9171612893526": {
@@ -155826,7 +155768,7 @@
    "first_run": 0,
    "first_seen": "2024-09-18T15:21:21+00:00",
    "last_seen": "2026-11-14",
-   "price": 230.0,
+   "price": 247.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/9961157394774": {
@@ -155837,7 +155779,7 @@
    "first_run": 0,
    "first_seen": "2025-11-15T06:42:19+00:00",
    "last_seen": "2026-11-14",
-   "price": 200.0,
+   "price": 215.0,
    "sold": false
   },
   "issey|Elevated Archives|https://elevated-archives.com/products/15088923377999": {
@@ -193092,7 +193034,7 @@
    "first_run": 0,
    "first_seen": "2025-08-08T16:55:49+00:00",
    "last_seen": "2026-11-14",
-   "price": 330.0,
+   "price": 372.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10285836599639": {
@@ -193101,7 +193043,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:37:18+00:00",
    "last_seen": "2026-11-14",
-   "price": 100.0,
+   "price": 113.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10316023660887": {
@@ -193112,7 +193054,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T15:50:16+00:00",
    "last_seen": "2026-11-14",
-   "price": 790.0,
+   "price": 889.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10316052300119": {
@@ -193121,7 +193063,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T16:08:32+00:00",
    "last_seen": "2026-11-14",
-   "price": 450.0,
+   "price": 507.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10358322168151": {
@@ -193132,7 +193074,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:33+00:00",
    "last_seen": "2026-11-14",
-   "price": 150.0,
+   "price": 169.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10408019525975": {
@@ -193143,7 +193085,7 @@
    "first_run": 0,
    "first_seen": "2025-11-28T13:59:27+00:00",
    "last_seen": "2026-11-14",
-   "price": 210.0,
+   "price": 237.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10408071856471": {
@@ -193154,7 +193096,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:46+00:00",
    "last_seen": "2026-11-14",
-   "price": 150.0,
+   "price": 169.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10408169832791": {
@@ -193165,7 +193107,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T07:53:39+00:00",
    "last_seen": "2026-11-14",
-   "price": 550.0,
+   "price": 619.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10471100449111": {
@@ -193174,7 +193116,7 @@
    "first_run": 0,
    "first_seen": "2026-01-20T10:41:52+00:00",
    "last_seen": "2026-11-14",
-   "price": 280.0,
+   "price": 315.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/6686095835331": {
@@ -193185,7 +193127,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T13:37:43+00:00",
    "last_seen": "2026-11-14",
-   "price": 625.0,
+   "price": 703.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/6874184843459": {
@@ -193194,7 +193136,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T19:19:48+00:00",
    "last_seen": "2026-11-14",
-   "price": 1490.0,
+   "price": 1676.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956236665056": {
@@ -193205,7 +193147,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:20+00:00",
    "last_seen": "2026-11-14",
-   "price": 1350.0,
+   "price": 1519.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956236959968": {
@@ -193217,7 +193159,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:20+00:00",
    "last_seen": "2026-11-14",
-   "price": 1350.0,
+   "price": 1519.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956428488928": {
@@ -193228,7 +193170,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:55+00:00",
    "last_seen": "2026-11-14",
-   "price": 225.0,
+   "price": 254.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7957713191136": {
@@ -193237,7 +193179,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:04+00:00",
    "last_seen": "2026-11-14",
-   "price": 650.0,
+   "price": 731.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/8006359023840": {
@@ -193246,7 +193188,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:47:57+00:00",
    "last_seen": "2026-11-14",
-   "price": 475.0,
+   "price": 535.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/8006370525408": {
@@ -193257,7 +193199,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T19:02:02+00:00",
    "last_seen": "2026-11-14",
-   "price": 275.0,
+   "price": 310.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/9962095182167": {
@@ -193268,7 +193210,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:31:44+00:00",
    "last_seen": "2026-11-14",
-   "price": 490.0,
+   "price": 551.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/9962095247703": {
@@ -193279,7 +193221,7 @@
    "first_run": 0,
    "first_seen": "2026-07-19T15:34:47+00:00",
    "last_seen": "2026-11-14",
-   "price": 190.0,
+   "price": 214.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/9962095280471": {
@@ -193290,7 +193232,7 @@
    "first_run": 0,
    "first_seen": "2026-07-19T16:46:38+00:00",
    "last_seen": "2026-11-14",
-   "price": 220.0,
+   "price": 248.0,
    "sold": false
   },
   "margiela|Caramia Vintage|https://caramiavintage.com/products/9045262303420": {
@@ -195106,7 +195048,7 @@
    "first_run": 0,
    "first_seen": "2026-10-21T13:33:18+00:00",
    "last_seen": "2026-11-14",
-   "price": 165.0,
+   "price": 178.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11389607149910": {
@@ -195117,7 +195059,7 @@
    "first_run": 0,
    "first_seen": "2026-10-21T13:55:50+00:00",
    "last_seen": "2026-11-14",
-   "price": 120.0,
+   "price": 129.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11390870815062": {
@@ -195128,7 +195070,7 @@
    "first_run": 0,
    "first_seen": "2026-10-22T08:16:23+00:00",
    "last_seen": "2026-11-14",
-   "price": 155.0,
+   "price": 167.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11390942773590": {
@@ -195139,7 +195081,7 @@
    "first_run": 0,
    "first_seen": "2026-10-22T09:43:10+00:00",
    "last_seen": "2026-11-14",
-   "price": 155.0,
+   "price": 167.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11390953718102": {
@@ -195151,7 +195093,7 @@
    "first_run": 0,
    "first_seen": "2026-10-22T09:58:39+00:00",
    "last_seen": "2026-11-14",
-   "price": 160.0,
+   "price": 172.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11391016960342": {
@@ -195162,7 +195104,7 @@
    "first_run": 0,
    "first_seen": "2026-10-22T10:59:35+00:00",
    "last_seen": "2026-11-14",
-   "price": 300.0,
+   "price": 322.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11391401853270": {
@@ -195173,7 +195115,7 @@
    "first_run": 0,
    "first_seen": "2026-10-22T13:32:22+00:00",
    "last_seen": "2026-11-14",
-   "price": 155.0,
+   "price": 167.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11396307059030": {
@@ -195184,7 +195126,7 @@
    "first_run": 0,
    "first_seen": "2026-10-24T10:16:50+00:00",
    "last_seen": "2026-11-14",
-   "price": 165.0,
+   "price": 178.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11400109261142": {
@@ -195196,7 +195138,7 @@
    "first_run": 0,
    "first_seen": "2026-10-24T15:13:18+00:00",
    "last_seen": "2026-11-14",
-   "price": 1500.0,
+   "price": 1610.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11412421411158": {
@@ -195207,7 +195149,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T17:32:02+00:00",
    "last_seen": "2026-11-14",
-   "price": 280.0,
+   "price": 301.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11412499267926": {
@@ -195219,7 +195161,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T17:55:29+00:00",
    "last_seen": "2026-11-14",
-   "price": 1075.0,
+   "price": 1154.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11428828152150": {
@@ -195230,7 +195172,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T11:36:14+00:00",
    "last_seen": "2026-11-14",
-   "price": 140.0,
+   "price": 151.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11431936557398": {
@@ -195241,7 +195183,7 @@
    "first_run": 0,
    "first_seen": "2026-10-31T07:54:35+00:00",
    "last_seen": "2026-11-14",
-   "price": 155.0,
+   "price": 167.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11431966212438": {
@@ -195252,7 +195194,7 @@
    "first_run": 0,
    "first_seen": "2026-10-31T08:20:19+00:00",
    "last_seen": "2026-11-14",
-   "price": 115.0,
+   "price": 124.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11434533847382": {
@@ -195263,7 +195205,7 @@
    "first_run": 0,
    "first_seen": "2026-11-02T09:12:35+00:00",
    "last_seen": "2026-11-14",
-   "price": 185.0,
+   "price": 199.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11442812354902": {
@@ -195274,7 +195216,7 @@
    "first_run": 0,
    "first_seen": "2026-11-04T09:29:03+00:00",
    "last_seen": "2026-11-14",
-   "price": 170.0,
+   "price": 183.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11443092357462": {
@@ -195285,7 +195227,7 @@
    "first_run": 0,
    "first_seen": "2026-11-04T09:42:21+00:00",
    "last_seen": "2026-11-14",
-   "price": 160.0,
+   "price": 172.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11444051345750": {
@@ -195296,7 +195238,7 @@
    "first_run": 0,
    "first_seen": "2026-11-04T16:27:05+00:00",
    "last_seen": "2026-11-14",
-   "price": 450.0,
+   "price": 483.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11458090303830": {
@@ -195307,7 +195249,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T11:47:24+00:00",
    "last_seen": "2026-11-14",
-   "price": 285.0,
+   "price": 306.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11458244378966": {
@@ -195318,7 +195260,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T13:33:26+00:00",
    "last_seen": "2026-11-14",
-   "price": 1020.0,
+   "price": 1095.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11458458485078": {
@@ -195329,7 +195271,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T14:50:03+00:00",
    "last_seen": "2026-11-14",
-   "price": 250.0,
+   "price": 269.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11458532671830": {
@@ -195340,7 +195282,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T15:08:18+00:00",
    "last_seen": "2026-11-14",
-   "price": 270.0,
+   "price": 290.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11460126671190": {
@@ -195352,7 +195294,7 @@
    "first_run": 0,
    "first_seen": "2026-11-11T06:27:27+00:00",
    "last_seen": "2026-11-14",
-   "price": 330.0,
+   "price": 355.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11461033689430": {
@@ -195363,7 +195305,7 @@
    "first_run": 0,
    "first_seen": "2026-11-11T15:30:12+00:00",
    "last_seen": "2026-11-14",
-   "price": 180.0,
+   "price": 194.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11464254882134": {
@@ -195374,7 +195316,7 @@
    "first_run": 0,
    "first_seen": "2026-11-12T13:41:04+00:00",
    "last_seen": "2026-11-14",
-   "price": 450.0,
+   "price": 483.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11464433041750": {
@@ -212175,7 +212117,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:30:02+00:00",
    "last_seen": "2026-11-14",
-   "price": 740.0,
+   "price": 833.0,
    "sold": true
   },
   "numbernine|Backyard Archive|https://backyardarchive.us/products/7936123306208": {
@@ -212186,7 +212128,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:24+00:00",
    "last_seen": "2026-11-14",
-   "price": 650.0,
+   "price": 731.0,
    "sold": true
   },
   "numbernine|Backyard Archive|https://backyardarchive.us/products/7936123601120": {
@@ -212197,7 +212139,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:30+00:00",
    "last_seen": "2026-11-14",
-   "price": 750.0,
+   "price": 844.0,
    "sold": true
   },
   "numbernine|Crybynoon Archive|https://crybynoon.com/products/8412671082631": {
@@ -214760,7 +214702,7 @@
    "first_run": 0,
    "first_seen": "2026-07-27T16:43:52+00:00",
    "last_seen": "2026-11-14",
-   "price": 90.0,
+   "price": 102.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10311450493271": {
@@ -214771,7 +214713,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:26+00:00",
    "last_seen": "2026-11-14",
-   "price": 390.0,
+   "price": 439.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10311451050327": {
@@ -214780,7 +214722,7 @@
    "first_run": 0,
    "first_seen": "2026-07-19T15:26:39+00:00",
    "last_seen": "2026-11-14",
-   "price": 150.0,
+   "price": 169.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10319136653655": {
@@ -214792,7 +214734,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T21:30:51+00:00",
    "last_seen": "2026-11-14",
-   "price": 650.0,
+   "price": 731.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329215500631": {
@@ -214834,7 +214776,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T18:59:18+00:00",
    "last_seen": "2026-11-14",
-   "price": 390.0,
+   "price": 439.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10424212619607": {
@@ -214845,7 +214787,7 @@
    "first_run": 0,
    "first_seen": "2025-11-28T15:27:02+00:00",
    "last_seen": "2026-11-14",
-   "price": 490.0,
+   "price": 551.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10435016982871": {
@@ -214856,7 +214798,7 @@
    "first_run": 0,
    "first_seen": "2026-01-19T11:51:05+00:00",
    "last_seen": "2026-11-14",
-   "price": 590.0,
+   "price": 664.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10573091930455": {
@@ -214868,7 +214810,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T18:02:01+00:00",
    "last_seen": "2026-11-14",
-   "price": 650.0,
+   "price": 731.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783566463319": {
@@ -214877,7 +214819,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:11:00+00:00",
    "last_seen": "2026-11-14",
-   "price": 190.0,
+   "price": 214.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783567741271": {
@@ -214886,7 +214828,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:11:25+00:00",
    "last_seen": "2026-11-14",
-   "price": 190.0,
+   "price": 214.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783575867735": {
@@ -214895,7 +214837,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:14:02+00:00",
    "last_seen": "2026-11-14",
-   "price": 90.0,
+   "price": 102.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783576785239": {
@@ -214906,7 +214848,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:14:21+00:00",
    "last_seen": "2026-11-14",
-   "price": 290.0,
+   "price": 327.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579013463": {
@@ -214915,7 +214857,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:14:59+00:00",
    "last_seen": "2026-11-14",
-   "price": 280.0,
+   "price": 315.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579111767": {
@@ -214924,7 +214866,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:01+00:00",
    "last_seen": "2026-11-14",
-   "price": 240.0,
+   "price": 270.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579177303": {
@@ -214933,7 +214875,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:02+00:00",
    "last_seen": "2026-11-14",
-   "price": 220.0,
+   "price": 248.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579406679": {
@@ -214942,7 +214884,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:06+00:00",
    "last_seen": "2026-11-14",
-   "price": 690.0,
+   "price": 776.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579537751": {
@@ -214951,7 +214893,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:10+00:00",
    "last_seen": "2026-11-14",
-   "price": 290.0,
+   "price": 327.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579799895": {
@@ -214962,7 +214904,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:14+00:00",
    "last_seen": "2026-11-14",
-   "price": 250.0,
+   "price": 282.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579898199": {
@@ -214971,7 +214913,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:17+00:00",
    "last_seen": "2026-11-14",
-   "price": 550.0,
+   "price": 619.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783580127575": {
@@ -214980,7 +214922,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:19+00:00",
    "last_seen": "2026-11-14",
-   "price": 280.0,
+   "price": 315.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783580488023": {
@@ -214989,7 +214931,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:26+00:00",
    "last_seen": "2026-11-14",
-   "price": 590.0,
+   "price": 664.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582257495": {
@@ -214998,7 +214940,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:56+00:00",
    "last_seen": "2026-11-14",
-   "price": 450.0,
+   "price": 507.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582290263": {
@@ -215009,7 +214951,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:58+00:00",
    "last_seen": "2026-11-14",
-   "price": 350.0,
+   "price": 394.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582388567": {
@@ -215020,7 +214962,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:59+00:00",
    "last_seen": "2026-11-14",
-   "price": 390.0,
+   "price": 439.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783590383959": {
@@ -215031,7 +214973,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:18:05+00:00",
    "last_seen": "2026-11-14",
-   "price": 290.0,
+   "price": 327.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/5964179079363": {
@@ -219922,7 +219864,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T14:53:35+00:00",
    "last_seen": "2026-11-14",
-   "price": 380.0,
+   "price": 428.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10399386927447": {
@@ -219933,7 +219875,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T16:11:31+00:00",
    "last_seen": "2026-11-14",
-   "price": 250.0,
+   "price": 282.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10399388172631": {
@@ -219944,7 +219886,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T15:58:25+00:00",
    "last_seen": "2026-11-14",
-   "price": 120.0,
+   "price": 135.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10399390007639": {
@@ -219953,7 +219895,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:42+00:00",
    "last_seen": "2026-11-14",
-   "price": 120.0,
+   "price": 135.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10408082506071": {
@@ -219964,7 +219906,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T16:05:43+00:00",
    "last_seen": "2026-11-14",
-   "price": 120.0,
+   "price": 135.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10408338850135": {
@@ -219975,7 +219917,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T22:31:47+00:00",
    "last_seen": "2026-11-14",
-   "price": 120.0,
+   "price": 135.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10433201406295": {
@@ -219984,7 +219926,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:46+00:00",
    "last_seen": "2026-11-14",
-   "price": 160.0,
+   "price": 190.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10783565414743": {
@@ -219995,7 +219937,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:10:38+00:00",
    "last_seen": "2026-11-14",
-   "price": 150.0,
+   "price": 169.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377188434022": {
@@ -220004,7 +219946,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:43:05+00:00",
    "last_seen": "2026-11-14",
-   "price": 145.0,
+   "price": 164.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377204686950": {
@@ -220015,7 +219957,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:49:02+00:00",
    "last_seen": "2026-11-14",
-   "price": 325.0,
+   "price": 366.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377217007718": {
@@ -220024,7 +219966,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:53:41+00:00",
    "last_seen": "2026-11-14",
-   "price": 375.0,
+   "price": 422.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377236471910": {
@@ -220033,7 +219975,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:00:11+00:00",
    "last_seen": "2026-11-14",
-   "price": 645.0,
+   "price": 726.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4942501675110": {
@@ -220042,7 +219984,7 @@
    "first_run": 0,
    "first_seen": "2020-10-05T20:29:46+00:00",
    "last_seen": "2026-11-14",
-   "price": 195.0,
+   "price": 220.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/6100411908291": {
@@ -220053,7 +219995,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T13:37:54+00:00",
    "last_seen": "2026-11-14",
-   "price": 275.0,
+   "price": 310.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/6829393576131": {
@@ -220062,7 +220004,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T16:56:03+00:00",
    "last_seen": "2026-11-14",
-   "price": 440.0,
+   "price": 495.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/7955703464160": {
@@ -220073,7 +220015,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:06+00:00",
    "last_seen": "2026-11-14",
-   "price": 1850.0,
+   "price": 2081.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/7956221559008": {
@@ -220082,7 +220024,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:35:56+00:00",
    "last_seen": "2026-11-14",
-   "price": 100.0,
+   "price": 113.0,
    "sold": true
   },
   "raf|Crybynoon Archive|https://crybynoon.com/products/8344670371975": {
@@ -367328,6 +367270,408 @@
   "HKD": 7.846,
   "JPY": 160.0,
   "NZD": 1.8076
+ },
+ "shop_memo": {
+  "2nd Street": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://ec.2ndstreetusa.com/products/"
+  },
+  "97th Vintage": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://97thvintage.com/products/"
+  },
+  "Agora Vintage": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://agoravintage.com/products/"
+  },
+  "Akaibu": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://akaibu.co/products/"
+  },
+  "Amarcord Vintage": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.amarcordvintagefashion.com/products/"
+  },
+  "Archive Factory": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://archive-factory.com/products/"
+  },
+  "Archive On Waters": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://archiveonwaters.store/products/"
+  },
+  "Archive SF": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://archivesf.com/products/"
+  },
+  "Archive Threads": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://archivethreads.ca/products/"
+  },
+  "Archive Titus": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://archivetitus.com/products/"
+  },
+  "Archive Vintage": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://archivevintage.com/products/"
+  },
+  "Archived": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://archived.co/products/"
+  },
+  "Arkives": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://arkives.store/products/"
+  },
+  "Azura Runway": {
+   "currency": "AUD",
+   "date": "2026-11-14",
+   "id_prefix": "https://azurarunway.com/products/"
+  },
+  "Backyard Archive": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://backyardarchive.us/products/"
+  },
+  "Bee, Bark & Moss": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://beebarkandmoss.com/products/"
+  },
+  "Caramia Vintage": {
+   "currency": "AUD",
+   "date": "2026-11-14",
+   "id_prefix": "https://caramiavintage.com/products/"
+  },
+  "Circa Vintage": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.circavintage.com/products/"
+  },
+  "Cobble": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://cobblestore.com/products/"
+  },
+  "Crybynoon Archive": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://crybynoon.com/products/"
+  },
+  "DRIEW": {
+   "currency": "CAD",
+   "date": "2026-11-14",
+   "id_prefix": "https://driewgarments.com/products/"
+  },
+  "David Casavant Archive": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://shop.davidcasavantarchive.com/products/"
+  },
+  "Descry Archive": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.descryarchive.com/products/"
+  },
+  "DolceVitaHub": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://dolcevitahub.com/products/"
+  },
+  "ENDYMA": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://endyma.com/products/"
+  },
+  "Elevated Archives": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://elevated-archives.com/products/"
+  },
+  "Final Blow": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.finalblowchicago.com/products/"
+  },
+  "Freshmans Archive": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.freshmansarchive.com/products/"
+  },
+  "Front General Store": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://frontgeneralstore.com/products/"
+  },
+  "Good Good Vintage": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://goodgoodvintage.com/products/"
+  },
+  "Graceful Misfits": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://gracefulmisfits.com/products/"
+  },
+  "Groupie": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://groupie.store/products/"
+  },
+  "Headlock": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://headlock.co/products/"
+  },
+  "Her-Age": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://her-age.com/products/"
+  },
+  "Huiben": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://huibenshop.com/products/"
+  },
+  "JHROP": {
+   "currency": "HKD",
+   "date": "2026-11-14",
+   "id_prefix": "https://jhrop.com/products/"
+  },
+  "Japonista": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://japonista.com/products/"
+  },
+  "Justin Reed": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://justinreed.com/products/"
+  },
+  "Keep It Classic": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://keepitclassiclv.com/products/"
+  },
+  "LUXE MIA": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://luxemia.net/products/"
+  },
+  "Lord Ralph London": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://lordralphlondon.com/products/"
+  },
+  "Luke's": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://lukes.store/products/"
+  },
+  "Luxury Box ATL": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://luxuryboxatl.com/products/"
+  },
+  "Marco Sqrd": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://marcosqrd.com/products/"
+  },
+  "Messina Hembry": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://messinahembry.com/products/"
+  },
+  "Michael's": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://michaelsconsignment.com/products/"
+  },
+  "Midtown Archive": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://midtownarchive.com/products/"
+  },
+  "Morphew": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://morphewworld.com/products/"
+  },
+  "NEWLIFE Clothing": {
+   "currency": "CAD",
+   "date": "2026-11-14",
+   "id_prefix": "https://newlifeclo.com/products/"
+  },
+  "Nationalbunker": {
+   "currency": "CHF",
+   "date": "2026-11-14",
+   "id_prefix": "https://nationalbunker.store/products/"
+  },
+  "Ninesells": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://ninesells.de/products/"
+  },
+  "Odyssey Rebuild": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://odysseyrebuild.com/products/"
+  },
+  "Performa": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://performaatlanta.com/products/"
+  },
+  "Pilgrim": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://pilgrimnyc.com/products/"
+  },
+  "Planet Vintage": {
+   "currency": "NZD",
+   "date": "2026-11-14",
+   "id_prefix": "https://planetvintage.store/products/"
+  },
+  "Recente Studio": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://recentestudio.com/products/"
+  },
+  "Resurrection": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://resurrectionvintage.com/products/"
+  },
+  "Retrospective": {
+   "currency": "AUD",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.retrospectivestore.com/products/"
+  },
+  "Sadō Room": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://sadoroom.com/products/"
+  },
+  "Second Wave Vintage": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.secondwavevintage.co.uk/products/"
+  },
+  "Shop Status": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://shopstatus.store/products/"
+  },
+  "Shush London": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.shushlondon.uk/products/"
+  },
+  "Street Commerce": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://streetcommerce.shop/products/"
+  },
+  "Sui Generis": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://suigenerisconsignment.com/products/"
+  },
+  "Sunday Nightmare": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://sundaynightmare.com/products/"
+  },
+  "TAB Vintage": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.tabvintage.com/products/"
+  },
+  "The Elephant Market": {
+   "currency": "JPY",
+   "date": "2026-11-14",
+   "id_prefix": "https://theelephantmarket.com/products/"
+  },
+  "The Library": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://thelibrary1994.com/products/"
+  },
+  "Thrift Tale": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://thrifttale.com/products/"
+  },
+  "Thrifted": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.thrifted.com/products/"
+  },
+  "Throat": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://shopthroat.com/products/"
+  },
+  "Tokio 7": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://tokio7ny.com/products/"
+  },
+  "Twins Selling Things": {
+   "currency": "EUR",
+   "date": "2026-11-14",
+   "id_prefix": "https://twinssellingthings.de/products/"
+  },
+  "VSP Consignment": {
+   "currency": "CAD",
+   "date": "2026-11-14",
+   "id_prefix": "https://vspconsignment.com/products/"
+  },
+  "Vintage Collection Bendigo": {
+   "currency": "AUD",
+   "date": "2026-11-14",
+   "id_prefix": "https://vintagecollectionbendigo.com/products/"
+  },
+  "Vintage Couture": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.vintagecouture.com/products/"
+  },
+  "Vintage Marketplace": {
+   "currency": "AUD",
+   "date": "2026-11-14",
+   "id_prefix": "https://vintagemarketplace.com.au/products/"
+  },
+  "Vintage Rare USA": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.vintagerareusa.com/products/"
+  },
+  "Vintage by Misty": {
+   "currency": "USD",
+   "date": "2026-11-14",
+   "id_prefix": "https://vintagebymisty.com/products/"
+  },
+  "Zoo Fashions": {
+   "currency": "GBP",
+   "date": "2026-11-14",
+   "id_prefix": "https://www.zoofashions.com/products/"
+  }
  },
  "version": 2
 }
