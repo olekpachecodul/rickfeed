@@ -910,5 +910,91 @@
   "city": "",
   "root": "https://www.zoofashions.com",
   "collections": {}
+ },
+ {
+  "name": "Ragtag",
+  "city": "Japan",
+  "root": "https://ragtag-global.com",
+  "collections": {
+   "yohji": [
+    "yohjiyamamoto"
+   ]
+  }
+ },
+ {
+  "name": "Recollected",
+  "city": "Sweden",
+  "root": "https://recollectedsweden.com",
+  "collections": {
+   "raf": [
+    "raf-simons"
+   ]
+  }
+ },
+ {
+  "name": "Seagraves",
+  "city": "Toronto",
+  "root": "https://seagraves-shop.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ]
+  }
+ },
+ {
+  "name": "Turnabout",
+  "city": "Canada",
+  "root": "https://turnabout.com",
+  "collections": {
+   "rick": [
+    "rick-owens"
+   ]
+  }
+ },
+ {
+  "name": "Sunny Arkives",
+  "city": "",
+  "root": "https://www.sunnyarkives.com",
+  "collections": {}
+ },
+ {
+  "name": "Vintage von Werth",
+  "city": "Germany",
+  "root": "https://vintagevonwerth.de",
+  "collections": {
+   "issey": [
+    "issey-miyake"
+   ]
+  }
+ },
+ {
+  "name": "Bohème Vintage",
+  "city": "Montréal",
+  "root": "https://bohemevintage.com",
+  "collections": {
+   "issey": [
+    "issey-miyake"
+   ]
+  }
+ },
+ {
+  "name": "Raleigh Vintage",
+  "city": "",
+  "root": "https://raleighvintage.com",
+  "collections": {
+   "issey": [
+    "issey-miyake"
+   ]
+  }
+ },
+ {
+  "name": "Vintage Threads",
+  "city": "UK",
+  "root": "https://vintage-threads.com",
+  "collections": {
+   "issey": [
+    "issey-miyake-1"
+   ]
+  }
  }
 ]
