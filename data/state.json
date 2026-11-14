@@ -1,5 +1,32 @@
 {
  "discovered": {
+  "269Archive": {
+   "date": "2026-11-14",
+   "found": {},
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
   "2nd Street": {
    "date": "2026-11-14",
    "found": {
@@ -107,6 +134,75 @@
    ],
    "v": 2
   },
+  "Agents In Style": {
+   "date": "2026-11-14",
+   "found": {
+    "balenciaga": [
+     "pre-owned-balenciaga"
+    ]
+   },
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
+  "Agora Vintage": {
+   "date": "2026-11-14",
+   "found": {
+    "balenciaga": [
+     "balenciaga",
+     "shop-all-balenciaga-bags",
+     "balenciaga-test",
+     "balenciaga-hourglass",
+     "balenciaga-bags"
+    ],
+    "ralph": [
+     "ralph-lauren"
+    ]
+   },
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
   "Akaibu": {
    "date": "2026-11-14",
    "found": {
@@ -139,6 +235,49 @@
     ],
     "yohji": [
      "yojji-yamamoto"
+    ]
+   },
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
+  "Amarcord Vintage": {
+   "date": "2026-11-14",
+   "found": {
+    "cdg": [
+     "comme-des-garcons"
+    ],
+    "gaultier": [
+     "jean-paul-gaultier"
+    ],
+    "issey": [
+     "vintage-issey-miyake"
+    ],
+    "margiela": [
+     "maison-martin-margiela"
+    ],
+    "yohji": [
+     "yohji-yamamoto"
     ]
    },
    "slugs": [
@@ -716,6 +855,95 @@
    "found": {
     "yohji": [
      "ms-archives"
+    ]
+   },
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
+  "Caramia Vintage": {
+   "date": "2026-11-14",
+   "found": {
+    "balenciaga": [
+     "balenciaga"
+    ],
+    "cdg": [
+     "comme-des-garcons"
+    ],
+    "gaultier": [
+     "jean-paul-gaultier"
+    ],
+    "issey": [
+     "issey-miyake"
+    ],
+    "lang": [
+     "helmut-lang"
+    ],
+    "margiela": [
+     "maison-martin-margiela"
+    ],
+    "rick": [
+     "rick-owens"
+    ],
+    "yohji": [
+     "yohji-yamamoto"
+    ]
+   },
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
+  "Circa Vintage": {
+   "date": "2026-11-14",
+   "found": {
+    "balenciaga": [
+     "balenciaga"
+    ],
+    "gaultier": [
+     "jean-paul-gaultier"
+    ],
+    "ralph": [
+     "ralph-lauren"
     ]
    },
    "slugs": [
@@ -1336,6 +1564,60 @@
     ],
     "yohji": [
      "ys",
+     "yohji-yamamoto"
+    ]
+   },
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
+  "Good Good Vintage": {
+   "date": "2026-11-14",
+   "found": {
+    "ann": [
+     "ann-demeulemeester"
+    ],
+    "balenciaga": [
+     "balenciaga"
+    ],
+    "cdg": [
+     "comme-des-garcons",
+     "junya-watanabe"
+    ],
+    "gaultier": [
+     "jean-paul-gaultier"
+    ],
+    "issey": [
+     "issey-miyake"
+    ],
+    "raf": [
+     "raf-simons"
+    ],
+    "ralph": [
+     "ralph-lauren"
+    ],
+    "yohji": [
+     "y-3",
      "yohji-yamamoto"
     ]
    },
@@ -3148,6 +3430,40 @@
    ],
    "v": 2
   },
+  "TAB Vintage": {
+   "date": "2026-11-14",
+   "found": {
+    "gaultier": [
+     "jean-paul-gaultier"
+    ],
+    "issey": [
+     "issey-miyake"
+    ]
+   },
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
   "The Elephant Market": {
    "date": "2026-11-14",
    "found": {
@@ -3633,6 +3949,112 @@
      "polo-ralph-lauren-jacket",
      "vintage-denim-shirts",
      "vintage-ralph-lauren-pants"
+    ]
+   },
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
+  "Vintage by Misty": {
+   "date": "2026-11-14",
+   "found": {
+    "gaultier": [
+     "jean-paul-gaultier"
+    ]
+   },
+   "slugs": [
+    "ann",
+    "balenciaga",
+    "bbs",
+    "ccp",
+    "cdg",
+    "gaultier",
+    "guidi",
+    "issey",
+    "julius",
+    "kiko",
+    "lang",
+    "margiela",
+    "numbernine",
+    "raf",
+    "rafcalvin",
+    "ralph",
+    "rick",
+    "soshiotsuki",
+    "undercover",
+    "yohji"
+   ],
+   "v": 2
+  },
+  "Zoo Fashions": {
+   "date": "2026-11-14",
+   "found": {
+    "balenciaga": [
+     "balenciaga",
+     "balenciaga-mens-sale",
+     "balenciaga-archive",
+     "rare-spieces-extinct-drop-001",
+     "balenciaga-mens-coats-and-jackets",
+     "balenciaga-mens-sweatshirt-and-hoodies",
+     "balenciaga-mens-shirts",
+     "balenciaga-mens-t-shirts",
+     "balenciaga-sneakers"
+    ],
+    "cdg": [
+     "rare-spieces-extinct-drop-004",
+     "comme-des-garcons"
+    ],
+    "issey": [
+     "issey-miyake",
+     "rare-spieces-extinct-drop-004"
+    ],
+    "margiela": [
+     "maison-margiela",
+     "rare-spieces-extinct-drop-003"
+    ],
+    "raf": [
+     "raf-simons"
+    ],
+    "ralph": [
+     "ralph-lauren-purple-label",
+     "ralph-lauren-rlx"
+    ],
+    "rick": [
+     "adidas-x-rick-owens",
+     "rick-owens"
+    ],
+    "yohji": [
+     "y-3",
+     "rare-spieces-extinct-drop-004",
+     "y-3-neighborhood",
+     "y-3-mens-sale",
+     "y-3-mens-coats-and-jackets",
+     "yohji-yamamoto",
+     "y-3-mens-t-shirts",
+     "y-3-mens-sneakers",
+     "y-3-mens-sweatshirts-and-hoodies",
+     "y-3-x-jfa",
+     "ys-by-yohji-yamamoto"
     ]
    },
    "slugs": [
@@ -24391,6 +24813,51 @@
    "price": 80.0,
    "sold": false
   },
+  "balenciaga|Agora Vintage|https://agoravintage.com/products/10161044193565": {
+   "category": "Bottoms",
+   "colours": [
+    "Black",
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-05-13T21:38:34+00:00",
+   "last_seen": "2026-11-14",
+   "price": 150.0,
+   "sold": false
+  },
+  "balenciaga|Agora Vintage|https://agoravintage.com/products/10188262048029": {
+   "category": "Other",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-05-27T16:59:18+00:00",
+   "last_seen": "2026-11-14",
+   "price": 199.0,
+   "sold": false
+  },
+  "balenciaga|Agora Vintage|https://agoravintage.com/products/10201634636061": {
+   "category": "Other",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-05-28T20:20:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1299.0,
+   "sold": false
+  },
+  "balenciaga|Agora Vintage|https://agoravintage.com/products/9949383459101": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-29T19:34:36+00:00",
+   "last_seen": "2026-11-14",
+   "price": 250.0,
+   "sold": false
+  },
   "balenciaga|Archive Factory|https://archive-factory.com/products/10683429388481": {
    "category": "Bags & accessories",
    "colours": [],
@@ -29845,6 +30312,99 @@
    "price": 190.0,
    "sold": false
   },
+  "balenciaga|Caramia Vintage|https://caramiavintage.com/products/8964840685756": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-09-22T20:30:11+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1500.0,
+   "sold": false
+  },
+  "balenciaga|Caramia Vintage|https://caramiavintage.com/products/9013350662332": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-31T05:01:17+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "balenciaga|Caramia Vintage|https://caramiavintage.com/products/9160781791420": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-02T20:00:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 850.0,
+   "sold": false
+  },
+  "balenciaga|Circa Vintage|https://www.circavintage.com/products/14810017464698": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-11-12T12:43:55+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1450.0,
+   "sold": false
+  },
+  "balenciaga|Circa Vintage|https://www.circavintage.com/products/14857842426234": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-11-22T15:01:58+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "balenciaga|Circa Vintage|https://www.circavintage.com/products/16152700387706": {
+   "category": "Dresses",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-15T10:21:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2250.0,
+   "sold": false
+  },
+  "balenciaga|Circa Vintage|https://www.circavintage.com/products/16224791069050": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-05T13:31:49+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1450.0,
+   "sold": false
+  },
+  "balenciaga|Circa Vintage|https://www.circavintage.com/products/16269466829178": {
+   "category": "Dresses",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-06T10:47:23+00:00",
+   "last_seen": "2026-11-14",
+   "price": 10000.0,
+   "sold": false
+  },
+  "balenciaga|Circa Vintage|https://www.circavintage.com/products/7895320428793": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-09-14T13:55:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 495.0,
+   "sold": false
+  },
   "balenciaga|Crybynoon Archive|https://crybynoon.com/products/8344670961799": {
    "category": "Other",
    "colours": [
@@ -33884,6 +34444,17 @@
    "first_seen": "2024-10-23T08:44:27+00:00",
    "last_seen": "2026-11-14",
    "price": 280.0,
+   "sold": false
+  },
+  "balenciaga|Good Good Vintage|https://goodgoodvintage.com/products/16018130698613": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-02T18:02:20+00:00",
+   "last_seen": "2026-11-14",
+   "price": 160.0,
    "sold": false
   },
   "balenciaga|Groupie|https://groupie.store/products/10316657426665": {
@@ -74584,6 +75155,564 @@
    "price": 300.0,
    "sold": false
   },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6942473519153": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-03T18:17:53+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1494.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6942500847665": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-07-25T17:03:00+00:00",
+   "last_seen": "2026-11-14",
+   "price": 275.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6942535188529": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-19T08:23:43+00:00",
+   "last_seen": "2026-11-14",
+   "price": 522.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943306547249": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-08-05T10:58:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1145.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943365365809": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-04T16:39:24+00:00",
+   "last_seen": "2026-11-14",
+   "price": 604.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943370805297": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T10:47:59+00:00",
+   "last_seen": "2026-11-14",
+   "price": 375.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943374639153": {
+   "category": "Footwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T12:56:23+00:00",
+   "last_seen": "2026-11-14",
+   "price": 423.95,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943385649201": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-04T16:47:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 599.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943386271793": {
+   "category": "Bottoms",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-04T16:47:28+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1725.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943396626481": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T10:44:44+00:00",
+   "last_seen": "2026-11-14",
+   "price": 775.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943396724785": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T10:43:23+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1402.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943399673905": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:05:59+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1072.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943399968817": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T15:13:07+00:00",
+   "last_seen": "2026-11-14",
+   "price": 599.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943400460337": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:13:15+00:00",
+   "last_seen": "2026-11-14",
+   "price": 487.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943400558641": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:14:52+00:00",
+   "last_seen": "2026-11-14",
+   "price": 425.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943404589105": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T10:31:26+00:00",
+   "last_seen": "2026-11-14",
+   "price": 487.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943407603761": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-19T05:09:15+00:00",
+   "last_seen": "2026-11-14",
+   "price": 91.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943408193585": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:55:34+00:00",
+   "last_seen": "2026-11-14",
+   "price": 845.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943427756081": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-07-03T19:27:20+00:00",
+   "last_seen": "2026-11-14",
+   "price": 945.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943453970481": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T15:29:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 421.35,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943491326001": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:38:29+00:00",
+   "last_seen": "2026-11-14",
+   "price": 382.25,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943506169905": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T15:36:49+00:00",
+   "last_seen": "2026-11-14",
+   "price": 405.45,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943506202673": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-04T18:21:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 302.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943546802225": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T15:10:17+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1075.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943608504369": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:52:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 371.25,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943620857905": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:57:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 675.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943620956209": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-12T16:43:41+00:00",
+   "last_seen": "2026-11-14",
+   "price": 625.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943639470129": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T15:51:07+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1075.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943665848369": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:46:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 369.75,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943676956721": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T15:25:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1077.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943681413169": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T12:53:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 237.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943693144113": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:27:22+00:00",
+   "last_seen": "2026-11-14",
+   "price": 482.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943694684209": {
+   "category": "Bottoms",
+   "colours": [
+    "Black",
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T14:32:54+00:00",
+   "last_seen": "2026-11-14",
+   "price": 467.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943704678449": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T15:05:56+00:00",
+   "last_seen": "2026-11-14",
+   "price": 222.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943704842289": {
+   "category": "Tops",
+   "colours": [
+    "Grey",
+    "Blue",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-07-22T12:27:15+00:00",
+   "last_seen": "2026-11-14",
+   "price": 627.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943704940593": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-12T07:43:34+00:00",
+   "last_seen": "2026-11-14",
+   "price": 562.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943738953777": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-18T13:14:37+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1717.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943740788785": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T15:09:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 947.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943741149233": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-18T14:50:31+00:00",
+   "last_seen": "2026-11-14",
+   "price": 667.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943746555953": {
+   "category": "Bottoms",
+   "colours": [
+    "Black",
+    "Blue",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-11T15:07:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 587.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943757566001": {
+   "category": "Tops",
+   "colours": [
+    "Green",
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-02-18T17:10:40+00:00",
+   "last_seen": "2026-11-14",
+   "price": 467.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943833849905": {
+   "category": "Other",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-18T11:09:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 247.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943860457521": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-08-28T14:50:57+00:00",
+   "last_seen": "2026-11-14",
+   "price": 132.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943873466417": {
+   "category": "Footwear",
+   "colours": [
+    "Brown",
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-08-28T14:48:56+00:00",
+   "last_seen": "2026-11-14",
+   "price": 167.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943937790001": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-08-28T14:40:55+00:00",
+   "last_seen": "2026-11-14",
+   "price": 192.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943937888305": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-08-28T14:39:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 327.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943954174001": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-08-28T14:12:38+00:00",
+   "last_seen": "2026-11-14",
+   "price": 152.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6958033338417": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-09-24T12:25:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1290.0,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6958033502257": {
+   "category": "Outerwear",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-12-05T12:46:20+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2359.5,
+   "sold": false
+  },
+  "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6958033633329": {
+   "category": "Footwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-09-24T12:25:36+00:00",
+   "last_seen": "2026-11-14",
+   "price": 398.75,
+   "sold": false
+  },
   "bbs|Archive SF|https://archivesf.com/products/8977933205743": {
    "category": "Bags & accessories",
    "colours": [
@@ -89222,6 +90351,202 @@
    "price": 675.0,
    "sold": false
   },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/10346224845019": {
+   "category": "Outerwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-14T22:05:29+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1385.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/10368846954715": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-23T15:43:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1585.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/10368984940763": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-23T15:52:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1985.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/1861604507691": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2019-08-21T19:38:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 245.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7788500680923": {
+   "category": "Dresses",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2022-08-13T19:50:17+00:00",
+   "last_seen": "2026-11-14",
+   "price": 785.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8747523277019": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-11-27T00:06:58+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8788579746011": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-01-25T15:47:27+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2395.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8928471449819": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-11T19:56:47+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2565.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8928482885851": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-11T19:56:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2195.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8935655571675": {
+   "category": "Dresses",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-07-09T19:54:24+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1195.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8936601059547": {
+   "category": "Outerwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-11T19:56:51+00:00",
+   "last_seen": "2026-11-14",
+   "price": 3295.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8951646748891": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-08-01T10:29:01+00:00",
+   "last_seen": "2026-11-14",
+   "price": 695.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8987380056283": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:01:58+00:00",
+   "last_seen": "2026-11-14",
+   "price": 785.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9129812754651": {
+   "category": "Dresses",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-31T20:51:52+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1195.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9137294475483": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-02-05T21:37:56+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2585.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9340956344539": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-05-07T21:39:14+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1185.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9372441051355": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-12T22:48:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "cdg|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9391513043163": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-02T19:11:38+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1795.0,
+   "sold": false
+  },
   "cdg|Archive Factory|https://archive-factory.com/products/10369718124737": {
    "category": "Tops",
    "colours": [],
@@ -102032,6 +103357,24 @@
    "price": 150.0,
    "sold": false
   },
+  "cdg|Caramia Vintage|https://caramiavintage.com/products/15380665696429": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-11-06T02:47:59+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2495.0,
+   "sold": true
+  },
+  "cdg|Caramia Vintage|https://caramiavintage.com/products/8730378174652": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-03-15T20:30:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 895.0,
+   "sold": false
+  },
   "cdg|Crybynoon Archive|https://crybynoon.com/products/8421908152455": {
    "category": "Other",
    "colours": [],
@@ -106513,6 +107856,17 @@
    "first_seen": "2026-11-11T13:00:04+00:00",
    "last_seen": "2026-11-14",
    "price": 348.0,
+   "sold": false
+  },
+  "cdg|Good Good Vintage|https://goodgoodvintage.com/products/15995147714933": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-03T09:45:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 90.0,
    "sold": false
   },
   "cdg|Groupie|https://groupie.store/products/15401260318953": {
@@ -125033,6 +126387,83 @@
    "price": 460.0,
    "sold": false
   },
+  "cdg|Zoo Fashions|https://www.zoofashions.com/products/15941008064892": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T16:28:11+00:00",
+   "last_seen": "2026-11-14",
+   "price": 430.0,
+   "sold": false
+  },
+  "cdg|Zoo Fashions|https://www.zoofashions.com/products/15941016486268": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T15:10:37+00:00",
+   "last_seen": "2026-11-14",
+   "price": 160.0,
+   "sold": false
+  },
+  "cdg|Zoo Fashions|https://www.zoofashions.com/products/15941029036412": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-20T12:19:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 275.0,
+   "sold": false
+  },
+  "cdg|Zoo Fashions|https://www.zoofashions.com/products/15941029200252": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:51+00:00",
+   "last_seen": "2026-11-14",
+   "price": 275.0,
+   "sold": true
+  },
+  "cdg|Zoo Fashions|https://www.zoofashions.com/products/15941029298556": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-20T12:17:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 210.0,
+   "sold": false
+  },
+  "cdg|Zoo Fashions|https://www.zoofashions.com/products/15941029462396": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-20T12:21:07+00:00",
+   "last_seen": "2026-11-14",
+   "price": 300.0,
+   "sold": false
+  },
+  "cdg|Zoo Fashions|https://www.zoofashions.com/products/15942901236092": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T16:18:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 835.0,
+   "sold": false
+  },
   "gaultier|2nd Street|https://ec.2ndstreetusa.com/products/10306845278317": {
    "category": "Tops",
    "colours": [
@@ -126261,6 +127692,953 @@
    "last_seen": "2026-11-14",
    "price": 310.0,
    "sold": true
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/10346266755291": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-14T22:43:41+00:00",
+   "last_seen": "2026-11-14",
+   "price": 435.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/10346277568731": {
+   "category": "Tops",
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-14T22:54:28+00:00",
+   "last_seen": "2026-11-14",
+   "price": 765.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7584407781595": {
+   "category": "Tops",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2022-03-21T22:34:52+00:00",
+   "last_seen": "2026-11-14",
+   "price": 395.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7676525281499": {
+   "category": "Dresses",
+   "colours": [
+    "Brown",
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2022-05-15T16:59:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1085.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7771608056027": {
+   "category": "Tops",
+   "colours": [
+    "Black",
+    "White",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2022-07-29T14:35:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 485.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7846010749147": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-11T19:56:22+00:00",
+   "last_seen": "2026-11-14",
+   "price": 3285.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7881129459931": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-07T17:00:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 485.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7881703358683": {
+   "category": "Tops",
+   "colours": [
+    "Black",
+    "Brown",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2022-11-07T17:00:23+00:00",
+   "last_seen": "2026-11-14",
+   "price": 345.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7959525753051": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-01-31T23:23:57+00:00",
+   "last_seen": "2026-11-14",
+   "price": 635.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7980795560155": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-03-11T17:59:05+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1785.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7984794206427": {
+   "category": "Dresses",
+   "colours": [
+    "Brown",
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-03-11T17:59:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1585.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8062557094107": {
+   "category": "Dresses",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-07-28T14:49:44+00:00",
+   "last_seen": "2026-11-14",
+   "price": 635.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8699862679771": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-09-28T13:46:31+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1485.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8713173926107": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-10-13T16:00:18+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8713194209499": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-10-13T16:00:14+00:00",
+   "last_seen": "2026-11-14",
+   "price": 325.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8713246376155": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-10-13T16:00:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 395.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8713251946715": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-10-29T20:38:29+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1195.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8757081964763": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-10T20:28:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8757113094363": {
+   "category": "Dresses",
+   "colours": [
+    "Black",
+    "Green",
+    "Blue",
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-12-10T21:23:17+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8757144682715": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-10T22:13:28+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8757145764059": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-12-10T22:41:23+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1595.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8757166702811": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-12-10T23:20:11+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1195.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8787819561179": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-01-25T15:47:23+00:00",
+   "last_seen": "2026-11-14",
+   "price": 625.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8787833159899": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-01-25T15:47:24+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1595.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8788657668315": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey",
+    "Brown",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-01-25T15:47:31+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1365.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8845725565147": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-02T15:51:05+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8928625918171": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-26T14:00:25+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1595.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8928625950939": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-06-26T14:00:26+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1495.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8935629848795": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-07-09T18:45:30+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8952204427483": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-08-01T10:29:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 435.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8952225169627": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-08-01T10:29:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 465.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8967371882715": {
+   "category": "Dresses",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-08-16T06:26:34+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8985626771675": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:01:51+00:00",
+   "last_seen": "2026-11-14",
+   "price": 495.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8987202650331": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:01:54+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1195.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8987414626523": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:02:03+00:00",
+   "last_seen": "2026-11-14",
+   "price": 585.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8987414855899": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:02:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 495.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8987439530203": {
+   "category": "Tops",
+   "colours": [
+    "Grey",
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:02:13+00:00",
+   "last_seen": "2026-11-14",
+   "price": 465.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9129346695387": {
+   "category": "Tops",
+   "colours": [
+    "Black",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-31T15:21:15+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9129348235483": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-01-31T15:21:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1485.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9129368125659": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-31T15:21:17+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1785.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9136408953051": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-02-04T23:27:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 525.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9172423082203": {
+   "category": "Dresses",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-02-24T23:39:17+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1195.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9172425736411": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-24T23:40:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 965.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9187166814427": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-16T23:02:46+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2495.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9289614983387": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-16T05:13:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370302316763": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-10T19:24:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 3985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370303299803": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-10T19:36:41+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370306183387": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-10T19:42:29+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370308575451": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-10T20:17:52+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1385.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370374275291": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-10T20:25:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1395.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370415595739": {
+   "category": "Other",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-10T21:08:18+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370438729947": {
+   "category": "Other",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-10T21:29:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370439090395": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-10T21:37:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370443546843": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-10T21:42:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 495.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370453115099": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-10T22:11:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9370462027995": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-10T22:29:27+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9371712553179": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-11T20:53:58+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9372444688603": {
+   "category": "Tops",
+   "colours": [
+    "Brown",
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-12T22:59:55+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1265.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9377136410843": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-18T18:42:25+00:00",
+   "last_seen": "2026-11-14",
+   "price": 645.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9377139032283": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-18T18:52:05+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9377231470811": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-18T21:45:35+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9377237237979": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-18T22:04:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1185.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9380990419163": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:36+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9381045272795": {
+   "category": "Other",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:44+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9381052842203": {
+   "category": "Other",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 695.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9381071323355": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:47+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1395.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382539428059": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:49+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1365.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382567510235": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:51+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1295.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382568198363": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:52+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1185.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382579896539": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:54+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1235.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382662701275": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:56+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2195.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382662996187": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:57+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1295.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382672859355": {
+   "category": "Dresses",
+   "colours": [
+    "Black",
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:58+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1195.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382673187035": {
+   "category": "Dresses",
+   "colours": [
+    "Black",
+    "Green",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:00:59+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1465.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382698057947": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:01+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9382698352859": {
+   "category": "Tops",
+   "colours": [
+    "Brown",
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:02+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1165.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383428686043": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1785.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383428915419": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:07+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383430193371": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383444709595": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383539671259": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:14+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383541768411": {
+   "category": "Dresses",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:15+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383594557659": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 465.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383630635227": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2195.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383653834971": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1985.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383671496923": {
+   "category": "Other",
+   "colours": [
+    "White",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:26+00:00",
+   "last_seen": "2026-11-14",
+   "price": 495.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383675396315": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:28+00:00",
+   "last_seen": "2026-11-14",
+   "price": 3495.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383731658971": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9383735623899": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-06-27T14:01:34+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9396554137819": {
+   "category": "Outerwear",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-07T20:51:43+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9397889073371": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-08T22:47:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 745.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9397896577243": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-08T23:16:22+00:00",
+   "last_seen": "2026-11-14",
+   "price": 725.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9442799485147": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-11T22:17:34+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "gaultier|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9457291821275": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-08-25T03:12:00+00:00",
+   "last_seen": "2026-11-14",
+   "price": 425.0,
+   "sold": false
   },
   "gaultier|Archive Factory|https://archive-factory.com/products/10620326641857": {
    "category": "Outerwear",
@@ -129117,6 +131495,160 @@
    "first_seen": "2026-01-29T21:10:52+00:00",
    "last_seen": "2026-11-14",
    "price": 200.0,
+   "sold": false
+  },
+  "gaultier|Caramia Vintage|https://caramiavintage.com/products/15297984987309": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-27T03:40:20+00:00",
+   "last_seen": "2026-11-14",
+   "price": 695.0,
+   "sold": false
+  },
+  "gaultier|Caramia Vintage|https://caramiavintage.com/products/7403873861820": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-02-22T21:00:11+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2400.0,
+   "sold": false
+  },
+  "gaultier|Caramia Vintage|https://caramiavintage.com/products/7690739744956": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2022-11-03T21:30:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 6600.0,
+   "sold": false
+  },
+  "gaultier|Caramia Vintage|https://caramiavintage.com/products/8020336017596": {
+   "category": "Other",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-08-24T22:00:15+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1200.0,
+   "sold": false
+  },
+  "gaultier|Caramia Vintage|https://caramiavintage.com/products/9045306147004": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-11-03T07:32:46+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1200.0,
+   "sold": false
+  },
+  "gaultier|Caramia Vintage|https://caramiavintage.com/products/9082614939836": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-12-08T05:39:32+00:00",
+   "last_seen": "2026-11-14",
+   "price": 900.0,
+   "sold": false
+  },
+  "gaultier|Caramia Vintage|https://caramiavintage.com/products/9388102910140": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-01T22:08:52+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2200.0,
+   "sold": false
+  },
+  "gaultier|Circa Vintage|https://www.circavintage.com/products/14839137304954": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-11-20T13:04:24+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "gaultier|Circa Vintage|https://www.circavintage.com/products/14915789717882": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-01-14T16:17:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1750.0,
+   "sold": false
+  },
+  "gaultier|Circa Vintage|https://www.circavintage.com/products/15038351868282": {
+   "category": "Bottoms",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-04-07T09:13:37+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "gaultier|Circa Vintage|https://www.circavintage.com/products/16128964198778": {
+   "category": "Dresses",
+   "colours": [
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-17T09:54:34+00:00",
+   "last_seen": "2026-11-14",
+   "price": 10000.0,
+   "sold": false
+  },
+  "gaultier|Circa Vintage|https://www.circavintage.com/products/5395062489254": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2020-06-27T14:17:14+00:00",
+   "last_seen": "2026-11-14",
+   "price": 350.0,
+   "sold": false
+  },
+  "gaultier|Circa Vintage|https://www.circavintage.com/products/7678784700665": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-08-23T15:17:59+00:00",
+   "last_seen": "2026-11-14",
+   "price": 350.0,
+   "sold": false
+  },
+  "gaultier|Circa Vintage|https://www.circavintage.com/products/8085162787065": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-02-09T17:40:25+00:00",
+   "last_seen": "2026-11-14",
+   "price": 3400.0,
+   "sold": false
+  },
+  "gaultier|Circa Vintage|https://www.circavintage.com/products/8339820249337": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-05-15T10:32:27+00:00",
+   "last_seen": "2026-11-14",
+   "price": 850.0,
+   "sold": false
+  },
+  "gaultier|Circa Vintage|https://www.circavintage.com/products/8462811529465": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-07-24T10:19:14+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1250.0,
    "sold": false
   },
   "gaultier|DRIEW|https://driewgarments.com/products/7289198870606": {
@@ -132518,6 +135050,72 @@
    "price": 328.0,
    "sold": false
   },
+  "gaultier|Good Good Vintage|https://goodgoodvintage.com/products/15994307477877": {
+   "category": "Bottoms",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-01T16:24:23+00:00",
+   "last_seen": "2026-11-14",
+   "price": 45.0,
+   "sold": false
+  },
+  "gaultier|Good Good Vintage|https://goodgoodvintage.com/products/15994308723061": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-01T16:24:32+00:00",
+   "last_seen": "2026-11-14",
+   "price": 450.0,
+   "sold": false
+  },
+  "gaultier|Good Good Vintage|https://goodgoodvintage.com/products/15994310328693": {
+   "category": "Dresses",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-01T16:24:38+00:00",
+   "last_seen": "2026-11-14",
+   "price": 385.0,
+   "sold": false
+  },
+  "gaultier|Good Good Vintage|https://goodgoodvintage.com/products/15994315342197": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-02T11:38:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 250.0,
+   "sold": false
+  },
+  "gaultier|Good Good Vintage|https://goodgoodvintage.com/products/15995149910389": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-03T09:45:14+00:00",
+   "last_seen": "2026-11-14",
+   "price": 200.0,
+   "sold": false
+  },
+  "gaultier|Good Good Vintage|https://goodgoodvintage.com/products/16021457437045": {
+   "category": "Tops",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-09T14:13:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 40.0,
+   "sold": false
+  },
   "gaultier|Groupie|https://groupie.store/products/15437057458409": {
    "category": "Tops",
    "colours": [
@@ -135495,6 +138093,62 @@
    "price": 260.0,
    "sold": false
   },
+  "gaultier|TAB Vintage|https://www.tabvintage.com/products/10707626295455": {
+   "category": "Other",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-10-03T18:20:30+00:00",
+   "last_seen": "2026-11-14",
+   "price": 3495.0,
+   "sold": false
+  },
+  "gaultier|TAB Vintage|https://www.tabvintage.com/products/10844334227615": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-10-27T19:35:03+00:00",
+   "last_seen": "2026-11-14",
+   "price": 895.0,
+   "sold": false
+  },
+  "gaultier|TAB Vintage|https://www.tabvintage.com/products/10917847335071": {
+   "category": "Dresses",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-01T16:00:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 3495.0,
+   "sold": false
+  },
+  "gaultier|TAB Vintage|https://www.tabvintage.com/products/9337191497887": {
+   "category": "Dresses",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-10-03T18:19:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 8425.0,
+   "sold": false
+  },
+  "gaultier|TAB Vintage|https://www.tabvintage.com/products/9570216149151": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-06T18:59:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2495.0,
+   "sold": false
+  },
   "gaultier|Tokio 7|https://tokio7ny.com/products/10214479855843": {
    "category": "Outerwear",
    "colours": [],
@@ -137717,6 +140371,181 @@
    "last_seen": "2026-11-14",
    "price": 950.0,
    "sold": true
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/6887508803736": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2021-07-15T12:25:40+00:00",
+   "last_seen": "2026-11-14",
+   "price": 550.0,
+   "sold": true
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/7986460524785": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-08-22T22:52:40+00:00",
+   "last_seen": "2026-11-14",
+   "price": 450.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/7986832638193": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-08-23T17:31:25+00:00",
+   "last_seen": "2026-11-14",
+   "price": 695.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/7986840699121": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2023-08-23T17:39:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 695.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/8635502887153": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-09-12T17:12:30+00:00",
+   "last_seen": "2026-11-14",
+   "price": 395.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/8792930681073": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-04-23T14:06:38+00:00",
+   "last_seen": "2026-11-14",
+   "price": 825.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9488345759985": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-03-05T13:56:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 295.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9494815178993": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-03-05T13:59:02+00:00",
+   "last_seen": "2026-11-14",
+   "price": 345.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9494874194161": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-03-05T13:59:44+00:00",
+   "last_seen": "2026-11-14",
+   "price": 385.0,
+   "sold": true
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9494934749425": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-03-05T14:01:12+00:00",
+   "last_seen": "2026-11-14",
+   "price": 275.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9495589978353": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-03-05T14:03:47+00:00",
+   "last_seen": "2026-11-14",
+   "price": 440.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9495652237553": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-03-05T14:04:31+00:00",
+   "last_seen": "2026-11-14",
+   "price": 850.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9504995148017": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-03-10T13:29:12+00:00",
+   "last_seen": "2026-11-14",
+   "price": 425.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9510224363761": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-15T14:31:52+00:00",
+   "last_seen": "2026-11-14",
+   "price": 350.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9522425561329": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-03-23T13:58:41+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2850.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9532664578289": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-02T03:36:35+00:00",
+   "last_seen": "2026-11-14",
+   "price": 3200.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9541737021681": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-09T19:27:20+00:00",
+   "last_seen": "2026-11-14",
+   "price": 475.0,
+   "sold": false
+  },
+  "gaultier|Vintage by Misty|https://vintagebymisty.com/products/9671762149617": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Grey",
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-16T22:37:46+00:00",
+   "last_seen": "2026-11-14",
+   "price": 395.0,
+   "sold": false
   },
   "guidi|Archive SF|https://archivesf.com/products/6138588430508": {
    "category": "Footwear",
@@ -140084,6 +142913,177 @@
    "first_seen": "2021-08-06T17:30:01+00:00",
    "last_seen": "2026-11-14",
    "price": 475.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8026881589467": {
+   "category": "Dresses",
+   "colours": [
+    "Black",
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-05-12T14:56:11+00:00",
+   "last_seen": "2026-11-14",
+   "price": 645.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8046198587611": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-06-15T22:57:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 385.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8124926329051": {
+   "category": "Bottoms",
+   "colours": [
+    "Black",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-10-27T15:45:18+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2385.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8292460232923": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-03-06T00:02:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1685.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8639086919899": {
+   "category": "Bottoms",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-07-22T19:11:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1085.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8668857893083": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "White",
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-11T19:56:37+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8668875587803": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey",
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-08-24T15:02:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1565.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8747527766235": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-11-27T00:11:02+00:00",
+   "last_seen": "2026-11-14",
+   "price": 465.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8787109871835": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-11T19:56:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 3195.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8928538820827": {
+   "category": "Dresses",
+   "colours": [
+    "Black",
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-06-26T14:04:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 685.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8928588300507": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-11T19:56:51+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1165.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8985568149723": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:18:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 485.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8987544453339": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:02:37+00:00",
+   "last_seen": "2026-11-14",
+   "price": 685.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9129304981723": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-31T15:21:12+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2485.0,
+   "sold": false
+  },
+  "issey|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9443366076635": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-12T22:35:52+00:00",
+   "last_seen": "2026-11-14",
+   "price": 485.0,
    "sold": false
   },
   "issey|Archive Factory|https://archive-factory.com/products/10319620145345": {
@@ -154721,6 +157721,15 @@
    "price": 398.0,
    "sold": true
   },
+  "issey|Good Good Vintage|https://goodgoodvintage.com/products/15995147190645": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-03T09:45:03+00:00",
+   "last_seen": "2026-11-14",
+   "price": 90.0,
+   "sold": false
+  },
   "issey|Groupie|https://groupie.store/products/8809797583081": {
    "category": "Outerwear",
    "colours": [
@@ -166875,6 +169884,72 @@
    "price": 2200.0,
    "sold": false
   },
+  "issey|Zoo Fashions|https://www.zoofashions.com/products/15940970217852": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T16:18:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 650.0,
+   "sold": false
+  },
+  "issey|Zoo Fashions|https://www.zoofashions.com/products/15940970316156": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T16:20:25+00:00",
+   "last_seen": "2026-11-14",
+   "price": 850.0,
+   "sold": false
+  },
+  "issey|Zoo Fashions|https://www.zoofashions.com/products/15940986208636": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:43+00:00",
+   "last_seen": "2026-11-14",
+   "price": 355.0,
+   "sold": false
+  },
+  "issey|Zoo Fashions|https://www.zoofashions.com/products/15940987027836": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:44+00:00",
+   "last_seen": "2026-11-14",
+   "price": 355.0,
+   "sold": false
+  },
+  "issey|Zoo Fashions|https://www.zoofashions.com/products/15940988273020": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-04T09:06:24+00:00",
+   "last_seen": "2026-11-14",
+   "price": 850.0,
+   "sold": false
+  },
+  "issey|Zoo Fashions|https://www.zoofashions.com/products/15940989157756": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 815.0,
+   "sold": false
+  },
   "julius|Archive Threads|https://archivethreads.ca/products/9642045898981": {
    "category": "Bags & accessories",
    "colours": [],
@@ -173365,6 +176440,15 @@
    "last_seen": "2026-11-14",
    "price": 250.0,
    "sold": true
+  },
+  "lang|Caramia Vintage|https://caramiavintage.com/products/9118694801596": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-01-11T13:43:56+00:00",
+   "last_seen": "2026-11-14",
+   "price": 180.0,
+   "sold": false
   },
   "lang|DRIEW|https://driewgarments.com/products/6979150282830": {
    "category": "Tops",
@@ -187801,6 +190885,137 @@
    "price": 1900.0,
    "sold": true
   },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/7981546766555": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-03-11T17:59:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1785.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8089905004763": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-09-22T14:53:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 435.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8305392550107": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2024-03-16T15:00:03+00:00",
+   "last_seen": "2026-11-14",
+   "price": 435.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8305393500379": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-03-16T15:00:05+00:00",
+   "last_seen": "2026-11-14",
+   "price": 595.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8305439047899": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-03-16T15:00:07+00:00",
+   "last_seen": "2026-11-14",
+   "price": 795.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8305453859035": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-03-16T15:00:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1965.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8305459495131": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-03-16T15:00:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 265.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8936609808603": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-07-10T20:52:12+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1585.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9185352843483": {
+   "category": "Dresses",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-15T15:51:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1985.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9185353269467": {
+   "category": "Dresses",
+   "colours": [
+    "Black",
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-15T16:05:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1985.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9185354842331": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-15T16:22:35+00:00",
+   "last_seen": "2026-11-14",
+   "price": 5985.0,
+   "sold": false
+  },
+  "margiela|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9372400845019": {
+   "category": "Dresses",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-06-12T20:19:07+00:00",
+   "last_seen": "2026-11-14",
+   "price": 725.0,
+   "sold": false
+  },
   "margiela|Archive On Waters|https://archiveonwaters.store/products/15527706132849": {
    "category": "Other",
    "colours": [
@@ -190076,6 +193291,15 @@
    "first_seen": "2026-07-19T16:46:38+00:00",
    "last_seen": "2026-11-14",
    "price": 220.0,
+   "sold": false
+  },
+  "margiela|Caramia Vintage|https://caramiavintage.com/products/9045262303420": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2025-11-03T07:32:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 2800.0,
    "sold": false
   },
   "margiela|DRIEW|https://driewgarments.com/products/7247082356814": {
@@ -205927,6 +209151,282 @@
    "last_seen": "2026-11-14",
    "price": 297.0,
    "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/14949863850364": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T15:44:56+00:00",
+   "last_seen": "2026-11-14",
+   "price": 210.0,
+   "sold": true
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/14949863948668": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T15:22:13+00:00",
+   "last_seen": "2026-11-14",
+   "price": 110.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/14949863981436": {
+   "category": "Footwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T16:53:17+00:00",
+   "last_seen": "2026-11-14",
+   "price": 110.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/14949864046972": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T16:18:51+00:00",
+   "last_seen": "2026-11-14",
+   "price": 177.5,
+   "sold": true
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/14949864243580": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-13T08:41:14+00:00",
+   "last_seen": "2026-11-14",
+   "price": 147.5,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/14949864374652": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T17:04:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 112.5,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/14949864505724": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T16:54:40+00:00",
+   "last_seen": "2026-11-14",
+   "price": 142.5,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/14949864604028": {
+   "category": "Tops",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T16:55:46+00:00",
+   "last_seen": "2026-11-14",
+   "price": 232.5,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665100849532": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T16:59:07+00:00",
+   "last_seen": "2026-11-14",
+   "price": 362.5,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665100882300": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T16:59:40+00:00",
+   "last_seen": "2026-11-14",
+   "price": 300.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665100915068": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-12T19:19:20+00:00",
+   "last_seen": "2026-11-14",
+   "price": 245.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665100980604": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-12T18:24:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 737.5,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665101013372": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T17:02:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 557.5,
+   "sold": true
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665101111676": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T17:06:56+00:00",
+   "last_seen": "2026-11-14",
+   "price": 590.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665101177212": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T17:07:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 355.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665101209980": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T17:09:05+00:00",
+   "last_seen": "2026-11-14",
+   "price": 145.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665101242748": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-12T13:10:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 187.5,
+   "sold": true
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665101275516": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T17:34:39+00:00",
+   "last_seen": "2026-11-14",
+   "price": 135.0,
+   "sold": true
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15665101341052": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-02-20T13:08:55+00:00",
+   "last_seen": "2026-11-14",
+   "price": 255.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15666923405692": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T17:03:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 140.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15666923471228": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T17:01:26+00:00",
+   "last_seen": "2026-11-14",
+   "price": 572.5,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15704405377404": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-11T18:00:26+00:00",
+   "last_seen": "2026-11-14",
+   "price": 220.0,
+   "sold": false
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/15704405475708": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-11T18:03:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 171.0,
+   "sold": true
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/16093414424956": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-05T11:04:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 430.0,
+   "sold": true
+  },
+  "margiela|Zoo Fashions|https://www.zoofashions.com/products/6943877988401": {
+   "category": "Footwear",
+   "colours": [
+    "Blue",
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-07T15:37:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 215.0,
+   "sold": true
   },
   "numbernine|2nd Street|https://ec.2ndstreetusa.com/products/15360552730733": {
    "category": "Tops",
@@ -221854,6 +225354,73 @@
    "price": 255.0,
    "sold": false
   },
+  "raf|Zoo Fashions|https://www.zoofashions.com/products/6942522736689": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-03T20:12:11+00:00",
+   "last_seen": "2026-11-14",
+   "price": 267.5,
+   "sold": false
+  },
+  "raf|Zoo Fashions|https://www.zoofashions.com/products/6942522834993": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-03T20:12:30+00:00",
+   "last_seen": "2026-11-14",
+   "price": 621.0,
+   "sold": false
+  },
+  "raf|Zoo Fashions|https://www.zoofashions.com/products/6943773982769": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-07-02T17:00:36+00:00",
+   "last_seen": "2026-11-14",
+   "price": 272.5,
+   "sold": false
+  },
+  "raf|Zoo Fashions|https://www.zoofashions.com/products/6943777423409": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-08-20T13:57:03+00:00",
+   "last_seen": "2026-11-14",
+   "price": 411.0,
+   "sold": false
+  },
+  "raf|Zoo Fashions|https://www.zoofashions.com/products/6943859474481": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey",
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-12-24T11:15:12+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1017.0,
+   "sold": false
+  },
+  "raf|Zoo Fashions|https://www.zoofashions.com/products/6943869894705": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-27T05:40:22+00:00",
+   "last_seen": "2026-11-14",
+   "price": 250.0,
+   "sold": false
+  },
   "ralph|2nd Street|https://ec.2ndstreetusa.com/products/10305849819245": {
    "category": "Outerwear",
    "colours": [
@@ -222879,6 +226446,35 @@
    "price": 250.0,
    "sold": false
   },
+  "ralph|Circa Vintage|https://www.circavintage.com/products/15500777193850": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-20T11:22:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1450.0,
+   "sold": false
+  },
+  "ralph|Circa Vintage|https://www.circavintage.com/products/15766672998778": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-02-26T11:36:55+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1950.0,
+   "sold": false
+  },
+  "ralph|Circa Vintage|https://www.circavintage.com/products/16189583524218": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-09-01T11:30:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 750.0,
+   "sold": false
+  },
   "ralph|Cobble|https://cobblestore.com/products/15425309049065": {
    "category": "Tops",
    "colours": [
@@ -223260,6 +226856,103 @@
    "first_seen": "2025-12-20T16:00:11+00:00",
    "last_seen": "2026-11-14",
    "price": 1800.0,
+   "sold": false
+  },
+  "ralph|Good Good Vintage|https://goodgoodvintage.com/products/15994312950133": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-02T11:37:58+00:00",
+   "last_seen": "2026-11-14",
+   "price": 80.0,
+   "sold": false
+  },
+  "ralph|Good Good Vintage|https://goodgoodvintage.com/products/15994581877109": {
+   "category": "Outerwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-02T15:38:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 125.0,
+   "sold": false
+  },
+  "ralph|Good Good Vintage|https://goodgoodvintage.com/products/15995146207605": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-03T09:44:58+00:00",
+   "last_seen": "2026-11-14",
+   "price": 35.0,
+   "sold": false
+  },
+  "ralph|Good Good Vintage|https://goodgoodvintage.com/products/15995199324533": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-03T09:45:20+00:00",
+   "last_seen": "2026-11-14",
+   "price": 32.0,
+   "sold": false
+  },
+  "ralph|Good Good Vintage|https://goodgoodvintage.com/products/15998310809973": {
+   "category": "Outerwear",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-07T17:00:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 75.0,
+   "sold": false
+  },
+  "ralph|Good Good Vintage|https://goodgoodvintage.com/products/16001872658805": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-10-20T15:53:41+00:00",
+   "last_seen": "2026-11-14",
+   "price": 650.0,
+   "sold": false
+  },
+  "ralph|Good Good Vintage|https://goodgoodvintage.com/products/16004507140469": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-20T15:53:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 55.0,
+   "sold": false
+  },
+  "ralph|Good Good Vintage|https://goodgoodvintage.com/products/16009659711861": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-20T17:11:07+00:00",
+   "last_seen": "2026-11-14",
+   "price": 45.0,
+   "sold": false
+  },
+  "ralph|Good Good Vintage|https://goodgoodvintage.com/products/16017283744117": {
+   "category": "Outerwear",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-02T12:48:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 145.0,
    "sold": false
   },
   "ralph|Headlock|https://headlock.co/products/14587872706939": {
@@ -288509,6 +292202,193 @@
    "price": 70.0,
    "sold": false
   },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943529467953": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:36:14+00:00",
+   "last_seen": "2026-11-14",
+   "price": 830.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943529533489": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:56:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 980.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943536709681": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:34:55+00:00",
+   "last_seen": "2026-11-14",
+   "price": 515.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943637798961": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:29:47+00:00",
+   "last_seen": "2026-11-14",
+   "price": 198.0,
+   "sold": true
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943638323249": {
+   "category": "Bottoms",
+   "colours": [
+    "Green",
+    "Blue",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:50:53+00:00",
+   "last_seen": "2026-11-14",
+   "price": 445.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943649267761": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:44:28+00:00",
+   "last_seen": "2026-11-14",
+   "price": 775.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943670796337": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:42:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 300.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943676432433": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:46:38+00:00",
+   "last_seen": "2026-11-14",
+   "price": 800.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943689244721": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-10-23T14:14:23+00:00",
+   "last_seen": "2026-11-14",
+   "price": 525.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943689343025": {
+   "category": "Bottoms",
+   "colours": [
+    "Black",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:27:02+00:00",
+   "last_seen": "2026-11-14",
+   "price": 225.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943689375793": {
+   "category": "Bottoms",
+   "colours": [
+    "Black",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:25:44+00:00",
+   "last_seen": "2026-11-14",
+   "price": 292.5,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943689441329": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:28:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 337.5,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943689539633": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:23:46+00:00",
+   "last_seen": "2026-11-14",
+   "price": 650.0,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943689572401": {
+   "category": "Bottoms",
+   "colours": [
+    "Green",
+    "Blue",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:40:35+00:00",
+   "last_seen": "2026-11-14",
+   "price": 357.5,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943689670705": {
+   "category": "Tops",
+   "colours": [
+    "Green",
+    "Blue",
+    "Purple"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:39:25+00:00",
+   "last_seen": "2026-11-14",
+   "price": 357.5,
+   "sold": false
+  },
+  "ralph|Zoo Fashions|https://www.zoofashions.com/products/6943689703473": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-17T11:31:36+00:00",
+   "last_seen": "2026-11-14",
+   "price": 247.5,
+   "sold": false
+  },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/10305802403949": {
    "category": "Footwear",
    "colours": [
@@ -293107,11 +296987,13 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-14T01:43:36+00:00",
+   "drop_from": 649.9,
    "first_run": 0,
    "first_seen": "2026-09-08T19:47:43+00:00",
    "last_seen": "2026-11-14",
-   "price": 649.9,
-   "sold": false
+   "price": 599.9,
+   "sold": true
   },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/8245968437357": {
    "category": "Tops",
@@ -335666,6 +339548,139 @@
    "price": 297.0,
    "sold": false
   },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/16093518102908": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-25T09:35:43+00:00",
+   "last_seen": "2026-11-14",
+   "price": 4000.0,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/16195985244540": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-09T14:59:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 380.0,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/16195985310076": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-09T14:59:49+00:00",
+   "last_seen": "2026-11-14",
+   "price": 380.0,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/16195985342844": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-09T14:59:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 550.0,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/6942522900529": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-03T20:12:37+00:00",
+   "last_seen": "2026-11-14",
+   "price": 345.0,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/6942522933297": {
+   "category": "Outerwear",
+   "colours": [
+    "White",
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-03T20:12:46+00:00",
+   "last_seen": "2026-11-14",
+   "price": 827.5,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/6943854788657": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-26T17:03:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 192.5,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/6943858884657": {
+   "category": "Footwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-26T17:03:35+00:00",
+   "last_seen": "2026-11-14",
+   "price": 357.5,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/6943880282161": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-26T17:03:39+00:00",
+   "last_seen": "2026-11-14",
+   "price": 495.0,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/6943905087537": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-11-06T06:26:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 930.0,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/6943915900977": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-26T17:03:47+00:00",
+   "last_seen": "2026-11-14",
+   "price": 845.0,
+   "sold": false
+  },
+  "rick|Zoo Fashions|https://www.zoofashions.com/products/6943916032049": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-10-07T08:39:55+00:00",
+   "last_seen": "2026-11-14",
+   "price": 867.5,
+   "sold": false
+  },
   "soshiotsuki|Huiben|https://huibenshop.com/products/6761619095613": {
    "category": "Tops",
    "colours": [],
@@ -348082,6 +352097,94 @@
    "last_seen": "2026-11-14",
    "price": 0.0,
    "sold": true
+  },
+  "yohji|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/10346200826075": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-10-14T21:41:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1195.0,
+   "sold": false
+  },
+  "yohji|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8045793345755": {
+   "category": "Dresses",
+   "colours": [
+    "Brown",
+    "Green",
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-11T19:56:28+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1285.0,
+   "sold": false
+  },
+  "yohji|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8090598703323": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2023-09-22T14:53:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "yohji|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8985524568283": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:18:11+00:00",
+   "last_seen": "2026-11-14",
+   "price": 785.0,
+   "sold": false
+  },
+  "yohji|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/8987551301851": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-09-12T15:02:39+00:00",
+   "last_seen": "2026-11-14",
+   "price": 985.0,
+   "sold": false
+  },
+  "yohji|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9129779888347": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-31T19:07:59+00:00",
+   "last_seen": "2026-11-14",
+   "price": 485.0,
+   "sold": false
+  },
+  "yohji|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9391531393243": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 0,
+   "first_seen": "2026-07-02T21:40:41+00:00",
+   "last_seen": "2026-11-14",
+   "price": 725.0,
+   "sold": false
+  },
+  "yohji|Amarcord Vintage|https://www.amarcordvintagefashion.com/products/9391590834395": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-02T22:05:04+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1395.0,
+   "sold": false
   },
   "yohji|Archive Factory|https://archive-factory.com/products/10369742373057": {
    "category": "Dresses",
@@ -362283,6 +366386,936 @@
    "first_seen": "2022-03-16T12:44:49+00:00",
    "last_seen": "2026-11-14",
    "price": 895.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/14885404541308": {
+   "category": "Bottoms",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-03-24T12:29:52+00:00",
+   "last_seen": "2026-11-14",
+   "price": 80.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/14885405032828": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-12-11T15:57:09+00:00",
+   "last_seen": "2026-11-14",
+   "price": 160.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/14885405557116": {
+   "category": "Tops",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-02-26T19:12:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 40.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/14885405950332": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-02-26T18:46:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 125.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/14885406048636": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-12-11T15:57:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 120.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/14885406409084": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-02-26T18:08:07+00:00",
+   "last_seen": "2026-11-14",
+   "price": 220.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/14885406474620": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-12-11T15:57:22+00:00",
+   "last_seen": "2026-11-14",
+   "price": 80.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15375449686396": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-06-23T14:41:49+00:00",
+   "last_seen": "2026-11-14",
+   "price": 220.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15375449915772": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-08-19T02:41:47+00:00",
+   "last_seen": "2026-11-14",
+   "price": 450.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15375450079612": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-07-21T14:38:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 350.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15375450177916": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-07-21T14:35:34+00:00",
+   "last_seen": "2026-11-14",
+   "price": 550.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15375450210684": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-08-19T02:37:08+00:00",
+   "last_seen": "2026-11-14",
+   "price": 380.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756669682044": {
+   "category": "Footwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-29T11:21:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 125.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756669878652": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-09T15:00:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 300.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670009724": {
+   "category": "Bags & accessories",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-12-10T12:01:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 30.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670075260": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-11-07T10:20:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 330.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670140796": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-09T15:00:35+00:00",
+   "last_seen": "2026-11-14",
+   "price": 300.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670173564": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-12-10T11:51:32+00:00",
+   "last_seen": "2026-11-14",
+   "price": 350.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670304636": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-22T01:41:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 110.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670468476": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-12-10T11:51:35+00:00",
+   "last_seen": "2026-11-14",
+   "price": 280.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670501244": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-29T11:21:53+00:00",
+   "last_seen": "2026-11-14",
+   "price": 240.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670566780": {
+   "category": "Tops",
+   "colours": [
+    "White",
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-22T01:41:57+00:00",
+   "last_seen": "2026-11-14",
+   "price": 250.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670632316": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-29T11:21:55+00:00",
+   "last_seen": "2026-11-14",
+   "price": 280.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670665084": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-01-22T01:42:00+00:00",
+   "last_seen": "2026-11-14",
+   "price": 300.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670763388": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-12-10T11:51:37+00:00",
+   "last_seen": "2026-11-14",
+   "price": 80.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670828924": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2025-12-10T11:51:39+00:00",
+   "last_seen": "2026-11-14",
+   "price": 80.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15756670959996": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-03-09T15:00:27+00:00",
+   "last_seen": "2026-11-14",
+   "price": 240.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15940997579132": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1550.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15940998234492": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:46+00:00",
+   "last_seen": "2026-11-14",
+   "price": 535.0,
+   "sold": true
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15940998922620": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:47+00:00",
+   "last_seen": "2026-11-14",
+   "price": 375.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15940999250300": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 375.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15941000790396": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey",
+    "Brown",
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-04T09:06:56+00:00",
+   "last_seen": "2026-11-14",
+   "price": 280.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15941004722556": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:49+00:00",
+   "last_seen": "2026-11-14",
+   "price": 615.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15941005574524": {
+   "category": "Bottoms",
+   "colours": [
+    "Black",
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 275.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15941005771132": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-04T09:09:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 300.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15941006000508": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T16:29:40+00:00",
+   "last_seen": "2026-11-14",
+   "price": 800.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15941006197116": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T14:34:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 425.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15942869877116": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-20T12:22:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1000.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/15943520387452": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-04T09:23:58+00:00",
+   "last_seen": "2026-11-14",
+   "price": 735.0,
+   "sold": true
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147462524": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 550.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147495292": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:36+00:00",
+   "last_seen": "2026-11-14",
+   "price": 240.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147528060": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:18+00:00",
+   "last_seen": "2026-11-14",
+   "price": 450.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147626364": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:37+00:00",
+   "last_seen": "2026-11-14",
+   "price": 140.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147659132": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-22T15:14:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 180.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147691900": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:39+00:00",
+   "last_seen": "2026-11-14",
+   "price": 250.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147757436": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:40+00:00",
+   "last_seen": "2026-11-14",
+   "price": 220.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147790204": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:20+00:00",
+   "last_seen": "2026-11-14",
+   "price": 500.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147822972": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:21+00:00",
+   "last_seen": "2026-11-14",
+   "price": 350.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147855740": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-22T15:14:11+00:00",
+   "last_seen": "2026-11-14",
+   "price": 110.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147888508": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:23+00:00",
+   "last_seen": "2026-11-14",
+   "price": 280.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147921276": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-22T15:14:13+00:00",
+   "last_seen": "2026-11-14",
+   "price": 130.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147954044": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-22T15:14:14+00:00",
+   "last_seen": "2026-11-14",
+   "price": 280.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036147986812": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:24+00:00",
+   "last_seen": "2026-11-14",
+   "price": 380.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148019580": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:41+00:00",
+   "last_seen": "2026-11-14",
+   "price": 240.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148052348": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:25+00:00",
+   "last_seen": "2026-11-14",
+   "price": 350.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148085116": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-22T15:14:15+00:00",
+   "last_seen": "2026-11-14",
+   "price": 110.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148117884": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:42+00:00",
+   "last_seen": "2026-11-14",
+   "price": 330.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148248956": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:28+00:00",
+   "last_seen": "2026-11-14",
+   "price": 130.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148281724": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-22T15:14:17+00:00",
+   "last_seen": "2026-11-14",
+   "price": 80.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148347260": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-22T15:14:18+00:00",
+   "last_seen": "2026-11-14",
+   "price": 80.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148412796": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:29+00:00",
+   "last_seen": "2026-11-14",
+   "price": 240.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148445564": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:44+00:00",
+   "last_seen": "2026-11-14",
+   "price": 240.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148478332": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-22T15:14:19+00:00",
+   "last_seen": "2026-11-14",
+   "price": 250.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148511100": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:45+00:00",
+   "last_seen": "2026-11-14",
+   "price": 140.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148576636": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:47+00:00",
+   "last_seen": "2026-11-14",
+   "price": 240.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148609404": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:31+00:00",
+   "last_seen": "2026-11-14",
+   "price": 300.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148642172": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:49+00:00",
+   "last_seen": "2026-11-14",
+   "price": 500.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148674940": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1800.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148707708": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T14:09:34+00:00",
+   "last_seen": "2026-11-14",
+   "price": 240.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148740476": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-08-27T13:56:41+00:00",
+   "last_seen": "2026-11-14",
+   "price": 100.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/16036148773244": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-07-01T13:32:50+00:00",
+   "last_seen": "2026-11-14",
+   "price": 140.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943365759025": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-04T16:39:33+00:00",
+   "last_seen": "2026-11-14",
+   "price": 175.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943371493425": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-07T16:36:53+00:00",
+   "last_seen": "2026-11-14",
+   "price": 125.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943371526193": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-07T16:36:53+00:00",
+   "last_seen": "2026-11-14",
+   "price": 125.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943373688881": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-07T16:38:54+00:00",
+   "last_seen": "2026-11-14",
+   "price": 190.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943388041265": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-04T16:47:54+00:00",
+   "last_seen": "2026-11-14",
+   "price": 115.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943388336177": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-04T16:47:59+00:00",
+   "last_seen": "2026-11-14",
+   "price": 80.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943395479601": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-07T16:40:16+00:00",
+   "last_seen": "2026-11-14",
+   "price": 110.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943395512369": {
+   "category": "Outerwear",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-07T15:55:26+00:00",
+   "last_seen": "2026-11-14",
+   "price": 300.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943436505137": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-07T16:36:53+00:00",
+   "last_seen": "2026-11-14",
+   "price": 125.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943436603441": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown",
+    "Yellow"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-08T11:17:48+00:00",
+   "last_seen": "2026-11-14",
+   "price": 246.95,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943572197425": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-07-18T16:17:41+00:00",
+   "last_seen": "2026-11-14",
+   "price": 499.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943684493361": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 0,
+   "first_seen": "2024-06-08T09:54:06+00:00",
+   "last_seen": "2026-11-14",
+   "price": 275.0,
+   "sold": false
+  },
+  "yohji|Zoo Fashions|https://www.zoofashions.com/products/6943755468849": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 0,
+   "first_seen": "2026-04-03T16:05:35+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1235.0,
    "sold": false
   }
  },
