@@ -831,5 +831,110 @@
     "julius_7"
    ]
   }
+ },
+ {
+  "name": "Amarcord Vintage",
+  "city": "",
+  "root": "https://www.amarcordvintagefashion.com",
+  "collections": {
+   "gaultier": [
+    "jean-paul-gaultier"
+   ],
+   "margiela": [
+    "maison-martin-margiela"
+   ]
+  }
+ },
+ {
+  "name": "Thrilling",
+  "city": "",
+  "root": "https://shopthrilling.com",
+  "collections": {
+   "gaultier": [
+    "vintage-jean-paul-gaultier"
+   ]
+  }
+ },
+ {
+  "name": "TAB Vintage",
+  "city": "",
+  "root": "https://www.tabvintage.com",
+  "collections": {
+   "gaultier": [
+    "jean-paul-gaultier"
+   ]
+  }
+ },
+ {
+  "name": "Circa Vintage",
+  "city": "London, UK",
+  "root": "https://www.circavintage.com",
+  "collections": {
+   "gaultier": [
+    "jean-paul-gaultier"
+   ]
+  }
+ },
+ {
+  "name": "Vintage by Misty",
+  "city": "",
+  "root": "https://vintagebymisty.com",
+  "collections": {
+   "gaultier": [
+    "jean-paul-gaultier"
+   ]
+  }
+ },
+ {
+  "name": "Good Good Vintage",
+  "city": "",
+  "root": "https://goodgoodvintage.com",
+  "collections": {
+   "gaultier": [
+    "jean-paul-gaultier"
+   ]
+  }
+ },
+ {
+  "name": "Caramia Vintage",
+  "city": "",
+  "root": "https://caramiavintage.com",
+  "collections": {
+   "gaultier": [
+    "jean-paul-gaultier"
+   ]
+  }
+ },
+ {
+  "name": "Agora Vintage",
+  "city": "Athens, Georgia",
+  "root": "https://agoravintage.com",
+  "collections": {
+   "balenciaga": [
+    "balenciaga"
+   ]
+  }
+ },
+ {
+  "name": "Agents In Style",
+  "city": "",
+  "root": "https://agentsinstyle.com",
+  "collections": {
+   "balenciaga": [
+    "pre-owned-balenciaga"
+   ]
+  }
+ },
+ {
+  "name": "Zoo Fashions",
+  "city": "",
+  "root": "https://www.zoofashions.com",
+  "collections": {}
+ },
+ {
+  "name": "269Archive",
+  "city": "",
+  "root": "https://269archive.com",
+  "collections": {}
  }
 ]
