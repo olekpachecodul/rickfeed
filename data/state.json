@@ -6736,6 +6736,17 @@
    "price": 750.0,
    "sold": false
   },
+  "ann|Sui Generis|https://suigenerisconsignment.com/products/15506491769086": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-14T01:24:40+00:00",
+   "last_seen": "2026-11-14",
+   "price": 402.0,
+   "sold": false
+  },
   "ann|Sui Generis|https://suigenerisconsignment.com/products/2163546783792": {
    "category": "Bags & accessories",
    "colours": [
@@ -23983,7 +23994,7 @@
    "first_seen": "2026-05-15T02:00:17+00:00",
    "last_seen": "2026-11-14",
    "price": 1378.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Archive Factory|https://archive-factory.com/products/10960493215937": {
    "category": "Bottoms",
@@ -70939,6 +70950,17 @@
    "price": 279.9,
    "sold": false
   },
+  "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15441160306797": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-14T01:24:40+00:00",
+   "last_seen": "2026-11-14",
+   "price": 249.9,
+   "sold": false
+  },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15441261428845": {
    "category": "Outerwear",
    "colours": [
@@ -80249,7 +80271,7 @@
    "first_seen": "2026-04-22T01:44:08+00:00",
    "last_seen": "2026-11-14",
    "price": 230.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Archive Factory|https://archive-factory.com/products/10878647140545": {
    "category": "Bottoms",
@@ -126295,7 +126317,7 @@
    "first_seen": "2025-12-15T03:00:21+00:00",
    "last_seen": "2026-11-14",
    "price": 290.0,
-   "sold": false
+   "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10835340067009": {
    "category": "Outerwear",
@@ -127570,7 +127592,7 @@
    "first_seen": "2026-04-10T02:26:05+00:00",
    "last_seen": "2026-11-14",
    "price": 210.0,
-   "sold": false
+   "sold": true
   },
   "issey|Archive Factory|https://archive-factory.com/products/10870155804865": {
    "category": "Dresses",
@@ -171311,7 +171333,7 @@
    "first_seen": "2026-11-11T01:56:57+00:00",
    "last_seen": "2026-11-14",
    "price": 150.0,
-   "sold": false
+   "sold": true
   },
   "margiela|Luke's|https://lukes.store/products/15417977536816": {
    "category": "Bags & accessories",
@@ -268472,7 +268494,7 @@
    "first_seen": "2026-11-13T21:34:45+00:00",
    "last_seen": "2026-11-14",
    "price": 385.0,
-   "sold": false
+   "sold": true
   },
   "rick|Archive Threads|https://archivethreads.ca/products/15513762365669": {
    "category": "Footwear",
@@ -309970,7 +309992,7 @@
    "first_seen": "2026-03-23T03:00:13+00:00",
    "last_seen": "2026-11-14",
    "price": 190.0,
-   "sold": false
+   "sold": true
   },
   "undercover|Archive Factory|https://archive-factory.com/products/10864050340033": {
    "category": "Tops",
