@@ -918,6 +918,9 @@
   "collections": {
    "yohji": [
     "yohjiyamamoto"
+   ],
+   "issey": [
+    "meisseymiyake"
    ]
   }
  },
@@ -950,12 +953,6 @@
     "rick-owens"
    ]
   }
- },
- {
-  "name": "Sunny Arkives",
-  "city": "",
-  "root": "https://www.sunnyarkives.com",
-  "collections": {}
  },
  {
   "name": "Vintage von Werth",
@@ -996,5 +993,11 @@
     "issey-miyake-1"
    ]
   }
+ },
+ {
+  "name": "Vertical Rags",
+  "city": "Antwerp, Belgium",
+  "root": "https://verticalrags.eu",
+  "collections": {}
  }
 ]
