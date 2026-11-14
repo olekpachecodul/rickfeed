@@ -1,0 +1,44 @@
+/* Julius (Tatsuro Horikawa): dark, industrial, gothic. Pure black, cold grey-white ink,
+   wide-spaced condensed capitals in the brand's underscore style, small mono text,
+   a hairline grid, and one blood-red mark for what's new. */
+:root{
+  --bg:#000000; --ink:#D9D9D6; --muted:#8A8A87; --soft:#4A4A48; --line:#262626;
+  --tag-ink:#000000; --ph:#0A0A0A; --blend:normal; --fit:cover; --red:#B3001B;
+  --f:"IBM Plex Mono",Menlo,monospace; --track:.04em; --gut:24px;
+  color-scheme:dark;
+}
+body{font:400 11px/1.5 var(--f);text-transform:uppercase}
+header{padding:34px 0 12px;border-bottom:1px solid var(--line)}
+.mark{font-family:"Saira Condensed","Arial Narrow",sans-serif;font-weight:300;font-size:clamp(26px,4.4vw,52px);line-height:1;letter-spacing:.42em;text-transform:uppercase}
+.mark::after{content:"_";letter-spacing:0;color:var(--red)}
+.count{font-weight:500;color:var(--muted)}
+.crumbs{margin-top:12px;font-size:10px}
+.crumbs > span:not(:last-child)::after{content:"_";margin:0 6px}
+.views{font-size:10px;letter-spacing:.14em}
+.bar{background:var(--bg);border-bottom:1px solid var(--line);margin-top:12px}
+.bar input[type=search]{border-bottom:1px solid var(--soft)}
+.tog{border:1px solid var(--line);color:var(--muted);height:28px}
+.tog:has(input:checked),#filtersBtn[aria-expanded=true],#filtersBtn.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.tog:has(input:checked):hover{color:var(--bg)}
+.fg h2{font-family:"Saira Condensed","Arial Narrow",sans-serif;font-weight:500;font-size:12px;letter-spacing:.3em;color:var(--ink)}
+.chip{border-color:var(--line)}
+.chip[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.shop{font-size:10px;color:var(--muted)}
+/* hairline grid between pieces */
+.grid{grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1px;padding:0;margin:20px 0 80px;background:var(--line);border:1px solid var(--line)}
+.grid > .empty{background:var(--bg);padding:48px 16px}
+.card{background:var(--bg);padding:0 0 14px}
+.ph{aspect-ratio:3/4}
+.ph img{filter:grayscale(.35) contrast(1.05)}
+.card:hover .ph img{filter:none;opacity:1}
+.b{font-weight:500;letter-spacing:.14em;font-size:9px}
+.b.new{background:var(--red);color:#F2F2F0}
+.b.drop{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.line{margin:12px 12px 0;font-family:"Saira Condensed","Arial Narrow",sans-serif;font-weight:500;font-size:11px;letter-spacing:.3em;color:var(--muted)}
+.t{margin:4px 12px 0;color:var(--ink)}
+.price{margin:10px 12px 0;font-weight:500}
+.row{margin:8px 12px 0;font-weight:400;color:var(--muted)}
+.row .size{color:var(--muted)}
+.src{margin:2px 12px 0}
+footer{border-top:1px solid var(--line);padding-top:12px}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mark{letter-spacing:.24em}}
