@@ -43095,7 +43095,7 @@
    "first_seen": "2026-11-12T00:19:05+00:00",
    "last_seen": "2026-11-14",
    "price": 350.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Luke's|https://lukes.store/products/15420103262512": {
    "category": "Tops",
