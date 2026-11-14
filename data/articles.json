@@ -367,6 +367,13 @@
     "title": "Balenciaga’s Le City Turns 25 & More Fashion News",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGhHeFZTSDlDa2k2TGNvQlRaMTE0WG1hUXY4STU0Qkh0SS1Yc25OVHJfVzQ1MjhMRGU4Y0sxY1hFcjBhMjVWaVpfY1ZNTWJKZGtqZnRNX0k3WFZHQUNVcFlKdUJVUFdsNXpsaVdKamU5RDBNNUFoV2hDS2MySEtfcUE1dWVwVnlE?oc=5"
    },
+   "balenciagasnewcollectionbringscouturetoeverydaystyle": {
+    "first_seen": "2026-11-14T00:21:40+00:00",
+    "published": "2026-10-01T07:00:00+00:00",
+    "source": "ELLE",
+    "title": "Balenciaga’s New Collection Brings Couture to Everyday Style",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tUjg2X1dQR1RjWVJlakhhOTJNOURyWGZJbjZ6VWxnODAwOVQwX0xESzVTYVBTSFFfZndwLTg3VVMtYXVZLWFKZm81Smp0S3hYdlNkaks3UWFBRHI2bVRRYXJiMW1oZEdzTk5aUWRrTW9hejN1S0lr?oc=5"
+   },
    "balenciagasnewcreativedirectormartinerosehermosticonicfashionmoments": {
     "first_seen": "2026-11-13T23:18:06+00:00",
     "published": "2026-11-09T19:22:47+00:00",
@@ -3119,8 +3126,102 @@
    }
   }
  },
- "checked": "2026-11-14T00:15:52+00:00",
- "rules": 4,
+ "checked": "2026-11-14T00:21:40+00:00",
+ "filtered_out": {
+  "Balenciaga": [
+   "Culture Over Couture: Why Luxury is Doubling Down on Streetwear (Hypebeast)",
+   "The Anti-It bag that became a global icon turns 25 (Vogue Adria)",
+   "What’s the Point of Couture? (The Cut)"
+  ],
+  "Boris Bidjan Saberi": [
+   "When an Artisanal Fashion “Dinosaur” Meets Reebok's Weirdo Sneaker (Highsnobiety)"
+  ],
+  "Calvin Klein 205W39NYC": [
+   "Calvin Klein Fall 2018 Ready-to-Wear Collection (Vogue)",
+   "This Calvin Klein Turtleneck Makes Me Want to Do Crazy Things to Own It (The Cut)",
+   "Raf Simons Goes to the Movies (The Cut)",
+   "Rihanna and Raf Simons Reinvent the Little Black Dress (Vogue)",
+   "Melania Trump Wore a Designer Known for Critiquing America (The Cut)",
+   "Distilling the All-American References in Calvin Klein A/W18 (AnOther Magazine)"
+  ],
+  "Carol Christian Poell": [
+   "Carol Christian Poell Arthrosic Leather Jacket in Black for Men (Lyst)",
+   "If Mad Max started a luxury fashion label, it would look like the work of these designers (qz.com)",
+   "Carol Christian Poell Self Edge Shirt in White (Lyst)",
+   "Fashion’s Darker Side Comes to the Fore — Again (WWD)",
+   "Devil May Cry 5’s Character Designs Were Influenced By High End Fashion (GamingBolt)",
+   "Carol Christian Poell Prosthetic Leather Jacket in Gray (Lyst)"
+  ],
+  "Comme des Garçons": [
+   "I’ll Buy That: The Joy of Having Fun With Fashion (The New York Times)"
+  ],
+  "Guidi": [
+   "Guidi Grtr Zip Up Boots in Black for Men (Lyst)",
+   "Guidi 795V_N Boots in Black for Men (Lyst)",
+   "It’s So Much More Than a Beaten-up Hiking Boot (Highsnobiety)",
+   "Guidi Vs01 Boots in Black for Men (Lyst)",
+   "These Might Be the Most Beautiful Boots Ever Made (Gear Patrol)",
+   "Only a God-Tier Shoemaker Could've Made This Beautiful Blue Shoe (Highsnobiety)"
+  ],
+  "Issey Miyake": [
+   "I'm a Pro Traveler—Meet the One Brand I Pack for Every Trip, From Weddings to Keynotes (Marie Claire)",
+   "How I Found the Perfect Pants to Survive the Pandemic and Beyond (GQ)",
+   "Why This Jellyfish-Like Silhouette Is My Style Go-To (Refinery29)",
+   "Introducing iPhone Pocket: a beautiful way to wear and carry iPhone (Apple)"
+  ],
+  "Jean Paul Gaultier": [
+   "Tess McMillan Doesn’t Want To Smell Like Anyone Else (NYLON)"
+  ],
+  "Julius": [
+   "Viola Davis all smiles as she poses with daughter during Paris Fashion Week event (TheGrio)",
+   "Viola Davis, daughter Genesis share sweet moment during Paris Fashion Week (ABC News - Breaking News, Latest News and Videos)",
+   "Regis and Downwards collaborate with fashion label Julius · News ⟋ RA (Resident Advisor)",
+   "Creatives in Practice: HELIOT EMIL’s Julius & Victor Juul (PAUSE Online)",
+   "Viola Davis' Daughter Genesis Makes Rare Appearance as She Walks in Paris Fashion Show with Parents (People.com)",
+   "HELIOT EMIL Sets Paris Fashion Week FW23 on Fire (Hypebeast)"
+  ],
+  "Kiko Kostadinov": [
+   "Fashion’s Last Great Weirdo (Published 2024) (The New York Times)"
+  ],
+  "Maison Margiela": [
+   "Balenciaga’s Le City Turns 25 & More Fashion News (FASHION Magazine)",
+   "This Is What Fashion Needs Now (Published 2025) (The New York Times)",
+   "Whenever I've Worn This Perfume, My Friends Always Ask Me About It (Who What Wear)"
+  ],
+  "Number (N)ine": [
+   "You Probably Missed One of Fashion Week's Biggest Collabs (Highsnobiety)",
+   "The story behind this rare architectural speaker from cult Japanese fashion brand TheSoloist (Los Angeles Times)",
+   "One of Fashion's Foremost Geniuses Goes Solo (Again) (Highsnobiety)",
+   "The defining Japanese menswear designers exploring order/disorder (Dazed)"
+  ],
+  "Raf Simons": [
+   "Raf Simons | Biography & Facts (Britannica)"
+  ],
+  "Ralph Lauren": [
+   "What Does Ralph Lauren Stock’s Winning Streak Really Prove? (Trefis)",
+   "Ralph Lauren Corp. Cl A stock underperforms Friday when compared to competitors (MarketWatch)",
+   "Ralph Lauren is already up to 60% off at Macy's, and Black Friday hasn't even started (Business Insider)",
+   "Singles' Day sees sluggish sales in China, but Coach and Ralph Lauren are outperforming (BABA:NYSE) (Seeking Alpha)",
+   "Here are Tuesday's biggest analyst calls: Nvidia, SpaceX, American Airlines, Ralph Lauren, MongoDB & more (CNBC)",
+   "Ralph Lauren Reports Better Than Expected First Quarter Fiscal 2027 Results and Updates Fiscal 2027 Outlook (Ralph Lauren Corporation)"
+  ],
+  "Rick Owens": [
+   "Wilburn Richard \"Rick\" Owens Jr. Obituary Jun 13, 2023 (Allen & Allen Funeral Home and Crematory)"
+  ],
+  "Soshiotsuki": [
+   "Get To Know the 2025 LVMH Prize Winner (ELLE)",
+   "Sometimes, Cool Clothes Win (Highsnobiety)"
+  ],
+  "Undercover": [
+   "Human Made Discloses $3.6 Million Undercover Purchase Price and Long-Term Financial Targets (The Business of Fashion)",
+   "Why Is One Japanese Fashion Giant Buying Another? (Highsnobiety)",
+   "Undercover (FashionNetwork USA)",
+   "UG Is UNDERCOVER Clothes at GU Prices (EXCLUSIVE) (Highsnobiety)",
+   "Undercover (FashionNetwork - The World's Fashion Business News)",
+   "Max from “Stranger Things” Just Hit the Fashion Week Runway (Teen Vogue)"
+  ]
+ },
+ "rules": 5,
  "slugs": [
   "ann",
   "balenciaga",
@@ -3165,7 +3266,7 @@
   "Interview": "20 read, 0 new",
   "Ivy Style": "8 read, 0 new",
   "News: Ann Demeulemeester": "38 read, 0 new",
-  "News: Balenciaga": "100 read, 0 new",
+  "News: Balenciaga": "100 read, 1 new",
   "News: Boris Bidjan Saberi": "41 read, 0 new",
   "News: Calvin Klein 205W39NYC": "54 read, 0 new",
   "News: Carol Christian Poell": "19 read, 0 new",
@@ -3173,13 +3274,13 @@
   "News: Guidi": "39 read, 0 new",
   "News: Helmut Lang": "36 read, 0 new",
   "News: Issey Miyake": "48 read, 0 new",
-  "News: Jean Paul Gaultier": "55 read, 1 new",
+  "News: Jean Paul Gaultier": "54 read, 0 new",
   "News: Julius": "19 read, 0 new",
-  "News: Kiko Kostadinov": "40 read, 1 new",
-  "News: Maison Margiela": "78 read, 1 new",
+  "News: Kiko Kostadinov": "40 read, 0 new",
+  "News: Maison Margiela": "78 read, 0 new",
   "News: Number (N)ine": "50 read, 0 new",
   "News: Raf Simons": "48 read, 0 new",
-  "News: Ralph Lauren": "86 read, 1 new",
+  "News: Ralph Lauren": "86 read, 0 new",
   "News: Rick Owens": "67 read, 0 new",
   "News: Soshiotsuki": "53 read, 0 new",
   "News: Undercover": "50 read, 0 new",
@@ -3204,7 +3305,7 @@
   "Vogue Japan": "30 read, 0 new",
   "W Magazine": "50 read, 0 new",
   "WWD": "10 read, 0 new",
-  "WWDJAPAN": "100 read, 1 new",
+  "WWDJAPAN": "100 read, 0 new",
   "Wallpaper*": "50 read, 0 new",
   "i-D": "10 read, 0 new"
  }
