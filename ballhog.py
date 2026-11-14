@@ -59,7 +59,9 @@ MAX_DISCOVERED = 2        # collections found by discovery per designer per shop
 DISCOVERY_VERSION = 2     # bump to re-run discovery everywhere on the next check
 SHOP_GAP = 0.4            # seconds between requests to the same shop
 GLOBAL_GAP = 0.25         # seconds between any two requests: Shopify limits by IP across all its shops
-COOL_DOWN = 15            # seconds every request waits after a "too many requests" answer
+COOL_DOWN = 10            # seconds every request waits after a "too many requests" answer
+GIVE_UP_AFTER = 20        # refusals in one check: after that, stop asking shops; they keep their last listings
+CRAWL_BUDGET = 8 * 60     # seconds a check may spend reading shops, whatever happens
 
 
 def is_brand(brand, title, vendor):
@@ -152,7 +154,7 @@ def now_utc():
 
 _HOST_LOCKS, _HOST_LAST = {}, {}
 _HOSTS_LOCK = threading.Lock()
-_GLOBAL = {"next": 0.0, "pause_until": 0.0, "requests": 0, "refusals": 0}
+_GLOBAL = {"next": 0.0, "pause_until": 0.0, "requests": 0, "refusals": 0, "crawl_deadline": None, "skipped": 0}
 _GLOBAL_LOCK = threading.Lock()
 
 
@@ -175,6 +177,11 @@ def fetch_bytes(url):
         wait = _HOST_LAST.get(host, 0) + SHOP_GAP - time.monotonic()
         if wait > 0:
             time.sleep(wait)
+        dl = _GLOBAL["crawl_deadline"]
+        if dl is not None and (_GLOBAL["refusals"] >= GIVE_UP_AFTER or time.monotonic() > dl):
+            # Shopify is clearly limiting us this check (or time's up): don't keep knocking.
+            _GLOBAL["skipped"] += 1
+            raise urllib.error.HTTPError(url, 429, "not asked: this check stopped early", {}, None)
         _global_turn()
         _GLOBAL["requests"] += 1
         try:
@@ -183,7 +190,9 @@ def fetch_bytes(url):
             if e.code in (429, 430):
                 with _GLOBAL_LOCK:
                     _GLOBAL["refusals"] += 1
-                    _GLOBAL["pause_until"] = max(_GLOBAL["pause_until"], time.monotonic() + COOL_DOWN)
+                    now = time.monotonic()
+                    if _GLOBAL["pause_until"] < now:   # one pause at a time: simultaneous refusals don't stack
+                        _GLOBAL["pause_until"] = now + COOL_DOWN
             raise
         finally:
             _HOST_LAST[host] = time.monotonic()
@@ -777,6 +786,7 @@ def main():
     # 2. Read every shop once.
     print(f"Checking {len(SHOPS)} shops…")
     crawl_started = time.monotonic()
+    _GLOBAL["crawl_deadline"] = crawl_started + CRAWL_BUDGET
     crawled = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for shop, by_handle, errors, lookup_errors in pool.map(crawl_shop, jobs):
@@ -787,14 +797,16 @@ def main():
                 status += f" (product list refused: {next(iter(lookup_errors.values()))}; using last known)"
             print(f"  {shop['name']:<22} {status}")
 
+    _GLOBAL["crawl_deadline"] = None
     crawl_seconds = round(time.monotonic() - crawl_started)
     busy = sorted(n for n, (bh, errs, lk) in crawled.items() if lk or any("429" in str(e) for e in errs.values()))
     unreachable = sorted(n for n, (bh, errs, lk) in crawled.items() if errs and not bh)
-    print(f"Shops read in {crawl_seconds}s with {_GLOBAL['requests']} requests; {_GLOBAL['refusals']} refused (429)."
+    print(f"Shops read in {crawl_seconds}s with {_GLOBAL['requests']} requests; {_GLOBAL['refusals']} refused (429)"
+          + (f"; stopped early, {_GLOBAL['skipped']} not asked" if _GLOBAL['skipped'] else "") + "."
           + (f" Busy: {', '.join(busy)}." if busy else ""))
     if site_mode:
         (state_file.parent / "last_check.json").write_text(json.dumps(
-            {"checked": run_iso, "seconds": crawl_seconds, "requests": _GLOBAL["requests"], "refused": _GLOBAL["refusals"],
+            {"checked": run_iso, "seconds": crawl_seconds, "requests": _GLOBAL["requests"], "refused": _GLOBAL["refusals"], "not_asked": _GLOBAL["skipped"],
              "busy_shops": busy, "unreachable_shops": unreachable, "collections": sum(len(h) for _, h in jobs)}, indent=1), encoding="utf-8")
 
     # Articles, at most hourly.
