@@ -453,7 +453,8 @@
   "placeholder": "Search: object dyed, boot1, bamba, p13",
   "news": {
    "q": "\"Boris Bidjan Saberi\"",
-   "require": "boris\\s*bidjan"
+   "require": "boris\\s*bidjan",
+   "keep_days": 3650
   }
  },
  {
@@ -473,7 +474,8 @@
   "placeholder": "Search: drip, object dyed, overlock, boots",
   "news": {
    "q": "\"Carol Christian Poell\"",
-   "require": "carol\\s*christian\\s*poell"
+   "require": "carol\\s*christian\\s*poell",
+   "keep_days": 3650
   }
  },
  {
@@ -493,7 +495,8 @@
   "placeholder": "Search: 988, 796z, horse, back zip",
   "news": {
    "q": "Guidi (boots OR leather OR footwear OR tannery)",
-   "require": "\\bguidi\\b.*(?:boot|leather|footwear|shoe|tanner|horse|fashion|collection|bag)|(?:boot|leather|footwear|shoe|tanner)s?\\b.*\\bguidi\\b"
+   "require": "\\bguidi\\b.*(?:boot|leather|footwear|shoe|tanner|horse|fashion|collection|bag)|(?:boot|leather|footwear|shoe|tanner)s?\\b.*\\bguidi\\b",
+   "keep_days": 3650
   }
  },
  {
@@ -595,7 +598,8 @@
   "news": {
    "q": "\"Tatsuro Horikawa\" OR \"JULIUS_7\" OR (Julius Horikawa) OR (Julius \"Paris Fashion Week\")",
    "require": "tatsuro\\s*horikawa|julius[\\s_]*7|nil[øo]s|(?=.*(?<![a-z0-9])julius\\b)(?=.*\\b(?:fashion|label|collection|runway|show|paris|tokyo|fw\\d*|ss\\d*|aw\\d*|fall|autumn|spring|winter|collab\\w*|horikawa)\\b)",
-   "exclude": "\\b(?:erving|dr\\.?\\s*j|caesar|k-?9|meinl|randle|peppers|hodge|tennon|viola|heliot|juul)\\b"
+   "exclude": "\\b(?:erving|dr\\.?\\s*j|caesar|k-?9|meinl|randle|peppers|hodge|tennon|viola|heliot|juul)\\b",
+   "keep_days": 3650
   }
  }
 ]
