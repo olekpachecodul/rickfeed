@@ -43327,7 +43327,7 @@
    "first_seen": "2026-11-14T00:15:52+00:00",
    "last_seen": "2026-11-14",
    "price": 275.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Luke's|https://lukes.store/products/15428092363056": {
    "category": "Footwear",
@@ -43371,7 +43371,7 @@
    "first_seen": "2026-11-14T00:15:52+00:00",
    "last_seen": "2026-11-14",
    "price": 250.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Luke's|https://lukes.store/products/15428177690928": {
    "category": "Tops",
@@ -66459,6 +66459,17 @@
    "first_seen": "2026-11-12T18:16:07+00:00",
    "last_seen": "2026-11-14",
    "price": 1650.0,
+   "sold": false
+  },
+  "bbs|DRIEW|https://driewgarments.com/products/8239943286862": {
+   "category": "Footwear",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-14T00:48:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 1800.0,
    "sold": false
   },
   "bbs|Elevated Archives|https://elevated-archives.com/products/15078626754895": {
@@ -217176,7 +217187,7 @@
    "first_seen": "2026-11-14T00:15:52+00:00",
    "last_seen": "2026-11-14",
    "price": 150.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Luke's|https://lukes.store/products/15428181885232": {
    "category": "Tops",
@@ -217187,7 +217198,7 @@
    "first_seen": "2026-11-14T00:15:52+00:00",
    "last_seen": "2026-11-14",
    "price": 100.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Luke's|https://lukes.store/products/15428183294256": {
    "category": "Outerwear",
@@ -217209,7 +217220,7 @@
    "first_seen": "2026-11-14T00:15:52+00:00",
    "last_seen": "2026-11-14",
    "price": 150.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Luke's|https://lukes.store/products/9682100060464": {
    "category": "Bottoms",
@@ -308298,6 +308309,17 @@
    "first_seen": "2026-11-06T20:59:42+00:00",
    "last_seen": "2026-11-14",
    "price": 109.9,
+   "sold": false
+  },
+  "undercover|2nd Street|https://ec.2ndstreetusa.com/products/15438948565101": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-14T00:48:10+00:00",
+   "last_seen": "2026-11-14",
+   "price": 129.9,
    "sold": false
   },
   "undercover|2nd Street|https://ec.2ndstreetusa.com/products/7170290581613": {
