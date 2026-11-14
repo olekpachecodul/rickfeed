@@ -562,5 +562,40 @@
    "require": "balenciaga",
    "exclude": "\\b(?:stock|stocks|shares|earnings|revenue|quarter(?:ly)?|investors?|dividend|analysts?|fiscal|outlook|guidance)\\b"
   }
+ },
+ {
+  "slug": "julius",
+  "title": "Julius Feed",
+  "name": "Julius",
+  "short": "Julius",
+  "match": "(?<![a-z0-9])julius(?:[\\s_]*7)?(?![a-z])|\\bnil[øo]s\\b|tatsuro\\s*horikawa",
+  "exclude": "\\b(?:erving|dr\\.?\\s*j|caesar|k-?9|meinl|randle|peppers|hodge|julius\\s+(?:jones|randle|peppers|erving))\\b",
+  "lines": [
+   [
+    "JULIUS_7",
+    "julius[\\s_]*7"
+   ],
+   [
+    "NILøS",
+    "\\bnil[øo]s\\b"
+   ],
+   [
+    "MA_Julius",
+    "\\bma[\\s_]+julius"
+   ]
+  ],
+  "strip": "(?:(?:archive)\\s+)?(?:ma[\\s_]+)?(?:julius(?:[\\s_]*7)?\\s*)?(?:nil[øo]s\\s*)?(?:x\\s+)?",
+  "theme": "julius",
+  "fonts": "https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;500&family=IBM+Plex+Mono:wght@400;500&display=swap",
+  "theme_color": [
+   "#000000",
+   "#000000"
+  ],
+  "placeholder": "search: gas mask, drape, cargo, 2008",
+  "news": {
+   "q": "\"Tatsuro Horikawa\" OR \"JULIUS_7\" OR (Julius Horikawa) OR (Julius \"Paris Fashion Week\")",
+   "require": "tatsuro\\s*horikawa|julius[\\s_]*7|nil[øo]s|(?<![a-z0-9])julius\\b.*(?:fashion|paris|collection|show|runway|horikawa|tokyo|fall|autumn|spring|winter|fw|ss|aw)\\b",
+   "exclude": "\\b(?:erving|dr\\.?\\s*j|caesar|k-?9|meinl|randle|peppers|hodge|julius\\s+(?:jones|randle|peppers|erving))\\b"
+  }
  }
 ]
