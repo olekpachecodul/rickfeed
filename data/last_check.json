@@ -1,10 +1,14 @@
 {
- "checked": "2026-11-14T01:24:40+00:00",
- "seconds": 234,
- "requests": 924,
+ "checked": "2026-11-14T01:28:57+00:00",
+ "seconds": 266,
+ "requests": 1071,
  "refused": 0,
  "not_asked": 0,
- "busy_shops": [],
- "unreachable_shops": [],
- "collections": 423
+ "busy_shops": [
+  "INTO Archive"
+ ],
+ "unreachable_shops": [
+  "INTO Archive"
+ ],
+ "collections": 488
 }
