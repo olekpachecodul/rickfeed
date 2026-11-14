@@ -594,8 +594,8 @@
   "placeholder": "search: gas mask, drape, cargo, 2008",
   "news": {
    "q": "\"Tatsuro Horikawa\" OR \"JULIUS_7\" OR (Julius Horikawa) OR (Julius \"Paris Fashion Week\")",
-   "require": "tatsuro\\s*horikawa|julius[\\s_]*7|nil[øo]s|(?<![a-z0-9])julius\\b.*(?:fashion|paris|collection|show|runway|horikawa|tokyo|fall|autumn|spring|winter|fw|ss|aw)\\b",
-   "exclude": "\\b(?:erving|dr\\.?\\s*j|caesar|k-?9|meinl|randle|peppers|hodge|julius\\s+(?:jones|randle|peppers|erving))\\b"
+   "require": "tatsuro\\s*horikawa|julius[\\s_]*7|nil[øo]s|(?=.*(?<![a-z0-9])julius\\b)(?=.*\\b(?:fashion|label|collection|runway|show|paris|tokyo|fw\\d*|ss\\d*|aw\\d*|fall|autumn|spring|winter|collab\\w*|horikawa)\\b)",
+   "exclude": "\\b(?:erving|dr\\.?\\s*j|caesar|k-?9|meinl|randle|peppers|hodge|tennon|viola|heliot|juul)\\b"
   }
  }
 ]
