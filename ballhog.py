@@ -509,7 +509,7 @@ def brand_listings(brand, shop, plan, crawled):
 ARTICLES_EVERY_MINUTES = 55
 ARTICLES_KEEP_DAYS = 400
 ARTICLES_MAX = 150           # per designer
-ARTICLES_RULES = 4           # bump when the matching rules change, to re-read straight away
+ARTICLES_RULES = 5           # bump when the matching rules change, to re-read straight away
 TAG_RE = re.compile(r"<[^>]+>")
 # Results that are shops or reference pages, not articles.
 NOT_ARTICLES = re.compile(r"\b(?:lyst|ebay|farfetch|vestiaire|the\s*realreal|mercari|poshmark|depop|stockx|goat|"
@@ -596,7 +596,7 @@ def gather_articles(saved, run_at, run_iso):
         results = list(pool.map(read, jobs))
     oldest_for = {b["slug"]: (run_at - dt.timedelta(days=b.get("news", {}).get("keep_days", ARTICLES_KEEP_DAYS))).isoformat() for b in BRANDS}
     oldest = min(oldest_for.values())
-    log, added, status = [], 0, {}
+    log, added, status, dropped = [], 0, {}, {}
     for (kind, x), entries, err in results:
         found = 0
         for title, link, published, text, source in entries:
@@ -607,6 +607,8 @@ def gather_articles(saved, run_at, run_iso):
                 if source and title.endswith(" - " + source):
                     title = title[: -len(source) - 3].strip()
                 targets = [x] if about(x, title) and not NOT_ARTICLES.search(source + " " + link) else []
+                if not targets and len(dropped.setdefault(x["name"], [])) < 6:
+                    dropped[x["name"]].append(f"{title} ({source})")   # kept so the matching rules can be tuned
             else:
                 source = x["name"]
                 targets = [b for b in BRANDS if about(b, title) or about(b, text[:600])]
@@ -634,7 +636,7 @@ def gather_articles(saved, run_at, run_iso):
         saved[slug] = dict([kv for kv in keep if kv[1]["published"] >= oldest_for.get(slug, oldest)
                             and not NOT_ARTICLES.search(kv[1]["source"] + " " + kv[1]["url"])
                             and not DEALS.search(kv[1]["title"]) and not (ex and ex.search(kv[1]["title"]))][:ARTICLES_MAX])
-    return added, log, status
+    return added, log, status, dropped
 
 
 def load_state(path):
@@ -804,7 +806,7 @@ def main():
     if (articles.get("checked", "") < (run_at - dt.timedelta(minutes=ARTICLES_EVERY_MINUTES)).isoformat()
             or set(articles.get("slugs", [])) != SLUGS or articles.get("rules") != ARTICLES_RULES):
         # hourly, or straight away for a new designer or new matching rules
-        added, art_log, articles["sources"] = gather_articles(articles.setdefault("by_designer", {}), run_at, run_iso)
+        added, art_log, articles["sources"], articles["filtered_out"] = gather_articles(articles.setdefault("by_designer", {}), run_at, run_iso)
         articles["checked"], articles["slugs"], articles["rules"] = run_iso, sorted(SLUGS), ARTICLES_RULES
         print(f"\nArticles: {added} new." + ("\n" + "\n".join(art_log) if art_log else ""))
         text = json.dumps(articles, indent=1, sort_keys=True, ensure_ascii=False)
