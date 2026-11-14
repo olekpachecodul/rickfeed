@@ -60,6 +60,7 @@ DISCOVERY_VERSION = 2     # bump to re-run discovery everywhere on the next chec
 SHOP_GAP = 0.4            # seconds between requests to the same shop
 GLOBAL_GAP = 0.25         # seconds between any two requests: Shopify limits by IP across all its shops
 COOL_DOWN = 10            # seconds every request waits after a "too many requests" answer
+SHOP_MEMO_DAYS = 7        # re-read a shop's .atom feed this often to refresh its remembered id format and currency
 GIVE_UP_AFTER = 20        # refusals in one check: after that, stop asking shops; they keep their last listings
 CRAWL_BUDGET = 8 * 60     # seconds a check may spend reading shops, whatever happens
 
@@ -387,14 +388,20 @@ def shop_place(root):
     return ", ".join(x for x in (m.get("city"), m.get("country")) if x) or "Online"
 
 
-def items_from_products(shop, feed_url, products, atom_items):
+def feed_id_prefix(atom_items):
+    """The id format a shop's .atom feed uses (e.g. "https://shop.com/products/"), so ids line up."""
+    m = atom_items and re.match(r"(.*/products/)\d+\s*$", atom_items[0]["id"])
+    return m.group(1) if m else None
+
+
+def items_from_products(shop, feed_url, products, atom_items, id_prefix=None, currency=None):
     """Listings for products.json entries the .atom feed didn't include, shaped
-    exactly like parse_feed's so the rest of the pipeline treats them the same."""
+    exactly like parse_feed's so the rest of the pipeline treats them the same.
+    id_prefix / currency: remembered from an earlier .atom read, when this check skipped the feed."""
     root = re.match(r"https?://[^/]+", feed_url).group(0)
     known = {k for it in atom_items for k in product_keys(it)}
-    m = atom_items and re.match(r"(.*/products/)\d+\s*$", atom_items[0]["id"])
-    id_prefix = m.group(1) if m else root + "/products/"   # same ids as the feed uses, so saved state lines up
-    currency = atom_items[0]["currency"] if atom_items else shop_currency(root)
+    id_prefix = feed_id_prefix(atom_items) or id_prefix or root + "/products/"   # same ids as the feed uses, so saved state lines up
+    currency = (atom_items[0]["currency"] if atom_items else None) or currency or shop_currency(root)
     out = []
     for p in products:
         pid, handle = str(p.get("id", "")), p.get("handle") or ""
@@ -460,15 +467,30 @@ def discover(shop):
 
 def crawl_shop(job):
     """Read every collection this shop has for any designer, once. Returns the
-    listings per collection (not yet sorted to designers) and any problems."""
-    shop, handles = job
+    listings per collection (not yet sorted to designers), any problems, and what
+    was learned about the shop's feed. Once a shop's feed id format and currency
+    are known, only products.json is read (it holds everything the newest-25 .atom
+    feed does); the feed is still read when products.json fails or comes back empty."""
+    shop, handles, known = job
     if not shop.get("city"):
         shop["city"] = shop_place(shop["root"])
+    learned = dict(known or {})
     by_handle, errors, lookup_errors = {}, {}, {}
     for h in handles:
         url = f"{shop['root']}/collections/{h}.atom"
-        got, err = fetch_one(shop, url)
-        details, products, lookup_err = fetch_details(url)
+        if learned.get("id_prefix") and learned.get("currency"):
+            details, products, lookup_err = fetch_details(url)
+            got, err = [], None
+            if lookup_err or not products:
+                got, err = fetch_one(shop, url)
+            else:
+                got = items_from_products(shop, url, products, [], learned["id_prefix"], learned["currency"])
+                products = []   # already turned into listings
+        else:
+            got, err = fetch_one(shop, url)
+            if got and feed_id_prefix(got):
+                learned.update(id_prefix=feed_id_prefix(got), currency=got[0].get("currency") or "USD")
+            details, products, lookup_err = fetch_details(url)
         if lookup_err:
             lookup_errors[h] = lookup_err
             if err:   # neither source answered for this collection
@@ -484,7 +506,7 @@ def crawl_shop(job):
             enrich(it, found[0] if found else None)
             it["_lookup_failed"] = bool(lookup_err)
         by_handle[h] = got
-    return shop, by_handle, errors, lookup_errors
+    return shop, by_handle, errors, lookup_errors, learned
 
 
 def brand_listings(brand, shop, plan, crawled):
@@ -768,6 +790,7 @@ def main():
                 discovered[shop["name"]] = {"date": today, "found": found, "slugs": sorted(SLUGS), "v": DISCOVERY_VERSION}
     discovered = {k: v for k, v in discovered.items() if k in {s["name"] for s in SHOPS}}
     plans, jobs = {}, []
+    shop_memo = {k: v for k, v in state.get("shop_memo", {}).items() if k in {s["name"] for s in SHOPS}}
     for shop in SHOPS:
         found = discovered.get(shop["name"], {}).get("found", {})
         plans[shop["name"]] = {}
@@ -781,7 +804,9 @@ def main():
             if listed or extra:
                 plans[shop["name"]][b["slug"]] = (listed + extra, set(shop.get("filter", [])) | set(extra) | set(everything))
                 handles += [h for h in listed + extra if h not in handles]
-        jobs.append((shop, handles))
+        sm = shop_memo.get(shop["name"]) or {}
+        fresh = sm.get("date", "") >= (run_at - dt.timedelta(days=SHOP_MEMO_DAYS)).date().isoformat()
+        jobs.append((shop, handles, sm if fresh else None))
 
     # 2. Read every shop once.
     print(f"Checking {len(SHOPS)} shops…")
@@ -789,7 +814,10 @@ def main():
     _GLOBAL["crawl_deadline"] = crawl_started + CRAWL_BUDGET
     crawled = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-        for shop, by_handle, errors, lookup_errors in pool.map(crawl_shop, jobs):
+        for shop, by_handle, errors, lookup_errors, learned in pool.map(crawl_shop, jobs):
+            # remember the feed's id format and currency; re-learned (and re-dated) once the memo is stale
+            if learned.get("id_prefix") and not learned.get("date"):
+                shop_memo[shop["name"]] = {"id_prefix": learned["id_prefix"], "currency": learned.get("currency") or "USD", "date": today}
             crawled[shop["name"]] = (by_handle, errors, lookup_errors)
             n = len({it["id"] for its in by_handle.values() for it in its})
             status = f"{n} pieces from {len(by_handle)} collections" if by_handle else f"skipped: {next(iter(errors.values()), 'nothing to read')}"
@@ -807,7 +835,7 @@ def main():
     if site_mode:
         (state_file.parent / "last_check.json").write_text(json.dumps(
             {"checked": run_iso, "seconds": crawl_seconds, "requests": _GLOBAL["requests"], "refused": _GLOBAL["refusals"], "not_asked": _GLOBAL["skipped"],
-             "busy_shops": busy, "unreachable_shops": unreachable, "collections": sum(len(h) for _, h in jobs)}, indent=1), encoding="utf-8")
+             "busy_shops": busy, "unreachable_shops": unreachable, "collections": sum(len(j[1]) for j in jobs)}, indent=1), encoding="utf-8")
 
     # Articles, at most hourly.
     articles_file = state_file.parent / "articles.json"
@@ -945,7 +973,7 @@ def main():
 
     cutoff = (run_at - dt.timedelta(days=FORGET_AFTER_DAYS)).date().isoformat()
     memory = {k: v for k, v in memory.items() if str(v.get("last_seen", today))[:10] >= cutoff}
-    new_state = {"version": 2, "items": memory, "discovered": discovered}
+    new_state = {"version": 2, "items": memory, "discovered": discovered, "shop_memo": shop_memo}
     if not site_mode:
         new_state.update(last_run=run_iso, run_no=run_no)
     if state.get("rates"):

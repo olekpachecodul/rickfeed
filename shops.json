@@ -846,16 +846,6 @@
   }
  },
  {
-  "name": "Thrilling",
-  "city": "",
-  "root": "https://shopthrilling.com",
-  "collections": {
-   "gaultier": [
-    "vintage-jean-paul-gaultier"
-   ]
-  }
- },
- {
   "name": "TAB Vintage",
   "city": "",
   "root": "https://www.tabvintage.com",
@@ -916,25 +906,9 @@
   }
  },
  {
-  "name": "Agents In Style",
-  "city": "",
-  "root": "https://agentsinstyle.com",
-  "collections": {
-   "balenciaga": [
-    "pre-owned-balenciaga"
-   ]
-  }
- },
- {
   "name": "Zoo Fashions",
   "city": "",
   "root": "https://www.zoofashions.com",
-  "collections": {}
- },
- {
-  "name": "269Archive",
-  "city": "",
-  "root": "https://269archive.com",
   "collections": {}
  }
 ]
