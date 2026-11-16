@@ -330895,7 +330895,7 @@
    "first_seen": "2026-11-15T23:13:26+00:00",
    "last_seen": "2026-11-16",
    "price": 229.9,
-   "sold": false
+   "sold": true
   },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/15414437347437": {
    "category": "Bottoms",
@@ -389544,7 +389544,7 @@
    "first_seen": "2026-11-06T06:00:13+00:00",
    "last_seen": "2026-11-16",
    "price": 449.99,
-   "sold": false
+   "sold": true
   },
   "undercover|Marco Sqrd|https://marcosqrd.com/products/15477860401440": {
    "category": "Other",
