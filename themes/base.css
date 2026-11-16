@@ -162,7 +162,9 @@ html.menu-open{overflow:hidden}
 .acard:hover .aimg img{transform:scale(1.03)}
 .aimg .asrc{display:none}
 /* no image: the source's name, large, on the theme's panel colour */
-.aimg.none{display:flex;align-items:flex-end;padding:14px 16px}
+.aimg.none{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:16px}
+.aimg.none::before{content:"";flex:1}
+.aimg .aico{width:40px;height:40px;object-fit:contain;order:-1;border-radius:6px;background:#fff;padding:4px;box-sizing:border-box}
 .aimg.none .asrc{display:block;font-size:clamp(20px,2.2vw,30px);line-height:1;letter-spacing:-.01em;text-transform:none;color:var(--ink);opacity:.85;overflow-wrap:anywhere}
 .acard .am{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-top:12px;color:var(--muted);font-size:.9em}
 .acard .am .src{color:var(--ink)}
