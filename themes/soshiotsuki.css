@@ -49,3 +49,4 @@ footer{justify-content:center;font-size:12px;border-top:2px solid var(--line);pa
 .views{justify-content:center}
 .arts{margin:0 auto}
 .artnote{text-align:center}
+.atools,.ayear{margin-left:auto;margin-right:auto}

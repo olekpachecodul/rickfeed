@@ -153,3 +153,13 @@ html.menu-open{overflow:hidden}
 .menu-home{display:inline-block;margin-top:30px;color:var(--muted);text-decoration:underline;text-underline-offset:3px}
 .menu-home:hover{color:var(--ink)}
 @media (prefers-reduced-motion:reduce){.menu,.menu-btn span{transition:none}}
+/* Articles: search, a row of years to jump to, year headings */
+.atools{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;margin-bottom:8px;max-width:980px}
+.aq{flex:1 1 240px;min-width:0;background:transparent;border:0;border-bottom:1px solid var(--ink);border-radius:0;padding:6px 0;outline:0;font:inherit;letter-spacing:inherit;text-transform:none;color:var(--ink);-webkit-appearance:none}
+.aq::placeholder{color:var(--soft)}
+.aq:focus-visible{border-bottom-width:2px;padding-bottom:5px}
+.ayears{display:flex;flex-wrap:wrap;gap:4px 12px}
+.ayears button{background:none;border:0;padding:2px 0;cursor:pointer;color:var(--muted);font:inherit;letter-spacing:inherit}
+.ayears button:hover{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.ayear{margin:30px 0 0;padding-bottom:8px;border-bottom:1px solid var(--ink);font-size:1.15em;font-weight:inherit;letter-spacing:inherit;max-width:980px;scroll-margin-top:16px}
+.ayr .arts{margin:0}
