@@ -634,7 +634,7 @@ def feed_entries(raw):
 
 META_RE = re.compile(r"<meta\b[^>]*>", re.I)
 ATTR_RE = re.compile(r"""([\w:-]+)\s*=\s*("[^"]*"|'[^']*')""")
-PREVIEWS_PER_RUN = 60     # article pages fetched per articles read, for their preview image and description
+PREVIEWS_PER_RUN = 0      # article pages fetched per read for a preview image (off: the Articles view is a list without images)
 
 
 def page_preview(url):
@@ -1794,23 +1794,11 @@ const ARTS = DATA.articles || [];
 $("#artN").textContent = ARTS.length || "";
 function renderArticles(){
   const isNew = a => baseline && new Date(a.first_seen) > new Date(baseline) && new Date(a.published) > new Date(baseline) - 7 * 86400000;
-  // A card per article: the publisher's preview image when there is one, otherwise a text card in the page's colours.
-  const card = (a, i) => {
-    const media = a.image
-      ? `<div class="aimg"><img src="${esc(a.image)}" alt="" loading="${i < 6 ? "eager" : "lazy"}" referrerpolicy="no-referrer" onerror="this.parentElement.classList.add('none');this.remove()"><span class="asrc">${esc(a.source)}</span></div>`
-      : `<div class="aimg none">${a.site ? `<img class="aico" src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(a.site)}&sz=128" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}<span class="asrc">${esc(a.source)}</span></div>`;
-    return `<a class="acard${i === 0 && a.image ? " lead" : ""}" href="${esc(a.url)}" target="_blank" rel="noopener">${media}`
-      + `<span class="am"><span class="src">${esc(a.source)}</span><time datetime="${esc(a.published)}">${esc(ago(a.published))}</time>${isNew(a) ? '<span class="b new">New</span>' : ""}</span>`
-      + `<span class="at">${esc(a.title)}</span>`
-      + (a.summary && a.summary.toLowerCase() !== a.title.toLowerCase() ? `<span class="as">${esc(a.summary)}</span>` : "")
-      + `</a>`;
-  };
-  // the lead (double-width) card goes to the newest of the latest few stories that has a picture
-  const li = ARTS.slice(0, 4).findIndex(a => a.image);
-  const order = li > 0 ? [ARTS[li], ...ARTS.slice(0, li), ...ARTS.slice(li + 1)] : ARTS;
   $("#articles").innerHTML = ARTS.length
-    ? `<div class="acards">${order.map(card).join("")}</div>`
-      + `<p class="artnote">From Google News, Bing News and fashion publications' feeds, checked hourly. Each card opens the original article.</p>`
+    ? `<ol class="arts">${ARTS.map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">`
+        + `<span class="am"><span class="src">${esc(a.source)}</span><time datetime="${esc(a.published)}">${esc(ago(a.published))}</time>${isNew(a) ? '<span class="b new">New</span>' : ""}</span>`
+        + `<span class="at">${esc(a.title)}</span></a></li>`).join("")}</ol>`
+      + `<p class="artnote">From Google News, Bing News and fashion publications' feeds, checked hourly. Each link opens the original article.</p>`
     : `<p class="empty">No articles yet. They're gathered hourly from news searches and fashion publications.</p>`;
 }
 function showView(){

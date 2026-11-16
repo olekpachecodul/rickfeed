@@ -42,6 +42,3 @@ header{padding:34px 0 12px;border-bottom:1px solid var(--line)}
 .src{margin:2px 12px 0}
 footer{border-top:1px solid var(--line);padding-top:12px}
 @media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mark{letter-spacing:.24em}}
-.aimg img{filter:grayscale(.35) contrast(1.05)}
-.acard:hover .aimg img{filter:none}
-.aimg{border-color:var(--line)}
