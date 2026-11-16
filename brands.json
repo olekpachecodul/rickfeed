@@ -96,7 +96,6 @@
   "news": {
    "q": "205W39NYC OR \"Raf Simons Calvin Klein\" OR \"Calvin Klein 205W39NYC\"",
    "require": "205\\s*w\\s*39|calvin\\s*klein.*raf|raf.*calvin\\s*klein",
-   "keep_days": 3650,
    "bing_q": "\"205W39NYC\""
   }
  },
@@ -462,8 +461,7 @@
   "placeholder": "Search: object dyed, boot1, bamba, p13",
   "news": {
    "q": "\"Boris Bidjan Saberi\"",
-   "require": "boris\\s*bidjan",
-   "keep_days": 3650
+   "require": "boris\\s*bidjan"
   }
  },
  {
@@ -483,8 +481,7 @@
   "placeholder": "Search: drip, object dyed, overlock, boots",
   "news": {
    "q": "\"Carol Christian Poell\"",
-   "require": "carol\\s*christian\\s*poell",
-   "keep_days": 3650
+   "require": "carol\\s*christian\\s*poell"
   }
  },
  {
@@ -505,7 +502,6 @@
   "news": {
    "q": "Guidi (boots OR leather OR footwear OR tannery)",
    "require": "\\bguidi\\b.*(?:boot|leather|footwear|shoe|tanner|horse|fashion|collection|bag)|(?:boot|leather|footwear|shoe|tanner)s?\\b.*\\bguidi\\b",
-   "keep_days": 3650,
    "bing_q": "\"Guidi\" boots"
   }
  },
@@ -610,7 +606,6 @@
    "q": "\"Tatsuro Horikawa\" OR \"JULIUS_7\" OR (Julius Horikawa) OR (Julius \"Paris Fashion Week\")",
    "require": "tatsuro\\s*horikawa|julius[\\s_]*7|nil[øo]s|(?=.*(?<![a-z0-9])julius\\b)(?=.*\\b(?:fashion|label|collection|runway|show|paris|tokyo|fw\\d*|ss\\d*|aw\\d*|fall|autumn|spring|winter|collab\\w*|horikawa)\\b)",
    "exclude": "\\b(?:erving|dr\\.?\\s*j|caesar|k-?9|meinl|randle|peppers|hodge|tennon|viola|heliot|juul)\\b",
-   "keep_days": 3650,
    "bing_q": "\"Julius\" Horikawa"
   }
  }

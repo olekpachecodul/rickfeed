@@ -539,8 +539,10 @@ def brand_listings(brand, shop, plan, crawled):
 # data/articles.json so a missed hour loses nothing.
 # ---------------------------------------------------------------------------
 ARTICLES_EVERY_MINUTES = 55
-ARTICLES_KEEP_DAYS = 400
-ARTICLES_MAX = 150           # per designer
+ARTICLES_KEEP_DAYS = 20 * 365
+ARTICLES_MAX = 2000          # per designer
+BACKFILL_MONTHS_PER_READ = 3 # older months searched per designer per read, walking back to BACKFILL_FLOOR
+BACKFILL_FLOOR = "2005-01"
 ARTICLES_RULES = 9           # bump when the matching rules change, to re-read straight away
 TAG_RE = re.compile(r"<[^>]+>")
 # Results that are shops or reference pages, not articles.
@@ -664,13 +666,42 @@ def about(brand, text):
             and not DEALS.search(text))
 
 
-def gather_articles(saved, run_at, run_iso):
-    """Add any new articles to saved ({slug: {key: article}}); returns a log line per source."""
+def month_window(ym):
+    """'2024-03' -> ('2024-03-01', '2024-04-01'), the after:/before: dates for that month."""
+    y, m = map(int, ym.split("-"))
+    ny, nm = (y + 1, 1) if m == 12 else (y, m + 1)
+    return f"{y:04d}-{m:02d}-01", f"{ny:04d}-{nm:02d}-01"
+
+
+def month_before(ym):
+    y, m = map(int, ym.split("-"))
+    return f"{y - 1:04d}-12" if m == 1 else f"{y:04d}-{m - 1:02d}"
+
+
+def gather_articles(saved, run_at, run_iso, backfill=None):
+    """Add any new articles to saved ({slug: {key: article}}); returns a log line per source.
+    backfill ({slug: 'YYYY-MM'}): the next older month to search per designer. Google News search
+    only returns its latest ~100 results, so each read also searches a few earlier months with
+    after:/before: dates, walking back to BACKFILL_FLOOR; the cursor moves on only when a month answered."""
+    backfill = backfill if backfill is not None else {}
     jobs = [("news", b) for b in BRANDS] + [("bing", b) for b in BRANDS] + [("pub", p) for p in PUBLICATIONS]
+    for b in BRANDS:
+        ym = backfill.get(b["slug"]) or month_before(run_iso[:7])
+        for _ in range(BACKFILL_MONTHS_PER_READ):
+            if ym < BACKFILL_FLOOR:
+                break
+            jobs.append(("back", dict(b, back_month=ym)))
+            ym = month_before(ym)
 
     def read(job):
         kind, x = job
-        url = (f"https://news.google.com/rss/search?q={urllib.parse.quote(x['news_q'])}&hl=en-US&gl=US&ceid=US:en" if kind == "news"
+        if kind == "back":
+            start, end = month_window(x["back_month"])
+            q = f'{x["news_q"]} after:{start} before:{end}'
+            url = f"https://news.google.com/rss/search?q={urllib.parse.quote(q)}&hl=en-US&gl=US&ceid=US:en"
+        else:
+            url = None
+        url = url or (f"https://news.google.com/rss/search?q={urllib.parse.quote(x['news_q'])}&hl=en-US&gl=US&ceid=US:en" if kind == "news"
                else f"https://www.bing.com/news/search?q={urllib.parse.quote(x['bing_q'])}&format=rss&mkt=en-US&count=50" if kind == "bing"
                else x["feed"])
         try:
@@ -682,16 +713,16 @@ def gather_articles(saved, run_at, run_iso):
         results = list(pool.map(read, jobs))
     oldest_for = {b["slug"]: (run_at - dt.timedelta(days=b.get("news", {}).get("keep_days", ARTICLES_KEEP_DAYS))).isoformat() for b in BRANDS}
     oldest = min(oldest_for.values())
-    log, added, status, dropped = [], 0, {}, {}
+    log, added, status, dropped, back_stuck = [], 0, {}, {}, set()
     for (kind, x), entries, err in results:
         found = 0
-        label = {"news": "News: ", "bing": "Bing: "}.get(kind, "") + x["name"]
+        label = {"news": "News: ", "bing": "Bing: ", "back": "Back: "}.get(kind, "") + x["name"]
         for e in entries:
             title, link, published, text, source, image = e["title"], e["link"], e["published"], e["text"], e["source"], e["image"]
             site = (e.get("site") or (urllib.parse.urlsplit(link).netloc if "news.google." not in link else "")).removeprefix("www.")
             if published and published < oldest:
                 continue
-            if kind in ("news", "bing"):
+            if kind in ("news", "bing", "back"):
                 # Google News titles end in " - Source"
                 if source and title.endswith(" - " + source):
                     title = title[: -len(source) - 3].strip()
@@ -709,7 +740,7 @@ def gather_articles(saved, run_at, run_iso):
                 bucket = saved.setdefault(b["slug"], {})
                 k = article_key(title)
                 have = bucket.get(k)
-                summary = text[:400] if kind != "news" else ""   # Google's descriptions just repeat the headline
+                summary = text[:400] if kind not in ("news", "back") else ""   # Google's descriptions just repeat the headline
                 if have is None:
                     bucket[k] = {"title": title, "url": link, "source": source or "News",
                                  "published": published or run_iso, "first_seen": run_iso}
@@ -718,12 +749,23 @@ def gather_articles(saved, run_at, run_iso):
                     if site: bucket[k]["site"] = site
                     found += 1
                 else:
-                    if kind != "news" and "news.google." in have["url"]:
+                    if kind not in ("news", "back") and "news.google." in have["url"]:
                         have["url"] = link          # prefer a direct link to the publisher
                     if image and not have.get("image"): have["image"] = image
                     if summary and not have.get("summary"): have["summary"] = summary
                     if site and not have.get("site"): have["site"] = site
         added += found
+        if kind == "back":
+            # one status line per designer for the archive walk; move the cursor past months that answered
+            # (months arrive newest first; stop at the first one that failed so it's retried next time)
+            if x["slug"] not in back_stuck:
+                if err:
+                    back_stuck.add(x["slug"]); backfill[x["slug"]] = x["back_month"]
+                else:
+                    backfill[x["slug"]] = month_before(x["back_month"])
+            prev = status.get(label, "")
+            status[label] = (prev + "; " if prev else "") + f"{x['back_month']}: " + (err or f"{len(entries)} read, {found} new")
+            continue
         status[label] = err or f"{len(entries)} read, {found} new"
         if err or kind == "pub":
             log.append(f"  {label:<28} {err or f'{len(entries)} read, {found} new'}")
@@ -934,7 +976,8 @@ def main():
     if (articles.get("checked", "") < (run_at - dt.timedelta(minutes=ARTICLES_EVERY_MINUTES)).isoformat()
             or set(articles.get("slugs", [])) != SLUGS or articles.get("rules") != ARTICLES_RULES):
         # hourly, or straight away for a new designer or new matching rules
-        added, art_log, articles["sources"], articles["filtered_out"] = gather_articles(articles.setdefault("by_designer", {}), run_at, run_iso)
+        added, art_log, articles["sources"], articles["filtered_out"] = gather_articles(
+            articles.setdefault("by_designer", {}), run_at, run_iso, articles.setdefault("backfill", {}))
         articles["checked"], articles["slugs"], articles["rules"] = run_iso, sorted(SLUGS), ARTICLES_RULES
         print(f"\nArticles: {added} new." + ("\n" + "\n".join(art_log) if art_log else ""))
         text = json.dumps(articles, indent=1, sort_keys=True, ensure_ascii=False)
@@ -1794,12 +1837,30 @@ const ARTS = DATA.articles || [];
 $("#artN").textContent = ARTS.length || "";
 function renderArticles(){
   const isNew = a => baseline && new Date(a.first_seen) > new Date(baseline) && new Date(a.published) > new Date(baseline) - 7 * 86400000;
-  $("#articles").innerHTML = ARTS.length
-    ? `<ol class="arts">${ARTS.map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">`
-        + `<span class="am"><span class="src">${esc(a.source)}</span><time datetime="${esc(a.published)}">${esc(ago(a.published))}</time>${isNew(a) ? '<span class="b new">New</span>' : ""}</span>`
-        + `<span class="at">${esc(a.title)}</span></a></li>`).join("")}</ol>`
-      + `<p class="artnote">From Google News, Bing News and fashion publications' feeds, checked hourly. Each link opens the original article.</p>`
-    : `<p class="empty">No articles yet. They're gathered hourly from news searches and fashion publications.</p>`;
+  if (!ARTS.length) { $("#articles").innerHTML = `<p class="empty">No articles yet. They're gathered hourly from news searches and fashion publications.</p>`; return; }
+  // Grouped by year, newest first, with a row of years to jump between and a search box over headlines and sources.
+  const years = [...new Set(ARTS.map(a => (a.published || "").slice(0, 4)).filter(Boolean))];
+  const row = a => `<li data-t="${esc((a.title + " " + a.source).toLowerCase())}"><a href="${esc(a.url)}" target="_blank" rel="noopener">`
+    + `<span class="am"><span class="src">${esc(a.source)}</span><time datetime="${esc(a.published)}">${esc(ago(a.published))}</time>${isNew(a) ? '<span class="b new">New</span>' : ""}</span>`
+    + `<span class="at">${esc(a.title)}</span></a></li>`;
+  $("#articles").innerHTML =
+    `<div class="atools"><input type="search" id="aq" class="aq" placeholder="Search ${ARTS.length} articles" autocomplete="off" aria-label="Search articles">`
+    + (years.length > 1 ? `<nav class="ayears" aria-label="Jump to year">${years.map(y => `<button type="button" data-y="${y}">${y}</button>`).join("")}</nav>` : "")
+    + `</div>`
+    + years.map(y => `<section class="ayr" data-y="${y}"><h3 class="ayear" id="ay${y}">${y}</h3><ol class="arts">${ARTS.filter(a => a.published.startsWith(y)).map(row).join("")}</ol></section>`).join("")
+    + `<p class="empty" id="anone" hidden>No articles match that search.</p>`
+    + `<p class="artnote">From Google News, Bing News and fashion publications' feeds, checked hourly, and searched back month by month to 2005. Each link opens the original article.</p>`;
+  const nav = $("#articles .ayears");
+  if (nav) nav.addEventListener("click", e => { const btn = e.target.closest("button"); if (btn) document.getElementById("ay" + btn.dataset.y).scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start"}); });
+  $("#aq").addEventListener("input", () => {
+    const v = $("#aq").value.trim().toLowerCase(); let any = false;
+    document.querySelectorAll("#articles .ayr").forEach(sec => {
+      let n = 0;
+      sec.querySelectorAll("li").forEach(li => { const hit = !v || li.dataset.t.includes(v); li.hidden = !hit; n += hit; });
+      sec.hidden = !n; any = any || n > 0;
+    });
+    $("#anone").hidden = any;
+  });
 }
 function showView(){
   const arts = location.hash === "#articles";

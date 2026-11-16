@@ -56,8 +56,11 @@ Each designer page has an Articles view (`/<slug>/#articles`): news and features
 original. Once an hour Google News and Bing News are searched per designer
 (`news.q` in `brands.json`) and every feed in `publications.json` is read;
 a publication's piece is kept for every designer it names. Names that mean other things ("Undercover" police stories, "CCP", Guidi as a
-surname) use a stricter headline rule (`news.require`, `news.exclude`). Articles are kept in `data/articles.json`, up to 150 per designer
-from the last 400 days (`news.keep_days` changes that: 205W39NYC, a 2017-18 label, and the sparsely covered Julius, BBS, CCP and Guidi keep ten years). Shop and encyclopedia results (Lyst, Farfetch, Britannica...) and shopping-deal posts ("60% off", Black Friday) are dropped. `data/articles.json` also records how each source answered on the last read.
+surname) use a stricter headline rule (`news.require`, `news.exclude`). Articles are kept in `data/articles.json`, up to 2,000 per designer from the last 20 years. A news search only returns its
+latest results, so each hourly read also searches three earlier months per designer (Google News with `after:`/`before:` dates),
+walking back to 2005; `backfill` in that file shows where each designer has reached. The Articles view groups articles by year,
+with a row of years to jump between and a search box. Shop and encyclopedia results (Lyst, Farfetch, Britannica...) and shopping-deal
+posts are dropped. `data/articles.json` also records how each source answered on the last read.
 
 ## Filters
 
