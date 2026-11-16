@@ -543,7 +543,7 @@ ARTICLES_KEEP_DAYS = 20 * 365
 ARTICLES_MAX = 2000          # per designer
 BACKFILL_MONTHS_PER_READ = 3 # older months searched per designer per read, walking back to BACKFILL_FLOOR
 BACKFILL_FLOOR = "2005-01"
-ARTICLES_RULES = 9           # bump when the matching rules change, to re-read straight away
+ARTICLES_RULES = 10           # bump when the matching rules change, to re-read straight away
 TAG_RE = re.compile(r"<[^>]+>")
 # Results that are shops or reference pages, not articles.
 NOT_ARTICLES = re.compile(r"\b(?:lyst|ebay|farfetch|vestiaire|the\s*realreal|mercari|poshmark|depop|stockx|goat|"
