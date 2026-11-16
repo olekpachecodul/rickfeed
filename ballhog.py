@@ -52,6 +52,7 @@ PUBLICATIONS = json.loads((HERE / "publications.json").read_text(encoding="utf-8
 for _b in BRANDS:
     _n = _b.get("news") or {}
     _b["news_q"] = _n.get("q") or f'"{_b["name"]}"'
+    _b["bing_q"] = _n.get("bing_q") or f'"{_b["name"]}"'   # Bing returns nothing for Google-style OR/bracket queries
     _b["news_re"] = re.compile(_n["require"], re.I) if _n.get("require") else _b["re"]
     _b["news_ex"] = re.compile(_n["exclude"], re.I) if _n.get("exclude") else None
 DISCOVER_EVERY_DAYS = 1
@@ -540,7 +541,7 @@ def brand_listings(brand, shop, plan, crawled):
 ARTICLES_EVERY_MINUTES = 55
 ARTICLES_KEEP_DAYS = 400
 ARTICLES_MAX = 150           # per designer
-ARTICLES_RULES = 8           # bump when the matching rules change, to re-read straight away
+ARTICLES_RULES = 9           # bump when the matching rules change, to re-read straight away
 TAG_RE = re.compile(r"<[^>]+>")
 # Results that are shops or reference pages, not articles.
 NOT_ARTICLES = re.compile(r"\b(?:lyst|ebay|farfetch|vestiaire|the\s*realreal|mercari|poshmark|depop|stockx|goat|"
@@ -603,6 +604,7 @@ def feed_entries(raw):
         text = html.unescape(TAG_RE.sub(" ", raw_html))
         src = get("source")
         source = (src.text or "").strip() if src is not None else ""
+        site = urllib.parse.urlsplit((src.get("url") if src is not None else "") or "").netloc
         image = ""
         for c in (kids.get("content", []) + kids.get("thumbnail", [])):
             u = c.get("url") or ""
@@ -625,7 +627,8 @@ def feed_entries(raw):
             if when and when.tzinfo is None:
                 when = when.replace(tzinfo=dt.timezone.utc)
             out.append({"title": title, "link": link, "published": when.astimezone(dt.timezone.utc).isoformat(timespec="seconds") if when else "",
-                        "text": " ".join(text.split()), "source": source, "image": image if image.startswith("http") else ""})
+                        "text": " ".join(text.split()), "source": source, "image": image if image.startswith("http") else "",
+                        "site": site})
     return out
 
 
@@ -668,7 +671,7 @@ def gather_articles(saved, run_at, run_iso):
     def read(job):
         kind, x = job
         url = (f"https://news.google.com/rss/search?q={urllib.parse.quote(x['news_q'])}&hl=en-US&gl=US&ceid=US:en" if kind == "news"
-               else f"https://www.bing.com/news/search?q={urllib.parse.quote(x['news_q'])}&format=rss&mkt=en-US" if kind == "bing"
+               else f"https://www.bing.com/news/search?q={urllib.parse.quote(x['bing_q'])}&format=rss&mkt=en-US&count=50" if kind == "bing"
                else x["feed"])
         try:
             return job, feed_entries(fetch_bytes(url)), None
@@ -685,6 +688,7 @@ def gather_articles(saved, run_at, run_iso):
         label = {"news": "News: ", "bing": "Bing: "}.get(kind, "") + x["name"]
         for e in entries:
             title, link, published, text, source, image = e["title"], e["link"], e["published"], e["text"], e["source"], e["image"]
+            site = (e.get("site") or (urllib.parse.urlsplit(link).netloc if "news.google." not in link else "")).removeprefix("www.")
             if published and published < oldest:
                 continue
             if kind in ("news", "bing"):
@@ -711,12 +715,14 @@ def gather_articles(saved, run_at, run_iso):
                                  "published": published or run_iso, "first_seen": run_iso}
                     if image: bucket[k]["image"] = image
                     if summary: bucket[k]["summary"] = summary
+                    if site: bucket[k]["site"] = site
                     found += 1
                 else:
                     if kind != "news" and "news.google." in have["url"]:
                         have["url"] = link          # prefer a direct link to the publisher
                     if image and not have.get("image"): have["image"] = image
                     if summary and not have.get("summary"): have["summary"] = summary
+                    if site and not have.get("site"): have["site"] = site
         added += found
         status[label] = err or f"{len(entries)} read, {found} new"
         if err or kind == "pub":
@@ -1792,7 +1798,7 @@ function renderArticles(){
   const card = (a, i) => {
     const media = a.image
       ? `<div class="aimg"><img src="${esc(a.image)}" alt="" loading="${i < 6 ? "eager" : "lazy"}" referrerpolicy="no-referrer" onerror="this.parentElement.classList.add('none');this.remove()"><span class="asrc">${esc(a.source)}</span></div>`
-      : `<div class="aimg none"><span class="asrc">${esc(a.source)}</span></div>`;
+      : `<div class="aimg none">${a.site ? `<img class="aico" src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(a.site)}&sz=128" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}<span class="asrc">${esc(a.source)}</span></div>`;
     return `<a class="acard${i === 0 && a.image ? " lead" : ""}" href="${esc(a.url)}" target="_blank" rel="noopener">${media}`
       + `<span class="am"><span class="src">${esc(a.source)}</span><time datetime="${esc(a.published)}">${esc(ago(a.published))}</time>${isNew(a) ? '<span class="b new">New</span>' : ""}</span>`
       + `<span class="at">${esc(a.title)}</span>`

@@ -26,7 +26,8 @@
   "labels": {},
   "news": {
    "q": "\"Rick Owens\" OR DRKSHDW",
-   "require": "rick\\s*owens|drkshdw"
+   "require": "rick\\s*owens|drkshdw",
+   "bing_q": "\"Rick Owens\""
   }
  },
  {
@@ -95,7 +96,8 @@
   "news": {
    "q": "205W39NYC OR \"Raf Simons Calvin Klein\" OR \"Calvin Klein 205W39NYC\"",
    "require": "205\\s*w\\s*39|calvin\\s*klein.*raf|raf.*calvin\\s*klein",
-   "keep_days": 3650
+   "keep_days": 3650,
+   "bing_q": "\"205W39NYC\""
   }
  },
  {
@@ -183,7 +185,8 @@
   "placeholder": "Search: homme plus, junya, play, polka dot",
   "news": {
    "q": "\"Comme des Garçons\" OR \"Junya Watanabe\" OR \"Rei Kawakubo\"",
-   "require": "comme\\s*des?\\s*gar[cç]ons?|\\bcdg\\b|junya\\s*watanabe|kawakubo|noir\\s*kei|kei\\s*ninomiya"
+   "require": "comme\\s*des?\\s*gar[cç]ons?|\\bcdg\\b|junya\\s*watanabe|kawakubo|noir\\s*kei|kei\\s*ninomiya",
+   "bing_q": "\"Comme des Garçons\""
   }
  },
  {
@@ -207,7 +210,8 @@
   ],
   "placeholder": "Search: tabi, gat, replica, 5ac",
   "news": {
-   "q": "\"Maison Margiela\" OR \"Martin Margiela\" OR \"MM6\""
+   "q": "\"Maison Margiela\" OR \"Martin Margiela\" OR \"MM6\"",
+   "bing_q": "\"Maison Margiela\""
   }
  },
  {
@@ -233,7 +237,8 @@
   "news": {
    "q": "\"Jun Takahashi\" OR (Undercover fashion)",
    "require": "jun\\s*takahashi|undercover\\b.*(?:fashion|collection|runway|nike|show|season|fall|spring|fw|ss|paris|takahashi|sneaker|jacket|capsule|collab|x\\s)|(?:nike|sacai|uniqlo|supreme|gu)\\s*x\\s*undercover",
-   "exclude": "\\b(?:cop|cops|police|officer|agent|agents|fbi|dea|sting|investigation|investigator|reporter|operation|drug|arrest|boss|footage|journalist)s?\\b"
+   "exclude": "\\b(?:cop|cops|police|officer|agent|agents|fbi|dea|sting|investigation|investigator|reporter|operation|drug|arrest|boss|footage|journalist)s?\\b",
+   "bing_q": "\"Undercover\" \"Jun Takahashi\""
   }
  },
  {
@@ -266,7 +271,8 @@
   "placeholder": "Search: mesh, cyber, tattoo, marinière",
   "news": {
    "q": "\"Jean Paul Gaultier\" OR \"Gaultier\"",
-   "require": "gaultier"
+   "require": "gaultier",
+   "bing_q": "\"Jean Paul Gaultier\""
   }
  },
  {
@@ -311,7 +317,8 @@
   "placeholder": "Search: gabardine, wool, pour homme, y-3",
   "news": {
    "q": "\"Yohji Yamamoto\" OR \"Y-3\"",
-   "require": "yohji|\\by-3\\b"
+   "require": "yohji|\\by-3\\b",
+   "bing_q": "\"Yohji Yamamoto\""
   }
  },
  {
@@ -389,7 +396,8 @@
   "placeholder": "Search: plissé, pleats please, bao bao, monthly colour",
   "news": {
    "q": "\"Issey Miyake\" OR \"Pleats Please\" OR \"Homme Plissé\"",
-   "require": "issey|pleats\\s*please|homme\\s*pliss"
+   "require": "issey|pleats\\s*please|homme\\s*pliss",
+   "bing_q": "\"Issey Miyake\""
   }
  },
  {
@@ -409,7 +417,8 @@
   "placeholder": "Search: kurt, guitar, mohair, 2003",
   "news": {
    "q": "\"Number (N)ine\" OR \"Takahiro Miyashita\"",
-   "require": "number\\s*\\(\\s*n\\s*\\)\\s*ine|number\\s*nine\\b.*(?:fashion|archive|miyashita|collection|grunge)|miyashita"
+   "require": "number\\s*\\(\\s*n\\s*\\)\\s*ine|number\\s*nine\\b.*(?:fashion|archive|miyashita|collection|grunge)|miyashita",
+   "bing_q": "\"Number (N)ine\""
   }
  },
  {
@@ -496,7 +505,8 @@
   "news": {
    "q": "Guidi (boots OR leather OR footwear OR tannery)",
    "require": "\\bguidi\\b.*(?:boot|leather|footwear|shoe|tanner|horse|fashion|collection|bag)|(?:boot|leather|footwear|shoe|tanner)s?\\b.*\\bguidi\\b",
-   "keep_days": 3650
+   "keep_days": 3650,
+   "bing_q": "\"Guidi\" boots"
   }
  },
  {
@@ -542,7 +552,8 @@
   "news": {
    "q": "\"Ralph Lauren\" OR \"Double RL\" OR RRL",
    "require": "ralph\\s*lauren|\\brrl\\b|double\\s*rl",
-   "exclude": "\\b(?:stock|stocks|shares|earnings|revenue|quarter(?:ly)?|investors?|dividend|price\\s*target|analysts?|nyse|holdings|q[1-4]|fiscal|outlook|guidance|eps|asx|tsx|nasdaq|regis|gold|mining|miner|mine)\\b|\\(\\s*\\w+\\s*:\\s*rrl\\s*\\)"
+   "exclude": "\\b(?:stock|stocks|shares|earnings|revenue|quarter(?:ly)?|investors?|dividend|price\\s*target|analysts?|nyse|holdings|q[1-4]|fiscal|outlook|guidance|eps|asx|tsx|nasdaq|regis|gold|mining|miner|mine)\\b|\\(\\s*\\w+\\s*:\\s*rrl\\s*\\)",
+   "bing_q": "\"Ralph Lauren\""
   }
  },
  {
@@ -599,7 +610,8 @@
    "q": "\"Tatsuro Horikawa\" OR \"JULIUS_7\" OR (Julius Horikawa) OR (Julius \"Paris Fashion Week\")",
    "require": "tatsuro\\s*horikawa|julius[\\s_]*7|nil[øo]s|(?=.*(?<![a-z0-9])julius\\b)(?=.*\\b(?:fashion|label|collection|runway|show|paris|tokyo|fw\\d*|ss\\d*|aw\\d*|fall|autumn|spring|winter|collab\\w*|horikawa)\\b)",
    "exclude": "\\b(?:erving|dr\\.?\\s*j|caesar|k-?9|meinl|randle|peppers|hodge|tennon|viola|heliot|juul)\\b",
-   "keep_days": 3650
+   "keep_days": 3650,
+   "bing_q": "\"Julius\" Horikawa"
   }
  }
 ]
