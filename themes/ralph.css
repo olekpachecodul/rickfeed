@@ -39,5 +39,3 @@ footer{border-top:3px double var(--line);padding-top:14px;justify-content:center
 .arts{margin:0 auto}.artnote{text-align:center}
 .arts .at{font-family:"Libre Caslon Display",Georgia,serif;font-size:1.5em}
 @media (max-width:900px){.ph{margin:4px;outline-offset:4px}}
-.acard .at{font-family:"Libre Caslon Display",Georgia,serif}
-.aimg{outline:1px solid var(--line);outline-offset:4px;border:0}

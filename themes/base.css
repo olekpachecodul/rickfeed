@@ -153,25 +153,3 @@ html.menu-open{overflow:hidden}
 .menu-home{display:inline-block;margin-top:30px;color:var(--muted);text-decoration:underline;text-underline-offset:3px}
 .menu-home:hover{color:var(--ink)}
 @media (prefers-reduced-motion:reduce){.menu,.menu-btn span{transition:none}}
-/* Articles as cards: preview image (or a text panel in the theme's colours), source and date, headline, excerpt. */
-.acards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:36px 24px}
-.acard{display:flex;flex-direction:column;min-width:0;color:var(--ink)}
-.acard.lead{grid-column:span 2}
-.aimg{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ph);border:1px solid var(--line)}
-.aimg img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease}
-.acard:hover .aimg img{transform:scale(1.03)}
-.aimg .asrc{display:none}
-/* no image: the source's name, large, on the theme's panel colour */
-.aimg.none{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:16px}
-.aimg.none::before{content:"";flex:1}
-.aimg .aico{width:40px;height:40px;object-fit:contain;order:-1;border-radius:6px;background:#fff;padding:4px;box-sizing:border-box}
-.aimg.none .asrc{display:block;font-size:clamp(20px,2.2vw,30px);line-height:1;letter-spacing:-.01em;text-transform:none;color:var(--ink);opacity:.85;overflow-wrap:anywhere}
-.acard .am{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-top:12px;color:var(--muted);font-size:.9em}
-.acard .am .src{color:var(--ink)}
-.acard .am .b{position:static}
-.acard .at{margin-top:6px;font-size:1.25em;line-height:1.3;text-transform:none;letter-spacing:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.acard.lead .at{font-size:1.6em}
-.acard .as{margin-top:6px;color:var(--muted);text-transform:none;letter-spacing:0;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.acard:hover .at{text-decoration:underline;text-underline-offset:3px}
-@media (max-width:640px){.acard.lead{grid-column:auto}.acards{gap:28px}}
-@media (prefers-reduced-motion:reduce){.aimg img{transition:none}}
