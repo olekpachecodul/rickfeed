@@ -53,10 +53,15 @@ Listings are labelled Rick Owens, DRKSHDW or Lilies, and the line menu filters b
 ## Articles
 
 Each designer page has an Articles view (`/<slug>/#articles`): news and features about the designer, newest first, each linking to the
-original. Once an hour Google News is searched per designer (`news.q` in `brands.json`) and every feed in `publications.json` is read;
+original, shown as cards with the publisher's preview image where there is one. Once an hour Google News and Bing News are searched per designer
+(`news.q` in `brands.json`) and every feed in `publications.json` is read;
 a publication's piece is kept for every designer it names. Names that mean other things ("Undercover" police stories, "CCP", Guidi as a
 surname) use a stricter headline rule (`news.require`, `news.exclude`). Articles are kept in `data/articles.json`, up to 150 per designer
 from the last 400 days (`news.keep_days` changes that: 205W39NYC, a 2017-18 label, and the sparsely covered Julius, BBS, CCP and Guidi keep ten years). Shop and encyclopedia results (Lyst, Farfetch, Britannica...) and shopping-deal posts ("60% off", Black Friday) are dropped. `data/articles.json` also records how each source answered on the last read.
+
+Images come from the publication feeds and Bing's thumbnails; for articles with a direct link to the publisher, up to 60 pages per read are
+fetched once for their link-preview image and description (`og:image`, like a chat app's link preview). Google News links are scrambled
+redirects that can't be followed, so those articles show as text cards until another source supplies a direct link.
 
 ## Filters
 

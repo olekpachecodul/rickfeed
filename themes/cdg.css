@@ -64,3 +64,6 @@ footer a{color:var(--link);text-decoration:underline}
 .views a{color:var(--link);text-decoration:underline;border:0}
 .views a[aria-current=page]{color:var(--ink);text-decoration:none;font-weight:700}
 .views{font-size:14px}
+.acard .at{color:var(--link);text-decoration:underline}
+.acard:visited .at{color:var(--visited)}
+.aimg{border-color:var(--edge)}

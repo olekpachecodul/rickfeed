@@ -44,3 +44,6 @@ button.tog:hover,.tog:hover{background:var(--ink);color:var(--tag-ink)}
 .card.sold .ph img{opacity:.35}
 footer{padding-top:8px;font-size:11px;text-transform:uppercase}
 @media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:2px}}
+.aimg{border:0}
+.acards{gap:28px 2px}
+.acard .at{font-weight:600;text-transform:uppercase;font-size:1em}

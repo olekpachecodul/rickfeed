@@ -540,7 +540,7 @@ def brand_listings(brand, shop, plan, crawled):
 ARTICLES_EVERY_MINUTES = 55
 ARTICLES_KEEP_DAYS = 400
 ARTICLES_MAX = 150           # per designer
-ARTICLES_RULES = 7           # bump when the matching rules change, to re-read straight away
+ARTICLES_RULES = 8           # bump when the matching rules change, to re-read straight away
 TAG_RE = re.compile(r"<[^>]+>")
 # Results that are shops or reference pages, not articles.
 NOT_ARTICLES = re.compile(r"\b(?:lyst|ebay|farfetch|vestiaire|the\s*realreal|mercari|poshmark|depop|stockx|goat|"
@@ -565,7 +565,9 @@ def lenient_xml(raw):
 
 
 def feed_entries(raw):
-    """(title, link, published ISO, summary text, source name) from RSS 2.0 or Atom."""
+    """Entries from RSS 2.0 or Atom: {title, link, published ISO, text, source, image}.
+    Images come from media:content / media:thumbnail, an image enclosure, Bing's News:Image,
+    or the first <img> in the entry's HTML."""
     import email.utils
     try:
         root = ET.fromstring(raw)
@@ -576,10 +578,15 @@ def feed_entries(raw):
         tag = it.tag.rsplit("}", 1)[-1]
         if tag not in ("item", "entry"):
             continue
-        get = lambda name: next((c for c in it if c.tag.rsplit("}", 1)[-1] == name), None)
+        kids = {}
+        for c in it:
+            kids.setdefault(c.tag.rsplit("}", 1)[-1].lower(), []).append(c)
+        get = lambda name: (kids.get(name.lower()) or [None])[0]
         title = html.unescape(TAG_RE.sub("", (get("title").text or "") if get("title") is not None else "")).strip()
         link_el = get("link")
         link = ((link_el.get("href") or link_el.text or "") if link_el is not None else "").strip()
+        if "bing.com/news/apiclick" in link:   # Bing wraps the publisher's link; unwrap it
+            link = (urllib.parse.parse_qs(urllib.parse.urlsplit(link).query).get("url") or [link])[0]
         when = None
         for name in ("pubDate", "published", "updated", "date"):
             el = get(name)
@@ -591,14 +598,58 @@ def feed_entries(raw):
                 if when:
                     break
         summ = get("description") if get("description") is not None else get("summary")
-        text = html.unescape(TAG_RE.sub(" ", (summ.text or "") if summ is not None else ""))
+        raw_html = (summ.text or "") if summ is not None else ""
+        body = get("encoded")
+        text = html.unescape(TAG_RE.sub(" ", raw_html))
         src = get("source")
         source = (src.text or "").strip() if src is not None else ""
+        image = ""
+        for c in (kids.get("content", []) + kids.get("thumbnail", [])):
+            u = c.get("url") or ""
+            if u and (c.get("medium") in (None, "image") and not (c.get("type") or "image").startswith(("video", "audio"))):
+                image = u
+                break
+        if not image:
+            for c in kids.get("enclosure", []):
+                if (c.get("type") or "").startswith("image") and c.get("url"):
+                    image = c.get("url"); break
+        if not image and get("image") is not None:
+            img = get("image")
+            image = (img.text or "").strip() or (img.findtext("{*}url") or "").strip()
+            if image.startswith("https://www.bing.com/th"):
+                image += "&w=640&h=400&c=7"   # Bing's thumbnails come small by default
+        if not image:
+            m = IMG_RE.search(raw_html) or (body is not None and IMG_RE.search(body.text or ""))
+            image = html.unescape(m.group(1)) if m else ""
         if title and link.startswith("http"):
             if when and when.tzinfo is None:
                 when = when.replace(tzinfo=dt.timezone.utc)
-            out.append((title, link, when.astimezone(dt.timezone.utc).isoformat(timespec="seconds") if when else "", text, source))
+            out.append({"title": title, "link": link, "published": when.astimezone(dt.timezone.utc).isoformat(timespec="seconds") if when else "",
+                        "text": " ".join(text.split()), "source": source, "image": image if image.startswith("http") else ""})
     return out
+
+
+META_RE = re.compile(r"<meta\b[^>]*>", re.I)
+ATTR_RE = re.compile(r"""([\w:-]+)\s*=\s*("[^"]*"|'[^']*')""")
+PREVIEWS_PER_RUN = 60     # article pages fetched per articles read, for their preview image and description
+
+
+def page_preview(url):
+    """A page's link-preview image and description (og:/twitter: meta tags), like a chat app's link unfurl."""
+    try:
+        raw = fetch_bytes(url)[:400_000].decode("utf-8", "replace")
+    except Exception:
+        return None
+    meta = {}
+    for tag in META_RE.findall(raw):
+        attrs = {k.lower(): html.unescape(v[1:-1]) for k, v in ATTR_RE.findall(tag)}
+        key = (attrs.get("property") or attrs.get("name") or "").lower()
+        if key and "content" in attrs:
+            meta.setdefault(key, attrs["content"].strip())
+    image = next((meta[k] for k in ("og:image:secure_url", "og:image", "og:image:url", "twitter:image", "twitter:image:src") if meta.get(k)), "")
+    image = urllib.parse.urljoin(url, image) if image else ""
+    desc = next((meta[k] for k in ("og:description", "twitter:description", "description") if meta.get(k)), "")
+    return {"image": image if image.startswith("http") else "", "summary": " ".join(desc.split())}
 
 
 def article_key(title):
@@ -612,12 +663,13 @@ def about(brand, text):
 
 def gather_articles(saved, run_at, run_iso):
     """Add any new articles to saved ({slug: {key: article}}); returns a log line per source."""
-    jobs = [("news", b) for b in BRANDS] + [("pub", p) for p in PUBLICATIONS]
+    jobs = [("news", b) for b in BRANDS] + [("bing", b) for b in BRANDS] + [("pub", p) for p in PUBLICATIONS]
 
     def read(job):
         kind, x = job
-        url = (f"https://news.google.com/rss/search?q={urllib.parse.quote(x['news_q'])}&hl=en-US&gl=US&ceid=US:en"
-               if kind == "news" else x["feed"])
+        url = (f"https://news.google.com/rss/search?q={urllib.parse.quote(x['news_q'])}&hl=en-US&gl=US&ceid=US:en" if kind == "news"
+               else f"https://www.bing.com/news/search?q={urllib.parse.quote(x['news_q'])}&format=rss&mkt=en-US" if kind == "bing"
+               else x["feed"])
         try:
             return job, feed_entries(fetch_bytes(url)), None
         except Exception as e:
@@ -630,16 +682,18 @@ def gather_articles(saved, run_at, run_iso):
     log, added, status, dropped = [], 0, {}, {}
     for (kind, x), entries, err in results:
         found = 0
-        for title, link, published, text, source in entries:
+        label = {"news": "News: ", "bing": "Bing: "}.get(kind, "") + x["name"]
+        for e in entries:
+            title, link, published, text, source, image = e["title"], e["link"], e["published"], e["text"], e["source"], e["image"]
             if published and published < oldest:
                 continue
-            if kind == "news":
+            if kind in ("news", "bing"):
                 # Google News titles end in " - Source"
                 if source and title.endswith(" - " + source):
                     title = title[: -len(source) - 3].strip()
                 targets = [x] if about(x, title) and not NOT_ARTICLES.search(source + " " + link) else []
-                if not targets and len(dropped.setdefault(x["name"], [])) < 6:
-                    dropped[x["name"]].append(f"{title} ({source})")   # kept so the matching rules can be tuned
+                if not targets and len(dropped.setdefault(label, [])) < 6:
+                    dropped[label].append(f"{title} ({source})")   # kept so the matching rules can be tuned
             else:
                 source = x["name"]
                 targets = [b for b in BRANDS if about(b, title) or about(b, text[:600])]
@@ -651,22 +705,50 @@ def gather_articles(saved, run_at, run_iso):
                 bucket = saved.setdefault(b["slug"], {})
                 k = article_key(title)
                 have = bucket.get(k)
+                summary = text[:400] if kind != "news" else ""   # Google's descriptions just repeat the headline
                 if have is None:
                     bucket[k] = {"title": title, "url": link, "source": source or "News",
                                  "published": published or run_iso, "first_seen": run_iso}
+                    if image: bucket[k]["image"] = image
+                    if summary: bucket[k]["summary"] = summary
                     found += 1
-                elif kind == "pub" and "news.google." in have["url"]:
-                    have["url"] = link          # prefer the publication's own link
+                else:
+                    if kind != "news" and "news.google." in have["url"]:
+                        have["url"] = link          # prefer a direct link to the publisher
+                    if image and not have.get("image"): have["image"] = image
+                    if summary and not have.get("summary"): have["summary"] = summary
         added += found
-        status[x["name"] if kind == "pub" else "News: " + x["name"]] = err or f"{len(entries)} read, {found} new"
+        status[label] = err or f"{len(entries)} read, {found} new"
         if err or kind == "pub":
-            log.append(f"  {(x['name'] if kind == 'pub' else 'News: ' + x['name']):<28} {err or f'{len(entries)} read, {found} new'}")
+            log.append(f"  {label:<28} {err or f'{len(entries)} read, {found} new'}")
     for slug, bucket in saved.items():
         keep = sorted(bucket.items(), key=lambda kv: kv[1]["published"], reverse=True)
         ex = next((b["news_ex"] for b in BRANDS if b["slug"] == slug), None)
         saved[slug] = dict([kv for kv in keep if kv[1]["published"] >= oldest_for.get(slug, oldest)
                             and not NOT_ARTICLES.search(kv[1]["source"] + " " + kv[1]["url"])
                             and not DEALS.search(kv[1]["title"]) and not (ex and ex.search(kv[1]["title"]))][:ARTICLES_MAX])
+    # Link previews: for articles with a direct link and no preview yet, fetch the page once for
+    # its og:image and description (newest first, a limited number per read; tried ones are remembered).
+    todo, seen_urls = [], set()
+    for bucket in saved.values():
+        for a in bucket.values():
+            if not a.get("preview_tried") and "news.google." not in a["url"] and a["url"] not in seen_urls:
+                todo.append(a); seen_urls.add(a["url"])
+    todo.sort(key=lambda a: a["published"], reverse=True)
+    todo = todo[:PREVIEWS_PER_RUN]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        previews = dict(zip([a["url"] for a in todo], pool.map(lambda a: page_preview(a["url"]), todo)))
+    got = 0
+    for bucket in saved.values():
+        for a in bucket.values():
+            if a["url"] in previews:
+                a["preview_tried"] = run_iso[:10]
+                pv = previews[a["url"]]
+                if pv:
+                    if pv["image"]: a["image"] = pv["image"]; got += 1   # the publisher's own image beats a feed thumbnail
+                    if pv["summary"] and not a.get("summary"): a["summary"] = pv["summary"][:400]
+    log.append(f"  Link previews: {len(todo)} pages read, {got} images")
+    status["Link previews"] = f"{len(todo)} pages read, {got} images"
     return added, log, status, dropped
 
 
@@ -942,7 +1024,8 @@ def main():
                 "first_run": first_run, "shops": shops_out, "items": all_items,
                 "categories": ["Outerwear", "Tops", "Bottoms", "Dresses", "Footwear", "Bags & accessories", "Other"],
                 "brand": {"slug": slug, "name": brand["name"], "strip": brand["strip"], "price_style": brand.get("price_style", "symbol")},
-                "articles": sorted(articles.get("by_designer", {}).get(slug, {}).values(), key=lambda a: a["published"], reverse=True),
+                "articles": [{k: v for k, v in a.items() if k != "preview_tried"} for a in
+                             sorted(articles.get("by_designer", {}).get(slug, {}).values(), key=lambda a: a["published"], reverse=True)],
                 "colours": [[n, sw] for n, sw, _ in COLOURS]}
         payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
         out = site_dir / slug
@@ -1705,12 +1788,24 @@ const ARTS = DATA.articles || [];
 $("#artN").textContent = ARTS.length || "";
 function renderArticles(){
   const isNew = a => baseline && new Date(a.first_seen) > new Date(baseline) && new Date(a.published) > new Date(baseline) - 7 * 86400000;
+  // A card per article: the publisher's preview image when there is one, otherwise a text card in the page's colours.
+  const card = (a, i) => {
+    const media = a.image
+      ? `<div class="aimg"><img src="${esc(a.image)}" alt="" loading="${i < 6 ? "eager" : "lazy"}" referrerpolicy="no-referrer" onerror="this.parentElement.classList.add('none');this.remove()"><span class="asrc">${esc(a.source)}</span></div>`
+      : `<div class="aimg none"><span class="asrc">${esc(a.source)}</span></div>`;
+    return `<a class="acard${i === 0 && a.image ? " lead" : ""}" href="${esc(a.url)}" target="_blank" rel="noopener">${media}`
+      + `<span class="am"><span class="src">${esc(a.source)}</span><time datetime="${esc(a.published)}">${esc(ago(a.published))}</time>${isNew(a) ? '<span class="b new">New</span>' : ""}</span>`
+      + `<span class="at">${esc(a.title)}</span>`
+      + (a.summary && a.summary.toLowerCase() !== a.title.toLowerCase() ? `<span class="as">${esc(a.summary)}</span>` : "")
+      + `</a>`;
+  };
+  // the lead (double-width) card goes to the newest of the latest few stories that has a picture
+  const li = ARTS.slice(0, 4).findIndex(a => a.image);
+  const order = li > 0 ? [ARTS[li], ...ARTS.slice(0, li), ...ARTS.slice(li + 1)] : ARTS;
   $("#articles").innerHTML = ARTS.length
-    ? `<ol class="arts">${ARTS.map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">`
-        + `<span class="am"><span class="src">${esc(a.source)}</span><time datetime="${esc(a.published)}">${esc(ago(a.published))}</time>${isNew(a) ? '<span class="b new">New</span>' : ""}</span>`
-        + `<span class="at">${esc(a.title)}</span></a></li>`).join("")}</ol>`
-      + `<p class="artnote">From Google News and fashion publications' feeds, checked hourly. Each link opens the original article.</p>`
-    : `<p class="empty">No articles yet. They're gathered hourly from Google News and fashion publications.</p>`;
+    ? `<div class="acards">${order.map(card).join("")}</div>`
+      + `<p class="artnote">From Google News, Bing News and fashion publications' feeds, checked hourly. Each card opens the original article.</p>`
+    : `<p class="empty">No articles yet. They're gathered hourly from news searches and fashion publications.</p>`;
 }
 function showView(){
   const arts = location.hash === "#articles";
