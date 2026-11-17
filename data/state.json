@@ -4676,6 +4676,17 @@
    "price": 299.9,
    "sold": false
   },
+  "ann|2nd Street|https://ec.2ndstreetusa.com/products/15456051232877": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 229.9,
+   "sold": false
+  },
   "ann|2nd Street|https://ec.2ndstreetusa.com/products/7650494251117": {
    "category": "Bottoms",
    "colours": [
@@ -5009,7 +5020,7 @@
    "first_seen": "2026-08-29T18:46:07+00:00",
    "last_seen": "2026-11-17",
    "price": 159.9,
-   "sold": true
+   "sold": false
   },
   "ann|2nd Street|https://ec.2ndstreetusa.com/products/8247414489197": {
    "category": "Tops",
@@ -10713,6 +10724,17 @@
    "price": 595.0,
    "sold": false
   },
+  "ann|VSP Consignment|https://vspconsignment.com/products/15472535404735": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 395.0,
+   "sold": false
+  },
   "ann|VSP Consignment|https://vspconsignment.com/products/7494568968383": {
    "category": "Tops",
    "colours": [
@@ -13150,7 +13172,7 @@
    "first_seen": "2026-09-29T16:41:44+00:00",
    "last_seen": "2026-11-17",
    "price": 249.9,
-   "sold": false
+   "sold": true
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15355492008045": {
    "category": "Bottoms",
@@ -14024,6 +14046,17 @@
    "first_seen": "2026-11-06T20:15:42+00:00",
    "last_seen": "2026-11-17",
    "price": 349.9,
+   "sold": false
+  },
+  "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15375505457261": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 299.9,
    "sold": false
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15375632564333": {
@@ -16133,6 +16166,17 @@
    "price": 249.9,
    "sold": false
   },
+  "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15432297152621": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 229.9,
+   "sold": false
+  },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15432522072173": {
    "category": "Footwear",
    "colours": [
@@ -16579,6 +16623,17 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-17",
    "price": 179.9,
+   "sold": false
+  },
+  "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15455654445165": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 349.9,
    "sold": false
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15455851544685": {
@@ -18365,6 +18420,15 @@
    "first_seen": "2025-12-07T21:53:05+00:00",
    "last_seen": "2026-11-17",
    "price": 549.9,
+   "sold": false
+  },
+  "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/7914023682157": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 179.9,
    "sold": false
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/7914034298989": {
@@ -21104,10 +21168,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 599.9,
    "first_run": 0,
    "first_seen": "2026-06-26T18:56:28+00:00",
    "last_seen": "2026-11-17",
-   "price": 599.9,
+   "price": 499.9,
    "sold": false
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8069950308461": {
@@ -21707,10 +21773,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 999.9,
    "first_run": 0,
    "first_seen": "2026-05-16T19:08:07+00:00",
    "last_seen": "2026-11-17",
-   "price": 999.9,
+   "price": 949.9,
    "sold": false
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8087140925549": {
@@ -21750,10 +21818,12 @@
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8087551967341": {
    "category": "Footwear",
    "colours": [],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 899.9,
    "first_run": 0,
    "first_seen": "2026-05-18T22:56:15+00:00",
    "last_seen": "2026-11-17",
-   "price": 899.9,
+   "price": 849.9,
    "sold": false
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8087900913773": {
@@ -22773,10 +22843,12 @@
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8127523782765": {
    "category": "Footwear",
    "colours": [],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 1299.9,
    "first_run": 0,
    "first_seen": "2026-06-18T23:47:09+00:00",
    "last_seen": "2026-11-17",
-   "price": 1299.9,
+   "price": 1199.9,
    "sold": false
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8127571132525": {
@@ -22962,7 +23034,7 @@
    "first_seen": "2026-06-28T23:17:13+00:00",
    "last_seen": "2026-11-17",
    "price": 399.9,
-   "sold": false
+   "sold": true
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8131341910125": {
    "category": "Footwear",
@@ -23894,7 +23966,7 @@
    "first_seen": "2026-08-11T18:36:43+00:00",
    "last_seen": "2026-11-17",
    "price": 249.9,
-   "sold": false
+   "sold": true
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8152532516973": {
    "category": "Tops",
@@ -25366,10 +25438,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 229.9,
    "first_run": 0,
    "first_seen": "2026-08-10T01:05:02+00:00",
    "last_seen": "2026-11-17",
-   "price": 229.9,
+   "price": 159.9,
    "sold": false
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8198582009965": {
@@ -26179,7 +26253,7 @@
    "first_seen": "2026-08-28T20:20:56+00:00",
    "last_seen": "2026-11-17",
    "price": 249.9,
-   "sold": false
+   "sold": true
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8236071944301": {
    "category": "Footwear",
@@ -27354,6 +27428,42 @@
    "first_seen": "2026-10-26T15:09:31+00:00",
    "last_seen": "2026-11-17",
    "price": 80.0,
+   "sold": false
+  },
+  "balenciaga|97th Vintage|https://97thvintage.com/products/16195010953598": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 90.0,
+   "sold": false
+  },
+  "balenciaga|97th Vintage|https://97thvintage.com/products/16195011019134": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 90.0,
+   "sold": false
+  },
+  "balenciaga|97th Vintage|https://97thvintage.com/products/16195011248510": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 90.0,
+   "sold": false
+  },
+  "balenciaga|97th Vintage|https://97thvintage.com/products/16195011445118": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 90.0,
    "sold": false
   },
   "balenciaga|Agora Vintage|https://agoravintage.com/products/10161044193565": {
@@ -32692,7 +32802,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:44:08+00:00",
    "last_seen": "2026-11-17",
-   "price": 1340.0,
+   "price": 1342.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377195905126": {
@@ -32725,7 +32835,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:46:50+00:00",
    "last_seen": "2026-11-17",
-   "price": 275.0,
+   "price": 276.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377213042790": {
@@ -32738,7 +32848,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:51:59+00:00",
    "last_seen": "2026-11-17",
-   "price": 780.0,
+   "price": 781.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377228738662": {
@@ -32751,7 +32861,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:58:02+00:00",
    "last_seen": "2026-11-17",
-   "price": 443.0,
+   "price": 444.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377228968038": {
@@ -32786,7 +32896,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:07:25+00:00",
    "last_seen": "2026-11-17",
-   "price": 258.0,
+   "price": 259.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377258524774": {
@@ -32817,7 +32927,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:14:54+00:00",
    "last_seen": "2026-11-17",
-   "price": 101.0,
+   "price": 102.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4585204482150": {
@@ -58887,7 +58997,7 @@
    "first_seen": "2026-05-28T17:49:43+00:00",
    "last_seen": "2026-11-17",
    "price": 500.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Luxury Box ATL|https://luxuryboxatl.com/products/9452224708748": {
    "category": "Footwear",
@@ -60542,6 +60652,15 @@
    "price": 500.0,
    "sold": false
   },
+  "balenciaga|Odyssey Rebuild|https://odysseyrebuild.com/products/15510227878194": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 260.0,
+   "sold": false
+  },
   "balenciaga|Performa|https://performaatlanta.com/products/15401207103718": {
    "category": "Outerwear",
    "colours": [],
@@ -62102,7 +62221,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-11-06T22:23:00+00:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "price": 165774.0,
    "sold": false
   },
@@ -62111,7 +62230,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-11-06T23:53:47+00:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "price": 54235.0,
    "sold": false
   },
@@ -62120,7 +62239,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-11-06T23:53:55+00:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "price": 54235.0,
    "sold": false
   },
@@ -71631,7 +71750,7 @@
    "first_seen": "2025-11-24T22:37:25+00:00",
    "last_seen": "2026-11-17",
    "price": 450.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Resurrection|https://resurrectionvintage.com/products/9268015268096": {
    "category": "Other",
@@ -74081,6 +74200,17 @@
    "first_seen": "2026-11-12T22:57:09+00:00",
    "last_seen": "2026-11-17",
    "price": 200.0,
+   "sold": false
+  },
+  "balenciaga|Shop Status|https://shopstatus.store/products/10699985125663": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 800.0,
    "sold": false
   },
   "balenciaga|Shop Status|https://shopstatus.store/products/8825312379167": {
@@ -77704,6 +77834,17 @@
    "price": 600.0,
    "sold": false
   },
+  "balenciaga|Tokio 7|https://tokio7ny.com/products/15505633018083": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 560.0,
+   "sold": false
+  },
   "balenciaga|Tokio 7|https://tokio7ny.com/products/9657567281379": {
    "category": "Tops",
    "colours": [
@@ -79116,6 +79257,51 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-17",
    "price": 497.0,
+   "sold": false
+  },
+  "balenciaga|VSP Consignment|https://vspconsignment.com/products/15472535240895": {
+   "category": "Dresses",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 2495.0,
+   "sold": false
+  },
+  "balenciaga|VSP Consignment|https://vspconsignment.com/products/15472535306431": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 2995.0,
+   "sold": false
+  },
+  "balenciaga|VSP Consignment|https://vspconsignment.com/products/15472535339199": {
+   "category": "Dresses",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 1495.0,
+   "sold": false
+  },
+  "balenciaga|VSP Consignment|https://vspconsignment.com/products/15472557490367": {
+   "category": "Dresses",
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 1295.0,
    "sold": false
   },
   "balenciaga|VSP Consignment|https://vspconsignment.com/products/7443301171391": {
@@ -94058,7 +94244,7 @@
    "first_seen": "2026-10-19T17:47:58+00:00",
    "last_seen": "2026-11-17",
    "price": 624.0,
-   "sold": false
+   "sold": true
   },
   "bbs|Twins Selling Things|https://twinssellingthings.de/products/10106067419464": {
    "category": "Dresses",
@@ -102194,10 +102380,12 @@
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15413401682029": {
    "category": "Outerwear",
    "colours": [],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 229.9,
    "first_run": 0,
    "first_seen": "2026-10-30T21:39:36+00:00",
    "last_seen": "2026-11-17",
-   "price": 229.9,
+   "price": 199.9,
    "sold": false
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15413446639725": {
@@ -102618,6 +102806,17 @@
    "price": 299.9,
    "sold": false
   },
+  "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15444312785005": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 249.9,
+   "sold": false
+  },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15446438314093": {
    "category": "Bottoms",
    "colours": [
@@ -102671,6 +102870,39 @@
    "first_seen": "2026-11-15T23:13:26+00:00",
    "last_seen": "2026-11-17",
    "price": 129.9,
+   "sold": false
+  },
+  "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15455765626989": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 229.9,
+   "sold": false
+  },
+  "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15455765659757": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 159.9,
+   "sold": false
+  },
+  "cdg|2nd Street|https://ec.2ndstreetusa.com/products/15455765758061": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 229.9,
    "sold": false
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/7132914450541": {
@@ -102967,10 +103199,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 109.9,
    "first_run": 0,
    "first_seen": "2025-12-03T23:23:20+00:00",
    "last_seen": "2026-11-17",
-   "price": 109.9,
+   "price": 99.9,
    "sold": false
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/7565444939885": {
@@ -104348,10 +104582,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 279.9,
    "first_run": 0,
    "first_seen": "2026-05-03T01:53:53+00:00",
    "last_seen": "2026-11-17",
-   "price": 279.9,
+   "price": 249.9,
    "sold": false
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/8072123678829": {
@@ -104877,10 +105113,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 249.9,
    "first_run": 0,
    "first_seen": "2026-06-14T23:19:45+00:00",
    "last_seen": "2026-11-17",
-   "price": 249.9,
+   "price": 199.9,
    "sold": false
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/8123488305261": {
@@ -105915,6 +106153,15 @@
    "first_seen": "2026-11-09T16:32:59+00:00",
    "last_seen": "2026-11-17",
    "price": 599.9,
+   "sold": false
+  },
+  "cdg|2nd Street|https://ec.2ndstreetusa.com/products/8215158161517": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 149.9,
    "sold": false
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/8223281119341": {
@@ -123500,7 +123747,7 @@
    "first_seen": "2026-09-02T12:00:36+00:00",
    "last_seen": "2026-11-17",
    "price": 278.0,
-   "sold": true
+   "sold": false
   },
   "cdg|Front General Store|https://frontgeneralstore.com/products/9579495096559": {
    "category": "Outerwear",
@@ -133990,7 +134237,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-10-27T00:04:00+00:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "price": 13680.0,
    "sold": false
   },
@@ -137525,7 +137772,7 @@
    "first_seen": "2026-11-04T21:32:12+00:00",
    "last_seen": "2026-11-17",
    "price": 65109.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9780338131203": {
    "category": "Tops",
@@ -139216,7 +139463,7 @@
    "first_seen": "2026-11-08T11:27:13+00:00",
    "last_seen": "2026-11-17",
    "price": 34838.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9792177996035": {
    "category": "Outerwear",
@@ -146299,6 +146546,15 @@
    "price": 84.95,
    "sold": false
   },
+  "cdg|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448494756065": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 79.95,
+   "sold": false
+  },
   "cdg|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/8031654543585": {
    "category": "Tops",
    "colours": [],
@@ -149377,7 +149633,7 @@
    "first_seen": "2026-11-02T18:14:19+00:00",
    "last_seen": "2026-11-17",
    "price": 230.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Tokio 7|https://tokio7ny.com/products/15462800621795": {
    "category": "Tops",
@@ -149479,6 +149735,28 @@
    "first_seen": "2026-11-13T20:28:18+00:00",
    "last_seen": "2026-11-17",
    "price": 1000.0,
+   "sold": false
+  },
+  "cdg|Tokio 7|https://tokio7ny.com/products/15505704648931": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 380.0,
+   "sold": false
+  },
+  "cdg|Tokio 7|https://tokio7ny.com/products/15505705140451": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 800.0,
    "sold": false
   },
   "cdg|Tokio 7|https://tokio7ny.com/products/9631844434147": {
@@ -149774,6 +150052,28 @@
    "first_seen": "2026-11-12T22:18:51+00:00",
    "last_seen": "2026-11-17",
    "price": 795.0,
+   "sold": false
+  },
+  "cdg|VSP Consignment|https://vspconsignment.com/products/15472535437503": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 795.0,
+   "sold": false
+  },
+  "cdg|VSP Consignment|https://vspconsignment.com/products/15472535470271": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 695.0,
    "sold": false
   },
   "cdg|VSP Consignment|https://vspconsignment.com/products/7415158440127": {
@@ -156271,6 +156571,17 @@
    "price": 229.9,
    "sold": false
   },
+  "gaultier|2nd Street|https://ec.2ndstreetusa.com/products/15455728566381": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 159.9,
+   "sold": false
+  },
   "gaultier|2nd Street|https://ec.2ndstreetusa.com/products/7170489811053": {
    "category": "Tops",
    "colours": [],
@@ -156453,7 +156764,7 @@
    "first_seen": "2026-06-11T15:29:24+00:00",
    "last_seen": "2026-11-17",
    "price": 399.9,
-   "sold": false
+   "sold": true
   },
   "gaultier|2nd Street|https://ec.2ndstreetusa.com/products/7795561398381": {
    "category": "Outerwear",
@@ -162832,6 +163143,114 @@
    "price": 107.0,
    "sold": false
   },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477531459926": {
+   "category": "Tops",
+   "colours": [
+    "Black",
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 406.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477782331734": {
+   "category": "Dresses",
+   "colours": [
+    "Black",
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 705.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477786591574": {
+   "category": "Dresses",
+   "colours": [
+    "Brown",
+    "Blue",
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 491.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477791277398": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 97.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477792325974": {
+   "category": "Bottoms",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 150.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477795537238": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black",
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 267.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477799305558": {
+   "category": "Outerwear",
+   "colours": [
+    "Black",
+    "Brown",
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 342.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477803270486": {
+   "category": "Bags & accessories",
+   "colours": [
+    "White",
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 129.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477808611670": {
+   "category": "Bags & accessories",
+   "colours": [
+    "White",
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 107.0,
+   "sold": false
+  },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/9737458188630": {
    "category": "Dresses",
    "colours": [
@@ -168553,7 +168972,7 @@
    "first_seen": "2026-10-01T16:11:07+00:00",
    "last_seen": "2026-11-17",
    "price": 497.0,
-   "sold": true
+   "sold": false
   },
   "gaultier|VSP Consignment|https://vspconsignment.com/products/15386424639679": {
    "category": "Bags & accessories",
@@ -185948,7 +186367,7 @@
    "first_run": 0,
    "first_seen": "2020-01-21T15:40:09+00:00",
    "last_seen": "2026-11-17",
-   "price": 331.0,
+   "price": 332.0,
    "sold": true
   },
   "issey|Backyard Archive|https://backyardarchive.us/products/4530252284006": {
@@ -185961,7 +186380,7 @@
    "first_run": 0,
    "first_seen": "2020-01-21T16:07:18+00:00",
    "last_seen": "2026-11-17",
-   "price": 331.0,
+   "price": 332.0,
    "sold": true
   },
   "issey|Bohème Vintage|https://bohemevintage.com/products/4454907052135": {
@@ -192890,6 +193309,15 @@
    "price": 280.0,
    "sold": false
   },
+  "issey|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10317254197473": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 69.95,
+   "sold": false
+  },
   "issey|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10321157587169": {
    "category": "Outerwear",
    "colours": [],
@@ -193545,6 +193973,60 @@
    "first_seen": "2026-11-13T18:37:33+00:00",
    "last_seen": "2026-11-17",
    "price": 89.95,
+   "sold": false
+  },
+  "issey|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448492069089": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 84.95,
+   "sold": false
+  },
+  "issey|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448492757217": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 124.95,
+   "sold": false
+  },
+  "issey|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448493117665": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 54.95,
+   "sold": false
+  },
+  "issey|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448493314273": {
+   "category": "Dresses",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 74.95,
+   "sold": false
+  },
+  "issey|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448493510881": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 74.95,
+   "sold": false
+  },
+  "issey|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448494887137": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 104.95,
    "sold": false
   },
   "issey|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/8035971432673": {
@@ -197792,6 +198274,17 @@
    "last_seen": "2026-11-17",
    "price": 395.0,
    "sold": true
+  },
+  "issey|VSP Consignment|https://vspconsignment.com/products/15472535535807": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 795.0,
+   "sold": false
   },
   "issey|VSP Consignment|https://vspconsignment.com/products/7446264840383": {
    "category": "Outerwear",
@@ -206125,7 +206618,7 @@
    "first_seen": "2026-07-30T16:09:36+00:00",
    "last_seen": "2026-11-17",
    "price": 129.9,
-   "sold": false
+   "sold": true
   },
   "lang|2nd Street|https://ec.2ndstreetusa.com/products/8083581304941": {
    "category": "Tops",
@@ -206437,7 +206930,7 @@
    "first_seen": "2026-08-02T17:56:37+00:00",
    "last_seen": "2026-11-17",
    "price": 179.9,
-   "sold": false
+   "sold": true
   },
   "lang|2nd Street|https://ec.2ndstreetusa.com/products/8179414663277": {
    "category": "Bottoms",
@@ -208518,7 +209011,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:43:55+00:00",
    "last_seen": "2026-11-17",
-   "price": 505.0,
+   "price": 506.0,
    "sold": true
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/8483152167255": {
@@ -220926,6 +221419,17 @@
    "price": 399.9,
    "sold": true
   },
+  "margiela|2nd Street|https://ec.2ndstreetusa.com/products/15453503815789": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 399.9,
+   "sold": false
+  },
   "margiela|2nd Street|https://ec.2ndstreetusa.com/products/15453797875821": {
    "category": "Footwear",
    "colours": [
@@ -220935,6 +221439,17 @@
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-17",
    "price": 129.9,
+   "sold": false
+  },
+  "margiela|2nd Street|https://ec.2ndstreetusa.com/products/15455626494061": {
+   "category": "Footwear",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 199.9,
    "sold": false
   },
   "margiela|2nd Street|https://ec.2ndstreetusa.com/products/6798691532909": {
@@ -222726,10 +223241,12 @@
   "margiela|2nd Street|https://ec.2ndstreetusa.com/products/8129398571117": {
    "category": "Outerwear",
    "colours": [],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 549.9,
    "first_run": 0,
    "first_seen": "2026-06-24T18:03:35+00:00",
    "last_seen": "2026-11-17",
-   "price": 549.9,
+   "price": 449.9,
    "sold": false
   },
   "margiela|2nd Street|https://ec.2ndstreetusa.com/products/8129398734957": {
@@ -225910,7 +226427,7 @@
    "first_run": 0,
    "first_seen": "2025-08-08T16:55:49+00:00",
    "last_seen": "2026-11-17",
-   "price": 370.0,
+   "price": 371.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10285836599639": {
@@ -225932,7 +226449,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T15:50:16+00:00",
    "last_seen": "2026-11-17",
-   "price": 886.0,
+   "price": 887.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10316052300119": {
@@ -225943,7 +226460,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T16:08:32+00:00",
    "last_seen": "2026-11-17",
-   "price": 505.0,
+   "price": 506.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10358322168151": {
@@ -225991,7 +226508,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T07:53:39+00:00",
    "last_seen": "2026-11-17",
-   "price": 617.0,
+   "price": 618.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10471100449111": {
@@ -226002,7 +226519,7 @@
    "first_run": 0,
    "first_seen": "2026-01-20T10:41:52+00:00",
    "last_seen": "2026-11-17",
-   "price": 314.0,
+   "price": 315.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/6686095835331": {
@@ -226015,7 +226532,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T13:37:43+00:00",
    "last_seen": "2026-11-17",
-   "price": 701.0,
+   "price": 702.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/6874184843459": {
@@ -226026,7 +226543,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T19:19:48+00:00",
    "last_seen": "2026-11-17",
-   "price": 1671.0,
+   "price": 1673.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956236665056": {
@@ -226039,7 +226556,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:20+00:00",
    "last_seen": "2026-11-17",
-   "price": 1514.0,
+   "price": 1516.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956236959968": {
@@ -226053,7 +226570,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:20+00:00",
    "last_seen": "2026-11-17",
-   "price": 1514.0,
+   "price": 1516.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956428488928": {
@@ -226077,7 +226594,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:04+00:00",
    "last_seen": "2026-11-17",
-   "price": 729.0,
+   "price": 730.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/8006359023840": {
@@ -226088,7 +226605,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:47:57+00:00",
    "last_seen": "2026-11-17",
-   "price": 533.0,
+   "price": 534.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/8006370525408": {
@@ -226114,7 +226631,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:31:44+00:00",
    "last_seen": "2026-11-17",
-   "price": 550.0,
+   "price": 551.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/9962095247703": {
@@ -228563,6 +229080,17 @@
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-17",
    "price": 289.0,
+   "sold": false
+  },
+  "margiela|DolceVitaHub|https://dolcevitahub.com/products/11477520449878": {
+   "category": "Outerwear",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 353.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/9566344708438": {
@@ -243976,7 +244504,7 @@
    "first_seen": "2026-06-22T09:49:33+00:00",
    "last_seen": "2026-11-17",
    "price": 630.0,
-   "sold": false
+   "sold": true
   },
   "margiela|Vertical Rags|https://verticalrags.eu/products/10988112773387": {
    "category": "Footwear",
@@ -249297,7 +249825,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:30:02+00:00",
    "last_seen": "2026-11-17",
-   "price": 830.0,
+   "price": 831.0,
    "sold": true
   },
   "numbernine|Backyard Archive|https://backyardarchive.us/products/7936123306208": {
@@ -249310,7 +249838,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:24+00:00",
    "last_seen": "2026-11-17",
-   "price": 729.0,
+   "price": 730.0,
    "sold": true
   },
   "numbernine|Backyard Archive|https://backyardarchive.us/products/7936123601120": {
@@ -249323,7 +249851,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:30+00:00",
    "last_seen": "2026-11-17",
-   "price": 841.0,
+   "price": 842.0,
    "sold": true
   },
   "numbernine|Crybynoon Archive|https://crybynoon.com/products/8412671082631": {
@@ -251240,6 +251768,24 @@
    "price": 130.0,
    "sold": false
   },
+  "numbernine|Odyssey Rebuild|https://odysseyrebuild.com/products/15506096947506": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 200.0,
+   "sold": false
+  },
+  "numbernine|Odyssey Rebuild|https://odysseyrebuild.com/products/15512408555826": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 100.0,
+   "sold": false
+  },
   "numbernine|Resurrection|https://resurrectionvintage.com/products/5961626714269": {
    "category": "Tops",
    "colours": [],
@@ -251908,7 +252454,7 @@
    "first_run": 0,
    "first_seen": "2026-07-27T16:43:52+00:00",
    "last_seen": "2026-11-17",
-   "price": 101.0,
+   "price": 102.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10311450493271": {
@@ -251944,7 +252490,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T21:30:51+00:00",
    "last_seen": "2026-11-17",
-   "price": 729.0,
+   "price": 730.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329215500631": {
@@ -252001,7 +252547,7 @@
    "first_run": 0,
    "first_seen": "2025-11-28T15:27:02+00:00",
    "last_seen": "2026-11-17",
-   "price": 550.0,
+   "price": 551.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10435016982871": {
@@ -252014,7 +252560,7 @@
    "first_run": 0,
    "first_seen": "2026-01-19T11:51:05+00:00",
    "last_seen": "2026-11-17",
-   "price": 662.0,
+   "price": 663.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10573091930455": {
@@ -252028,7 +252574,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T18:02:01+00:00",
    "last_seen": "2026-11-17",
-   "price": 729.0,
+   "price": 730.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783566463319": {
@@ -252057,7 +252603,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:14:02+00:00",
    "last_seen": "2026-11-17",
-   "price": 101.0,
+   "price": 102.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783576785239": {
@@ -252081,7 +252627,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:14:59+00:00",
    "last_seen": "2026-11-17",
-   "price": 314.0,
+   "price": 315.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579111767": {
@@ -252112,7 +252658,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:06+00:00",
    "last_seen": "2026-11-17",
-   "price": 774.0,
+   "price": 775.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579537751": {
@@ -252147,7 +252693,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:17+00:00",
    "last_seen": "2026-11-17",
-   "price": 617.0,
+   "price": 618.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783580127575": {
@@ -252167,7 +252713,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:26+00:00",
    "last_seen": "2026-11-17",
-   "price": 662.0,
+   "price": 663.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582257495": {
@@ -252178,7 +252724,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:56+00:00",
    "last_seen": "2026-11-17",
-   "price": 505.0,
+   "price": 506.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582290263": {
@@ -252254,7 +252800,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:35:00+00:00",
    "last_seen": "2026-11-17",
-   "price": 774.0,
+   "price": 775.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956232175840": {
@@ -252265,7 +252811,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:49+00:00",
    "last_seen": "2026-11-17",
-   "price": 662.0,
+   "price": 663.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956232372448": {
@@ -252276,7 +252822,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:22+00:00",
    "last_seen": "2026-11-17",
-   "price": 1626.0,
+   "price": 1628.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956237943008": {
@@ -252290,7 +252836,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T20:13:17+00:00",
    "last_seen": "2026-11-17",
-   "price": 3924.0,
+   "price": 3930.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7987186925792": {
@@ -252328,7 +252874,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:56:41+00:00",
    "last_seen": "2026-11-17",
-   "price": 757.0,
+   "price": 758.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/8476784099671": {
@@ -257405,7 +257951,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:00:11+00:00",
    "last_seen": "2026-11-17",
-   "price": 724.0,
+   "price": 725.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4942501675110": {
@@ -257453,7 +257999,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:06+00:00",
    "last_seen": "2026-11-17",
-   "price": 2074.0,
+   "price": 2077.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/7956221559008": {
@@ -264572,10 +265118,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 621.0,
    "first_run": 0,
    "first_seen": "2024-06-03T20:12:30+00:00",
    "last_seen": "2026-11-17",
-   "price": 621.0,
+   "price": 517.5,
    "sold": false
   },
   "raf|Zoo Fashions|https://www.zoofashions.com/products/6943773982769": {
@@ -264594,10 +265142,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 411.0,
    "first_run": 0,
    "first_seen": "2024-08-20T13:57:03+00:00",
    "last_seen": "2026-11-17",
-   "price": 411.0,
+   "price": 342.5,
    "sold": false
   },
   "raf|Zoo Fashions|https://www.zoofashions.com/products/6943859474481": {
@@ -264810,6 +265360,15 @@
    "first_seen": "2026-11-11T19:04:31+00:00",
    "last_seen": "2026-11-17",
    "price": 199.9,
+   "sold": false
+  },
+  "ralph|2nd Street|https://ec.2ndstreetusa.com/products/15455986286701": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 99.9,
    "sold": false
   },
   "ralph|2nd Street|https://ec.2ndstreetusa.com/products/7099633270893": {
@@ -265621,6 +266180,42 @@
    "first_seen": "2026-11-05T14:18:58+00:00",
    "last_seen": "2026-11-17",
    "price": 65.0,
+   "sold": false
+  },
+  "ralph|97th Vintage|https://97thvintage.com/products/16195011084670": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 70.0,
+   "sold": false
+  },
+  "ralph|97th Vintage|https://97thvintage.com/products/16195011215742": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 65.0,
+   "sold": false
+  },
+  "ralph|97th Vintage|https://97thvintage.com/products/16195011281278": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 70.0,
+   "sold": false
+  },
+  "ralph|97th Vintage|https://97thvintage.com/products/16195012166014": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 80.0,
    "sold": false
   },
   "ralph|Agora Vintage|https://agoravintage.com/products/9958152765725": {
@@ -286535,6 +287130,72 @@
    "price": 269.99,
    "sold": true
   },
+  "ralph|Lord Ralph London|https://lordralphlondon.com/products/16285573153146": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 127.99,
+   "sold": false
+  },
+  "ralph|Lord Ralph London|https://lordralphlondon.com/products/16285750919546": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 64.99,
+   "sold": false
+  },
+  "ralph|Lord Ralph London|https://lordralphlondon.com/products/16285831397754": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 154.99,
+   "sold": false
+  },
+  "ralph|Lord Ralph London|https://lordralphlondon.com/products/16285859545466": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 169.99,
+   "sold": false
+  },
+  "ralph|Lord Ralph London|https://lordralphlondon.com/products/16286051565946": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 24.99,
+   "sold": false
+  },
+  "ralph|Lord Ralph London|https://lordralphlondon.com/products/16286052417914": {
+   "category": "Tops",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 32.99,
+   "sold": false
+  },
   "ralph|Luke's|https://lukes.store/products/10041765953840": {
    "category": "Bottoms",
    "colours": [
@@ -292004,7 +292665,7 @@
    "first_seen": "2026-09-08T05:57:30+00:00",
    "last_seen": "2026-11-17",
    "price": 17.8,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16195387163002": {
    "category": "Tops",
@@ -295228,7 +295889,7 @@
    "first_seen": "2026-10-03T06:41:50+00:00",
    "last_seen": "2026-11-17",
    "price": 17.2,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16221693935994": {
    "category": "Tops",
@@ -295987,7 +296648,7 @@
    "first_seen": "2026-10-09T13:47:29+00:00",
    "last_seen": "2026-11-17",
    "price": 16.8,
-   "sold": true
+   "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16230823068026": {
    "category": "Bottoms",
@@ -299156,7 +299817,7 @@
    "first_seen": "2026-11-04T12:38:46+00:00",
    "last_seen": "2026-11-17",
    "price": 31.83,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16270742782330": {
    "category": "Tops",
@@ -299200,7 +299861,7 @@
    "first_seen": "2026-11-04T13:59:46+00:00",
    "last_seen": "2026-11-17",
    "price": 32.78,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16270908752250": {
    "category": "Bottoms",
@@ -299703,7 +300364,7 @@
    "first_seen": "2026-11-06T11:03:58+00:00",
    "last_seen": "2026-11-17",
    "price": 23.84,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16273110958458": {
    "category": "Bottoms",
@@ -300695,7 +301356,7 @@
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-17",
    "price": 24.95,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280676761978": {
    "category": "Tops",
@@ -301285,6 +301946,158 @@
    "price": 15.72,
    "sold": false
   },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285502177658": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 22.16,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285745807738": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 18.18,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285807247738": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 22.71,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285837689210": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 9.95,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285840048506": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 21.44,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285840769402": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 36.95,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285899194746": {
+   "category": "Dresses",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 23.12,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285940973946": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 11.76,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285942055290": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 38.17,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285942120826": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 22.9,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16285942743418": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 23.18,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16286025679226": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 21.83,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16286033478010": {
+   "category": "Dresses",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 23.12,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16286074569082": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 18.9,
+   "sold": false
+  },
   "ralph|Michael's|https://michaelsconsignment.com/products/10326755475631": {
    "category": "Dresses",
    "colours": [
@@ -301306,6 +302119,28 @@
    "last_seen": "2026-11-17",
    "price": 1030.0,
    "sold": false
+  },
+  "ralph|Michael's|https://michaelsconsignment.com/products/10373034541231": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 340.0,
+   "sold": false
+  },
+  "ralph|Michael's|https://michaelsconsignment.com/products/10373034999983": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 225.0,
+   "sold": true
   },
   "ralph|Michael's|https://michaelsconsignment.com/products/8674390540463": {
    "category": "Outerwear",
@@ -301619,7 +302454,7 @@
    "first_seen": "2026-10-23T00:10:09+00:00",
    "last_seen": "2026-11-17",
    "price": 119.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Planet Vintage|https://planetvintage.store/products/15436293537945": {
    "category": "Tops",
@@ -302713,7 +303548,7 @@
    "first_seen": "2026-11-13T01:55:14+00:00",
    "last_seen": "2026-11-17",
    "price": 109.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Planet Vintage|https://planetvintage.store/products/15493806424217": {
    "category": "Tops",
@@ -302801,7 +303636,7 @@
    "first_seen": "2026-11-13T01:56:10+00:00",
    "last_seen": "2026-11-17",
    "price": 132.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Planet Vintage|https://planetvintage.store/products/15496090681497": {
    "category": "Outerwear",
@@ -304152,6 +304987,33 @@
    "first_seen": "2026-11-13T18:37:26+00:00",
    "last_seen": "2026-11-17",
    "price": 134.95,
+   "sold": false
+  },
+  "ralph|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448493019361": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 59.95,
+   "sold": false
+  },
+  "ralph|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448493740257": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 54.95,
+   "sold": false
+  },
+  "ralph|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/10448494657761": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 59.95,
    "sold": false
   },
   "ralph|Second Wave Vintage|https://www.secondwavevintage.co.uk/products/8509013623009": {
@@ -309217,7 +310079,7 @@
    "first_seen": "2026-10-16T08:37:15+00:00",
    "last_seen": "2026-11-17",
    "price": 49.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16388871815555": {
    "category": "Tops",
@@ -314181,7 +315043,7 @@
    "first_seen": "2026-10-30T10:52:58+00:00",
    "last_seen": "2026-11-17",
    "price": 28.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16416570769795": {
    "category": "Tops",
@@ -314608,7 +315470,7 @@
    "first_seen": "2026-10-30T10:55:20+00:00",
    "last_seen": "2026-11-17",
    "price": 28.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16416579125635": {
    "category": "Tops",
@@ -319805,7 +320667,7 @@
    "first_seen": "2026-11-10T16:17:09+00:00",
    "last_seen": "2026-11-17",
    "price": 22.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16433351164291": {
    "category": "Tops",
@@ -321343,6 +322205,50 @@
    "price": 54.99,
    "sold": false
   },
+  "ralph|Thrifted|https://www.thrifted.com/products/16443672953219": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 64.99,
+   "sold": false
+  },
+  "ralph|Thrifted|https://www.thrifted.com/products/16443674755459": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 29.99,
+   "sold": false
+  },
+  "ralph|Thrifted|https://www.thrifted.com/products/16443698217347": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 54.99,
+   "sold": false
+  },
+  "ralph|Thrifted|https://www.thrifted.com/products/16443700412803": {
+   "category": "Outerwear",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 94.99,
+   "sold": false
+  },
   "ralph|Tokio 7|https://tokio7ny.com/products/15471867789539": {
    "category": "Outerwear",
    "colours": [
@@ -321638,6 +322544,18 @@
    "first_seen": "2026-11-13T17:24:32+00:00",
    "last_seen": "2026-11-17",
    "price": 197.0,
+   "sold": false
+  },
+  "ralph|VSP Consignment|https://vspconsignment.com/products/15472534913215": {
+   "category": "Bottoms",
+   "colours": [
+    "Purple",
+    "Yellow"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 245.0,
    "sold": false
   },
   "ralph|VSP Consignment|https://vspconsignment.com/products/7511565926591": {
@@ -333082,6 +334000,17 @@
    "price": 349.9,
    "sold": true
   },
+  "rick|2nd Street|https://ec.2ndstreetusa.com/products/15372720013421": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 599.9,
+   "sold": false
+  },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/15375330771053": {
    "category": "Bottoms",
    "colours": [
@@ -334481,10 +335410,12 @@
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/7699529695341": {
    "category": "Outerwear",
    "colours": [],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 279.9,
    "first_run": 0,
    "first_seen": "2025-11-28T20:05:13+00:00",
    "last_seen": "2026-11-17",
-   "price": 279.9,
+   "price": 229.9,
    "sold": false
   },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/7702217228397": {
@@ -336313,10 +337244,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 449.9,
    "first_run": 0,
    "first_seen": "2026-06-20T21:18:18+00:00",
    "last_seen": "2026-11-17",
-   "price": 449.9,
+   "price": 349.9,
    "sold": false
   },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/8129399062637": {
@@ -339707,7 +340640,7 @@
    "first_seen": "2026-11-13T21:34:45+00:00",
    "last_seen": "2026-11-17",
    "price": 335.0,
-   "sold": false
+   "sold": true
   },
   "rick|Archive Threads|https://archivethreads.ca/products/15513756664037": {
    "category": "Footwear",
@@ -343670,10 +344603,12 @@
   "rick|Crybynoon Archive|https://crybynoon.com/products/8934497190023": {
    "category": "Bottoms",
    "colours": [],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 3000.0,
    "first_run": 0,
    "first_seen": "2026-10-26T21:59:26+00:00",
    "last_seen": "2026-11-17",
-   "price": 3000.0,
+   "price": 2800.0,
    "sold": false
   },
   "rick|Crybynoon Archive|https://crybynoon.com/products/8934506496135": {
@@ -350781,6 +351716,17 @@
    "price": 1200.0,
    "sold": true
   },
+  "rick|DRIEW|https://driewgarments.com/products/8247814291534": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 675.0,
+   "sold": false
+  },
   "rick|Descry Archive|https://www.descryarchive.com/products/10082194751672": {
    "category": "Outerwear",
    "colours": [],
@@ -351348,6 +352294,17 @@
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-17",
    "price": 801.0,
+   "sold": false
+  },
+  "rick|DolceVitaHub|https://dolcevitahub.com/products/11477168849238": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 1228.0,
    "sold": false
   },
   "rick|DolceVitaHub|https://dolcevitahub.com/products/9954597699926": {
@@ -366633,6 +367590,15 @@
    "price": 350.0,
    "sold": false
   },
+  "rick|Odyssey Rebuild|https://odysseyrebuild.com/products/15506072633650": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 450.0,
+   "sold": false
+  },
   "rick|Odyssey Rebuild|https://odysseyrebuild.com/products/15510251077938": {
    "category": "Footwear",
    "colours": [],
@@ -368914,6 +369880,17 @@
    "price": 650.0,
    "sold": false
   },
+  "rick|Shop Status|https://shopstatus.store/products/10699983028511": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 300.0,
+   "sold": false
+  },
   "rick|Shop Status|https://shopstatus.store/products/9222635847967": {
    "category": "Bottoms",
    "colours": [],
@@ -369254,6 +370231,15 @@
    "first_seen": "2026-11-15T23:13:26+00:00",
    "last_seen": "2026-11-17",
    "price": 1250.0,
+   "sold": false
+  },
+  "rick|Street Commerce|https://streetcommerce.shop/products/15548001321279": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 600.0,
    "sold": false
   },
   "rick|Sui Generis|https://suigenerisconsignment.com/products/15391293604094": {
@@ -375883,6 +376869,17 @@
    "first_seen": "2026-11-13T20:28:18+00:00",
    "last_seen": "2026-11-17",
    "price": 597.0,
+   "sold": false
+  },
+  "rick|VSP Consignment|https://vspconsignment.com/products/15472535503039": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 1295.0,
    "sold": false
   },
   "rick|VSP Consignment|https://vspconsignment.com/products/7415158472895": {
@@ -383537,10 +384534,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-17T21:18:41+00:00",
+   "drop_from": 229.9,
    "first_run": 0,
    "first_seen": "2026-04-06T18:59:48+00:00",
    "last_seen": "2026-11-17",
-   "price": 229.9,
+   "price": 179.9,
    "sold": false
   },
   "undercover|2nd Street|https://ec.2ndstreetusa.com/products/8050754846829": {
@@ -388507,7 +389506,7 @@
    "first_seen": "2026-10-26T21:59:02+00:00",
    "last_seen": "2026-11-17",
    "price": 650.0,
-   "sold": false
+   "sold": true
   },
   "undercover|Crybynoon Archive|https://crybynoon.com/products/8934384009351": {
    "category": "Bottoms",
@@ -393125,6 +394124,15 @@
    "first_seen": "2026-11-15T23:13:26+00:00",
    "last_seen": "2026-11-17",
    "price": 250.0,
+   "sold": false
+  },
+  "undercover|Street Commerce|https://streetcommerce.shop/products/15547692417343": {
+   "category": "Outerwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-17",
+   "price": 450.0,
    "sold": false
   },
   "undercover|Sunday Nightmare|https://sundaynightmare.com/products/10313478799595": {
@@ -408297,7 +409305,7 @@
    "first_seen": "2026-11-08T22:46:29+00:00",
    "last_seen": "2026-11-17",
    "price": 25290.0,
-   "sold": false
+   "sold": true
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9792848265475": {
    "category": "Tops",
@@ -413456,15 +414464,15 @@
   }
  },
  "rates": {
-  "AUD": 1.48,
-  "CAD": 1.4285,
-  "CHF": 0.8393,
-  "EUR": 0.90794,
-  "GBP": 0.75767,
-  "HKD": 7.847,
-  "JPY": 159.6,
-  "NZD": 1.8132,
-  "SEK": 10.0735
+  "AUD": 1.4848,
+  "CAD": 1.4291,
+  "CHF": 0.8402,
+  "EUR": 0.91,
+  "GBP": 0.75808,
+  "HKD": 7.8461,
+  "JPY": 159.3,
+  "NZD": 1.8186,
+  "SEK": 10.1101
  },
  "shop_memo": {
   "2nd Street": {
