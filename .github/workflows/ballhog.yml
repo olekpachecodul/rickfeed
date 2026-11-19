@@ -3,7 +3,11 @@ name: Ballhog
 on:
   schedule:
     - cron: "7,22,37,52 * * * *"   # every 15 min, off the hour; GitHub skips some scheduled runs at busy times
-  workflow_dispatch:        # lets you run it from the Actions tab
+  workflow_dispatch:        # lets you run it from the Actions tab; also used to retry a refused check
+    inputs:
+      attempt:
+        description: "Attempt number (set automatically when a check is retried)"
+        default: "1"
   push:
     branches: [main]
 
@@ -11,6 +15,7 @@ permissions:
   contents: write   # save the list of items already seen
   pages: write      # publish the site
   id-token: write
+  actions: write    # start a fresh attempt when Shopify refused this one
 
 concurrency:
   group: ballhog
@@ -45,9 +50,30 @@ jobs:
             done
           fi
 
-      - uses: actions/configure-pages@v6
-      - uses: actions/upload-pages-artifact@v5
+      # Shopify limits by internet address, and GitHub's servers share addresses. When a check is
+      # refused from the start (it stops early), don't publish it: keep the last good site and start
+      # a fresh attempt, which runs on another server. After the third attempt, publish anyway.
+      - name: Was this check refused?
+        id: verdict
+        run: |
+          stopped=$(python3 -c "import json; print(str(json.load(open('data/last_check.json')).get('stopped_early', False)).lower())")
+          attempt="${{ github.event.inputs.attempt || '1' }}"
+          if [ "$stopped" = "true" ] && [ "$attempt" -lt 3 ]; then echo "retry=true" >> "$GITHUB_OUTPUT"; else echo "retry=false" >> "$GITHUB_OUTPUT"; fi
+          echo "attempt=$attempt" >> "$GITHUB_OUTPUT"
+          echo "stopped early: $stopped, attempt $attempt"
+
+      - name: Try again on a fresh server
+        if: steps.verdict.outputs.retry == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run ballhog.yml --ref main -f attempt=$(( ${{ steps.verdict.outputs.attempt }} + 1 ))
+
+      - if: steps.verdict.outputs.retry != 'true'
+        uses: actions/configure-pages@v6
+      - if: steps.verdict.outputs.retry != 'true'
+        uses: actions/upload-pages-artifact@v5
         with:
           path: site
       - id: deploy
+        if: steps.verdict.outputs.retry != 'true'
         uses: actions/deploy-pages@v5
