@@ -965,6 +965,7 @@ def main():
     if site_mode:
         (state_file.parent / "last_check.json").write_text(json.dumps(
             {"checked": run_iso, "seconds": crawl_seconds, "requests": _GLOBAL["requests"], "refused": _GLOBAL["refusals"], "not_asked": _GLOBAL["skipped"],
+             "stopped_early": bool(_GLOBAL["skipped"]),
              "busy_shops": busy, "unreachable_shops": unreachable, "collections": sum(len(j[1]) for j in jobs)}, indent=1), encoding="utf-8")
 
     # Articles, at most hourly.
@@ -1691,12 +1692,14 @@ function renderMeta(){
   $("#meta").innerHTML = parts.map(p => `<span>${p}</span>`).join("");
 }
 renderMeta();
-const failed = DATA.shops.filter(s => s.error), stale = DATA.shops.filter(s => s.stale);
+const busy429 = s => /\b429\b/.test(s.error || "");
+const failed = DATA.shops.filter(s => s.error && !busy429(s)), stale = DATA.shops.filter(s => s.stale), busyEmpty = DATA.shops.filter(s => busy429(s));
 const notes = [];
 if (DATA.first_run && !SITE) notes.push("First run. From now on, anything that appears between runs gets a NEW tag.");
 if (stale.length) notes.push(stale.length <= 3
   ? `${stale.map(s => esc(s.name)).join(", ")} asked us to slow down this check, so ${stale.length === 1 ? "its listings are" : "their listings are"} from an earlier one.`
   : `${stale.length} shops asked us to slow down this check, so their listings are from an earlier one.`);
+if (busyEmpty.length) notes.push(`${busyEmpty.map(s => `<a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(", ")} ${busyEmpty.length === 1 ? "was" : "were"} busy too, with nothing from an earlier check to show yet.`);
 if (failed.length) notes.push("Couldn't reach " + failed.map(s => `<a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.name)}</a> (${esc(s.error)})`).join("; ") + ". Their links still work.");
 if (notes.length) { $("#notice").innerHTML = notes.join("<br>"); $("#notice").hidden = false; }
 if (!SITE && !DATA.first_run && DATA.items.some(i => i.is_new)) $("#onlyNew").checked = true;
