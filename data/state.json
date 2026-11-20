@@ -6259,7 +6259,7 @@
    "first_run": 0,
    "first_seen": "2026-02-04T09:13:02+00:00",
    "last_seen": "2026-11-20",
-   "price": 383.0,
+   "price": 384.0,
    "sold": false
   },
   "ann|DolceVitaHub|https://dolcevitahub.com/products/10446971142486": {
@@ -6385,7 +6385,7 @@
    "first_run": 0,
    "first_seen": "2024-02-11T15:15:54+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "ann|ENDYMA|https://endyma.com/products/186461185": {
@@ -8899,7 +8899,7 @@
    "first_seen": "2026-02-11T00:06:07+00:00",
    "last_seen": "2026-11-20",
    "price": 45362.0,
-   "sold": true
+   "sold": false
   },
   "ann|Ragtag|https://ragtag-global.com/products/9378594062595": {
    "category": "Other",
@@ -9151,7 +9151,7 @@
    "first_seen": "2026-09-14T22:49:53+00:00",
    "last_seen": "2026-11-20",
    "price": 39069.0,
-   "sold": false
+   "sold": true
   },
   "ann|Ragtag|https://ragtag-global.com/products/9652216135939": {
    "category": "Footwear",
@@ -9252,7 +9252,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 14548.0,
-   "sold": false
+   "sold": true
   },
   "ann|Ragtag|https://ragtag-global.com/products/9810657280259": {
    "category": "Tops",
@@ -9270,7 +9270,7 @@
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-20",
    "price": 69991.0,
-   "sold": false
+   "sold": true
   },
   "ann|Ragtag|https://ragtag-global.com/products/9819954282755": {
    "category": "Other",
@@ -13664,7 +13664,7 @@
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-20",
    "price": 899.9,
-   "sold": false
+   "sold": true
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15365995298925": {
    "category": "Footwear",
@@ -21006,7 +21006,7 @@
    "first_seen": "2026-04-19T19:05:19+00:00",
    "last_seen": "2026-11-20",
    "price": 249.9,
-   "sold": false
+   "sold": true
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8059066253421": {
    "category": "Bottoms",
@@ -21039,7 +21039,7 @@
    "first_seen": "2026-04-19T20:31:39+00:00",
    "last_seen": "2026-11-20",
    "price": 649.9,
-   "sold": false
+   "sold": true
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8059066450029": {
    "category": "Outerwear",
@@ -23391,7 +23391,7 @@
    "first_seen": "2026-06-21T18:57:59+00:00",
    "last_seen": "2026-11-20",
    "price": 349.9,
-   "sold": false
+   "sold": true
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/8129464565869": {
    "category": "Footwear",
@@ -33298,7 +33298,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:44:08+00:00",
    "last_seen": "2026-11-20",
-   "price": 1337.0,
+   "price": 1340.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377195905126": {
@@ -33346,7 +33346,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:51:59+00:00",
    "last_seen": "2026-11-20",
-   "price": 778.0,
+   "price": 779.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377228738662": {
@@ -33359,7 +33359,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:58:02+00:00",
    "last_seen": "2026-11-20",
-   "price": 442.0,
+   "price": 443.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377228968038": {
@@ -33372,7 +33372,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:58:14+00:00",
    "last_seen": "2026-11-20",
-   "price": 666.0,
+   "price": 667.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377252397158": {
@@ -33416,7 +33416,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:13:14+00:00",
    "last_seen": "2026-11-20",
-   "price": 224.0,
+   "price": 225.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377273270374": {
@@ -33440,7 +33440,7 @@
    "first_run": 0,
    "first_seen": "2020-02-12T00:03:06+00:00",
    "last_seen": "2026-11-20",
-   "price": 308.0,
+   "price": 309.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4855390699622": {
@@ -33453,7 +33453,7 @@
    "first_run": 0,
    "first_seen": "2020-06-12T16:15:46+00:00",
    "last_seen": "2026-11-20",
-   "price": 308.0,
+   "price": 309.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4930694938726": {
@@ -33477,7 +33477,7 @@
    "first_run": 0,
    "first_seen": "2020-12-04T18:05:43+00:00",
    "last_seen": "2026-11-20",
-   "price": 280.0,
+   "price": 281.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/9962094788951": {
@@ -33828,7 +33828,7 @@
    "first_run": 0,
    "first_seen": "2025-12-31T17:03:20+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/10140731900246": {
@@ -33950,7 +33950,7 @@
    "first_run": 0,
    "first_seen": "2026-03-13T08:55:38+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/10296964088150": {
@@ -34371,7 +34371,7 @@
    "first_run": 0,
    "first_seen": "2026-08-19T07:52:37+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11190810149206": {
@@ -34384,7 +34384,7 @@
    "first_run": 0,
    "first_seen": "2026-08-19T07:53:15+00:00",
    "last_seen": "2026-11-20",
-   "price": 1000.0,
+   "price": 1001.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11190810575190": {
@@ -34411,7 +34411,7 @@
    "first_run": 0,
    "first_seen": "2026-08-19T07:57:43+00:00",
    "last_seen": "2026-11-20",
-   "price": 1000.0,
+   "price": 1001.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11190813393238": {
@@ -34490,7 +34490,7 @@
    "first_run": 0,
    "first_seen": "2026-08-20T10:04:46+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11196338864470": {
@@ -34556,7 +34556,7 @@
    "first_run": 0,
    "first_seen": "2026-08-30T15:05:10+00:00",
    "last_seen": "2026-11-20",
-   "price": 133.0,
+   "price": 134.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11224280105302": {
@@ -34593,7 +34593,7 @@
    "first_run": 0,
    "first_seen": "2026-09-09T15:16:32+00:00",
    "last_seen": "2026-11-20",
-   "price": 383.0,
+   "price": 384.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11261143482710": {
@@ -34740,7 +34740,7 @@
    "first_run": 0,
    "first_seen": "2026-10-05T06:55:01+00:00",
    "last_seen": "2026-11-20",
-   "price": 2873.0,
+   "price": 2874.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11342328365398": {
@@ -34842,7 +34842,7 @@
    "first_run": 0,
    "first_seen": "2026-10-13T10:50:30+00:00",
    "last_seen": "2026-11-20",
-   "price": 133.0,
+   "price": 134.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11364010328406": {
@@ -34962,7 +34962,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T15:13:28+00:00",
    "last_seen": "2026-11-20",
-   "price": 766.0,
+   "price": 767.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11424496845142": {
@@ -35163,7 +35163,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T10:42:11+00:00",
    "last_seen": "2026-11-20",
-   "price": 133.0,
+   "price": 134.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11458684977494": {
@@ -35215,7 +35215,7 @@
    "first_run": 0,
    "first_seen": "2026-11-12T14:02:16+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11467857330518": {
@@ -35294,7 +35294,7 @@
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-20",
-   "price": 798.0,
+   "price": 799.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11479971627350": {
@@ -35416,7 +35416,7 @@
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-20",
-   "price": 1000.0,
+   "price": 1001.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/9171695829334": {
@@ -44885,6 +44885,268 @@
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-20",
    "price": 685.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572152402247": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 760.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572153254215": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1370.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572154433863": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 750.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572157120839": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 610.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572157317447": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 570.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572163281223": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 620.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572165345607": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1390.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572166328647": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 580.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572169015623": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 660.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572169212231": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 910.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572169343303": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 700.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572169507143": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1070.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572171112775": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 870.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572171964743": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1220.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572172030279": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1240.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572172751175": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 570.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572174192967": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 900.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572175864135": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1150.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572181565767": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1160.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572181598535": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 950.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572181696839": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 590.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572184285511": {
+   "category": "Other",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 510.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572186087751": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 770.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572187693383": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 570.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572189888839": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 710.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572190183751": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1200.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572192182599": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1580.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11572194836807": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1230.0,
    "sold": false
   },
   "balenciaga|Her-Age|https://her-age.com/products/7799727653091": {
@@ -58696,6 +58958,61 @@
    "price": 500.0,
    "sold": false
   },
+  "balenciaga|Luke's|https://lukes.store/products/15437806469424": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 175.0,
+   "sold": false
+  },
+  "balenciaga|Luke's|https://lukes.store/products/15437825343792": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 200.0,
+   "sold": false
+  },
+  "balenciaga|Luke's|https://lukes.store/products/15437828587824": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 175.0,
+   "sold": false
+  },
+  "balenciaga|Luke's|https://lukes.store/products/15437831536944": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 175.0,
+   "sold": false
+  },
+  "balenciaga|Luke's|https://lukes.store/products/15437862306096": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 250.0,
+   "sold": false
+  },
   "balenciaga|Luke's|https://lukes.store/products/15437876920624": {
    "category": "Outerwear",
    "colours": [
@@ -62820,7 +63137,7 @@
    "first_seen": "2024-09-19T12:37:43+00:00",
    "last_seen": "2026-11-20",
    "price": 80059.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/8770836758787": {
    "category": "Tops",
@@ -63207,7 +63524,7 @@
    "first_seen": "2025-04-10T09:18:11+00:00",
    "last_seen": "2026-11-20",
    "price": 126931.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/8963199402243": {
    "category": "Tops",
@@ -64638,7 +64955,7 @@
    "first_seen": "2026-02-04T01:10:04+00:00",
    "last_seen": "2026-11-20",
    "price": 21709.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9286573752579": {
    "category": "Footwear",
@@ -65628,7 +65945,7 @@
    "first_seen": "2026-03-23T23:45:21+00:00",
    "last_seen": "2026-11-20",
    "price": 60227.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9345587773699": {
    "category": "Tops",
@@ -65934,7 +66251,7 @@
    "first_seen": "2026-04-07T22:08:52+00:00",
    "last_seen": "2026-11-20",
    "price": 69991.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9360172613891": {
    "category": "Tops",
@@ -65988,7 +66305,7 @@
    "first_seen": "2026-04-08T23:02:37+00:00",
    "last_seen": "2026-11-20",
    "price": 61420.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9362285625603": {
    "category": "Other",
@@ -67437,7 +67754,7 @@
    "first_seen": "2026-06-13T22:49:34+00:00",
    "last_seen": "2026-11-20",
    "price": 62614.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9483794055427": {
    "category": "Footwear",
@@ -67986,7 +68303,7 @@
    "first_seen": "2026-07-03T23:09:45+00:00",
    "last_seen": "2026-11-20",
    "price": 166774.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9519087354115": {
    "category": "Footwear",
@@ -68157,7 +68474,7 @@
    "first_seen": "2026-07-08T22:53:22+00:00",
    "last_seen": "2026-11-20",
    "price": 66302.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9530282475779": {
    "category": "Footwear",
@@ -68598,7 +68915,7 @@
    "first_seen": "2026-07-29T22:55:57+00:00",
    "last_seen": "2026-11-20",
    "price": 62614.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9566765809923": {
    "category": "Bottoms",
@@ -68688,7 +69005,7 @@
    "first_seen": "2026-08-02T22:50:52+00:00",
    "last_seen": "2026-11-20",
    "price": 109486.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9574689833219": {
    "category": "Tops",
@@ -68850,7 +69167,7 @@
    "first_seen": "2026-08-05T23:36:47+00:00",
    "last_seen": "2026-11-20",
    "price": 213646.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9579262476547": {
    "category": "Tops",
@@ -69489,7 +69806,7 @@
    "first_seen": "2026-08-29T22:24:35+00:00",
    "last_seen": "2026-11-20",
    "price": 95815.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9617542283523": {
    "category": "Other",
@@ -70646,10 +70963,12 @@
   "balenciaga|Ragtag|https://ragtag-global.com/products/9700992385283": {
    "category": "Footwear",
    "colours": [],
+   "drop_at": "2026-11-20T08:26:40+00:00",
+   "drop_from": 69991.0,
    "first_run": 0,
    "first_seen": "2026-09-28T23:57:21+00:00",
    "last_seen": "2026-11-20",
-   "price": 69991.0,
+   "price": 61420.0,
    "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9702743343363": {
@@ -71334,7 +71653,7 @@
    "first_seen": "2026-10-13T22:53:15+00:00",
    "last_seen": "2026-11-20",
    "price": 131620.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9728686326019": {
    "category": "Bags & accessories",
@@ -72004,7 +72323,7 @@
    "first_seen": "2026-10-29T00:14:39+00:00",
    "last_seen": "2026-11-20",
    "price": 94622.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9763297755395": {
    "category": "Other",
@@ -72607,7 +72926,7 @@
    "first_seen": "2026-11-11T22:25:57+00:00",
    "last_seen": "2026-11-20",
    "price": 108183.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9798185844995": {
    "category": "Bottoms",
@@ -72814,7 +73133,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 10968.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9809936646403": {
    "category": "Bags & accessories",
@@ -75942,6 +76261,31 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
+   "last_seen": "2026-11-20",
+   "price": 400.0,
+   "sold": false
+  },
+  "balenciaga|Shop Status|https://shopstatus.store/products/10704651256095": {
+   "category": "Footwear",
+   "colours": [
+    "Grey",
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 400.0,
+   "sold": false
+  },
+  "balenciaga|Shop Status|https://shopstatus.store/products/10704653713695": {
+   "category": "Footwear",
+   "colours": [
+    "White",
+    "Grey",
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-20",
    "price": 400.0,
    "sold": false
@@ -96347,8 +96691,8 @@
    "first_run": 0,
    "first_seen": "2025-08-24T13:41:20+00:00",
    "last_seen": "2026-11-20",
-   "price": 425.0,
-   "sold": false
+   "price": 485.0,
+   "sold": true
   },
   "bbs|Twins Selling Things|https://twinssellingthings.de/products/9632689291592": {
    "category": "Tops",
@@ -99427,7 +99771,7 @@
    "first_run": 0,
    "first_seen": "2025-12-16T09:52:36+00:00",
    "last_seen": "2026-11-20",
-   "price": 5000.0,
+   "price": 5002.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/10259548963158": {
@@ -99441,7 +99785,7 @@
    "first_run": 0,
    "first_seen": "2026-03-13T07:55:21+00:00",
    "last_seen": "2026-11-20",
-   "price": 1330.0,
+   "price": 1331.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/10259673710934": {
@@ -99454,7 +99798,7 @@
    "first_run": 0,
    "first_seen": "2026-03-13T09:15:29+00:00",
    "last_seen": "2026-11-20",
-   "price": 1311.0,
+   "price": 1312.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/11158913253718": {
@@ -99481,7 +99825,7 @@
    "first_run": 0,
    "first_seen": "2026-08-03T07:18:33+00:00",
    "last_seen": "2026-11-20",
-   "price": 3724.0,
+   "price": 3725.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/11160269586774": {
@@ -99507,7 +99851,7 @@
    "first_run": 0,
    "first_seen": "2026-08-23T11:05:29+00:00",
    "last_seen": "2026-11-20",
-   "price": 1032.0,
+   "price": 1033.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/11447235936598": {
@@ -99531,7 +99875,7 @@
    "first_run": 1,
    "first_seen": "2026-11-13T20:28:18+00:00",
    "last_seen": "2026-11-20",
-   "price": 1575.0,
+   "price": 1576.0,
    "sold": false
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/11480877498710": {
@@ -99544,7 +99888,7 @@
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-20",
-   "price": 3405.0,
+   "price": 3406.0,
    "sold": false
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/9531572191574": {
@@ -99558,7 +99902,7 @@
    "first_run": 0,
    "first_seen": "2025-03-22T11:22:49+00:00",
    "last_seen": "2026-11-20",
-   "price": 1330.0,
+   "price": 1331.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/9664683835734": {
@@ -99571,7 +99915,7 @@
    "first_run": 0,
    "first_seen": "2025-06-15T13:37:14+00:00",
    "last_seen": "2026-11-20",
-   "price": 6383.0,
+   "price": 6386.0,
    "sold": true
   },
   "ccp|DolceVitaHub|https://dolcevitahub.com/products/9664729350486": {
@@ -99584,7 +99928,7 @@
    "first_run": 0,
    "first_seen": "2025-06-15T13:53:59+00:00",
    "last_seen": "2026-11-20",
-   "price": 3830.0,
+   "price": 3832.0,
    "sold": true
   },
   "ccp|ENDYMA|https://endyma.com/products/182079241": {
@@ -105171,6 +105515,17 @@
    "price": 99.0,
    "sold": false
   },
+  "cdg|2nd Street|https://ec.2ndstreetusa.com/products/7565393297517": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 109.9,
+   "sold": false
+  },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/7565406634093": {
    "category": "Tops",
    "colours": [],
@@ -105266,6 +105621,17 @@
    "first_seen": "2026-04-15T17:01:45+00:00",
    "last_seen": "2026-11-20",
    "price": 279.9,
+   "sold": false
+  },
+  "cdg|2nd Street|https://ec.2ndstreetusa.com/products/7566049247341": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 249.9,
    "sold": false
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/7566051934317": {
@@ -106006,7 +106372,7 @@
    "first_seen": "2026-07-23T17:54:47+00:00",
    "last_seen": "2026-11-20",
    "price": 249.9,
-   "sold": false
+   "sold": true
   },
   "cdg|2nd Street|https://ec.2ndstreetusa.com/products/7964282454125": {
    "category": "Footwear",
@@ -132787,6 +133153,29 @@
    "price": 225.0,
    "sold": true
   },
+  "cdg|Luke's|https://lukes.store/products/15437781500208": {
+   "category": "Tops",
+   "colours": [
+    "Green",
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 150.0,
+   "sold": false
+  },
+  "cdg|Luke's|https://lukes.store/products/15437809582384": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 100.0,
+   "sold": false
+  },
   "cdg|Luke's|https://lukes.store/products/15437870137648": {
    "category": "Footwear",
    "colours": [
@@ -138448,7 +138837,7 @@
    "first_seen": "2026-10-31T21:31:49+00:00",
    "last_seen": "2026-11-20",
    "price": 57731.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9770267148547": {
    "category": "Outerwear",
@@ -139315,7 +139704,7 @@
    "first_seen": "2026-11-01T23:55:42+00:00",
    "last_seen": "2026-11-20",
    "price": 69991.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9771949752579": {
    "category": "Other",
@@ -139811,7 +140200,7 @@
    "first_seen": "2026-11-03T21:54:07+00:00",
    "last_seen": "2026-11-20",
    "price": 20190.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9777277174019": {
    "category": "Tops",
@@ -140727,7 +141116,7 @@
    "first_seen": "2026-11-05T22:42:18+00:00",
    "last_seen": "2026-11-20",
    "price": 54043.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9784888492291": {
    "category": "Tops",
@@ -140998,7 +141387,7 @@
    "first_seen": "2026-11-06T00:50:21+00:00",
    "last_seen": "2026-11-20",
    "price": 71402.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9785306120451": {
    "category": "Tops",
@@ -141133,7 +141522,7 @@
    "first_seen": "2026-11-06T21:43:53+00:00",
    "last_seen": "2026-11-20",
    "price": 17803.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9788367372547": {
    "category": "Tops",
@@ -141198,7 +141587,7 @@
    "first_seen": "2026-11-06T22:11:41+00:00",
    "last_seen": "2026-11-20",
    "price": 61420.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9788430876931": {
    "category": "Other",
@@ -141966,7 +142355,7 @@
    "first_seen": "2026-11-08T22:10:06+00:00",
    "last_seen": "2026-11-20",
    "price": 13680.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9792757924099": {
    "category": "Bottoms",
@@ -141975,7 +142364,7 @@
    "first_seen": "2026-11-08T22:11:58+00:00",
    "last_seen": "2026-11-20",
    "price": 30389.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9792763429123": {
    "category": "Tops",
@@ -142127,7 +142516,7 @@
    "first_seen": "2026-11-08T22:40:30+00:00",
    "last_seen": "2026-11-20",
    "price": 155056.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9792809140483": {
    "category": "Other",
@@ -142367,7 +142756,7 @@
    "first_seen": "2026-11-09T11:38:47+00:00",
    "last_seen": "2026-11-20",
    "price": 24747.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9793557594371": {
    "category": "Other",
@@ -142403,7 +142792,7 @@
    "first_seen": "2026-11-09T11:41:38+00:00",
    "last_seen": "2026-11-20",
    "price": 16284.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9793563427075": {
    "category": "Tops",
@@ -142886,7 +143275,7 @@
    "first_seen": "2026-11-09T23:28:20+00:00",
    "last_seen": "2026-11-20",
    "price": 28436.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9794294874371": {
    "category": "Bottoms",
@@ -142996,7 +143385,7 @@
    "first_seen": "2026-11-09T23:29:52+00:00",
    "last_seen": "2026-11-20",
    "price": 38418.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9794296611075": {
    "category": "Other",
@@ -143032,7 +143421,7 @@
    "first_seen": "2026-11-09T23:30:18+00:00",
    "last_seen": "2026-11-20",
    "price": 31691.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9794312798467": {
    "category": "Outerwear",
@@ -143225,7 +143614,7 @@
    "first_seen": "2026-11-11T21:59:07+00:00",
    "last_seen": "2026-11-20",
    "price": 26700.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798165266691": {
    "category": "Tops",
@@ -144098,7 +144487,7 @@
    "first_seen": "2026-11-11T23:44:48+00:00",
    "last_seen": "2026-11-20",
    "price": 21709.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798260752643": {
    "category": "Tops",
@@ -144307,7 +144696,7 @@
    "first_seen": "2026-11-12T00:07:55+00:00",
    "last_seen": "2026-11-20",
    "price": 39069.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798274679043": {
    "category": "Footwear",
@@ -144684,7 +145073,7 @@
    "first_seen": "2026-11-13T22:06:32+00:00",
    "last_seen": "2026-11-20",
    "price": 27677.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9804449546499": {
    "category": "Tops",
@@ -144810,7 +145199,7 @@
    "first_seen": "2026-11-13T23:35:12+00:00",
    "last_seen": "2026-11-20",
    "price": 19105.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9804478808323": {
    "category": "Tops",
@@ -145029,7 +145418,7 @@
    "first_seen": "2026-11-14T00:19:31+00:00",
    "last_seen": "2026-11-20",
    "price": 69991.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9804506398979": {
    "category": "Other",
@@ -145065,7 +145454,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 26917.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809907712259": {
    "category": "Bottoms",
@@ -145074,7 +145463,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 12812.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809907745027": {
    "category": "Bottoms",
@@ -145101,7 +145490,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 17369.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809907908867": {
    "category": "Bottoms",
@@ -145110,7 +145499,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 11077.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809907941635": {
    "category": "Tops",
@@ -145137,7 +145526,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 10208.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809915969795": {
    "category": "Tops",
@@ -145146,7 +145535,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 26049.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809916035331": {
    "category": "Other",
@@ -145155,7 +145544,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 30606.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809916166403": {
    "category": "Tops",
@@ -145173,7 +145562,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 9991.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809919148291": {
    "category": "Outerwear",
@@ -145193,7 +145582,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 19756.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809923899651": {
    "category": "Tops",
@@ -145202,7 +145591,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 14331.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809924030723": {
    "category": "Tops",
@@ -145211,7 +145600,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 13464.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809924194563": {
    "category": "Other",
@@ -145258,7 +145647,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 10208.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809925177603": {
    "category": "Tops",
@@ -145267,7 +145656,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 10968.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809931829507": {
    "category": "Outerwear",
@@ -145276,7 +145665,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 38418.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809931862275": {
    "category": "Other",
@@ -145285,7 +145674,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 32776.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809931960579": {
    "category": "Bottoms",
@@ -145294,7 +145683,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 26917.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809932091651": {
    "category": "Other",
@@ -145312,7 +145701,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 26917.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809932353795": {
    "category": "Bottoms",
@@ -145321,7 +145710,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 21709.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809932779779": {
    "category": "Other",
@@ -145330,7 +145719,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 56537.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809932878083": {
    "category": "Bottoms",
@@ -145339,7 +145728,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 56537.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809932943619": {
    "category": "Bottoms",
@@ -145377,7 +145766,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 106881.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809937858819": {
    "category": "Other",
@@ -145386,7 +145775,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 58924.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809940578563": {
    "category": "Tops",
@@ -145413,7 +145802,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 17369.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809950081283": {
    "category": "Bottoms",
@@ -145422,7 +145811,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 87352.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809950376195": {
    "category": "Tops",
@@ -145431,7 +145820,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 56537.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810014503171": {
    "category": "Bottoms",
@@ -145440,7 +145829,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 35814.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810017878275": {
    "category": "Outerwear",
@@ -145494,7 +145883,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 14331.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810034950403": {
    "category": "Other",
@@ -145530,7 +145919,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 31257.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810055954691": {
    "category": "Other",
@@ -145539,7 +145928,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 30606.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810056446211": {
    "category": "Other",
@@ -145548,7 +145937,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 26049.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810056970499": {
    "category": "Tops",
@@ -145575,7 +145964,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 54043.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810064015619": {
    "category": "Other",
@@ -145586,7 +145975,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 52740.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810064539907": {
    "category": "Tops",
@@ -145595,7 +145984,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 45362.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810068996355": {
    "category": "Other",
@@ -145604,7 +145993,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 40588.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810115363075": {
    "category": "Other",
@@ -145795,7 +146184,7 @@
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-20",
    "price": 30606.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810601083139": {
    "category": "Other",
@@ -146015,7 +146404,7 @@
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-20",
    "price": 62614.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810742935811": {
    "category": "Tops",
@@ -146051,7 +146440,7 @@
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-20",
    "price": 81059.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810765807875": {
    "category": "Outerwear",
@@ -146069,7 +146458,7 @@
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-20",
    "price": 25399.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810765873411": {
    "category": "Tops",
@@ -146107,7 +146496,7 @@
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-20",
    "price": 25399.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810773082371": {
    "category": "Tops",
@@ -146116,7 +146505,7 @@
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-20",
    "price": 23445.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810777243907": {
    "category": "Footwear",
@@ -146143,7 +146532,7 @@
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-20",
    "price": 15199.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810786222339": {
    "category": "Footwear",
@@ -146323,7 +146712,7 @@
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-20",
    "price": 13464.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9814178922755": {
    "category": "Bottoms",
@@ -146773,7 +147162,7 @@
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-20",
    "price": 38418.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9814269427971": {
    "category": "Outerwear",
@@ -146966,7 +147355,7 @@
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-20",
    "price": 82361.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9814346105091": {
    "category": "Tops",
@@ -147056,7 +147445,7 @@
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-20",
    "price": 31040.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9814356459779": {
    "category": "Footwear",
@@ -147101,7 +147490,7 @@
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-20",
    "price": 7929.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9814385656067": {
    "category": "Other",
@@ -147195,7 +147584,7 @@
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-20",
    "price": 19105.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9818998374659": {
    "category": "Tops",
@@ -147606,7 +147995,7 @@
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-20",
    "price": 9557.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9819614511363": {
    "category": "Tops",
@@ -149037,11 +149426,13 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-20T08:26:40+00:00",
+   "drop_from": 2200.0,
    "first_run": 0,
    "first_seen": "2025-06-27T05:01:05+00:00",
    "last_seen": "2026-11-20",
-   "price": 2200.0,
-   "sold": false
+   "price": 0.0,
+   "sold": true
   },
   "cdg|Resurrection|https://resurrectionvintage.com/products/9115717009664": {
    "category": "Dresses",
@@ -165983,7 +166374,7 @@
    "first_run": 0,
    "first_seen": "2026-01-04T22:24:26+00:00",
    "last_seen": "2026-11-20",
-   "price": 383.0,
+   "price": 384.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/10094260879702": {
@@ -166061,7 +166452,7 @@
    "first_run": 0,
    "first_seen": "2026-03-04T10:53:24+00:00",
    "last_seen": "2026-11-20",
-   "price": 383.0,
+   "price": 384.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/10282003202390": {
@@ -166755,7 +167146,7 @@
    "first_run": 0,
    "first_seen": "2026-09-13T15:42:51+00:00",
    "last_seen": "2026-11-20",
-   "price": 681.0,
+   "price": 682.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11266856255830": {
@@ -167086,7 +167477,7 @@
    "first_run": 0,
    "first_seen": "2026-10-30T11:33:46+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11428822253910": {
@@ -167166,7 +167557,7 @@
    "first_run": 0,
    "first_seen": "2026-11-03T17:29:46+00:00",
    "last_seen": "2026-11-20",
-   "price": 133.0,
+   "price": 134.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11443888816470": {
@@ -167231,7 +167622,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T11:43:56+00:00",
    "last_seen": "2026-11-20",
-   "price": 133.0,
+   "price": 134.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11459063021910": {
@@ -167393,7 +167784,7 @@
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11477799305558": {
@@ -172264,6 +172655,28 @@
    "first_seen": "2026-11-15T03:58:59+00:00",
    "last_seen": "2026-11-20",
    "price": 750.0,
+   "sold": false
+  },
+  "gaultier|Resurrection|https://resurrectionvintage.com/products/10327016308992": {
+   "category": "Dresses",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 2200.0,
+   "sold": false
+  },
+  "gaultier|Resurrection|https://resurrectionvintage.com/products/10327020404992": {
+   "category": "Dresses",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 3600.0,
    "sold": false
   },
   "gaultier|Resurrection|https://resurrectionvintage.com/products/4474857291908": {
@@ -190939,7 +191352,7 @@
    "first_run": 0,
    "first_seen": "2026-07-09T14:55:36+00:00",
    "last_seen": "2026-11-20",
-   "price": 383.0,
+   "price": 384.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/10970292879702": {
@@ -191005,7 +191418,7 @@
    "first_run": 0,
    "first_seen": "2026-09-01T19:12:59+00:00",
    "last_seen": "2026-11-20",
-   "price": 500.0,
+   "price": 501.0,
    "sold": false
   },
   "issey|DolceVitaHub|https://dolcevitahub.com/products/11260213231958": {
@@ -196376,7 +196789,7 @@
    "first_seen": "2026-02-28T23:44:25+00:00",
    "last_seen": "2026-11-20",
    "price": 12812.0,
-   "sold": false
+   "sold": true
   },
   "issey|Ragtag|https://ragtag-global.com/products/9523053166851": {
    "category": "Tops",
@@ -197100,10 +197513,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-20T08:26:40+00:00",
+   "drop_from": 2600.0,
    "first_run": 0,
    "first_seen": "2025-07-31T22:05:43+00:00",
    "last_seen": "2026-11-20",
-   "price": 2600.0,
+   "price": 0.0,
    "sold": true
   },
   "issey|Resurrection|https://resurrectionvintage.com/products/9139828621568": {
@@ -206376,6 +206791,18 @@
    "price": 815.0,
    "sold": false
   },
+  "issey|Zoo Fashions|https://www.zoofashions.com/products/16195737813372": {
+   "category": "Outerwear",
+   "colours": [
+    "White",
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 815.0,
+   "sold": false
+  },
   "julius|Archive Threads|https://archivethreads.ca/products/9642045898981": {
    "category": "Bags & accessories",
    "colours": [],
@@ -213574,7 +214001,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:11:16+00:00",
    "last_seen": "2026-11-20",
-   "price": 437.0,
+   "price": 438.0,
    "sold": false
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/7878697910496": {
@@ -213585,7 +214012,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:12+00:00",
    "last_seen": "2026-11-20",
-   "price": 196.0,
+   "price": 197.0,
    "sold": true
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/8006394577120": {
@@ -213598,7 +214025,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:43:55+00:00",
    "last_seen": "2026-11-20",
-   "price": 504.0,
+   "price": 505.0,
    "sold": true
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/8483152167255": {
@@ -213611,7 +214038,7 @@
    "first_run": 0,
    "first_seen": "2023-07-09T17:41:28+00:00",
    "last_seen": "2026-11-20",
-   "price": 168.0,
+   "price": 169.0,
    "sold": true
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/9962095018327": {
@@ -213624,7 +214051,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:31:43+00:00",
    "last_seen": "2026-11-20",
-   "price": 280.0,
+   "price": 281.0,
    "sold": true
   },
   "lang|Caramia Vintage|https://caramiavintage.com/products/9118694801596": {
@@ -221265,6 +221692,18 @@
    "price": 100.0,
    "sold": true
   },
+  "lang|Luke's|https://lukes.store/products/15437725598000": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown",
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 175.0,
+   "sold": false
+  },
   "lang|Messina Hembry|https://messinahembry.com/products/16121620758906": {
    "category": "Outerwear",
    "colours": [
@@ -223183,7 +223622,7 @@
    "first_seen": "2026-06-13T08:17:56+00:00",
    "last_seen": "2026-11-20",
    "price": 190.0,
-   "sold": false
+   "sold": true
   },
   "lang|Sunday Nightmare|https://sundaynightmare.com/products/9723198406891": {
    "category": "Bottoms",
@@ -231223,7 +231662,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:37:18+00:00",
    "last_seen": "2026-11-20",
-   "price": 112.0,
+   "price": 113.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10316023660887": {
@@ -231236,7 +231675,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T15:50:16+00:00",
    "last_seen": "2026-11-20",
-   "price": 884.0,
+   "price": 886.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10316052300119": {
@@ -231247,7 +231686,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T16:08:32+00:00",
    "last_seen": "2026-11-20",
-   "price": 504.0,
+   "price": 505.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10358322168151": {
@@ -231260,7 +231699,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:33+00:00",
    "last_seen": "2026-11-20",
-   "price": 168.0,
+   "price": 169.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10408019525975": {
@@ -231273,7 +231712,7 @@
    "first_run": 0,
    "first_seen": "2025-11-28T13:59:27+00:00",
    "last_seen": "2026-11-20",
-   "price": 235.0,
+   "price": 236.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10408071856471": {
@@ -231286,7 +231725,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:46+00:00",
    "last_seen": "2026-11-20",
-   "price": 168.0,
+   "price": 169.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10408169832791": {
@@ -231299,7 +231738,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T07:53:39+00:00",
    "last_seen": "2026-11-20",
-   "price": 616.0,
+   "price": 617.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10471100449111": {
@@ -231323,7 +231762,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T13:37:43+00:00",
    "last_seen": "2026-11-20",
-   "price": 700.0,
+   "price": 701.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/6874184843459": {
@@ -231334,7 +231773,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T19:19:48+00:00",
    "last_seen": "2026-11-20",
-   "price": 1667.0,
+   "price": 1670.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956236665056": {
@@ -231347,7 +231786,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:20+00:00",
    "last_seen": "2026-11-20",
-   "price": 1511.0,
+   "price": 1513.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956236959968": {
@@ -231361,7 +231800,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:20+00:00",
    "last_seen": "2026-11-20",
-   "price": 1511.0,
+   "price": 1513.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956428488928": {
@@ -231374,7 +231813,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:55+00:00",
    "last_seen": "2026-11-20",
-   "price": 252.0,
+   "price": 253.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7957713191136": {
@@ -231385,7 +231824,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:04+00:00",
    "last_seen": "2026-11-20",
-   "price": 728.0,
+   "price": 729.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/8006359023840": {
@@ -231396,7 +231835,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:47:57+00:00",
    "last_seen": "2026-11-20",
-   "price": 532.0,
+   "price": 533.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/8006370525408": {
@@ -231409,7 +231848,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T19:02:02+00:00",
    "last_seen": "2026-11-20",
-   "price": 308.0,
+   "price": 309.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/9962095182167": {
@@ -231422,7 +231861,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:31:44+00:00",
    "last_seen": "2026-11-20",
-   "price": 549.0,
+   "price": 550.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/9962095247703": {
@@ -231968,7 +232407,7 @@
    "first_run": 0,
    "first_seen": "2026-01-31T16:27:15+00:00",
    "last_seen": "2026-11-20",
-   "price": 383.0,
+   "price": 384.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/10181830902102": {
@@ -232021,7 +232460,7 @@
    "first_run": 0,
    "first_seen": "2026-03-11T07:53:07+00:00",
    "last_seen": "2026-11-20",
-   "price": 500.0,
+   "price": 501.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/10259696255318": {
@@ -232112,7 +232551,7 @@
    "first_run": 0,
    "first_seen": "2026-04-23T13:57:28+00:00",
    "last_seen": "2026-11-20",
-   "price": 979.0,
+   "price": 980.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/10449889558870": {
@@ -232192,7 +232631,7 @@
    "first_run": 0,
    "first_seen": "2026-05-27T09:26:14+00:00",
    "last_seen": "2026-11-20",
-   "price": 979.0,
+   "price": 980.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/10807061709142": {
@@ -232321,7 +232760,7 @@
    "first_run": 0,
    "first_seen": "2026-06-12T10:09:42+00:00",
    "last_seen": "2026-11-20",
-   "price": 830.0,
+   "price": 831.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/10908832629078": {
@@ -232335,7 +232774,7 @@
    "first_run": 0,
    "first_seen": "2026-06-25T05:18:59+00:00",
    "last_seen": "2026-11-20",
-   "price": 500.0,
+   "price": 501.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/10925497418070": {
@@ -232375,7 +232814,7 @@
    "first_run": 0,
    "first_seen": "2026-07-07T13:15:27+00:00",
    "last_seen": "2026-11-20",
-   "price": 766.0,
+   "price": 767.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/10960911040854": {
@@ -232427,7 +232866,7 @@
    "first_run": 0,
    "first_seen": "2026-07-27T09:16:02+00:00",
    "last_seen": "2026-11-20",
-   "price": 681.0,
+   "price": 682.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11146708910422": {
@@ -232468,7 +232907,7 @@
    "first_run": 0,
    "first_seen": "2026-07-27T09:18:26+00:00",
    "last_seen": "2026-11-20",
-   "price": 516.0,
+   "price": 517.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11146712252758": {
@@ -232494,7 +232933,7 @@
    "first_run": 0,
    "first_seen": "2026-07-28T05:05:04+00:00",
    "last_seen": "2026-11-20",
-   "price": 1064.0,
+   "price": 1065.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11148339118422": {
@@ -232626,7 +233065,7 @@
    "first_run": 0,
    "first_seen": "2026-08-04T08:13:55+00:00",
    "last_seen": "2026-11-20",
-   "price": 1330.0,
+   "price": 1331.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11165662314838": {
@@ -232640,7 +233079,7 @@
    "first_run": 0,
    "first_seen": "2026-08-06T08:48:41+00:00",
    "last_seen": "2026-11-20",
-   "price": 383.0,
+   "price": 384.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11167777096022": {
@@ -232745,7 +233184,7 @@
    "first_run": 0,
    "first_seen": "2026-08-20T13:27:27+00:00",
    "last_seen": "2026-11-20",
-   "price": 282.0,
+   "price": 283.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11195801272662": {
@@ -232980,7 +233419,7 @@
    "first_run": 0,
    "first_seen": "2026-09-07T07:57:54+00:00",
    "last_seen": "2026-11-20",
-   "price": 133.0,
+   "price": 134.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11231391154518": {
@@ -233032,7 +233471,7 @@
    "first_run": 0,
    "first_seen": "2026-09-10T13:56:24+00:00",
    "last_seen": "2026-11-20",
-   "price": 766.0,
+   "price": 767.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11261149118806": {
@@ -233122,7 +233561,7 @@
    "first_run": 0,
    "first_seen": "2026-09-17T14:00:05+00:00",
    "last_seen": "2026-11-20",
-   "price": 798.0,
+   "price": 799.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11284849459542": {
@@ -233135,7 +233574,7 @@
    "first_run": 0,
    "first_seen": "2026-09-18T11:51:48+00:00",
    "last_seen": "2026-11-20",
-   "price": 282.0,
+   "price": 283.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11284993737046": {
@@ -233295,7 +233734,7 @@
    "first_run": 0,
    "first_seen": "2026-09-28T13:22:46+00:00",
    "last_seen": "2026-11-20",
-   "price": 383.0,
+   "price": 384.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11310196490582": {
@@ -233348,7 +233787,7 @@
    "first_run": 0,
    "first_seen": "2026-10-01T07:59:32+00:00",
    "last_seen": "2026-11-20",
-   "price": 133.0,
+   "price": 134.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11332544037206": {
@@ -233361,7 +233800,7 @@
    "first_run": 0,
    "first_seen": "2026-10-02T07:43:40+00:00",
    "last_seen": "2026-11-20",
-   "price": 830.0,
+   "price": 831.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11342165639510": {
@@ -233387,7 +233826,7 @@
    "first_run": 0,
    "first_seen": "2026-10-05T13:49:37+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11344152822102": {
@@ -233464,7 +233903,7 @@
    "first_run": 0,
    "first_seen": "2026-10-19T14:46:22+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11384464900438": {
@@ -233596,7 +234035,7 @@
    "first_run": 0,
    "first_seen": "2026-10-24T15:13:18+00:00",
    "last_seen": "2026-11-20",
-   "price": 1596.0,
+   "price": 1597.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11412421411158": {
@@ -233623,7 +234062,7 @@
    "first_run": 0,
    "first_seen": "2026-10-27T17:55:29+00:00",
    "last_seen": "2026-11-20",
-   "price": 1144.0,
+   "price": 1145.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11428828152150": {
@@ -233753,7 +234192,7 @@
    "first_run": 0,
    "first_seen": "2026-11-10T14:50:03+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/11458532671830": {
@@ -233956,7 +234395,7 @@
    "first_run": 0,
    "first_seen": "2025-04-12T11:06:14+00:00",
    "last_seen": "2026-11-20",
-   "price": 266.0,
+   "price": 267.0,
    "sold": false
   },
   "margiela|DolceVitaHub|https://dolcevitahub.com/products/9577032057174": {
@@ -233982,7 +234421,7 @@
    "first_run": 0,
    "first_seen": "2025-09-09T15:05:29+00:00",
    "last_seen": "2026-11-20",
-   "price": 883.0,
+   "price": 884.0,
    "sold": false
   },
   "margiela|Elevated Archives|https://elevated-archives.com/products/14960993665359": {
@@ -236253,6 +236692,42 @@
    "first_seen": "2026-11-06T12:47:28+00:00",
    "last_seen": "2026-11-20",
    "price": 275.0,
+   "sold": false
+  },
+  "margiela|Her-Age|https://her-age.com/products/11572157251911": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 600.0,
+   "sold": false
+  },
+  "margiela|Her-Age|https://her-age.com/products/11572157546823": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 620.0,
+   "sold": false
+  },
+  "margiela|Her-Age|https://her-age.com/products/11572164788551": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 590.0,
+   "sold": false
+  },
+  "margiela|Her-Age|https://her-age.com/products/11572170522951": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 570.0,
    "sold": false
   },
   "margiela|Her-Age|https://her-age.com/products/8830602150215": {
@@ -254913,7 +255388,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:30:02+00:00",
    "last_seen": "2026-11-20",
-   "price": 828.0,
+   "price": 830.0,
    "sold": true
   },
   "numbernine|Backyard Archive|https://backyardarchive.us/products/7936123306208": {
@@ -254926,7 +255401,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:24+00:00",
    "last_seen": "2026-11-20",
-   "price": 728.0,
+   "price": 729.0,
    "sold": true
   },
   "numbernine|Backyard Archive|https://backyardarchive.us/products/7936123601120": {
@@ -254939,7 +255414,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:30+00:00",
    "last_seen": "2026-11-20",
-   "price": 840.0,
+   "price": 841.0,
    "sold": true
   },
   "numbernine|Crybynoon Archive|https://crybynoon.com/products/8412671082631": {
@@ -257602,7 +258077,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:26+00:00",
    "last_seen": "2026-11-20",
-   "price": 437.0,
+   "price": 438.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10311451050327": {
@@ -257613,7 +258088,7 @@
    "first_run": 0,
    "first_seen": "2026-07-19T15:26:39+00:00",
    "last_seen": "2026-11-20",
-   "price": 168.0,
+   "price": 169.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10319136653655": {
@@ -257627,7 +258102,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T21:30:51+00:00",
    "last_seen": "2026-11-20",
-   "price": 728.0,
+   "price": 729.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329215500631": {
@@ -257671,7 +258146,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T18:59:18+00:00",
    "last_seen": "2026-11-20",
-   "price": 437.0,
+   "price": 438.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10424212619607": {
@@ -257684,7 +258159,7 @@
    "first_run": 0,
    "first_seen": "2025-11-28T15:27:02+00:00",
    "last_seen": "2026-11-20",
-   "price": 549.0,
+   "price": 550.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10435016982871": {
@@ -257697,7 +258172,7 @@
    "first_run": 0,
    "first_seen": "2026-01-19T11:51:05+00:00",
    "last_seen": "2026-11-20",
-   "price": 661.0,
+   "price": 662.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10573091930455": {
@@ -257711,7 +258186,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T18:02:01+00:00",
    "last_seen": "2026-11-20",
-   "price": 728.0,
+   "price": 729.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783566463319": {
@@ -257801,7 +258276,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:06+00:00",
    "last_seen": "2026-11-20",
-   "price": 772.0,
+   "price": 774.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579537751": {
@@ -257825,7 +258300,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:14+00:00",
    "last_seen": "2026-11-20",
-   "price": 280.0,
+   "price": 281.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579898199": {
@@ -257836,7 +258311,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:17+00:00",
    "last_seen": "2026-11-20",
-   "price": 616.0,
+   "price": 617.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783580127575": {
@@ -257856,7 +258331,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:26+00:00",
    "last_seen": "2026-11-20",
-   "price": 661.0,
+   "price": 662.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582257495": {
@@ -257867,7 +258342,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:56+00:00",
    "last_seen": "2026-11-20",
-   "price": 504.0,
+   "price": 505.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582290263": {
@@ -257880,7 +258355,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:58+00:00",
    "last_seen": "2026-11-20",
-   "price": 392.0,
+   "price": 393.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582388567": {
@@ -257893,7 +258368,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:59+00:00",
    "last_seen": "2026-11-20",
-   "price": 437.0,
+   "price": 438.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783590383959": {
@@ -257917,7 +258392,7 @@
    "first_run": 0,
    "first_seen": "2020-10-20T18:22:29+00:00",
    "last_seen": "2026-11-20",
-   "price": 392.0,
+   "price": 393.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7936130613472": {
@@ -257943,7 +258418,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:35:00+00:00",
    "last_seen": "2026-11-20",
-   "price": 772.0,
+   "price": 774.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956232175840": {
@@ -257954,7 +258429,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:49+00:00",
    "last_seen": "2026-11-20",
-   "price": 661.0,
+   "price": 662.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956232372448": {
@@ -257965,7 +258440,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:22+00:00",
    "last_seen": "2026-11-20",
-   "price": 1623.0,
+   "price": 1625.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956237943008": {
@@ -257979,7 +258454,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T20:13:17+00:00",
    "last_seen": "2026-11-20",
-   "price": 3916.0,
+   "price": 3922.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7987186925792": {
@@ -258017,7 +258492,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:56:41+00:00",
    "last_seen": "2026-11-20",
-   "price": 756.0,
+   "price": 757.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/8476784099671": {
@@ -258030,7 +258505,7 @@
    "first_run": 0,
    "first_seen": "2023-07-09T17:47:27+00:00",
    "last_seen": "2026-11-20",
-   "price": 420.0,
+   "price": 421.0,
    "sold": false
   },
   "rafcalvin|Final Blow|https://www.finalblowchicago.com/products/7444658946182": {
@@ -263082,7 +263557,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T16:11:31+00:00",
    "last_seen": "2026-11-20",
-   "price": 280.0,
+   "price": 281.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10399388172631": {
@@ -263146,7 +263621,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:10:38+00:00",
    "last_seen": "2026-11-20",
-   "price": 168.0,
+   "price": 169.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377188434022": {
@@ -263170,7 +263645,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:49:02+00:00",
    "last_seen": "2026-11-20",
-   "price": 364.0,
+   "price": 365.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377217007718": {
@@ -263181,7 +263656,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:53:41+00:00",
    "last_seen": "2026-11-20",
-   "price": 420.0,
+   "price": 421.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377236471910": {
@@ -263192,7 +263667,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:00:11+00:00",
    "last_seen": "2026-11-20",
-   "price": 722.0,
+   "price": 723.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4942501675110": {
@@ -263216,7 +263691,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T13:37:54+00:00",
    "last_seen": "2026-11-20",
-   "price": 308.0,
+   "price": 309.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/6829393576131": {
@@ -263227,7 +263702,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T16:56:03+00:00",
    "last_seen": "2026-11-20",
-   "price": 493.0,
+   "price": 494.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/7955703464160": {
@@ -263240,7 +263715,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:06+00:00",
    "last_seen": "2026-11-20",
-   "price": 2070.0,
+   "price": 2073.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/7956221559008": {
@@ -263251,7 +263726,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:35:56+00:00",
    "last_seen": "2026-11-20",
-   "price": 112.0,
+   "price": 113.0,
    "sold": true
   },
   "raf|Crybynoon Archive|https://crybynoon.com/products/8344670371975": {
@@ -283446,10 +283921,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-20T08:26:40+00:00",
+   "drop_from": 99.99,
    "first_run": 0,
    "first_seen": "2025-03-25T16:51:58+00:00",
    "last_seen": "2026-11-20",
-   "price": 99.99,
+   "price": 84.99,
    "sold": false
   },
   "ralph|Lord Ralph London|https://lordralphlondon.com/products/15012718051706": {
@@ -291205,10 +291682,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-20T08:26:40+00:00",
+   "drop_from": 179.99,
    "first_run": 0,
    "first_seen": "2026-10-21T14:56:46+00:00",
    "last_seen": "2026-11-20",
-   "price": 179.99,
+   "price": 167.99,
    "sold": false
   },
   "ralph|Lord Ralph London|https://lordralphlondon.com/products/16246099476858": {
@@ -291347,10 +291826,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-20T08:26:40+00:00",
+   "drop_from": 119.99,
    "first_run": 0,
    "first_seen": "2026-10-24T11:28:16+00:00",
    "last_seen": "2026-11-20",
-   "price": 119.99,
+   "price": 114.99,
    "sold": false
   },
   "ralph|Lord Ralph London|https://lordralphlondon.com/products/16251427651962": {
@@ -291358,10 +291839,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-20T08:26:40+00:00",
+   "drop_from": 129.99,
    "first_run": 0,
    "first_seen": "2026-10-24T12:02:27+00:00",
    "last_seen": "2026-11-20",
-   "price": 129.99,
+   "price": 124.99,
    "sold": false
   },
   "ralph|Lord Ralph London|https://lordralphlondon.com/products/16251455603066": {
@@ -307287,7 +307770,7 @@
    "first_seen": "2026-11-14T23:51:48+00:00",
    "last_seen": "2026-11-20",
    "price": 18.49,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281955107194": {
    "category": "Outerwear",
@@ -308703,6 +309186,268 @@
    "price": 21.13,
    "sold": false
   },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288099008890": {
+   "category": "Outerwear",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 45.95,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288101204346": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 16.45,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288104939898": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 13.85,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288105103738": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 14.48,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288108544378": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 15.48,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288110248314": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 19.71,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288113492346": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 22.05,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288113688954": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 19.95,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288114082170": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 14.72,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288114377082": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 21.89,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288116605306": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 12.66,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288118997370": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 15.72,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288125256058": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 22.68,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288125878650": {
+   "category": "Bottoms",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 23.88,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288132497786": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 18.28,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288137970042": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 32.61,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288144916858": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 21.28,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288145277306": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 15.72,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288145539450": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 15.72,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288146293114": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 21.49,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288161923450": {
+   "category": "Bottoms",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 23.84,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288163070330": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 18.69,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288169197946": {
+   "category": "Bottoms",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 16.05,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16288170148218": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
+   "last_seen": "2026-11-20",
+   "price": 21.89,
+   "sold": false
+  },
   "ralph|Michael's|https://michaelsconsignment.com/products/10326755475631": {
    "category": "Dresses",
    "colours": [
@@ -309902,7 +310647,7 @@
    "first_seen": "2026-10-30T03:22:10+00:00",
    "last_seen": "2026-11-20",
    "price": 119.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Planet Vintage|https://planetvintage.store/products/15472840376473": {
    "category": "Tops",
@@ -311349,7 +312094,7 @@
    "first_seen": "2026-10-08T07:45:17+00:00",
    "last_seen": "2026-11-20",
    "price": 75.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Retrospective|https://www.retrospectivestore.com/products/10624088735925": {
    "category": "Tops",
@@ -333150,7 +333895,7 @@
    "first_seen": "2026-10-29T08:00:03+00:00",
    "last_seen": "2026-11-20",
    "price": 69.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Vintage Collection Bendigo|https://vintagecollectionbendigo.com/products/15463554089259": {
    "category": "Tops",
@@ -341152,7 +341897,7 @@
    "first_seen": "2026-03-07T00:38:17+00:00",
    "last_seen": "2026-11-20",
    "price": 60.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Vintage Rare USA|https://www.vintagerareusa.com/products/9207722344663": {
    "category": "Outerwear",
@@ -342652,7 +343397,7 @@
    "first_seen": "2026-08-14T22:29:57+00:00",
    "last_seen": "2026-11-20",
    "price": 70.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Vintage Rare USA|https://www.vintagerareusa.com/products/9364877934807": {
    "category": "Tops",
@@ -343859,7 +344604,7 @@
    "first_seen": "2026-10-11T18:08:25+00:00",
    "last_seen": "2026-11-20",
    "price": 249.9,
-   "sold": false
+   "sold": true
   },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/15376450551917": {
    "category": "Outerwear",
@@ -343953,7 +344698,7 @@
    "first_seen": "2026-11-19T03:35:34+00:00",
    "last_seen": "2026-11-20",
    "price": 349.9,
-   "sold": false
+   "sold": true
   },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/15389445193837": {
    "category": "Footwear",
@@ -346556,7 +347301,7 @@
    "first_seen": "2026-05-02T00:05:51+00:00",
    "last_seen": "2026-11-20",
    "price": 799.9,
-   "sold": false
+   "sold": true
   },
   "rick|2nd Street|https://ec.2ndstreetusa.com/products/8057098567789": {
    "category": "Footwear",
@@ -362025,7 +362770,7 @@
    "first_run": 0,
    "first_seen": "2026-06-13T13:05:55+00:00",
    "last_seen": "2026-11-20",
-   "price": 1447.0,
+   "price": 1448.0,
    "sold": false
   },
   "rick|DolceVitaHub|https://dolcevitahub.com/products/10870943809878": {
@@ -362065,7 +362810,7 @@
    "first_run": 0,
    "first_seen": "2026-06-29T09:59:04+00:00",
    "last_seen": "2026-11-20",
-   "price": 383.0,
+   "price": 384.0,
    "sold": false
   },
   "rick|DolceVitaHub|https://dolcevitahub.com/products/10960908157270": {
@@ -362210,7 +362955,7 @@
    "first_run": 0,
    "first_seen": "2026-08-21T07:35:07+00:00",
    "last_seen": "2026-11-20",
-   "price": 1000.0,
+   "price": 1001.0,
    "sold": false
   },
   "rick|DolceVitaHub|https://dolcevitahub.com/products/11195812217174": {
@@ -362317,7 +363062,7 @@
    "first_run": 0,
    "first_seen": "2026-09-24T15:56:48+00:00",
    "last_seen": "2026-11-20",
-   "price": 766.0,
+   "price": 767.0,
    "sold": false
   },
   "rick|DolceVitaHub|https://dolcevitahub.com/products/11354548175190": {
@@ -362356,7 +363101,7 @@
    "first_run": 0,
    "first_seen": "2026-11-09T11:49:19+00:00",
    "last_seen": "2026-11-20",
-   "price": 713.0,
+   "price": 714.0,
    "sold": false
   },
   "rick|DolceVitaHub|https://dolcevitahub.com/products/11455746834774": {
@@ -362422,7 +363167,7 @@
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-20",
-   "price": 798.0,
+   "price": 799.0,
    "sold": false
   },
   "rick|DolceVitaHub|https://dolcevitahub.com/products/11477168849238": {
@@ -362448,7 +363193,7 @@
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-20",
-   "price": 713.0,
+   "price": 714.0,
    "sold": false
   },
   "rick|DolceVitaHub|https://dolcevitahub.com/products/9954597699926": {
@@ -362461,7 +363206,7 @@
    "first_run": 0,
    "first_seen": "2025-11-12T11:58:05+00:00",
    "last_seen": "2026-11-20",
-   "price": 766.0,
+   "price": 767.0,
    "sold": false
   },
   "rick|ENDYMA|https://endyma.com/products/265138521": {
@@ -375495,7 +376240,7 @@
    "first_seen": "2026-05-08T10:09:48+00:00",
    "last_seen": "2026-11-20",
    "price": 175.0,
-   "sold": false
+   "sold": true
   },
   "rick|Midtown Archive|https://midtownarchive.com/products/15686374850720": {
    "category": "Bottoms",
@@ -381092,6 +381837,17 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
+   "last_seen": "2026-11-20",
+   "price": 1842.0,
+   "sold": false
+  },
+  "rick|Sui Generis|https://suigenerisconsignment.com/products/15520206782718": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-20",
    "price": 1842.0,
    "sold": false
@@ -394848,7 +395604,7 @@
    "first_seen": "2024-12-13T20:58:38+00:00",
    "last_seen": "2026-11-20",
    "price": 119.2,
-   "sold": false
+   "sold": true
   },
   "undercover|2nd Street|https://ec.2ndstreetusa.com/products/7565357645933": {
    "category": "Outerwear",
@@ -418993,7 +419749,7 @@
    "first_seen": "2025-10-20T21:55:57+00:00",
    "last_seen": "2026-11-20",
    "price": 17129.0,
-   "sold": false
+   "sold": true
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9146848084227": {
    "category": "Footwear",
@@ -419488,7 +420244,7 @@
    "first_seen": "2026-05-23T23:21:27+00:00",
    "last_seen": "2026-11-20",
    "price": 27677.0,
-   "sold": false
+   "sold": true
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9446704120067": {
    "category": "Footwear",
@@ -420379,7 +421135,7 @@
    "first_seen": "2026-10-14T23:54:01+00:00",
    "last_seen": "2026-11-20",
    "price": 41999.0,
-   "sold": false
+   "sold": true
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9732254400771": {
    "category": "Other",
@@ -420829,7 +421585,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-20",
    "price": 92126.0,
-   "sold": false
+   "sold": true
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9809936843011": {
    "category": "Other",
