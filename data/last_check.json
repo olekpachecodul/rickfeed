@@ -1,7 +1,7 @@
 {
- "checked": "2026-11-21T23:58:15+00:00",
- "seconds": 223,
- "requests": 867,
+ "checked": "2026-11-22T06:34:23+00:00",
+ "seconds": 245,
+ "requests": 1083,
  "refused": 0,
  "not_asked": 0,
  "stopped_early": false,
@@ -9,5 +9,5 @@
   "Japonista"
  ],
  "unreachable_shops": [],
- "collections": 675
+ "collections": 686
 }
