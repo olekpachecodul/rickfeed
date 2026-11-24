@@ -9380,6 +9380,15 @@
    "price": 35814.0,
    "sold": false
   },
+  "ann|Ragtag|https://ragtag-global.com/products/9828805968131": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 52740.0,
+   "sold": false
+  },
   "ann|Raleigh Vintage|https://raleighvintage.com/products/9019741667564": {
    "category": "Outerwear",
    "colours": [],
@@ -12564,7 +12573,7 @@
    "first_seen": "2026-09-03T16:08:08+00:00",
    "last_seen": "2026-11-24",
    "price": 240.0,
-   "sold": false
+   "sold": true
   },
   "ann|Vertical Rags|https://verticalrags.eu/products/11031926669579": {
    "category": "Bottoms",
@@ -17369,6 +17378,33 @@
    "first_seen": "2026-11-22T21:00:35+00:00",
    "last_seen": "2026-11-24",
    "price": 159.9,
+   "sold": false
+  },
+  "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15508316291181": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 549.9,
+   "sold": false
+  },
+  "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15508317044845": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 599.9,
+   "sold": false
+  },
+  "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15508475936877": {
+   "category": "Footwear",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 499.9,
    "sold": false
   },
   "balenciaga|2nd Street|https://ec.2ndstreetusa.com/products/15508677754989": {
@@ -33943,7 +33979,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:44:08+00:00",
    "last_seen": "2026-11-24",
-   "price": 1330.0,
+   "price": 1338.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377195905126": {
@@ -33954,7 +33990,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:45:42+00:00",
    "last_seen": "2026-11-24",
-   "price": 217.0,
+   "price": 219.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377196232806": {
@@ -33965,7 +34001,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:45:58+00:00",
    "last_seen": "2026-11-24",
-   "price": 212.0,
+   "price": 213.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377197084774": {
@@ -33978,7 +34014,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:46:50+00:00",
    "last_seen": "2026-11-24",
-   "price": 273.0,
+   "price": 275.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377213042790": {
@@ -33991,7 +34027,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:51:59+00:00",
    "last_seen": "2026-11-24",
-   "price": 774.0,
+   "price": 778.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377228738662": {
@@ -34004,7 +34040,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:58:02+00:00",
    "last_seen": "2026-11-24",
-   "price": 440.0,
+   "price": 442.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377228968038": {
@@ -34017,7 +34053,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:58:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 663.0,
+   "price": 666.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377252397158": {
@@ -34030,7 +34066,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:07:13+00:00",
    "last_seen": "2026-11-24",
-   "price": 134.0,
+   "price": 135.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377252692070": {
@@ -34041,7 +34077,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:07:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 256.0,
+   "price": 258.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377258524774": {
@@ -34052,7 +34088,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:08:30+00:00",
    "last_seen": "2026-11-24",
-   "price": 217.0,
+   "price": 219.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377270354022": {
@@ -34063,7 +34099,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:13:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 223.0,
+   "price": 224.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4377273270374": {
@@ -34087,7 +34123,7 @@
    "first_run": 0,
    "first_seen": "2020-02-12T00:03:06+00:00",
    "last_seen": "2026-11-24",
-   "price": 307.0,
+   "price": 308.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4855390699622": {
@@ -34100,7 +34136,7 @@
    "first_run": 0,
    "first_seen": "2020-06-12T16:15:46+00:00",
    "last_seen": "2026-11-24",
-   "price": 307.0,
+   "price": 308.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/4930694938726": {
@@ -34113,7 +34149,7 @@
    "first_run": 0,
    "first_seen": "2020-09-21T16:08:51+00:00",
    "last_seen": "2026-11-24",
-   "price": 268.0,
+   "price": 269.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/6118652149955": {
@@ -34124,7 +34160,7 @@
    "first_run": 0,
    "first_seen": "2020-12-04T18:05:43+00:00",
    "last_seen": "2026-11-24",
-   "price": 279.0,
+   "price": 280.0,
    "sold": true
   },
   "balenciaga|Backyard Archive|https://backyardarchive.us/products/9962094788951": {
@@ -34137,7 +34173,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:37:15+00:00",
    "last_seen": "2026-11-24",
-   "price": 212.0,
+   "price": 213.0,
    "sold": false
   },
   "balenciaga|Caramia Vintage|https://caramiavintage.com/products/8964840685756": {
@@ -36202,6 +36238,50 @@
    "first_seen": "2026-11-23T21:44:18+00:00",
    "last_seen": "2026-11-24",
    "price": 361.0,
+   "sold": false
+  },
+  "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11500529385814": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 1559.0,
+   "sold": false
+  },
+  "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11500573917526": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 1411.0,
+   "sold": false
+  },
+  "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11501387186518": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 934.0,
+   "sold": false
+  },
+  "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/11501857210710": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 1549.0,
    "sold": false
   },
   "balenciaga|DolceVitaHub|https://dolcevitahub.com/products/9171695829334": {
@@ -46159,6 +46239,33 @@
    "first_seen": "2026-11-24T05:37:17+00:00",
    "last_seen": "2026-11-24",
    "price": 534.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11597461520711": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 640.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11597463257415": {
+   "category": "Bags & accessories",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 1190.0,
+   "sold": false
+  },
+  "balenciaga|Her-Age|https://her-age.com/products/11597479805255": {
+   "category": "Other",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 1140.0,
    "sold": false
   },
   "balenciaga|Her-Age|https://her-age.com/products/7799727653091": {
@@ -64716,7 +64823,7 @@
    "first_seen": "2024-04-22T09:15:14+00:00",
    "last_seen": "2026-11-24",
    "price": 42432.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/8521448227075": {
    "category": "Tops",
@@ -64736,7 +64843,7 @@
    "first_seen": "2024-06-06T13:08:50+00:00",
    "last_seen": "2026-11-24",
    "price": 39991.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/8727516545283": {
    "category": "Tops",
@@ -64848,7 +64955,7 @@
    "first_seen": "2024-12-12T08:58:04+00:00",
    "last_seen": "2026-11-24",
    "price": 70402.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/8854524035331": {
    "category": "Tops",
@@ -65052,7 +65159,7 @@
    "first_seen": "2026-10-07T13:30:37+00:00",
    "last_seen": "2026-11-24",
    "price": 97605.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/8917773746435": {
    "category": "Tops",
@@ -65081,7 +65188,7 @@
    "first_seen": "2026-10-12T11:31:08+00:00",
    "last_seen": "2026-11-24",
    "price": 41800.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/8917784559875": {
    "category": "Tops",
@@ -65126,7 +65233,7 @@
    "first_seen": "2025-04-05T09:12:28+00:00",
    "last_seen": "2026-11-24",
    "price": 80059.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/8952392876291": {
    "category": "Tops",
@@ -65153,7 +65260,7 @@
    "first_seen": "2025-04-08T08:54:13+00:00",
    "last_seen": "2026-11-24",
    "price": 54235.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/8956267790595": {
    "category": "Tops",
@@ -65387,7 +65494,7 @@
    "first_seen": "2025-08-09T22:49:09+00:00",
    "last_seen": "2026-11-24",
    "price": 66605.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9051705573635": {
    "category": "Tops",
@@ -65477,7 +65584,7 @@
    "first_seen": "2025-09-17T22:07:17+00:00",
    "last_seen": "2026-11-24",
    "price": 80059.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9101416530179": {
    "category": "Tops",
@@ -65612,7 +65719,7 @@
    "first_seen": "2025-10-30T21:47:43+00:00",
    "last_seen": "2026-11-24",
    "price": 92427.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9156810604803": {
    "category": "Tops",
@@ -66024,7 +66131,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-12-05T22:22:30+00:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price": 103193.0,
    "sold": false
   },
@@ -66033,7 +66140,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2025-12-05T22:22:38+00:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "price": 89739.0,
    "sold": false
   },
@@ -66890,7 +66997,7 @@
    "first_seen": "2026-02-19T21:58:29+00:00",
    "last_seen": "2026-11-24",
    "price": 108183.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9313802584323": {
    "category": "Tops",
@@ -67070,7 +67177,7 @@
    "first_seen": "2026-03-02T23:41:43+00:00",
    "last_seen": "2026-11-24",
    "price": 45362.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9324162318595": {
    "category": "Bags & accessories",
@@ -68456,7 +68563,7 @@
    "first_seen": "2026-05-03T01:03:46+00:00",
    "last_seen": "2026-11-24",
    "price": 77369.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9387506041091": {
    "category": "Outerwear",
@@ -70598,7 +70705,7 @@
    "first_seen": "2026-07-30T22:57:58+00:00",
    "last_seen": "2026-11-24",
    "price": 103193.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9568889241859": {
    "category": "Tops",
@@ -71138,7 +71245,7 @@
    "first_seen": "2026-08-19T22:54:29+00:00",
    "last_seen": "2026-11-24",
    "price": 63915.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9602365161731": {
    "category": "Footwear",
@@ -71273,7 +71380,7 @@
    "first_seen": "2026-08-23T23:23:14+00:00",
    "last_seen": "2026-11-24",
    "price": 178491.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9607289635075": {
    "category": "Footwear",
@@ -71687,7 +71794,7 @@
    "first_seen": "2026-09-04T22:18:40+00:00",
    "last_seen": "2026-11-24",
    "price": 44169.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9625428328707": {
    "category": "Tops",
@@ -71966,7 +72073,7 @@
    "first_seen": "2026-09-14T22:54:41+00:00",
    "last_seen": "2026-11-24",
    "price": 47966.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9652075987203": {
    "category": "Dresses",
@@ -72706,7 +72813,7 @@
    "first_seen": "2026-10-01T11:34:44+00:00",
    "last_seen": "2026-11-24",
    "price": 69991.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9710984265987": {
    "category": "Other",
@@ -72733,7 +72840,7 @@
    "first_seen": "2026-10-01T22:03:43+00:00",
    "last_seen": "2026-11-24",
    "price": 50353.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9710986166531": {
    "category": "Tops",
@@ -72958,7 +73065,7 @@
    "first_seen": "2026-10-04T23:25:30+00:00",
    "last_seen": "2026-11-24",
    "price": 28653.0,
-   "sold": true
+   "sold": false
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9714985894147": {
    "category": "Footwear",
@@ -73030,7 +73137,7 @@
    "first_seen": "2026-10-06T00:01:58+00:00",
    "last_seen": "2026-11-24",
    "price": 63915.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9716197589251": {
    "category": "Other",
@@ -75187,7 +75294,7 @@
    "first_seen": "2026-11-21T23:58:15+00:00",
    "last_seen": "2026-11-24",
    "price": 178491.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9824166838531": {
    "category": "Tops",
@@ -75259,7 +75366,7 @@
    "first_seen": "2026-11-22T06:34:23+00:00",
    "last_seen": "2026-11-24",
    "price": 143446.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Ragtag|https://ragtag-global.com/products/9824950485251": {
    "category": "Tops",
@@ -76228,7 +76335,7 @@
    "first_seen": "2025-08-01T16:00:42+00:00",
    "last_seen": "2026-11-24",
    "price": 155.0,
-   "sold": false
+   "sold": true
   },
   "balenciaga|Seagraves|https://seagraves-shop.com/products/10186093297976": {
    "category": "Footwear",
@@ -96015,7 +96122,7 @@
    "first_run": 0,
    "first_seen": "2026-03-18T11:07:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 152.0,
+   "price": 152.5,
    "sold": false
   },
   "balenciaga|Zoo Fashions|https://www.zoofashions.com/products/6943937790001": {
@@ -143599,7 +143706,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-04T22:53:03+00:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "price": 47966.0,
    "sold": true
   },
@@ -143608,7 +143715,7 @@
    "colours": [],
    "first_run": 0,
    "first_seen": "2026-11-04T22:53:11+00:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "price": 44169.0,
    "sold": false
   },
@@ -144126,7 +144233,7 @@
    "first_seen": "2026-11-05T23:28:38+00:00",
    "last_seen": "2026-11-24",
    "price": 18454.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9784987320579": {
    "category": "Tops",
@@ -144184,7 +144291,7 @@
    "first_seen": "2026-11-05T23:46:07+00:00",
    "last_seen": "2026-11-24",
    "price": 30606.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9785070092547": {
    "category": "Outerwear",
@@ -144492,7 +144599,7 @@
    "first_seen": "2026-11-06T23:11:26+00:00",
    "last_seen": "2026-11-24",
    "price": 10208.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9788548612355": {
    "category": "Other",
@@ -144591,7 +144698,7 @@
    "first_seen": "2026-11-07T00:38:22+00:00",
    "last_seen": "2026-11-24",
    "price": 55236.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9788672672003": {
    "category": "Tops",
@@ -144645,7 +144752,7 @@
    "first_seen": "2026-11-07T00:40:19+00:00",
    "last_seen": "2026-11-24",
    "price": 71402.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9788675948803": {
    "category": "Tops",
@@ -145197,7 +145304,7 @@
    "first_seen": "2026-11-08T22:05:37+00:00",
    "last_seen": "2026-11-24",
    "price": 31908.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9792746193155": {
    "category": "Other",
@@ -145504,7 +145611,7 @@
    "first_seen": "2026-11-08T23:02:56+00:00",
    "last_seen": "2026-11-24",
    "price": 24096.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9792850821379": {
    "category": "Other",
@@ -145856,7 +145963,7 @@
    "first_seen": "2026-11-09T23:05:59+00:00",
    "last_seen": "2026-11-24",
    "price": 26049.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9794282520835": {
    "category": "Other",
@@ -146171,7 +146278,7 @@
    "first_seen": "2026-11-09T23:28:46+00:00",
    "last_seen": "2026-11-24",
    "price": 31691.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9794295103747": {
    "category": "Other",
@@ -146310,7 +146417,7 @@
    "first_seen": "2026-11-10T11:01:22+00:00",
    "last_seen": "2026-11-24",
    "price": 23445.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9796545872131": {
    "category": "Other",
@@ -146627,7 +146734,7 @@
    "first_seen": "2026-11-11T22:08:33+00:00",
    "last_seen": "2026-11-24",
    "price": 24747.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798176997635": {
    "category": "Outerwear",
@@ -146707,7 +146814,7 @@
    "first_seen": "2026-11-11T22:17:41+00:00",
    "last_seen": "2026-11-24",
    "price": 95815.0,
-   "sold": true
+   "sold": false
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798182371587": {
    "category": "Outerwear",
@@ -146716,7 +146823,7 @@
    "first_seen": "2026-11-11T22:17:47+00:00",
    "last_seen": "2026-11-24",
    "price": 49160.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798182437123": {
    "category": "Outerwear",
@@ -146745,7 +146852,7 @@
    "first_seen": "2026-11-11T22:18:19+00:00",
    "last_seen": "2026-11-24",
    "price": 33210.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798186369283": {
    "category": "Outerwear",
@@ -146774,7 +146881,7 @@
    "first_seen": "2026-11-11T22:26:58+00:00",
    "last_seen": "2026-11-24",
    "price": 16284.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798186795267": {
    "category": "Tops",
@@ -147046,7 +147153,7 @@
    "first_seen": "2026-11-11T23:04:26+00:00",
    "last_seen": "2026-11-24",
    "price": 24964.0,
-   "sold": true
+   "sold": false
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798221725955": {
    "category": "Outerwear",
@@ -147136,7 +147243,7 @@
    "first_seen": "2026-11-11T23:10:36+00:00",
    "last_seen": "2026-11-24",
    "price": 13464.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798224773379": {
    "category": "Bottoms",
@@ -147439,7 +147546,7 @@
    "first_seen": "2026-11-11T23:48:02+00:00",
    "last_seen": "2026-11-24",
    "price": 38418.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9798261735683": {
    "category": "Other",
@@ -147780,7 +147887,7 @@
    "first_seen": "2026-11-12T23:55:45+00:00",
    "last_seen": "2026-11-24",
    "price": 30606.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9801597452547": {
    "category": "Other",
@@ -147951,7 +148058,7 @@
    "first_seen": "2026-11-13T22:46:13+00:00",
    "last_seen": "2026-11-24",
    "price": 25290.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9804451217667": {
    "category": "Tops",
@@ -148137,7 +148244,7 @@
    "first_seen": "2026-11-13T23:53:10+00:00",
    "last_seen": "2026-11-24",
    "price": 38418.0,
-   "sold": true
+   "sold": false
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9804493586691": {
    "category": "Bottoms",
@@ -148197,7 +148304,7 @@
    "first_seen": "2026-11-14T00:00:26+00:00",
    "last_seen": "2026-11-24",
    "price": 21709.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9804496929027": {
    "category": "Dresses",
@@ -148525,7 +148632,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-24",
    "price": 38418.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9809931862275": {
    "category": "Other",
@@ -148891,7 +148998,7 @@
    "first_seen": "2026-11-16T20:56:49+00:00",
    "last_seen": "2026-11-24",
    "price": 45362.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810292179203": {
    "category": "Other",
@@ -148999,7 +149106,7 @@
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-24",
    "price": 34838.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9810587255043": {
    "category": "Bottoms",
@@ -149801,7 +149908,7 @@
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
    "price": 21926.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9814235808003": {
    "category": "Tops",
@@ -150076,7 +150183,7 @@
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
    "price": 37225.0,
-   "sold": true
+   "sold": false
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9814289514755": {
    "category": "Tops",
@@ -150143,7 +150250,7 @@
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
    "price": 41999.0,
-   "sold": true
+   "sold": false
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9814305505539": {
    "category": "Tops",
@@ -150783,7 +150890,7 @@
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
    "price": 25832.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9819085865219": {
    "category": "Bags & accessories",
@@ -151472,7 +151579,7 @@
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
    "price": 20516.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9822605508867": {
    "category": "Tops",
@@ -151838,7 +151945,7 @@
    "first_seen": "2026-11-21T23:58:15+00:00",
    "last_seen": "2026-11-24",
    "price": 34838.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9824334577923": {
    "category": "Other",
@@ -152159,7 +152266,7 @@
    "first_seen": "2026-11-23T01:35:24+00:00",
    "last_seen": "2026-11-24",
    "price": 14982.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9824953663747": {
    "category": "Bottoms",
@@ -152493,7 +152600,7 @@
    "first_seen": "2026-11-23T09:45:23+00:00",
    "last_seen": "2026-11-24",
    "price": 21058.0,
-   "sold": true
+   "sold": false
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9826280472835": {
    "category": "Outerwear",
@@ -152538,7 +152645,7 @@
    "first_seen": "2026-11-24T05:37:17+00:00",
    "last_seen": "2026-11-24",
    "price": 26049.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9826867904771": {
    "category": "Other",
@@ -152648,7 +152755,7 @@
    "first_seen": "2026-11-24T05:37:17+00:00",
    "last_seen": "2026-11-24",
    "price": 21058.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9826882486531": {
    "category": "Tops",
@@ -152792,7 +152899,7 @@
    "first_seen": "2026-11-24T05:37:17+00:00",
    "last_seen": "2026-11-24",
    "price": 13464.0,
-   "sold": true
+   "sold": false
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9827010740483": {
    "category": "Bottoms",
@@ -152801,7 +152908,7 @@
    "first_seen": "2026-11-24T05:37:17+00:00",
    "last_seen": "2026-11-24",
    "price": 13464.0,
-   "sold": true
+   "sold": false
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9827010806019": {
    "category": "Bottoms",
@@ -152873,7 +152980,7 @@
    "first_seen": "2026-11-24T05:37:17+00:00",
    "last_seen": "2026-11-24",
    "price": 33210.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9827017097475": {
    "category": "Tops",
@@ -152909,7 +153016,7 @@
    "first_seen": "2026-11-24T05:37:17+00:00",
    "last_seen": "2026-11-24",
    "price": 9991.0,
-   "sold": false
+   "sold": true
   },
   "cdg|Ragtag|https://ragtag-global.com/products/9827033088259": {
    "category": "Tops",
@@ -153071,6 +153178,15 @@
    "first_seen": "2026-11-24T05:37:17+00:00",
    "last_seen": "2026-11-24",
    "price": 12595.0,
+   "sold": false
+  },
+  "cdg|Ragtag|https://ragtag-global.com/products/9828806328579": {
+   "category": "Bottoms",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 29521.0,
    "sold": false
   },
   "cdg|Raleigh Vintage|https://raleighvintage.com/products/7866995015916": {
@@ -172877,6 +172993,28 @@
    ],
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
+   "last_seen": "2026-11-24",
+   "price": 107.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11500625461590": {
+   "category": "Bags & accessories",
+   "colours": [
+    "Brown"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 213.0,
+   "sold": false
+  },
+  "gaultier|DolceVitaHub|https://dolcevitahub.com/products/11501850231126": {
+   "category": "Tops",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
    "last_seen": "2026-11-24",
    "price": 107.0,
    "sold": false
@@ -196361,7 +196499,7 @@
    "first_run": 0,
    "first_seen": "2020-01-21T15:40:09+00:00",
    "last_seen": "2026-11-24",
-   "price": 329.0,
+   "price": 331.0,
    "sold": true
   },
   "issey|Backyard Archive|https://backyardarchive.us/products/4530252284006": {
@@ -196374,7 +196512,7 @@
    "first_run": 0,
    "first_seen": "2020-01-21T16:07:18+00:00",
    "last_seen": "2026-11-24",
-   "price": 329.0,
+   "price": 331.0,
    "sold": true
   },
   "issey|Bohème Vintage|https://bohemevintage.com/products/4454907052135": {
@@ -219794,7 +219932,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T16:08:36+00:00",
    "last_seen": "2026-11-24",
-   "price": 212.0,
+   "price": 213.0,
    "sold": true
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/10316064424279": {
@@ -219805,7 +219943,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T16:08:36+00:00",
    "last_seen": "2026-11-24",
-   "price": 245.0,
+   "price": 247.0,
    "sold": true
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/10783567282519": {
@@ -219818,7 +219956,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:11:16+00:00",
    "last_seen": "2026-11-24",
-   "price": 434.0,
+   "price": 437.0,
    "sold": false
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/7878697910496": {
@@ -219829,7 +219967,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 195.0,
+   "price": 196.0,
    "sold": true
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/8006394577120": {
@@ -219842,7 +219980,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:43:55+00:00",
    "last_seen": "2026-11-24",
-   "price": 501.0,
+   "price": 504.0,
    "sold": true
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/8483152167255": {
@@ -219855,7 +219993,7 @@
    "first_run": 0,
    "first_seen": "2023-07-09T17:41:28+00:00",
    "last_seen": "2026-11-24",
-   "price": 167.0,
+   "price": 168.0,
    "sold": true
   },
   "lang|Backyard Archive|https://backyardarchive.us/products/9962095018327": {
@@ -219868,7 +220006,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:31:43+00:00",
    "last_seen": "2026-11-24",
-   "price": 279.0,
+   "price": 280.0,
    "sold": true
   },
   "lang|Caramia Vintage|https://caramiavintage.com/products/9118694801596": {
@@ -227579,10 +227717,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 71.9,
    "first_run": 0,
    "first_seen": "2026-06-05T22:38:11+00:00",
    "last_seen": "2026-11-24",
-   "price": 71.9,
+   "price": 65.9,
    "sold": false
   },
   "lang|Messina Hembry|https://messinahembry.com/products/16164885430650": {
@@ -229744,10 +229884,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 300.0,
    "first_run": 0,
    "first_seen": "2026-10-29T21:43:22+00:00",
    "last_seen": "2026-11-24",
-   "price": 300.0,
+   "price": 240.0,
    "sold": false
   },
   "lang|Tokio 7|https://tokio7ny.com/products/9672332771555": {
@@ -232646,6 +232788,17 @@
    "first_seen": "2026-11-23T21:44:18+00:00",
    "last_seen": "2026-11-24",
    "price": 299.9,
+   "sold": false
+  },
+  "margiela|2nd Street|https://ec.2ndstreetusa.com/products/15508764491885": {
+   "category": "Footwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 399.9,
    "sold": false
   },
   "margiela|2nd Street|https://ec.2ndstreetusa.com/products/6798691532909": {
@@ -237722,7 +237875,7 @@
    "first_run": 0,
    "first_seen": "2025-08-08T16:55:49+00:00",
    "last_seen": "2026-11-24",
-   "price": 368.0,
+   "price": 370.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10285836599639": {
@@ -237746,7 +237899,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T15:50:16+00:00",
    "last_seen": "2026-11-24",
-   "price": 880.0,
+   "price": 884.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10316052300119": {
@@ -237757,7 +237910,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T16:08:32+00:00",
    "last_seen": "2026-11-24",
-   "price": 501.0,
+   "price": 504.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10358322168151": {
@@ -237770,7 +237923,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:33+00:00",
    "last_seen": "2026-11-24",
-   "price": 167.0,
+   "price": 168.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10408019525975": {
@@ -237783,7 +237936,7 @@
    "first_run": 0,
    "first_seen": "2025-11-28T13:59:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 234.0,
+   "price": 235.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10408071856471": {
@@ -237796,7 +237949,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:46+00:00",
    "last_seen": "2026-11-24",
-   "price": 167.0,
+   "price": 168.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10408169832791": {
@@ -237809,7 +237962,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T07:53:39+00:00",
    "last_seen": "2026-11-24",
-   "price": 613.0,
+   "price": 616.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/10471100449111": {
@@ -237820,7 +237973,7 @@
    "first_run": 0,
    "first_seen": "2026-01-20T10:41:52+00:00",
    "last_seen": "2026-11-24",
-   "price": 312.0,
+   "price": 314.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/6686095835331": {
@@ -237833,7 +237986,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T13:37:43+00:00",
    "last_seen": "2026-11-24",
-   "price": 696.0,
+   "price": 700.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/6874184843459": {
@@ -237844,7 +237997,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T19:19:48+00:00",
    "last_seen": "2026-11-24",
-   "price": 1659.0,
+   "price": 1668.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956236665056": {
@@ -237857,7 +238010,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:20+00:00",
    "last_seen": "2026-11-24",
-   "price": 1503.0,
+   "price": 1511.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956236959968": {
@@ -237871,7 +238024,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:20+00:00",
    "last_seen": "2026-11-24",
-   "price": 1503.0,
+   "price": 1511.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7956428488928": {
@@ -237884,7 +238037,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:55+00:00",
    "last_seen": "2026-11-24",
-   "price": 251.0,
+   "price": 252.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/7957713191136": {
@@ -237895,7 +238048,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:04+00:00",
    "last_seen": "2026-11-24",
-   "price": 724.0,
+   "price": 728.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/8006359023840": {
@@ -237906,7 +238059,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:47:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 529.0,
+   "price": 532.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/8006370525408": {
@@ -237919,7 +238072,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T19:02:02+00:00",
    "last_seen": "2026-11-24",
-   "price": 307.0,
+   "price": 308.0,
    "sold": true
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/9962095182167": {
@@ -237932,7 +238085,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T15:31:44+00:00",
    "last_seen": "2026-11-24",
-   "price": 546.0,
+   "price": 549.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/9962095247703": {
@@ -237945,7 +238098,7 @@
    "first_run": 0,
    "first_seen": "2026-07-19T15:34:47+00:00",
    "last_seen": "2026-11-24",
-   "price": 212.0,
+   "price": 213.0,
    "sold": false
   },
   "margiela|Backyard Archive|https://backyardarchive.us/products/9962095280471": {
@@ -237958,7 +238111,7 @@
    "first_run": 0,
    "first_seen": "2026-07-19T16:46:38+00:00",
    "last_seen": "2026-11-24",
-   "price": 245.0,
+   "price": 247.0,
    "sold": false
   },
   "margiela|Caramia Vintage|https://caramiavintage.com/products/9045262303420": {
@@ -249382,10 +249535,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 320.0,
    "first_run": 0,
    "first_seen": "2026-11-11T18:38:09+00:00",
    "last_seen": "2026-11-24",
-   "price": 320.0,
+   "price": 256.0,
    "sold": false
   },
   "margiela|Tokio 7|https://tokio7ny.com/products/15487036686563": {
@@ -261881,7 +262036,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:30:02+00:00",
    "last_seen": "2026-11-24",
-   "price": 824.0,
+   "price": 828.0,
    "sold": true
   },
   "numbernine|Backyard Archive|https://backyardarchive.us/products/7936123306208": {
@@ -261894,7 +262049,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:24+00:00",
    "last_seen": "2026-11-24",
-   "price": 724.0,
+   "price": 728.0,
    "sold": true
   },
   "numbernine|Backyard Archive|https://backyardarchive.us/products/7936123601120": {
@@ -261907,7 +262062,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:30+00:00",
    "last_seen": "2026-11-24",
-   "price": 835.0,
+   "price": 840.0,
    "sold": true
   },
   "numbernine|Crybynoon Archive|https://crybynoon.com/products/8412671082631": {
@@ -264800,7 +264955,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T16:25:03+00:00",
    "last_seen": "2026-11-24",
-   "price": 245.0,
+   "price": 247.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10282281206103": {
@@ -264826,7 +264981,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 434.0,
+   "price": 437.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10311451050327": {
@@ -264837,7 +264992,7 @@
    "first_run": 0,
    "first_seen": "2026-07-19T15:26:39+00:00",
    "last_seen": "2026-11-24",
-   "price": 167.0,
+   "price": 168.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10319136653655": {
@@ -264851,7 +265006,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T21:30:51+00:00",
    "last_seen": "2026-11-24",
-   "price": 724.0,
+   "price": 728.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329215500631": {
@@ -264862,7 +265017,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T18:29:23+00:00",
    "last_seen": "2026-11-24",
-   "price": 323.0,
+   "price": 325.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329215598935": {
@@ -264873,7 +265028,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T18:29:24+00:00",
    "last_seen": "2026-11-24",
-   "price": 323.0,
+   "price": 325.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329215664471": {
@@ -264884,7 +265039,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T18:29:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 323.0,
+   "price": 325.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10329224053079": {
@@ -264895,7 +265050,7 @@
    "first_run": 0,
    "first_seen": "2025-10-12T18:59:18+00:00",
    "last_seen": "2026-11-24",
-   "price": 434.0,
+   "price": 437.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10424212619607": {
@@ -264908,7 +265063,7 @@
    "first_run": 0,
    "first_seen": "2025-11-28T15:27:02+00:00",
    "last_seen": "2026-11-24",
-   "price": 546.0,
+   "price": 549.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10435016982871": {
@@ -264921,7 +265076,7 @@
    "first_run": 0,
    "first_seen": "2026-01-19T11:51:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 657.0,
+   "price": 661.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10573091930455": {
@@ -264935,7 +265090,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T18:02:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 724.0,
+   "price": 728.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783566463319": {
@@ -264946,7 +265101,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:11:00+00:00",
    "last_seen": "2026-11-24",
-   "price": 212.0,
+   "price": 213.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783567741271": {
@@ -264957,7 +265112,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:11:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 212.0,
+   "price": 213.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783575867735": {
@@ -264981,7 +265136,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:14:21+00:00",
    "last_seen": "2026-11-24",
-   "price": 323.0,
+   "price": 325.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579013463": {
@@ -264992,7 +265147,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:14:59+00:00",
    "last_seen": "2026-11-24",
-   "price": 312.0,
+   "price": 314.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579111767": {
@@ -265003,7 +265158,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 268.0,
+   "price": 269.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579177303": {
@@ -265014,7 +265169,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:02+00:00",
    "last_seen": "2026-11-24",
-   "price": 245.0,
+   "price": 247.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579406679": {
@@ -265036,7 +265191,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 323.0,
+   "price": 325.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579799895": {
@@ -265049,7 +265204,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 279.0,
+   "price": 280.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783579898199": {
@@ -265060,7 +265215,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:17+00:00",
    "last_seen": "2026-11-24",
-   "price": 613.0,
+   "price": 616.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783580127575": {
@@ -265080,7 +265235,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 657.0,
+   "price": 661.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582257495": {
@@ -265091,7 +265246,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:56+00:00",
    "last_seen": "2026-11-24",
-   "price": 501.0,
+   "price": 504.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582290263": {
@@ -265104,7 +265259,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:58+00:00",
    "last_seen": "2026-11-24",
-   "price": 390.0,
+   "price": 392.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783582388567": {
@@ -265117,7 +265272,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:15:59+00:00",
    "last_seen": "2026-11-24",
-   "price": 434.0,
+   "price": 437.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/10783590383959": {
@@ -265130,7 +265285,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:18:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 323.0,
+   "price": 325.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/11422320984407": {
@@ -265154,7 +265309,7 @@
    "first_run": 0,
    "first_seen": "2020-10-20T18:22:29+00:00",
    "last_seen": "2026-11-24",
-   "price": 390.0,
+   "price": 392.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7936130613472": {
@@ -265167,7 +265322,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 323.0,
+   "price": 325.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956216545504": {
@@ -265180,7 +265335,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:35:00+00:00",
    "last_seen": "2026-11-24",
-   "price": 768.0,
+   "price": 773.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956232175840": {
@@ -265191,7 +265346,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:29:49+00:00",
    "last_seen": "2026-11-24",
-   "price": 657.0,
+   "price": 661.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956232372448": {
@@ -265202,7 +265357,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:34:22+00:00",
    "last_seen": "2026-11-24",
-   "price": 1614.0,
+   "price": 1623.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7956237943008": {
@@ -265216,7 +265371,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T20:13:17+00:00",
    "last_seen": "2026-11-24",
-   "price": 3895.0,
+   "price": 3917.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/7987186925792": {
@@ -265254,7 +265409,7 @@
    "first_run": 0,
    "first_seen": "2023-03-05T18:56:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 752.0,
+   "price": 756.0,
    "sold": false
   },
   "rafcalvin|Backyard Archive|https://backyardarchive.us/products/8476784099671": {
@@ -265267,7 +265422,7 @@
    "first_run": 0,
    "first_seen": "2023-07-09T17:47:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 418.0,
+   "price": 420.0,
    "sold": false
   },
   "rafcalvin|Final Blow|https://www.finalblowchicago.com/products/7444658946182": {
@@ -270339,7 +270494,7 @@
    "first_run": 0,
    "first_seen": "2025-10-02T14:53:35+00:00",
    "last_seen": "2026-11-24",
-   "price": 423.0,
+   "price": 426.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10399386927447": {
@@ -270352,7 +270507,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T16:11:31+00:00",
    "last_seen": "2026-11-24",
-   "price": 279.0,
+   "price": 280.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10399388172631": {
@@ -270365,7 +270520,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T15:58:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 134.0,
+   "price": 135.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10399390007639": {
@@ -270376,7 +270531,7 @@
    "first_run": 0,
    "first_seen": "2026-01-12T16:35:42+00:00",
    "last_seen": "2026-11-24",
-   "price": 134.0,
+   "price": 135.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10408082506071": {
@@ -270389,7 +270544,7 @@
    "first_run": 0,
    "first_seen": "2025-11-29T16:05:43+00:00",
    "last_seen": "2026-11-24",
-   "price": 134.0,
+   "price": 135.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10408338850135": {
@@ -270402,7 +270557,7 @@
    "first_run": 0,
    "first_seen": "2026-02-21T22:31:47+00:00",
    "last_seen": "2026-11-24",
-   "price": 134.0,
+   "price": 135.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/10433201406295": {
@@ -270424,7 +270579,7 @@
    "first_run": 0,
    "first_seen": "2026-04-26T14:10:38+00:00",
    "last_seen": "2026-11-24",
-   "price": 167.0,
+   "price": 168.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377188434022": {
@@ -270435,7 +270590,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:43:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 162.0,
+   "price": 163.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377204686950": {
@@ -270448,7 +270603,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:49:02+00:00",
    "last_seen": "2026-11-24",
-   "price": 362.0,
+   "price": 364.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377217007718": {
@@ -270459,7 +270614,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T13:53:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 418.0,
+   "price": 420.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4377236471910": {
@@ -270470,7 +270625,7 @@
    "first_run": 0,
    "first_seen": "2019-11-21T14:00:11+00:00",
    "last_seen": "2026-11-24",
-   "price": 718.0,
+   "price": 722.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/4942501675110": {
@@ -270481,7 +270636,7 @@
    "first_run": 0,
    "first_seen": "2020-10-05T20:29:46+00:00",
    "last_seen": "2026-11-24",
-   "price": 217.0,
+   "price": 219.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/6100411908291": {
@@ -270494,7 +270649,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T13:37:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 307.0,
+   "price": 308.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/6829393576131": {
@@ -270505,7 +270660,7 @@
    "first_run": 0,
    "first_seen": "2021-10-06T16:56:03+00:00",
    "last_seen": "2026-11-24",
-   "price": 490.0,
+   "price": 493.0,
    "sold": true
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/7955703464160": {
@@ -270518,7 +270673,7 @@
    "first_run": 0,
    "first_seen": "2022-12-18T18:36:06+00:00",
    "last_seen": "2026-11-24",
-   "price": 2059.0,
+   "price": 2070.0,
    "sold": false
   },
   "raf|Backyard Archive|https://backyardarchive.us/products/7956221559008": {
@@ -276728,6 +276883,17 @@
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
    "price": 130.0,
+   "sold": false
+  },
+  "raf|Vertical Rags|https://verticalrags.eu/products/11097701875979": {
+   "category": "Tops",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 150.0,
    "sold": false
   },
   "raf|Vertical Rags|https://verticalrags.eu/products/6748211380361": {
@@ -299782,7 +299948,7 @@
    "first_seen": "2026-11-15T23:13:26+00:00",
    "last_seen": "2026-11-24",
    "price": 89.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Lord Ralph London|https://lordralphlondon.com/products/16284566978938": {
    "category": "Tops",
@@ -308843,7 +309009,7 @@
    "first_seen": "2026-10-01T23:41:20+00:00",
    "last_seen": "2026-11-24",
    "price": 15.1,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16219825701242": {
    "category": "Tops",
@@ -310742,7 +310908,7 @@
    "first_seen": "2026-10-15T06:23:49+00:00",
    "last_seen": "2026-11-24",
    "price": 12.8,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16238381957498": {
    "category": "Tops",
@@ -311545,7 +311711,7 @@
    "first_seen": "2026-10-24T07:18:46+00:00",
    "last_seen": "2026-11-24",
    "price": 14.4,
-   "sold": false
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16251271184762": {
    "category": "Bottoms",
@@ -314128,10 +314294,12 @@
    "colours": [
     "Purple"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.86,
    "first_run": 0,
    "first_seen": "2026-11-10T19:44:48+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.86,
+   "price": 18.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16277203059066": {
@@ -314139,10 +314307,12 @@
    "colours": [
     "Yellow"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 0,
    "first_seen": "2026-11-11T07:46:46+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16277203255674": {
@@ -314150,10 +314320,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.55,
    "first_run": 0,
    "first_seen": "2026-11-11T07:47:06+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.55,
+   "price": 14.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16277439644026": {
@@ -314161,10 +314333,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 25.62,
    "first_run": 0,
    "first_seen": "2026-11-11T13:02:44+00:00",
    "last_seen": "2026-11-24",
-   "price": 25.62,
+   "price": 20.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16277578776954": {
@@ -314185,10 +314359,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.29,
    "first_run": 0,
    "first_seen": "2026-11-11T16:19:48+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.29,
+   "price": 17.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16277894005114": {
@@ -314196,10 +314372,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 24.62,
    "first_run": 0,
    "first_seen": "2026-11-11T18:05:31+00:00",
    "last_seen": "2026-11-24",
-   "price": 24.62,
+   "price": 19.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16277895086458": {
@@ -314207,10 +314385,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.9,
    "first_run": 0,
    "first_seen": "2026-11-11T18:06:21+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.9,
+   "price": 18.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16277988311418": {
@@ -314218,10 +314398,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.91,
    "first_run": 0,
    "first_seen": "2026-11-11T20:06:53+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.91,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278008594810": {
@@ -314242,10 +314424,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.16,
    "first_run": 0,
    "first_seen": "2026-11-11T20:51:00+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.16,
+   "price": 17.7,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278022979962": {
@@ -314253,10 +314437,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.16,
    "first_run": 0,
    "first_seen": "2026-11-11T21:25:21+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.16,
+   "price": 17.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278090842490": {
@@ -314264,10 +314450,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.44,
    "first_run": 0,
    "first_seen": "2026-11-12T01:07:53+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.44,
+   "price": 17.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278108733818": {
@@ -314314,10 +314502,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.35,
    "first_run": 0,
    "first_seen": "2026-11-12T04:34:46+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.35,
+   "price": 16.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278196912506": {
@@ -314325,10 +314515,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 0,
    "first_seen": "2026-11-12T04:35:03+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278244589946": {
@@ -314336,10 +314528,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.66,
    "first_run": 0,
    "first_seen": "2026-11-12T06:23:35+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.66,
+   "price": 14.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278259466618": {
@@ -314360,10 +314554,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.91,
    "first_run": 0,
    "first_seen": "2026-11-12T07:50:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.91,
+   "price": 16.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278340239738": {
@@ -314371,10 +314567,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 46.99,
    "first_run": 0,
    "first_seen": "2026-11-12T09:05:15+00:00",
    "last_seen": "2026-11-24",
-   "price": 46.99,
+   "price": 37.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278450864506": {
@@ -314382,10 +314580,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.91,
    "first_run": 0,
    "first_seen": "2026-11-12T10:12:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.91,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278453617018": {
@@ -314393,10 +314593,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.13,
    "first_run": 0,
    "first_seen": "2026-11-12T10:13:31+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.13,
+   "price": 16.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278453780858": {
@@ -314404,10 +314606,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.16,
    "first_run": 0,
    "first_seen": "2026-11-12T10:13:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.16,
+   "price": 17.7,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278496706938": {
@@ -314415,10 +314619,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.95,
    "first_run": 0,
    "first_seen": "2026-11-12T10:36:59+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.95,
+   "price": 15.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16278818128250": {
@@ -314439,10 +314645,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.66,
    "first_run": 0,
    "first_seen": "2026-11-12T12:49:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.66,
+   "price": 14.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279009362298": {
@@ -314463,10 +314671,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 34.93,
    "first_run": 0,
    "first_seen": "2026-11-12T14:05:20+00:00",
    "last_seen": "2026-11-24",
-   "price": 34.93,
+   "price": 27.9,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279101342074": {
@@ -314474,10 +314684,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.48,
    "first_run": 0,
    "first_seen": "2026-11-12T14:38:51+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.48,
+   "price": 14.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279185391994": {
@@ -314498,10 +314710,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 42.2,
    "first_run": 0,
    "first_seen": "2026-11-12T16:54:56+00:00",
    "last_seen": "2026-11-24",
-   "price": 42.2,
+   "price": 33.7,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279363322234": {
@@ -314509,10 +314723,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 29.95,
    "first_run": 0,
    "first_seen": "2026-11-12T23:22:21+00:00",
    "last_seen": "2026-11-24",
-   "price": 29.95,
+   "price": 23.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279369580922": {
@@ -314520,10 +314736,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.66,
    "first_run": 0,
    "first_seen": "2026-11-12T23:50:11+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.66,
+   "price": 14.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279494492538": {
@@ -314531,10 +314749,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.14,
    "first_run": 0,
    "first_seen": "2026-11-13T05:19:48+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.14,
+   "price": 16.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279503929722": {
@@ -314542,10 +314762,12 @@
    "colours": [
     "Yellow"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.29,
    "first_run": 0,
    "first_seen": "2026-11-13T05:55:35+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.29,
+   "price": 17.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279507861882": {
@@ -314566,10 +314788,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.16,
    "first_run": 0,
    "first_seen": "2026-11-13T07:47:18+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.16,
+   "price": 16.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279542432122": {
@@ -314577,10 +314801,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.14,
    "first_run": 0,
    "first_seen": "2026-11-13T07:48:48+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.14,
+   "price": 14.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279572578682": {
@@ -314601,10 +314827,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 0,
    "first_seen": "2026-11-13T09:16:49+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279586865530": {
@@ -314612,10 +314840,12 @@
    "colours": [
     "Purple"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.28,
    "first_run": 0,
    "first_seen": "2026-11-13T09:18:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.28,
+   "price": 15.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279611081082": {
@@ -314623,10 +314853,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 0,
    "first_seen": "2026-11-13T09:53:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279615766906": {
@@ -314634,10 +314866,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.12,
    "first_run": 0,
    "first_seen": "2026-11-13T09:55:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.12,
+   "price": 14.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279716561274": {
@@ -314645,10 +314879,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 32.61,
    "first_run": 0,
    "first_seen": "2026-11-13T11:11:30+00:00",
    "last_seen": "2026-11-24",
-   "price": 32.61,
+   "price": 26.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279747232122": {
@@ -314656,10 +314892,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 0,
    "first_seen": "2026-11-13T12:21:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279779737978": {
@@ -314667,10 +314905,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.11,
    "first_run": 0,
    "first_seen": "2026-11-13T13:39:06+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.11,
+   "price": 12.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279780917626": {
@@ -314678,10 +314918,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 13.91,
    "first_run": 0,
    "first_seen": "2026-11-13T13:39:59+00:00",
    "last_seen": "2026-11-24",
-   "price": 13.91,
+   "price": 11.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16279781310842": {
@@ -314689,10 +314931,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 0,
    "first_seen": "2026-11-13T13:40:18+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280449548666": {
@@ -314713,10 +314957,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.86,
    "first_run": 1,
    "first_seen": "2026-11-14T00:15:52+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.86,
+   "price": 18.2,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280555323770": {
@@ -314737,10 +314983,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.84,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.84,
+   "price": 19.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280620138874": {
@@ -314787,11 +315035,13 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 34.93,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 34.93,
-   "sold": false
+   "price": 27.9,
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280717230458": {
    "category": "Tops",
@@ -314811,10 +315061,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.28,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.28,
+   "price": 15.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280729485690": {
@@ -314822,10 +315074,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.95,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.95,
+   "price": 15.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280736465274": {
@@ -314833,10 +315087,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.49,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.49,
+   "price": 17.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280737677690": {
@@ -314844,10 +315100,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.69,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.69,
+   "price": 14.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280738759034": {
@@ -314855,10 +315113,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 39.16,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 39.16,
+   "price": 31.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280738791802": {
@@ -314866,10 +315126,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.6,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.6,
+   "price": 18.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280759796090": {
@@ -314877,19 +315139,23 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280760254842": {
    "category": "Dresses",
    "colours": [],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.12,
    "first_run": 1,
    "first_seen": "2026-11-14T07:58:26+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.12,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280760910202": {
@@ -314897,10 +315163,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 43.12,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 43.12,
+   "price": 34.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280823595386": {
@@ -314921,10 +315189,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.69,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.69,
+   "price": 14.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280888770938": {
@@ -314932,10 +315202,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.69,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.69,
+   "price": 14.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280933138810": {
@@ -314943,10 +315215,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16280991367546": {
@@ -314954,10 +315228,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 29.55,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 29.55,
+   "price": 23.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281021448570": {
@@ -314965,10 +315241,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.69,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.69,
+   "price": 14.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281094619514": {
@@ -314989,10 +315267,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 39.95,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 39.95,
+   "price": 31.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281382846842": {
@@ -315000,10 +315280,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.12,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.12,
+   "price": 18.4,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281383567738": {
@@ -315011,10 +315293,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.51,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.51,
+   "price": 13.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281405718906": {
@@ -315022,10 +315306,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-14T14:59:01+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281522241914": {
@@ -315033,10 +315319,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 32.61,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 32.61,
+   "price": 26.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281548161402": {
@@ -315044,10 +315332,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.68,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.68,
+   "price": 16.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281572901242": {
@@ -315055,10 +315345,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281573097850": {
@@ -315066,10 +315358,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.51,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.51,
+   "price": 12.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281606062458": {
@@ -315077,10 +315371,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.7,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.7,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281608651130": {
@@ -315088,10 +315384,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.7,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.7,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281633259898": {
@@ -315099,10 +315397,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 32.17,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 32.17,
+   "price": 25.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281633292666": {
@@ -315110,10 +315410,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.49,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.49,
+   "price": 17.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281663144314": {
@@ -315121,10 +315423,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.26,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.26,
+   "price": 17.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281665339770": {
@@ -315132,10 +315436,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.03,
    "first_run": 1,
    "first_seen": "2026-11-14T19:53:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.03,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281895534970": {
@@ -315143,19 +315449,23 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.49,
    "first_run": 1,
    "first_seen": "2026-11-14T23:51:48+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.49,
+   "price": 15.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281923486074": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.49,
    "first_run": 1,
    "first_seen": "2026-11-14T23:51:48+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.49,
+   "price": 14.7,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16281955107194": {
@@ -315163,10 +315473,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.26,
    "first_run": 1,
    "first_seen": "2026-11-14T23:51:48+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.26,
+   "price": 17.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16284851896698": {
@@ -315174,10 +315486,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.21,
    "first_run": 1,
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.21,
+   "price": 15.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16284888859002": {
@@ -315185,10 +315499,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.78,
    "first_run": 1,
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.78,
+   "price": 16.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16284891087226": {
@@ -315196,19 +315512,23 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 31.54,
    "first_run": 1,
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-24",
-   "price": 31.54,
+   "price": 25.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16284900589946": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.35,
    "first_run": 1,
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.35,
+   "price": 16.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16284900622714": {
@@ -315216,10 +315536,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.51,
    "first_run": 1,
    "first_seen": "2026-11-17T03:44:04+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.51,
+   "price": 13.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16284924608890": {
@@ -315227,10 +315549,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 28.78,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 28.78,
+   "price": 23.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285089235322": {
@@ -315238,10 +315562,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.77,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.77,
+   "price": 15.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285306159482": {
@@ -315249,10 +315575,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.95,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.95,
+   "price": 15.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285307601274": {
@@ -315260,10 +315588,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.44,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.44,
+   "price": 17.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285308780922": {
@@ -315271,10 +315601,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285373464954": {
@@ -315282,10 +315614,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285374742906": {
@@ -315293,10 +315627,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285385654650": {
@@ -315304,10 +315640,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285386408314": {
@@ -315315,10 +315653,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.9,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.9,
+   "price": 15.1,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285393027450": {
@@ -315326,10 +315666,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.18,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.18,
+   "price": 18.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285393387898": {
@@ -315337,10 +315679,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285393453434": {
@@ -315348,10 +315692,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285437854074": {
@@ -315359,10 +315705,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-17T12:33:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285502177658": {
@@ -315370,10 +315718,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.16,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.16,
+   "price": 17.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285745807738": {
@@ -315381,10 +315731,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.18,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.18,
+   "price": 14.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285807247738": {
@@ -315392,10 +315744,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.71,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.71,
+   "price": 18.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285837689210": {
@@ -315403,19 +315757,23 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 9.95,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 9.95,
+   "price": 7.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285840048506": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.44,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.44,
+   "price": 17.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285840769402": {
@@ -315423,10 +315781,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 36.95,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 36.95,
+   "price": 29.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285899194746": {
@@ -315434,10 +315794,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.12,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.12,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285940973946": {
@@ -315445,10 +315807,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 11.76,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 11.76,
+   "price": 9.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285942055290": {
@@ -315456,10 +315820,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 38.17,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 38.17,
+   "price": 30.5,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285942120826": {
@@ -315467,10 +315833,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.9,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.9,
+   "price": 18.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16285942743418": {
@@ -315478,10 +315846,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.18,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.18,
+   "price": 18.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286025679226": {
@@ -315489,10 +315859,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.83,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.83,
+   "price": 17.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286033478010": {
@@ -315500,10 +315872,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.12,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.12,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286074569082": {
@@ -315511,10 +315885,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.9,
    "first_run": 1,
    "first_seen": "2026-11-17T21:18:41+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.9,
+   "price": 15.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286174937466": {
@@ -315522,10 +315898,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.51,
    "first_run": 1,
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.51,
+   "price": 14.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286373970298": {
@@ -315533,10 +315911,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.1,
    "first_run": 1,
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.1,
+   "price": 12.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286374232442": {
@@ -315557,10 +315937,12 @@
    "colours": [
     "Yellow"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286422532474": {
@@ -315568,10 +315950,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.7,
    "first_run": 1,
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.7,
+   "price": 16.5,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286422794618": {
@@ -315579,19 +315963,23 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 9.82,
    "first_run": 1,
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 9.82,
+   "price": 7.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286422827386": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286423056762": {
@@ -315599,10 +315987,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286467686778": {
@@ -315610,10 +316000,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-18T02:58:10+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286480433530": {
@@ -315621,10 +316013,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286483546490": {
@@ -315632,10 +316026,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 49.95,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 49.95,
+   "price": 39.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286483939706": {
@@ -315643,10 +316039,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 14.45,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 14.45,
+   "price": 11.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286557733242": {
@@ -315654,10 +316052,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286567235962": {
@@ -315665,10 +316065,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286567301498": {
@@ -315676,10 +316078,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.78,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.78,
+   "price": 12.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286572282234": {
@@ -315687,10 +316091,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.09,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.09,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286573396346": {
@@ -315698,10 +316104,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.77,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.77,
+   "price": 15.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286573560186": {
@@ -315709,10 +316117,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286582538618": {
@@ -315720,10 +316130,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.09,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.09,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286586831226": {
@@ -315731,10 +316143,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.7,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.7,
+   "price": 17.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286630740346": {
@@ -315742,10 +316156,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.83,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.83,
+   "price": 16.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286657249658": {
@@ -315753,10 +316169,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 12.48,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 12.48,
+   "price": 9.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286657610106": {
@@ -315764,10 +316182,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.95,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.95,
+   "price": 15.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286663246202": {
@@ -315775,10 +316195,12 @@
    "colours": [
     "Yellow"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.28,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.28,
+   "price": 15.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286688018810": {
@@ -315786,10 +316208,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286732943738": {
@@ -315797,10 +316221,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.69,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.69,
+   "price": 14.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286732976506": {
@@ -315808,10 +316234,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 38.17,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 38.17,
+   "price": 30.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286749360506": {
@@ -315819,10 +316247,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 35.17,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 35.17,
+   "price": 28.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286749852026": {
@@ -315830,10 +316260,12 @@
    "colours": [
     "Yellow"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-18T11:29:54+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286760567162": {
@@ -315841,10 +316273,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.77,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.77,
+   "price": 15.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286761091450": {
@@ -315852,10 +316286,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.09,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.09,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286770332026": {
@@ -315863,10 +316299,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.95,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.95,
+   "price": 15.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286781604218": {
@@ -315874,10 +316312,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.95,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.95,
+   "price": 15.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286781702522": {
@@ -315885,10 +316325,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.6,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.6,
+   "price": 18.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286806835578": {
@@ -315896,10 +316338,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 38.95,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 38.95,
+   "price": 31.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286808539514": {
@@ -315907,10 +316351,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 46.95,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 46.95,
+   "price": 37.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286816862586": {
@@ -315918,10 +316364,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.86,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.86,
+   "price": 18.2,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286818664826": {
@@ -315929,10 +316377,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.12,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.12,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286832296314": {
@@ -315940,10 +316390,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.35,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.35,
+   "price": 14.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286834033018": {
@@ -315951,10 +316403,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.77,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.77,
+   "price": 15.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286973100410": {
@@ -315962,10 +316416,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.43,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.43,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286975558010": {
@@ -315973,10 +316429,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.6,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.6,
+   "price": 16.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16286976770426": {
@@ -315984,10 +316442,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 32.61,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 32.61,
+   "price": 26.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287073108346": {
@@ -315995,10 +316455,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.35,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.35,
+   "price": 16.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287183962490": {
@@ -316006,10 +316468,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.68,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.68,
+   "price": 16.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287268831610": {
@@ -316017,10 +316481,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.95,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.95,
+   "price": 15.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287271092602": {
@@ -316028,10 +316494,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 14.51,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 14.51,
+   "price": 11.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287397806458": {
@@ -316039,10 +316507,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.28,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.28,
+   "price": 13.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287399149946": {
@@ -316050,10 +316520,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.09,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.09,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287481332090": {
@@ -316061,10 +316533,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.27,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.27,
+   "price": 17.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287487328634": {
@@ -316072,10 +316546,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.16,
    "first_run": 1,
    "first_seen": "2026-11-18T19:33:57+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.16,
+   "price": 17.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287522161018": {
@@ -316083,10 +316559,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 14.51,
    "first_run": 1,
    "first_seen": "2026-11-19T03:35:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 14.51,
+   "price": 11.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287527272826": {
@@ -316107,10 +316585,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.35,
    "first_run": 1,
    "first_seen": "2026-11-19T03:35:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.35,
+   "price": 16.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287554994554": {
@@ -316118,10 +316598,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.68,
    "first_run": 1,
    "first_seen": "2026-11-19T03:35:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.68,
+   "price": 18.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287560565114": {
@@ -316129,10 +316611,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.13,
    "first_run": 1,
    "first_seen": "2026-11-19T03:35:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.13,
+   "price": 16.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287562858874": {
@@ -316140,10 +316624,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.12,
    "first_run": 1,
    "first_seen": "2026-11-19T03:35:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.12,
+   "price": 14.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287567315322": {
@@ -316151,10 +316637,12 @@
    "colours": [
     "Purple"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.13,
    "first_run": 1,
    "first_seen": "2026-11-19T03:35:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.13,
+   "price": 16.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287578128762": {
@@ -316162,10 +316650,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.13,
    "first_run": 1,
    "first_seen": "2026-11-19T03:35:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.13,
+   "price": 16.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287585763706": {
@@ -316173,10 +316663,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.68,
    "first_run": 1,
    "first_seen": "2026-11-19T03:35:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.68,
+   "price": 16.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287588057466": {
@@ -316184,10 +316676,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.13,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.13,
+   "price": 16.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287588417914": {
@@ -316195,10 +316689,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.68,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.68,
+   "price": 16.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287597330810": {
@@ -316206,10 +316702,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.05,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.05,
+   "price": 12.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287606440314": {
@@ -316217,10 +316715,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287614435706": {
@@ -316228,10 +316728,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287623676282": {
@@ -316239,10 +316741,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287624462714": {
@@ -316250,10 +316754,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.03,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.03,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287637537146": {
@@ -316261,10 +316767,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287638225274": {
@@ -316272,10 +316780,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.09,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.09,
+   "price": 18.4,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287638258042": {
@@ -316283,10 +316793,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287638454650": {
@@ -316294,10 +316806,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287646187898": {
@@ -316305,10 +316819,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.14,
    "first_run": 1,
    "first_seen": "2026-11-19T09:28:12+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.14,
+   "price": 17.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287660671354": {
@@ -316316,10 +316832,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.14,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.14,
+   "price": 17.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287687606650": {
@@ -316327,10 +316845,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.86,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.86,
+   "price": 18.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287706481018": {
@@ -316338,10 +316858,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.95,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.95,
+   "price": 13.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287732793722": {
@@ -316349,10 +316871,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.95,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.95,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287733318010": {
@@ -316360,10 +316884,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.55,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.55,
+   "price": 14.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287734169978": {
@@ -316371,10 +316897,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287746228602": {
@@ -316383,10 +316911,12 @@
     "Green",
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 63.99,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 63.99,
+   "price": 51.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287816876410": {
@@ -316394,10 +316924,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 14.48,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 14.48,
+   "price": 11.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287830835578": {
@@ -316405,10 +316937,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287838601594": {
@@ -316416,10 +316950,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287855280506": {
@@ -316427,10 +316963,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.09,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.09,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287864783226": {
@@ -316438,10 +316976,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.09,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.09,
+   "price": 18.4,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287900008826": {
@@ -316449,10 +316989,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.16,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.16,
+   "price": 17.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287942476154": {
@@ -316460,10 +317002,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.16,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.16,
+   "price": 16.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16287956631930": {
@@ -316471,10 +317015,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.13,
    "first_run": 1,
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.13,
+   "price": 13.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288031605114": {
@@ -316482,10 +317028,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 13.58,
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 13.58,
+   "price": 10.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288032162170": {
@@ -316493,10 +317041,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.88,
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.88,
+   "price": 19.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288038617466": {
@@ -316504,10 +317054,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 699.95,
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 699.95,
+   "price": 559.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288048316794": {
@@ -316515,10 +317067,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 29.95,
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 29.95,
+   "price": 23.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288048447866": {
@@ -316526,10 +317080,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.35,
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.35,
+   "price": 16.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288072466810": {
@@ -316537,10 +317093,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.13,
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.13,
+   "price": 16.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288073613690": {
@@ -316548,10 +317106,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.68,
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.68,
+   "price": 16.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288091144570": {
@@ -316559,10 +317119,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.95,
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.95,
+   "price": 14.3,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288093110650": {
@@ -316570,10 +317132,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.13,
    "first_run": 1,
    "first_seen": "2026-11-20T01:00:19+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.13,
+   "price": 16.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288099008890": {
@@ -316594,10 +317158,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.45,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.45,
+   "price": 13.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288104939898": {
@@ -316605,10 +317171,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 13.85,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 13.85,
+   "price": 11.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288105103738": {
@@ -316616,10 +317184,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 14.48,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 14.48,
+   "price": 11.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288108544378": {
@@ -316627,10 +317197,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288110248314": {
@@ -316638,10 +317210,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.71,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.71,
+   "price": 15.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288113492346": {
@@ -316649,19 +317223,23 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.05,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.05,
+   "price": 17.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288113688954": {
    "category": "Tops",
    "colours": [],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.95,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.95,
+   "price": 15.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288114082170": {
@@ -316669,10 +317247,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 14.72,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 14.72,
+   "price": 11.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288114377082": {
@@ -316680,10 +317260,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288116605306": {
@@ -316691,10 +317273,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 12.66,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 12.66,
+   "price": 10.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288118997370": {
@@ -316702,10 +317286,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288125256058": {
@@ -316726,10 +317312,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.88,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.88,
+   "price": 19.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288132497786": {
@@ -316737,10 +317325,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.28,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.28,
+   "price": 14.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288137970042": {
@@ -316748,10 +317338,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 32.61,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 32.61,
+   "price": 26.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288144916858": {
@@ -316759,10 +317351,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.28,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.28,
+   "price": 17.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288145277306": {
@@ -316770,10 +317364,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288145539450": {
@@ -316781,10 +317377,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288146293114": {
@@ -316792,10 +317390,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.49,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.49,
+   "price": 17.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288161923450": {
@@ -316816,10 +317416,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.69,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.69,
+   "price": 14.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288169197946": {
@@ -316827,10 +317429,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.05,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.05,
+   "price": 12.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288170148218": {
@@ -316838,10 +317442,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-20T08:26:40+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288198197626": {
@@ -316849,10 +317455,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.28,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.28,
+   "price": 17.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288263274874": {
@@ -316860,10 +317468,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288297779578": {
@@ -316871,10 +317481,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 32.61,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 32.61,
+   "price": 26.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288298566010": {
@@ -316882,10 +317494,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.71,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.71,
+   "price": 17.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288298631546": {
@@ -316893,10 +317507,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.44,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.44,
+   "price": 17.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288298828154": {
@@ -316904,10 +317520,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288299155834": {
@@ -316915,10 +317533,12 @@
    "colours": [
     "Yellow"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.28,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.28,
+   "price": 17.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288300171642": {
@@ -316926,10 +317546,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.83,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.83,
+   "price": 17.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288723403130": {
@@ -316937,10 +317559,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.84,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.84,
+   "price": 19.0,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288812564858": {
@@ -316948,10 +317572,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.28,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.28,
+   "price": 17.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16288817643898": {
@@ -316959,10 +317585,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.51,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.51,
+   "price": 13.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289059733882": {
@@ -316970,10 +317598,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.28,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.28,
+   "price": 17.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289163084154": {
@@ -316981,10 +317611,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.35,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.35,
+   "price": 16.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289252147578": {
@@ -316992,10 +317624,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 13.91,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 13.91,
+   "price": 11.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289253261690": {
@@ -317003,10 +317637,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.66,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.66,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289285079418": {
@@ -317014,10 +317650,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.77,
    "first_run": 1,
    "first_seen": "2026-11-20T17:26:25+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.77,
+   "price": 15.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289307656570": {
@@ -317025,10 +317663,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.78,
    "first_run": 1,
    "first_seen": "2026-11-20T23:11:36+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.78,
+   "price": 16.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289445839226": {
@@ -317036,10 +317676,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.83,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.83,
+   "price": 17.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289445904762": {
@@ -317047,10 +317689,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.7,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.7,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289463730554": {
@@ -317058,10 +317702,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.7,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.7,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289463796090": {
@@ -317069,10 +317715,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289465205114": {
@@ -317080,10 +317728,12 @@
    "colours": [
     "Purple"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.86,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.86,
+   "price": 18.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289465270650": {
@@ -317091,10 +317741,12 @@
    "colours": [
     "Yellow"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289478836602": {
@@ -317102,10 +317754,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.78,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.78,
+   "price": 16.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289484276090": {
@@ -317113,10 +317767,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289494892922": {
@@ -317124,10 +317780,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.7,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.7,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289495318906": {
@@ -317135,10 +317793,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.95,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.95,
+   "price": 18.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289496039802": {
@@ -317146,10 +317806,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.68,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.68,
+   "price": 16.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289496269178": {
@@ -317170,10 +317832,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289506820474": {
@@ -317181,10 +317845,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289506886010": {
@@ -317192,19 +317858,23 @@
    "colours": [
     "Yellow"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289507082618": {
    "category": "Dresses",
    "colours": [],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.6,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.6,
+   "price": 18.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289515897210": {
@@ -317212,21 +317882,25 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.9,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.9,
-   "sold": false
+   "price": 18.3,
+   "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289516355962": {
    "category": "Tops",
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 13.72,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 13.72,
+   "price": 10.9,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289516847482": {
@@ -317234,10 +317908,12 @@
    "colours": [
     "White"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.12,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.12,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289516913018": {
@@ -317245,10 +317921,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.71,
    "first_run": 1,
    "first_seen": "2026-11-21T04:03:34+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.71,
+   "price": 18.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289519993210": {
@@ -317256,10 +317934,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.65,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.65,
+   "price": 14.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289520714106": {
@@ -317267,10 +317947,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 13.45,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 13.45,
+   "price": 10.7,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289520746874": {
@@ -317278,10 +317960,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289520910714": {
@@ -317289,10 +317973,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 48.95,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 48.95,
+   "price": 39.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289523237242": {
@@ -317300,10 +317986,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.6,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.6,
+   "price": 18.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289527234938": {
@@ -317311,10 +317999,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289535230330": {
@@ -317322,10 +318012,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.49,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.49,
+   "price": 13.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289535361402": {
@@ -317333,10 +318025,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.71,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.71,
+   "price": 17.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289555906938": {
@@ -317344,10 +318038,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.43,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.43,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289564197242": {
@@ -317355,10 +318051,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.6,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.6,
+   "price": 18.8,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289567670650": {
@@ -317366,10 +318064,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.88,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.88,
+   "price": 18.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289575502202": {
@@ -317377,10 +318077,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 19.55,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 19.55,
+   "price": 15.6,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289597161850": {
@@ -317388,10 +318090,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.0,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.0,
+   "price": 16.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289608991098": {
@@ -317399,10 +318103,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 34.93,
    "first_run": 1,
    "first_seen": "2026-11-21T12:32:14+00:00",
    "last_seen": "2026-11-24",
-   "price": 34.93,
+   "price": 27.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289747272058": {
@@ -317410,10 +318116,12 @@
    "colours": [
     "Green"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.49,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.49,
+   "price": 13.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289787216250": {
@@ -317421,10 +318129,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.51,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.51,
+   "price": 13.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289804648826": {
@@ -317432,10 +318142,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.69,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.69,
+   "price": 14.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289805042042": {
@@ -317443,10 +318155,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.7,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.7,
+   "price": 17.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289826996602": {
@@ -317454,10 +318168,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289841054074": {
@@ -317465,10 +318181,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 16.29,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 16.29,
+   "price": 13.0,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289841217914": {
@@ -317476,10 +318194,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.69,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.69,
+   "price": 14.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289851965818": {
@@ -317487,10 +318207,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 20.26,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 20.26,
+   "price": 16.2,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289851998586": {
@@ -317498,10 +318220,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.09,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.09,
+   "price": 18.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289859174778": {
@@ -317509,10 +318233,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.69,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.69,
+   "price": 14.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289863106938": {
@@ -317520,10 +318246,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.48,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.48,
+   "price": 12.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289863860602": {
@@ -317531,10 +318259,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289864024442": {
@@ -317542,10 +318272,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.89,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.89,
+   "price": 17.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289870053754": {
@@ -317553,10 +318285,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289870414202": {
@@ -317564,10 +318298,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 21.83,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 21.83,
+   "price": 17.4,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289870446970": {
@@ -317575,10 +318311,12 @@
    "colours": [
     "Grey"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289870512506": {
@@ -317586,10 +318324,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 15.72,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 15.72,
+   "price": 12.5,
    "sold": true
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289870938490": {
@@ -317597,10 +318337,12 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 38.95,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 38.95,
+   "price": 31.1,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289878245754": {
@@ -317608,10 +318350,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 18.69,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 18.69,
+   "price": 14.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289878737274": {
@@ -317619,10 +318363,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.49,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.49,
+   "price": 13.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289879196026": {
@@ -317630,10 +318376,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 17.49,
    "first_run": 1,
    "first_seen": "2026-11-21T19:45:05+00:00",
    "last_seen": "2026-11-24",
-   "price": 17.49,
+   "price": 13.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289886634362": {
@@ -317641,10 +318389,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 22.95,
    "first_run": 1,
    "first_seen": "2026-11-21T23:58:15+00:00",
    "last_seen": "2026-11-24",
-   "price": 22.95,
+   "price": 18.3,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289886667130": {
@@ -317652,10 +318402,12 @@
    "colours": [
     "Blue"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 23.68,
    "first_run": 1,
    "first_seen": "2026-11-21T23:58:15+00:00",
    "last_seen": "2026-11-24",
-   "price": 23.68,
+   "price": 18.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289893384570": {
@@ -317663,10 +318415,12 @@
    "colours": [
     "Red"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 34.95,
    "first_run": 1,
    "first_seen": "2026-11-21T23:58:15+00:00",
    "last_seen": "2026-11-24",
-   "price": 34.95,
+   "price": 27.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289893876090": {
@@ -317674,10 +318428,12 @@
    "colours": [
     "Brown"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 34.95,
    "first_run": 1,
    "first_seen": "2026-11-21T23:58:15+00:00",
    "last_seen": "2026-11-24",
-   "price": 34.95,
+   "price": 27.9,
    "sold": false
   },
   "ralph|Messina Hembry|https://messinahembry.com/products/16289894367610": {
@@ -317924,6 +318680,268 @@
    "price": 15.72,
    "sold": false
   },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291535749498": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 19.95,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291543187834": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 21.28,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291546759546": {
+   "category": "Dresses",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 23.6,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291553935738": {
+   "category": "Outerwear",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 43.84,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291569205626": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 32.78,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291569533306": {
+   "category": "Tops",
+   "colours": [
+    "White"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 20.78,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291570057594": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 20.78,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291604922746": {
+   "category": "Dresses",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 23.12,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291696542074": {
+   "category": "Tops",
+   "colours": [
+    "Yellow"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 20.78,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291697688954": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 22.9,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291698114938": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 20.68,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291698901370": {
+   "category": "Tops",
+   "colours": [],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 21.13,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291735961978": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 15.43,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291736715642": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 15.72,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291789209978": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 39.95,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291824140666": {
+   "category": "Tops",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 21.13,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291824828794": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 15.72,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291826172282": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 15.78,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291880731002": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 28.64,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291895279994": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 37.95,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291920085370": {
+   "category": "Bottoms",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 15.27,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291937747322": {
+   "category": "Tops",
+   "colours": [
+    "Red"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 16.11,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291937780090": {
+   "category": "Tops",
+   "colours": [
+    "Blue"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 13.85,
+   "sold": false
+  },
+  "ralph|Messina Hembry|https://messinahembry.com/products/16291950625146": {
+   "category": "Dresses",
+   "colours": [
+    "Grey"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 19.68,
+   "sold": false
+  },
   "ralph|Michael's|https://michaelsconsignment.com/products/10326755475631": {
    "category": "Dresses",
    "colours": [
@@ -318137,7 +319155,7 @@
    "first_seen": "2026-09-25T03:16:48+00:00",
    "last_seen": "2026-11-24",
    "price": 106.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Planet Vintage|https://planetvintage.store/products/15396679221401": {
    "category": "Tops",
@@ -320184,7 +321202,7 @@
    "first_seen": "2026-09-18T03:41:19+00:00",
    "last_seen": "2026-11-24",
    "price": 116.0,
-   "sold": false
+   "sold": true
   },
   "ralph|Planet Vintage|https://planetvintage.store/products/8971275468953": {
    "category": "Tops",
@@ -323874,7 +324892,7 @@
    "first_seen": "2026-09-24T09:57:10+00:00",
    "last_seen": "2026-11-24",
    "price": 34.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16347742634371": {
    "category": "Tops",
@@ -340525,7 +341543,7 @@
    "first_seen": "2026-11-19T18:40:27+00:00",
    "last_seen": "2026-11-24",
    "price": 31.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16445819814275": {
    "category": "Tops",
@@ -344201,7 +345219,7 @@
    "first_seen": "2026-11-23T21:44:18+00:00",
    "last_seen": "2026-11-24",
    "price": 59.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16449494942083": {
    "category": "Tops",
@@ -344498,7 +345516,7 @@
    "first_seen": "2026-11-23T21:44:18+00:00",
    "last_seen": "2026-11-24",
    "price": 59.99,
-   "sold": false
+   "sold": true
   },
   "ralph|Thrifted|https://www.thrifted.com/products/16449505493379": {
    "category": "Outerwear",
@@ -385809,7 +386827,7 @@
    "first_seen": "2026-04-20T03:26:35+00:00",
    "last_seen": "2026-11-24",
    "price": 975.0,
-   "sold": true
+   "sold": false
   },
   "rick|Luxury Box ATL|https://luxuryboxatl.com/products/9160598225036": {
    "category": "Footwear",
@@ -391584,6 +392602,17 @@
    "first_seen": "2026-10-12T13:49:23+00:00",
    "last_seen": "2026-11-24",
    "price": 3250.0,
+   "sold": false
+  },
+  "rick|Recollected|https://recollectedsweden.com/products/11173742084434": {
+   "category": "Outerwear",
+   "colours": [
+    "Green"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 10000.0,
    "sold": false
   },
   "rick|Recollected|https://recollectedsweden.com/products/11337238675794": {
@@ -427351,6 +428380,17 @@
    "price": 4200.0,
    "sold": false
   },
+  "yohji|Bee, Bark & Moss|https://beebarkandmoss.com/products/16291990602031": {
+   "category": "Outerwear",
+   "colours": [
+    "Black"
+   ],
+   "first_run": 1,
+   "first_seen": "2026-11-24T16:31:16+00:00",
+   "last_seen": "2026-11-24",
+   "price": 750.0,
+   "sold": false
+  },
   "yohji|Bohème Vintage|https://bohemevintage.com/products/6110770036924": {
    "category": "Bags & accessories",
    "colours": [],
@@ -433482,7 +434522,7 @@
    "first_seen": "2026-09-24T23:45:19+00:00",
    "last_seen": "2026-11-24",
    "price": 20516.0,
-   "sold": true
+   "sold": false
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9693974757635": {
    "category": "Other",
@@ -433491,7 +434531,7 @@
    "first_seen": "2026-09-26T22:34:59+00:00",
    "last_seen": "2026-11-24",
    "price": 45362.0,
-   "sold": true
+   "sold": false
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9697110360323": {
    "category": "Tops",
@@ -433527,7 +434567,7 @@
    "first_seen": "2026-09-28T22:42:53+00:00",
    "last_seen": "2026-11-24",
    "price": 41999.0,
-   "sold": false
+   "sold": true
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9705221882115": {
    "category": "Footwear",
@@ -433545,7 +434585,7 @@
    "first_seen": "2026-09-30T23:27:57+00:00",
    "last_seen": "2026-11-24",
    "price": 21926.0,
-   "sold": false
+   "sold": true
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9708294734083": {
    "category": "Bags & accessories",
@@ -433563,7 +434603,7 @@
    "first_seen": "2026-10-02T21:46:26+00:00",
    "last_seen": "2026-11-24",
    "price": 41999.0,
-   "sold": false
+   "sold": true
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9713222123779": {
    "category": "Other",
@@ -433599,7 +434639,7 @@
    "first_seen": "2026-10-02T23:54:54+00:00",
    "last_seen": "2026-11-24",
    "price": 103193.0,
-   "sold": false
+   "sold": true
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9714057806083": {
    "category": "Dresses",
@@ -433734,7 +434774,7 @@
    "first_seen": "2026-10-11T11:15:20+00:00",
    "last_seen": "2026-11-24",
    "price": 56537.0,
-   "sold": true
+   "sold": false
   },
   "yohji|Ragtag|https://ragtag-global.com/products/9724374450435": {
    "category": "Bags & accessories",
@@ -439563,23 +440603,25 @@
    "colours": [
     "Black"
    ],
+   "drop_at": "2026-11-24T16:31:16+00:00",
+   "drop_from": 1235.0,
    "first_run": 0,
    "first_seen": "2026-04-03T16:05:35+00:00",
    "last_seen": "2026-11-24",
-   "price": 1235.0,
+   "price": 617.5,
    "sold": false
   }
  },
  "rates": {
-  "AUD": 1.5113,
-  "CAD": 1.4362,
-  "CHF": 0.83975,
-  "EUR": 0.91416,
-  "GBP": 0.76491,
-  "HKD": 7.8409,
+  "AUD": 1.5057,
+  "CAD": 1.4327,
+  "CHF": 0.83764,
+  "EUR": 0.91216,
+  "GBP": 0.76348,
+  "HKD": 7.8418,
   "JPY": 159.07,
-  "NZD": 1.8355,
-  "SEK": 10.2729
+  "NZD": 1.8278,
+  "SEK": 10.2353
  },
  "shop_memo": {
   "2nd Street": {
