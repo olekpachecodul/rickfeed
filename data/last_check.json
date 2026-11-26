@@ -1,13 +1,16 @@
 {
- "checked": "2026-11-25T19:37:45+00:00",
- "seconds": 226,
- "requests": 877,
+ "checked": "2026-11-26T02:29:41+00:00",
+ "seconds": 222,
+ "requests": 995,
  "refused": 0,
  "not_asked": 0,
  "stopped_early": false,
  "busy_shops": [
-  "Japonista"
+  "Japonista",
+  "Shop Status"
  ],
- "unreachable_shops": [],
- "collections": 686
+ "unreachable_shops": [
+  "Shop Status"
+ ],
+ "collections": 687
 }
