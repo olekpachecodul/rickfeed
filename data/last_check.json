@@ -1,16 +1,14 @@
 {
- "checked": "2026-11-27T03:14:06+00:00",
- "seconds": 234,
- "requests": 911,
+ "checked": "2026-11-27T12:47:16+00:00",
+ "seconds": 226,
+ "requests": 891,
  "refused": 0,
  "not_asked": 0,
  "stopped_early": false,
  "busy_shops": [
-  "Groupie",
   "Shop Status"
  ],
  "unreachable_shops": [
-  "Groupie",
   "Shop Status"
  ],
  "collections": 701
