@@ -1,7 +1,7 @@
 {
- "checked": "2026-11-27T21:41:17+00:00",
+ "checked": "2026-11-28T03:35:39+00:00",
  "seconds": 229,
- "requests": 894,
+ "requests": 1012,
  "refused": 0,
  "not_asked": 0,
  "stopped_early": false,
@@ -11,5 +11,5 @@
  "unreachable_shops": [
   "Shop Status"
  ],
- "collections": 701
+ "collections": 702
 }
