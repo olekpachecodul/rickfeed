@@ -1,15 +1,11 @@
 {
- "checked": "2026-11-28T03:35:39+00:00",
- "seconds": 229,
- "requests": 1012,
+ "checked": "2026-11-28T12:20:07+00:00",
+ "seconds": 226,
+ "requests": 894,
  "refused": 0,
  "not_asked": 0,
  "stopped_early": false,
- "busy_shops": [
-  "Shop Status"
- ],
- "unreachable_shops": [
-  "Shop Status"
- ],
+ "busy_shops": [],
+ "unreachable_shops": [],
  "collections": 702
 }
